@@ -24,3 +24,10 @@ config/packetfixer.properties
 crash-reports/crash-2025-11-13_13.12.03-client.txt
 crash-reports/crash-2025-11-13_11.55.54-client.txt
 crash-reports/crash-2025-11-13_11.53.48-client.txt
+config/konkrete/locals/de_de.local
+config/konkrete/locals/en_us.local
+config/konkrete/locals/pl_pl.local
+config/konkrete/locals/pt_br.local
+config/emi.css
+config/fabric/indigo-renderer.properties
+config/ironchests/defaults.properties
