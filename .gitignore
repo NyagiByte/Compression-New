@@ -12,3 +12,12 @@ resourcepacks/Quark Programmer Art.zip
 /tacz_backup
 usercache.json
 usernamecache.json
+.mixin.out/class/net/minecraft/client/renderer/RenderType$CompositeRenderType.class
+icon.png
+options.txt
+fancymenu_data/last_world.fmdata
+emi.json
+icon.png
+fancymenu_data/last_world.fmdata
+config/oculus.properties
+config/packetfixer.properties
