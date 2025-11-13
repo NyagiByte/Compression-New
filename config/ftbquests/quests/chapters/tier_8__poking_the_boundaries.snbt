@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_8__poking_the_boundaries"
+	group: "6B3B606AC87356A0"
+	icon: "nyagibits_bytes:flake"
+	id: "4DFFC3C2635CAFBA"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["3BEACE9F3F1EC3AA"]
+		description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+		id: "5D6B37C16C80D0DB"
+		size: 2.0d
+		tasks: [{
+			id: "0DF8C76868E4EE83"
+			item: "nyagibits_bytes:flake"
+			type: "item"
+		}]
+		title: "Solidified Spacetime"
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["&cI can hear it humming to me"]
+	title: " &6Tier 8&b - Poking the boundaries"
+}

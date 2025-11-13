@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_14__all_that_toils"
+	group: "6B3B606AC87356A0"
+	icon: "biomancy:living_flesh"
+	id: "6AA63239A7DE9210"
+	order_index: 14
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["3BEACE9F3F1EC3AA"]
+		description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+		id: "6424C8F4C56760F0"
+		size: 5.0d
+		tasks: [{
+			id: "3CC90EA38E240027"
+			item: "ftbquests:missing_item"
+			type: "item"
+		}]
+		title: "&c[NNNLL NFFFOO]"
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["Mangled flesh, Mangled space"]
+	title: " &6Tier 14&b - All that toils..."
+}

@@ -1,0 +1,1838 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6tier_0"
+	group: "1C682695BB4A0B06"
+	icon: "ae2:energy_acceptor"
+	id: "3132E1AF7B578CC7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["20D167D82EF73539"]
+			description: ["No video provided for this one. TNT is inaccessable in &6Tier 0&r, &da more natural source of combustion is needed"]
+			icon: "minecraft:creeper_head"
+			id: "697E50D684D5A997"
+			tasks: [{
+				id: "27B6F8DB912C23DB"
+				title: "The Compressed Iron Puzzle"
+				type: "checkmark"
+			}]
+			title: "The Compressed Iron Puzzle"
+			x: -0.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["1D8A454B0BE4AF89"]
+			description: ["As a note, the tutorials won't go over how to do create automations that the internal ponder system is able to show. These tabs are for pack specific choke points"]
+			icon: "create:goggles"
+			id: "18F5C12EAF8B07CB"
+			tasks: [{
+				id: "70AF4FB1D571ED33"
+				title: "[W] To Ponder!"
+				type: "checkmark"
+			}]
+			title: "[W] To Ponder!"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"20D167D82EF73539"
+				"697E50D684D5A997"
+			]
+			description: [""]
+			hide_dependency_lines: false
+			icon: "create:blaze_burner"
+			id: "789821A8D7342A72"
+			tasks: [{
+				id: "464DA84D619E20F7"
+				title: "Amazon box delivery chain"
+				type: "checkmark"
+			}]
+			title: "Amazon box delivery chain"
+			x: 0.5d
+			y: 17.5d
+		}
+		{
+			description: [
+				"This tab of quests excluding the &eProficiency&r line, is designed to really get into the weeds with the main &d\"Path To Null\"&r quest line. These quests are entirely ignorable if you are experienced or are willing to scramble your brains a bit &bbut for anyone feeling lost or unsure how to progress&a this is for you!&r"
+				""
+				"No berries will be rewarded &b(outside of more key points)&r but you will be provided with as much context and information as needed. &6Vanilla mechanics will be explained&r, no knowledge assumptions will be made."
+				""
+				"Eventually ponders will be created for most things to reduce reliance on tabbing into the quest book but that is an ongoing project"
+				""
+				"&cThis set of quests also breaks from the story driven nature of the main line, including intentional misdirection. &4If you wish to avoid these quests&c, only the introductory quest for each respective tier will have a berry to claim. You have been warned"
+			]
+			icon: "botania:white_shiny_flower"
+			id: "12057422FF5BBB46"
+			rewards: [{
+				id: "13A0AF4994FE63FA"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "2A1C0BE6E27EF35F"
+				title: "&bYou got this"
+				type: "checkmark"
+			}]
+			title: "&dThe Tutorial-Tutorial"
+			x: 0.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["18F5C12EAF8B07CB"]
+			description: [
+				"You made your first &ePure Daisy!&r Horray! But it sure is awfully slow.."
+				""
+				"If you find yourself in this situation just remember: the world is &dbig&r, you can simply &bmake more of them&r"
+			]
+			icon: "botania:overgrowth_seed"
+			id: "4BE7C54B1F7E2DBB"
+			tasks: [{
+				id: "34299759064CD574"
+				title: "And also, dont forget, scale!"
+				type: "checkmark"
+			}]
+			title: "Scale Scale Scale!"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10A6343D18D3A913"]
+			description: [
+				"You may be tempted to avoid setting up a tree plot this early on. Do not give in to such temptations in this modpack. Without exception &deverything will be needed at scale&r. Get into the mindset when a &enew material is introduced to the chain&r to look to large scale collection or generation"
+				""
+				"In theme with your first collectable, &6wood&r, it may be worth looking for especially large tree yielding saplings"
+			]
+			icon: "byg:willow_sapling"
+			id: "21625928069FF7FA"
+			tasks: [{
+				id: "1CC98EA7493C4FF2"
+				title: "Or do, I'm not your parent"
+				type: "checkmark"
+			}]
+			title: "Do Not Avoid Farms!"
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"21625928069FF7FA"
+				"10A6343D18D3A913"
+			]
+			description: [
+				"The entire concept of mining for resources in Compression has been &cremoved."
+				""
+				"To satisfy early stone demand it may be worth it to multitask and &eflatten terrain for builds&r while collecting stone"
+			]
+			icon: "minecraft:stone"
+			id: "136DCA2889C96A65"
+			tasks: [{
+				id: "2C20D3562CAEB8D5"
+				title: "If you lawn base i'm stealing your kidneys"
+				type: "checkmark"
+			}]
+			title: "Landscaping Pro"
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"21625928069FF7FA"
+				"7182388FCC361CB0"
+			]
+			description: ["Waiting for sugarcane to grow early game can be rather annoying and soft lock progression on servers. So early game paper just needs bark now! &bI'd recommend doing this in batches of 63 at a time&r"]
+			icon: "farmersdelight:tree_bark"
+			id: "1E28F7EFBEC2EC36"
+			tasks: [{
+				id: "7FA2D464D11AA7F3"
+				title: "haha, thats what a dog says, bark, hah"
+				type: "checkmark"
+			}]
+			title: "Peeling Logs"
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"136DCA2889C96A65"
+				"7182388FCC361CB0"
+			]
+			description: ["Furnace taking forever? Have you considered simply making &dmore&r?"]
+			icon: "minecraft:furnace"
+			id: "27A36AE6319647D5"
+			tasks: [{
+				id: "70CA2F3BB925A06C"
+				title: "Also dont forget the tree farm for charcoal"
+				type: "checkmark"
+			}]
+			title: "Supa' Smelter"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1E28F7EFBEC2EC36"]
+			description: ["Paper demand at this point is extremely low and only needed for sand paper. &bA stack or two of paper should last very comfortably up until you can automate it"]
+			icon: "minecraft:paper"
+			id: "0DBAF3F8573D1C7D"
+			tasks: [{
+				id: "707FE4FA1714CEDD"
+				title: "Fold it into a paper plane, no wait dont throw it at those two-"
+				type: "checkmark"
+			}]
+			title: "Technically Edible"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["27A36AE6319647D5"]
+			description: ["Living rock needs twice smelted cobble? Guess it's time to twice up your furnaces and twice up your cobble ;)"]
+			icon: "minecraft:smooth_stone"
+			id: "036E9DF57584653C"
+			tasks: [{
+				id: "1743F4C83B6774BC"
+				title: "Just make like, a lot at once ok?"
+				type: "checkmark"
+			}]
+			title: "If you do a lot at once, it sucks less"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["036E9DF57584653C"]
+			description: [
+				"Finally! You can move those misplaced furnaces you slapped down in a hurry"
+				""
+				"Oh and I guess you can finally scout for an &dIron Boulder&r as there are no ores underground"
+			]
+			icon: {
+				Count: 1b
+				id: "aiotbotania:livingrock_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "343ECB22C2C6AB2E"
+			tasks: [{
+				id: "59436FD66E9D1A44"
+				title: "Oh yeah only botania tools"
+				type: "checkmark"
+			}]
+			title: "Chipping Away"
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1800AA593EB0F020"]
+			description: [
+				"Your first beautiful aiot"
+				""
+				"Now, before you scurry off and use it until failure &ait is recommended to use this tool to help you stock up a few more tools&r, just in case yaknow"
+				""
+				"&dShift Right-click to change modes"
+			]
+			icon: {
+				Count: 1b
+				id: "aiotbotania:livingrock_aiot"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "02B7D7FBFBAF0412"
+			tasks: [{
+				id: "55EB901377A47920"
+				title: "This shit look like the battle pass"
+				type: "checkmark"
+			}]
+			title: "You will use this for a while"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0DBAF3F8573D1C7D"]
+			description: ["By placing an item in hand and &dsand paper&r in the other hand you can well.. sand (verb) the item"]
+			icon: {
+				Count: 1b
+				id: "create:sand_paper"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "342544B909351001"
+			tasks: [{
+				id: "2445212A48348148"
+				title: "Sanding blocks really messes up the animation lmao"
+				type: "checkmark"
+			}]
+			title: "Omnomnom- wait no thats not.."
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["342544B909351001"]
+			description: ["A singular sand paper is able to yield about &e32&r polished stones. I'd recommend making &ba stack or two&r of &dPolished Livisite&r at a time"]
+			icon: "botania:polished_livingrock"
+			id: "21EBC179B83DE39D"
+			tasks: [{
+				id: "5722504F0BC5FACB"
+				title: "you could probably curling stone this"
+				type: "checkmark"
+			}]
+			title: "1 grit smoothness"
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["343ECB22C2C6AB2E"]
+			description: ["Iron! &cI can't wait for every mod to use 7 trillion of it"]
+			icon: "minecraft:iron_ingot"
+			id: "1800AA593EB0F020"
+			tasks: [{
+				id: "33ED2F956DA3DD2B"
+				title: "A star killer.."
+				type: "checkmark"
+			}]
+			title: "The most stable element"
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"21EBC179B83DE39D"
+				"02B7D7FBFBAF0412"
+				"1800AA593EB0F020"
+			]
+			description: [
+				"&bEtched Living Wood!&r While the raw components are very cheap it is rather microcrafty. To aid in early game progression it is recommended that these are made in &ebulk&r and the components made in &ebulk&r. &aWhat is \"in bulk?\"&r, basically instead of crafting enough for 1 item, you craft enough for a stack to have on hand"
+				""
+				"If you are looking to speedrun towards &d24 mechanical assemblers&r &e(being the bare minimum to manually use)&r, that will require &b14 etched living wood&r assuming &czero infrastructure or automation&r so it would be smart to aim for about a stack especially considering how useful &agearboxes&r are"
+			]
+			icon: "nyagibits_bytes:etched_living_wood"
+			id: "07342BD3CA400AA9"
+			tasks: [{
+				id: "0B188CF97EFAF1A3"
+				title: "Wood, but uh, woodier"
+				type: "checkmark"
+			}]
+			title: "Gonna need a lot of these"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["07342BD3CA400AA9"]
+			description: ["The All Powerful &bAndesite Casing&r. This can make all sorts of machines to begin your automation journey. Also like 80% of these will become &egear boxes&r so just get mentally ready for that"]
+			icon: "create:andesite_casing"
+			id: "1D8A454B0BE4AF89"
+			tasks: [{
+				id: "4B62995520C52A92"
+				title: "I'm not joking about the gearboxes"
+				type: "checkmark"
+			}]
+			title: "Your Factory's Bones"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3E7BB1B6448D05B6"]
+			description: [
+				"The neat (mod by vazkii) thing about create machines is that how you input the rotation is visible on the machine itself."
+				""
+				"For the &bmechanical press&r you can see the sides resemble that of a &eshaft&r meaning connecting a shaft here will run the machine."
+				""
+				"The &bmechanical press&r itself once given rotation, will perform a craft by squashing whatever is below it given it's a valid item (if it exists as a recipe). Sometimes a &abasin&r is needed for the craft. For non basin crafts a &adepot&r can hold the items in place so you don't have to worry about them despawning if you forget"
+				""
+				"As a side note you may notice both sides of the shaft within the machine rotate, this is a key feature in compacting setups as &dmost machines can pass rotation through themselves in some way&r, just need to pay attention to how they look visually."
+			]
+			icon: "create:mechanical_press"
+			id: "05C0FBBDDC62201D"
+			tasks: [{
+				id: "283C706FF609A978"
+				title: "Comes with a liveleak watermark"
+				type: "checkmark"
+			}]
+			title: "No Safety Training Video Needed"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["05C0FBBDDC62201D"]
+			description: [
+				"A Bucket! I don't think I need to explain this one cause you are smart, I believe in you"
+				""
+				"Oh and I guess now is a good time to move that &awater wheel&r to a better spot"
+			]
+			icon: "minecraft:bucket"
+			id: "52DEE1B4C6CC1A19"
+			tasks: [{
+				id: "3F04A8A215AEB90B"
+				title: "Dear God.. There's More... Noooo"
+				type: "checkmark"
+			}]
+			title: "This... Is a Bucket"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["52DEE1B4C6CC1A19"]
+			description: [
+				"Dripstone? What for?"
+				""
+				"Well &cLava&r is needed for automatic production of &aAndesite&r and dripstone is able to get you a fairly free source of lava!"
+				""
+				"How? It's Simple!"
+				""
+				"Simply follow this design:"
+				"&c[L]&r - Lava Source Block"
+				"&6[D]&r - Dripstone Block"
+				"&e[d]&r - Pointed Dripstone"
+				"[a] - Air Gap"
+				"&b[C] - Cauldron"
+				""
+				"From here you can use &dmechanical pipes&r from create to pull the lava into a tank."
+				"A setup of about 20-40 cauldrons is sufficient to comfortably get through Tier 0 "
+			]
+			icon: "minecraft:dripstone_block"
+			id: "74717735BC45A113"
+			tasks: [{
+				id: "6F8A948EEDB18F19"
+				title: "Finding these can take a bit, mark ore boulders on the way"
+				type: "checkmark"
+			}]
+			title: "Dripped Tf Out"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E61C014A48DD33A"]
+			description: [
+				"Finally you are free from the shackles of peasantry manually mining cobblestone. The industrial revolution is upon thee! For you have a &dmechanical drill&r"
+				""
+				"The drill, once supplied with rotation, will &ebreak&r whatever is infront of it!"
+				"The speed of breaking determined by how &btough&r the block is, and how &bfast&r the drill is"
+			]
+			icon: "create:mechanical_drill"
+			id: "6FCB5BABEA5C0B68"
+			tasks: [{
+				id: "19FB7DD9AB8C857B"
+				title: "We'll get to the cluster in no time Δ"
+				type: "checkmark"
+			}]
+			title: "Breaking Blocks, One At A Time"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["05C0FBBDDC62201D"]
+			description: ["Chutes are like hoppers, but way faster straight dowards. They cant output to the side unless you use &afunnels&r or &aa vanilla hopper&r but they do have the upside of being able to send items vertically with the use of an &bencased fan&r. Do Note: &dThe direction the fan spins matters so double check the fan is pushing instead of sucking&r"]
+			icon: "create:chute"
+			id: "6E61C014A48DD33A"
+			tasks: [{
+				id: "4F159802ED0D4F8F"
+				title: "Falling without style"
+				type: "checkmark"
+			}]
+			title: "By The Power Of Gravity"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6FCB5BABEA5C0B68"
+				"74717735BC45A113"
+			]
+			description: [
+				"For anyone that hasn't been graced by the agony of accidentally making obsidian on a skyblock &ehere is a fairly simple setup for a &6cobblestone generator&r that will work:&r"
+				""
+				"&cDo Note:&r The setup written below is to be &bvisualized being vertical&r, 3 blocks tall, so the drill is up top and the hopper is below"
+				""
+				"&c[L] - Lava Source Block&r"
+				"&7[C] - Where the cobblestone forms&r"
+				"&3[W] - Water Source Block&r"
+				"&b[w] - Flowing Water"
+				"&d[D] - Drill"
+				"&a[H] - Chute/Hopper"
+				""
+				"     &d[D]"
+				"&c[L] .&7[C] &b[w]&3[W]"
+				"     &a[H] &b[w]"
+				""
+				"(ignore that period, it was to align the text)"
+			]
+			icon: "minecraft:cobblestone"
+			id: "2E96FA6479D27C27"
+			tasks: [{
+				id: "4E0429AA56BFE6E8"
+				title: "Now just do this forever"
+				type: "checkmark"
+			}]
+			title: "Don't Make Obsidian By Accident"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2E96FA6479D27C27"]
+			description: [
+				"So much cobble flowing in! These furnaces are so slow, and worse, they eat fuel!"
+				""
+				"Good news! This is a &dskill issue&r, and the solution is &bEncased Fans&r!"
+				""
+				"Encased fans can &eentirely replace&r the use of &efurnaces and smokers&r with additional functionality."
+				""
+				"By placing &bWater, &cLava,&r or &6Fire&r directly infront of an encased fan pushing air forward, that gust of wind can &bwash, &cblast,&r or &6smoke&r items dropped in front of it."
+				""
+				"The amount you drop at once does affect the processing times, but the effect is fairly small"
+				""
+				"Much like mechanical presses &adepots&r work here too, but outside of manual use, the &breal automation solution&r is to have one blow over a long belt moving towards it &6slowly&r to ensure the items process"
+			]
+			icon: "create:encased_fan"
+			id: "285BEA3F3B3B139E"
+			tasks: [{
+				id: "78831C9D99160BCF"
+				title: "Make sure it is blowing!"
+				type: "checkmark"
+			}]
+			title: "Smelting But Way Way Better"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["285BEA3F3B3B139E"]
+			description: [
+				"While not as useful as the other options, &bwashing&r offers some early game processing of &dgem-type&r ores before you get access to automatic sanding. It could also serve to make &eclay&r which makes it balanced"
+				""
+				"&6[F] - Encased Fan"
+				"&3[W] - Water"
+				"&7[B] - Non-solid block (slab/sign)"
+				""
+				"&6[F]&3[W]&7[B]&3-->"
+			]
+			icon: "minecraft:water_bucket"
+			id: "5E49A44D84677908"
+			tasks: [{
+				id: "384A468811ECD1E6"
+				title: "Splish Splash I'm Takin' A Bath"
+				type: "checkmark"
+			}]
+			title: "Washing Vigorously "
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["285BEA3F3B3B139E"]
+			description: [
+				"Want to smelt everything at once? Plop down some &clava&r in front of that fan and watch as it makes all of your furnaces absolutely obsolete. Do note: &efood-type items&r will get &4destroyed&r by this."
+				""
+				"Replaces &bBlast Furnace&r recipes"
+				""
+				"&6[F] - Encased Fan"
+				"&c[L] - Lava"
+				"&7[B] - Non-solid block (slab/sign)"
+				""
+				"&6[F]&c[L]&7[B]&c-->"
+			]
+			icon: "minecraft:lava_bucket"
+			id: "16D01481957D30C3"
+			tasks: [{
+				id: "79C3C6E1CEBEA4C3"
+				title: "Splish Spla- OW THATS HOT"
+				type: "checkmark"
+			}]
+			title: "The Ultra Furnace"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["285BEA3F3B3B139E"]
+			description: [
+				"Less usefull than using &clava&r but still as important. Placing &cfire&r in front of the fan allows it to process any &efood-type&r item. And while your stomach may be bottomless, &akelp&r still needs to be processed for machinery"
+				""
+				"Replaces &bSmoker&r recipes"
+				""
+				"&6[F] - Encased Fan"
+				"&c[F] - Fire"
+				"&4[N] - Netherrack"
+				""
+				"&6[F]&c[F]-->"
+				"   &4.[N]"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:flint_and_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4C1E98828193DC20"
+			tasks: [{
+				id: "045B99E423E5691A"
+				title: "Does.. This count as a flame-thrower?"
+				type: "checkmark"
+			}]
+			title: "Doesn't Actually Need Steel"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["16D01481957D30C3"]
+			description: [
+				"&dMechanical Saws&r are rad and important for "
+				"&es t r e t c h i n g&r your resources further!"
+				""
+				"&bLogs&r processed to planks now will yield &d6&r instead of 4"
+				"&bLogs&r can also be auto de-barked &c(but you get no bark)&r"
+				""
+				"&bLivisite processed&r into shafts will now do it at a rate of 1 alloy : &d6 shafts&r instead of 1 : 4"
+				""
+				"Saws can also &achop down entire trees&r when placed on some sort of mechanical contraption! &d[w] To Ponder&r for more info "
+			]
+			icon: "create:mechanical_saw"
+			id: "58FEDD50B927AA01"
+			tasks: [{
+				id: "24ECD0732076BA15"
+				title: "Doctors hate this 1 weird trick to loosing 70 pounds (your legs are gone)"
+				type: "checkmark"
+			}]
+			title: "An Automatic Amputation Advancement!"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["16D01481957D30C3"]
+			description: [
+				"The &dMillstone!&r This small machine is able to grind up various materials into their powders. Some &emetals&r will gain a &bslight increased yield&r from passing them through."
+				""
+				"However the real power this grants at this stage of the game is allowing you to create &agravel&r"
+				""
+				"With automatic gravel you can pass it through once more to gain &aflint&r. With both of these components you are &e2/3rds of the way to a much &6faster&r &eandesite production"
+				""
+				"The &dmillstone&r can also boost the &bdye&r yields of most plants and let you source more crops from &bmixed seeds&r"
+				""
+				"&6Note:&r"
+				"It is worth pointing out the &dquartz rout&r exists once you automate soul sand. It can be just as fast but relies on &cautocrafting&r which isnt available at this stage"
+			]
+			icon: "create:millstone"
+			id: "4181778D139B2C3C"
+			tasks: [{
+				id: "474BC7B82491247E"
+				title: "Why are there so many finger crushing machines"
+				type: "checkmark"
+			}]
+			title: "The Daily Grind"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["16D01481957D30C3"]
+			description: [
+				"The &bMechanical Harvester&r!"
+				""
+				"When placed on a &emoving contraption&r these will collect crops the harvester collides with and automagically replants said crop"
+				""
+				"The most immediately relevant crops to harvest will be &akelp&r and &aindustrial hemp&r but if you are feeling extra ambitious some other relevant crops include &ewheat, cabbage, tomatoes, flax, carrots, and potatoes&r"
+			]
+			icon: "create:mechanical_harvester"
+			id: "1EFBCCBE696089FD"
+			tasks: [{
+				id: "1D654742A42A5381"
+				title: "Stardew Tractor Mod ahh"
+				type: "checkmark"
+			}]
+			title: "The Sumerians Would Of Loved This"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4C1E98828193DC20"]
+			description: [
+				"&aKelp&r yeah no that's it, start farming it."
+				""
+				"Industrial fans with &cfire&r will smoke kelp in bulk"
+			]
+			icon: "minecraft:dried_kelp"
+			id: "5D9FCC6B40A02869"
+			tasks: [{
+				id: "4EF7DBF155582209"
+				title: "Mmmmm Kelp Shake"
+				type: "checkmark"
+			}]
+			title: "Kelpification"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5E49A44D84677908"]
+			description: [
+				"That being said about washing, the astute among you might of noticed a recipe to turn gravel into iron nuggets at a low rate."
+				""
+				"In most other packs this would be somewhat viable for early game, but I will stress that as soon as you get access to &dcrushing wheels&r you will get 4 outputs per iron ore which will massively outpace an iron nugget generator"
+			]
+			icon: "minecraft:iron_nugget"
+			id: "08C44A71E0B4E6B7"
+			tasks: [{
+				id: "72EB68C616BBE390"
+				title: "Trust me this is not worth it - Nyagi"
+				type: "checkmark"
+			}]
+			title: "Not actually worth it"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"5D9FCC6B40A02869"
+				"632B5FB5A7EDC8F3"
+			]
+			description: [
+				"&bBelts&r!!1!"
+				""
+				"Belts will be a factory component you will spam the living hell out of"
+				""
+				"They can &emove items&r around and even &etransfer rotational force&r"
+				""
+				"Their behaviors with certain loading/unloading components can be &esomewhat specific&r so make sure to consult the [w] ponder to see specifics"
+				""
+				"&dNote&r: Before you go off to try to make belts get a good &avine&r farm running. &bMechanical harvesters&r are &cunable&r to collect vines. &bDeployers with shears&r are able to do so, but thats &cunavailable at this stage&r. &aEarlier methods are possible&r with some out of the box thinking"
+			]
+			icon: "create:belt_connector"
+			id: "224ED8218767CAAA"
+			tasks: [{
+				id: "5720C480753ED402"
+				title: "We SHMOVIN'"
+				type: "checkmark"
+			}]
+			title: "Let the Spaghetti Begin!"
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"697E50D684D5A997"
+				"789821A8D7342A72"
+			]
+			description: [
+				"It is worth pointing out moving forward you should make a &anew machine&r for every production line!"
+				""
+				"Shaft (heh) production is needed to mass produce &bcogs&r and is later used to make &bthin casings&r for pens, but thats much further down the line"
+			]
+			icon: "create:shaft"
+			id: "0B5F5B6B7780F35A"
+			tasks: [{
+				id: "2D6253845875BE2C"
+				title: "Oh and like a bunch of random stuff too"
+				type: "checkmark"
+			}]
+			title: "She Saw On My Alloy Till I Shaft"
+			x: 0.0d
+			y: 19.0d
+		}
+		{
+			dependencies: [
+				"5D9FCC6B40A02869"
+				"1EFBCCBE696089FD"
+			]
+			description: [
+				"A special note about &aHemp&r"
+				""
+				"1) You only need to harvest the &btop&r of the crop as it is a two tall crop"
+				""
+				"2) Please for the love of god &6scale this one up silly style&r. You &nwill&r use this in very large amounts. If you think your farm is large enough, add 50% and double it still"
+			]
+			icon: "immersiveengineering:hemp_fiber"
+			id: "632B5FB5A7EDC8F3"
+			tasks: [{
+				id: "527F869F3EA1D369"
+				title: "sadly not the fun type of hemp"
+				type: "checkmark"
+			}]
+			title: "Industrial Scales Of Rope"
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["10A2398723CBC444"]
+			description: [
+				"It is worth pointing out moving forward you should make a &anew machine&r for every production line!"
+				""
+				"As for plank production they are used in &bcogs&r and &bframed woods&r for etched wood"
+			]
+			icon: "botania:livingwood_planks"
+			id: "3A9D304009725ECF"
+			tasks: [{
+				id: "4F3742A5CA352D70"
+				title: "I think this meme is older than some of the players"
+				type: "checkmark"
+			}]
+			title: "Planking like it's 2011"
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4181778D139B2C3C"]
+			description: [
+				"It's Gravlin' time."
+				""
+				"Hook up your &eautomatic cobblestone farm&r to your new &amillstones&r and bask in your endless gravel."
+				""
+				"As for the &bflint&r you can feed your new gravel into &aanother millstone&r to produce the flint. While that does work to supply flint, this gets into a &6new concept&r that will be important to ensuring your factory hums along smoothly and avoid falling into &cpitfalls&r players &dnew to automation styled packs&r tend to run into"
+				""
+				"By feeding your gravel generator into a flint generator you introduce a &cbottleneck&r into your system. If something ends up eating flint &etoo quickly&r other systems that rely on gravel will themselves be starved. "
+				""
+				"This can be solved by simply &6scaling up&r your gravel production to fully saturate your flint production. Or you could design &bparallelized&r systems"
+				""
+				"In short when you design systems to be &bparallelized&r you are treating them as self contained units. Why feed from the gravel maker to the flint maker when you can simply &6give the flint maker it's own gravel maker&r? That way both lines can produce without impacting eachother"
+				""
+				"This design concept for factories will help ensure &cbottlenecks&r are a lot &aeasier to resolve&r for very basic material production and will make for &asmoother expansions&r"
+				""
+				"Anyways thats probably the longest quest you've seen talking about making gravel, go on now, make it"
+			]
+			icon: "minecraft:gravel"
+			id: "02755BE7FF325275"
+			tasks: [{
+				id: "4D5C797E2A1043D6"
+				title: "Perfect to fall off your bike over at high speeds"
+				type: "checkmark"
+			}]
+			title: "Smaller Sharper Rocks"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["05C0FBBDDC62201D"]
+			description: [
+				"&dHuzza a &6Wrench&d!&r Something to forever take up an inventory slot"
+				""
+				"These can instantly collect create components upon a &eshift right-click&r, or simply rotate them with a &eright click&r"
+			]
+			icon: "create:wrench"
+			id: "544FEAEF78746D88"
+			tasks: [{
+				id: "1BB1402E6EC90A66"
+				title: "I already lost the 10mm socket dammit"
+				type: "checkmark"
+			}]
+			title: "I think I already made the dodging joke"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4BE7C54B1F7E2DBB"]
+			description: [
+				"You very likely don't have access to a &eBucket&r yet so just cram this &bwater wheel&r literally anywhere you can with some flowing water."
+				""
+				"These can be placed &dvertically&r or &dhorizontally&r and the amount of flowing water does not actually influence the &astress unit (SU)&r output rate, so however looks nicer to you is perfectly fine"
+			]
+			icon: "create:water_wheel"
+			id: "3E7BB1B6448D05B6"
+			tasks: [{
+				id: "6EC96F33073D4A59"
+				title: "There is also a larger one"
+				type: "checkmark"
+			}]
+			title: "A Wheel Pushed By Water"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C1E98828193DC20"]
+			description: [
+				"While &bQuartz boulders&r have high amounts of quartz themselves in addition to multiple unique items, sometimes you just need regular ol' quartz to get those unpolished rose quartz."
+				""
+				"Thankfully if you already have found either &esoul sand or soul soil&r they can be converted into each other, and more importantly, used in an &aencased fan&r in place of &cnetherrack&r to give it a &3soul fire&r instead."
+				""
+				"This allows for \"haunting\" recipes, sand can now become soul sand and washed into &dquartz"
+			]
+			icon: "minecraft:soul_soil"
+			id: "6CC15C25470A8A6F"
+			tasks: [{
+				id: "7E2E7A48F908B7F8"
+				title: "The souls feed the machines!"
+				type: "checkmark"
+			}]
+			title: "Oooooo Spooky"
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"5E49A44D84677908"
+				"08C44A71E0B4E6B7"
+			]
+			description: [
+				"The iron nugget recipe may be useless, but you know what isn't? &aQuartz!&r"
+				""
+				"Washing &bSoul Sand&r returns nether quartz at a low rate. It will suffer from a &esimilar issue&r of being outscaled with ore processing, however, the volume needed in Tier 0 is far less"
+				""
+				"That being said, you will still want to find &dquartz boulders&r as they contain presses for Ae2, and fancier quartz types that make certain recipes easier"
+			]
+			icon: "minecraft:quartz"
+			id: "168B98C3C815C316"
+			tasks: [{
+				id: "2388905353082287"
+				title: "It also gives gold i guess"
+				type: "checkmark"
+			}]
+			title: "How Nether Quartz If No Nether?"
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["02755BE7FF325275"]
+			description: [
+				"With that concept of avoiding &cbottlenecks&r behind us we can start producing &bandesite&r!"
+				""
+				"With some &4lava&r in a basin your previously automated &eflint and gravel&r can be pressed into a fresh block of andesite"
+				""
+				"Oh but did you catch that about the recipe? It takes &a2&r flint and &a1&r gravel per craft"
+				""
+				"Say hello to a &bnew concept&r in your factory endevors called &6ratios&r"
+				""
+				"What does that mean? Well certain recipes do not consume ingredients at the same pace, in our example andesite is &a2:1&r on it's &eflint:gravel&r consumption rate. The hidden suggestion here is to simply &6double your flint production&r relative to your gravel production"
+				""
+				"And as an important point it's &cnot strictly necessary&r to math this out. Sure you could time how long each step makes and do a &6perfect ratio&r setup where &einput rates&r are exactly the same as &econsumption rate&r. You are allowed to just eyeball it and go \"eh good enough\""
+			]
+			icon: "minecraft:andesite"
+			id: "60A789A9FD9C1289"
+			tasks: [{
+				id: "2E66033937FAB433"
+				title: "I've always wanted to ratio a rock <3 18.7k"
+				type: "checkmark"
+			}]
+			title: "Igneously Ingenious"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["60A789A9FD9C1289"]
+			description: [
+				"With a small create compacting setup pumping out &aandesite&r you can look towards automating your livisite needs"
+				""
+				"Deployers are still a bit out of reach &7(unless you rushed them)&r but &adispensers&r, thanks to &dQuark&r, can place blocks"
+				""
+				"So with a setup where &aandesite&r from your &acompacting basin&r can be belted into some dispensers, &bpulsed with redstone&r to place you now have a way to automatically &6start a pure daisy conversion cycle&r"
+				""
+				"Now to collect the livisite you'll need to know &o&nwhen&r you can break the blocks. &aTwo ways you can do this&r is either some kind of timer via &bcreate's pulse repeater&r, or a direct detection with a &dsmart observer&r filtered to the target conversion block"
+				""
+				"Once you have the &atimer or the direct detection&r, a redstone signal from either can then be wired into your &6chosen collection method&r. This could be some moving create contraption with &adrills&r, or &adrills&r dedicated to each pure daisy tile, or something else, probably with &adrills&r"
+				""
+				"&n&6But notice what we did here&r&r. This &ccomplex task&r was &abroken up into smaller problems&r to solve, all of which you had choices on how to handle. &n&bThis is a very important principle&r&r when it comes to taking on more complicated automation tasks later in the pack."
+				""
+				"Instead of viewing the &centire monolith of the task&r, &n&areally try to break down the steps&r&r, see what the task actually asks of you. You will often find that it is &6easier&r than anticipated"
+			]
+			icon: "nyagibits_bytes:livisite_stone"
+			id: "77853C5852B161C9"
+			tasks: [{
+				id: "0358C989006DAE87"
+				title: "What are you a pesant? Automate this"
+				type: "checkmark"
+			}]
+			title: "Andesite But Botanified"
+			x: 0.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["16D01481957D30C3"]
+			description: [
+				"Twice blasted cobble call that &bSmooth Stone&r"
+				""
+				"While easy to make, automating it via create is &esurprisingly tricky&r. No matter the speed of the &bindustrial fan&r the actual processing time remains the same"
+				""
+				"This is tricky to deal with since &cunlike the &bMechanical Press&r items on belts won't stop to be processed. Items will simply pass by without having enough time to cook"
+				""
+				"There are three main ways to solve this (&cone of them being quite bad&r)"
+				""
+				"1) &nThe &cbad &fone&r: Items moving on belts will &aretain their cooking progress&r so long as the next belt tile is being blasted by &eanother fan&r. This creates the terrible solution of spamming the living hell out of fans for the full length of the belt. This method of course being &cworse the faster your belt is&r"
+				""
+				"2) &nThe &eok &fone&r: Instead of fan spam you can &aslow down a segment of belt&r to its minimum speed and point a &asingular fan to blow &bhorizontally &aacross the belt&r so that the items sit in the blasting stream long enough"
+				""
+				"3) &nThe &abest &fone&r: By investing in some &bbrass funnels&r or &bsmart chutes&r you can allow items to park at a &bdepot&r and only be sent off after they finish cooking by &6filtering the output&r component"
+				""
+				"You could also just, keep using furnaces I guess"
+			]
+			icon: "minecraft:smooth_stone"
+			id: "5F863127930E520A"
+			tasks: [{
+				id: "2A0EF9C00B2D0234"
+				title: "aaaaaaain... *ding*"
+				type: "checkmark"
+			}]
+			title: "We're Blastin' Off Agaaaa"
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5F863127930E520A"]
+			description: [
+				"With a small stone smelting setup pumping out &asmooth stone&r you can look towards automating your livingrock needs"
+				""
+				"Deployers are still a bit out of reach &7(unless you rushed them)&r but &adispensers&r, thanks to &dQuark&r, can place blocks"
+				""
+				"So with a setup where &asmooth stone&r from your &abulk blasting&r can be belted into some dispensers, &bpulsed with redstone&r to place you now have a way to automatically &6start a pure daisy conversion cycle&r"
+				""
+				"Now to collect the living rock you'll need to know &o&nwhen&r you can break the blocks. &aTwo ways you can do this&r is either some kind of timer via &bcreate's pulse repeater&r, or a direct detection with a &dsmart observer&r filtered to the target conversion block"
+				""
+				"Once you have the &atimer or the direct detection&r, a redstone signal from either can then be wired into your &6chosen collection method&r. This could be some moving create contraption with &adrills&r, or &adrills&r dedicated to each pure daisy tile, or something else, probably with &adrills&r"
+				""
+				"&n&6But notice what we did here&r&r. This &ccomplex task&r was &abroken up into smaller problems&r to solve, all of which you had choices on how to handle. &n&bThis is a very important principle&r&r when it comes to taking on more complicated automation tasks later in the pack."
+				""
+				"Instead of viewing the &centire monolith of the task&r, &n&areally try to break down the steps&r&r, see what the task actually asks of you. You will often find that it is &6easier&r than anticipated"
+			]
+			icon: "botania:livingrock"
+			id: "679AC30680D0664F"
+			tasks: [{
+				id: "2787B0407B298C66"
+				title: "What are you a pesant? Automate this"
+				type: "checkmark"
+			}]
+			title: "I Don't Like My Rocks Being Alive"
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["77853C5852B161C9"]
+			icon: "nyagibits_bytes:livisite_alloy"
+			id: "7667563D092228C1"
+			tasks: [{
+				id: "64DE96B837DABA64"
+				type: "checkmark"
+			}]
+			title: "Andesite Alloy's Twin"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["58FEDD50B927AA01"]
+			description: [
+				"Without access to &bDeployers&r at this stage you may be tempted to forgo an automated farm until you can make one"
+				""
+				"This, however, is an &cunecessary burden&r upon yourself. Setting up the farm &bdeployerless&r will still aid massively in reducing your &epersonal labor involvement&r with collecting a basic resource. Running over to replant saplings is still &aless work&r than replanting and harvesting yourself"
+				""
+				"Also, thanks to the mod &bQuark&r dispensers are able to place blocks and crops. So if you are willing to make an &eunconventional farm&r and fiddle with redstone you can fully automate it at this stage"
+			]
+			icon: "minecraft:oak_sapling"
+			id: "663739E71D834D27"
+			tasks: [{
+				id: "3AD5F789DC4A2ABB"
+				title: "With this button all of the amazon will disappear!"
+				type: "checkmark"
+			}]
+			title: "Semiautomatic Deforestation"
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["663739E71D834D27"]
+			description: [
+				"With a tree chopping setup pumping out &alogs&r you can look towards automating your livingwood needs"
+				""
+				"Deployers are still a bit out of reach &7(unless you rushed them)&r but &adispensers&r, thanks to &dQuark&r, can place blocks"
+				""
+				"So with a setup where &alogs&r from your &atree farm&r can be belted into some dispensers, &bpulsed with redstone&r to place you now have a way to automatically &6start a pure daisy conversion cycle&r"
+				""
+				"Now to collect the living wood you'll need to know &o&nwhen&r you can break the blocks. &aTwo ways you can do this&r is either some kind of timer via &bcreate's pulse repeater&r, or a direct detection with a &dsmart observer&r filtered to the target conversion block"
+				""
+				"Once you have the &atimer or the direct detection&r, a redstone signal from either can then be wired into your &6chosen collection method&r. This could be some moving create contraption with &adrills&r, or &adrills&r dedicated to each pure daisy tile, or something else, probably with &adrills&r"
+				""
+				"&n&6But notice what we did here&r&r. This &ccomplex task&r was &abroken up into smaller problems&r to solve, all of which you had choices on how to handle. &n&bThis is a very important principle&r&r when it comes to taking on more complicated automation tasks later in the pack."
+				""
+				"Instead of viewing the &centire monolith of the task&r, &n&areally try to break down the steps&r&r, see what the task actually asks of you. You will often find that it is &6easier&r than anticipated"
+			]
+			icon: "botania:livingwood_log"
+			id: "10A2398723CBC444"
+			tasks: [{
+				id: "08016D774DCA4EF6"
+				title: "What are you a pesant? Automate this"
+				type: "checkmark"
+			}]
+			title: "Isn't... Wood Already Alive?"
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["60A789A9FD9C1289"]
+			icon: "create:andesite_alloy"
+			id: "7A974BCCA6882D04"
+			tasks: [{
+				id: "7388F1D5147842E8"
+				type: "checkmark"
+			}]
+			title: "Livisite Alloy's Twin"
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["679AC30680D0664F"]
+			icon: "botania:polished_livingrock"
+			id: "1ECD32BB25F43FC0"
+			tasks: [{
+				id: "73671101896D22B9"
+				type: "checkmark"
+			}]
+			title: "Shmove"
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"1ECD32BB25F43FC0"
+				"7667563D092228C1"
+				"3A9D304009725ECF"
+			]
+			icon: "nyagibits_bytes:etched_living_wood"
+			id: "1440D789406EF358"
+			tasks: [{
+				id: "105D977024CBD48C"
+				type: "checkmark"
+			}]
+			title: "Comes With Recipe Eye Strain"
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"7A974BCCA6882D04"
+				"1440D789406EF358"
+			]
+			icon: "create:andesite_casing"
+			id: "24F263BFA0B3056C"
+			tasks: [{
+				id: "16A5B52FE76B8D2F"
+				type: "checkmark"
+			}]
+			title: "Semi Manual Encasement"
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6E61C014A48DD33A"]
+			description: [
+				"Botania is a tech mod, so it has a...well it can be a storage system, but it's more of a &ologistics&r system."
+				"This is corporea, a system usually ignored by most due to requiring lategame resources. Not here, it is available very early on."
+				""
+				"To begin, make a &3Master Corporea Spark&r and a few &dCorporea Sparks&r."
+				"Then, place the sparks over any inventory you want your corporea network to access."
+				""
+				"There must be one master spark somewhere in the network, but it will not be able to access an inventory itself."
+			]
+			icon: "botania:corporea_spark"
+			id: "1BDC7381D6607E31"
+			tasks: [{
+				id: "7F1B5A8DA51F3038"
+				title: "Zappy"
+				type: "checkmark"
+			}]
+			title: "The Best Storage System"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BDC7381D6607E31"]
+			description: [
+				"To connect to each other, two corporea sparks must be within 8 blocks of eachother."
+				""
+				"To place sparks just to bridge a gap, you can use Corporea blocks and extend the network without needlessly adding more inventories."
+				""
+				"They're also perfect to place the master corporea spark on, since it can't access an inventory anyway, but is subject to the same placement restrictions."
+				""
+				"They also just look cool."
+			]
+			icon: "botania:corporea_block"
+			id: "785652262D0F8C91"
+			tasks: [{
+				id: "651A918E5FCB1D7C"
+				title: "Sparkly Block"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["785652262D0F8C91"]
+			description: [
+				"The Corporea Index is the main method for a player to withdraw items from a corporea network."
+				""
+				"To use it, stand near it, and start talking (send a chat message)"
+				"If the index is ready to use, you will see a circle of sparks near it and a message while the chat box is open."
+				""
+				"Instead of being sent out to the world, your message will be interpreted as a request and the item will be withdrawn from a "
+				"connected inventory and pop out of the index."
+				""
+				"Example: Saying \"3 iron ingots\" will pop 3 iron ingots from the network."
+				"The full possibilities of requests are quite complex, so it's recommended to consult the lexica botania for more info."
+			]
+			icon: "botania:corporea_index"
+			id: "616464677ADE6DB4"
+			tasks: [{
+				id: "09D40251E15BA879"
+				title: "Hey! Gimmi!"
+				type: "checkmark"
+			}]
+			title: "Speaking Your Demands"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["616464677ADE6DB4"]
+			description: [
+				"The corporea funnel is your main method of automatically transporting items with the corporea network."
+				""
+				"To use it, place it over an inventory, then place a corporea spark on it to connect it to the network."
+				""
+				"Place an item frame on the funnel, then put the item to request in the frame. Rotate it to select the amount."
+				""
+				"Amounts: 1, 2, 4, 8, 16, 32, 48, 64"
+				""
+				"Finally, give it a redstone pulse to request the item and put it in the inventory underneath"
+			]
+			icon: "botania:corporea_funnel"
+			id: "1829036099806630"
+			tasks: [{
+				id: "72C76F78F54F4570"
+				title: "Gimmi! But over here"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["616464677ADE6DB4"]
+			description: [
+				"The Corporea Interceptor emits a redstone pulse whenever a corporea request cannot be fulfilled."
+				"Placing an item frame on it will filter its action to just the item within the frame."
+				""
+				"The redstone pulse can be used for anything, but the intended use is to activate a system that crafts the item."
+				""
+				"Deceptively useful for automation."
+			]
+			icon: "botania:corporea_interceptor"
+			id: "4FDDF94EC02A0D02"
+			tasks: [{
+				id: "21B47D2ED5678E91"
+				title: "Let me get that for you"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4FDDF94EC02A0D02"]
+			description: [
+				"The Interceptor is useful for automation, but it doesn't handle fulfulling the original request once the item has been resupplied."
+				""
+				"That task does to the Corporea Retainer."
+				"Place it next to a Corporea Interceptor. No need to place a spark on the retainer."
+				""
+				"When the interceptor activates, the retainer will remember what the original request was. Sending a redstone pulse to it will re-trigger the original request, from wherever in the network it came from, be it a funnel, index or cube."
+				""
+				"In other words, its purpose is to signal to the network when an item has been resupplied and to try to fulfill the request again."
+			]
+			icon: "botania:corporea_retainer"
+			id: "56BAD950091D55D1"
+			tasks: [{
+				id: "1B6CBF03963F7EF1"
+				title: "Hold up where does this go again?"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["12057422FF5BBB46"]
+			description: [
+				"Why is the crafting table recipe &cchanged&r?!"
+				""
+				"Compression is an &dexpert pack&r! Meaning the mechanics from base game and other mods are &bHEAVILY modified&r and cross-integrated to produce a unique experience"
+				""
+				"&eGranted the experience here is like living in a room where the floor is a sand paper conveyor belt, but do not fear, the &6Tutorial-Tutorial quest line&e will gently beat you instead of un-gently beating you <3&r"
+			]
+			icon: "minecraft:crafting_table"
+			id: "6F181CBD1F58B946"
+			tasks: [{
+				id: "567009DA0DF35843"
+				title: "0.1.0, how time flies"
+				type: "checkmark"
+			}]
+			title: "The Crafting Thing From The Hit Game Minecraft"
+			x: 0.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["6F181CBD1F58B946"]
+			description: [
+				"You may have noticed the beautiful &cr&6a&ei&an&bb&9o&dw&r up in the sky. This is an indicator that the world is of the &6Garden Of Glass&r variety."
+				""
+				"This means 1 important thing. &dShift right click &5dirt&d for pebbles!&r"
+				""
+				"Pebbles can be crafted into &bcobblestone&r"
+			]
+			icon: "minecraft:cobblestone"
+			id: "10A6343D18D3A913"
+			tasks: [{
+				id: "720B2AE71E75F8CC"
+				title: "Using an auto clicker for this is incredibly loud"
+				type: "checkmark"
+			}]
+			title: "Pound The Ground"
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["322E8B40B0197798"]
+			description: [
+				"The &dPetal Apothecary&r will be your second main crafer "
+				""
+				"To use it, simply fill it with &bwater&r using a &ebowl&r and toss items into the apothecary corresponding to the recipe"
+				""
+				"Finally a &ereagent item &6(finishing item)&r will be requested by the apothecary, toss it in and the craft will complete"
+			]
+			icon: "botania:apothecary_default"
+			id: "56B11633B6E55BF8"
+			tasks: [{
+				id: "79DA56623F6003CD"
+				title: "Don't forget the water, it needs water"
+				type: "checkmark"
+			}]
+			title: "Your Other Crafting Table"
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["56B11633B6E55BF8"]
+			description: [
+				"&6Small note about the bowl of water:&r"
+				""
+				"Water can only be collected in &e1 block deep portions of water&r as the interaction requires the right-click target to be a block under the water source block"
+			]
+			icon: {
+				Count: 1b
+				id: "botania:water_bowl"
+				tag: {
+					Fluid: {
+						Amount: 1000
+						FluidName: "minecraft:water"
+					}
+				}
+			}
+			id: "7182388FCC361CB0"
+			tasks: [{
+				id: "4C7D97DC908013F0"
+				title: "bou' o' wo'ta'"
+				type: "checkmark"
+			}]
+			title: "Wamter"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["616464677ADE6DB4"]
+			description: [
+				"To use the Corporea Crystal Cube, place it anywhere and connect it to the network with a corporea spark."
+				""
+				"Then, right click it with an item. The cube will now show the amount of that item in its corporea network."
+				""
+				"Left-Clicking it will request one of said item and pop it near the cube. Shift-Left-Clicking will request a stack."
+				""
+				"To prevent accidentially changing the viewed item, shift-right-click the cube with a Wand of the Forest to lock it."
+			]
+			icon: "botania:corporea_crystal_cube"
+			id: "71893BAA75FC3D55"
+			tasks: [{
+				id: "5676DF0C1A4544BD"
+				title: "Pondering the...Cube?"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1BDC7381D6607E31"]
+			description: [
+				"Some of these blocks are too complex to explain in a reasonable amount of words."
+				""
+				"The Lexica Botania contains all the information about all things Botania."
+				"Craft the basic one with a book and a sapling, then combine it with a Corporea Spark to see most entries right away."
+				""
+				"Corporea is explained in the \"Ender Artifacts\" section."
+			]
+			icon: {
+				Count: 1b
+				id: "botania:lexicon"
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
+			id: "2A713A1369B51963"
+			tasks: [{
+				id: "76957459384BF856"
+				title: "Patchouli is a mod by Vazkii!"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"21625928069FF7FA"
+				"136DCA2889C96A65"
+			]
+			description: [
+				"You can find &aMystical flowers&r scattered all over the world."
+				"Typically found in small clusters, there's 16 different colors, and each one has both a short and a tall variant."
+				""
+				"They're easily recognizable from their unique colorful look and the wisp-like sparkles they emit."
+				""
+				"They all craft into &2Mystical Petals&r which you'll need to make the pure daisy and progress."
+				""
+				"&aTo get more, plant a petal in the ground and use bonemeal on it."
+				""
+				"&eNote: The pure daisy is craftable with any color petal instead of just white."
+				"&cYou will however eventually need the full spectrum of them."
+			]
+			icon: "botania:white_mystical_flower"
+			id: "322E8B40B0197798"
+			tasks: [{
+				id: "6C0F8A288A4D0E0C"
+				title: "So Sparkly!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7667563D092228C1"]
+			icon: "create:brass_nugget"
+			id: "02F4BEF888F769B9"
+			tasks: [{
+				id: "15D1D29AD2B6E5BA"
+				type: "checkmark"
+			}]
+			title: "Boost I"
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"7667563D092228C1"
+				"02F4BEF888F769B9"
+			]
+			icon: "thermal:bronze_nugget"
+			id: "1D5E49CF2F3ED329"
+			tasks: [{
+				id: "304525D1F29F1BD9"
+				type: "checkmark"
+			}]
+			title: "Boost II"
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"7667563D092228C1"
+				"1D5E49CF2F3ED329"
+			]
+			icon: "thermal:constantan_nugget"
+			id: "47A9A4193B7EB0DA"
+			tasks: [{
+				id: "183B8AAB456F7DC0"
+				type: "checkmark"
+			}]
+			title: "Boost III"
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"7A974BCCA6882D04"
+				"025F10E72C0B8392"
+			]
+			icon: "createdeco:cast_iron_nugget"
+			id: "2B48314A99226E2F"
+			tasks: [{
+				id: "551FC147A78420F6"
+				type: "checkmark"
+			}]
+			title: "Boost II"
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"7A974BCCA6882D04"
+				"2B48314A99226E2F"
+			]
+			icon: "immersiveengineering:nugget_steel"
+			id: "133C259229A0E4EF"
+			tasks: [{
+				id: "7742C51FB7F3452A"
+				type: "checkmark"
+			}]
+			title: "Boost III... wait"
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7A974BCCA6882D04"]
+			icon: "thermal:invar_nugget"
+			id: "025F10E72C0B8392"
+			tasks: [{
+				id: "5EF291C10B84E126"
+				type: "checkmark"
+			}]
+			title: "Boost I"
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3B239E07261D8D7D"]
+			icon: "create:brass_casing"
+			id: "38D12B5F0800566A"
+			tasks: [{
+				id: "113D434898B7B3BE"
+				type: "checkmark"
+			}]
+			title: "A Shiny New Resource Sink"
+			x: -0.5d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"552DD25027690140"
+				"36EA315878C88EBE"
+				"49C19A8B5519A87F"
+				"67839BBF21FEC1E4"
+				"526B74809D6455D8"
+			]
+			icon: "nyagibits_bytes:pile_of_crude_mechanical_parts"
+			id: "3B239E07261D8D7D"
+			tasks: [{
+				id: "4C0BD3355FC976A7"
+				type: "checkmark"
+			}]
+			title: "A Pile Of Bullsh- Useful Components"
+			x: 0.0d
+			y: 23.0d
+		}
+		{
+			dependencies: [
+				"37084732C1D76991"
+				"21F5BFE011A81849"
+			]
+			icon: "nyagibits_bytes:pile_of_cogs"
+			id: "552DD25027690140"
+			tasks: [{
+				id: "56016B980A85F811"
+				type: "checkmark"
+			}]
+			title: "Tower of Hanoi Piece"
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["21F5BFE011A81849"]
+			icon: "create:large_cogwheel"
+			id: "37084732C1D76991"
+			tasks: [{
+				id: "06E9B5B15771CC1F"
+				type: "checkmark"
+			}]
+			title: "Cogwheel++"
+			x: 0.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["0B5F5B6B7780F35A"]
+			icon: "create:cogwheel"
+			id: "21F5BFE011A81849"
+			tasks: [{
+				id: "59AEB3A224B856BA"
+				type: "checkmark"
+			}]
+			title: "Computer! 500 Cogwheels"
+			x: -0.5d
+			y: 20.0d
+		}
+		{
+			dependencies: [
+				"685AF8C450180B2F"
+				"49C19A8B5519A87F"
+			]
+			icon: "create:wrench"
+			id: "526B74809D6455D8"
+			tasks: [{
+				id: "0E40395B313FFB72"
+				type: "checkmark"
+			}]
+			title: "Automating... Wrenches.. Sure why not"
+			x: -1.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["552DD25027690140"]
+			icon: "create:gantry_shaft"
+			id: "36EA315878C88EBE"
+			tasks: [{
+				id: "19BD4C1F28640B88"
+				type: "checkmark"
+			}]
+			title: "You Probably Have These Already"
+			x: 1.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["552DD25027690140"]
+			icon: "create:hand_crank"
+			id: "49C19A8B5519A87F"
+			tasks: [{
+				id: "15523A33AC70F5C9"
+				type: "checkmark"
+			}]
+			title: "This Is Why My Dominant Arm Is Jacked"
+			x: -1.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["5A823DC796D1B3C7"]
+			icon: "create:brass_hand"
+			id: "67839BBF21FEC1E4"
+			tasks: [{
+				id: "6AA88DF55B07B260"
+				type: "checkmark"
+			}]
+			title: "Great Nose Picker Tool"
+			x: 1.5d
+			y: 21.5d
+		}
+		{
+			dependencies: ["789821A8D7342A72"]
+			icon: "create:brass_sheet"
+			id: "5A823DC796D1B3C7"
+			tasks: [{
+				id: "550DF1A49CD43DC1"
+				type: "checkmark"
+			}]
+			title: "Antimicrobial Rectangle"
+			x: 2.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["697E50D684D5A997"]
+			icon: "create:electron_tube"
+			id: "685AF8C450180B2F"
+			tasks: [{
+				id: "4ECB6D1E0FAFE459"
+				type: "checkmark"
+			}]
+			title: "Blinky Blinky"
+			x: -2.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["24F263BFA0B3056C"]
+			icon: "botania:auto_crafting_halo"
+			id: "20D167D82EF73539"
+			tasks: [{
+				id: "6A882C5E413C70B0"
+				type: "checkmark"
+			}]
+			title: "The Modular Factory"
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["38D12B5F0800566A"]
+			icon: "create:mechanical_crafter"
+			id: "21209E96C5A2C04B"
+			tasks: [{
+				id: "5A4896C469CA579F"
+				type: "checkmark"
+			}]
+			title: "Automatic Assembly"
+			x: 0.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["3631B3D7904473FD"]
+			icon: "nyagibits_bytes:livisite_slate"
+			id: "1DD0A837E5B7A273"
+			tasks: [{
+				id: "474B6A192D01BD8C"
+				type: "checkmark"
+			}]
+			title: "Premium Countertops"
+			x: 0.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["1DD0A837E5B7A273"]
+			icon: "create:deployer"
+			id: "12EE3392A6C9FA69"
+			tasks: [{
+				id: "6C230AEF80BCA941"
+				type: "checkmark"
+			}]
+			title: "Beating the devs to death"
+			x: 0.0d
+			y: 27.0d
+		}
+		{
+			dependencies: [
+				"004CFAF493A18544"
+				"539EF754B3E06E0F"
+				"12EE3392A6C9FA69"
+				"5B1A9BD6B04AC2A6"
+				"79D71E372579392D"
+			]
+			icon: "nyagibits_bytes:pen"
+			id: "572376FFCBF1346B"
+			tasks: [{
+				id: "67B4727F82770E0D"
+				type: "checkmark"
+			}]
+			title: "Time To Scribble"
+			x: 0.0d
+			y: 28.5d
+		}
+		{
+			dependencies: ["3631B3D7904473FD"]
+			icon: "minecraft:ink_sac"
+			id: "451CB901650E8F5B"
+			tasks: [{
+				id: "6C1AB4CFDCCEECA3"
+				type: "checkmark"
+			}]
+			title: "Extra Full Squids"
+			x: 2.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["3631B3D7904473FD"]
+			icon: "nyagibits_bytes:tiny_spring"
+			id: "539EF754B3E06E0F"
+			tasks: [{
+				id: "1DE0B0E76EA8BED4"
+				type: "checkmark"
+			}]
+			title: "Sproingy"
+			x: 1.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["3631B3D7904473FD"]
+			icon: "nyagibits_bytes:ball_bearing"
+			id: "004CFAF493A18544"
+			tasks: [{
+				id: "10892B36811CA1FD"
+				type: "checkmark"
+			}]
+			title: "Oh no I spilled them everywhere"
+			x: -1.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["6F2D142E58E23CAA"]
+			icon: "nyagibits_bytes:ink_cartridge"
+			id: "79D71E372579392D"
+			tasks: [{
+				id: "15E7A777C33F27D1"
+				type: "checkmark"
+			}]
+			title: "Ink in da tube"
+			x: 1.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["451CB901650E8F5B"]
+			icon: "nyagibits_bytes:thin_casing"
+			id: "6F2D142E58E23CAA"
+			tasks: [{
+				id: "3219FEE602C20327"
+				type: "checkmark"
+			}]
+			title: "Tiny Wet Paper Ball Shooter"
+			x: 2.0d
+			y: 26.5d
+		}
+		{
+			dependencies: ["3631B3D7904473FD"]
+			icon: "thermal:cured_rubber"
+			id: "5B1A9BD6B04AC2A6"
+			tasks: [{
+				id: "2921BDFBD89E8C5D"
+				type: "checkmark"
+			}]
+			title: "It's Like If Gum Was Disgusting"
+			x: -2.5d
+			y: 25.5d
+		}
+		{
+			dependencies: [
+				"1829036099806630"
+				"56BAD950091D55D1"
+			]
+			description: [
+				"Botania's &aCrafty Crate&r is a &6very cheap&r and &6very fast&r autocrafter for any default 3x3 recipes"
+				""
+				"So whats the catch?"
+				""
+				"The crafty crate must take in a recipe &d1 item at a time&r in the &dcorrect sequence&r to fill up its own inventory and only then will the recipe process"
+				""
+				"The resulting item will be &aejected&r from the bottom of the crate either into the world or into a valid inventory"
+				""
+				"This means that if your &credstone messes up&r and items enter out of order the crafty crate will &cchoke&r and nothing will pass through"
+				""
+				"The &aspeed and reliability&r of your crafting setups is &b100% up to you&r, and how tightly you can engineer the sequence of items entering the crate and extraction of said items, &da pure skill check&r"
+			]
+			icon: "botania:crafty_crate"
+			id: "607E9B99520A22A2"
+			tasks: [{
+				id: "0754A61387637A99"
+				title: "This is basically a vanilla crafter, but harder"
+				type: "checkmark"
+			}]
+			title: "Autocrafting, But With A Skill Check"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["607E9B99520A22A2"]
+			description: [
+				"You may notice some recipes have &eempty slots&r between items like buckets or shears"
+				""
+				"To do crafts like this with the crafty crate you'll need to get your hands on a set of &aCrafting Placeholders&r"
+				""
+				"As the name implies these are items that can be slotted into a crafty crate but &6act as an empty space&r, allowing any following items to slot into their correct spots"
+				""
+				"When the craft completes these placeholders are &aejected from the crate&r along with the completed craft"
+				""
+				"There are also &dCrafting Patterns&r you can craft from placeholders that, when right-clicked onto a crate, outright &bblock a designated set of slots&r from the crate"
+			]
+			icon: "botania:placeholder"
+			id: "6BA3B2FBB446A92C"
+			tasks: [{
+				id: "686CD95637389CBF"
+				title: "mmm vanilla wafers"
+				type: "checkmark"
+			}]
+			title: "These Little Shits"
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"21209E96C5A2C04B"
+				"38D12B5F0800566A"
+			]
+			icon: "create:belt_connector"
+			id: "3631B3D7904473FD"
+			tasks: [{
+				id: "61DDD6E2BCDDC8EE"
+				type: "checkmark"
+			}]
+			title: "About Sequenced Assemblies"
+			x: 0.0d
+			y: 25.0d
+		}
+	]
+	title: " &6Tier 0"
+}

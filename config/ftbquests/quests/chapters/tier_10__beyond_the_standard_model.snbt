@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_10__beyond_the_standard_model"
+	group: "6B3B606AC87356A0"
+	icon: "ae2:quantum_entangled_singularity"
+	id: "7093D24DA2A2C946"
+	order_index: 10
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["3BEACE9F3F1EC3AA"]
+		description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+		id: "25ACFB117AD34613"
+		size: 2.0d
+		tasks: [{
+			id: "083CD88CF4692367"
+			item: "ftbquests:missing_item"
+			type: "item"
+		}]
+		title: "&cThere Is Always A Way"
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["No Obligation to make sense, only consistent"]
+	title: " &6Tier 10&b - Beyond The Standard Model"
+}

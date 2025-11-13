@@ -1,0 +1,601 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "proficiency"
+	group: "1C682695BB4A0B06"
+	icon: "ae2:molecular_assembler"
+	id: "49CFEE35A165B6FF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4CBFDFBD1A71E6B4"]
+			description: ["Into the box you go!"]
+			id: "2745055EE3F9B013"
+			rewards: [{
+				id: "4FBE2D795FDD2258"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "105CC8788AD88BA4"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Encasing the living flame"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64859B912D563011"]
+			description: ["I'm not sure if this is better than a sword"]
+			icon: "nyagibits_bytes:pen"
+			id: "1B5E16663536E70C"
+			rewards: [{
+				id: "0B03611592EDF1AA"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5120L
+				id: "360947880C069804"
+				item: "nyagibits_bytes:pen"
+				type: "item"
+			}]
+			title: "*Click* *Click *Click*"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12356B8E644A1A52"]
+			description: ["Does.. does this mean my machines are alive...?"]
+			id: "40984ABC05C3304A"
+			rewards: [{
+				id: "445D3A63E31C4921"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10240L
+				id: "587DB147ED926D80"
+				item: "nyagibits_bytes:livisite_stone"
+				type: "item"
+			}]
+			title: "A Create and Botania love child"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F9A0CC233865374"]
+			description: ["1yq47nym859n5s40bjrherrulpamqyy934tsehee8eqxwo8bsnfnr9jndu9houc0rc1w195sno58l67f9ykjeam59j1ik9c836hxhy8q7lc4wnnp7mmlkt2ysyhp9losdve0exsq3tr9qar68worwl6ovr37v3sc45ih9obb5lssjw49nkpojgujzlekr0fq8s5vgw2m0jh0oc5krnk0hqo179ixj6du9189em625nujjinksz1078tv2vxiit9oz9lm03890amu9xsnmk12ojs6z3arqxemjkhd7lj3h55rz23vxuqdbxgaf61wcgcps8btfug002wmkwjiyf86efxnh0v1ir8o7z8b6cc1t8t4lh406nct4hf8wkbdcwlmxfp19g5z6vvlw06754wdfb1e6gca24k5kkof80em6zmtsyukurcgml08sk4c8j7ch7226tsrtynue3yie6pp46l90g98i2rrj0mh59b771zhmsf30vukf4yj9j74ov4zi2j2bdyhqybq1qvzx2l4t57i0w20438o5uxx87edqw5g0ef53urjr699jee10i8omxn4akzcdjqzhsdgbga3vhx0ryzktjkccb4hn8xnxexl12tuxbu6chry0b0nwg4rei2eok8b3cmard1motsrr19vgdhk9j3egm1g24ug7nwfr14l2ni1gkfbk037mt8jg3efy5uewm7g4rkx65dny2f4zyk5buhsn5747go2vnftza9h2dmi1orqkv7lg4yyp4vw342bfrl0ryfuibeea92mgrm6weilskl881kj23bjhq3r4e0k5nhqzo9aaizwunek2domr8p5876d6wwnomm88w21aaqeec73trezqswoj58q4bmju5yav4tenrombrjmvy821imda68rephsjlaegq74z3gzdagg7otjm4b3s5d4sf5ebz7vguibf5ms32mbcr5pl3px5jrdc5qdqnqdn5c5yt2twhg17gptxtfcx5fr48xu98ncq2qlhegntmht0x0of0nx6pftvym2ygg0m3qnx3so82zrf1oecfylsndc60a27qmsqdve57dbiwxwlj3ll9c6zzne8xu2hzddqji98xbtn56i9x9dur8zhjqbttgh6nnhbyr2vccqgkwxugy6i6mu4a3vso8vejt6jaw9fvd5ujedhsmq5m8avli96jw85l7taqgsqz2awjuktbaxuvfdf5y4rg9txlyilq3jifix0v2s1yhudrhki1zmmt4tn4l4z9hqa1v8kn4w2u8mhku1wt15xgejkg101nqyfbkfn8hnljk5zvqzlt8iv6stvd99usxzd1nni2d6puustrdiij0sy981ea54gc7ik0bqn9xsb6vnl3sv0fd5f9vtnr3i90ymdkpy8t4e454jwuu6jl2vivo61h1gtdse8z2a0qeyxrn1qa87r3t22p2y10yjujkosjldbgpfu8s0ej8iw5c0ac0hasspwjxz9wxcznq6xwemnpt5n08zylfc959l7dltbv6r5j3f9m9ui6b65zzluuukz4qet1in909m3lcyo3znef0tebmsi5d92zpcqlu2osh4a05lca83r4jk3eeqwctuigy1ylvfr917bcub3yqfny5o5l607qhblyk91ws5cv338b8ju1bv3gnghi42ddohe3deblu65t4xkevgty2fgip9132qxrgoikduzrwjeo2k4fajbfmy2gygixw7oew0gk808w92srgw5vheqsmi76drx0nkbmw6zhxj2stv733y90saq2mpm3gtc2mw3ycpan4jtcccn3wgfij1emk3hjvxfh6d98fu66vgb2r8qgv5obp035gcltqxefv91r73ife73eb5e4s1q58hbafb1u77e6xyr67fb54xzoyzh5a4kd82rtsyrs3mj3lxeixqz9byjrelyjyj9v09l2vqq9kvd15b7b2nkiisszuj57g642buuu89nzv0ze88kmu8d79a4hy0b7cbn4qotwwzy0ur9l25ytzbiiex4codo0dzl2r8m949xfrlr94zt02ssnlpxinrabkxod5vxhmtlumdzkayefxiabhq9ow74axcijx1jvkh1ox1jjay2w46d3f286xbuypid1lp6p9zcai3j9gyfyeqnxxvdju079yztkgshteo18o7tcx3o8au732v44nk47jb2laetffulkc1gjaniey09hbybtgvt6i1vfxuai2wmzbavua1a5u0tq2e35xlk4jejtw49xrjoamfq2tzzabnkj07b05jv0uv05f5vrtwinbxn355cgxxunzvdptg2cp2t9oo3nu9t4ahsh67ind0gt5glto1f9twaawx4bv9ektj6u7eau8dszouhco40568r2fqonr63tunt29hww8858wctb09l2upvifyma4ph13xqcpta36sb5pfqc6zthmnsu15rbsobbv9lsqc2fli25k7pipnwgqlyijzdspe8bdn97r56fn8mw1dkjjj0hq8ue8suv4el30xqd80n86a43u1g708pyfgu5o4eikmoj054t9ssxqam7baip27ksxh7bzabna1sd3114b8az3roy9gmukidxpcgegdwx1xqnlulbxaqpci807njd94c1tvup3woh0yfm7vqc4083owdwrz3wnh8btk9lss745e0w69kqitdieqf1pybg0ovy56e4ug68l3xpqgjhiozpxr95btxvmse0fayzd2omqj3r6tj763hoq98fdhbihh8d2qhfr613702a1d3zxjjp2qb5euru1122ss76at9xrynazq4i7j4f37n7sg0x7ppnkrtl73nd8gd05elu024h5fe8ojn9qppk01e5p94kfp7klqihqlut9f3upcye07ndwm6pjtn5ik2las3qk4c1rhmsxj4ieowkgh1x9e1qrmu4s225enz6f6l09f4jbj7w7dwe1tdjbbjwqq1o3j2ex9wf4qucrjs3iwhuqoqe673otkgtlu9nw8dgheped2h2dvikqcdsx7kwcfgr30zdzstwv3r6qdyj1wuvacocb8c9sz0xxf0srq93o442jac1439ebqiv9pqxp4e27og6evztshahm6emnzq89etv9brtqjfa9qk6ck9cefrm4oei74i0d0afidu74xblfz31omeaelj84b8sqbzfh1xdhnplbrkeqftjv5kix2v4uauoioqsisgs5jrvs5v2r6373r3"]
+			icon: "minecraft:book"
+			id: "61F31FA24CE086DE"
+			rewards: [{
+				id: "4A662227E6AEECE1"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5120L
+				id: "7BD18295B84DF42E"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			title: "Babbling in the library"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F9A0CC233865374"]
+			description: ["Why are all of these instructions in swedish"]
+			id: "7A53875C5D108A26"
+			rewards: [{
+				id: "01E2B92A8B2DE656"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "13BA4F3164C35864"
+				item: "nyagibits_bytes:blank_blueprint"
+				type: "item"
+			}]
+			title: "Build it yourself!"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: ["Congrats, you have mastered Tier 0"]
+			id: "0FBE020008F1513D"
+			rewards: [
+				{
+					id: "2B70CB0329A98FE3"
+					item: "nyagibits_bytes:golden_tier_zero_strawberry"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5AF4C47157DA805E"
+					item: "quark:glowing_glass_item_frame"
+					type: "item"
+				}
+				{
+					id: "1EA0BED204D71710"
+					item: "nyagibits_bytes:tier_zero_strawberry"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: true
+					count: 47L
+					id: "26ACB9F661CEB993"
+					item: "nyagibits_bytes:tier_zero_strawberry"
+					title: "Main Tier 0 Quests"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 11L
+					id: "286C95CC0182FEDF"
+					item: "nyagibits_bytes:tier_zero_strawberry"
+					title: "Welcome Information"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 23L
+					id: "4CE2636F4DF29620"
+					item: "nyagibits_bytes:tier_zero_strawberry"
+					title: "Scale Tree I"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 23L
+					id: "662B28409F5E44C1"
+					item: "nyagibits_bytes:tier_zero_strawberry"
+					title: "Ore Line"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 13L
+					id: "042610D256B837C1"
+					item: "nyagibits_bytes:tier_zero_strawberry"
+					title: "Organics"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3BB2537A76BC51E8"
+					item: "nyagibits_bytes:tier_zero_strawberry"
+					title: "T0 Tutorials"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 7L
+					id: "4D2E1A1EE622F991"
+					item: "nyagibits_bytes:tier_zero_strawberry"
+					title: "T0 Proficiency"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2F71CB70899D9A99"
+					item: "nyagibits_bytes:tier_zero_strawberry"
+					title: "?"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 17L
+					id: "4E13BBED8B51742F"
+					item: "nyagibits_bytes:tier_zero_strawberry"
+					title: "Tools Of Industry"
+					type: "item"
+				}
+			]
+			title: "Tier 0 Mastery"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: ["Congrats, you have mastered Tier 1"]
+			id: "49E9B0C0039CC939"
+			rewards: [
+				{
+					id: "4D8EC93FF4651761"
+					item: "nyagibits_bytes:golden_tier_one_strawberry"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "45FB14E4CE9F9D04"
+					item: "quark:glowing_glass_item_frame"
+					type: "item"
+				}
+				{
+					id: "3EA9F5438A7F4085"
+					item: "nyagibits_bytes:tier_one_strawberry"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				consume_items: false
+				count: 99999999999999L
+				id: "3741710E90E2D253"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			title: "Tier 1 Mastery"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["46FF0B8D87309F93"]
+			description: ["Well that sucked to automate"]
+			id: "447A0F909BA28958"
+			rewards: [{
+				id: "1D327473D0C30D9C"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "2BCA2F8545290768"
+				item: "nyagibits_bytes:ae2_assembly"
+				type: "item"
+			}]
+			title: "A world of cables"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["741704A82A2C1227"]
+			description: ["Still not sure where the hand crank went into this thing"]
+			id: "7312EF48A3AAF71D"
+			rewards: [{
+				id: "33812AC30928F040"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "1E23D3C601E2529E"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "It's rattling inside"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"73D3F42F0A83A1BD"
+				"0FEBD122FD9B951B"
+				"43A5700C5C057104"
+				"3FF9DBDF1744B82B"
+			]
+			description: ["I like KNAWLEDGE"]
+			id: "68833F45298254BF"
+			rewards: [{
+				id: "38CBBA5C2166B9F4"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "25F44D60D3DAD185"
+					item: "nyagibits_bytes:ae2_schematic"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "71967BFFC542DB25"
+					item: "nyagibits_bytes:botania_schematic"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "12A0192E8D38FEEA"
+					item: "nyagibits_bytes:immersive_engineering_schematic"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "473F61FECEAAA3C8"
+					item: "nyagibits_bytes:alchemistry_schematic"
+					type: "item"
+				}
+			]
+			title: "I know how to make thing now!"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2B1226794C380C3A"]
+			description: ["I'm sure all the chemicals that went into this is great for my health"]
+			id: "2E2F1258673AC18B"
+			rewards: [{
+				id: "5D9E13556EDEA2DE"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2048L
+				id: "605BCBFCD243B6D4"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			title: "This ingot makes me want blueberries"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68300CAEDAC23F73"]
+			description: ["With enough stones to flip you can eventually simulate reality.. assuming you dont mess up a bit flip somewhere"]
+			icon: "botania:runic_altar"
+			id: "6F3EFC4FAC1756BA"
+			rewards: [{
+				id: "3E8D7B6BC454BC77"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 512L
+					id: "350C4E771B78DD52"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "002FFF89E7F8A3B8"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "26C5B2D00746D8C0"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 512L
+					id: "621002F4B87271F3"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 256L
+					id: "52BB494F1AA2A84E"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "7F5CAECDB1419070"
+					item: "nyagibits_bytes:rune_catalytic"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 128L
+					id: "403414FAC58E64A9"
+					item: "nyagibits_bytes:rune_magnetic"
+					type: "item"
+				}
+			]
+			title: "Rock Computers"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2749DE946E0BF9CB"]
+			description: ["I'm sure this quest makes server admins feel very safe"]
+			id: "00372E6732444ABF"
+			rewards: [{
+				id: "06ADA16168CA499D"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5024L
+				id: "69B0DC30CE8EBF26"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			title: "KABLEWY!"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"37FAB0261BCDF974"
+				"05CC38E1E327BA2E"
+				"64B7C87F4FB6406C"
+			]
+			description: ["I lost a piece of my soul automating these but now the factory can really pick up pace"]
+			id: "5A77F6106542B766"
+			rewards: [{
+				id: "7C884FC08DCDB0D2"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 256L
+					id: "0E31EDBEE37248BD"
+					item: "nyagibits_bytes:botania_assembly"
+					title: "A Trio of Pain"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "0A059E2FEEA407EC"
+					item: "nyagibits_bytes:alchemistry_assembly"
+					type: "item"
+				}
+				{
+					count: 128L
+					id: "70B0ED3F60B4DEAE"
+					item: "nyagibits_bytes:immersive_assembly"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			description: ["Congrats, You have mastered Tier 2"]
+			id: "2C215F96485014C7"
+			rewards: [
+				{
+					id: "3626837EFF1EF1FA"
+					item: "nyagibits_bytes:golden_tier_two_strawberry"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5C07F0784DF3AA07"
+					item: "quark:glowing_glass_item_frame"
+					type: "item"
+				}
+				{
+					id: "7A4B49E56316B5BB"
+					item: "nyagibits_bytes:tier_two_strawberry"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				count: 999999L
+				id: "7AB3B582EA3B8AAD"
+				item: "nyagibits_bytes:tier_two_strawberry"
+				type: "item"
+			}]
+			title: "Tier 2 Mastery"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3DEB55D883E126E6"]
+			description: ["Agony and suffering is a mod by Vazkii"]
+			id: "7F551DACA7479075"
+			rewards: [{
+				id: "186E12C191A97206"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "3FB6D1C59C527C4D"
+					item: "nyagibits_bytes:endoflame_mush"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 64L
+					id: "5FCDFABF3409AA17"
+					item: "nyagibits_bytes:hydroangeas_mush"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "13E9E9FB734D748C"
+					item: "nyagibits_bytes:entropinnyum_mush"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "0DBF08F217BA7573"
+					item: "nyagibits_bytes:thermalily_mush"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 32L
+					id: "1E47CECF58D69987"
+					item: "nyagibits_bytes:munchdew_mush"
+					type: "item"
+				}
+			]
+			title: "Expensive Mush"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7F547C6C8CC1328F"]
+			description: ["These alloys feel like wriggling insects in my hands, eugh"]
+			id: "32CAC5637CB32DF6"
+			rewards: [{
+				id: "1489E5EF3F8125C6"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "6DD17B5E41EEFD2E"
+				item: "nyagibits_bytes:metamorphic_alloy"
+				type: "item"
+			}]
+			title: "Gender Solid"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08CB5877D8F65C34"]
+			description: ["I should of put glue in these, they keep flying apart!"]
+			id: "523C1D90A1452909"
+			rewards: [{
+				id: "639379CDEFF6B53B"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 512L
+				id: "61A7EA85C18C9111"
+				item: "nyagibits_bytes:ore_extraction_plate"
+				type: "item"
+			}]
+			title: "Borderline Alchemy"
+			x: 2.0d
+			y: -2.0d
+		}
+	]
+	subtitle: [" &fGrind, Optimize, Automate, Thrive"]
+	title: " &fProficiency"
+}

@@ -1,0 +1,319 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_compression"
+	group: ""
+	icon: "nyagibits_bytes:flake"
+	id: "21F4E15F44E66E95"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This pack is designed to be completable without use of the quest book as a guide! "
+				""
+				"&6Automation and YOU! Exists as a source of hints and explanations on more complex and involved aspects of the pack if one feels stuck and unsure how to automate a task&r"
+				""
+				"&bThat being said &rthe quest book exists to serve as a guide for"
+				"people struggling with the spaghetti of the crafting web and points towards "
+				"intended goals."
+				""
+				"&bSomething to note:&r There will be no rewards from this book, just information"
+				""
+				"&cVGhpcyBib29rIHdhcyB3cml0dGVuIGJ5IHRoZSBnb2RzLCBpdCB3aWxsIGxpZSB0byB5b3U="
+			]
+			icon: "minecraft:writable_book"
+			id: "049B4B94A7313B6C"
+			rewards: [{
+				id: "5B41D13FFADA1869"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "This book is optional"
+			tasks: [{
+				id: "57F748DD19327510"
+				title: "Overview on questbook"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Simple Backups is installed to be utilized server side."
+				""
+				"However a manual backup can be triggered with"
+				"&a/simplebackups backup start"
+			]
+			icon: "pneumaticcraft:security_upgrade"
+			id: "5C266BB084E8291E"
+			rewards: [{
+				id: "1B0097A37455DD67"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "22DFECEF9525C8F4"
+				title: "Backups"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Chunkloading is done through FTB quests"
+				""
+				"&6In order to modify the quantity of chunks/forced chunks go to:&r"
+				"&bInstances --> "
+				"&bCompression --> "
+				"&b.minecraft --> "
+				"&bsaves --> "
+				"&d[your world name] --> "
+				"&bftbchunks --> "
+				"&d[open snbt file]"
+				"^"
+				"max_claim_chunks: "
+				"&a[some number]"
+				""
+				"max_force_load_chunks: "
+				"&a[some number &c<=&r &amax_claim_chunks]"
+			]
+			icon: "createchunkloading:chunk_loader"
+			id: "2B2392C9E05EEE54"
+			rewards: [{
+				id: "1F057CB161E136C2"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "063863EBF5133028"
+				title: "Chunkloading"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"You will use &beverything"
+				"&cEvery, &dSingle, &cThing"
+			]
+			icon: "ae2:singularity"
+			id: "05D0BEF6458AB8D9"
+			rewards: [{
+				id: "143D5744594923EF"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "54278B1758C5D0ED"
+				title: "Everything"
+				type: "checkmark"
+			}]
+			title: "Everything"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Oh my god the requirements swell so fast how are we suppose to keep up?"
+				""
+				"Good news! The &bRecipe Scaling &rtab will show you the available recipes you can do to make previous tier items more efficiently"
+			]
+			icon: {
+				Count: 1b
+				id: "megacells:item_storage_cell_256m"
+				tag: { }
+			}
+			id: "2C473A2432696109"
+			rewards: [{
+				id: "79B80E72F9F418C1"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "127C63548C3099FF"
+				title: "Recipe Scaling"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			description: ["&cThis land must be a sort of dumping ground, everything is so... Broken"]
+			icon: "nyagibits_bytes:flake"
+			id: "39B2B73AB851E837"
+			rewards: [{
+				id: "2857AF63582B887A"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4F7D249F207B3FDF"
+				title: "Prison"
+				type: "checkmark"
+			}]
+			title: "&cPrison"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The walls of &dFlake &rare impossible to break through! How am I suppose to mine?!"
+				""
+				"Ores appear exclusively on the surface of the world in massive layered &aboulders.&r"
+				""
+				"&bRecipe Scaling &rhas more information on the processing of the ores themselves"
+				""
+				"&cAlso, don't worry about renewable materials, boulders have roughly &61 million raw ores&r in them&r"
+			]
+			icon: "nyagibits_bytes:raw_banded_iron"
+			id: "7BD5615FF834FB3B"
+			rewards: [{
+				id: "400B7E97D36B1B0A"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07FFD34EBC199E9C"
+				title: "Ores and Mining"
+				type: "checkmark"
+			}]
+			title: "Ores and Mining"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Strawberries as rewards? Yes! Instead of blowing up your inventory with useless cr- garbage, you can collect strawberries to work towards a quest in the &6Proficiency&r tab."
+				""
+				"&dProving a golden is legit gets you a special role in the Compression Discord&r"
+				""
+				"Also &bDO NOT LOOSE THE BERRIES, THERE IS NO WAY TO GET MORE"
+			]
+			icon: "nyagibits_bytes:tier_zero_strawberry"
+			id: "55BE706474A6DB29"
+			rewards: [{
+				id: "44D125E7DC26283A"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1F07C5641437DF5C"
+				title: "Holy bingle Celeste:tm: refrence"
+				type: "checkmark"
+			}]
+			title: "&dStrawberries?"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"&6This tab is dedicated to players who showcase exceptional skill in speed, survivability, or unique problem solving. This tab is updated along side any major version releases or bug fix updates."
+				""
+				""
+				"&bTier 0 Golden Speedrun Record:"
+				"&6ummmpasta - &d133 hr 55 m 12 s&r"
+				""
+				"&cHardcore players beyond Tier 0:"
+				"&6ummmpasta &d[Tier 0]"
+				""
+				"&aGame breakers:"
+				""
+				""
+				"&2Special Thanks to:&r"
+				""
+				"&6ummmpasta&r - Making a huge amount of github bug reports <3"
+			]
+			icon: "nyagibits_bytes:golden_tier_zero_strawberry"
+			id: "37D731BB4473E8B8"
+			rewards: [{
+				id: "088D93CDD28FAB5E"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "26DD74BF61BFBAC0"
+				title: "Special Achivements"
+				type: "checkmark"
+			}]
+			title: "Special Achivements"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Hello! &bThank you&r for checking out Compression"
+				""
+				"As you may notice there are many many &cuncompleted&r quests in Tier 1 along with the following quests being &cempty&r"
+				""
+				"Compression is a &6very long-term project&r similar to GTNH. Meaning the development cycle is purely a \"more gets added per update\" forever and ever"
+				""
+				"Despite so little looking done, the task density past Tier 0 is very high per quest and can comfortably supply a &afew hundred hours&r of gameplay"
+				""
+				"Any un-implemented quests contain an &3icon similar to this quest&r for consistency sake"
+				""
+				"If you do choose to stay for future updates, welcome! And if not, I am happy you chose to check out my project &c<3&r"
+			]
+			icon: "compactmachines:wall"
+			id: "4D9290E8CC180193"
+			rewards: [{
+				id: "21C030BEEA1B7BD2"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FFF2993EEE8ECB8"
+				title: "The quests are about as dense as a star"
+				type: "checkmark"
+			}]
+			title: "Unfinished Pack?"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&nLost as to the questbook? &aNo worries!&r &nHere are the tabs:&r"
+				""
+				"&n&cPath To Null&r is the main progression line. Little guidance is given here and serves as a general path to the \"next step.\" "
+				"------------------------------------------------------------------"
+				"&n&dAutomation and YOU!&r contains &bthree main groups&r-"
+				""
+				"> Information tabs on useful tools under &a&nTools of Industry&r that will help with various tasks in your base. &n"
+				""
+				"> Submit Challenges to claim &6Golden Berries&r under &a&nProficiency&r to prove mastery of a tier "
+				""
+				"> &bSub-Tutorial Chapters&r that give more granular information on the respective tiers in &cPath To Null&r for the cases where you are &eunsure how to best proceed&r between main steps. The quests here also go into far &amore detail as to game mechanics and design philosophy&r when it comes to nailing down what makes for a good functional factory for any &bplayers new to heavy tech-automation&r. And if this is you, thank you for choosing &dCompression&r as your first, you are brave"
+				"------------------------------------------------------------------"
+				"&a&nChemistry and YOU!&r is a chapter with no berry rewards and exists to &6untangle some more insane chemical chains&r since the JEI search can get a bit &cmessed up&r when recipes get absurd"
+				"------------------------------------------------------------------"
+				"&b&nRecipe Scaling&r is all about showing you which most &dprogression-relevant recipes get boosts and when&r. Do keep in mind &6most recipes get scaled versions&r, this set of quests just shows the most relevant of the bunch"
+			]
+			icon: "minecraft:compass"
+			id: "30E3379C21C76154"
+			rewards: [{
+				id: "0B0A0348D36D3937"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31217720D190185D"
+				title: "This way! Onwards!"
+				type: "checkmark"
+			}]
+			title: "&bQuestbook Navigation"
+			x: -2.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Read me!"]
+	title: "&fWelcome to Compression!"
+}

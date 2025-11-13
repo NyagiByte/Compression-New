@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tier_7__a_very_small_sun"
+	group: "6B3B606AC87356A0"
+	icon: "minecraft:nether_star"
+	id: "13B4B27E774FDAB7"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["3BEACE9F3F1EC3AA"]
+		description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+		id: "2D5173EA12F7B0BF"
+		size: 2.0d
+		tasks: [{
+			id: "3553F2D822A3CDF9"
+			item: "nuclearcraft:fusion_core"
+			type: "item"
+		}]
+		title: "Tokomak my Beloved"
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["Only 20 years away!"]
+	title: " &6Tier 7&b - A very small sun"
+}

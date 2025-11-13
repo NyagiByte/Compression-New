@@ -1,0 +1,1150 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "tier_0"
+	group: "6B3B606AC87356A0"
+	icon: "ae2:controller"
+	id: "5777DC61D20EFD38"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"38759235CBA030FE"
+				"202FD86BCA12CFCD"
+				"4BF754A57EA40429"
+			]
+			description: ["The core of your base, channels are on btw"]
+			icon: "ae2:controller"
+			id: "7063B8BCE64899C9"
+			rewards: [{
+				id: "27F8B37C1D21CFE9"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "73D3F42F0A83A1BD"
+				item: "nyagibits_bytes:ae2_schematic"
+				type: "item"
+			}]
+			title: "&bApplied Energistics 2"
+			x: 0.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"7E8C5DB4A0CC311A"
+				"7E87A032289F7370"
+			]
+			description: ["Soil bricks seem to work as jenga brick blocks"]
+			id: "38759235CBA030FE"
+			rewards: [{
+				id: "07EDF5B0F6941D08"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "680935FD9B9368B6"
+				item: "nyagibits_bytes:lab_notebook_with_crude_compression_data"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"7E8C5DB4A0CC311A"
+				"770C7DBC0FB627B2"
+			]
+			description: ["Editors Note: &c\"Adjust the strength of the deployers, it keeps breaking buckets\""]
+			id: "4BF754A57EA40429"
+			rewards: [{
+				id: "25DFD6B32F2BC3BD"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "22C6F852C1E84DB7"
+				item: "nyagibits_bytes:lab_notebook_with_crude_statics_data"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"7E8C5DB4A0CC311A"
+				"3BA93909A397863E"
+			]
+			description: ["&c\"The powder smells like sulfur and tastes just as bad\""]
+			id: "202FD86BCA12CFCD"
+			rewards: [{
+				id: "15E9D789349605B3"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7114FCE4AAC04A38"
+				item: "nyagibits_bytes:lab_notebook_with_crude_entropy_data"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7E87A032289F7370"]
+			description: ["Ah it's just like elementary school again, don't forget your table of contents"]
+			id: "7E8C5DB4A0CC311A"
+			rewards: [{
+				id: "6AB205FF2E507C1A"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4EC93F877CAE313F"
+				item: "nyagibits_bytes:lab_notebook"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["710B939C28B99198"]
+			description: ["The deployer seems to of broken the damn bucket somehow, &cat least I got the data"]
+			id: "770C7DBC0FB627B2"
+			rewards: [{
+				id: "01A0C5ED9014FD50"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "66C2CB353BA9ACCC"
+				item: "nyagibits_bytes:used_crude_statics_test"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4E4521C606190636"]
+			description: ["Ahah! A slab of ground!.. &cI'm not sure what data to write down but that was fun to do"]
+			id: "7E87A032289F7370"
+			rewards: [{
+				id: "394C8BF5F92CA84A"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "310F49926462E83A"
+				item: "nyagibits_bytes:used_crude_compression_test"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6A7830EE46C1F225"]
+			description: ["It's still sizzling..."]
+			id: "3BA93909A397863E"
+			rewards: [{
+				id: "43DD351B65339034"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3A699AF3CFA2955B"
+				item: "nyagibits_bytes:used_crude_entropy_test"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["64859B912D563011"]
+			dependency_requirement: "one_completed"
+			description: ["Salty water, strips of metal, and a flammable ball of wool, perfect to catch a spark"]
+			id: "710B939C28B99198"
+			rewards: [{
+				id: "5102F05F0D69DF88"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7E4B69762581F9B4"
+				item: "nyagibits_bytes:crude_statics_test"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["64859B912D563011"]
+			description: ["A box of dirt, give it a good smush"]
+			id: "4E4521C606190636"
+			rewards: [{
+				id: "574BAE8A8DF0AA61"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0608D8688CC38117"
+				item: "nyagibits_bytes:crude_compression_test"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["64859B912D563011"]
+			description: ["A pouch of very spicy powder"]
+			id: "6A7830EE46C1F225"
+			rewards: [{
+				id: "62572B738C7116F1"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C6DDC90E9425DE7"
+				item: "nyagibits_bytes:crude_entropy_test"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["030A8303B3827284"]
+			description: ["&cThe science can now begin as I can now take notes"]
+			id: "64859B912D563011"
+			rewards: [{
+				id: "31B4410DCB1E6082"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3067DA7A478B50D3"
+				item: "nyagibits_bytes:pen"
+				type: "item"
+			}]
+			title: "Need something to write with after all"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"0301CFDBE4EBB36A"
+				"4BF754A57EA40429"
+				"202FD86BCA12CFCD"
+			]
+			description: ["Remember, \"The point of chemistry is not to be barbaric, the point of chemistry is to play god\" -Explosions and Fire"]
+			icon: "alchemistry:dissolver"
+			id: "177A2060FFFA6932"
+			rewards: [{
+				id: "7E984378E8EC771A"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0FEBD122FD9B951B"
+				item: "nyagibits_bytes:alchemistry_schematic"
+				type: "item"
+			}]
+			title: "&bAlchemistry"
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"202FD86BCA12CFCD"
+				"5B2FAF848FE69A9D"
+			]
+			description: ["Liquid blue.... actually wait that sounds like a drug nvm"]
+			icon: "botania:fabulous_pool"
+			id: "6C86D86CCAEED256"
+			rewards: [{
+				id: "13C8CD13D0758230"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "43A5700C5C057104"
+				item: "nyagibits_bytes:botania_schematic"
+				type: "item"
+			}]
+			title: "&bBotania"
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"3877192A0CE7A58C"
+				"5CF731C7D9CE3BE0"
+			]
+			description: ["The big clink clank machines, we don't need clean air we need STEEL"]
+			icon: {
+				Count: 1b
+				id: "immersiveengineering:hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5FD4E5F7C28806E5"
+			rewards: [{
+				id: "52FB43C1098A00CB"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3FF9DBDF1744B82B"
+				item: "nyagibits_bytes:immersive_engineering_schematic"
+				type: "item"
+			}]
+			title: "&bImmersive Engineering"
+			x: 0.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3E9A1FE5841F94D1"]
+			description: ["Tomatoes are acidic and cabbages are trash at being a pH indicator, noted.."]
+			id: "0301CFDBE4EBB36A"
+			rewards: [{
+				id: "1B407DAFAD2A90C3"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6C3D8044493769EB"
+				item: "nyagibits_bytes:lab_notebook_with_crude_acidics_data"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["45CE62BA434CAC71"]
+			description: ["&6I'm still unsure if this is a magic mod or not, more testing needed"]
+			id: "5B2FAF848FE69A9D"
+			rewards: [{
+				id: "50937DA8A6361B06"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "61F191633AB8A8C2"
+				item: "nyagibits_bytes:lab_notebook_with_crude_natural_arcana_data"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["73BBDB52CEA06B8A"]
+			description: ["I'm not sure how you managed to break the tube rack but we got our data"]
+			id: "3E9A1FE5841F94D1"
+			rewards: [{
+				id: "022BCAC5AAAC2647"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6B309CF1857924B4"
+				item: "nyagibits_bytes:used_crude_acidics_test"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["63572758F873D9AA"]
+			description: ["Wah how did.. it turn into a cherry bonsai"]
+			id: "45CE62BA434CAC71"
+			rewards: [{
+				id: "6FDAC6BE79ABB742"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "68B61C717506A742"
+				item: "nyagibits_bytes:used_crude_natural_arcana_test"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["64859B912D563011"]
+			description: ["The juiced up pulp of tomatoes and cabbages, natural sources of basic pH testing"]
+			id: "73BBDB52CEA06B8A"
+			rewards: [{
+				id: "5B92BF825E3843BC"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4EE4E9AF8B396599"
+				item: "nyagibits_bytes:crude_acidics_test"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["64859B912D563011"]
+			description: [
+				"A pouch of nature stuff and some mixed soil, question remains if this mod is magic or tech.."
+				""
+				"&bSide note: Living root &6(item)&b comes from Living root &a(block) &b-&6 Check pure daisy recipes"
+			]
+			id: "63572758F873D9AA"
+			rewards: [{
+				id: "161EA3C333F661CB"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0AD51114A4A1EEBC"
+				item: "nyagibits_bytes:crude_natural_arcana_test"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0301CFDBE4EBB36A"]
+			description: [
+				"Thats right! Due to the gimmick of \"craft everything\" it only makes sense for future science"
+				"to require the ground breaking work of previous science."
+				""
+				"Don't worry as science will also be subject to &brecipe scaling"
+			]
+			icon: "minecraft:writable_book"
+			id: "6AB5F63B5AD1C84D"
+			rewards: [{
+				id: "76042B8ECDC35100"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "56A23577265585D6"
+				title: "Science in Science?!"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["6AB5F63B5AD1C84D"]
+			description: ["An interesting composite material, should subject it to many conditions to document its properties"]
+			id: "3C40482F07310467"
+			rewards: [{
+				id: "085F616DCE8E3354"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6A23A2FB33C5C8B8"
+				item: "nyagibits_bytes:crude_material_properties_test"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3C40482F07310467"]
+			description: ["Well the material isnt useable anymore but &cat least I know the limits of it now"]
+			id: "63CBF0ED263FF6F9"
+			rewards: [{
+				id: "7E7B92C2BE74D517"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "77C1D7997CA954FE"
+				item: "nyagibits_bytes:used_crude_material_properties_test"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["63CBF0ED263FF6F9"]
+			description: ["&c\"Probably useful in more intensive situations\""]
+			id: "3877192A0CE7A58C"
+			rewards: [{
+				id: "2DA05D015022F14C"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "039327DE4563B7ED"
+				item: "nyagibits_bytes:lab_notebook_with_crude_material_properties_data"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5B2FAF848FE69A9D"]
+			description: [
+				"Alchemistry, Botania, and Immersive Engineering are all interwoven right out of the gate"
+				""
+				"&bYou need all 3 to do anything"
+			]
+			icon: "thermal:enderium_gear"
+			id: "31869F0FD4F46592"
+			rewards: [{
+				id: "2C56388DFB8DD12C"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59E8C43FACF77D82"
+				title: "MASS AUTOMATION UP AHEAD"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["31869F0FD4F46592"]
+			description: [
+				"1) &6Yes I did add these in for the sake of symmetry&r"
+				""
+				"2) This is your warning that each tier increase will demand the previous tier 16 times over!"
+				""
+				"Dont start crying yet tho, as the &bNumber go up&r and &bOre-Line&r exist to show the"
+				"recipe scaling in the pack for raw inputs and ore processing"
+			]
+			icon: "megacells:bulk_cell_component"
+			id: "070987945CDE95A7"
+			rewards: [{
+				id: "285DE098DC57D038"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "2EBAA7808107BB83"
+				title: "Scale will x16 per tier"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["070987945CDE95A7"]
+			description: ["Oh yeah also all those \"manual\" things you did with the petal apothecary and other random things? Go back and automate those if possible. You will need to have an automatic supply of &beverything"]
+			icon: "create:mechanical_crafter"
+			id: "0EFAB63A5ECC5F0C"
+			rewards: [{
+				id: "335E7ADA2F64745B"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D5F8D5E0713C3EA"
+				title: "Automate like your life depends on it"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["0EFAB63A5ECC5F0C"]
+			description: ["Next tier will be where the pack truly begins"]
+			icon: "botania:cosmetic_thinking_hand"
+			id: "5CF731C7D9CE3BE0"
+			rewards: [{
+				id: "3A84775FEF45BD2C"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5AD584B8ABF15397"
+				title: "The tutorial is over, good luck"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"4296F49981434BC7"
+				"741704A82A2C1227"
+			]
+			description: [
+				"The final step in creating the start of the science chain, the mighty Pen"
+				""
+				"&bCan also place blocks and use tools given to it, go get that &epure daisy&b automated yeah? &bGiving it &eshears&b will also enable you to finally harvest &dVines&b automagically"
+				""
+				"&bAs a tip you can time the collection using an &6Etho Hopper Clock,&b or build a detector using &6observers"
+			]
+			id: "030A8303B3827284"
+			rewards: [{
+				id: "5C9D75DA7C0D6AAC"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				id: "0799D4950F270121"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "&bLook what I can do! *Points*"
+			x: 0.5006802721088732d
+			y: 4.592006802721102d
+		}
+		{
+			dependencies: ["741704A82A2C1227"]
+			description: ["You need a lot of these, so &6I made it so you get 8 at once, enjoy!"]
+			id: "4296F49981434BC7"
+			rewards: [{
+				id: "15544E12A4553151"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "350AE5130ED396EB"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "What if we made crafting but bigger"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"13F74400CE10E339"
+				"4B89973C8D23D164"
+				"1BD36FA92BAF1CAC"
+				"4CBFDFBD1A71E6B4"
+				"4FFC0930D0539B28"
+				"02903DDEA28657F2"
+			]
+			description: ["A box with all sorts of goodies for more complex machinery"]
+			id: "733F9A8147398E52"
+			rewards: [{
+				id: "3AB02D9157DD4EA2"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3B92DA48D0E31A80"
+				item: "nyagibits_bytes:pile_of_crude_mechanical_parts"
+				type: "item"
+			}]
+			title: "All the bits and bobs"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"733F9A8147398E52"
+				"02903DDEA28657F2"
+			]
+			description: [
+				"Congrats! Almost half way through"
+				""
+				"&bAlso don't forget to check uses, some items get a boosted yield if using this casing"
+			]
+			id: "741704A82A2C1227"
+			rewards: [{
+				id: "11E31005AE0FE5D1"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "507536FB62D0B659"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Upgrading already?!"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B89973C8D23D164"]
+			description: ["Don't dodge it I was trying to give it to you!"]
+			id: "13F74400CE10E339"
+			rewards: [{
+				id: "6E665DAC65C23F46"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3A702304ACF5B85E"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "If You Can Dodge a Wrench..."
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["02903DDEA28657F2"]
+			description: [
+				"&6I was forced by chat to give it this title I'm very sorry"
+				""
+				"&bImportant information on create \"power\""
+				""
+				"&aThings like water wheels, wind turbines, hand cranks, and steam engines, make SU (Stress Units)"
+				""
+				"&aMachines use SU as their power source. The faster they are the more they consume"
+				""
+				"&dIf you use more SU than you are making, your system will &clock up&d until machines are removed or your SU input is upgraded by adding more of it, or connecting more powerful SU sources"
+			]
+			id: "4B89973C8D23D164"
+			rewards: [{
+				id: "2C35C83E04678DBF"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "586D1940C06DB3D1"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "603C3AE2CDB0E304"
+					item: "create:water_wheel"
+					type: "item"
+				}
+			]
+			title: "Bonking your Concussy"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"02903DDEA28657F2"
+				"4B89973C8D23D164"
+			]
+			description: ["Usually used for shapeless crafting, but has some required use cases"]
+			icon: "create:mechanical_mixer"
+			id: "1BD36FA92BAF1CAC"
+			rewards: [{
+				id: "6F1A7B711642CBC2"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "18B77AE1A2345941"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "2CAF1332F667B3F4"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "WHISK VIGOROUSLY"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0AC123B7AB13C51E"
+				"1F07598A05563B29"
+				"5CFD9FE2895407B0"
+				"4B89973C8D23D164"
+			]
+			description: [
+				"Chuck some fuel into it, it loves to take naps while working"
+				""
+				"&bI heard it also like eggs"
+			]
+			id: "4CBFDFBD1A71E6B4"
+			rewards: [{
+				id: "1355FF5BDE4B75AC"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6BD9889E1AD6919F"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "A Very Angry Box"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"02903DDEA28657F2"
+				"4B89973C8D23D164"
+			]
+			description: [
+				"Many mechanical toys to begin building your factory!"
+				""
+				"&bA quick run down of expected use cases for early automation:"
+				""
+				"&aDrill - &fGet that &dcobblestone&r generator running!"
+				"---------------------------------"
+				"&aMillstone - &fAll that passive cobble? Crush it into &dgravel&r and &dflint"
+				"---------------------------------"
+				"&aHarvester - &dWheat, Cabbage, Tomatoes, Hemp,&r and &dKelp&r are all vital to have stocked up"
+				"---------------------------------"
+				"&aSaw - &rTree farms galore for all that needed &dWood.&r Can also be used in factory lines to further process into &dplanks"
+				"---------------------------------"
+				"&aFan - &rFans can entirely replace the function of &eFurnaces, Smokers,&r and &eBlast Furnaces&r get that &dSmooth stone, Glass, &rand &dDried Kelp&r on those production lines"
+			]
+			id: "0601DBB1C7FD9207"
+			rewards: [{
+				id: "754E41B97AE3BF6C"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5A23586E0983FB27"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					id: "78E23AC9CA48FBA1"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "14E40C2279534A6C"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "18A6CFBBDCED7A01"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "60C5BBA3B8F278D2"
+					item: "create:encased_fan"
+					type: "item"
+				}
+			]
+			title: "Expensive but Necessary"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"12356B8E644A1A52"
+				"4D339608203DD4F6"
+			]
+			description: ["Your very first casing"]
+			id: "02903DDEA28657F2"
+			rewards: [{
+				id: "6E6725E456AB4C26"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "72F82A610908D973"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "Mechanical Fun"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4D339608203DD4F6"]
+			description: ["&cWhat a mess.. There are other dimensions biomes here. Could be useful"]
+			icon: "minecraft:blaze_spawn_egg"
+			id: "0AC123B7AB13C51E"
+			rewards: [{
+				id: "46D6199E664BEB69"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5A690B875B57527B"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			title: "A Fortress of Fire"
+			x: -0.5714285714285836d
+			y: -3.810374149659843d
+		}
+		{
+			dependencies: ["4D339608203DD4F6"]
+			description: ["Hmm TNT seems to be locked behind advanced chemistry, &chow else would I explode some iron..."]
+			icon: "minecraft:creeper_head"
+			id: "1F07598A05563B29"
+			rewards: [{
+				id: "12D35C4CA5694117"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "35DBAAAABE58EAF2"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			title: "An Explosive Puzzle"
+			x: 1.5952380952380807d
+			y: -3.810374149659843d
+		}
+		{
+			dependencies: ["12356B8E644A1A52"]
+			description: ["Smooth out those bumps and lumps"]
+			icon: {
+				Count: 1b
+				id: "create:sand_paper"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5CFD9FE2895407B0"
+			rewards: [{
+				id: "0C6FAB2AFA5338DA"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "5D1DFD46B11DA900"
+					item: "botania:polished_livingrock"
+					type: "item"
+				}
+				{
+					id: "0CF30DA7F331D8EE"
+					item: {
+						Count: 1b
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Elbow Grease"
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5CFD9FE2895407B0"
+				"4D339608203DD4F6"
+			]
+			description: ["Not to be confused for the space dictator"]
+			id: "4FFC0930D0539B28"
+			rewards: [{
+				id: "50E17FD284B3FE4C"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "20049AD89B7CCBE6"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			title: "OOOO Shiny"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["001D3CBD7E6EA142"]
+			description: [
+				"Garden of Glass is enabled! Shift right click &aGrass &rto get pebbles"
+				""
+				"&bYou can break living stone with your hands btw"
+			]
+			id: "12356B8E644A1A52"
+			rewards: [{
+				id: "70A86D35F52BD83E"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "40768696BABB2B65"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					id: "3157671F87E36F63"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+			]
+			title: "Living Blocks and You!"
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5E7D0899ECE970A7"]
+			description: [
+				"&cI wonder if sentient rocks feel pain when you break them"
+				""
+				"&c--------->&r &6IMPORTANT &c<---------&r"
+				"&c--------->&r &6IMPORTANT &c<---------&r"
+				"&c--------->&r &6IMPORTANT &c<---------&r"
+				"&aPETAL INPUTS ARE&r &dFORGE TAGGED&r, &bANY PETALS ACCEPTED&r"
+				""
+				"The Pure Daisy has a ponder! Hold [w] on the item to see how it functions!"
+				""
+				"&aYou will know it is working when you see particles appear on the block"
+			]
+			icon: "botania:pure_daisy"
+			id: "001D3CBD7E6EA142"
+			rewards: [{
+				id: "3566DF29F3FCFD6D"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B74476D0F789202"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			title: "Pretty Flowa"
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6F66FCCD63752DC8"]
+			description: [
+				"The All In One Tool!"
+				""
+				"&cNote: Not all top layers of ore boulders can be mined with this tool, more &dcreative&c solutions are required"
+			]
+			id: "4D339608203DD4F6"
+			rewards: [{
+				id: "4CF70BC70865FA48"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4AD71BFFD5D74D37"
+				item: {
+					Count: 1b
+					id: "aiotbotania:livingrock_aiot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "The picaxlhoe, The axickvle, The..."
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["12356B8E644A1A52"]
+			description: ["Finally something to chip off the top layer of these &bore boulders"]
+			id: "6F66FCCD63752DC8"
+			rewards: [{
+				id: "6DE912734723EF10"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4F105E638E690E29"
+				item: {
+					Count: 1b
+					id: "aiotbotania:livingrock_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Finally Digging!"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			description: ["A lil pool of water for plants and various sludges"]
+			icon: "botania:apothecary_forest"
+			id: "5E7D0899ECE970A7"
+			rewards: [{
+				id: "71ACF730C613F9AF"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "4F4F280C54A38131"
+					item: "botania:apothecary_default"
+					type: "item"
+				}
+				{
+					id: "023CD1E46933C826"
+					item: {
+						Count: 1b
+						id: "botania:water_bowl"
+						tag: {
+							Fluid: {
+								Amount: 1000
+								FluidName: "minecraft:water"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&dThe Start"
+			x: 0.5051020408163183d
+			y: -9.1812925170068d
+		}
+	]
+	subtitle: ["The Tutorial"]
+	title: " &6Tier 0&b - Learning the Ropes"
+}
