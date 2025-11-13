@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "byg:ebony_planks"}
-    ],
-    "results": [
-      {"item": "everycomp:hnh/byg/ebony_sanded_wood"}
-    ]
-}

@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "minecraft:spruce_planks"}
-    ],
-    "results": [
-      {"item": "hnh:spruce_sanded_wood"}
-    ]
-  }

@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "minecraft:dark_oak_planks"}
-    ],
-    "results": [
-      {"item": "hnh:dark_oak_sanded_wood"}
-    ]
-  }

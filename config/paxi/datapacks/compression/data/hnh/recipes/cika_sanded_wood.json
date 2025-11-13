@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "byg:cika_planks"}
-    ],
-    "results": [
-      {"item": "everycomp:hnh/byg/cika_sanded_wood"}
-    ]
-}

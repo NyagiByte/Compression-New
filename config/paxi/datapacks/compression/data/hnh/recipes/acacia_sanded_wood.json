@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "minecraft:acacia_planks"}
-    ],
-    "results": [
-      {"item": "hnh:acacia_sanded_wood"}
-    ]
-  }

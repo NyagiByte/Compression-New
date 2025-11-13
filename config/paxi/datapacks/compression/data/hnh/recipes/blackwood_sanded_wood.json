@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "abyssal_decor:blackwood_planks"}
-    ],
-    "results": [
-      {"item": "everycomp:hnh/abyssal_decor/blackwood_sanded_wood"}
-    ]
-}

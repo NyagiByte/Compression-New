@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "abyssal_decor:cinnamon_planks"}
-    ],
-    "results": [
-      {"item": "everycomp:hnh/abyssal_decor/cinnamon_sanded_wood"}
-    ]
-}

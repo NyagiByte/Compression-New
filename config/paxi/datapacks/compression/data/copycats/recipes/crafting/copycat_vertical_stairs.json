@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "count": 4,
-    "ingredient": {
-      "item": "chemlib:zinc_ingot"
-    },
-    "result": "copycats:copycat_vertical_stairs"
-  }

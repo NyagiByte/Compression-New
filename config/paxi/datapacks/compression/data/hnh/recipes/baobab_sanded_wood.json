@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "byg:baobab_planks"}
-    ],
-    "results": [
-      {"item": "everycomp:hnh/byg/baobab_sanded_wood"}
-    ]
-}

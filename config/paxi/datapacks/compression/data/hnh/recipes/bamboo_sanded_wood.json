@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "quark:bamboo_planks"}
-    ],
-    "results": [
-      {"item": "everycomp:hnh/quark/bamboo_sanded_wood"}
-    ]
-}

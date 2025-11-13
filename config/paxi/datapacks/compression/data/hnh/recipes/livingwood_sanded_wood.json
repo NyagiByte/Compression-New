@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "botania:livivngwood_planks"}
-    ],
-    "results": [
-      {"item": "everycomp:hnh/botania/livivngwood_sanded_wood"}
-    ]
-}

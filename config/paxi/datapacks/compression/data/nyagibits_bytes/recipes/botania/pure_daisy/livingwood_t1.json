@@ -1,9 +1,0 @@
-{
-  "type": "botania:state_copying_pure_daisy",
-  "input": {
-    "type": "tag",
-    "tag": "forge:glimmering_woods"
-  },
-  "time": 38,
-  "output": "botania:livingwood_log"
-}

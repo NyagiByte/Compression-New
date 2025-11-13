@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "quark:ancient_planks"}
-    ],
-    "results": [
-      {"item": "everycomp:hnh/quark/ancient_sanded_wood"}
-    ]
-}

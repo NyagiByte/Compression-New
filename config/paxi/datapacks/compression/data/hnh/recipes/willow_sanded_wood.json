@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "byg:willow_planks"}
-    ],
-    "results": [
-      {"item": "everycomp:hnh/byg/willow_sanded_wood"}
-    ]
-}

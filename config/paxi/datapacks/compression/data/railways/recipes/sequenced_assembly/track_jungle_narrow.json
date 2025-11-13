@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "count": 1,
-    "ingredient": {
-      "item": "railways:track_jungle"
-    },
-    "result": "railways:track_jungle_narrow"
-  }

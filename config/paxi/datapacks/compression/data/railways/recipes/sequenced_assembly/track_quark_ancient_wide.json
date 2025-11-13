@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "count": 1,
-    "ingredient": {
-      "item": "railways:track_quark_ancient"
-    },
-    "result": "railways:track_quark_ancient_wide"
-  }

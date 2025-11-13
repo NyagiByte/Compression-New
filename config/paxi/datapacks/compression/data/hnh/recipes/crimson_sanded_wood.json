@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "minecraft:crimson_planks"}
-    ],
-    "results": [
-      {"item": "hnh:crimson_sanded_wood"}
-    ]
-  }

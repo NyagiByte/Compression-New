@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "byg:nightshade_planks"}
-    ],
-    "results": [
-      {"item": "everycomp:hnh/byg/nightshade_sanded_wood"}
-    ]
-}

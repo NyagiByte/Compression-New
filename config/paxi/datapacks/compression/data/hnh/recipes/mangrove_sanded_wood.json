@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "minecraft:mangrove_planks"}
-    ],
-    "results": [
-      {"item": "hnh:mangrove_sanded_wood"}
-    ]
-  }

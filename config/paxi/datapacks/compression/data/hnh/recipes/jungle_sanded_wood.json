@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "minecraft:jungle_planks"}
-    ],
-    "results": [
-      {"item": "hnh:jungle_sanded_wood"}
-    ]
-  }

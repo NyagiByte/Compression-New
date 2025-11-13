@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "byg:maple_planks"}
-    ],
-    "results": [
-      {"item": "everycomp:hnh/byg/maple_sanded_wood"}
-    ]
-}

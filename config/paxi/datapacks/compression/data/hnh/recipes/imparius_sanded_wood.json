@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "byg:imparius_planks"}
-    ],
-    "results": [
-      {"item": "everycomp:hnh/byg/imparius_sanded_wood"}
-    ]
-}

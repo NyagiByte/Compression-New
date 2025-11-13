@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "byg:aspen_planks"}
-    ],
-    "results": [
-      {"item": "everycomp:hnh/byg/aspen_sanded_wood"}
-    ]
-}

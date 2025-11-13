@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "count": 1,
-    "ingredient": {
-      "item": "railways:track_ender"
-    },
-    "result": "railways:track_ender_wide"
-  }

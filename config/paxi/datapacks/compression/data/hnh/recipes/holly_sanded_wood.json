@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "byg:holly_planks"}
-    ],
-    "results": [
-      {"item": "everycomp:hnh/byg/holly_sanded_wood"}
-    ]
-}

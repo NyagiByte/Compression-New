@@ -1,9 +1,0 @@
-{
-    "type": "create:sandpaper_polishing",
-    "ingredients": [
-      {"item": "minecraft:warped_planks"}
-    ],
-    "results": [
-      {"item": "hnh:warped_sanded_wood"}
-    ]
-  }

@@ -1,8 +1,0 @@
-{
-    "type": "minecraft:stonecutting",
-    "count": 1,
-    "ingredient": {
-      "item": "railways:track_create_andesite_narrow"
-    },
-    "result": "create:track"
-  }
