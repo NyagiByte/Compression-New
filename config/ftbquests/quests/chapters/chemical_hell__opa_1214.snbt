@@ -6,11 +6,7 @@
 	icon: "chemlib:manganese_dust"
 	id: "2E17A5B07EF23284"
 	images: [{
-		click: ""
-		corner: false
-		dev: false
 		height: 1.0d
-		hover: [ ]
 		image: "nyagibits_bytes:block/block_of_1080_high_carbon_steel"
 		rotation: 0.0d
 		width: 1.0d

@@ -3,7 +3,7 @@
   "ingredient": {"item": "nyagibits_bytes:ae2_assembly"},
   "loops": 1,
   "results": [
-    {"item": "ae2:quartz_growth_accelerator"}
+    {"item": "ae2:growth_accelerator"}
   ],
   "sequence": [
     {

@@ -298,7 +298,7 @@
 			]
 			description: ["The big clink clank machines, we don't need clean air we need STEEL"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "immersiveengineering:hammer"
 				tag: {
 					Damage: 0
@@ -937,7 +937,7 @@
 			dependencies: ["12356B8E644A1A52"]
 			description: ["Smooth out those bumps and lumps"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "create:sand_paper"
 				tag: {
 					Damage: 0
@@ -959,7 +959,7 @@
 				{
 					id: "0CF30DA7F331D8EE"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create:sand_paper"
 						tag: {
 							Damage: 0
@@ -1071,7 +1071,7 @@
 			tasks: [{
 				id: "4AD71BFFD5D74D37"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aiotbotania:livingrock_aiot"
 					tag: {
 						Damage: 0
@@ -1096,7 +1096,7 @@
 			tasks: [{
 				id: "4F105E638E690E29"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aiotbotania:livingrock_pickaxe"
 					tag: {
 						Damage: 0
@@ -1128,7 +1128,7 @@
 				{
 					id: "023CD1E46933C826"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:water_bowl"
 						tag: {
 							Fluid: {

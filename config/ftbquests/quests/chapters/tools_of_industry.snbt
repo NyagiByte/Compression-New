@@ -26,7 +26,7 @@
 			tasks: [{
 				id: "7C3F5601A2CD4C0C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:copper_diving_boots"
 					tag: {
 						Damage: 0
@@ -59,7 +59,7 @@
 			tasks: [{
 				id: "7609FD0E2AD1B0C1"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:copper_diving_helmet"
 					tag: {
 						Damage: 0
@@ -89,7 +89,7 @@
 			tasks: [{
 				id: "362E94AACCCC240D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:copper_backtank"
 					tag: {
 						Air: 900
@@ -122,7 +122,7 @@
 			tasks: [{
 				id: "11C9FDC9ACB8A34E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:extendo_grip"
 					tag: {
 						Damage: 0
@@ -354,7 +354,7 @@
 			tasks: [{
 				id: "30C6D0659F7FC965"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "constructionwand:stone_wand"
 					tag: {
 						Damage: 0
@@ -386,7 +386,7 @@
 			tasks: [{
 				id: "3D09B673B437F5FF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "constructionwand:iron_wand"
 					tag: {
 						Damage: 0
@@ -418,7 +418,7 @@
 			tasks: [{
 				id: "4827E4F21B39D325"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "constructionwand:diamond_wand"
 					tag: {
 						Damage: 0
@@ -450,7 +450,7 @@
 			tasks: [{
 				id: "2152496664FDC83E"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "constructionwand:infinity_wand"
 					tag: {
 						wand_options: { }
@@ -496,7 +496,7 @@
 			tasks: [{
 				id: "3EB3521FD5433F4D"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "immersiveengineering:hammer"
 					tag: {
 						Damage: 0
@@ -605,7 +605,7 @@
 			tasks: [{
 				id: "71E817E386540DD3"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:memory_card"
 					tag: { }
 				}
@@ -640,7 +640,7 @@
 			tasks: [{
 				id: "08F5C72CB76C85E2"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:color_applicator"
 					tag: { }
 				}
@@ -704,7 +704,7 @@
 			tasks: [{
 				id: "14D15D14712F0293"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:matter_cannon"
 					tag: { }
 				}
@@ -731,7 +731,7 @@
 			tasks: [{
 				id: "4C77FD85523245F0"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:twig_wand"
 					tag: {
 						color1: 0
@@ -811,7 +811,7 @@
 			tasks: [{
 				id: "69A3C8562423258B"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "vc_gliders:paraglider_netherite"
 					tag: {
 						Damage: 0

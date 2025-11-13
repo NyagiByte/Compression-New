@@ -64,7 +64,7 @@
 				"256F108BD683D592"
 			]
 			description: ["En massa levande material som visas i figur sju b. Vänligen sjunga ritualen som beskrivs i avsnitt fem"]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "nyagibits_bytes:botania_assembly"
 			id: "37FAB0261BCDF974"
 			rewards: [{
@@ -77,7 +77,7 @@
 				{
 					id: "481A203D7947955D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "botania:twig_wand"
 						tag: {
 							color1: 0
@@ -280,7 +280,7 @@
 				{
 					id: "4F4A5C59D2E78C81"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "immersiveengineering:hammer"
 						tag: {
 							Damage: 0
@@ -887,7 +887,7 @@
 			tasks: [{
 				id: "710B7AF3C3025D08"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "aiotbotania:manasteel_aiot"
 					tag: {
 						Damage: 0
@@ -1539,7 +1539,7 @@
 				count: 3L
 				id: "0A3C719F32C12234"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "immersiveengineering:graphite_electrode"
 					tag: {
 						graphDmg: 0
@@ -1960,7 +1960,7 @@
 				{
 					id: "6DC8E54323492EC8"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "immersiveengineering:survey_tools"
 						tag: {
 							Damage: 0
@@ -2092,7 +2092,7 @@
 			tasks: [{
 				id: "330F4923DB14471A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "itemfilters:tag"
 					tag: {
 						value: "botania:floating_flowers"
@@ -2546,8 +2546,8 @@
 				"&cPlease stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please s&k&4t&r&cop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Ple&k&4a&r&cse stop \\nPlease stop Please stop Please stop \\nPlease stop Please sto&k&4p&r&c Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please s&k&4t&r&cop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please st&k&4o&r&cp \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop&k&4ii&r&cPlease &k&4s&r&ctop Please stop \\nPlease stop Please stop Please&k&4ii&r&cstop \\nPlease stop Please stop Please stop \\nPlease stop Please&k&4ii&r&cstop &k&4P&r&clease stop \\nPlease &k&4s&r&ctop Please stop Please stop \\nPlease stop Please sto&k&4p&r&c Please stop \\nPlease stop Please stop Please stop \\nPlease stop Plea&k&4s&r&ce stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Plea&k&4s&r&ce stop Please stop \\nPlea&k&4s&r&ce stop Please stop &k&4P&r&clease stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Pl&k&4e&r&case stop \\nPlease sto&k&4p&r&c Please stop Please stop \\nPlease stop Please stop Please st&k&4o&r&cp \\nPle&k&4a&r&cse stop Please sto&k&4p&r&c Please stop \\nPlease stop &k&4P&r&clease stop Please stop \\nPlease stop Please stop Please stop \\nPlease sto&k&4p&r&c Please stop Pl&k&4e&r&case stop \\nPleas&k&4e&r&c stop Please stop&k&4ii&r&cPlease stop \\nPlease&k&4ii&r&cstop Please stop Please sto&k&4p&r&c \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please stop Please stop&k&4ii&r&c\\nPlease st&k&4o&r&cp Please stop Please stop \\nPlease stop Please stop Please stop \\nP&k&4l&r&cease stop Please stop&k&4ii&r&cPlease st&k&4o&r&cp \\nPlease stop Pl&k&4e&r&case stop Ple&k&4a&r&cse stop \\nPlea&k&4s&r&ce stop Please stop Please sto&k&4p&r&c \\nPlease stop Please stop&k&4ii&r&cPlease stop \\nPlease stop Pl&k&4e&r&case stop Please stop \\nPlease stop Please&k&4ii&r&cstop Please stop \\nPlease stop &k&4P&r&clease stop P&k&4l&r&cease stop \\nP&k&4l&r&cease stop Please stop Please stop &k&4\\nP&r&clease stop Please stop Pl&k&4ea&r&cse stop \\nPlease st&k&4o&r&cp Please&k&4ii&r&cstop Please stop \\nPlease &k&4s&r&ctop &k&4P&r&clease stop Please s&k&4t&r&cop \\nPlease stop Please &k&4s&r&ctop Please &k&4s&r&ctop \\nPlease stop Please stop Please stop \\nPlea&k&4se&r&c stop Please stop Please s&k&4t&r&cop&k&4ii&r&c\\nPlease stop Please stop Please stop \\nPlease stop Please sto&k&4p&r&c Please stop \\nPlease stop P&k&4l&r&cease stop Please stop&k&4ii&r&c\\nPlease s&k&4t&r&cop Please stop &k&4P&r&clease st&k&4o&r&cp \\nPlease&k&4ii&r&cstop&k&4ii&r&cPleas&k&4e&r&c &k&4s&r&ctop Please&k&4ii&r&cstop &k&4\\nP&r&clease stop P&k&4l&r&cease stop &k&4P&r&clease sto&k&4p&r&c \\nPlease stop Please&k&4ii&r&cstop P&k&4l&r&cease&k&4ii&r&cstop \\nPlease stop &k&4P&r&clease stop Pl&k&4e&r&ca&k&4s&r&ce stop \\nPlease sto&k&4p&r&c P&k&4l&r&cease s&k&4t&r&cop Pl&k&4ea&r&cse sto&k&4p&r&c \\nPlease stop Pleas&k&4e&r&c stop P&k&4l&r&ce&k&4a&r&cse sto&k&4p&r&c \\nPlease stop Please stop Plea&k&4s&r&ce stop \\nP&k&4l&r&ceas&k&4e&r&c stop &k&4P&r&clease s&k&4t&r&cop Please stop \\nPleas&k&4e&r&c &k&4s&r&ctop &k&4P&r&clease sto&k&4p&r&c Please sto&k&4p&r&c \\nPle&k&4as&r&ce stop P&k&4l&r&cease stop Please stop \\nPlease stop Please stop Please stop \\nPlease stop Please sto&k&4p&r&c Please stop \\nPlease stop Please stop Pl&k&4e&r&cas&k&4e&r&c sto&k&4p&r&c \\nPlease &k&4s&r&ctop P&k&4le&r&case stop Pl&k&4e&r&ca&k&4s&r&ce stop \\nPlease &k&4s&r&ctop Pleas&k&4e&r&c stop Please stop \\nPle&k&4a&r&cse&k&4ii&r&cstop P&k&4l&r&ceas&k&4e&r&c s&k&4t&r&co&k&4p&r&c &k&4P&r&cleas&k&4e&r&c &k&4s&r&ctop \\nPlease stop &k&4P&r&clease s&k&4t&r&cop&k&4iiP&r&clease stop \\nPlease stop&k&4ii&r&cPlease stop Ple&k&4a&r&cse stop&k&4ii&r&c\\nPlease &k&4s&r&ctop Pl&k&4e&r&case stop &k&4P&r&clea&k&4s&r&ce stop \\nP&k&4l&r&ce&k&4a&r&cse st&k&4o&r&cp&k&4ii&r&cPle&k&4a&r&cse stop&k&4iiPl&r&cease sto&k&4p&r&c &k&4\\nP&r&cleas&k&4e&r&c stop Ple&k&4a&r&cse stop&k&4ii&r&cPlease stop \\nPlease&k&4ii&r&cstop Pl&k&4e&r&ca&k&4s&r&ce&k&4ii&r&cstop Please stop&k&4ii\\nP&r&clea&k&4s&r&ce stop Plea&k&4s&r&ce st&k&4o&r&cp Please stop \\nPl&k&4e&r&case stop Please&k&4ii&r&cstop P&k&4l&r&cease stop \\nPleas&k&4e&r&c stop Pl&k&4e&r&case stop Please stop \\nPleas&k&4e&r&c s&k&4t&r&cop Pl&k&4e&r&case stop Please stop \\nPle&k&4a&r&cse s&k&4t&r&cop&k&4ii&r&cPlease &k&4s&r&ctop Pleas&k&4e&r&c stop \\nPlease stop Please &k&4s&r&cto&k&4p&r&c P&k&4l&r&cease&k&4ii&r&cstop \\nPlease&k&4ii&r&cstop P&k&4l&r&cease&k&4ii&r&cstop&k&4iiP&r&clease &k&4s&r&ctop&k&4ii\\nP&r&clease stop Please stop Plea&k&4s&r&ce &k&4s&r&ct&k&4op&r&c \\nPleas&k&4e&r&c st&k&4o&r&cp&k&4iiP&r&clease&k&4ii&r&cstop Pl&k&4ea&r&cse&k&4ii&r&cst&k&4op&r&c \\nPlease&k&4ii&r&cstop Please st&k&4o&r&cp&k&4ii&r&cP&k&4le&r&ca&k&4se&r&c &k&4s&r&ctop \\nP&k&4l&r&cease stop P&k&4l&r&ceas&k&4eiis&r&ctop Please stop \\nPlease stop Please stop Pleas&k&4eii&r&cs&k&4t&r&cop \\nPlease s&k&4t&r&cop Please sto&k&4p&r&c Pl&k&4e&r&case stop &k&4\\nP&r&cle&k&4a&r&cse s&k&4t&r&cop&k&4iiP&r&clease stop&k&4ii&r&cPlease stop &k&4\\nP&r&clease sto&k&4p&r&c Pleas&k&4e&r&c stop&k&4ii&r&cP&k&4l&r&ceas&k&4e&r&c sto&k&4p&r&c \\nPlease stop Please&k&4ii&r&cs&k&4t&r&co&k&4pii&r&cP&k&4l&r&cease &k&4s&r&ctop \\nP&k&4l&r&ceas&k&4eii&r&cs&k&4t&r&cop Plea&k&4seii&r&cstop Please sto&k&4pii&r&c\\nPl&k&4e&r&case &k&4s&r&ctop Pleas&k&4eii&r&cstop Pl&k&4e&r&ca&k&4s&r&ce stop \\nP&k&4le&r&case &k&4s&r&ctop Ple&k&4a&r&cse sto&k&4p&r&c P&k&4l&r&cea&k&4s&r&ce&k&4ii&r&cstop&k&4ii&r&c\\nP&k&4l&r&cease st&k&4op&r&c Ple&k&4a&r&cse stop &k&4P&r&clea&k&4s&r&ce&k&4ii&r&cst&k&4op&r&c \\nPlease stop Please st&k&4o&r&cp Ple&k&4a&r&cse s&k&4t&r&cop \\nPle&k&4a&r&cse&k&4ii&r&cstop P&k&4l&r&ceas&k&4e&r&c st&k&4o&r&cp Ple&k&4a&r&cs&k&4e&r&c &k&4s&r&ctop \\nPle&k&4a&r&cse s&k&4t&r&cop Pleas&k&4e&r&c stop&k&4ii&r&cPle&k&4a&r&cse sto&k&4p&r&c \\nP&k&4l&r&cease stop Ple&k&4a&r&cse stop &k&4P&r&cl&k&4e&r&case st&k&4o&r&cp \\nP&k&4l&r&ce&k&4ase&r&c stop&k&4ii&r&cPlea&k&4s&r&ce&k&4ii&r&cs&k&4to&r&cp P&k&4l&r&cease sto&k&4p&r&c \\nPle&k&4as&r&ce s&k&4t&r&cop Ple&k&4as&r&ce stop &k&4P&r&clease s&k&4t&r&cop &k&4\\nP&r&clease stop Plea&k&4s&r&ce &k&4s&r&ctop&k&4ii&r&cPl&k&4e&r&cas&k&4eiis&r&ctop &k&4\\nP&r&cl&k&4e&r&case stop &k&4Pl&r&cease sto&k&4p&r&c Plea&k&4s&r&ce stop \\nPlease stop&k&4ii&r&cPl&k&4e&r&cas&k&4eii&r&cst&k&4op&r&c Please sto&k&4p&r&c \\nPlea&k&4s&r&ce st&k&4op&r&c P&k&4l&r&ceas&k&4e&r&c &k&4s&r&ct&k&4o&r&cp Pleas&k&4e&r&c sto&k&4pii\\nPl&r&ce&k&4ase&r&c &k&4s&r&ct&k&4o&r&cp Plea&k&4s&r&ce stop&k&4iiP&r&cle&k&4a&r&cse &k&4sto&r&cp \\nPle&k&4as&r&ce&k&4iistop&r&c Pleas&k&4e&r&c &k&4s&r&ctop Please st&k&4o&r&cp \\nP&k&4l&r&ceas&k&4eii&r&cstop P&k&4l&r&ceas&k&4e&r&c stop &k&4Pl&r&cease s&k&4to&r&cp&k&4ii\\nPl&r&ceas&k&4e&r&c stop&k&4ii&r&cPle&k&4a&r&cse s&k&4t&r&cop Plea&k&4s&r&ce stop &k&4\\nP&r&cl&k&4e&r&ca&k&4se&r&c stop Pl&k&4e&r&ca&k&4s&r&ce s&k&4to&r&cp Please s&k&4t&r&cop \\nPlea&k&4s&r&ce st&k&4o&r&cp&k&4iiP&r&cle&k&4ase&r&c &k&4st&r&cop Pleas&k&4eii&r&cstop \\nPl&k&4ea&r&cse s&k&4t&r&co&k&4p&r&c &k&4P&r&clease &k&4st&r&cop&k&4ii&r&cPle&k&4ase&r&c st&k&4o&r&cp&k&4ii\\nP&r&cl&k&4ea&r&cse&k&4ii&r&cs&k&4t&r&cop&k&4iiP&r&cle&k&4as&r&ce sto&k&4p&r&c Please stop \\nPle&k&4as&r&ce st&k&4op&r&c &k&4P&r&cle&k&4a&r&cse&k&4ii&r&csto&k&4p&r&c &k&4P&r&clea&k&4se&r&c stop \\nP&k&4l&r&cease stop &k&4Ple&r&case &k&4sto&r&cp &k&4Pl&r&cea&k&4s&r&ce&k&4iist&r&co&k&4p&r&c \\nPle&k&4a&r&cs&k&4e&r&c &k&4st&r&cop Ple&k&4a&r&cs&k&4eiis&r&ctop Please s&k&4t&r&cop&k&4ii&r&c\\nPle&k&4as&r&ce&k&4iis&r&ct&k&4o&r&cp Ple&k&4a&r&cse &k&4s&r&ct&k&4o&r&cp Pl&k&4e&r&ca&k&4s&r&ce s&k&4t&r&co&k&4pii&r&c\\nPle&k&4a&r&cse stop&k&4ii&r&cPlease&k&4ii&r&cst&k&4op&r&c Ple&k&4a&r&cse s&k&4top&r&c &k&4\\nP&r&cl&k&4e&r&ca&k&4s&r&ce &k&4sto&r&cp &k&4P&r&cl&k&4ea&r&cse st&k&4op&r&c Pleas&k&4e&r&c &k&4s&r&ctop &k&4\\nP&r&cl&k&4e&r&ca&k&4s&r&ce st&k&4o&r&cp &k&4P&r&cleas&k&4eii&r&cs&k&4t&r&cop &k&4P&r&clease st&k&4o&r&cp&k&4ii&r&c\\nP&k&4leas&r&ce &k&4s&r&ct&k&4o&r&cp&k&4ii&r&cPle&k&4a&r&cse &k&4s&r&ct&k&4o&r&cp&k&4ii&r&cPleas&k&4e&r&c &k&4s&r&ct&k&4o&r&cp \\nP&k&4le&r&case&k&4iist&r&cop Please&k&4ii&r&cst&k&4o&r&cp Pl&k&4e&r&case&k&4ii&r&cst&k&4opii&r&c\\nPl&k&4ea&r&cse &k&4s&r&ctop&k&4ii&r&cPle&k&4aseii&r&cst&k&4op&r&c &k&4P&r&clease st&k&4opii&r&c\\nP&k&4l&r&ce&k&4ase&r&c stop&k&4ii&r&cP&k&4l&r&cease &k&4st&r&co&k&4p&r&c P&k&4lea&r&cse st&k&4op&r&c \\nPl&k&4e&r&case&k&4ii&r&cst&k&4o&r&cp P&k&4lea&r&cse st&k&4op&r&c &k&4P&r&clea&k&4se&r&c &k&4stopii&r&c\\nP&k&4le&r&case s&k&4t&r&co&k&4p&r&c &k&4P&r&clea&k&4se&r&c &k&4st&r&cop P&k&4l&r&ceas&k&4e&r&c &k&4st&r&co&k&4pii\\nP&r&cleas&k&4e&r&c s&k&4to&r&cp Pl&k&4e&r&ca&k&4se&r&c s&k&4to&r&cp Please&k&4ii&r&cstop&k&4ii\\nP&r&clease st&k&4opii&r&cPlea&k&4se&r&c sto&k&4p&r&c &k&4Plea&r&cse &k&4stopii\\nP&r&cl&k&4ease&r&c st&k&4op&r&c &k&4Pl&r&ceas&k&4e&r&c sto&k&4p&r&c Plea&k&4s&r&ce st&k&4o&r&cp \\nP&k&4l&r&ce&k&4ase&r&c stop&k&4ii&r&cP&k&4l&r&ce&k&4as&r&ce st&k&4o&r&cp P&k&4lea&r&cse&k&4ii&r&cstop&k&4ii\\nPl&r&ce&k&4as&r&ce &k&4st&r&cop &k&4P&r&clease&k&4ii&r&cstop P&k&4l&r&ce&k&4as&r&ce s&k&4to&r&cp &k&4\\nPle&r&ca&k&4s&r&ce stop&k&4ii&r&cPl&k&4e&r&case stop&k&4iiPl&r&ce&k&4a&r&cs&k&4e&r&c s&k&4to&r&cp &k&4\\nP&r&cl&k&4ea&r&cse&k&4ii&r&cstop &k&4P&r&clease &k&4st&r&cop Ple&k&4aseii&r&cst&k&4op&r&c &k&4\\nP&r&cl&k&4ea&r&cse&k&4ii&r&cs&k&4t&r&cop Pl&k&4e&r&ca&k&4s&r&ce &k&4s&r&ctop &k&4Plea&r&cse s&k&4t&r&cop \\nPle&k&4a&r&cs&k&4eii&r&csto&k&4piiP&r&cleas&k&4e&r&c st&k&4o&r&cp &k&4Pl&r&cease &k&4s&r&ct&k&4o&r&cp &k&4\\nPl&r&cea&k&4se&r&c st&k&4op&r&c Please &k&4s&r&cto&k&4pii&r&cP&k&4l&r&cea&k&4s&r&ce sto&k&4p&r&c \\nPle&k&4aseii&r&cs&k&4topii&r&cP&k&4le&r&cas&k&4e&r&c s&k&4t&r&co&k&4piiP&r&cl&k&4e&r&ca&k&4s&r&ce&k&4ii&r&cst&k&4op&r&c &k&4\\nP&r&cl&k&4ea&r&cse &k&4s&r&ct&k&4opiiPle&r&cas&k&4e&r&c &k&4s&r&cto&k&4piiPl&r&ce&k&4as&r&ce&k&4ii&r&cst&k&4o&r&cp \\nP&k&4lea&r&cse&k&4ii&r&cstop &k&4Pl&r&cease&k&4iis&r&cto&k&4p&r&c P&k&4l&r&cease stop \\nPl&k&4e&r&ca&k&4s&r&ce &k&4stop&r&c Ple&k&4a&r&cs&k&4eii&r&cstop Pleas&k&4eii&r&cs&k&4top&r&c \\nPlea&k&4se&r&c sto&k&4piiP&r&cl&k&4ea&r&cs&k&4eiis&r&ctop&k&4ii&r&cP&k&4le&r&ca&k&4se&r&c st&k&4o&r&cp&k&4ii&r&c\\nP&k&4le&r&ca&k&4s&r&ce&k&4ii&r&cs&k&4top&r&c Pl&k&4ea&r&cse&k&4iis&r&cto&k&4p&r&c &k&4P&r&cle&k&4as&r&ce&k&4ii&r&cst&k&4o&r&cp \\nP&k&4l&r&ce&k&4as&r&ce &k&4s&r&ctop&k&4ii&r&cPl&k&4e&r&cas&k&4e&r&c s&k&4top&r&c Pleas&k&4e&r&c &k&4st&r&cop &k&4\\nPl&r&ce&k&4a&r&cse s&k&4t&r&co&k&4piiPl&r&ce&k&4as&r&ce stop&k&4iiP&r&cle&k&4ase&r&c sto&k&4p&r&c &k&4\\nPl&r&ce&k&4a&r&cse&k&4iis&r&ct&k&4o&r&cp P&k&4l&r&ce&k&4a&r&cs&k&4eiist&r&cop&k&4ii&r&cP&k&4l&r&cea&k&4s&r&ce s&k&4t&r&cop \\nP&k&4lea&r&cse st&k&4op&r&c &k&4P&r&clea&k&4s&r&ce&k&4ii&r&cs&k&4t&r&co&k&4piiPl&r&ce&k&4aseiis&r&ct&k&4o&r&cp&k&4ii&r&c\\nP&k&4le&r&case s&k&4to&r&cp&k&4ii&r&cPle&k&4ase&r&c &k&4st&r&co&k&4p&r&c &k&4Please&r&c st&k&4o&r&cp \\nPl&k&4ea&r&cse&k&4iis&r&ct&k&4opii&r&cP&k&4l&r&ceas&k&4eii&r&cs&k&4t&r&cop Pl&k&4e&r&ca&k&4s&r&ce sto&k&4p&r&c \\nPle&k&4a&r&cse&k&4iist&r&co&k&4pii&r&cP&k&4leaseiis&r&ct&k&4op&r&c &k&4P&r&cle&k&4as&r&ce &k&4sto&r&cp \\nP&k&4le&r&ca&k&4se&r&c &k&4st&r&co&k&4piiPl&r&ceas&k&4e&r&c &k&4stop&r&c P&k&4l&r&ce&k&4aseiis&r&ct&k&4opii&r&c\\nPleas&k&4e&r&c sto&k&4pii&r&cP&k&4le&r&ca&k&4s&r&ce&k&4ii&r&cs&k&4t&r&co&k&4p&r&c Pl&k&4ea&r&cs&k&4eii&r&cst&k&4op&r&c \\nP&k&4l&r&ceas&k&4e&r&c &k&4st&r&co&k&4p&r&c P&k&4l&r&cea&k&4seiistop&r&c &k&4Plea&r&cs&k&4e&r&c &k&4stop&r&c \\nP&k&4l&r&ce&k&4a&r&cs&k&4eiis&r&ctop&k&4iiPle&r&ca&k&4seiis&r&cto&k&4piiP&r&cle&k&4a&r&cs&k&4e&r&c &k&4stopii&r&c\\nP&k&4le&r&case &k&4st&r&cop &k&4Pl&r&cea&k&4s&r&ce &k&4stopiiP&r&cl&k&4ea&r&cs&k&4eiist&r&cop&k&4ii&r&c\\nP&k&4l&r&ce&k&4as&r&ce&k&4ii&r&cstop &k&4P&r&cle&k&4a&r&cs&k&4eii&r&cstop Pl&k&4eas&r&ce s&k&4topii\\nPlea&r&cs&k&4eiistopii&r&cP&k&4l&r&ceas&k&4e&r&c &k&4st&r&cop&k&4iiP&r&cle&k&4a&r&cs&k&4eii&r&cs&k&4topii&r&c\\nP&k&4leas&r&ce&k&4ii&r&cst&k&4opiiP&r&cl&k&4eas&r&ce &k&4s&r&ctop P&k&4le&r&ca&k&4seii&r&cst&k&4op&r&c \\nPl&k&4ea&r&cs&k&4eiis&r&ct&k&4op&r&c Ple&k&4as&r&ce&k&4ii&r&csto&k&4pii&r&cP&k&4l&r&ce&k&4ase&r&c st&k&4op&r&c &k&4\\nPl&r&ce&k&4as&r&ce&k&4iis&r&ctop&k&4iiPl&r&cea&k&4se&r&c &k&4st&r&cop&k&4iiPl&r&ce&k&4aseii&r&csto&k&4p&r&c \\nPl&k&4e&r&cas&k&4e&r&c sto&k&4p&r&c &k&4Ple&r&ca&k&4s&r&ce s&k&4topiiPle&r&cas&k&4eiisto&r&cp &k&4\\nPle&r&cas&k&4e&r&c &k&4sto&r&cp&k&4iiPl&r&ce&k&4as&r&ce&k&4ii&r&cs&k&4to&r&cp&k&4ii&r&cP&k&4lease&r&c &k&4s&r&ct&k&4opii\\nP&r&clea&k&4se&r&c &k&4s&r&ct&k&4o&r&cp &k&4P&r&cl&k&4ea&r&cs&k&4e&r&c &k&4s&r&ct&k&4opiiP&r&cl&k&4ea&r&cs&k&4eii&r&cs&k&4topii\\nP&r&cle&k&4as&r&ce &k&4st&r&co&k&4piiPlea&r&cse s&k&4t&r&co&k&4piiP&r&cle&k&4as&r&ce&k&4ii&r&cs&k&4t&r&cop&k&4ii\\nPle&r&ca&k&4s&r&ce&k&4ii&r&cs&k&4topiiPle&r&ca&k&4seii&r&cs&k&4to&r&cp&k&4ii&r&cP&k&4le&r&case&k&4iist&r&co&k&4pii\\nPlea&r&cse&k&4iistopiiPlea&r&cse&k&4ii&r&cst&k&4o&r&cp&k&4iiPl&r&ce&k&4aseii&r&cst&k&4o&r&cp &k&4\\nPl&r&ce&k&4aseii&r&cs&k&4topiiPle&r&ca&k&4seiis&r&ct&k&4op&r&c &k&4Pl&r&cea&k&4se&r&c &k&4s&r&ct&k&4o&r&cp&k&4ii\\nP&r&cle&k&4as&r&ce &k&4stopiiPl&r&ceas&k&4e&r&c &k&4s&r&ct&k&4opiiP&r&cleas&k&4e&r&c &k&4st&r&co&k&4pii\\nPlease&r&c s&k&4top&r&c &k&4Plea&r&cs&k&4e&r&c &k&4s&r&ct&k&4op&r&c Plea&k&4seiist&r&co&k&4p&r&c \\nP&k&4leas&r&ce &k&4st&r&co&k&4piiPleaseiisto&r&cp&k&4iiPle&r&ca&k&4se&r&c s&k&4top&r&c &k&4\\nPle&r&cas&k&4e&r&c &k&4st&r&co&k&4p&r&c P&k&4leaseiistopiiP&r&cle&k&4as&r&ce&k&4ii&r&cs&k&4topii&r&c\\nPl&k&4easeiist&r&co&k&4piiPl&r&ce&k&4a&r&cs&k&4eiistop&r&c &k&4Pl&r&cea&k&4se&r&c &k&4s&r&cto&k&4p&r&c &k&4\\nPl&r&cea&k&4seiistopiiPle&r&cas&k&4eiist&r&co&k&4piiPlea&r&cse&k&4iis&r&ct&k&4opii&r&c\\nP&k&4le&r&case s&k&4to&r&cp&k&4ii&r&cP&k&4l&r&cea&k&4seiis&r&ct&k&4op&r&c P&k&4leaseiistop&r&c &k&4\\nPleaseiis&r&cto&k&4piiPleaseiist&r&co&k&4piiPleaseii&r&cs&k&4topii&r&c\\nPle&k&4a&r&cse&k&4ii&r&cs&k&4t&r&co&k&4pii&r&cPl&k&4ea&r&cs&k&4eiistopiiPlea&r&cs&k&4eii&r&cs&k&4to&r&cp &k&4\\nPleaseiistopiiP&r&cl&k&4ease&r&c &k&4stop&r&c &k&4Pleas&r&ce sto&k&4pii&r&c\\nP&k&4leaseiistopiiPl&r&ce&k&4ase&r&c &k&4stopii&r&cP&k&4l&r&ce&k&4a&r&cs&k&4eii&r&cs&k&4t&r&co&k&4pii&r&c\\nP&k&4leaseiis&r&ct&k&4opiiP&r&cle&k&4ase&r&c &k&4s&r&ct&k&4opii&r&cP&k&4leaseiistopii\\nPlea&r&cs&k&4eii&r&cst&k&4opiiPl&r&ce&k&4aseiist&r&co&k&4pii&r&cP&k&4leaseiistopii&r&c\\nP&k&4leaseiis&r&cto&k&4piiPl&r&ce&k&4aseiistop&r&c Pl&k&4easeiist&r&co&k&4pii&r&c\\nPl&k&4ea&r&cs&k&4eiistopii&r&cPle&k&4a&r&cs&k&4eiisto&r&cp&k&4iiPlease&r&c &k&4sto&r&cp&k&4ii\\nPle&r&ca&k&4seiistopiiPleaseii&r&cs&k&4topiiPleaseiist&r&cop &k&4\\nPleaseiistopiiPl&r&ce&k&4aseiisto&r&cp&k&4iiP&r&cl&k&4easeii&r&csto&k&4pii\\nPleas&r&ce s&k&4t&r&co&k&4piiPlea&r&cs&k&4eiistop&r&c &k&4P&r&cl&k&4e&r&ca&k&4seiistopii\\nPleaseiisto&r&cp&k&4iiPl&r&ce&k&4a&r&cs&k&4eiistop&r&c &k&4Ple&r&ca&k&4seiistopii\\nPleaseiistop&r&c &k&4Plea&r&cs&k&4eiist&r&co&k&4p&r&c &k&4Ple&r&ca&k&4s&r&ce&k&4iistopii\\nPleaseiist&r&co&k&4piiP&r&cl&k&4easeiistopiiPleaseiis&r&ct&k&4opii\\nPlease&r&c s&k&4topiiPle&r&ca&k&4s&r&ce&k&4iistopiiPleaseiistopii\\nPle&r&cas&k&4eiistopiiPleaseiistopiiPleas&r&ce&k&4iistopii\\nPle&r&cas&k&4eiis&r&ct&k&4opii&r&cP&k&4leaseiistopiiPleaseiistop&r&c &k&4\\nP&r&cl&k&4ea&r&cs&k&4eiistop&r&c &k&4Pleaseiisto&r&cp&k&4iiPlease&r&c &k&4s&r&ct&k&4op&r&c &k&4\\nPleaseiistopiiPleaseiistopiiPl&r&ce&k&4aseiistopii\\nPleaseiistopiiPleaseiistopiiP&r&cl&k&4easeiistopii\\nPleaseii&r&cs&k&4topiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiist&r&co&k&4pii\\nPleas&r&ce&k&4iistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii"
 				"&k&4PleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii"
 			]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "552C4872868114FD"
 			rewards: [{
@@ -3385,7 +3385,7 @@
 			tasks: [{
 				id: "671608856FD75836"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "ae2:energy_cell"
 					tag: { }
 				}
@@ -3499,7 +3499,7 @@
 			tasks: [{
 				id: "628A7692164D9B46"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:flight_tiara"
 					tag: {
 						variant: 0
@@ -3598,7 +3598,7 @@
 			tasks: [{
 				id: "0E838525782B04AA"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
@@ -3647,7 +3647,7 @@
 				{
 					id: "69C59A42783E3B96"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "entangled:block"
 						tag: { }
 					}
@@ -3656,7 +3656,7 @@
 				{
 					id: "046D31A807171B9D"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "entangled:item"
 						tag: { }
 					}
@@ -3737,7 +3737,7 @@
 			tasks: [{
 				id: "1A743A788CA6842A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:mana_gun"
 					tag: { }
 				}

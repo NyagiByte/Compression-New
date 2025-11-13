@@ -4,7 +4,7 @@
 	filename: "tier_4__deoxyribonucleic_acid"
 	group: "6B3B606AC87356A0"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "patchouli:guide_book"
 		tag: {
 			"patchouli:book": "alchemistry:alchemistry_book"

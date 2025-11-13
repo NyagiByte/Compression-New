@@ -4,7 +4,7 @@
 	filename: "ore_line"
 	group: "65E17C337454D8E2"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "botania:manasteel_pick"
 		tag: {
 			Damage: 0
@@ -3351,7 +3351,7 @@
 			tasks: [{
 				id: "6D04C266BECCFABF"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:terra_pick"
 					tag: {
 						Damage: 0
@@ -3377,7 +3377,7 @@
 			tasks: [{
 				id: "6D9799AB05139B78"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:elementium_pickaxe"
 					tag: {
 						Damage: 0
@@ -3410,7 +3410,7 @@
 			tasks: [{
 				id: "1968977F5C0F05BC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "botania:manasteel_pick"
 					tag: {
 						Damage: 0
@@ -3435,7 +3435,7 @@
 			tasks: [{
 				id: "69B99C179CAF94E4"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "mythicbotany:alfsteel_pick"
 					tag: {
 						Damage: 0
@@ -3464,7 +3464,7 @@
 			tasks: [{
 				id: "010C0E33F78EBFAA"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "bedrockminer:bedrock_pickaxe"
 					tag: {
 						Damage: 0
@@ -3488,7 +3488,7 @@
 				"&b16 total drops per ore!"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "immersiveengineering:graphite_electrode"
 				tag: {
 					graphDmg: 0
@@ -3504,7 +3504,7 @@
 			tasks: [{
 				id: "785E499B000518D5"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "immersiveengineering:graphite_electrode"
 					tag: {
 						graphDmg: 0
@@ -3547,7 +3547,7 @@
 				"&b4 total drops per ore"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "create:sand_paper"
 				tag: {
 					Damage: 0
@@ -3564,7 +3564,7 @@
 				{
 					id: "708038E71BA24D1E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "create:sand_paper"
 						tag: {
 							Damage: 0

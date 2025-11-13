@@ -2101,7 +2101,7 @@
 				{
 					id: "4DA0A488A20CFB7E"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:glimmering_woods"
@@ -2351,7 +2351,7 @@
 					icon: "minecraft:brown_mushroom"
 					id: "4277CB8A0EB3B746"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "itemfilters:tag"
 						tag: {
 							value: "forge:chitin_sources"

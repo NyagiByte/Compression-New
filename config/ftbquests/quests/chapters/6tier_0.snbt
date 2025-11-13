@@ -208,7 +208,7 @@
 				"Oh and I guess you can finally scout for an &dIron Boulder&r as there are no ores underground"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "aiotbotania:livingrock_pickaxe"
 				tag: {
 					Damage: 0
@@ -234,7 +234,7 @@
 				"&dShift Right-click to change modes"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "aiotbotania:livingrock_aiot"
 				tag: {
 					Damage: 0
@@ -254,7 +254,7 @@
 			dependencies: ["0DBAF3F8573D1C7D"]
 			description: ["By placing an item in hand and &dsand paper&r in the other hand you can well.. sand (verb) the item"]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "create:sand_paper"
 				tag: {
 					Damage: 0
@@ -558,7 +558,7 @@
 				"   &4.[N]"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "minecraft:flint_and_steel"
 				tag: {
 					Damage: 0
@@ -1305,7 +1305,7 @@
 				"Water can only be collected in &e1 block deep portions of water&r as the interaction requires the right-click target to be a block under the water source block"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "botania:water_bowl"
 				tag: {
 					Fluid: {
@@ -1356,7 +1356,7 @@
 				"Corporea is explained in the \"Ender Artifacts\" section."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "botania:lexicon"
 				tag: {
 					"botania:elven_unlock": 1b

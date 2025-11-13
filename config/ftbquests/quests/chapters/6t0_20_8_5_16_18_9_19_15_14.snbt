@@ -16,7 +16,7 @@
 			"177A2060FFFA6932"
 		]
 		description: ["8 20 20 16 19 25 15 21 20 21 2 5 22 17 5 13 14 2 13 7 13 "]
-		hide: true
+		hide_until_deps_visible: true
 		icon: "nyagibits_bytes:flake"
 		id: "6FF17104DF811D3E"
 		rewards: [{

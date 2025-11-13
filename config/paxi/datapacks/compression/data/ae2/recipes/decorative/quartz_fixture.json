@@ -10,7 +10,7 @@
       "type": "create:deploying",
       "ingredients": [
         {"item": "nyagibits_bytes:incomplete_charged_quartz_fixture"},
-        {"item": "byg:glowstone_lantern"}  
+        {"item": "abyssal_decor:tube_lamp"}  
       ],
       "results": [
         {"item": "nyagibits_bytes:incomplete_charged_quartz_fixture"}

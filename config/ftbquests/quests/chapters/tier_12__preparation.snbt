@@ -4,7 +4,7 @@
 	filename: "tier_12__preparation"
 	group: "6B3B606AC87356A0"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "botania:elementium_sword"
 		tag: {
 			Damage: 0

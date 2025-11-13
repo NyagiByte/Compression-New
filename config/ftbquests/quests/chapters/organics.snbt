@@ -285,7 +285,7 @@
 		{
 			dependencies: ["63572758F873D9AA"]
 			description: ["Wheat! You know it, you love it. Unless you have Celiac disease, thats no fun. Anyways I'm drunk of all the &bethanol&r you can get from this stuff"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "5BC1E6CFA3CB657D"
 			rewards: [{
 				id: "221DFDCCD40BD357"

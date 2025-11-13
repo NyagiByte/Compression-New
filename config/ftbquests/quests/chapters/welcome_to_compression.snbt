@@ -81,7 +81,7 @@
 				"max_force_load_chunks: "
 				"&a[some number &c<=&r &amax_claim_chunks]"
 			]
-			icon: "createchunkloading:chunk_loader"
+			icon: "pneumaticcraft:chunkloader_upgrade"
 			id: "2B2392C9E05EEE54"
 			rewards: [{
 				id: "1F057CB161E136C2"
@@ -125,11 +125,7 @@
 				""
 				"Good news! The &bRecipe Scaling &rtab will show you the available recipes you can do to make previous tier items more efficiently"
 			]
-			icon: {
-				Count: 1b
-				id: "megacells:item_storage_cell_256m"
-				tag: { }
-			}
+			icon: "megacells:item_storage_cell_256m"
 			id: "2C473A2432696109"
 			rewards: [{
 				id: "79B80E72F9F418C1"

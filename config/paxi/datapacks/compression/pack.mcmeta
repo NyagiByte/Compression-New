@@ -1279,6 +1279,8 @@
 
 		{"namespace": "ae2", "path": "recipes/tools/misctools_charged_staff.json"},
 
+		{"namespace": "ae2", "path": "recipes/decorative/quartz_fixture_from_anchors.json"},
+
 		{"namespace": "ae2", "path": "recipes/entropy/cool/water_ice.json"},
 		{"namespace": "ae2", "path": "recipes/entropy/cool/lava_obsidian.json"},
 		{"namespace": "ae2", "path": "recipes/entropy/cool/stone_bricks_cracked_stone_bricks.json"},
