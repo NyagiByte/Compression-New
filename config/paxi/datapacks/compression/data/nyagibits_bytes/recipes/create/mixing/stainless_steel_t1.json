@@ -1,0 +1,80 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "chemlib:iron_dust"
+    },
+    {
+      "item": "chemlib:iron_dust"
+    },
+    {
+      "item": "chemlib:iron_dust"
+    },
+    {
+      "item": "chemlib:iron_dust"
+    },
+    {
+      "item": "chemlib:iron_dust"
+    },
+    {
+      "item": "chemlib:iron_dust"
+    },
+    {
+      "item": "chemlib:iron_dust"
+    },
+    {
+      "item": "chemlib:iron_dust"
+    },
+    {
+      "item": "chemlib:iron_dust"
+    },
+    {
+      "item": "chemlib:iron_dust"
+    },
+    {
+      "item": "chemlib:iron_dust"
+    },
+    {
+      "item": "chemlib:iron_dust"
+    },
+    {
+      "item": "chemlib:iron_dust"
+    },
+    {
+      "item": "chemlib:iron_dust"
+    },
+    {
+      "item": "chemlib:iron_dust"
+    },
+    {
+      "item": "chemlib:iron_dust"
+    },
+    {
+      "item": "chemlib:chromium"
+    },
+    {
+      "item": "chemlib:chromium"
+    },
+    {
+      "item": "chemlib:chromium"
+    },
+    {
+      "item": "chemlib:chromium"
+    },
+    {
+      "item": "chemlib:silicon"
+    },
+    {
+      "item": "chemlib:phosphorus"
+    },
+    {
+      "item": "chemlib:molybdenum"
+    }
+  ],
+  "results": [
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:mix_steel_stainless"
+    }
+  ]
+}

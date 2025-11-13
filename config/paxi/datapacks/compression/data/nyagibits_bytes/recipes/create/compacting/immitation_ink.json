@@ -1,0 +1,23 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:sample_2_phenoxyethanol"
+      },
+      {
+        "item": "nyagibits_bytes:sample_benzyl_alcohol"
+      },
+      {
+        "item": "chemlib:protein"
+      },
+      {
+        "item": "minecraft:black_dye"
+      }
+    ],
+    "results": [
+      {
+        "count": 2,
+        "item": "minecraft:ink_sac"
+      }
+    ]
+  }

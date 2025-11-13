@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"nyagibits_bytes:metamorphic_alloy"},
+    "B": {"item":"chemlib:iron_plate"},
+    "C": {"item":"create:shaft"}
+  },
+  "pattern": [
+    " BA",
+    "BCB",
+    "CB "
+  ],
+  "result": {
+    "count": 8,
+    "item": "thermal:drill_head"
+}
+}

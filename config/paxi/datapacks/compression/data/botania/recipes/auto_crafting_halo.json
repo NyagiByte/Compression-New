@@ -1,0 +1,23 @@
+{
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {
+      "item": "nyagibits_bytes:diamond_shard"
+    },
+    {
+      "item": "botania:crafting_halo"
+    },
+    {
+      "item": "botania:light_blue_petal"
+    },
+    {
+      "item": "botania:light_blue_petal"
+    }
+  ],
+  "output": {
+    "item": "botania:auto_crafting_halo"
+  },
+  "reagent": {
+    "tag": "botania:seed_apothecary_reagent"
+  }
+}

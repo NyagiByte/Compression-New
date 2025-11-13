@@ -1,0 +1,21 @@
+{
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "botania:magenta_petal"
+    },
+    {
+      "item": "botania:pink_petal"
+    }
+  ],
+  "output": {
+    "count": 4,
+    "item": "botania:corporea_spark"
+  },
+  "reagent": {
+    "tag": "botania:seed_apothecary_reagent"
+  }
+}

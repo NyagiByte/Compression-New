@@ -1,0 +1,50 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "nyagibits_bytes:raw_kimberlite"
+    },
+    "loops": 1,
+    "results": [
+        {
+          "count": 1,
+          "item": "nyagibits_bytes:polished_kimberlite"
+        }
+      ],
+    "sequence": [
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:raw_kimberlite"
+          },
+          {
+            "amount": 500,
+            "fluid": "nyagibits_bytes:gemstone_polish_fluid",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:raw_kimberlite"
+          }
+        ]
+    },
+    {
+        "type": "vintageimprovements:polishing",
+      "speed_limits": 2,
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:raw_kimberlite"
+      }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:raw_kimberlite"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "nyagibits_bytes:raw_kimberlite"
+    }
+  }

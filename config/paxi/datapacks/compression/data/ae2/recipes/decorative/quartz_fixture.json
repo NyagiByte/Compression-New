@@ -1,0 +1,31 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "nyagibits_bytes:ae2_assembly"},
+  "loops": 1,
+  "results": [
+    {"count":64, "item": "ae2:quartz_fixture"}
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {"item": "nyagibits_bytes:incomplete_charged_quartz_fixture"},
+        {"item": "byg:glowstone_lantern"}  
+      ],
+      "results": [
+        {"item": "nyagibits_bytes:incomplete_charged_quartz_fixture"}
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {"item": "nyagibits_bytes:incomplete_charged_quartz_fixture"},
+        {"item": "nyagibits_bytes:ae2_schematic"}
+      ],
+      "results": [
+        {"item": "nyagibits_bytes:incomplete_charged_quartz_fixture"}
+      ]
+    }
+  ],
+  "transitionalItem": {"item": "nyagibits_bytes:incomplete_charged_quartz_fixture"}
+}

@@ -1,0 +1,9 @@
+{
+    "type": "create:sandpaper_polishing",
+    "ingredients": [
+      {"item": "byg:sythian_planks"}
+    ],
+    "results": [
+      {"item": "everycomp:hnh/byg/sythian_sanded_wood"}
+    ]
+}

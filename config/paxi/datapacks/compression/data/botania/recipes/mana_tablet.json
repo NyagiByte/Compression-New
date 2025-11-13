@@ -1,0 +1,22 @@
+{
+    "type": "botania:runic_altar",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:botania_schematic"
+      },
+      {
+        "item": "botania:mana_pool"
+      },
+      {
+        "item": "botania:prism"
+      }
+    ],
+    "mana": 5000,
+    "catalyst": {
+      "item": "nyagibits_bytes:metamorphic_alloy"
+    },
+    "output": {
+      "count": 2,
+      "item": "botania:mana_tablet"
+    }
+  }

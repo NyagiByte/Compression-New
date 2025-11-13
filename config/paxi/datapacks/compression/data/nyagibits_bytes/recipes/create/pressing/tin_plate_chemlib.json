@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "chemlib:tin_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "chemlib:tin_plate"
+    }
+  ]
+}

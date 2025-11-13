@@ -1,0 +1,62 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "nyagibits_bytes:raw_prime_beryllic_cluster"
+    },
+    "isProcessing": true,
+    "loops": 1,
+    "results": [
+        {
+          "chance": 34,
+          "count": 3,
+          "item": "nyagibits_bytes:ruby"
+        },
+        {
+          "chance": 33,
+          "count": 3,
+          "item": "nyagibits_bytes:sapphire"
+        },
+        {
+          "chance": 33,
+          "count": 3,
+          "item": "minecraft:emerald"
+        }
+      ],
+    "sequence": [
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:raw_prime_beryllic_cluster"
+          },
+          {
+            "amount": 500,
+            "fluid": "minecraft:water",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:incomplete_raw_prime_beryl_crude"
+          }
+        ]
+      },
+      {
+          "type": "vintageimprovements:polishing",
+        "speed_limits": 2,
+          "ingredients": [
+            {
+              "item": "nyagibits_bytes:incomplete_raw_prime_beryl_crude"
+        }
+          ],
+          "results": [
+            {
+              "item": "nyagibits_bytes:incomplete_raw_prime_beryl_crude"
+            }
+          ]
+        }
+    ],
+    "transitionalItem": {
+      "item": "nyagibits_bytes:incomplete_raw_prime_beryl_crude"
+    }
+  }

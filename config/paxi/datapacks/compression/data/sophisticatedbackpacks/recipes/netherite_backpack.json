@@ -1,0 +1,20 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:netherite_backpack"
+    }
+  ],
+  "key": {
+    "C": {"item": "ironchests:obsidian_chest"},
+    "B": {"item": "sophisticatedbackpacks:diamond_backpack"},
+    "L": {"tag": "forge:leather"},
+    "P": {"item": "minecraft:obsidian"}
+  },
+  "pattern": [
+    "PBP",
+    "CLC"
+  ],
+  "result": {"item": "sophisticatedbackpacks:netherite_backpack"}
+}

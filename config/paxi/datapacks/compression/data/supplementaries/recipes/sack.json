@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"tag":"forge:string_group"},
+      "B": {"item":"supplementaries:flax"},
+      "C": {"item":"nyagibits_bytes:sealed_pouch"}
+    },
+    "pattern": [
+      " A ",
+      "BCB",
+      " B "
+    ],
+    "result": {
+      "count": 1,
+      "item": "supplementaries:sack"
+    }
+  }
