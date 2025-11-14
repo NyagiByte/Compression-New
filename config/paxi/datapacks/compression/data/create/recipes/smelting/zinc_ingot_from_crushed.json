@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "cookingtime": 200,
+    "experience": 0.7,
+    "ingredient": {
+      "item": "create:crushed_raw_zinc"
+    },
+    "result": "chemlib:zinc_ingot"
+  }
