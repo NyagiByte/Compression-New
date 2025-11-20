@@ -1,2 +1,68 @@
 type = user_variables
 
+variable {
+  name = letter_1
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = secret_bar_text
+  value = 
+  reset_on_launch = false
+}
+
+variable {
+  name = letter_2
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = secret_text_bar
+  value = false
+  reset_on_launch = false
+}
+
+variable {
+  name = letter_3
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = decaying
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = letter_4
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = letter_5
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = menu_music
+  value = main
+  reset_on_launch = false
+}
+
+variable {
+  name = decay
+  value = 0
+  reset_on_launch = false
+}
+
+variable {
+  name = music_alt
+  value = 0
+  reset_on_launch = false
+}
+
