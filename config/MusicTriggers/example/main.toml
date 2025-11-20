@@ -2,8 +2,99 @@
 #  Line 2
 
 [songs]
+	[songs."Any lines with Format in the name or"]
+		triggers = [ ]
+	[songs."Format this like name"]
+		triggers = [ ]
+	[songs.alonelyspeckinthegreatenvelopingcosmicdark]
+		chance = 1
+		triggers = [ "generic" ]
+	[songs.bluesunrise]
+		chance = 1
+		triggers = [ "generic" ]
+	[songs.edditsinthespacetimecontinuum]
+		chance = 1
+		triggers = [ "generic" ]
+	[songs.gentlewinds]
+		chance = 1
+		triggers = [ "generic" ]
+	[songs.godseyesarelikemymotherseyes]
+		chance = 1
+		triggers = [ "" ]
+	[songs.heavenexistsandisfullofpoorpeople]
+		chance = 1
+		triggers = [ "generic" ]
+	[songs.hydra]
+		chance = 1
+		triggers = [ "generic" ]
+	[songs.innocence]
+		chance = 1
+		triggers = [ "generic" ]
+	[songs.lastmoonlaststars]
+		chance = 1
+		triggers = [ "time-Night" ]
+	[songs.metamorphoses]
+		chance = 1
+		triggers = [ "time-Night" ]
+	[songs.mobius]
+		chance = 1
+		triggers = [ "time-Night" ]
+	[songs.pandorasbox]
+		chance = 1
+		triggers = [ "generic" ]
+	[songs.relic12]
+		chance = 1
+		triggers = [ "time-Night" ]
+	[songs.relic2]
+		chance = 1
+		triggers = [ "time-Night" ]
+	[songs.relic4_1]
+		chance = 1
+		triggers = [ "time-Night" ]
+	[songs.relic4_2]
+		chance = 1
+		triggers = [ "time-Night" ]
+	[songs.relic6]
+		chance = 1
+		triggers = [ "time-Night" ]
+	[songs.relic9]
+		chance = 1
+		triggers = [ "time-Night" ]
+	[songs.silicontransmittercompress]
+		triggers = [ ]
+	[songs.silicontransmitterdecay]
+		chance = 1
+		triggers = [ "generic" ]
+	[songs.silicontransmitterruin]
+		chance = 1
+		triggers = [ "time-Night" ]
+	[songs.thankyouforgivingsomuch]
+		chance = 1
+		triggers = [ "generic" ]
+	[songs.thegloriousexperienceofdyingpeacefully]
+		chance = 1
+		triggers = [ "generic" ]
+	[songs.tobeahuman]
+		chance = 1
+		triggers = [ "time-Night" ]
+	[songs.west]
+		chance = 1
+		triggers = [ "generic" ]
+	[songs.wheredoyouhideinthebrightlight]
+		chance = 1
+		triggers = [ "generic" ]
 
 [triggers]
+	[triggers.generic]
+		fade_in = 40
+		fade_out = 40
+	[triggers.time]
+		fade_in = 40
+		fade_out = 40
+		identifier = "Night"
+		priority = 10
+		start_hour = 16.0
+		time_bundle = "night"
 	[triggers.universal]
 		active_cooldown = "0"
 		fade_in = "0"
