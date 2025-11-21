@@ -1,0 +1,9 @@
+{
+    "type": "create:sandpaper_polishing",
+    "ingredients": [
+      {"item": "byg:cypress_planks"}
+    ],
+    "results": [
+      {"item": "everycomp:hearth_and_home/byg/cypress_sanded_wood"}
+    ]
+}

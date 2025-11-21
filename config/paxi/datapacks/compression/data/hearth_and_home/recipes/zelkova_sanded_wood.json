@@ -1,0 +1,9 @@
+{
+    "type": "create:sandpaper_polishing",
+    "ingredients": [
+      {"item": "byg:zelkova_planks"}
+    ],
+    "results": [
+      {"item": "everycomp:hearth_and_home/byg/zelkova_sanded_wood"}
+    ]
+}
