@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"abyssal_decor:amaranth_pinnacle"},
+      "B": {"item":"immersiveengineering:hemp_fiber"}
+    },
+    "pattern": [
+      "AB",
+      "BA"
+    ],
+    "result": {
+        "count": 2,
+        "item": "abyssal_decor:ornate_rug"
+    }
+  }

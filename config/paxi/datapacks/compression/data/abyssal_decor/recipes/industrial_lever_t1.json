@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"immersiveengineering:plate_steel"},
+      "B": {"item":"minecraft:redstone"},
+      "C": {"item":"minecraft:lever"}
+    },
+    "pattern": [
+      "A ",
+      "BC",
+      "A "
+    ],
+    "result": {
+        "count": 2,
+        "item": "abyssal_decor:industrial_lever"
+    }
+  }

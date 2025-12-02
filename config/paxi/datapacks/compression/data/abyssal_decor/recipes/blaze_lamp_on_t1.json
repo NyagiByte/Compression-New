@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"immersiveengineering:nugget_steel"},
+      "B": {"item":"minecraft:blaze_rod"}
+    },
+    "pattern": [
+      "A ",
+      "AB",
+      "AA"
+    ],
+    "result": {
+        "count": 16,
+        "item": "abyssal_decor:blaze_lamp_on"
+    }
+  }

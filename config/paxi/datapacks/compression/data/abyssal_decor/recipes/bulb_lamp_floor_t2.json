@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:glass_pane"},
+      "B": {"item":"immersiveengineering:light_bulb"},
+      "C": {"item":"immersiveengineering:nugget_steel"}
+    },
+    "pattern": [
+      " A ",
+      "ABA",
+      " C "
+    ],
+    "result": {
+        "count": 32,
+        "item": "abyssal_decor:bulb_lamp_floor"
+    }
+  }

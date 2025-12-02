@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"immersiveengineering:nugget_steel"},
+      "B": {"item":"abyssal_decor:bulb_lamp_floor"}
+    },
+    "pattern": [
+      "A  ",
+      "A B",
+      "AAA"
+    ],
+    "result": {
+        "count": 4,
+        "item": "abyssal_decor:wall_bulb_lamp"
+    }
+  }

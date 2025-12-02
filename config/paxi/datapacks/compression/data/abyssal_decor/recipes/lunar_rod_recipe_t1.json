@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:end_stone"},
+      "B": {"item":"immersiveengineering:plate_steel"}
+    },
+    "pattern": [
+      "A",
+      "A",
+      "B"
+    ],
+    "result": {
+        "count": 8,
+        "item": "abyssal_decor:lunar_rod"
+    }
+  }

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:magma_block"},
+      "B": {"item":"chemlib:iron_plate"}
+    },
+    "pattern": [
+      "A",
+      "A",
+      "B"
+    ],
+    "result": {
+        "count": 4,
+        "item": "abyssal_decor:solar_rod"
+    }
+  }

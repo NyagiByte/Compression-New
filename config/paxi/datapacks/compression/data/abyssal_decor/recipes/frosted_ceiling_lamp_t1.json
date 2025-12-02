@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"thermal:electrum_nugget"},
+      "B": {"item":"minecraft:glass_pane"},
+      "C": {"item":"abyssal_decor:bulb_lamp_floor"}
+    },
+    "pattern": [
+      " A ",
+      "BCB",
+      "BBB"
+    ],
+    "result": {
+        "count": 8,
+        "item": "abyssal_decor:frosted_ceiling_lamp"
+    }
+  }

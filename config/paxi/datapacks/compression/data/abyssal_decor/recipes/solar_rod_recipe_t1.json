@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:magma_block"},
+      "B": {"item":"immersiveengineering:plate_steel"}
+    },
+    "pattern": [
+      "A",
+      "A",
+      "B"
+    ],
+    "result": {
+        "count": 8,
+        "item": "abyssal_decor:solar_rod"
+    }
+  }

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"botania:cobble_rod"},
+      "B": {"item":"vc_gliders:reinforced_paper_netherite"},
+      "C": {"item":"ae2:portable_item_cell_1k"},
+      "D": {"item":"botania:aura_ring"},
+      "E": {"item":"nyagibits_bytes:endoflame_mush"}
+    },
+    "pattern": [
+      "EA ",
+      "BCB",
+      " BD"
+    ],
+    "result": {
+        "count": 1,
+        "item": "abyssal_decor:bottomless_bag_of_netherrack"
+    }
+  }

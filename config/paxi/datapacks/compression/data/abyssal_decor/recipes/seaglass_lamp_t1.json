@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"immersiveengineering:nugget_steel"},
+      "B": {"item":"abyssal_decor:bulb_lamp_floor"},
+      "C": {"item":"minecraft:glass_pane"}
+    },
+    "pattern": [
+      "CAC",
+      "CBC",
+      "AAA"
+    ],
+    "result": {
+        "count": 8,
+        "item": "abyssal_decor:seaglass_lamp"
+    }
+  }

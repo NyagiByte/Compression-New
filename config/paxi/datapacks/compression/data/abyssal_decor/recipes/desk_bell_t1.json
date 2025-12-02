@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"abyssal_decor:seabrass_button"},
+      "B": {"item":"abyssal_decor:seabrass_nugget"},
+      "C": {"item":"immersiveengineering:nugget_steel"}
+    },
+    "pattern": [
+      " A ",
+      "BBB",
+      "CCC"
+    ],
+    "result": {
+        "count": 4,
+        "item": "abyssal_decor:desk_bell"
+    }
+  }

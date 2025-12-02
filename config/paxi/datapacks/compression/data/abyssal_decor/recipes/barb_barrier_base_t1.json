@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:stick"},
+      "B": {"item":"immersiveengineering:nugget_steel"}
+    },
+    "pattern": [
+      "ABA",
+      "ABA",
+      "A A"
+    ],
+    "result": {
+        "count": 12,
+        "item": "abyssal_decor:barb_barrier_base"
+    }
+  }

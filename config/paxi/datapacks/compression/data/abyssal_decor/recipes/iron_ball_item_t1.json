@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"immersiveengineering:ingot_steel"}
+    },
+    "pattern": [
+      " A ",
+      "AAA",
+      " A "
+    ],
+    "result": {
+        "count": 10,
+        "item": "abyssal_decor:iron_ball_item"
+    }
+  }

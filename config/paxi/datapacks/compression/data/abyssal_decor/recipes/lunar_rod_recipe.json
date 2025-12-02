@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:end_stone"},
+      "B": {"item":"chemlib:iron_plate"}
+    },
+    "pattern": [
+      "A",
+      "A",
+      "B"
+    ],
+    "result": {
+        "count": 4,
+        "item": "abyssal_decor:lunar_rod"
+    }
+  }

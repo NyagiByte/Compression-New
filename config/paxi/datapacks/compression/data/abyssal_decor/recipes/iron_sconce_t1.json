@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"immersiveengineering:ingot_steel"},
+      "B": {"item":"immersiveengineering:nugget_steel"}
+    },
+    "pattern": [
+      "A A",
+      "AB ",
+      "A  "
+    ],
+    "result": {
+        "count": 8,
+        "item": "abyssal_decor:iron_sconce"
+    }
+  }

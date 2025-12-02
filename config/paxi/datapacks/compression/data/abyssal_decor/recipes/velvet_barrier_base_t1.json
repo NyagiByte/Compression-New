@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"thermal:electrum_nugget"},
+      "B": {"item":"abyssal_decor:velvet"}
+    },
+    "pattern": [
+      "ABA",
+      "A A",
+      "A A"
+    ],
+    "result": {
+        "count": 12,
+        "item": "abyssal_decor:velvet_barrier_base"
+    }
+  }

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:glass_pane"},
+      "B": {"item":"minecraft:diamond"},
+      "C": {"item":"chemlib:iron_plate"}
+    },
+    "pattern": [
+      " A ",
+      "ABA",
+      " C "
+    ],
+    "result": {
+        "count": 4,
+        "item": "abyssal_decor:rainbow_1"
+    }
+  }
