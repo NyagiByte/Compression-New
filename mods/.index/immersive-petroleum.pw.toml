@@ -1,0 +1,16 @@
+filename = 'ImmersivePetroleum-1.20.1-4.3.0-30.jar'
+name = 'Immersive Petroleum'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cfa1fb6e005f3380c1bc1295cf793a9943566814'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7191176
+project-id = 268250
