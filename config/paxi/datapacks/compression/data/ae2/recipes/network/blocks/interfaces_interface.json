@@ -10,7 +10,7 @@
       "type": "create:deploying",
       "ingredients": [
         {"item": "nyagibits_bytes:incomplete_me_interface"},
-        {"tag": "forge:chests/wooden"}  
+        {"item": "create:packager"}  
       ],
       "results": [
         {"item": "nyagibits_bytes:incomplete_me_interface"}

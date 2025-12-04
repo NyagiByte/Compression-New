@@ -10,7 +10,7 @@
         "type": "create:deploying",
         "ingredients": [
           {"item": "nyagibits_bytes:incomplete_me_import_bus"},
-          {"item": "minecraft:hopper"}  
+          {"item": "nyagibits_bytes:automatic_cardboard_reconstitutor_folder"}  
         ],
         "results": [
           {"item": "nyagibits_bytes:incomplete_me_import_bus"}

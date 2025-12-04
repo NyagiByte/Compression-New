@@ -10,7 +10,7 @@
         "type": "create:deploying",
         "ingredients": [
           {"item": "nyagibits_bytes:incomplete_me_level_emitter"},
-          {"item": "minecraft:comparator"}  
+          {"item": "create:transmitter"}  
         ],
         "results": [
           {"item": "nyagibits_bytes:incomplete_me_level_emitter"}

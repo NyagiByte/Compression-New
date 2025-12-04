@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "A": {"item":"nyagibits_bytes:polished_meteoric_certus"}
+    },
+    "pattern": [
+      "A A",
+      " A ",
+      "A A"
+    ],
+    "result": {
+      "count": 64,
+      "item": "ae2:certus_quartz_wrench"
+    }
+  }

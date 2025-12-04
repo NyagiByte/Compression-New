@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "A": {"tag":"forge:craftable_raw_quartz"},
+        "B": {"item":"ae2:fluix_dust"},
+        "C": {"item":"ae2:logic_processor"}
+    },
+    "pattern": [
+      "ABC"
+
+    ],
+    "result": {
+      "count": 8,
+      "item": "ae2:annihilation_core"
+    }
+  }

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "A": {"tag":"forge:craftable_raw_quartz"}
+    },
+    "pattern": [
+      "A A",
+      " A ",
+      "A A"
+    ],
+    "result": {
+      "count": 16,
+      "item": "ae2:nether_quartz_wrench"
+    }
+  }

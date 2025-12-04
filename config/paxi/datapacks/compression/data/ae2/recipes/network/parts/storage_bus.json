@@ -10,7 +10,7 @@
         "type": "create:deploying",
         "ingredients": [
           {"item": "nyagibits_bytes:incomplete_me_storage_bus"},
-          {"item": "minecraft:observer"}  
+          {"item": "create:stock_link"}  
         ],
         "results": [
           {"item": "nyagibits_bytes:incomplete_me_storage_bus"}

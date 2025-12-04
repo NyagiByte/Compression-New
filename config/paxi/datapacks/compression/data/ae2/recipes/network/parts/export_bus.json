@@ -10,7 +10,7 @@
         "type": "create:deploying",
         "ingredients": [
           {"item": "nyagibits_bytes:incomplete_me_export_bus"},
-          {"item": "minecraft:dropper"}  
+          {"item": "nyagibits_bytes:semi_automatic_round_labeling_machine"}  
         ],
         "results": [
           {"item": "nyagibits_bytes:incomplete_me_export_bus"}

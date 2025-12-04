@@ -1,0 +1,41 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {"item": "nyagibits_bytes:ae2_assembly"},
+  "loops": 1,
+  "results": [
+    {"item": "ae2:crystal_resonance_generator"}
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {"item": "nyagibits_bytes:incomplete_resonance_generator"},
+        {"item": "botania:mana_bottle"}  
+      ],
+      "results": [
+        {"item": "nyagibits_bytes:incomplete_resonance_generator"}
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {"item": "nyagibits_bytes:incomplete_resonance_generator"},
+        {"item": "botania:mana_fluxfield"}  
+      ],
+      "results": [
+        {"item": "nyagibits_bytes:incomplete_resonance_generator"}
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {"item": "nyagibits_bytes:incomplete_resonance_generator"},
+        {"item": "nyagibits_bytes:ae2_schematic"}
+      ],
+      "results": [
+        {"item": "nyagibits_bytes:incomplete_resonance_generator"}
+      ]
+    }
+  ],
+  "transitionalItem": {"item": "nyagibits_bytes:incomplete_resonance_generator"}
+}

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "A": {"tag":"forge:craftable_polished_quartz"},
+        "B": {"tag":"forge:rods/wooden"},
+        "C": {"item":"minecraft:iron_ingot"}
+    },
+    "pattern": [
+      "  B",
+      "CB ",
+      "AA "
+    ],
+    "result": {
+      "count": 64,
+      "item": "ae2:nether_quartz_cutting_knife"
+    }
+  }
