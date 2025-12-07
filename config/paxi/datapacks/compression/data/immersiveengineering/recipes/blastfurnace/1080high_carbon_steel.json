@@ -1,0 +1,10 @@
+{
+    "type":"immersiveengineering:blast_furnace",
+    "input":{
+        "item":"nyagibits_bytes:mix_steel_1080"
+            },
+        "result":{
+            "item":"nyagibits_bytes:steel_high_carbon_1080"
+                 },"slag":{
+                        "item":"chemlib:carbon_dust"
+                          },"time":300}

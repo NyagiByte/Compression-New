@@ -1,0 +1,10 @@
+{
+    "type":"immersiveengineering:blast_furnace",
+    "input":{
+        "item":"minecraft:iron_ingot"
+            },
+        "result":{
+            "item":"nyagibits_bytes:unprocessed_mild_steel"
+                 },"slag":{
+                        "item":"nyagibits_bytes:carbon_residue"
+                          },"time":100}

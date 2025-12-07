@@ -1,0 +1,9 @@
+{"type":"minecraft:blasting",
+  "cookingtime":100,
+  "experience":0.1,
+  "ingredient":
+  {
+    "item":"thermal:slag"
+  },
+  "result":"immersiveengineering:slag_glass"
+}
