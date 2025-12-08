@@ -1,0 +1,41 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "chemlib:iron_plate"},
+    "loops": 1,
+    "results": [
+      {
+        "count": 8,
+        "item": "nyagibits_bytes:tiny_spring"
+    }
+    ],
+    "sequence": [
+      {
+        "type": "create:cutting",
+        "ingredients": [
+          {
+            "item": "chemlib:iron_plate"
+          }
+        ],
+        "processingTime": 10,
+        "results": [
+            {
+                "item": "chemlib:iron_plate"
+            }
+        ]
+      },
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "chemlib:iron_plate"
+          }
+        ],
+        "results": [
+          {
+            "item": "chemlib:iron_plate"
+          }  
+        ]
+      }
+    ],
+    "transitionalItem": {"item": "chemlib:iron_plate"}
+  }

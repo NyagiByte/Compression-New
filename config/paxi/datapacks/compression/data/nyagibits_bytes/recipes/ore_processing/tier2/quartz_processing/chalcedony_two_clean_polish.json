@@ -1,0 +1,50 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "nyagibits_bytes:raw_chalcedony"
+    },
+    "loops": 1,
+    "results": [
+        {
+          "count": 1,
+          "item": "nyagibits_bytes:polished_chalcedony"
+        }
+      ],
+    "sequence": [
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:raw_chalcedony"
+          },
+          {
+            "amount": 250,
+            "fluid": "nyagibits_bytes:gemstone_polish_fluid",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:raw_chalcedony"
+          }
+        ]
+    },
+    {
+        "type": "vintageimprovements:polishing",
+      "speed_limits": 2,
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:raw_chalcedony"
+      }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:raw_chalcedony"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "nyagibits_bytes:raw_chalcedony"
+    }
+  }

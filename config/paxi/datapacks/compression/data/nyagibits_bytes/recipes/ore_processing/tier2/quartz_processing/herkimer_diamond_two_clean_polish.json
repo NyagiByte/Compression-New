@@ -1,0 +1,50 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "nyagibits_bytes:raw_herkimer_diamond"
+    },
+    "loops": 1,
+    "results": [
+        {
+          "count": 1,
+          "item": "nyagibits_bytes:polished_herkimer_diamond"
+        }
+      ],
+    "sequence": [
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:raw_herkimer_diamond"
+          },
+          {
+            "amount": 250,
+            "fluid": "nyagibits_bytes:gemstone_polish_fluid",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:raw_herkimer_diamond"
+          }
+        ]
+    },
+    {
+        "type": "vintageimprovements:polishing",
+      "speed_limits": 2,
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:raw_herkimer_diamond"
+      }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:raw_herkimer_diamond"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "nyagibits_bytes:raw_herkimer_diamond"
+    }
+  }

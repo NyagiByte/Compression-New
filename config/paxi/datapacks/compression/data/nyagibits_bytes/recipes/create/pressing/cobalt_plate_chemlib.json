@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "chemlib:cobalt_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "chemlib:cobalt_plate"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "chemlib:iron_dust"
+      },
+      {
+        "item": "chemlib:iron_dust"
+      },
+      {
+        "item": "chemlib:iron_dust"
+      },
+      {
+        "item": "chemlib:iron_dust"
+      },
+      {
+        "item": "chemlib:chromium"
+      },
+      {
+        "item": "chemlib:chromium"
+      },
+      {
+        "item": "chemlib:chromium"
+      },
+      {
+        "item": "chemlib:chromium"
+      },
+      {
+        "item": "chemlib:silicon"
+      },
+      {
+        "item": "chemlib:phosphorus"
+      }
+    ],
+    "results": [
+      {
+        "count": 4,
+        "item": "nyagibits_bytes:mix_steel_stainless"
+      }
+    ]
+  }

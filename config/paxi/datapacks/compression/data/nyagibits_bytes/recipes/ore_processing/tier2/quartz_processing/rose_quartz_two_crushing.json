@@ -1,0 +1,23 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:polished_rose_quartz"
+      }
+    ],
+    "processingTime": 150,
+    "results": [
+      {
+        "count": 24,
+        "item": "thermal:quartz_dust"
+      },
+      {
+        "count": 6,
+        "item": "minecraft:redstone"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:mercury"
+      }
+    ]
+  }

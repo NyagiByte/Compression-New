@@ -1,0 +1,23 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:polished_chalcedony"
+      }
+    ],
+    "processingTime": 150,
+    "results": [
+      {
+        "count": 24,
+        "item": "thermal:quartz_dust"
+      },
+      {
+        "count": 3,
+        "item": "chemlib:silicon_dust"
+      },
+      {
+        "count": 1,
+        "item": "nyagibits_bytes:morganite_dust"
+      }
+    ]
+  }

@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "chemlib:lead_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "chemlib:lead_plate"
+    }
+  ]
+}

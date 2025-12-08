@@ -1,0 +1,20 @@
+{
+  "type": "botania:runic_altar",
+  "ingredients": [
+    {
+      "item": "nyagibits_bytes:manasteel_lattice"
+    },
+    {
+      "item": "nyagibits_bytes:steel_damascus"
+    },
+    {
+      "item": "nyagibits_bytes:rune_catalytic"
+    }
+  ],
+  "mana": 10000,
+  "use_catalyst": false,
+  "output": {
+    "count": 1,
+    "item": "nyagibits_bytes:ore_extraction_plate"
+  }
+}

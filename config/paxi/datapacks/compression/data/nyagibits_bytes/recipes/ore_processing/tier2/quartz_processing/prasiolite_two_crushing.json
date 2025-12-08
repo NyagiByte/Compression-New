@@ -1,0 +1,23 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:polished_prasiolite"
+      }
+    ],
+    "processingTime": 150,
+    "results": [
+      {
+        "count": 24,
+        "item": "thermal:quartz_dust"
+      },
+      {
+        "count": 3,
+        "item": "create:crushed_raw_iron"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:silicon_dioxide"
+      }
+    ]
+  }

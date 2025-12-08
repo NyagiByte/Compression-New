@@ -1,0 +1,23 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:polished_turquoise"
+      }
+    ],
+    "processingTime": 150,
+    "results": [
+      {
+        "count": 12,
+        "item": "create:crushed_raw_aluminum"
+      },
+      {
+        "count": 3,
+        "item": "chemlib:phosphate_dust"
+      },
+      {
+        "count": 1,
+        "item": "create:crushed_raw_copper"
+      }
+    ]
+  }

@@ -1,0 +1,10 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "block",
+    "block": "nyagibits_bytes:pulp"
+  },
+  "output": {
+    "name": "abyssal_decor:paper_stack"
+  }
+}
