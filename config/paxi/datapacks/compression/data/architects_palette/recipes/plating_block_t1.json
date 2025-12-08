@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"immersiveengineering:nugget_steel"},
+      "B": {"item":"immersiveengineering:plate_steel"}
+    },
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "result": {
+      "count": 64,
+      "item": "architects_palette:plating_block"
+  }
+  }

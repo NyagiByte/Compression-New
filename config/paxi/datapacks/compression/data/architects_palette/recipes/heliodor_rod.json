@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 16,
+    "ingredient": {
+      "item": "nyagibits_bytes:block_heliodor"
+    },
+    "result": "architects_palette:heliodor_rod"
+  }

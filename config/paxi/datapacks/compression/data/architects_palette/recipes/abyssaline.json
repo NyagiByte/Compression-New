@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:polished_basalt"},
+      "B": {"item":"minecraft:blue_dye"},
+      "C": {"item":"minecraft:purple_dye"}
+    },
+    "pattern": [
+      "BA ",
+      "AAA",
+      " AC"
+    ],
+    "result": {
+      "count": 32,
+      "item": "architects_palette:abyssaline"
+  }
+  }

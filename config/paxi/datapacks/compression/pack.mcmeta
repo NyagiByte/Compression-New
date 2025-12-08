@@ -1392,6 +1392,9 @@
 		{"namespace": "abyssal_decor", "path": "recipes/deepbronze_ingot_temp_recipe.json"},
 
 		{"namespace": "architects_palette", "path": "recipes/charcoal_from_charcoal_blocks.json"},
+		{"namespace": "architects_palette", "path": "recipes/mushy_myonite_bricks_red.json"},
+		
+		{"namespace": "architects_palette", "path": "recipes/temp/myonite_red.json"},
 
 		{"namespace": "itemfilters", "path": "recipes/always_true.json"},
 		{"namespace": "itemfilters", "path": "recipes/always_false.json"},

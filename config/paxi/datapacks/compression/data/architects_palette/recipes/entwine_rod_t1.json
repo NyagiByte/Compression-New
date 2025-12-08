@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:twisting_vines"},
+      "B": {"item":"minecraft:stick"},
+      "C": {"item":"minecraft:ender_pearl"}
+    },
+    "pattern": [
+      " BA",
+      "BCB",
+      "AB "
+    ],
+    "result": {
+      "count": 64,
+      "item": "architects_palette:entwine_rod"
+  }
+  }

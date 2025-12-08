@@ -1,0 +1,13 @@
+  {
+    "type": "create:haunting",
+    "ingredients": [
+      {
+        "item": "architects_palette:plating_vertical_slab"
+      }
+    ],
+    "results": [
+      {
+        "item": "architects_palette:ancient_plating_vertical_slab"
+      }
+    ]
+  }

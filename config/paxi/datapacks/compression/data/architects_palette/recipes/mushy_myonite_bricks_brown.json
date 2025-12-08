@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "architects_palette:myonite_bricks"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "item": "architects_palette:mushy_myonite_bricks"
+    }
+}

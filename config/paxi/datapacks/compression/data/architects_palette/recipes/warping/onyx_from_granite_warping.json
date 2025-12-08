@@ -1,15 +1,9 @@
 {
-	"type":"vintageimprovements:vibrating",
-	"ingredients": [ 
-		{
-			"item": "nyagibits_bytes:morganite_dust"
-		}
-	],
-	"results": [
-		{
-			"item": "architects_palette:onyx",
-			"count": 4
-		}
-	],
-	"processingTime": 300
-}
+    "type": "minecraft:smoking",
+    "cookingtime": 100,
+    "experience": 0.0,
+    "ingredient": {
+      "item": "minecraft:granite"
+    },
+    "result": "architects_palette:onyx"
+  }

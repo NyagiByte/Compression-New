@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:tuff"
+        },
+        {
+            "tag": "forge:craftable_raw_quartz"
+        },
+        {
+            "item": "minecraft:charcoal"
+        }
+    ],
+    "result": {
+        "count": 64,
+        "item": "architects_palette:cerebral_plate"
+    }
+}

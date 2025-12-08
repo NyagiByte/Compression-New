@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 16,
+    "ingredient": {
+      "item": "nyagibits_bytes:block_morganite"
+    },
+    "result": "architects_palette:monazite_rod"
+  }

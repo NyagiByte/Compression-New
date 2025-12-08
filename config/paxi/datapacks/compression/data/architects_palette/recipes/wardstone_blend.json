@@ -1,0 +1,36 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "secondaryFluidInput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:nitrogen_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "chemlib:beryllium_dust"
+    },
+    {
+      "item": "chemlib:zirconium_dust"
+    },
+    {
+      "item": "chemlib:titanium_dust"
+    },
+    {
+      "item": "chemlib:nickel_dust"
+    },
+    {
+      "item": "chemlib:copper_dust"
+    },
+    {
+      "item": "create:super_glue"
+    }
+  ],
+  "results": [
+    {
+      "count": 8,
+      "item": "architects_palette:wardstone_blend"
+    }
+  ],
+  "processingTime": 200
+}

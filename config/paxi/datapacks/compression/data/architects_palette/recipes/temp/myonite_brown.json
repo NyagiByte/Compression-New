@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:stone"},
+      "B": {"tag":"forge:chitin_sources"}
+    },
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "result": {
+      "count": 8,
+      "item": "architects_palette:myonite"
+  }
+  }

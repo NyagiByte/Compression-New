@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:iron_nugget"},
+      "B": {"item":"chemlib:iron_plate"}
+    },
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "result": {
+      "count": 16,
+      "item": "architects_palette:plating_block"
+  }
+  }

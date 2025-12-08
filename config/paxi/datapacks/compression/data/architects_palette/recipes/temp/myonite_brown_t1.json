@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:stone"},
+      "B": {"item":"chemlib:chitin"}
+    },
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "result": {
+      "count": 16,
+      "item": "architects_palette:myonite"
+  }
+  }

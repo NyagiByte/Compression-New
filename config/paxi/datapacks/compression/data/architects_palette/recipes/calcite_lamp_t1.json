@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:calcite"},
+      "B": {"item":"minecraft:glow_ink_sac"},
+      "C": {"item":"minecraft:glowstone"}
+    },
+    "pattern": [
+      " AB",
+      "ACA",
+      " A "
+    ],
+    "result": {
+      "count": 16,
+      "item": "architects_palette:calcite_lamp"
+  }
+  }

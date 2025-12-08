@@ -1,0 +1,31 @@
+{
+    "block.architects_palette.abyssaline": "Blurple Basalt",
+    "block.architects_palette.abyssaline_bricks": "Blurple Basalt Brick",
+    "block.architects_palette.abyssaline_brick_slab": "Blurple Basalt Brick Slab",
+    "block.architects_palette.abyssaline_brick_vertical_slab": "Blurple Basalt Brick Vertical Slab",
+    "block.architects_palette.abyssaline_tiles": "Blurple Basalt Tiles",
+    "block.architects_palette.abyssaline_tiles_slab": "Blurple Basalt Tile Slab",
+    "block.architects_palette.abyssaline_tiles_vertical_slab": "Blurple Basalt Tile Vertical Slab",
+    "block.architects_palette.abyssaline_plating": "Blurple Basalt Plating",
+    "block.architects_palette.chiseled_abyssaline_bricks": "Chiseled Blurple Basalt Bricks",
+    "block.architects_palette.abyssaline_pillar": "Blurple Basalt Pillar",
+    "block.architects_palette.abyssaline_lamp": "Blurple Basalt Lamp",
+
+    "block.architects_palette.onyx": "Burnt Granite",
+    "block.architects_palette.onyx_slab": "Burnt Granite Slab",
+    "block.architects_palette.onyx_vertical_slab": "Burnt Granite Vertical Slab",
+    "block.architects_palette.onyx_stairs": "Burnt Granite Stairs",
+    "block.architects_palette.onyx_wall": "Burnt Granite Wall",
+    "block.architects_palette.onyx_bricks": "Burnt Granite Bricks",
+    "block.architects_palette.onyx_brick_slab": "Burnt Granite Brick Slab",
+    "block.architects_palette.onyx_brick_vertical_slab": "Burnt Granite Brick Vertical Slab",
+    "block.architects_palette.onyx_brick_stairs": "Burnt Granite Brick Stairs",
+    "block.architects_palette.onyx_brick_wall": "Burnt Granite Brick Wall",
+    "block.architects_palette.onyx_pillar": "Burnt Granite Pillar",
+
+    "block.architects_palette.sheet_metal_block": "Wide Panel Sheet Metal",
+    "block.architects_palette.sheet_metal_wall": "Wide Panel Sheet Metal Wall",
+
+    "block.architects_palette.ekanite_rod": "Emerald Rod",
+    "block.architects_palette.monazite_rod": "Morganite Rod"
+}
