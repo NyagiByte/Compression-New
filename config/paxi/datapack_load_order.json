@@ -1,3 +1,7 @@
 {
-  "loadOrder": []
+  "loadOrder": [
+    "bulk_recipe_pack",
+    "compstruct",
+    "compression"
+  ]
 }
