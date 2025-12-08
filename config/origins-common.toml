@@ -91,3 +91,6 @@
 		"origins:fragile" = true
 		"origins:phantomize_overlay" = true
 
+	[origins."originsuperpack:entropy"]
+		enabled = true
+
