@@ -34,3 +34,6 @@ config/ironchests/defaults.properties
 /fancymenu_data/fancymenu_temp
 config/packetfixer.properties
 config/paxi/datapacks/compression/data/gardenofglass/loot_tables/pebbles.json
+config/packetfixer.properties
+*.txt
+config/packetfixer.properties
