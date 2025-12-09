@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "botania:grass_seeds"
+        },
+        {
+            "tag": "forge:chitin_sources"
+        }
+    ],
+    "result": {
+        "item": "botania:mycelium_seeds"
+    }
+}

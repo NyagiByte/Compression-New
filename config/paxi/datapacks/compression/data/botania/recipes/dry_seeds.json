@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "botania:grass_seeds"
+        },
+        {
+            "item": "supplementaries:ash"
+        }
+    ],
+    "result": {
+        "item": "botania:dry_seeds"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "type": "botania:mana_infusion",
+    "input": {
+      "item": "vc_gliders:reinforced_paper"
+    },
+    "mana": 1000,
+    "output": {
+      "count": 2,
+      "item": "botania:manaweave_cloth"
+    }
+  }
