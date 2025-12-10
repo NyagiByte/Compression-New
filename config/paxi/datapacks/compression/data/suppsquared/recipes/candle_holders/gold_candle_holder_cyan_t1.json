@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:cyan_candle"},
+      "B": {"item":"thermal:electrum_plate"}
+    },
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "result": {
+      "count": 2,
+      "item": "suppsquared:gold_candle_holder_cyan"
+    }
+  }

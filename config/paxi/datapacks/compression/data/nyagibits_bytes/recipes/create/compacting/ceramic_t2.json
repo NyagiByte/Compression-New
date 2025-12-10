@@ -1,0 +1,24 @@
+{
+    "type": "create:compacting",
+    "heatRequirement": "superheated",
+    "ingredients": [
+      {
+        "item": "minecraft:white_glazed_terracotta"
+      },
+      {
+        "item": "minecraft:terracotta"
+      },
+      {
+        "item": "nyagibits_bytes:smectite_clay"
+      },
+      {
+        "item": "nyagibits_bytes:smectite_clay"
+      }
+    ],
+    "results": [
+      {
+        "count": 8,
+        "item": "nyagibits_bytes:ceramic"
+      }
+    ]
+  }

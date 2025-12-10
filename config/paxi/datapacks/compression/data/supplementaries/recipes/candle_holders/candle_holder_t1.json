@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:candle"},
+      "B": {"item":"immersiveengineering:plate_steel"}
+    },
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "result": {
+      "count": 2,
+      "item": "supplementaries:candle_holder"
+    }
+  }

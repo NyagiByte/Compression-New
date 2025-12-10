@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:green_candle"},
+      "B": {"item":"chemlib:gold_plate"}
+    },
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "result": {
+      "count": 1,
+      "item": "suppsquared:gold_candle_holder_green"
+    }
+  }

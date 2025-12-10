@@ -1,0 +1,21 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "item": "supplementaries:ash"
+      },
+      {
+        "item": "nyagibits_bytes:smectite_clay"
+      },
+      {
+        "item": "nyagibits_bytes:smectite_clay"
+      }
+    ],
+    "results": [
+      {
+        "count": 32,
+        "item": "supplementaries:ash_brick"
+      }
+    ]
+  }
