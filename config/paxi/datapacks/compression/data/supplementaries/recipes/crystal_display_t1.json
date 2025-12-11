@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "A": {"item":"create:analog_lever"},
-      "B": {"item":"chemlib:iron_plate"},
+      "B": {"item":"immersiveengineering:plate_steel"},
       "C": {"item":"create:display_board"},
       "D": {"item":"minecraft:amethyst_shard"}
     },
@@ -12,7 +12,7 @@
       "BB"
     ],
     "result": {
-      "count": 8,
+      "count": 16,
       "item": "supplementaries:crystal_display"
     }
   }

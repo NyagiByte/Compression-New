@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"immersiveengineering:ingot_steel"},
+      "B": {"item":"createdeco:industrial_iron_bars"},
+      "C": {"item":"minecraft:redstone"}
+    },
+    "pattern": [
+      " A ",
+      "ABA",
+      " C "
+    ],
+    "result": {
+      "count": 2,
+      "item": "supplementaries:wind_vane"
+    }
+  }

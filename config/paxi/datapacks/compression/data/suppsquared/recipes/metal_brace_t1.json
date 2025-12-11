@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"immersiveengineering:nugget_steel"}
+    },
+    "pattern": [
+      "  A",
+      "A A",
+      "A  "
+    ],
+    "result": {
+      "count": 32,
+      "item": "suppsquared:metal_brace"
+    }
+  }

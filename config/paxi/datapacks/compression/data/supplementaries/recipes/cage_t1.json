@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"immersiveengineering:ingot_steel"},
+      "B": {"item":"createdeco:industrial_iron_bars"},
+      "C": {"tag":"minecraft:wooden_slabs"}
+    },
+    "pattern": [
+      "AAA",
+      "B B",
+      "CCC"
+    ],
+    "result": {
+      "count": 2,
+      "item": "supplementaries:cage"
+    }
+  }

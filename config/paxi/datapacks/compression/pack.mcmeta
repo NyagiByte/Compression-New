@@ -1654,6 +1654,7 @@
 		{"namespace": "supplementaries", "path": "recipes/faucet.json"},
 		{"namespace": "supplementaries", "path": "recipes/bed_from_feather_block.json"},
 		{"namespace": "supplementaries", "path": "recipes/spiky_bomb_2.json"},
+		{"namespace": "supplementaries", "path": "recipes/cannon.json"},
 
 		{"namespace": "blockofsky", "path": "recipes/void_block.json"},
 		{"namespace": "blockofsky", "path": "recipes/sky_block.json"},

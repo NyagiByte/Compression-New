@@ -1,7 +1,7 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item":"chemlib:iron_plate"},
+      "A": {"item":"immersiveengineering:plate_steel"},
       "B": {"item":"minecraft:piston"},
       "C": {"item":"create:piston_extension_pole"},
       "D": {"item":"create:weighted_ejector"}
@@ -12,7 +12,7 @@
       "ADA"
     ],
     "result": {
-      "count": 8,
+      "count": 16,
       "item": "supplementaries:spring_launcher"
     }
   }

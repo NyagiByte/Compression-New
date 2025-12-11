@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"immersiveengineering:nugget_steel"},
+      "B": {"item":"minecraft:soul_torch"}
+    },
+    "pattern": [
+      "ABA",
+      " A "
+    ],
+    "result": {
+      "count": 2,
+      "item": "supplementaries:sconce_soul"
+    }
+  }

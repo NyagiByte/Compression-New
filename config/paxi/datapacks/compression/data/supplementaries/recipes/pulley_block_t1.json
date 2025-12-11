@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"tag":"minecraft:planks"},
+      "B": {"tag":"minecraft:wooden_slabs"},
+      "C": {"item":"immersiveengineering:ingot_steel"}
+    },
+    "pattern": [
+      "ABA",
+      "ACA",
+      "ABA"
+    ],
+    "result": {
+      "count": 2,
+      "item": "supplementaries:pulley_block"
+    }
+  }

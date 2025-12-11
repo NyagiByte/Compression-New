@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"tag":"minecraft:wooden_slabs"},
+      "B": {"item":"farmersdelight:rich_soil"}
+    },
+    "pattern": [
+      "ABA",
+      "AAA"
+    ],
+    "result": {
+      "count": 8,
+      "item": "supplementaries:flower_box"
+    }
+  }

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:paper"},
+      "B": {"item":"thermal:electrum_ingot"},
+      "C": {"item":"minecraft:shroomlight"}
+    },
+    "pattern": [
+      "ABA",
+      "ACA",
+      "ABA"
+    ],
+    "result": {
+      "count": 4,
+      "item": "suppsquared:crimson_lantern"
+    }
+  }

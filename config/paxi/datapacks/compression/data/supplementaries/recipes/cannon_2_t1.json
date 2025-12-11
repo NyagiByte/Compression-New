@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"immersiveengineering:ingot_steel"},
+      "B": {"item":"supplementaries:slingshot"},
+      "C": {"tag":"minecraft:planks"},
+      "D": {"item":"minecraft:redstone"}
+    },
+    "pattern": [
+      "AAA",
+      "ABA",
+      "CDC"
+    ],
+    "result": {
+      "count": 2,
+      "item": "supplementaries:cannon"
+    }
+  }

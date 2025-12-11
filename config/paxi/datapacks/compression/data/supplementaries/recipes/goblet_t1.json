@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"immersiveengineering:nugget_steel"},
+      "B": {"item":"immersiveengineering:ingot_steel"}
+    },
+    "pattern": [
+      "A A",
+      "ABA",
+      " A "
+    ],
+    "result": {
+      "count": 2,
+      "item": "supplementaries:goblet"
+    }
+  }
