@@ -1,0 +1,16 @@
+filename = 'compressed_chemistry-1.20.1-1.1.0.jar'
+name = 'Compressed Chemistry'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '93b291ddb9f473bc2d6d57b272b32897b70528c5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7281693
+project-id = 1354141

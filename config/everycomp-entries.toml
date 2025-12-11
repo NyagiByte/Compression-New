@@ -68,6 +68,9 @@
 			phone_stone = true
 			audio_stone = true
 
+		[types.stone_type.nyagibits_bytes]
+			livisite_stone = true
+
 	[types.cut_block_type]
 
 		[types.cut_block_type.spelunkery]
@@ -765,6 +768,9 @@
 			ash_bricks = true
 			stone_tile = true
 			blackstone_tile = true
+
+		[types.cut_block_type.immersivepetroleum]
+			asphalt = true
 
 	[types.wood_type]
 

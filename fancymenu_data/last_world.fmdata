@@ -2,6 +2,6 @@ type = last_world
 
 last_world {
   is_server = false
-  world = D:/instances/Compression 1.20.1 Preliminary Testing/.minecraft/saves/Cotyledon 3
+  world = /home/francesco/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.20.1/minecraft/saves/New World
 }
 
