@@ -1,0 +1,25 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "superheated",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:raw_feldspar"
+      },
+      {
+        "item": "nyagibits_bytes:calcium_phosphate_dust"
+      },
+      {
+        "item": "mekanism:salt"
+      }
+    ],
+    "results": [
+      {
+        "count": 64,
+        "item": "nyagibits_bytes:synthetic_plagioclase_feldspar"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:phosphorus_dust"
+      }
+    ]
+  }

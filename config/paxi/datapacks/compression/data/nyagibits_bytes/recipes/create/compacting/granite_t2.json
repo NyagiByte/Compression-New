@@ -1,0 +1,32 @@
+{
+    "type": "create:compacting",
+    "heatRequirement": "superheated",
+    "ingredients": [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "minecraft:diorite"
+      },
+      {
+        "item": "chemlib:sodium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:synthetic_plagioclase_feldspar"
+      },
+      {
+        "amount": 100,
+        "fluid": "minecraft:lava"
+      }
+    ],
+    "results": [
+      {
+        "count": 32,
+        "item": "minecraft:granite"
+      },
+      {
+        "count": 4,
+        "item": "chemlib:silicon_dust"
+      }
+    ]
+  }

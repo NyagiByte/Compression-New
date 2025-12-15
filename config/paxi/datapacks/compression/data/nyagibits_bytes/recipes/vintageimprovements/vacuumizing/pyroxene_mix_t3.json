@@ -1,0 +1,28 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+  "ingredients": [
+    {
+      "item": "nyagibits_bytes:lithium_alumino_inosilicate"
+    },
+    {
+      "item": "chemlib:aluminum_oxide"
+    },
+    {
+      "item": "chemlib:magnesium"
+    },
+    {
+      "item": "chemlib:cobalt"
+    },
+    {
+      "item": "chemlib:manganese"
+    }
+  ],
+  "results": [
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pyroxene_mix"
+    }
+
+  ],
+  "processingTime": 400
+}

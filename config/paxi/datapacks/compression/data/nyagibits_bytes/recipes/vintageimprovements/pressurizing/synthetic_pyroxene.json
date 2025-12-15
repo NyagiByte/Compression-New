@@ -1,0 +1,20 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "secondaryFluidInput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:argon_fluid",
+      "amount": 100
+    },
+    {
+      "item": "nyagibits_bytes:pyroxene_mix"
+    }
+  ],
+  "results": [
+    {
+      "item": "nyagibits_bytes:synthetic_pyroxene"
+    }
+  ],
+  "processingTime": 200
+}

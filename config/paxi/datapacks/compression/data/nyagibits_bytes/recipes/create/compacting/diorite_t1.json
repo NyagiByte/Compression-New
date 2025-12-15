@@ -1,0 +1,29 @@
+{
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "minecraft:cobblestone"
+      },
+      {
+        "item": "nyagibits_bytes:raw_basaltic_powder"
+      },
+      {
+        "amount": 100,
+        "fluid": "minecraft:lava"
+      }
+    ],
+    "results": [
+      {
+        "count": 8,
+        "item": "minecraft:diorite"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:silicon_dust"
+      }
+    ]
+  }

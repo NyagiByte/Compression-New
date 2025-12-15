@@ -1,0 +1,29 @@
+{
+    "type": "create:compacting",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "minecraft:diorite"
+      },
+      {
+        "item": "chemlib:sodium_dust"
+      },
+      {
+        "amount": 100,
+        "fluid": "minecraft:lava"
+      }
+    ],
+    "results": [
+      {
+        "count": 8,
+        "item": "minecraft:granite"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:silicon_dust"
+      }
+    ]
+  }

@@ -1,0 +1,50 @@
+{
+    "type": "create:compacting",
+    "heatRequirement": "superheated",
+    "ingredients": [
+      {
+        "item": "minecraft:quartz"
+      },
+      {
+        "item": "minecraft:cobblestone"
+      },
+      {
+        "item": "nyagibits_bytes:raw_basaltic_powder"
+      },
+      {
+        "item": "nyagibits_bytes:synthetic_plagioclase_feldspar"
+      },
+      {
+        "item": "nyagibits_bytes:synthetic_biotite"
+      },
+      {
+        "item": "nyagibits_bytes:synthetic_pyroxene"
+      },
+      {
+        "amount": 100,
+        "fluid": "minecraft:lava"
+      }
+    ],
+    "results": [
+      {
+        "count": 64,
+        "item": "minecraft:diorite"
+      },
+      {
+        "count": 64,
+        "item": "minecraft:diorite"
+      },
+      {
+        "count": 16,
+        "item": "chemlib:silicon_dust"
+      },
+      {
+        "count": 2,
+        "item": "chemlib:silicon_dioxide"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:aluminum_oxide"
+      }
+    ]
+  }

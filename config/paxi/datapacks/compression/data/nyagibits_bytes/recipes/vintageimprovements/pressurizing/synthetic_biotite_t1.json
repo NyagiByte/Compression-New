@@ -1,0 +1,28 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "secondaryFluidInput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:nitrogen_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "nyagibits_bytes:synthetic_mica"
+    },
+    {
+      "item": "nyagibits_bytes:de_mineralized_basaltic_powder"
+    }
+  ],
+  "results": [
+    {
+      "count": 64,
+      "item": "nyagibits_bytes:synthetic_biotite"
+    },
+    {
+      "count": 64,
+      "item": "nyagibits_bytes:synthetic_biotite"
+    }
+  ],
+  "processingTime": 200
+}
