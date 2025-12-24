@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"minecraft:tnt"},
+    "B": {"item":"nyagibits_bytes:steel_casing"},
+    "C": {"item":"minecraft:lever"},
+    "D": {"item":"minecraft:piston"},
+    "E": {"item":"minecraft:obsidian"},
+    "F": {"tag":"minecraft:wooden_trapdoors"}
+  },
+  "pattern": [
+    " A ",
+    "ABC",
+    "DEF"
+  ],
+  "result": {
+    "item": "spelunkery:compression_blast_miner"
+  }
+}

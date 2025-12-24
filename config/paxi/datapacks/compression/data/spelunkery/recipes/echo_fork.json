@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"minecraft:blue_dye"},
+    "B": {"item":"minecraft:bell"},
+    "C": {"item":"minecraft:iron_ingot"}
+  },
+  "pattern": [
+    "A A",
+    "ABA",
+    " C "
+  ],
+  "result": {
+    "item": "spelunkery:echo_fork"
+  }
+}

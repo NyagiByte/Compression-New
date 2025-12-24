@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"chemlib:bismuth_ingot"},
+    "B": {"item":"spelunkery:raw_magnetite"}
+  },
+  "pattern": [
+    "BA ",
+    "A A",
+    " A "
+  ],
+  "result": {
+    "item": "botania:magnet_ring"
+  }
+}

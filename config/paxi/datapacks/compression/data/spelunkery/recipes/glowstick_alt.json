@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"minecraft:slime_ball"},
+    "B": {"item":"minecraft:glowstone_dust"},
+    "C": {"item":"minecraft:stick"}
+  },
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "result": {
+    "count": 2,
+    "item": "spelunkery:glowstick"
+  }
+}

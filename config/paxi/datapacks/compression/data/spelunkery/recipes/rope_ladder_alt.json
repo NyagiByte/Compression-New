@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"supplementaries:rope"},
+    "B": {"item":"minecraft:stick"}
+  },
+  "pattern": [
+    "A A",
+    "BBB",
+    "A A"
+  ],
+  "result": {
+    "count": 8,
+    "item": "spelunkery:rope_ladder"
+  }
+}

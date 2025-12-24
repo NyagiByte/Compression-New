@@ -1,0 +1,28 @@
+{
+    "block.spelunkery.rock_salt_block": "Luminar Salt Block",
+    "block.spelunkery.rock_salt_stairs": "Luminar Salt Stairs",
+    "block.spelunkery.rock_salt_slab": "Luminar Salt Slab",
+    "block.spelunkery.rock_salt_wall": "Luminar Salt Wall",
+    "block.spelunkery.polished_rock_salt": "Polished Luminar Salt Block",
+    "block.spelunkery.polished_rock_salt_stairs": "Polished Luminar Stairs",
+    "block.spelunkery.polished_rock_salt_slab": "Polished Luminar Slab",
+    "block.spelunkery.polished_rock_salt_wall": "Polished Luminar Wall",
+    "block.spelunkery.rock_salt_bricks": "Luminar Salt Bricks",
+    "block.spelunkery.rock_salt_brick_stairs": "Luminar Salt Brick Stairs",
+    "block.spelunkery.rock_salt_brick_slab": "Luminar Salt Brick Slab",
+    "block.spelunkery.rock_salt_brick_wall": "Luminar Salt Brick Wall",
+
+    "block.spelunkery.salt_block": "Granulated Luminar Salt Block",
+    "block.spelunkery.salt": "Granulated Luminar Salt",
+    "block.spelunkery.rock_salt": "Luminar Salt",
+
+    "block.spelunkery.salt_lamp": "Luminar Salt Lamp",
+
+    "block.spelunkery.dust_block": "Heavy Sooty Dust Block",
+    "block.spelunkery.dust": "Heavy Sooty Dust",
+
+    "item.spelunkery.raw_magnetite": "Bioferrite",
+    "item.spelunkery.raw_magnetite_nugget": "Bioferrite Nugget",
+    "block.spelunkery.raw_magnetite_block": "Bioferrite Block",
+    "item.spelunkery.magnetic_compass": "Bioferrite Compass"
+}

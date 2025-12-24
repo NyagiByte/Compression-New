@@ -602,6 +602,98 @@ JEIEvents.hideItems(event => {
     'torchmaster:feral_flare_lantern',
     'torchmaster:frozen_pearl',
     //V-Slab
-    'v_slab_compat:immersiveengineering/coke_vertical_slab'
+    'v_slab_compat:immersiveengineering/coke_vertical_slab',
+    //Spelunkery
+    'spelunkery:diamond_grindstone',
+    'spelunkery:item_magnet',
+    'spelunkery:depth_gauge',
+    'spelunkery:flint_hammer_and_chisel',
+
+    'spelunkery:sulfur',
+    'spelunkery:sulfur_block',
+    'spelunkery:cinnabar',
+    'spelunkery:cinnabar_shard',
+
+    'spelunkery:rough_cinnabar',
+    'spelunkery:rough_cinnabar_shard',
+
+    'spelunkery:andesite_coal_ore',
+    'spelunkery:diorite_coal_ore',
+    'spelunkery:granite_coal_ore',
+    'spelunkery:tuff_coal_ore',
+    'spelunkery:deepslate_coal_ore',
+
+    'spelunkery:andesite_iron_ore',
+    'spelunkery:diorite_iron_ore',
+    'spelunkery:granite_iron_ore',
+    'spelunkery:tuff_iron_ore',
+    'spelunkery:deepslate_iron_ore',
+
+    'spelunkery:andesite_copper_ore',
+    'spelunkery:diorite_copper_ore',
+    'spelunkery:granite_copper_ore',
+    'spelunkery:tuff_copper_ore',
+    'spelunkery:deepslate_copper_ore',
+
+    'spelunkery:andesite_gold_ore',
+    'spelunkery:diorite_gold_ore',
+    'spelunkery:granite_gold_ore',
+    'spelunkery:tuff_gold_ore',
+    'spelunkery:deepslate_gold_ore',
+
+    'spelunkery:andesite_redstone_ore',
+    'spelunkery:diorite_redstone_ore',
+    'spelunkery:granite_redstone_ore',
+    'spelunkery:tuff_redstone_ore',
+    'spelunkery:deepslate_redstone_ore',
+    'spelunkery:calcite_redstone_ore',
+
+    'spelunkery:andesite_emerald_ore',
+    'spelunkery:diorite_emerald_ore',
+    'spelunkery:granite_emerald_ore',
+    'spelunkery:tuff_emerald_ore',
+    'spelunkery:deepslate_emerald_ore',
+
+    'spelunkery:andesite_diamond_ore',
+    'spelunkery:diorite_diamond_ore',
+    'spelunkery:granite_diamond_ore',
+    'spelunkery:tuff_diamond_ore',
+    'spelunkery:deepslate_diamond_ore',
+
+    'spelunkery:andesite_zinc_ore',
+    'spelunkery:diorite_zinc_ore',
+    'spelunkery:granite_zinc_ore',
+    'spelunkery:tuff_zinc_ore',
+    'spelunkery:deepslate_zinc_ore',
+
+    'spelunkery:andesite_lapis_ore',
+    'spelunkery:diorite_lapis_ore',
+    'spelunkery:granite_lapis_ore',
+    'spelunkery:tuff_lapis_ore',
+    'spelunkery:deepslate_lapis_ore',
+    'spelunkery:calcite_lapis_ore',
+
+    'spelunkery:stone_pebble',
+    'spelunkery:raw_zinc_nugget',
+    'spelunkery:raw_iron_nugget',
+    'spelunkery:raw_copper_nugget',
+    'spelunkery:raw_gold_nugget',
+
+    'spelunkery:rough_emerald_shard',
+    'spelunkery:rough_emerald',
+
+    'spelunkery:rough_lazurite_shard',
+    'spelunkery:rough_lazurite',
+
+    'spelunkery:rough_diamond_shard',
+    'spelunkery:rough_diamond',
+
+    'spelunkery:rough_quartz_shard',
+
+    'spelunkery:lapis_lazuli_shard',
+    'spelunkery:diamond_shard',
+    'spelunkery:emerald_shard'
+
+
   ])
 })

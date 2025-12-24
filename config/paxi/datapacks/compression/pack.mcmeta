@@ -1755,6 +1755,119 @@
 		{"namespace": "immersivepetroleum", "path": "recipes/crusher/petcoke.json"},
 		{"namespace": "immersivepetroleum", "path": "recipes/squeezer/graphite_dust.json"},
 
+		{"namespace": "spelunkery", "path": "recipes/lodestone.json"},
+		{"namespace": "spelunkery", "path": "recipes/diamond_grindstone.json"},
+		{"namespace": "spelunkery", "path": "recipes/item_magnet.json"},
+		{"namespace": "spelunkery", "path": "recipes/depth_gauge.json"},
+		{"namespace": "spelunkery", "path": "recipes/flint_hammer_and_chisel.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/sulfur_block.json"},
+		{"namespace": "spelunkery", "path": "recipes/sulfur_from_block.json"},
+		
+		{"namespace": "spelunkery", "path": "recipes/emerald_shard.json"},
+		{"namespace": "spelunkery", "path": "recipes/emerald_from_shard.json"},
+		
+		{"namespace": "spelunkery", "path": "recipes/diamond_shard.json"},
+		{"namespace": "spelunkery", "path": "recipes/diamond_from_shard.json"},
+		
+		{"namespace": "spelunkery", "path": "recipes/lapis_lazuli_shard.json"},
+		{"namespace": "spelunkery", "path": "recipes/lapis_from_shard.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/rough_cinnabar_shard.json"},
+		{"namespace": "spelunkery", "path": "recipes/rough_cinnabar.json"},
+		{"namespace": "spelunkery", "path": "recipes/cinnabar_from_block.json"},
+		{"namespace": "spelunkery", "path": "recipes/cinnabar_from_shard.json"},
+		{"namespace": "spelunkery", "path": "recipes/cinnabar_shard.json"},
+		{"namespace": "spelunkery", "path": "recipes/cinnabar.json"},
+		{"namespace": "spelunkery", "path": "recipes/rough_cinnabar_from_block.json"},
+		{"namespace": "spelunkery", "path": "recipes/rough_cinnabar_from_shard.json"},
+		{"namespace": "spelunkery", "path": "recipes/rose_quartz.json"},
+		{"namespace": "spelunkery", "path": "recipes/crushing/redstone_from_rough_cinnabar.json"},
+		{"namespace": "spelunkery", "path": "recipes/crushing/redstone_from_rough_cinnabar.json"},
+		{"namespace": "spelunkery", "path": "recipes/rough_cinnabar_shard.json"},
+		{"namespace": "spelunkery", "path": "recipes/sandpaper_polishing/cinnabar_using_deployer.json"},
+		{"namespace": "spelunkery", "path": "recipes/sandpaper_polishing/cinnabar.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/rough_lazurite_from_block.json"},
+		{"namespace": "spelunkery", "path": "recipes/rough_lazurite_from_shard.json"},
+		{"namespace": "spelunkery", "path": "recipes/rough_lazurite_shard.json"},
+		{"namespace": "spelunkery", "path": "recipes/crushing/lazurite.json"},
+		{"namespace": "spelunkery", "path": "recipes/sandpaper_polishing/lapis_using_deployer.json"},
+		{"namespace": "spelunkery", "path": "recipes/sandpaper_polishing/lapis.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/rough_diamond_from_block.json"},
+		{"namespace": "spelunkery", "path": "recipes/rough_diamond_from_shard.json"},
+		{"namespace": "spelunkery", "path": "recipes/rough_diamond_shard.json"},
+		{"namespace": "spelunkery", "path": "recipes/crushing/diamond.json"},
+		{"namespace": "spelunkery", "path": "recipes/sandpaper_polishing/diamond_using_deployer.json"},
+		{"namespace": "spelunkery", "path": "recipes/sandpaper_polishing/diamond.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/rough_quartz_from_shard.json"},
+		{"namespace": "spelunkery", "path": "recipes/rough_quartz_shard.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/coal_ore_smelting.json"},
+		{"namespace": "spelunkery", "path": "recipes/coal_ore_blasting.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/iron_ore_smelting.json"},
+		{"namespace": "spelunkery", "path": "recipes/iron_ore_blasting.json"},
+		{"namespace": "spelunkery", "path": "recipes/iron_from_magnetite.json"},
+		{"namespace": "spelunkery", "path": "recipes/iron_from_magnetite_blasting.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/copper_ore_smelting.json"},
+		{"namespace": "spelunkery", "path": "recipes/copper_ore_blasting.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/crushing/granite_coal_ore.json"},
+		{"namespace": "spelunkery", "path": "recipes/crushing/tuff_coal_ore.json"},
+		{"namespace": "spelunkery", "path": "recipes/crushing/diorite_coal_ore.json"},
+		{"namespace": "spelunkery", "path": "recipes/crushing/andesite_coal_ore.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/crushing/granite_iron_ore.json"},
+		{"namespace": "spelunkery", "path": "recipes/crushing/tuff_iron_ore.json"},
+		{"namespace": "spelunkery", "path": "recipes/crushing/diorite_iron_ore.json"},
+		{"namespace": "spelunkery", "path": "recipes/crushing/andesite_iron_ore.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/crushing/granite_copper_ore.json"},
+		{"namespace": "spelunkery", "path": "recipes/crushing/tuff_copper_ore.json"},
+		{"namespace": "spelunkery", "path": "recipes/crushing/diorite_copper_ore.json"},
+		{"namespace": "spelunkery", "path": "recipes/crushing/andesite_copper_ore.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/stone_pebble.json"},
+		{"namespace": "spelunkery", "path": "recipes/cobblestone_from_pebble.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/charcoal_lump_from_smelting_food.json"},
+		{"namespace": "spelunkery", "path": "recipes/charcoal_lump_from_blasting_food.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/raw_zinc_nugget.json"},
+		{"namespace": "spelunkery", "path": "recipes/raw_zinc.json"},
+		{"namespace": "spelunkery", "path": "recipes/zinc_nugget_from_smelting.json"},
+		{"namespace": "spelunkery", "path": "recipes/zinc_nugget_from_blasting.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/raw_iron_nugget.json"},
+		{"namespace": "spelunkery", "path": "recipes/raw_iron.json"},
+		{"namespace": "spelunkery", "path": "recipes/iron_nugget_from_smelting.json"},
+		{"namespace": "spelunkery", "path": "recipes/iron_nugget_from_blasting.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/raw_copper_nugget.json"},
+		{"namespace": "spelunkery", "path": "recipes/raw_copper.json"},
+		{"namespace": "spelunkery", "path": "recipes/copper_nugget_from_smelting_create.json"},
+		{"namespace": "spelunkery", "path": "recipes/copper_nugget_from_blasting_create.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/raw_gold_nugget.json"},
+		{"namespace": "spelunkery", "path": "recipes/raw_gold.json"},
+		{"namespace": "spelunkery", "path": "recipes/gold_nugget_from_smelting.json"},
+		{"namespace": "spelunkery", "path": "recipes/gold_nugget_from_blasting.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/rough_emerald_shard.json"},
+		{"namespace": "spelunkery", "path": "recipes/rough_emerald_from_shard.json"},
+		{"namespace": "spelunkery", "path": "recipes/rough_emerald_from_block.json"},
+		{"namespace": "spelunkery", "path": "recipes/sandpaper_polishing/emerald.json"},
+		{"namespace": "spelunkery", "path": "recipes/sandpaper_polishing/emerald_using_deployer.json"},
+		{"namespace": "spelunkery", "path": "recipes/crushing/rough_emerald_shard.json"},
+
+		{"namespace": "spelunkery", "path": "recipes/wooden_sluice.json"},
+		{"namespace": "spelunkery", "path": "recipes/stone_sluice.json"},
+
+
 
 
 		{"namespace": "byg", "path": "recipes/white_puffball_stew.json"},
@@ -1767,6 +1880,9 @@
 
 		{"namespace": "byg", "path": "recipes/nightshade_berry_pie.json"},
 
+		{"namespace": "spelunkery", "path": "recipes/grilled_portabella.json"},
+		{"namespace": "spelunkery", "path": "recipes/grilled_portabella_smoking.json"},
+		{"namespace": "spelunkery", "path": "recipes/grilled_portabella_campfire.json"},
 
 
 		{"namespace": "create", "path": "recipes/filling/builders_tea.json"},

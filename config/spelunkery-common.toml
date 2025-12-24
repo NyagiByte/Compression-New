@@ -5,8 +5,8 @@
 	diamond_grindstone_deplete_chance = 64
 	#Range: 0 ~ 128
 	parachute_opening_delay = 10
-	enable_mores = true
-	enable_rough_gems = true
+	enable_mores = false
+	enable_rough_gems = false
 	enable_raw_nuggets = true
 
 [utilities]

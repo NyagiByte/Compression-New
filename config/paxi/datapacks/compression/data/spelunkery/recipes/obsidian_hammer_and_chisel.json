@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"create:sturdy_sheet"},
+    "B": {"item":"minecraft:stick"}
+  },
+  "pattern": [
+    " A ",
+    "BA ",
+    " BA"
+  ],
+  "result": {
+    "item": "spelunkery:obsidian_hammer_and_chisel"
+  }
+}
