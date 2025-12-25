@@ -1,0 +1,59 @@
+{
+  "type": "spelunkery:block_stripe",
+  "config": {
+    "first_target": "#spelunkery:stone_target",
+    "first_target_placer": [
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:mud"
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "biomeswevegone:peat"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 37,
+          "primary_min": -0.1,
+          "primary_max": 0.1,
+          "secondary_min": -0.4,
+          "secondary_max": 0,
+          "vertical_scale": 0.5
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "biomeswevegone:peat"
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "biomeswevegone:dacite"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 37,
+          "primary_min": -0.2,
+          "primary_max": 0.2,
+          "secondary_min": -0.4,
+          "secondary_max": 0,
+          "vertical_scale": 0.5
+        }
+      }
+    ],
+    "use_second_target": false,
+    "second_target": "#spelunkery:deepslate_target",
+    "second_target_placer": [],
+    "use_biome_filter": true,
+    "biomes": "#spelunkery:has_dirt_noise",
+    "use_height_filter": true,
+    "bottom_offset": 25
+  }
+}

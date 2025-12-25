@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "compression:noise_stripes_obsidian_variants"
+  ],
+  "step": "underground_ores"
+}

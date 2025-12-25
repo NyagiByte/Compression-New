@@ -1,4 +1,5 @@
 
 ["CompressionTweaks Client Config"]
 	#A list of EMI recipe IDs to be blacklisted. Should be used for hardcoded integrations.
-	"EMI Recipe Blacklist" = ["spelunkery:/diamond", "spelunkery:/lazurite", "spelunkery:/cinnabar", "spelunkery:/emerald", , "spelunkery:/spring_water_passive", "spelunkery:/water_passive",, "spelunkery:/water_sluice_clay", , "spelunkery:/water_sluice_coarse_dirt", "spelunkery:/water_sluice_dirt", "spelunkery:/water_sluice_gravel", "spelunkery:/water_sluice_mud", "spelunkery:/water_sluice_red_sand", "spelunkery:/water_sluice_rooted_dirt", "spelunkery:/water_sluice_sand", "spelunkery:/water_sluice_soul_sand", "spelunkery:/lava_passive", "spelunkery:/portal_fluid", "spelunkery:/portal_fluid_anchor", "spelunkery:/portal_fluid_passive"]
+	"EMI Recipe Blacklist" = []
+

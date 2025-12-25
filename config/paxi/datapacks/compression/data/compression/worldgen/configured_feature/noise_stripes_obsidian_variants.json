@@ -1,36 +1,422 @@
 {
   "type": "spelunkery:block_stripe",
   "config": {
-    "first_target": "#spelunkery:stone_target",
+    "first_target": [
+      "minecraft:stone"
+    ],
     "first_target_placer": [
+      {
+        "primary_stone_type": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 50,
+              "data": {
+                "Name": "minecraft:obsidian"
+              }
+            }
+          ]
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "architects_palette:onyx"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 88,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
       {
         "primary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:stone"
+            "Name": "create:asurine"
           }
         },
         "secondary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "minecraft:obsidian"
+            "Name": "architects_palette:nebulite"
           }
         },
         "stone_pattern": {
-          "noise_seed": 40,
-          "primary_min": -0.4,
+          "noise_seed": 89,
+          "primary_min": -0.1,
           "primary_max": 0,
-          "secondary_min": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:dripstone_block"
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "immersiveengineering:slag_gravel"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 90,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "create:scorchia"
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:deepslate"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 91,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "botania:metamorphic_desert_stone"
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "create:crimsite"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 92,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "thermal:rich_slag_block"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "biomeswevegone:red_rock"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 93,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "biomeswevegone:cracked_red_sand"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "create:ochrum"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 94,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "spelunkery:nephrite"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "create:veridium"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 95,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "spelunkery:nephrite"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "botania:metamorphic_forest_stone"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 966,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "spelunkery:nephrite"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:sculk"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 97,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "biomeswevegone:cracked_sand"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "architects_palette:esoterrack"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 98,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:andesite"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:diorite"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 88,
+          "primary_min": -0.2,
+          "primary_max": 0.2,
+          "secondary_min": -0.4,
           "secondary_max": 0.4,
-          "vertical_scale": 0.4
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:glowstone"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "architects_palette:craterstone"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 100,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "botania:metamorphic_plains_stone"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "botania:metamorphic_mesa_stone"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 98,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "botania:metamorphic_taiga_stone"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "botania:metamorphic_fungal_stone"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 98,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "thermal:slag_block"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "botania:metamorphic_mountain_stone"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 98,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "create:scoria"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "botania:metamorphic_swamp_stone"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 98,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
         }
       }
     ],
+    "use_second_target": false,
+    "second_target": "architects_palette:onyx",
+    "second_target_placer": [],
     "use_biome_filter": true,
-    "biomes": "#spelunkery:has_stone_noise",
-    "blank_patch_chance": 0.25,
+    "biomes": "#minecraft:is_overworld",
+    "blank_patch_chance": 0.10,
     "use_height_filter": false,
-    "surface_offset": 25,
+    "surface_offset": 0,
     "bottom_offset": 0
   }
 }
