@@ -12,7 +12,7 @@
             {
               "weight": 50,
               "data": {
-                "Name": "minecraft:obsidian"
+                "Name": "quark:dusky_myalite"
               }
             }
           ]
@@ -108,7 +108,7 @@
         "secondary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "create:crimsite"
+            "Name": "architects_palette:sunstone"
           }
         },
         "stone_pattern": {
@@ -156,7 +156,7 @@
         "secondary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "create:ochrum"
+            "Name": "biomeswevegone:cracked_sand"
           }
         },
         "stone_pattern": {
@@ -348,7 +348,7 @@
         "secondary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "botania:metamorphic_fungal_stone"
+            "Name": "architects_palette:moonstone"
           }
         },
         "stone_pattern": {
@@ -407,6 +407,126 @@
           "secondary_max": 0.1,
           "vertical_scale": 1.0
         }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "create:crimsite"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:andesite"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 98,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "create:asurine"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:andesite"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 98,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "create:veridium"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:andesite"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 98,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "create:ochrum"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:andesite"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 98,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
+      },
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "botania:metamorphic_fungal_stone"
+
+            
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "architects_palette:myonite"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 98,
+          "primary_min": -0.1,
+          "primary_max": 0,
+          "secondary_min": -0.1,
+          "secondary_max": 0.1,
+          "vertical_scale": 1.0
+        }
       }
     ],
     "use_second_target": false,
@@ -414,7 +534,7 @@
     "second_target_placer": [],
     "use_biome_filter": true,
     "biomes": "#minecraft:is_overworld",
-    "blank_patch_chance": 0.10,
+    "blank_patch_chance": 0.05,
     "use_height_filter": false,
     "surface_offset": 0,
     "bottom_offset": 0
