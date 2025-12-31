@@ -1,0 +1,61 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "nyagibits_bytes:processed_pulp"},
+    "loops": 1,
+    "results": [
+      {
+        "count": 4,
+        "item": "create:cardboard"
+    }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:incomplete_processed_pulp_potassium_permanganate"
+          },
+          {
+            "item": "chemlib:potassium_permanganate"
+          }  
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:incomplete_processed_pulp_potassium_permanganate"
+        }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:incomplete_processed_pulp_potassium_permanganate"
+          },
+          {
+            "amount": 300,
+            "fluid": "nyagibits_bytes:formaldehyde_fluid",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:incomplete_processed_pulp_potassium_permanganate"
+          }
+        ]
+      },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+              {
+                "item": "nyagibits_bytes:incomplete_processed_pulp_potassium_permanganate"
+              }
+            ],
+            "results": [
+              {
+                "item": "nyagibits_bytes:incomplete_processed_pulp_potassium_permanganate"
+              }  
+            ]
+          }
+    ],
+    "transitionalItem": {"item": "nyagibits_bytes:incomplete_processed_pulp_potassium_permanganate"}
+  }

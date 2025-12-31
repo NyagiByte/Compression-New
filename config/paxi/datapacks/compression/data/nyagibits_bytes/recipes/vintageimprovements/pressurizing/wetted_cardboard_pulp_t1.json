@@ -1,0 +1,21 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "heated",
+  "secondaryFluidInput": 0,
+  "ingredients": [
+    {
+      "fluid": "nuclearcraft:low_pressure_steam",
+      "amount": 1000
+    },
+    {
+      "item": "create:pulp"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "nyagibits_bytes:wetted_cardboard_pulp"
+    }
+  ],
+  "processingTime": 40
+}

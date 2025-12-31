@@ -1,0 +1,21 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "fluid": "minecraft:water",
+        "amount": 250
+      },
+      {
+        "item": "nyagibits_bytes:sodium_hypochlorite"
+      },
+      {
+        "item": "nyagibits_bytes:large_shives"
+      }
+    ],
+    "results": [
+      {
+        "count": 4,
+        "item": "nyagibits_bytes:processed_pulp"
+      }
+    ]
+  }

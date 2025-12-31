@@ -1,0 +1,23 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:white_liquor_weak_fluid"
+      },
+      {
+        "item": "create:limestone"
+      }
+    ],
+    "results": [
+      {
+        "chance": 0.10,
+        "item": "chemlib:iron_disulfide"
+      },
+      {
+        "amount": 800,
+        "fluid": "nyagibits_bytes:white_liquor_fluid"
+      }
+    ]
+  }

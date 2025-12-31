@@ -1,0 +1,47 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "tag": "create:pulpifiable"
+      },
+      {
+        "tag": "create:pulpifiable"
+      },
+      {
+        "tag": "create:pulpifiable"
+      },
+      {
+        "tag": "create:pulpifiable"
+      },
+      {
+        "tag": "create:pulpifiable"
+      },
+      {
+        "tag": "create:pulpifiable"
+      },
+      {
+        "tag": "create:pulpifiable"
+      },
+      {
+        "tag": "create:pulpifiable"
+      },
+      {
+        "amount": 250,
+        "fluid": "nyagibits_bytes:white_liquor_fluid"
+      }
+    ],
+    "results": [
+      {
+        "item": "create:pulp"
+      },
+      {
+        "amount": 250,
+        "fluid": "minecraft:water"
+      },
+      {
+        "amount": 125,
+        "fluid": "nyagibits_bytes:black_liquor_fluid"
+      }
+    ]
+  }

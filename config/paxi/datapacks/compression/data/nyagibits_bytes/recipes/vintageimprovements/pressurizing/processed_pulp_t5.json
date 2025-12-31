@@ -1,0 +1,33 @@
+{
+	"type":"vintageimprovements:pressurizing",
+	"secondaryFluidInput": 0,
+    "ingredients": [
+      {
+        "fluid": "nyagibits_bytes:formaldehyde_fluid",
+        "amount": 75
+      },
+      {
+        "fluid": "nyagibits_bytes:glutaraldehyde_fluid",
+        "amount": 75
+      },
+      {
+        "fluid": "nyagibits_bytes:amex_solution_fluid",
+        "amount": 75
+      },
+      {
+        "item": "nyagibits_bytes:large_shives"
+      },
+      {
+        "item": "nyagibits_bytes:sodium_hypochlorite"
+      },
+      {
+        "item": "chemlib:potassium_permanganate"
+      }
+    ],
+    "results": [
+      {
+        "count": 64,
+        "item": "nyagibits_bytes:processed_pulp"
+      }
+    ]
+  }

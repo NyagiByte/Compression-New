@@ -1,0 +1,19 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:heavy_black_liquor"
+      }
+    ],
+    "results": [
+      {
+        "count": 1,
+        "item": "nyagibits_bytes:carbon_residue"
+      },
+      {
+        "chance": 0.25,
+        "item": "chemlib:sodium_sulfate"
+      }
+    ]
+  }

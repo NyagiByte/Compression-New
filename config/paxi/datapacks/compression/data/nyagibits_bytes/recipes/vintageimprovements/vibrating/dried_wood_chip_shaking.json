@@ -1,0 +1,23 @@
+{
+	"type":"vintageimprovements:vibrating",
+	"ingredients": [ 
+		{
+			"item": "nyagibits_bytes:dried_wood_chips"
+		}
+	],
+	"results": [
+		{
+            "chance": 0.80,
+			"item": "nyagibits_bytes:large_shives"
+		},
+		{
+            "chance": 0.20,
+			"item": "nyagibits_bytes:wood_knots"
+		},
+		{
+            "chance": 0.05,
+			"item": "minecraft:coarse_dirt"
+		}
+	],
+	"processingTime": 300
+}

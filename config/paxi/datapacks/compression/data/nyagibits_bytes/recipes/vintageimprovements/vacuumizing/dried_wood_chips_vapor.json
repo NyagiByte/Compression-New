@@ -1,0 +1,20 @@
+{
+	"type":"vintageimprovements:vacuumizing",
+	"secondaryFluidOutput": 0,
+    "heatRequirement": "heated",
+	"ingredients": [
+		{
+			"item": "nyagibits_bytes:cooked_wood_chips"
+		}
+	],
+	"results": [
+        {
+            "fluid": "nyagibits_bytes:turpentine_vapor_fluid",
+            "amount": 50
+        },
+		{
+			"item": "nyagibits_bytes:dried_wood_chips"
+		}
+	],
+	"processingTime": 20
+}

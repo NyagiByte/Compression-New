@@ -1,0 +1,48 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "tag": "create:pulpifiable"
+      },
+      {
+        "tag": "create:pulpifiable"
+      },
+      {
+        "tag": "create:pulpifiable"
+      },
+      {
+        "tag": "create:pulpifiable"
+      },
+      {
+        "tag": "create:pulpifiable"
+      },
+      {
+        "tag": "create:pulpifiable"
+      },
+      {
+        "tag": "create:pulpifiable"
+      },
+      {
+        "tag": "create:pulpifiable"
+      },
+      {
+        "amount": 250,
+        "fluid": "nyagibits_bytes:white_liquor_fluid"
+      },
+      {
+        "amount": 5,
+        "fluid": "nyagibits_bytes:9_10_anthraquinone_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 4,
+        "item": "create:pulp"
+      },
+      {
+        "amount": 375,
+        "fluid": "nyagibits_bytes:black_liquor_fluid"
+      }
+    ]
+  }

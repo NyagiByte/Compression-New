@@ -1,0 +1,20 @@
+{
+	"type":"vintageimprovements:pressurizing",
+	"secondaryFluidInput": 0,
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "amount": 250,
+        "fluid": "nyagibits_bytes:tall_oil_fluid"
+      },
+      {
+        "item": "minecraft:honeycomb"
+      }
+    ],
+    "results": [
+      {
+        "count": 4,
+        "item": "nyagibits_bytes:wood_sealant"
+      }
+    ]
+  }

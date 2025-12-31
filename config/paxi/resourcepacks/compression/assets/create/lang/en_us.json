@@ -9,5 +9,7 @@
     "item.create.brass_ingot": "CuZn Brass Ingot",
     "item.create.brass_nugget": "CuZn Brass Nugget",
     "item.create.brass_sheet": "CuZn Brass Sheet",
-    "block.create.brass_block": "CuZn Brass Block"
+    "block.create.brass_block": "CuZn Brass Block",
+
+    "item.create.pulp": "Digested Organics"
 }

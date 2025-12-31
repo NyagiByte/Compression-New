@@ -1,0 +1,44 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:impregnated_cardboard_pulp"
+      },
+      {
+        "item": "nyagibits_bytes:sample_iron_iii_chloride"
+      },
+      {
+        "item": "nyagibits_bytes:chitosan_dust"
+      },
+      {
+        "amount": 125,
+        "fluid": "nyagibits_bytes:polyacrylamide_fluid"
+      },
+      {
+        "amount": 125,
+        "fluid": "nyagibits_bytes:polydadmac_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 16,
+        "item": "nyagibits_bytes:cooked_wood_chips"
+      },
+      {
+        "count": 8,
+        "item": "thermal:rosin"
+      },
+      {
+        "count": 2,
+        "item": "chemlib:sodium_sulfate"
+      },
+      {
+        "amount": 250,
+        "fluid": "nyagibits_bytes:black_liquor_weak_fluid"
+      },
+      {
+        "amount": 50,
+        "fluid": "nyagibits_bytes:tall_oil_fluid"
+      }
+    ]
+  }

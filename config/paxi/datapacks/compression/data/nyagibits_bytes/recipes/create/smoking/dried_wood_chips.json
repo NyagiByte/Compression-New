@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smoking",
+    "cookingtime": 100,
+    "experience": 0.0,
+    "ingredient": {
+      "item": "nyagibits_bytes:cooked_wood_chips"
+    },
+    "result": "nyagibits_bytes:dried_wood_chips"
+  }

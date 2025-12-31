@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"nyagibits_bytes:precise_crystal_harmonizer"},
+      "B": {"item":"nyagibits_bytes:blank_blueprint"}
+    },
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "result": {
+        "item":"immersiveengineering:blueprint",
+        "nbt":{"blueprint":"intermediates_t1"}
+    }
+  }

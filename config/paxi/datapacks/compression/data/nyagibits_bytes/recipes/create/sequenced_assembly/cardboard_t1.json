@@ -1,0 +1,45 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "nyagibits_bytes:processed_pulp"},
+    "loops": 1,
+    "results": [
+      {
+        "count": 2,
+        "item": "create:cardboard"
+    }
+    ],
+    "sequence": [
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:incomplete_processed_pulp_formaldehyde"
+          },
+          {
+            "amount": 600,
+            "fluid": "nyagibits_bytes:formaldehyde_fluid",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:incomplete_processed_pulp_formaldehyde"
+          }
+        ]
+      },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+              {
+                "item": "nyagibits_bytes:incomplete_processed_pulp_formaldehyde"
+              }
+            ],
+            "results": [
+              {
+                "item": "nyagibits_bytes:incomplete_processed_pulp_formaldehyde"
+              }  
+            ]
+          }
+    ],
+    "transitionalItem": {"item": "nyagibits_bytes:incomplete_processed_pulp_formaldehyde"}
+  }

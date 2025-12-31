@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "fluid": "nyagibits_bytes:tall_oil_fluid",
+        "amount": 50
+      },
+      {
+        "item": "supplementaries:ash"
+      },
+      {
+        "item": "immersiveengineering:slag_gravel"
+      },
+      {
+        "item": "nyagibits_bytes:gypsum"
+      }
+    ],
+    "results": [
+      {
+        "count": 16,
+        "item": "nyagibits_bytes:cement_binder"
+      }
+    ]
+  }

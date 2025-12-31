@@ -1,0 +1,34 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:white_liquor_weak_fluid"
+      },
+      {
+        "item": "create:limestone"
+      },
+      {
+        "item": "nuclearcraft:borax_dust"
+      }
+    ],
+    "results": [
+      {
+        "chance": 0.10,
+        "item": "chemlib:iron_disulfide"
+      },
+      {
+        "chance": 0.90,
+        "item": "create:limestone"
+      },
+      {
+        "chance": 0.99,
+        "item": "nuclearcraft:borax_dust"
+      },
+      {
+        "amount": 800,
+        "fluid": "nyagibits_bytes:white_liquor_fluid"
+      }
+    ]
+  }

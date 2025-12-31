@@ -1,0 +1,22 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:wood_ash"
+      },
+      {
+        "item": "chemlib:sulfur_dust"
+      },
+      {
+        "amount": 2000,
+        "fluid": "minecraft:water"
+      }
+    ],
+    "results": [
+      {
+        "amount": 2000,
+        "fluid": "nyagibits_bytes:white_liquor_fluid"
+      }
+    ]
+  }

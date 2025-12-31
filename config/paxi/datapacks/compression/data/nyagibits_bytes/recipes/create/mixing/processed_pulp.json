@@ -1,0 +1,20 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "fluid": "minecraft:water",
+        "amount": 250
+      },
+      {
+        "item": "supplementaries:ash"
+      },
+      {
+        "item": "nyagibits_bytes:large_shives"
+      }
+    ],
+    "results": [
+      {
+        "item": "nyagibits_bytes:processed_pulp"
+      }
+    ]
+  }

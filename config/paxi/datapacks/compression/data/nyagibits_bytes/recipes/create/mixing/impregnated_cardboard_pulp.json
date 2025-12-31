@@ -1,0 +1,43 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:wetted_cardboard_pulp"
+      },
+      {
+        "item": "nyagibits_bytes:wetted_cardboard_pulp"
+      },
+      {
+        "item": "nyagibits_bytes:wetted_cardboard_pulp"
+      },
+      {
+        "item": "nyagibits_bytes:wetted_cardboard_pulp"
+      },
+      {
+        "item": "nyagibits_bytes:wetted_cardboard_pulp"
+      },
+      {
+        "item": "nyagibits_bytes:wetted_cardboard_pulp"
+      },
+      {
+        "item": "nyagibits_bytes:wetted_cardboard_pulp"
+      },
+      {
+        "item": "nyagibits_bytes:wetted_cardboard_pulp"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:white_liquor_fluid"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:black_liquor_fluid"
+      }
+    ],
+    "results": [
+      {
+        "item": "nyagibits_bytes:impregnated_cardboard_pulp"
+      }
+    ]
+  }

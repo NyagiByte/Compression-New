@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"chemlib:copper_plate"},
+    "B": {"item":"minecraft:redstone_torch"},
+    "C": {"item":"minecraft:lightning_rod"},
+    "D": {"item":"botania:corporea_spark"},
+    "E": {"item":"minecraft:redstone"}
+  },
+  "pattern": [
+    "A B",
+    "ACD",
+    "EAA"
+  ],
+  "result": {
+    "count":2, 
+    "item":"create:transmitter"
+}
+}
