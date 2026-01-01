@@ -1,0 +1,15 @@
+{
+  "feature": "compression:luminar_forest/luminar_forest_vegetation",
+  "placement": [
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

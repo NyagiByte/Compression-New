@@ -1,0 +1,50 @@
+{
+  "type": "spelunkery:block_stripe",
+  "config": {
+    "first_target": "minecraft:netherrack",
+    "first_target_placer": [
+      {
+        "primary_stone_type": {
+          "type": "minecraft:weighted_state_provider",
+          "entries":[
+            {
+              "data": {
+                "Name": "minecraft:glowstone"
+              },
+              "weight": 30
+            },
+            {
+              "data": {
+                "Name": "abyssal_decor:crystalized_glowstone"
+              },
+              "weight": 70
+            }
+          ]
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:glowstone"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 69,
+          "primary_min": -0.075,
+          "primary_max": 0.075,
+          "secondary_min": 0,
+          "secondary_max": 0,
+          "vertical_scale": 1
+        }
+      }
+    ],
+    "use_second_target": false,
+    "second_target": "#spelunkery:deepslate_target",
+    "second_target_placer": [],
+    "use_biome_filter": true,
+    "biomes": "compressiontweaks:nether_wastes",
+    "blank_patch_chance": 0,
+    "use_height_filter": true,
+    "surface_offset": 0,
+    "bottom_offset": 30
+  }
+}

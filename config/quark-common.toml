@@ -1332,7 +1332,7 @@
 
 		[world.spiral_spires.dimensions]
 			"Is Blacklist" = false
-			Dimensions = ["minecraft:the_end"]
+			Dimensions = ["minecraft:overworld"]
 
 		[world.spiral_spires.biomes]
 
@@ -1343,7 +1343,7 @@
 
 			#Biome names this should spawn in. Must match both this and 'types' to spawn.
 			[world.spiral_spires.biomes.biomes]
-				Biomes = ["minecraft:end_highlands"]
+				Biomes = ["compressiontweaks:end"]
 				"Is Blacklist" = false
 
 [mobs]

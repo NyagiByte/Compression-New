@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": "compressiontweaks:nether_wastes",
+  "features": [
+    "compression:luminar_forest/luminar_forest_vein_obsidian",
+    "compression:luminar_forest/luminar_forest_veins_glowstone",
+    "compression:luminar_forest/luminar_forest_veins_glowstone_mixed"
+  ],
+  "step": "underground_ores"
+}
