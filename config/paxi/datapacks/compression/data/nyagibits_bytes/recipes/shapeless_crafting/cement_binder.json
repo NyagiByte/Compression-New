@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "supplementaries:ash"
+        },
+        {
+            "item": "immersiveengineering:slag_gravel"
+        }
+    ],
+    "result": {
+        "item": "nyagibits_bytes:cement_binder"
+    }
+}

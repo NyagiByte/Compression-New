@@ -1,0 +1,97 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "nyagibits_bytes:processed_pulp"},
+    "loops": 1,
+    "results": [
+      {
+        "count": 16,
+        "item": "create:cardboard"
+    }
+    ],
+    "sequence": [
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:incomplete_processed_pulp_amex"
+          },
+          {
+            "amount": 75,
+            "fluid": "nyagibits_bytes:amex_solution_fluid",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:incomplete_processed_pulp_amex"
+          }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:incomplete_processed_pulp_amex"
+          },
+          {
+            "amount": 75,
+            "fluid": "nyagibits_bytes:glutaraldehyde_fluid",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:incomplete_processed_pulp_amex"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:incomplete_processed_pulp_amex"
+          },
+          {
+            "item": "chemlib:potassium_permanganate"
+          }  
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:incomplete_processed_pulp_amex"
+        }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:incomplete_processed_pulp_amex"
+          },
+          {
+            "amount": 75,
+            "fluid": "nyagibits_bytes:formaldehyde_fluid",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:incomplete_processed_pulp_amex"
+          }
+        ]
+      },
+        {
+            "type": "create:pressing",
+            "ingredients": [
+              {
+                "item": "nyagibits_bytes:incomplete_processed_pulp_amex"
+              }
+            ],
+            "results": [
+              {
+                "item": "nyagibits_bytes:incomplete_processed_pulp_amex"
+              }  
+            ]
+          }
+    ],
+    "transitionalItem": {"item": "nyagibits_bytes:incomplete_processed_pulp_amex"}
+  }

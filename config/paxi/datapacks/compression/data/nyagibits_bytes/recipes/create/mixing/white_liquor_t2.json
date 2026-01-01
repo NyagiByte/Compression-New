@@ -1,0 +1,22 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "item": "chemlib:sodium_sulfate"
+      },
+      {
+        "item": "chemlib:sodium_hydroxide"
+      },
+      {
+        "amount": 16000,
+        "fluid": "minecraft:water"
+      }
+    ],
+    "results": [
+      {
+        "amount": 16000,
+        "fluid": "nyagibits_bytes:white_liquor_fluid"
+      }
+    ]
+  }

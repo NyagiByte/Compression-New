@@ -1,0 +1,21 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "fluid": "nyagibits_bytes:formaldehyde_fluid",
+        "amount": 250
+      },
+      {
+        "item": "nyagibits_bytes:sodium_hypochlorite"
+      },
+      {
+        "item": "nyagibits_bytes:large_shives"
+      }
+    ],
+    "results": [
+      {
+        "count": 8,
+        "item": "nyagibits_bytes:processed_pulp"
+      }
+    ]
+  }

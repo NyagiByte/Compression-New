@@ -1,0 +1,28 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "fluid": "nyagibits_bytes:formaldehyde_fluid",
+        "amount": 125
+      },
+      {
+        "fluid": "nyagibits_bytes:glutaraldehyde_fluid",
+        "amount": 125
+      },
+      {
+        "item": "nyagibits_bytes:large_shives"
+      },
+      {
+        "item": "nyagibits_bytes:sodium_hypochlorite"
+      },
+      {
+        "item": "chemlib:potassium_permanganate"
+      }
+    ],
+    "results": [
+      {
+        "count": 32,
+        "item": "nyagibits_bytes:processed_pulp"
+      }
+    ]
+  }

@@ -1,0 +1,23 @@
+{
+	"type":"vintageimprovements:pressurizing",
+	"secondaryFluidInput": 0,
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "amount": 250,
+        "fluid": "nyagibits_bytes:tall_oil_fluid"
+      },
+      {
+        "item": "thermal:cured_rubber"
+      },
+      {
+        "item": "chemlib:ammonium_chloride"
+      }
+    ],
+    "results": [
+      {
+        "count": 2,
+        "item": "nyagibits_bytes:sealant"
+      }
+    ]
+  }

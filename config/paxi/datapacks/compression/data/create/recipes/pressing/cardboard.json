@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "nyagibits_bytes:processed_pulp"
+    }
+  ],
+  "results": [
+    {
+      "item": "create:cardboard"
+    }
+  ]
+}

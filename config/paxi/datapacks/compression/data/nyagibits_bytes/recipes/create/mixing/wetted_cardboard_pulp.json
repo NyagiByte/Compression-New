@@ -1,0 +1,18 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "item": "create:pulp"
+      },
+      {
+        "amount": 250,
+        "fluid": "minecraft:water"
+      }
+    ],
+    "results": [
+      {
+        "item": "nyagibits_bytes:wetted_cardboard_pulp"
+      }
+    ]
+  }
