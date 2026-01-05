@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "create:brass_sheet"},
+      "B": {"item": "immersiveengineering:sheetmetal_colored_blue"},
+      "C": {"item": "quark:framed_glass"},
+      "D": {"item": "create:stock_link"},
+      "E": {"item": "nyagibits_bytes:etched_redstone_plate"}
+    },
+    "pattern": [
+      "ABC",
+      "ADC",
+      "EBB"
+    ],
+    "result": {
+      "count": 16,
+      "item": "create:redstone_requester"
+    }
+  }

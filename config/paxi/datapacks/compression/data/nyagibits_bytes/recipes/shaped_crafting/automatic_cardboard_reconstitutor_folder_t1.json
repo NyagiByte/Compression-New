@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"thermal:saw_blade"},
+      "B": {"item":"quark:crafter"},
+      "C": {"item":"immersiveengineering:stick_iron"},
+      "D": {"item":"minecraft:piston"},
+      "E": {"item":"nyagibits_bytes:metamorphic_alloy"},
+      "F": {"item":"quark:iron_plate"}
+    },
+    "pattern": [
+      "A B",
+      " CD",
+      "EEF"
+    ],
+    "result": {
+        "count": 8,
+        "item": "nyagibits_bytes:automatic_cardboard_reconstitutor_folder"
+    }
+  }

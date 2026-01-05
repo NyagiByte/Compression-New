@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "create:brass_sheet"},
+      "B": {"item": "quark:framed_glass"},
+      "C": {"item": "nyagibits_bytes:brain_on_a_dish"},
+      "D": {"item": "create:stock_link"},
+      "E": {"tag": "minecraft:planks"},
+      "F": {"item": "nyagibits_bytes:mana_infused_casing"}
+    },
+    "pattern": [
+      "ABA",
+      "ACD",
+      "EFE"
+    ],
+    "result": {
+      "count": 64,
+      "item": "create:factory_gauge"
+    }
+  }

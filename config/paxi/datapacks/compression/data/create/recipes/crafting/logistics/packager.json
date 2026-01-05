@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "immersiveengineering:sheetmetal_colored_light_gray"},
+      "B": {"item": "create:chute"},
+      "C": {"item": "nyagibits_bytes:automatic_cardboard_reconstitutor_folder"},
+      "D": {"item": "create:cardboard_block"},
+      "E": {"item": "nyagibits_bytes:semi_automatic_round_labeling_machine"},
+      "F": {"item": "quark:iron_plate"},
+      "G": {"item": "create:belt_connector"}
+    },
+    "pattern": [
+      "ABA",
+      "CDE",
+      "FGF"
+    ],
+    "result": {
+      "count": 16,
+      "item": "create:packager"
+    }
+  }

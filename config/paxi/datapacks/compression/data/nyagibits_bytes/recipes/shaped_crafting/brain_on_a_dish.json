@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"supplementaries:fodder"},
+      "B": {"item":"nyagibits_bytes:bucket_of_salt_water"},
+      "C": {"item":"quark:iron_plate"},
+      "D": {"item":"minecraft:hopper"},
+      "E": {"item":"nyagibits_bytes:loose_brain_matter"},
+      "F": {"item":"quark:framed_glass"},
+      "G": {"item":"nyagibits_bytes:petri_dish_agar_agar"}
+    },
+    "pattern": [
+      "ABC",
+      "DEF",
+      "CGC"
+    ],
+    "result": {
+        "item": "nyagibits_bytes:brain_on_a_dish"
+    }
+  }

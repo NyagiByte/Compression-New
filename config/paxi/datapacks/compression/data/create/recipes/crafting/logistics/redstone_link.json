@@ -1,7 +1,7 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item": "minecraft:redstone_torch"},
+      "A": {"item": "create:transmitter"},
       "B": {"item": "create:andesite_casing"}
     },
     "pattern": [
@@ -9,7 +9,7 @@
       "B"
     ],
     "result": {
-      "count": 1,
+      "count": 4,
       "item": "create:redstone_link"
     }
   }

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:target"},
+      "B": {"item":"quark:iron_plate"},
+      "C": {"item":"botania:fel_pumpkin"},
+      "D": {"item":"minecraft:observer"},
+      "E": {"item":"minecraft:snow_block"},
+      "F": {"item":"nyagibits_bytes:etched_redstone_plate"}
+    },
+    "pattern": [
+      "ABC",
+      "D E",
+      "FBE"
+    ],
+    "result": {
+        "count": 2,
+        "item": "nyagibits_bytes:simple_targeting_system"
+    }
+  }

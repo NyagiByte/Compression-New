@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:observer"},
+      "B": {"item":"immersiveengineering:stick_iron"},
+      "C": {"item":"nyagibits_bytes:pen"},
+      "D": {"item":"architects_palette:spool"},
+      "E": {"item":"quark:iron_plate"},
+      "F": {"item":"nyagibits_bytes:metamorphic_alloy"}
+    },
+    "pattern": [
+      " AB",
+      "CDE",
+      "FFF"
+    ],
+    "result": {
+        "count": 8,
+        "item": "nyagibits_bytes:semi_automatic_round_labeling_machine"
+    }
+  }

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "create:sticker"},
+      "B": {"item": "architects_palette:spool"},
+      "C": {"item": "immersiveengineering:sheetmetal_colored_blue"},
+      "D": {"item": "create:piston_extension_pole"},
+      "E": {"item": "nyagibits_bytes:steel_casing"},
+      "F": {"item": "nyagibits_bytes:simple_targeting_system"}
+    },
+    "pattern": [
+      "AB ",
+      "CDD",
+      "CEF"
+    ],
+    "result": {
+      "count": 32,
+      "item": "create:package_frogport"
+    }
+  }

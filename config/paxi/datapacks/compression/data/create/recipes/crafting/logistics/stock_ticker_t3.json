@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "architects_palette:spool"},
+      "B": {"item": "immersiveengineering:stick_iron"},
+      "C": {"item": "quark:framed_glass"},
+      "D": {"item": "create:brass_sheet"},
+      "E": {"item": "create:stock_link"},
+      "F": {"item": "nyagibits_bytes:mana_infused_casing"}
+    },
+    "pattern": [
+      "ABC",
+      "DEC",
+      "DFF"
+    ],
+    "result": {
+      "count": 32,
+      "item": "create:stock_ticker"
+    }
+  }

@@ -1,15 +1,15 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item": "minecraft:redstone_torch"},
-      "B": {"item": "nyagibits_bytes:steel_casing"}
+      "A": {"item": "create:transmitter"},
+      "B": {"item": "create:brass_casing"}
     },
     "pattern": [
       "A",
       "B"
     ],
     "result": {
-      "count": 4,
+      "count": 16,
       "item": "create:redstone_link"
     }
   }

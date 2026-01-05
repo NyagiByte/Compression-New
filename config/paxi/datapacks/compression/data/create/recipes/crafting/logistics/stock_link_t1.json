@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "immersiveengineering:wire_copper"},
+      "B": {"item": "minecraft:green_dye"},
+      "C": {"item": "create:redstone_link"},
+      "D": {"item": "abyssal_decor:bulb_lamp_floor"},
+      "E": {"item": "create:brass_nugget"},
+      "F": {"item": "create:brass_casing"},
+      "G": {"item": "nyagibits_bytes:etched_redstone_plate"}
+    },
+    "pattern": [
+      "AB ",
+      "CDE",
+      " FG"
+    ],
+    "result": {
+      "count": 32,
+      "item": "create:stock_link"
+    }
+  }

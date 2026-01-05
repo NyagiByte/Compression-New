@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "create:andesite_alloy"},
+      "B": {"item": "minecraft:iron_trapdoor"},
+      "C": {"item": "create:chute"}
+    },
+    "pattern": [
+      "AB",
+      "CA"
+    ],
+    "result": {
+      "count": 1,
+      "item": "create:item_hatch"
+    }
+  }
