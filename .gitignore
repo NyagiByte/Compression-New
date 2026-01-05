@@ -48,3 +48,5 @@ config/packetfixer.properties
 config/xenon-fingerprint.json
 config/oculus.properties
 config/oculus.properties
+config/xenon++.toml
+config/xenon-options.json
