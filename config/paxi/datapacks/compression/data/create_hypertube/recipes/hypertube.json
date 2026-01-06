@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group":"book",
+  "key": {
+    "A": {"item":"create:brass_nugget"},
+    "B": {"item":"ae2:quartz_glass"}
+  },
+  "pattern": [
+    "ABA"
+  ],
+  "result": {
+    "count": 64,
+    "item": "create_hypertube:hypertube"
+  }
+}

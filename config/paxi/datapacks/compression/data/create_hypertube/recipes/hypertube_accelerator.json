@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group":"book",
+  "key": {
+    "A": {"item":"pneumaticcraft:speed_upgrade"},
+    "B": {"item":"nyagibits_bytes:pile_of_cogs"},
+    "C": {"item":"create:encased_fan"},
+    "D": {"item":"create_hypertube:hypertube"},
+    "E": {"item":"create_hypertube:hypertube_entrance"}
+  },
+  "pattern": [
+    "ABC",
+    "DED",
+    "ABC"
+  ],
+  "result": {
+    "count": 32,
+    "item": "create_hypertube:hypertube_accelerator"
+  }
+}

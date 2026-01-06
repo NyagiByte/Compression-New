@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group":"book",
+  "key": {
+    "A": {"item":"create_hypertube:hypertube"},
+    "B": {"item":"nyagibits_bytes:pile_of_cogs"},
+    "C": {"item":"railways:portable_fuel_interface"},
+    "D": {"item":"create:railway_casing"}
+  },
+  "pattern": [
+    "ABB",
+    "ACD"
+  ],
+  "result": {
+    "count": 8,
+    "item": "create_hypertube:hypertube_entrance"
+  }
+}

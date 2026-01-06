@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"chemlib:iron_plate"},
+    "B": {"item":"botania:crafty_crate"},
+    "C": {"item":"minecraft:redstone"},
+    "D": {"item":"create:mechanical_crafter"}
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "CDC"
+  ],
+  "result": {
+    "count":1, 
+    "item":"quark:crafter"
+}
+}
