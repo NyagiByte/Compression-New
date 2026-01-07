@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "create:encased_chain_drive"
+        },
+        {
+            "item": "nyagibits_bytes:precise_crystal_harmonizer"
+        }
+    ],
+    "result": {
+        "count": 4,
+        "item": "create:adjustable_chain_gearshift"
+    }
+}

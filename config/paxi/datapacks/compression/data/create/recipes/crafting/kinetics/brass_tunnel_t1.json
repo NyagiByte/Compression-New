@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"nyagibits_bytes:precise_crystal_harmonizer"},
+    "B": {"item":"create:brass_ingot"},
+    "C": {"item":"minecraft:dried_kelp"}
+  },
+  "pattern": [
+    "A ",
+    "BB",
+    "CC"
+  ],
+  "result": {
+    "count": 8, 
+    "item": "create:brass_tunnel"
+}
+}

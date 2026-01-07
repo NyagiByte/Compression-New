@@ -494,6 +494,8 @@ JEIEvents.hideItems(event => {
     'pneumaticcraft:medium_tank',
     'pneumaticcraft:large_tank',
     'pneumaticcraft:huge_tank',
+    //Compressed Creativity
+    'compressedcreativity:mechanical_visor_upgrade',
     //The One Probe
     'theoneprobe:probe',
     'theoneprobe:iron_helmet_probe',

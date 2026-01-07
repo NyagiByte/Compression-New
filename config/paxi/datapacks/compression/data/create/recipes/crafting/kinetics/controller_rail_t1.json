@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "chemlib:gold_plate"},
+      "B": {"item": "immersiveengineering:stick_treated"},
+      "C": {"item": "nyagibits_bytes:precise_crystal_harmonizer"}
+    },
+    "pattern": [
+      "A A",
+      "ABA",
+      "ACA"
+    ],
+    "result": {
+      "count": 24,
+      "item": "create:controller_rail"
+    }
+  }

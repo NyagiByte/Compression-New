@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"create:brass_sheet"},
+    "B": {"item":"create:chute"},
+    "C": {"item":"nyagibits_bytes:precise_crystal_harmonizer"}
+  },
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "result": {
+    "count": 4, 
+    "item": "create:smart_chute"
+}
+}

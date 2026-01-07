@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "create:railway_casing"
+        },
+        {
+            "item": "nyagibits_bytes:precise_crystal_harmonizer"
+        }
+    ],
+    "result": {
+        "count": 16,
+        "item": "create:track_signal"
+    }
+}

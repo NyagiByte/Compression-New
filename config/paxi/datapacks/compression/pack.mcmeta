@@ -35,6 +35,7 @@
 		{"namespace": "mekanism", "path": "recipes/processing/lategame/polonium.json"},
 
 		{"namespace": "compressedcreativity", "path": "recipes/crafting/mesh_empty.json"},
+		{"namespace": "compressedcreativity", "path": "recipes/crafting/mechanical_visor_upgrade.json"},
 		
 		{"namespace": "compressedcreativity", "path": "recipes/mixing/brass_gilded_lapis_lazuli.json"},
 		
