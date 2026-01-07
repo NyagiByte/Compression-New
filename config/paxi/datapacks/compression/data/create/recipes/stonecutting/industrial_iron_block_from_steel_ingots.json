@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 8,
+    "ingredient": {
+      "item": "immersiveengineering:ingot_steel"
+    },
+    "result": "create:industrial_iron_block"
+  }

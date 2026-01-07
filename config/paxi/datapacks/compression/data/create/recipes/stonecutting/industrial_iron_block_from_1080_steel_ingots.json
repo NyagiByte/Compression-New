@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 32,
+    "ingredient": {
+      "item": "nyagibits_bytes:steel_high_carbon_1080"
+    },
+    "result": "create:industrial_iron_block"
+  }

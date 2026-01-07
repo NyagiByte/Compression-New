@@ -470,7 +470,7 @@
 		{"namespace": "vintageimprovements", "path": "recipes/pressing/refined_radiance_ingot.json"},
 		{"namespace": "vintageimprovements", "path": "recipes/pressing/platinum_ingot.json"},
 		{"namespace": "vintageimprovements", "path": "recipes/pressing/palladium_ingot.json"},
-		{"namespace": "vintageimprovements", "path": "recipes/pressing/cast_iron_ingot.json"},
+		{"namespace": "vintageimprovements", "path": "recipes/pressing/industrial_iron_ingot.json"},
 
 		{"namespace": "vintageimprovements", "path": "recipes/centrifugation/gray_dye.json"},
 		{"namespace": "vintageimprovements", "path": "recipes/centrifugation/cyan_dye.json"},
@@ -1251,18 +1251,23 @@
 
 		{"namespace": "create", "path": "recipes/empty_botania_water_bowl_of_minecraft_water.json"},
 
-		{"namespace": "createdeco", "path": "recipes/pressing/cast_iron_coin.json"},
-		{"namespace": "createdeco", "path": "recipes/pressing/zinc_coin.json"},
-		{"namespace": "createdeco", "path": "recipes/pressing/copper_coin.json"},
-		{"namespace": "createdeco", "path": "recipes/pressing/brass_coin.json"},
-		{"namespace": "createdeco", "path": "recipes/pressing/iron_coin.json"},
-		{"namespace": "createdeco", "path": "recipes/pressing/gold_coin.json"},
-		{"namespace": "createdeco", "path": "recipes/pressing/netherite_coin.json"},
-		{"namespace": "createdeco", "path": "recipes/pressing/zinc_sheet.json"},
-		{"namespace": "createdeco", "path": "recipes/pressing/netherite_sheet.json"},
+		{"namespace": "createdeco", "path": "recipes/industrial_iron_block.json"},
+		{"namespace": "createdeco", "path": "recipes/inndustrial_iron_ingot_from_industrial_iron_block.json"},
+		{"namespace": "createdeco", "path": "recipes/industrial_iron_block_from_iron_ingots_stonecutting.json"},
 
-		{"namespace": "createdeco", "path": "recipes/compacting/cast_iron_ingot.json"},
-		{"namespace": "createdeco", "path": "recipes/compacting/cast_iron_block.json"},
+		{"namespace": "createdeco", "path": "recipes/pressing/coins/industrial_iron_coin.json"},
+		{"namespace": "createdeco", "path": "recipes/pressing/coins/zinc_coin.json"},
+		{"namespace": "createdeco", "path": "recipes/pressing/coins/copper_coin.json"},
+		{"namespace": "createdeco", "path": "recipes/pressing/coins/brass_coin.json"},
+		{"namespace": "createdeco", "path": "recipes/pressing/coins/iron_coin.json"},
+		{"namespace": "createdeco", "path": "recipes/pressing/coins/gold_coin.json"},
+		{"namespace": "createdeco", "path": "recipes/pressing/coins/netherite_coin.json"},
+		{"namespace": "createdeco", "path": "recipes/pressing/coins/zinc_sheet.json"},
+		{"namespace": "createdeco", "path": "recipes/pressing/netherite_sheet.json"},
+		{"namespace": "createdeco", "path": "recipes/pressing/andesite_sheet.json"},
+
+		{"namespace": "createdeco", "path": "recipes/compacting/industrial_iron_ingot.json"},
+		{"namespace": "createdeco", "path": "recipes/compacting/industrial_iron_block.json"},
 
 		{"namespace": "tesseract", "path": "recipes/tesseract.json"},
 
@@ -1866,6 +1871,27 @@
 
 		{"namespace": "spelunkery", "path": "recipes/wooden_sluice.json"},
 		{"namespace": "spelunkery", "path": "recipes/stone_sluice.json"},
+
+		{"namespace": "create_hypertube", "path": "recipes/hyper_accelerator_large_cogwheel.json"},
+		{"namespace": "create_hypertube", "path": "recipes/hyper_accelerator_small_cogwheel.json"},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
