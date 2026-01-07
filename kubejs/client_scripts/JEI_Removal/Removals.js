@@ -125,6 +125,7 @@ JEIEvents.hideItems(event => {
     'nuclearcraft:manganese_plate',
     'nuclearcraft:netherite_plate',
     'createdeco:netherite_sheet',
+    'createdeco:andesite_sheet',
     'nuclearcraft:lithium_plate',
     'nuclearcraft:platinum_plate',
     'nuclearcraft:thorium_plate',

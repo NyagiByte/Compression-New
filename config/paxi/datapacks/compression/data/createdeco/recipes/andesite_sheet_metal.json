@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "create:andesite_alloy"}
+    },
+    "pattern": [
+      "A A",
+      "A A"
+    ],
+    "result": {
+      "count": 4,
+      "item": "createdeco:andesite_sheet_metal"
+    }
+  }

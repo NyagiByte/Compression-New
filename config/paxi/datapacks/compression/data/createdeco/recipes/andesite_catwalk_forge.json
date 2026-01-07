@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "create:andesite_alloy"},
+      "B": {"item": "createdeco:andesite_bars"}
+    },
+    "pattern": [
+      " A ",
+      "ABA",
+      " A "
+    ],
+    "result": {
+      "count": 4,
+      "item": "createdeco:andesite_catwalk"
+    }
+  }

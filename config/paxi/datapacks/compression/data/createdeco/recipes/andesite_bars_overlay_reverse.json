@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+      "item": "createdeco:andesite_bars_overlay"
+    },
+    "result": "createdeco:andesite_bars"
+  }

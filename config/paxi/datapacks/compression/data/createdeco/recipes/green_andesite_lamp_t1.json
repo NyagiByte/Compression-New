@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "nyagibits_bytes:metamorphic_alloy"},
+      "B": {"item": "minecraft:glow_berries"}
+    },
+    "pattern": [
+      "A",
+      "B",
+      "A"
+    ],
+    "result": {
+      "count": 32,
+      "item": "createdeco:green_andesite_lamp"
+    }
+  }
