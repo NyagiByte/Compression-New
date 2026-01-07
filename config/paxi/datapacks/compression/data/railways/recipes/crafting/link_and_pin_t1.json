@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"immersiveengineering:plate_steel"},
+    "B": {"item":"create:industrial_iron_block"},
+    "C": {"item":"create:shaft"},
+    "D": {"item":"immersiveengineering:nugget_steel"}
+  },
+  "pattern": [
+    "AA ",
+    "BCD",
+    "AA "
+  ],
+  "result": {
+    "count": 8, 
+    "item": "railways:link_and_pin"
+}
+}

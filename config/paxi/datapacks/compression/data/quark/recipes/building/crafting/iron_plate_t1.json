@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"immersiveengineering:ingot_steel"},
+    "B": {"item":"nyagibits_bytes:livisite_cobble"}
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "count": 2,
+    "item":"quark:iron_plate"
+}
+}

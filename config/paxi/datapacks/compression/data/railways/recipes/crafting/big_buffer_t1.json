@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"immersiveengineering:plate_steel"},
+    "B": {"item":"create:industrial_iron_block"},
+    "C": {"item":"railways:small_buffer"}
+  },
+  "pattern": [
+    "BCA"
+  ],
+  "result": {
+    "count": 8, 
+    "item": "railways:big_buffer"
+}
+}

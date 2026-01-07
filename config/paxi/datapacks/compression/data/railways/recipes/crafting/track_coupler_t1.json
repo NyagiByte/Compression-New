@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"immersiveengineering:plate_steel"},
+    "B": {"item":"minecraft:redstone"},
+    "C": {"item":"create:railway_casing"}
+  },
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "result": {
+    "count": 2, 
+    "item": "railways:track_coupler"
+}
+}

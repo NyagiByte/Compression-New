@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"immersiveengineering:plate_steel"},
+    "B": {"item":"minecraft:campfire"}
+  },
+  "pattern": [
+    "ABA"
+  ],
+  "result": {
+    "count": 2, 
+    "item": "railways:smokestack_streamlined"
+}
+}

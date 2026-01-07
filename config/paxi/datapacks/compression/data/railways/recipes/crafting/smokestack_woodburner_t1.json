@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"immersiveengineering:plate_steel"},
+    "B": {"item":"minecraft:campfire"},
+    "C": {"item":"immersiveengineering:nugget_steel"}
+  },
+  "pattern": [
+    "CAC",
+    "ABA"
+  ],
+  "result": {
+    "count": 2, 
+    "item": "railways:smokestack_woodburner"
+}
+}

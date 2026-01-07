@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"thermal:electrum_plate"},
+    "B": {"tag":"minecraft:wooden_fences"},
+    "C": {"item":"create:cogwheel"},
+    "D": {"item":"thermal:electrum_nugget"}
+  },
+  "pattern": [
+    "AD",
+    "AC",
+    " B"
+  ],
+  "result": {
+    "count": 2,
+    "item":"create:wrench"
+}
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"thermal:electrum_plate"},
+    "B": {"item":"create:depot"},
+    "C": {"item":"create:cogwheel"}
+  },
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "result": {
+    "count": 2,
+    "item":"create:weighted_ejector"
+}
+}

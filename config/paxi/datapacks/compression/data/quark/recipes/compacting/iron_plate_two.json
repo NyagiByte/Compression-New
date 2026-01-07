@@ -1,0 +1,18 @@
+{
+  "type": "create:compacting",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {"item":"immersiveengineering:plate_steel"},
+    {"item":"immersiveengineering:plate_steel"},
+    {"item":"immersiveengineering:plate_steel"},
+    {"item":"immersiveengineering:plate_steel"},
+    {"item":"immersiveengineering:plate_steel"},
+    {"item":"immersiveengineering:plate_steel"},
+    {"item":"immersiveengineering:plate_steel"},
+    {"item":"immersiveengineering:plate_steel"},
+    {"item":"nyagibits_bytes:livisite_cobble"}
+  ],
+  "results":[ 
+    {"count":8, "item":"quark:iron_plate"}
+  ]
+}
