@@ -1,0 +1,19 @@
+{
+    "type": "create:mechanical_crafting",
+    "acceptMirrored": true,
+    "key": {
+      "A": {"item": "nyagibits_bytes:metamorphic_alloy"},
+      "B": {"item": "create:encased_fan"},
+      "C": {"item": "create:fluid_pipe"},
+      "D": {"item": "minecraft:copper_ingot"},
+      "E": {"item": "create:mechanical_pump"}
+    },
+    "pattern": [
+      "ABECC",
+      "DD   "
+    ],
+    "result": {
+        "count": 8,
+        "item": "create:potato_cannon"
+    }
+  }

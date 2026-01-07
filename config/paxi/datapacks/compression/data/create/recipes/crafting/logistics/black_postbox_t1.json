@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "minecraft:black_dye"},
+      "B": {"item": "minecraft:barrel"},
+      "C": {"item": "nyagibits_bytes:metamorphic_alloy"}
+    },
+    "pattern": [
+      "A",
+      "B",
+      "C"
+    ],
+    "result": {
+      "count": 8,
+      "item": "create:black_postbox"
+    }
+  }
