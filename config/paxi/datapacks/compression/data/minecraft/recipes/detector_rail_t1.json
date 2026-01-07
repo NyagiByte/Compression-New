@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "A": {"item":"createdeco:cast_iron_ingot"},
+    "A": {"item":"createdeco:industrial_iron_ingot"},
     "B": {"item":"minecraft:stone_pressure_plate"},
     "C": {"item":"minecraft:redstone"}
   },

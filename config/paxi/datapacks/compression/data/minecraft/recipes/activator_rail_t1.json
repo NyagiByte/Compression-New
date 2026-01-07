@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "A": {"item":"createdeco:cast_iron_ingot"},
+    "A": {"item":"createdeco:industrial_iron_ingot"},
     "B": {"tag":"forge:rods/wooden"},
     "C": {"item":"minecraft:redstone_torch"}
   },

@@ -1446,7 +1446,7 @@
 				"7A974BCCA6882D04"
 				"025F10E72C0B8392"
 			]
-			icon: "createdeco:cast_iron_nugget"
+			icon: "createdeco:industrial_iron_nugget"
 			id: "2B48314A99226E2F"
 			tasks: [{
 				id: "551FC147A78420F6"
