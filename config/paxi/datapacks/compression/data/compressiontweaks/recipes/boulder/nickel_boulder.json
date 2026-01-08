@@ -25,9 +25,9 @@
     "secondary_resources":[
         {"item": "minecraft:pufferfish", "count": 3},
         {"item": "minecraft:shroomlight", "count": 4},
-        {"item": "byg:windswept_sand", "count": 392},
-        {"item": "byg:pink_sand", "count": 353},
-        {"item": "byg:quartzite_sand", "count": 111}
+        {"item": "biomeswevegone:windswept_sand", "count": 392},
+        {"item": "biomeswevegone:pink_sand", "count": 353},
+        {"item": "biomeswevegone:white_sand", "count": 111}
     ],
     "secondary_fluids":[]
 }

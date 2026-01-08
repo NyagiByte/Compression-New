@@ -24,13 +24,13 @@
     ],
     "secondary_resources":[
         {"item": "botania:metamorphic_forest_cobblestone", "count": 154},
+        {"item": "botania:metamorphic_forest_stone", "count": 299},
         {"item": "botania:metamorphic_taiga_cobblestone", "count": 350},
         {"item": "botania:metamorphic_fungal_cobblestone", "count": 399},
         {"item": "minecraft:shroomlight", "count": 7},
         {"item": "minecraft:warped_fungus", "count": 10},
         {"item": "minecraft:warped_stem", "count": 68},
         {"item": "minecraft:warped_wart_block", "count": 277},
-        {"item": "byg:warped_soul_soil", "count": 299},
         {"item": "minecraft:warped_nylium", "count": 57}
     ],
     "secondary_fluids":[

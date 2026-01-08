@@ -26,11 +26,10 @@
     "secondary_resources":[
         {"item": "minecraft:brown_mushroom_block", "count": 67},
         {"item": "minecraft:red_mushroom_block", "count": 300},
-        {"item": "byg:weeping_milkcap_mushroom_block", "count": 294},
+        {"item": "biomeswevegone:weeping_milkcap_mushroom_block", "count": 294},
         {"item": "minecraft:mushroom_stem", "count": 106},
         {"item": "minecraft:crimson_fungus", "count": 6},
-        {"item": "byg:mycelium_netherrack", "count": 71},
-        {"item": "minecraft:crimson_nylium", "count": 84},
+        {"item": "minecraft:crimson_nylium", "count": 155},
         {"item": "minecraft:weeping_vines", "count": 84}
     ],
     "secondary_fluids":[

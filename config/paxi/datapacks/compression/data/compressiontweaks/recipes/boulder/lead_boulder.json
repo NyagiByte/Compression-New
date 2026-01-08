@@ -26,7 +26,7 @@
     "secondary_resources":[
         {"item": "minecraft:calcite", "count": 991},
         {"item": "create:cut_diorite", "count": 260},
-        {"item": "byg:white_sand", "count": 241}
+        {"item": "biomeswevegone:white_sand", "count": 241}
     ],
     "secondary_fluids":[
         {"fluid": "chemlib:acetic_acid_fluid", "amount": 32000}
