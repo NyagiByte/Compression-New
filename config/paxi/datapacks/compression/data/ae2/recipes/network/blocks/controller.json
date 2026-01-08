@@ -20,6 +20,16 @@
       "type": "create:deploying",
       "ingredients": [
         {"item": "nyagibits_bytes:incomplete_controller"},
+        {"item": "create:factory_gauge"}  
+      ],
+      "results": [
+        {"item": "nyagibits_bytes:incomplete_controller"}
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {"item": "nyagibits_bytes:incomplete_controller"},
         {"item": "nyagibits_bytes:ae2_schematic"}
       ],
       "results": [
