@@ -153,7 +153,7 @@ Ponder.registry((e) => {
                     scene.world.showSection([3,1,2], Facing.down);
                     scene.idle(25);
                     scene.world.setBlock([3,1,2], "minecraft:air", false);
-                    scene.world.createEntity("minecraft:tnt", [3.5,1,2.5]) //The time to explode is 80 ticks
+                    scene.world.createEntity("minecraft:tnt", [3.5,1.1,2.5]) //The time to explode is 80 ticks
                     scene.idle(20)
                     scene.text(60, "It generates sizeable chunks of mana by absorbing TNT explosions", [3,1.5,3]);
                     scene.idle(60)
@@ -164,7 +164,7 @@ Ponder.registry((e) => {
                     }
                     scene.text(60, "TNT generated from a duplicator machine will function, but yield far less mana.", [3,1.5,3]);
                     scene.idle(30)
-                    scene.world.createEntity("minecraft:tnt", [3.5,1,2.5])
+                    scene.world.createEntity("minecraft:tnt", [3.5,1.1,2.5])
                     scene.idle(50)
                     scene.text(60, "It will §cNOT§r absorb the explosion if its mana buffer is not empty!", [3,1.5,3]);
                     scene.addKeyframe()
@@ -191,7 +191,7 @@ Ponder.registry((e) => {
                         //The generated scene is not capped off in the function. This allows adding more afterwards.
                         scene.text(60, "I sure hope you got something to shut off the flow of primed tnt when that happens.", [3,1.5,3]).placeNearTarget();
                         scene.idle(40)
-                        scene.world.createEntity("minecraft:tnt", [3.5,1,2.5])
+                        scene.world.createEntity("minecraft:tnt", [3.5,1.1,2.5])
                         scene.idle(25)
                         scene.text(60, "Otherwise...", [3,1.5,3]).placeNearTarget();
                         scene.idle(55)
@@ -517,32 +517,37 @@ Ponder.registry((e) => {
                     scene.idle(10)
                     scene.world.modifyBlockEntityNBT([3,1,3], flower => flower.mana = 0)
                     scene.addKeyframe()
-                    scene.text(70, "The cooldown can be read with a comparator.", [2.5,1.5,3]);
-                    scene.world.setBlock([2,1,3], "minecraft:comparator", false)
-                    scene.world.modifyBlock([2,1,3], (cmp) => cmp.with("facing", "east"), false)
-                    scene.world.showSection([2,1,3], Facing.down)
+                    scene.text(70, "The cooldown can be read with a comparator.", [2.5,1.5,4]);
+                    scene.world.setBlock([3,1,4], "minecraft:comparator", false)
+                    scene.world.modifyBlock([3,1,4], (cmp) => cmp.with("facing", "north"), false)
+                    scene.world.showSection([3,1,4], Facing.down)
                     scene.idle(5)
-                    scene.world.setBlock([1,1,3], "create:nixie_tube", false)
-                    scene.world.modifyBlock([1,1,3], (nix) => nix.with("facing", "west"), false)
-                    scene.world.showSection([1,1,3], Facing.down)
+                    scene.world.setBlock([3,1,5], "supplementaries:crystal_display", false)
+                    scene.world.modifyBlock([3,1,5], (display) => display.with("facing", "north"), false)
+                    scene.world.showSection([3,1,5], Facing.down)
+                    scene.idle(5)
+                    scene.world.setBlock([4,1,5], "supplementaries:crystal_display", false)
+                    scene.world.modifyBlock([4,1,5], (display) => display.with("facing", "north"), false)
+                    scene.world.showSection([4,1,5], Facing.down)
                     scene.idle(75)
-                    scene.text(70, "The comparator output is off only while generating mana", [2.5,1.5,3]);
+                    scene.text(70, "The comparator output is off only while generating mana", [2.5,1.5,4]);
                     scene.world.modifyBlockEntityNBT([3,1,3], flower => flower.mana = 60000)
                     thermalilyParticles(scene, 80, false)
-                    scene.text(70, "When the cooldown starts, the comparator outputs a signal based on the length", [2.5,1.5,3]);
-                    scene.world.modifyBlock([2,1,3], (cmp) => cmp.with("powered", true), false)
-                    scene.world.modifyBlockEntityNBT([1,1,3], false, (nbt) => nbt.RedstoneStrength = 4 )
+                    scene.text(70, "When the cooldown starts, the comparator outputs a signal based on the length", [2.5,1.5,4]);
+                    scene.world.modifyBlock([3,1,4], (cmp) => cmp.with("powered", true), false)
+                    scene.world.modifyBlock([3,1,5], (cmp) => cmp.with("power", "4"), false)
+                    //scene.world.modifyBlockEntityNBT([1,1,3], false, (nbt) => nbt.RedstoneStrength = 4 )
                     thermalilyParticles(scene, 80, true)
                     scene.text(70, "The signal strength grows by 1 for every 20 seconds of cooldown", [2.5,1.5,3]);
-                    scene.world.modifyBlock([2,1,3], (cmp) => cmp.with("powered", true), false)
-                    scene.world.modifyBlockEntityNBT([1,1,3], false, (nbt) => nbt.RedstoneStrength = 12 )
+                    scene.world.modifyBlock([3,1,5], (cmp) => cmp.with("power", "2"), false)
+                    scene.world.modifyBlock([4,1,5], (cmp) => cmp.with("power", "1"), false)
                     thermalilyParticles(scene, 80, true)
                     scene.text(90, "The comparator signal does NOT tick down. It is up to the player to figure out how to use this value to delay the next lava block.", [2.5,1.5,3]);
                     //I don't think i can add anything here to visualize this further.
                     scene.idle(100)
-                    scene.world.hideSection([1,1,3, 2,1,3], Facing.up)
+                    scene.world.hideSection([3,1,4, 5,1,5], Facing.up)
                     scene.idle(20)
-                    scene.world.setBlocks([1,1,3, 2,1,3], "minecraft:air", false)
+                    scene.world.setBlocks([3,1,4, 5,1,5], "minecraft:air", false)
                     scene.addKeyframe()
                     scene.text(70, "The thermalily can only absorb one block of lava at a time.", [3,1.5,3]);
                     scene.idle(75)
@@ -619,7 +624,7 @@ Ponder.registry((e) => {
                     scene.addKeyframe()
                     scene.world.modifyBlockEntityNBT([3,1,3], flower => flower.mana = 0)
                     scene.text(120, "Enchanted items dropped near it will have the enchantments stripped from them and turned into xp orbs, like with a grindstone. Does not affect curses.", [3,1.5,3]);
-                    var items = ["immersiveengineering:armor_faraday_chest", "aiotbotania:livingrock_aiot", "minecraft:elytra", "immersiveengineering:survey_tools"] //Just 4 random enchantable items.
+                    var items = ["immersiveengineering:armor_faraday_chestplate", "aiotbotania:livingrock_aiot", "minecraft:elytra", "immersiveengineering:survey_tools"] //Just 4 random enchantable items.
                     //The book is done separately because it turns into a different item instead of "itself, but witout enchants"
                     var enchanted = scene.world.createItemEntity([2.5, 3, 2.5], [0, 0.2, 0], "minecraft:enchanted_book");
                         scene.idle(15)
