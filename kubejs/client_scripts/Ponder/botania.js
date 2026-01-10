@@ -1,6 +1,7 @@
 //Forgive me, for i am about to sin.
 const WispParticleData = Java.loadClass("vazkii.botania.client.fx.WispParticleData")
 const ParticleTypes = Java.loadClass("net.minecraft.core.particles.ParticleTypes")
+const NixieTubeBE = Java.loadClass("com.simibubi.create.content.redstone.nixieTube.NixieTubeBlockEntity")
 
 Ponder.tags((e) => {e.createTag("compression:botania", "botania:lexicon", "Botania", "For all your floral needs", ["botania:apothecary_default", "botania:pure_daisy", "botania:fel_pumpkin", "botania:cocoon", "botania:endoflame", "botania:entropinnyum", "botania:munchdew", "botania:gourmaryllis", "botania:narslimmus", "botania:hydroangeas", "botania:thermalily", "botania:rosa_arcana"])})
 //------------------------------------------------------------------
@@ -522,27 +523,29 @@ Ponder.registry((e) => {
                     scene.world.modifyBlock([3,1,4], (cmp) => cmp.with("facing", "north"), false)
                     scene.world.showSection([3,1,4], Facing.down)
                     scene.idle(5)
-                    scene.world.setBlock([3,1,5], "supplementaries:crystal_display", false)
-                    scene.world.modifyBlock([3,1,5], (display) => display.with("facing", "north"), false)
+                    scene.world.setBlock([3,1,5], "create:nixie_tube", false)
+                    scene.world.modifyBlock([3,1,5], (display) => display.with("facing", "west"), false)
                     scene.world.showSection([3,1,5], Facing.down)
-                    scene.idle(5)
-                    scene.world.setBlock([4,1,5], "supplementaries:crystal_display", false)
-                    scene.world.modifyBlock([4,1,5], (display) => display.with("facing", "north"), false)
-                    scene.world.showSection([4,1,5], Facing.down)
                     scene.idle(75)
                     scene.text(70, "The comparator output is off only while generating mana", [2.5,1.5,4]);
                     scene.world.modifyBlockEntityNBT([3,1,3], flower => flower.mana = 60000)
                     thermalilyParticles(scene, 80, false)
                     scene.text(70, "When the cooldown starts, the comparator outputs a signal based on the length", [2.5,1.5,4]);
                     scene.world.modifyBlock([3,1,4], (cmp) => cmp.with("powered", true), false)
-                    scene.world.modifyBlock([3,1,5], (cmp) => cmp.with("power", "4"), false)
-                    //scene.world.modifyBlockEntityNBT([1,1,3], false, (nbt) => nbt.RedstoneStrength = 4 )
+                    //NOTE: This is the only currently known way to make nixie tubes function correctly. It looks jank, and that's because it is.
+                    //Also note that the inside of that block is pseudo-java, not javascript.
+                    scene.world.modifyBlockEntity([3,1,5], NixieTubeBE, (nix) => {
+                        nix.updateRedstoneStrength(4);
+                        nix.updateDisplayedStrings()
+                    })
                     thermalilyParticles(scene, 80, true)
-                    scene.text(70, "The signal strength grows by 1 for every 20 seconds of cooldown", [2.5,1.5,3]);
-                    scene.world.modifyBlock([3,1,5], (cmp) => cmp.with("power", "2"), false)
-                    scene.world.modifyBlock([4,1,5], (cmp) => cmp.with("power", "1"), false)
+                    scene.text(70, "The signal strength grows by 1 for every 20 seconds of cooldown", [2.5,1.5,4]);
+                    scene.world.modifyBlockEntity([3,1,5], NixieTubeBE, (nix) => {
+                        nix.updateRedstoneStrength(12);
+                        nix.updateDisplayedStrings()
+                    })
                     thermalilyParticles(scene, 80, true)
-                    scene.text(90, "The comparator signal does NOT tick down. It is up to the player to figure out how to use this value to delay the next lava block.", [2.5,1.5,3]);
+                    scene.text(90, "The comparator signal does NOT tick down. It is up to the player to figure out how to use this value to delay the next lava block.", [2.5,1.5,4]);
                     //I don't think i can add anything here to visualize this further.
                     scene.idle(100)
                     scene.world.hideSection([3,1,4, 5,1,5], Facing.up)

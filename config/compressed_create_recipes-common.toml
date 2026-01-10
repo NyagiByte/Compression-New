@@ -1,11 +1,14 @@
 
 ["Compressed Create Recipes Config"]
-	#Capacity of the basin's tanks, in millibuckets. (Default: 1000)
+	#Capacity of the basin's tanks, in millibuckets. (Default: 1000mb)
 	#Range: > 1
-	"Basin Capacity" = 1000
+	"Basin Capacity" = 10000
 	#Duration of the sandpaper polishing animation in ticks. Lower values mean you polish faster. (Default: 32)
 	#Range: > 1
-	"Sandpaper Speed" = 32
+	"Sandpaper Speed" = 8
+	#Duration of the red sandpaper polishing animation in ticks. Lower values mean you polish faster. (Default: 32)
+	#Range: > 1
+	"Red Sandpaper Speed" = 6
 	#The radius in which items rising from the void will search for an available spot. Low values might get the item stuck under bedrock. High values might cause performance issues. (Default: 20)
 	#Range: 1 ~ 100
 	"Un-Voiding Radius" = 20
