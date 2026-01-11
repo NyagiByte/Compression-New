@@ -592,12 +592,24 @@ Ponder.registry((e) => {
                     scene.text(50, "This is a Rosa Arcana, one of the many mana generating flowers", [3,1.5,3]);
                     scene.idle(55);
                     scene.addKeyframe()
-                    scene.text(70, "It generates mana from experience. It will drain XP from players standing next to it.", [3,1.5,3]);
+                    scene.text(90, "It generates mana from experience. It will drain XP from players standing next to it.", [3,1.5,3]);
                     //Well, you can't summon a player in a ponder. This will have to do.
-                    scene.showControls(70, [3.5,2,3.5], "down")
-                        .withItem("minecraft:player_head");
+                    //scene.showControls(70, [3.5,2,3.5], "down").withItem("minecraft:player_head");
+                    const stand = scene.world.createEntity("minecraft:armor_stand", [4,1,4], b => {
+                        //Loads an nbt tag. Position is repeated here otherwise it might get messed up)
+                        b.load('{Pos: [4d, 1d, 4d], Rotation: [135.0f, 0.0f], NoBasePlate:true,ArmorItems:[{id:"immersiveengineering:armor_faraday_boots",Count:1},{id:"immersiveengineering:armor_faraday_leggings",Count:1},{id:"immersiveengineering:armor_faraday_chestplate",Count:1},{id:"minecraft:player_head",Count:1}]}')
+                    })
+                    for(let i = 0;i<100;i++){
+                    scene.particles.simple(1, "smoke", [4,1.75,4]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
+                }
+                    
                     scene.world.modifyBlockEntityNBT([3,1,3], flower => flower.mana = 60000)
                     scene.idle(80)
+                    
+                    scene.particles.simple(1, "smoke", [4,1.75,4]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
+
+                    scene.world.modifyEntity(stand, (s => s.discard()))
+                    scene.idle(20)
                     scene.world.modifyBlockEntityNBT([3,1,3], flower => flower.mana = 0)
                     scene.addKeyframe()
                     scene.text(70, "It will also absorb any experience orb within one block of itself.", [3,1.5,3]);
