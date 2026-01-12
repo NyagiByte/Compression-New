@@ -1017,6 +1017,7 @@
 
 		{"namespace": "immersivepetroleum", "path": "recipes/hydrotreater/ethylene_plastic.json"},
 		{"namespace": "immersivepetroleum", "path": "recipes/hydrotreater/propylene_plastic.json"},
+		{"namespace": "immersivepetroleum", "path": "recipes/hydrotreater/pneumaticcraft_plastic.json"},
 
 		{"namespace": "immersiveengineering", "path": "loot_modifiers/hemp_from_grass.json"},
 		{"namespace": "immersiveengineering", "path": "loot_modifiers/hemp_from_tall_grass.json"},

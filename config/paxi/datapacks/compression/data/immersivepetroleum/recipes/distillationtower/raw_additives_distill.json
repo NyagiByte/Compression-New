@@ -1,0 +1,27 @@
+{
+  "type": "immersivepetroleum:distillation",
+  "energy": 1024,
+  "input": {
+    "amount": 10,
+    "tag": "forge:gasoline_additives_raw"
+  },
+  "results": [
+    {
+      "amount": 2,
+      "fluid": "nyagibits_bytes:ethylene_fluid"
+    },
+    {
+      "amount": 1,
+      "fluid": "nyagibits_bytes:propylene_fluid"
+    },
+    {
+      "amount": 1,
+      "fluid": "nyagibits_bytes:octane_fluid"
+    },
+    {
+      "amount": 1,
+      "fluid": "nyagibits_bytes:hydrocarbon_tar_fluid"
+    }
+  ],
+  "time": 1
+}
