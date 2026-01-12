@@ -13,14 +13,13 @@
       }
     },
     "pattern": [
-      "AA   AA",
-      "ABB BBA",
-      "ABCBCBA",
+      "AAAAAAA",
+      "ABBBBBA",
       "ABCCCBA",
-      "ABCCCBA",
-      "AAAAAAA"
+      "ABC CBA",
+      "ABC CBA"
     ],
     "result": {
-      "item": "immersiveengineering:armor_faraday_chest"
+      "item": "immersiveengineering:armor_faraday_leggings"
     }
   }
