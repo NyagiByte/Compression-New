@@ -2,8 +2,9 @@
 const WispParticleData = Java.loadClass("vazkii.botania.client.fx.WispParticleData")
 const ParticleTypes = Java.loadClass("net.minecraft.core.particles.ParticleTypes")
 const NixieTubeBE = Java.loadClass("com.simibubi.create.content.redstone.nixieTube.NixieTubeBlockEntity")
+const ManaEnchanter = Java.loadClass("vazkii.botania.common.block.block_entity.ManaEnchanterBlockEntity")
 
-Ponder.tags((e) => {e.createTag("compression:botania", "botania:lexicon", "Botania", "For all your floral needs", ["botania:apothecary_default", "botania:pure_daisy", "botania:crafty_crate", "botania:fel_pumpkin", "botania:cocoon", "botania:endoflame", "botania:entropinnyum", "botania:munchdew", "botania:gourmaryllis", "botania:narslimmus", "botania:hydroangeas", "botania:thermalily", "botania:rosa_arcana"])})
+Ponder.tags((e) => {e.createTag("compression:botania", "botania:lexicon", "Botania", "For all your floral needs", ["botania:apothecary_default", "botania:pure_daisy", "botania:crafty_crate", "botania:fel_pumpkin", "botania:cocoon", "botania:endoflame", "botania:entropinnyum", "botania:munchdew", "botania:gourmaryllis", "botania:narslimmus", "botania:hydroangeas", "botania:thermalily", "botania:rosa_arcana", "botania:enchanter"])})
 //------------------------------------------------------------------
 Ponder.registry((e) => {
 //------------------------------------------------------------------
@@ -1024,6 +1025,142 @@ Ponder.registry((e) => {
                 })
                 scene.text(100, "The only limit, is the efficiency of your item input. Good luck!", [2.5,2.5,2.5]).placeNearTarget();
                 scene.idle(100)
+                scene.markAsFinished()
+            })
+
+        e.create("botania:enchanter")
+            .scene("mana_enchanter", "Enchanting with Mana", "kubejs:mana_enchanter_ponder", (scene, util) => {
+                scene.showBasePlate()
+                scene.scaleSceneView(0.75)
+                scene.text(100, "The mana enchanter is a structure that lets you copy enchantments from books to items.")
+                scene.idle(110)
+                scene.idle(20)
+                scene.text(70, "Start with this pattern of obsidian", [6.5,1,6.5]).placeNearTarget();
+                scene.idle(80)
+                scene.text(100, "Then, add 10 mystical flowers in these spots. Any mystical flower will do.")
+                scene.idle(40)
+                scene.world.showSection([0,1,0, 14,1,14], Facing.down)
+                scene.idle(70)
+                scene.text(100, "Note: The vivid grass is just for visuals, the actual blocks underneath do not matter.")
+                scene.idle(110)
+                scene.text(70, "Add 6 Mana Pylons on top of the outer flowers.")
+                scene.idle(40)
+                scene.world.showSection([0,2,0, 14,2,14], Facing.down)
+                scene.world.hideSection([6,1,6], Facing.down)//This is to do the proper animation for the lapis block
+                scene.idle(40)
+                scene.text(80, "Finally, a Block of Lapis Lazuli, in the middle", [6.5,1.5,6.5]).placeNearTarget();
+                scene.idle(40)
+                scene.world.setBlock([6,1,6], "minecraft:lapis_block", false)
+                scene.world.showSection([6,1,6], Facing.down)
+                scene.idle(50)
+                scene.text(100, "To form the Enchanter, use a Wand of the Forest on the lapis block", [6.5,1.5,6.5]).placeNearTarget();
+                scene.showControls(100, [6.5,2,6.5], "down").rightClick().withItem("botania:twig_wand");
+                scene.idle(40)
+                scene.world.setBlock([6,1,6], "botania:enchanter", false)
+                scene.world.modifyBlock([6,1,6], ench => ench.with("facing", "z"), false)
+                var burst = scene.world.createEntity("botania:mana_burst", [0,0,0])
+                        for(let i = 0;i<100;i++){
+                            scene.world.modifyEntity(burst, (b) => {
+                                b.getLevel().addParticle(WispParticleData.wisp(Math.random()/3,Math.random(),Math.random(),Math.random(),true),
+                                6.5 + (Math.random() * 0.2 - 0.1), 1.9 + (Math.random() * 0.2 - 0.1), 6.5 + (Math.random() * 0.2 - 0.1),
+                                Math.random()/5-0.1, Math.random()/5-0.1, Math.random()/5-0.1)
+                            })
+                        }
+                
+                scene.idle(70)
+                scene.world.modifyEntity(burst, b => b.discard())
+                scene.addKeyframe()
+                scene.idle(10)
+                scene.text(100, "Use the item you want to enchant on the enchanter block.", [6.5,1.5,6.5]).placeNearTarget();
+                scene.showControls(100, [6.5,2.5,6.5], "down").rightClick().withItem("aiotbotania:livingrock_aiot");
+                scene.idle(40)
+                //scene.world.modifyBlockEntityNBT([6,1,6], ench => ench.item = {id: "aiotbotania:livingrock_aiot", Count:1})
+                //The actual enchanter doesn't have an item entity sitting on top. But setting it the intended way...it doesn't animate.
+                const aiot = scene.world.createItemEntity([6.5, 2, 6.5], [0, 0, 0], "aiotbotania:livingrock_aiot")
+                scene.idle(70)
+                scene.text(100, "The item must not be already enchanted. Curses count as enchants.", [6.5,1.5,6.5]).placeNearTarget();
+                scene.idle(110)
+                scene.text(100, "Then, drop enchanted books near the enchanter with the enchants you want to copy onto the item.", [6.5,1.5,6.5]).placeNearTarget();
+                scene.idle(20)
+                var books = []
+                for(let i = 0;i<4;i++){
+                    books.push(scene.world.createItemEntity([6.5,3,5], [Math.random()/20, Math.random()/5,Math.random()/20], "minecraft:enchanted_book"))
+                    scene.idle(15)
+                }
+                scene.idle(30)
+                scene.showControls(100, [6.5,2,6.5], "down").rightClick().withItem("botania:twig_wand");
+                scene.text(100, "To start enchanting, use the wand of the forest on the enchanter", [6.5,1.5,6.5]).placeNearTarget();
+                scene.idle(50)
+                scene.world.modifyBlockEntityNBT([6,1,6], ench => ench.stage=2)
+                scene.idle(1)
+                scene.world.modifyBlockEntity([6,1,6], ManaEnchanter, (ench) => {
+                    ench.commonTick(ench.getLevel(), ench.getBlockPos(), ench.getBlockState(), ench);
+                })
+                scene.idle(60)
+                scene.addKeyframe()
+                scene.idle(10)
+                scene.text(100, "The enchanter is active! The books can be now be retrieved.", [6.5,1.5,6.5]).placeNearTarget();
+                scene.idle(50)
+                books.forEach(book => {
+                    scene.world.modifyEntity(book, b => b.discard())
+                    scene.idle(10)
+                })
+                scene.idle(20)
+                scene.text(70, "However, the item on the enchanter cannot be removed.", [6.5,1.5,6.5]).placeNearTarget();
+                scene.showControls(70, [6.5,3,6.5], "down").rightClick().withItem("minecraft:barrier");
+                scene.idle(80)
+                scene.world.hideSection([9,1,6 , 10,1,6], Facing.up)
+                scene.text(80, "The enchanter must now receive mana...a lot of it.", [6.5,1.5,6.5]).placeNearTarget();
+                scene.idle(30)
+                scene.world.setBlock([10,1,6], "botania:mana_pool", false)
+                scene.world.modifyBlockEntityNBT([10,1,6], pool => pool.mana = 1000000)
+                scene.world.showSection([10,1,6], Facing.down)
+                scene.idle(10)
+                scene.world.setBlock([9,1,6], "botania:mana_spreader", false)
+                scene.world.showSection([9,1,6], Facing.down)
+                scene.idle(10)
+                manaBurst(scene, [9.75, 0.55, 7.55], [7.75, 0.55, 7.55], 15, 1)
+                scene.idle(40)
+                scene.text(150, "This can take a while. Either use faster spreader setups, or ideally, sparks.", [6.5,1.5,6.5]).placeNearTarget();
+                scene.showControls(70, [6.5,3,6.5], "down").rightClick().withItem("botania:spark");
+                for(let i = 0;i<10;i++) manaBurst(scene, [9.75, 0.55, 7.55], [7.75, 0.55, 7.55], 15, 1)
+                scene.idle(20)
+                scene.addKeyframe()
+                scene.idle(10)
+                scene.world.modifyBlockEntityNBT([6,1,6], ench => {
+                    ench.stage=3
+                    ench.stageTicks=0
+                })
+                scene.idle(60)
+                scene.world.modifyBlockEntityNBT([6,1,6], ench => {
+                    ench.stage=0
+                    ench.stageTicks=0
+                })
+                scene.world.modifyEntity(aiot, e => e.discard())
+                const enchantedAiot = scene.world.createItemEntity([6.5, 2, 6.5], [0, 0, 0], Item.of("aiotbotania:livingrock_aiot").enchant("mending", 1))
+                scene.idle(20)
+                scene.text(80, "Finally, you can retrieve the enchanted item.", [6.5,2,6.5]).placeNearTarget();
+                scene.showControls(70, [6.5,2.5,6.5], "down").rightClick()
+                scene.idle(60)
+                scene.world.modifyEntity(enchantedAiot, e => e.discard())
+                scene.idle(30)
+                scene.addKeyframe()
+                scene.idle(10)
+                scene.text(100, "If at any point, a part of the structure is removed...", [6.5,2.5,1.5]).placeNearTarget();
+                scene.idle(50)
+                scene.world.setBlock([6,2,1], "minecraft:air", true)
+                scene.idle(5)
+                const burst2 = scene.world.createEntity("botania:mana_burst", [0,0,0])
+                for(let i = 0;i<100;i++){
+                    scene.world.modifyEntity(burst2, (b) => {
+                        b.getLevel().addParticle(WispParticleData.wisp(Math.random()/3,Math.random(),Math.random(),Math.random(),true),
+                        6.5 + (Math.random() * 0.2 - 0.1), 1.9 + (Math.random() * 0.2 - 0.1), 6.5 + (Math.random() * 0.2 - 0.1),
+                        Math.random()/5-0.1, Math.random()/5-0.1, Math.random()/5-0.1)
+                    })
+                }
+                scene.world.setBlock([6,1,6], "minecraft:lapis_block", true)
+                scene.idle(50)
+                scene.world.modifyEntity(burst2, b => b.discard())
                 scene.markAsFinished()
             })
             
