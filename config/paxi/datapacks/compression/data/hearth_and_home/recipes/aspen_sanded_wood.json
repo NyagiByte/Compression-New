@@ -1,7 +1,7 @@
 {
     "type": "create:sandpaper_polishing",
     "ingredients": [
-      {"item": "byg:aspen_planks"}
+      {"item": "biomeswevegone:aspen_planks"}
     ],
     "results": [
       {"item": "everycomp:hearth_and_home/byg/aspen_sanded_wood"}

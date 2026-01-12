@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:blue_enchanted_planks"
+      "item": "biomeswevegone:blue_enchanted_planks"
     }
   ],
   "processingTime": 200,

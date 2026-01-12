@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:mahogany_wood"
+        "item": "biomeswevegone:mahogany_wood"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_mahogany_wood"
+        "item": "biomeswevegone:stripped_mahogany_wood"
       },
       {
         "item": "farmersdelight:tree_bark"

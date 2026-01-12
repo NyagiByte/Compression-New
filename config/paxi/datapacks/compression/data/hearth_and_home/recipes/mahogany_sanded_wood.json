@@ -1,7 +1,7 @@
 {
     "type": "create:sandpaper_polishing",
     "ingredients": [
-      {"item": "byg:mahogany_planks"}
+      {"item": "biomeswevegone:mahogany_planks"}
     ],
     "results": [
       {"item": "everycomp:hearth_and_home/byg/mahogany_sanded_wood"}

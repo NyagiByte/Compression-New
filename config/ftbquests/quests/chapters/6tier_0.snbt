@@ -106,7 +106,7 @@
 				""
 				"In theme with your first collectable, &6wood&r, it may be worth looking for especially large tree yielding saplings"
 			]
-			icon: "byg:willow_sapling"
+			icon: "biomeswevegone:willow_sapling"
 			id: "21625928069FF7FA"
 			tasks: [{
 				id: "1CC98EA7493C4FF2"

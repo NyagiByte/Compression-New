@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:skyris_wood"
+        "item": "biomeswevegone:skyris_wood"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_skyris_wood"
+        "item": "biomeswevegone:stripped_skyris_wood"
       },
       {
         "item": "farmersdelight:tree_bark"

@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "A": {"item":"everycomp:hc/byg/cika_board"},
-      "B": {"item":"byg:cika_planks"},
+      "B": {"item":"biomeswevegone:cika_planks"},
       "C": {"tag":"c:wooden_chests"}
     },
     "pattern": [

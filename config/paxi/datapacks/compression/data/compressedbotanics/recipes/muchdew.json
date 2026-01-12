@@ -10,7 +10,7 @@
         "enchanted": false 
       },
       {
-        "item": "byg:leaf_pile",
+        "item": "biomeswevegone:leaf_pile",
         "count": 64,
         "chance": 0.99,
         "allOrNothing": true 

@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "A": {"item":"everycomp:hc/byg/redwood_board"},
-      "B": {"item":"byg:redwood_planks"},
+      "B": {"item":"biomeswevegone:redwood_planks"},
       "C": {"tag":"c:wooden_chests"}
     },
     "pattern": [

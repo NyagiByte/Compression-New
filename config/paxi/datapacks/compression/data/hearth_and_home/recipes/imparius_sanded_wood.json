@@ -1,7 +1,7 @@
 {
     "type": "create:sandpaper_polishing",
     "ingredients": [
-      {"item": "byg:imparius_planks"}
+      {"item": "biomeswevegone:imparius_planks"}
     ],
     "results": [
       {"item": "everycomp:hearth_and_home/byg/imparius_sanded_wood"}

@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:ether_planks"
+      "item": "biomeswevegone:ether_planks"
     }
   ],
   "processingTime": 200,

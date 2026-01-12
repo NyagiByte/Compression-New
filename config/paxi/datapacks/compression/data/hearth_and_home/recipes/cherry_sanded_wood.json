@@ -1,7 +1,7 @@
 {
     "type": "create:sandpaper_polishing",
     "ingredients": [
-      {"item": "byg:cherry_planks"}
+      {"item": "biomeswevegone:cherry_planks"}
     ],
     "results": [
       {"item": "everycomp:hearth_and_home/byg/cherry_sanded_wood"}

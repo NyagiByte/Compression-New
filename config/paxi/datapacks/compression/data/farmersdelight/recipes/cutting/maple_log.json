@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:maple_log"
+        "item": "biomeswevegone:maple_log"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_maple_log"
+        "item": "biomeswevegone:stripped_maple_log"
       },
       {
         "item": "farmersdelight:tree_bark"

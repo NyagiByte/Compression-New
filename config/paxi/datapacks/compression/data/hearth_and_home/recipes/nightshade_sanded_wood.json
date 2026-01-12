@@ -1,7 +1,7 @@
 {
     "type": "create:sandpaper_polishing",
     "ingredients": [
-      {"item": "byg:nightshade_planks"}
+      {"item": "biomeswevegone:nightshade_planks"}
     ],
     "results": [
       {"item": "everycomp:hearth_and_home/byg/nightshade_sanded_wood"}

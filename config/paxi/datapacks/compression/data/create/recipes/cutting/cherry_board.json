@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:cherry_planks"
+      "item": "biomeswevegone:cherry_planks"
     }
   ],
   "processingTime": 200,

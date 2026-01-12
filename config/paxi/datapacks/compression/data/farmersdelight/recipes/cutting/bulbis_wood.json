@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:bulbis_wood"
+        "item": "biomeswevegone:bulbis_wood"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_bulbis_wood"
+        "item": "biomeswevegone:stripped_bulbis_wood"
       },
       {
         "item": "farmersdelight:tree_bark"

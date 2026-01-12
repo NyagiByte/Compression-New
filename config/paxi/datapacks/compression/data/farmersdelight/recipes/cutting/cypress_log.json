@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:cypress_log"
+        "item": "biomeswevegone:cypress_log"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_cypress_log"
+        "item": "biomeswevegone:stripped_cypress_log"
       },
       {
         "item": "farmersdelight:tree_bark"

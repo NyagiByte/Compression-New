@@ -1,7 +1,7 @@
 {
     "type": "create:sandpaper_polishing",
     "ingredients": [
-      {"item": "byg:bulbis_planks"}
+      {"item": "biomeswevegone:bulbis_planks"}
     ],
     "results": [
       {"item": "everycomp:hearth_and_home/byg/bulbis_sanded_wood"}

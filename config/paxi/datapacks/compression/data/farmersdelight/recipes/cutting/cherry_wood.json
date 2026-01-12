@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:cherry_wood"
+        "item": "biomeswevegone:cherry_wood"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_cherry_wood"
+        "item": "biomeswevegone:stripped_cherry_wood"
       },
       {
         "item": "farmersdelight:tree_bark"

@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:jacaranda_wood"
+        "item": "biomeswevegone:jacaranda_wood"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_jacaranda_wood"
+        "item": "biomeswevegone:stripped_jacaranda_wood"
       },
       {
         "item": "farmersdelight:tree_bark"

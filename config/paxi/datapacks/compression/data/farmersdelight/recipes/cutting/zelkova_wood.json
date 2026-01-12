@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:zelkova_wood"
+        "item": "biomeswevegone:zelkova_wood"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_zelkova_wood"
+        "item": "biomeswevegone:stripped_zelkova_wood"
       },
       {
         "item": "farmersdelight:tree_bark"

@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:ether_wood"
+        "item": "biomeswevegone:ether_wood"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_ether_wood"
+        "item": "biomeswevegone:stripped_ether_wood"
       },
       {
         "item": "farmersdelight:tree_bark"

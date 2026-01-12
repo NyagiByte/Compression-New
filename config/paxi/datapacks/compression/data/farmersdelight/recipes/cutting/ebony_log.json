@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:ebony_log"
+        "item": "biomeswevegone:ebony_log"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_ebony_log"
+        "item": "biomeswevegone:stripped_ebony_log"
       },
       {
         "item": "farmersdelight:tree_bark"

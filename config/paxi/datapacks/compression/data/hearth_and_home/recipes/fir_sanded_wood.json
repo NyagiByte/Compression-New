@@ -1,7 +1,7 @@
 {
     "type": "create:sandpaper_polishing",
     "ingredients": [
-      {"item": "byg:fir_planks"}
+      {"item": "biomeswevegone:fir_planks"}
     ],
     "results": [
       {"item": "everycomp:hearth_and_home/byg/fir_sanded_wood"}

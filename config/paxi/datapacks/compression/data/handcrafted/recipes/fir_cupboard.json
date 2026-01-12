@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "A": {"item":"everycomp:hc/byg/fir_board"},
-      "B": {"item":"byg:fir_planks"},
+      "B": {"item":"biomeswevegone:fir_planks"},
       "C": {"tag":"c:wooden_chests"}
     },
     "pattern": [

@@ -1,7 +1,7 @@
 {
     "type": "create:sandpaper_polishing",
     "ingredients": [
-      {"item": "byg:skyris_planks"}
+      {"item": "biomeswevegone:skyris_planks"}
     ],
     "results": [
       {"item": "everycomp:hearth_and_home/byg/skyris_sanded_wood"}

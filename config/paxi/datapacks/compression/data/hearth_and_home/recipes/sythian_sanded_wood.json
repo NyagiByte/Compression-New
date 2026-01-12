@@ -1,7 +1,7 @@
 {
     "type": "create:sandpaper_polishing",
     "ingredients": [
-      {"item": "byg:sythian_planks"}
+      {"item": "biomeswevegone:sythian_planks"}
     ],
     "results": [
       {"item": "everycomp:hearth_and_home/byg/sythian_sanded_wood"}

@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:baobab_planks"
+      "item": "biomeswevegone:baobab_planks"
     }
   ],
   "processingTime": 200,

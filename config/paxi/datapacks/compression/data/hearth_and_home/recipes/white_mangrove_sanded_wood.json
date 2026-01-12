@@ -1,7 +1,7 @@
 {
     "type": "create:sandpaper_polishing",
     "ingredients": [
-      {"item": "byg:white_mangrove_planks"}
+      {"item": "biomeswevegone:white_mangrove_planks"}
     ],
     "results": [
       {"item": "everycomp:hearth_and_home/byg/white_mangrove_sanded_wood"}

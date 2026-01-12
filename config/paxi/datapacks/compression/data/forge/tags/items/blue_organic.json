@@ -6,11 +6,11 @@
         "minecraft:tube_coral_fan",
         "botania:blue_petal",
         "botania:blue_mushroom",
-        "byg:hydrangea_bush",
-        "byg:delphinium",
-        "byg:blue_rose_bush",
-        "byg:blue_sage",
-        "byg:violet_leather_flower",
-        "byg:blueberries"
+        "biomeswevegone:hydrangea_bush",
+        "biomeswevegone:delphinium",
+        "biomeswevegone:blue_rose_bush",
+        "biomeswevegone:blue_sage",
+        "biomeswevegone:violet_leather_flower",
+        "biomeswevegone:blueberries"
     ]
   }

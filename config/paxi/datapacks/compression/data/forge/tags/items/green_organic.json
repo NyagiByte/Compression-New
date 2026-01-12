@@ -4,9 +4,9 @@
         "minecraft:cactus",
         "botania:green_petal",
         "botania:green_mushroom",
-        "byg:golden_spined_cactus",
-        "byg:horseweed",
-        "byg:mini_cactus",
-        "byg:prickly_pear_cactus"
+        "biomeswevegone:golden_spined_cactus",
+        "biomeswevegone:horseweed",
+        "biomeswevegone:mini_cactus",
+        "biomeswevegone:prickly_pear_cactus"
     ]
   }

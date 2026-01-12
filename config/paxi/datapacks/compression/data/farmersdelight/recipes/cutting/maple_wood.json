@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:maple_wood"
+        "item": "biomeswevegone:maple_wood"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_maple_wood"
+        "item": "biomeswevegone:stripped_maple_wood"
       },
       {
         "item": "farmersdelight:tree_bark"

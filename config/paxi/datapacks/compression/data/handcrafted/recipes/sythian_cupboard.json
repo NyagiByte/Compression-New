@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "A": {"item":"everycomp:hc/byg/sythian_board"},
-      "B": {"item":"byg:sythian_planks"},
+      "B": {"item":"biomeswevegone:sythian_planks"},
       "C": {"tag":"c:wooden_chests"}
     },
     "pattern": [

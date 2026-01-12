@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:cika_planks"
+      "item": "biomeswevegone:cika_planks"
     }
   ],
   "processingTime": 200,

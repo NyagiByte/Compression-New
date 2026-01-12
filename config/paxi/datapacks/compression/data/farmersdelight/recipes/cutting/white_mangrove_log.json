@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:white_mangrove_log"
+        "item": "biomeswevegone:white_mangrove_log"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_white_mangrove_log"
+        "item": "biomeswevegone:stripped_white_mangrove_log"
       },
       {
         "item": "farmersdelight:tree_bark"

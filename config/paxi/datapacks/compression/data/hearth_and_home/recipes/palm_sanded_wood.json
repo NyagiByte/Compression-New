@@ -1,7 +1,7 @@
 {
     "type": "create:sandpaper_polishing",
     "ingredients": [
-      {"item": "byg:palm_planks"}
+      {"item": "biomeswevegone:palm_planks"}
     ],
     "results": [
       {"item": "everycomp:hearth_and_home/byg/palm_sanded_wood"}

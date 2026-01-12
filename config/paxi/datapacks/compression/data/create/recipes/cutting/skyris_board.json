@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:skyris_planks"
+      "item": "biomeswevegone:skyris_planks"
     }
   ],
   "processingTime": 200,

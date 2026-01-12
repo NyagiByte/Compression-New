@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:white_mangrove_planks"
+      "item": "biomeswevegone:white_mangrove_planks"
     }
   ],
   "processingTime": 200,

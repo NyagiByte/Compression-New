@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:rainbow_eucalyptus_planks"
+      "item": "biomeswevegone:rainbow_eucalyptus_planks"
     }
   ],
   "processingTime": 200,

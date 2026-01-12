@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:zelkova_planks"
+      "item": "biomeswevegone:zelkova_planks"
     }
   ],
   "processingTime": 200,

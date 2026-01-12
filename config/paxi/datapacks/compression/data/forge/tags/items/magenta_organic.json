@@ -5,10 +5,10 @@
         "minecraft:lilac",
         "botania:magenta_petal",
         "botania:magenta_mushroom",
-        "byg:magenta_amaranth",
-        "byg:magenta_tulip",
-        "byg:lazarus_bellflower",
-        "byg:protea_flower",
-        "byg:fairy_slipper"
+        "biomeswevegone:magenta_amaranth",
+        "biomeswevegone:magenta_tulip",
+        "biomeswevegone:lazarus_bellflower",
+        "biomeswevegone:protea_flower",
+        "biomeswevegone:fairy_slipper"
     ]
   }

@@ -1,7 +1,7 @@
 {
     "type": "create:sandpaper_polishing",
     "ingredients": [
-      {"item": "byg:jacaranda_planks"}
+      {"item": "biomeswevegone:jacaranda_planks"}
     ],
     "results": [
       {"item": "everycomp:hearth_and_home/byg/jacaranda_sanded_wood"}

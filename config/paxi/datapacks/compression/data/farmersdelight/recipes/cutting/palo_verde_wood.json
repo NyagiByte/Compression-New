@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:palo_verde_wood"
+        "item": "biomeswevegone:palo_verde_wood"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_palo_verde_wood"
+        "item": "biomeswevegone:stripped_palo_verde_wood"
       },
       {
         "item": "farmersdelight:tree_bark"

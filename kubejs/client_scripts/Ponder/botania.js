@@ -267,7 +267,7 @@ Ponder.registry((e) => {
                     })
                     .scene("munchdew_decay","Decaying Flowers", "kubejs:botania_7x7", (scene, util) => {
                         scene.showBasePlate();
-                        floralEntropy(scene, "munchdew", ["nyagibits_bytes:munchdew_mush", "nyagibits_bytes:raw_petrified_wood", "byg:leaf_pile"], "minecraft:mangrove_propagule")
+                        floralEntropy(scene, "munchdew", ["nyagibits_bytes:munchdew_mush", "nyagibits_bytes:raw_petrified_wood", "biomeswevegone:leaf_pile"], "minecraft:mangrove_propagule")
                         scene.markAsFinished()
                     });
 

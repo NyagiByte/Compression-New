@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:ebony_planks"
+      "item": "biomeswevegone:ebony_planks"
     }
   ],
   "processingTime": 200,

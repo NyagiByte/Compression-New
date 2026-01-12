@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:pine_wood"
+        "item": "biomeswevegone:pine_wood"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_pine_wood"
+        "item": "biomeswevegone:stripped_pine_wood"
       },
       {
         "item": "farmersdelight:tree_bark"

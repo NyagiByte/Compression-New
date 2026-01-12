@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "A": {"item":"everycomp:hc/byg/skyris_board"},
-      "B": {"item":"byg:skyris_planks"},
+      "B": {"item":"biomeswevegone:skyris_planks"},
       "C": {"tag":"c:wooden_chests"}
     },
     "pattern": [

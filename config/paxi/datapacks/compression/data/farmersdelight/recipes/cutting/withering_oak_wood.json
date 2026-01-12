@@ -2,7 +2,7 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:withering_oak_wood"
+        "item": "biomeswevegone:withering_oak_wood"
       }
     ],
     "result": [

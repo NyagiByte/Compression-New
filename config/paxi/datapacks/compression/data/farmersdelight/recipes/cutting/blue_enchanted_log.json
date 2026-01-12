@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:blue_enchanted_log"
+        "item": "biomeswevegone:blue_enchanted_log"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_blue_enchanted_log"
+        "item": "biomeswevegone:stripped_blue_enchanted_log"
       },
       {
         "item": "farmersdelight:tree_bark"

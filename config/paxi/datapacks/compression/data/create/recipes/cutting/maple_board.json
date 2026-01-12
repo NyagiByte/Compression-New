@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:maple_planks"
+      "item": "biomeswevegone:maple_planks"
     }
   ],
   "processingTime": 200,
