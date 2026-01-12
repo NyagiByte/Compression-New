@@ -2744,8 +2744,8 @@
 			dependencies: ["4D368CEA652E28A0"]
 			id: "44E28F797AF4ED70"
 			tasks: [{
-				id: "3BEF1766F3F5759E"
-				item: "immersivepetroleum:propylene_bucket"
+				id: "26D0846113E23477"
+				item: "nyagibits_bytes:bucket_of_propylene"
 				type: "item"
 			}]
 			x: -15.38979591836732d
@@ -2755,8 +2755,8 @@
 			dependencies: ["4D368CEA652E28A0"]
 			id: "4F21C6AE3A674446"
 			tasks: [{
-				id: "222DB01714B1969E"
-				item: "immersivepetroleum:benzene_bucket"
+				id: "6C4DF3A02C27BAD3"
+				item: "nyagibits_bytes:bucket_of_benzene"
 				type: "item"
 			}]
 			x: -15.757142857142831d
