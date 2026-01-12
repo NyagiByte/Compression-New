@@ -7,5 +7,9 @@
     "block.nyagibits_bytes.steel_high_carbon_1080": "1080 High Carbon Steel Block",
     "block.nyagibits_bytes.steel_high_carbon_15n20": "₁₅N₂₀ High Carbon Steel Block",
     "block.nyagibits_bytes.steel_stainless": "PSiCrₓ₄ Stainless Steel Block",
-    "block.nyagibits_bytes.steel_damascus": "Damascus Steel Block"
+    "block.nyagibits_bytes.steel_damascus": "Damascus Steel Block",
+
+    "item.nyagibits_bytes.sample_ethylene": "Sample of Impure Ethylene",
+    "item.nyagibits_bytes.bucket_of_ethylene": "Impure Ethylene Bucket",
+    "block.nyagibits_bytes.ethylene_fluid": "Impure Ethylene"
 }
