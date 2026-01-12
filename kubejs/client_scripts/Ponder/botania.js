@@ -3,7 +3,7 @@ const WispParticleData = Java.loadClass("vazkii.botania.client.fx.WispParticleDa
 const ParticleTypes = Java.loadClass("net.minecraft.core.particles.ParticleTypes")
 const NixieTubeBE = Java.loadClass("com.simibubi.create.content.redstone.nixieTube.NixieTubeBlockEntity")
 
-Ponder.tags((e) => {e.createTag("compression:botania", "botania:lexicon", "Botania", "For all your floral needs", ["botania:apothecary_default", "botania:pure_daisy", "botania:fel_pumpkin", "botania:cocoon", "botania:endoflame", "botania:entropinnyum", "botania:munchdew", "botania:gourmaryllis", "botania:narslimmus", "botania:hydroangeas", "botania:thermalily", "botania:rosa_arcana"])})
+Ponder.tags((e) => {e.createTag("compression:botania", "botania:lexicon", "Botania", "For all your floral needs", ["botania:apothecary_default", "botania:pure_daisy", "botania:crafty_crate", "botania:fel_pumpkin", "botania:cocoon", "botania:endoflame", "botania:entropinnyum", "botania:munchdew", "botania:gourmaryllis", "botania:narslimmus", "botania:hydroangeas", "botania:thermalily", "botania:rosa_arcana"])})
 //------------------------------------------------------------------
 Ponder.registry((e) => {
 //------------------------------------------------------------------
@@ -888,9 +888,149 @@ Ponder.registry((e) => {
                 scene.idle(50)
                 scene.markAsFinished()
             });
+
+        e.create("botania:crafty_crate")
+            .scene("crafty_crate", "The OG crafter", "kubejs:botania_5x5", (scene, util) => {
+                scene.showBasePlate()
+                scene.idle(5)
+                scene.world.setBlock([2,2,2], "botania:crafty_crate", false)
+                scene.world.showSection([2,2,2], Facing.down)
+                scene.idle(5)
+                scene.text(90, "This is a Crafty Crate. In the right hands, it's a very powerful tool for automation.", [2.5,2.5,2.5]).placeNearTarget();
+                scene.idle(90)
+                scene.addKeyframe()
+                scene.idle(10)
+                
+                //The ingredients for the Botania Assembly, in the correct order
+                const botaniaAssembly = ["nyagibits_bytes:semi_organic_substrate", "nyagibits_bytes:magnetic_hematite", "nyagibits_bytes:sealant", "nyagibits_bytes:mystic_fertilizer", "create:brass_casing", "nyagibits_bytes:terrarium", "nyagibits_bytes:soil_conditioner", "nyagibits_bytes:living_frame", "nyagibits_bytes:organic_pseudo_logic"]
+                //This is a set of 9 positions that can be used as offsets to display a 3z3 grid to visualize crafting
+                const offsets = [[0,0,0],[-0.5, -0.43, 1.1], [-1, -0.85, 2.17],[0,-1.27,0], [-0.5, -1.7, 1.1],  [-1, -2.12, 2.17],[0,-2.54,0], [-0.5, -2.97, 1.1], [-1, -3.39, 2.17]]
+                scene.text(150, "It can hold 9 items. Once it has 9 items, it will attempt to process a crafting recipe. The items are input from left to right, then top to bottom.", [2.5,2.5,2.5]).placeNearTarget();
+                scene.world.setBlock([2,3,2], "create:chute", false)
+                scene.world.showSection([2,3,2], Facing.down)
+                scene.idle(10)
+                for(let i = 0;i<9;i++){
+                    var item = scene.world.createItemEntity([2.5, 4.5, 2.5], [0.0, 0.2, 0.0], botaniaAssembly[i])
+                    scene.idle(12)
+                    scene.world.modifyEntity(item, i => i.discard()) //6,1,-3
+                    scene.showControls(200-(i*18), [4+offsets[i][0],4+offsets[i][1],-2+offsets[i][2]], "down").withItem(botaniaAssembly[i])                  
+                    scene.idle(5)
+                }
+                var assembly = scene.world.createItemEntity([2.5,1.5,2.5], [0.0,0.0,0.0], "nyagibits_bytes:botania_assembly")
+                scene.idle(10)
+                scene.text(70, "The resulting item is ejected from underneath.", [2.5,1,2.5]).placeNearTarget();
+                scene.idle(80)
+                scene.addKeyframe()
+                scene.text(100, "If the crate has less than 9 items, or the recipe is not valid, nothing happens.", [2.5,2.5,2.5]).placeNearTarget();
+                scene.idle(110)
+                scene.showControls(80, [2.5,2.5,2.5], "down").withItem("botania:twig_wand");
+                scene.text(80, "Holding a wand of the forest will let you see the contents.", [2.5,2.5,2.5]).placeNearTarget();
+                scene.idle(90)
+                scene.showControls(140, [2.5,2.5,2.5], "down").rightClick().withItem("botania:twig_wand");
+                scene.text(140, "Using the wand will forcibly process a craft with the current inventory if possible, or eject the contents if not.", [2.5,2.5,2.5]).placeNearTarget();
+                scene.idle(140)
+                scene.world.modifyEntity(assembly, a => a.discard());
+                scene.idle(10)
+                scene.addKeyframe()
+                scene.idle(10)
+                scene.world.setBlocks([2,1,0, 2,1,1], "botania:livingrock_bricks", false)
+                scene.world.showSection([2,1,0, 2,1,1], Facing.down)
+                scene.idle(10)
+                scene.world.setBlock([2,2,1], "minecraft:comparator", false)
+                scene.world.modifyBlock([2,2,1], cmp => cmp.with("facing", "south"), false)
+                scene.world.setBlock([2,2,0], "create:nixie_tube", false)
+                scene.world.modifyBlock([2,2,0], nix => nix.with("facing", "west"), false)
+                scene.world.showSection([2,2,0, 2,2,1], Facing.down)
+                scene.idle(10)
+                scene.text(150, "A comparator will output a signal based on the amount of items contained.", [2.5,2.5,2.5]).placeNearTarget();
+                scene.idle(10)
+                for(let i = 1;i<10;i++){
+                    var item = scene.world.createItemEntity([2.5, 4.5, 2.5], [0.0, 0.2, 0.0], "botania:placeholder")
+                    scene.idle(12)
+                    scene.world.modifyEntity(item, i => i.discard())
+                    if(i == 1) scene.world.modifyBlock([2,2,1], cmp => cmp.with("facing", "south").with("powered", "true"), false)
+                    scene.world.modifyBlockEntity([2,2,0], NixieTubeBE, (nix) => {
+                        nix.updateRedstoneStrength(nix.getRedstoneStrength()+1);
+                        nix.updateDisplayedStrings()})
+                    scene.idle(5)
+                }
+                scene.idle(20)
+                scene.world.hideSection([2,1,0, 2,2,1], Facing.up)
+                scene.idle(10)
+                scene.world.setBlocks([2,1,0, 2,2,1], "minecraft:air", false)
+                scene.addKeyframe()
+                scene.text(100, "For recipes that have empty slots, fill them in with crafting placeholders.", [2.5,2.5,2.5]).placeNearTarget();
+                scene.showControls(100, [2.5,2.5,2.5], "down").withItem("botania:placeholder");
+                scene.idle(110)
+                scene.text(150, "As an example, let's make a crafting table.", [2.5,2.5,2.5]).placeNearTarget();
+                const craftingTable = ["minecraft:oak_log", "minecraft:oak_planks", "botania:placeholder", "minecraft:oak_planks", "minecraft:oak_log", "botania:placeholder","botania:placeholder","botania:placeholder","botania:placeholder"]
+                for(let i = 0;i<9;i++){
+                    var item = scene.world.createItemEntity([2.5, 4.5, 2.5], [0.0, 0.2, 0.0], craftingTable[i])
+                    scene.idle(12)
+                    scene.world.modifyEntity(item, i => i.discard())
+                    scene.showControls(200-(i*18), [4+offsets[i][0],4+offsets[i][1],-2+offsets[i][2]], "down").withItem(craftingTable[i])   
+                    scene.idle(5)
+                }
+                var output = []
+                output.push(scene.world.createItemEntity([2.5,1.5,2.5], [0.0,0.0,0.0], "minecraft:crafting_table"))
+                output.push(scene.world.createItemEntity([2.5,1.5,2.5], [0.0,0.0,0.0], "botania:placeholder"))
+                output.push(scene.world.createItemEntity([2.5,1.5,2.5], [0.0,0.0,0.0], "botania:placeholder"))
+                output.push(scene.world.createItemEntity([2.5,1.5,2.5], [0.0,0.0,0.0], "botania:placeholder"))
+                output.push(scene.world.createItemEntity([2.5,1.5,2.5], [0.0,0.0,0.0], "botania:placeholder"))
+                scene.text(70, "Any placeholders are ejected along with the output.", [2.5,1,2.5]).placeNearTarget();
+                scene.idle(70)
+                output.forEach(item => {
+                    scene.world.modifyEntity(item, i => i.discard())
+                    scene.idle(1)
+                })
+                scene.idle(10)
+                scene.addKeyframe()
+                scene.idle(10)
+                scene.text(100, "Crafting patterns can be applied to automatically restrict some slots.", [2.5,2.5,2.5]).placeNearTarget();
+                scene.showControls(100, [2.5,2.5,2.5], "down").rightClick().withItem("botania:pattern_2_2");
+                scene.idle(110)
+                scene.world.modifyBlock([2,2,2], crate => crate.with("pattern", "crafty_2_2"), false)
+                scene.idle(10)
+                scene.text(100, "The slots in red are now blocked, and count as having a placeholder.", [2.5,2.5,2.5]).placeNearTarget();
+                scene.idle(110)
+                scene.text(80, "Let's try the crafting table again.", [2.5,2.5,2.5]).placeNearTarget();
+                var table2Indexes = [0,1,3,4]
+                var table2placeholders = [2,5,6,7,8]
+                for(let i = 0;i<4;i++){
+                    var j = table2Indexes[i]
+                    var item = scene.world.createItemEntity([2.5, 4.5, 2.5], [0.0, 0.2, 0.0], craftingTable[table2Indexes[i]])
+                    scene.idle(12)
+                    scene.showControls(100-(i*18), [4+offsets[j][0],4+offsets[j][1],-2+offsets[j][2]], "down").withItem(craftingTable[table2Indexes[i]])   
+                    scene.world.modifyEntity(item, i => i.discard())
+                    scene.idle(5)
+                }
+                for(let i = 0;i<5;i++){
+                    var j = table2placeholders[i]
+                    scene.showControls(100-(3*18), [4+offsets[j][0],4+offsets[j][1],-2+offsets[j][2]], "down").withItem("botania:pattern_2_2")
+                    scene.idle(1)   
+                }
+                var outputTable = scene.world.createItemEntity([2.5,1.5,2.5], [0.0,0.0,0.0], "minecraft:crafting_table");
+                scene.text(70, "No placeholders needed this time!", [2.5,1,2.5]).placeNearTarget();
+                scene.idle(70);
+                scene.world.modifyEntity(outputTable, t => t.discard())
+                scene.idle(10)
+                scene.addKeyframe()
+                scene.idle(10)
+                var patterns = ["1_1", "2_2", "1_2", "2_1", "1_3", "3_1", "2_3", "3_2", "donut"]
+                scene.text(150, "With a combination of patterns and placeholders, you can use the crafty crate to automate any crafting recipe.", [2.5,2.5,2.5]).placeNearTarget();
+                patterns.forEach(pattern => {
+                    scene.world.modifyBlock([2,2,2], crate => crate.with("pattern", "crafty_"+pattern+""), false)
+                    scene.idle(20)
+                })
+                scene.text(100, "The only limit, is the efficiency of your item input. Good luck!", [2.5,2.5,2.5]).placeNearTarget();
+                scene.idle(100)
+                scene.markAsFinished()
+            })
             
         });
 
+
+        
         
 
 

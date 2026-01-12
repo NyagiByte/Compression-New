@@ -99,16 +99,16 @@ Ponder.registry((e) => {
             scene.idle(5)
 
             scene.world.setBlock([5,1,6], "minecraft:glowstone", false)
-            scene.world.setBlocks([5,1,5, 5,1,2], "spelunkery:rock_salt_block", false)
-            scene.world.modifyBlocks([5,1,5, 5,1,2], (salt) => salt.with("illuminated", "true"), false)
-            scene.world.showSection([5,1,6, 5,1,2], Facing.down)
+            scene.world.setBlocks([5,1,2, 5,1,5], "spelunkery:rock_salt_block", false)
+            scene.world.modifyBlocks([5,1,2, 5,1,5], (salt) => salt.with("illuminated", "true"), false)
+            scene.world.showSection([5,1,2, 5,1,6], Facing.down)
             scene.idle(5)
-            scene.world.setBlocks([4,1,5 , 4,1,2], "minecraft:comparator", false)
-            scene.world.modifyBlocks([4,1,5, 4,1,2], (cmp) => cmp.with("powered", true).with("facing", "east"), false)
-            scene.world.showSection([4,1,5, 4,1,2], Facing.down)
+            scene.world.setBlocks([4,1,2 , 4,1,5], "minecraft:comparator", false)
+            scene.world.modifyBlocks([4,1,2, 4,1,5], (cmp) => cmp.with("powered", true).with("facing", "east"), false)
+            scene.world.showSection([4,1,2, 4,1,5], Facing.down)
             scene.idle(5)
-            scene.world.setBlocks([3,1,5 , 3,1,2], "create:nixie_tube", false)
-            scene.world.modifyBlocks([3,1,5 , 3,1,2], (nix) => nix.with("facing", "west"), false)
+            scene.world.setBlocks([3,1,2 , 3,1,5], "create:nixie_tube", false)
+            scene.world.modifyBlocks([3,1,2 , 3,1,5], (nix) => nix.with("facing", "west"), false)
             
             scene.world.modifyBlockEntity([3,1,5], NixieTube, (nix) => {
                         nix.updateRedstoneStrength(14);
@@ -126,7 +126,7 @@ Ponder.registry((e) => {
                         nix.updateRedstoneStrength(11);
                         nix.updateDisplayedStrings()
                     })
-            scene.world.showSection([3,1,5 , 3,1,2], Facing.down)
+            scene.world.showSection([3,1,2 , 3,1,5], Facing.down)
             scene.text(90, "A comparator will emit a redstone signal based on the illumination level, which is NOT the light level.", [4,1.5,4]);
             scene.idle(100)
             scene.text(90, "The illumination level is the source's light level minus the amount of salt blocks in between.", [4,1.5,4]);
@@ -150,7 +150,7 @@ Ponder.registry((e) => {
                         nix.updateRedstoneStrength(14);
                         nix.updateDisplayedStrings()
                     })
-            scene.world.showSection([3,2,3 , 2,1,1], Facing.down)
+            scene.world.showSection([2,1,1, 3,2,3], Facing.down)
             scene.idle(5)
             scene.text(90, "A lone salt block will de-illuminate immediately once the light source is cut.", [2,1.5,3]);
             scene.idle(60)
