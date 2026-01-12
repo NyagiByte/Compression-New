@@ -1,0 +1,23 @@
+{
+  "type": "immersivepetroleum:distillation",
+  "energy": 1024,
+  "input": {
+    "amount": 10,
+    "tag": "forge:naphtha_cracked"
+  },
+  "results": [
+    {
+      "amount": 6,
+      "fluid": "nyagibits_bytes:ethylene_fluid"
+    },
+    {
+      "amount": 2,
+      "fluid": "nyagibits_bytes:propylene_fluid"
+    },
+    {
+      "amount": 2,
+      "fluid": "nyagibits_bytes:benzene_fluid"
+    }
+  ],
+  "time": 1
+}

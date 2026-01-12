@@ -3178,7 +3178,7 @@
 			tasks: [{
 				id: "66B0BAA4E4001215"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
@@ -3384,11 +3384,7 @@
 			}]
 			tasks: [{
 				id: "671608856FD75836"
-				item: {
-					Count: 1
-					id: "ae2:energy_cell"
-					tag: { }
-				}
+				item: "ae2:energy_cell"
 				type: "item"
 			}]
 			title: "Latent Energy"
@@ -3646,20 +3642,12 @@
 			tasks: [
 				{
 					id: "69C59A42783E3B96"
-					item: {
-						Count: 1
-						id: "entangled:block"
-						tag: { }
-					}
+					item: "entangled:block"
 					type: "item"
 				}
 				{
 					id: "046D31A807171B9D"
-					item: {
-						Count: 1
-						id: "entangled:item"
-						tag: { }
-					}
+					item: "entangled:item"
 					type: "item"
 				}
 			]
@@ -3736,11 +3724,7 @@
 			}]
 			tasks: [{
 				id: "1A743A788CA6842A"
-				item: {
-					Count: 1
-					id: "botania:mana_gun"
-					tag: { }
-				}
+				item: "botania:mana_gun"
 				type: "item"
 			}]
 			title: "For My Neutral Special, GUN!"

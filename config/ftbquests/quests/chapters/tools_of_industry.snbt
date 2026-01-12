@@ -604,11 +604,7 @@
 			}]
 			tasks: [{
 				id: "71E817E386540DD3"
-				item: {
-					Count: 1
-					id: "ae2:memory_card"
-					tag: { }
-				}
+				item: "ae2:memory_card"
 				type: "item"
 			}]
 			title: "I Rember"
@@ -639,11 +635,7 @@
 			}]
 			tasks: [{
 				id: "08F5C72CB76C85E2"
-				item: {
-					Count: 1
-					id: "ae2:color_applicator"
-					tag: { }
-				}
+				item: "ae2:color_applicator"
 				type: "item"
 			}]
 			title: "Splatoon Brush"
@@ -703,11 +695,7 @@
 			}]
 			tasks: [{
 				id: "14D15D14712F0293"
-				item: {
-					Count: 1
-					id: "ae2:matter_cannon"
-					tag: { }
-				}
+				item: "ae2:matter_cannon"
 				type: "item"
 			}]
 			title: "This.. is just a gun?"
