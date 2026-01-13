@@ -13,7 +13,7 @@
       {
         "chance": 0.5,
         "count": 1,
-        "item": "handcrafted:spruce_board"
+        "item": "minecraft:spruce_planks"
       }
     ]
   }

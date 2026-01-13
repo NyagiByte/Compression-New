@@ -2,7 +2,7 @@
     "type": "create:compacting",
     "ingredients": [
       {
-        "item": "railways:track_oak"
+        "item": "railways:track_stripped_bamboo"
       }
     ],
     "results": [
@@ -13,7 +13,7 @@
       {
         "chance": 0.5,
         "count": 1,
-        "item": "minecraft:oak_planks"
+        "item": "minecraft:stripped_bamboo_block"
       }
     ]
   }

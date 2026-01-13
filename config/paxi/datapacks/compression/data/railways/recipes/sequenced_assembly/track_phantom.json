@@ -5,13 +5,13 @@
         "item": "create:track"
       },
       {
-        "item": "minecraft:dark_oak_planks"
+        "item": "botania:phantom_ink"
       }
     ],
     "results": [
       {
         "count": 1,
-        "item": "railways:track_dark_oak"
+        "item": "railways:track_phantom"
       }
     ]
   }
