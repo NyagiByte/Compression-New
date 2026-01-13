@@ -50,3 +50,5 @@ config/oculus.properties
 config/oculus.properties
 config/xenon++.toml
 config/xenon-options.json
+config/fml.toml
+icon.png
