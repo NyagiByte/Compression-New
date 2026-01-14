@@ -1,7 +1,7 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item":"everycomp:hc/byg/rainbow_eucalyptus_board"},
+      "A": {"item":"everycomp:hc/biomeswevegone/rainbow_eucalyptus_board"},
       "B": {"item":"biomeswevegone:rainbow_eucalyptus_planks"},
       "C": {"tag":"c:wooden_chests"}
     },
@@ -12,6 +12,6 @@
     ],
     "result": {
       "count": 2,
-      "item": "everycomp:hc/byg/rainbow_eucalyptus_cupboard"
+      "item": "everycomp:hc/biomeswevegone/rainbow_eucalyptus_cupboard"
   }
 }

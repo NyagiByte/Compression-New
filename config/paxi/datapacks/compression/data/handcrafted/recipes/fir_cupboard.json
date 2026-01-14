@@ -1,7 +1,7 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item":"everycomp:hc/byg/fir_board"},
+      "A": {"item":"everycomp:hc/biomeswevegone/fir_board"},
       "B": {"item":"biomeswevegone:fir_planks"},
       "C": {"tag":"c:wooden_chests"}
     },
@@ -12,6 +12,6 @@
     ],
     "result": {
       "count": 2,
-      "item": "everycomp:hc/byg/fir_cupboard"
+      "item": "everycomp:hc/biomeswevegone/fir_cupboard"
   }
 }

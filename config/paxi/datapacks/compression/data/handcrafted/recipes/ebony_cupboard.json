@@ -1,7 +1,7 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item":"everycomp:hc/byg/ebony_board"},
+      "A": {"item":"everycomp:hc/biomeswevegone/ebony_board"},
       "B": {"item":"biomeswevegone:ebony_planks"},
       "C": {"tag":"c:wooden_chests"}
     },
@@ -12,6 +12,6 @@
     ],
     "result": {
       "count": 2,
-      "item": "everycomp:hc/byg/ebony_cupboard"
+      "item": "everycomp:hc/biomeswevegone/ebony_cupboard"
   }
 }
