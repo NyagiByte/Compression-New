@@ -5,8 +5,8 @@
 #
 ["Rendering Options"]
 	"element abbreviations" = true
-	"dust abbreviations" = false
-	"nugget abbreviations" = false
-	"ingot abbreviations" = false
-	"plate abbreviations" = false
+	"dust abbreviations" = true
+	"nugget abbreviations" = true
+	"ingot abbreviations" = true
+	"plate abbreviations" = true
 
