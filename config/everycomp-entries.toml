@@ -71,6 +71,10 @@
 		[types.stone_type.nyagibits_bytes]
 			livisite_stone = true
 
+		[types.stone_type.xkdeco]
+			maya_stone = true
+			inca_stone = true
+
 	[types.cut_block_type]
 
 		[types.cut_block_type.spelunkery]
@@ -772,6 +776,75 @@
 		[types.cut_block_type.immersivepetroleum]
 			asphalt = true
 
+		[types.cut_block_type.xkdeco]
+			black_tile = true
+			cyan_tile = true
+			yellow_tile = true
+			blue_tile = true
+			green_tile = true
+			red_tile = true
+			steel_tile = true
+			copper_tile = true
+			glass_tile = true
+			cyan_brick = true
+			black_brick = true
+			varnished_log = true
+			varnished = true
+			ebony_log = true
+			ebony = true
+			mahogany_log = true
+			mahogany = true
+			polished_sandstone = true
+			sandstone_brick = true
+			sandstone_small_brick = true
+			polished_red_sandstone = true
+			red_sandstone_brick = true
+			red_sandstone_small_brick = true
+			stone_brick_pavement = true
+			deepslate_pavement = true
+			mossy_deepslate_brick = true
+			blackstone_pavement = true
+			gilded_blackstone_brick = true
+			maya_stone = true
+			maya_stonebrick = true
+			maya_brick = true
+			maya_polished_stonebrick = true
+			maya_mossy_stonebrick = true
+			maya_mossy_brick = true
+			aztec_stonebrick = true
+			aztec_mossy_stonebrick = true
+			inca_stone = true
+			inca_stonebrick = true
+			inca_brick = true
+			cut_obsidian = true
+			cut_obsidian_brick = true
+			crying_obsidian_brick = true
+			cut_gold_block = true
+			gold_brick = true
+			cut_bronze_block = true
+			steel_floor = true
+			factory_lamp = true
+			quartz_glass = true
+			toughened_glass = true
+			dirt = true
+			dirt_path = true
+			grass_block = true
+			mycelium = true
+			podzol = true
+			netherrack = true
+			crimson_nylium = true
+			warped_nylium = true
+			end_stone = true
+			dirt_cobblestone = true
+			grass_cobblestone = true
+			sandy_cobblestone = true
+			snowy_cobblestone = true
+			cobblestone_path = true
+			dirt_cobblestone_path = true
+			grass_cobblestone_path = true
+			sandy_cobblestone_path = true
+			snowy_cobblestone_path = true
+
 	[types.wood_type]
 
 		[types.wood_type.quark]
@@ -819,6 +892,11 @@
 			white_wood = true
 			blackwood = true
 			cinnamon = true
+
+		[types.wood_type.xkdeco]
+			varnished = true
+			ebony = true
+			mahogany = true
 
 	[types.leaves_type]
 
@@ -902,6 +980,16 @@
 			orange_blossom = true
 			yellow_blossom = true
 			red_blossom = true
+
+		[types.leaves_type.xkdeco]
+			ginkgo = true
+			orange_maple = true
+			red_maple = true
+			peach_blossom = true
+			cherry_blossom = true
+			white_cherry_blossom = true
+			plantable = true
+			willow = true
 
 #Disables specific entries
 [entries]

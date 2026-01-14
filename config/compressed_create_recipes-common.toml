@@ -1,6 +1,6 @@
 
 ["Compressed Create Recipes Config"]
-	#Capacity of the basin's tanks, in millibuckets. (Default: 1000mb)
+	#Capacity of the basin's tanks, in millibuckets. (Default: 1000)
 	#Range: > 1
 	"Basin Capacity" = 10000
 	#Duration of the sandpaper polishing animation in ticks. Lower values mean you polish faster. (Default: 32)

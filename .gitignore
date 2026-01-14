@@ -52,3 +52,9 @@ config/xenon++.toml
 config/xenon-options.json
 config/fml.toml
 icon.png
+config/emi.css
+config/fabric/indigo-renderer.properties
+config/ironchests/defaults.properties
+config/oculus.properties
+config/packetfixer.properties
+config/xenon-options.json
