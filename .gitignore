@@ -36,7 +36,6 @@ config/ironchests/defaults.properties
 config/packetfixer.properties
 config/paxi/datapacks/compression/data/gardenofglass/loot_tables/pebbles.json
 config/packetfixer.properties
-*.txt
 config/packetfixer.properties
 fancymenu_data/last_world.fmdata
 config/emi.css
