@@ -845,6 +845,22 @@
 			sandy_cobblestone_path = true
 			snowy_cobblestone_path = true
 
+		[types.cut_block_type.industrialhellscape]
+			rusty_vesselplate_sheeting = true
+			catwalk_strut = true
+			strut = true
+			gray_catwalk_strut = true
+			gray_strut = true
+			rusty_strut = true
+			rusty_catwalk_strut = true
+			vesselplate_sheeting = true
+			gray_vesselplate_sheeting = true
+			gray_rockrete = true
+			green_rockrete = true
+			yellow_rockrete = true
+			blue_rockrete = true
+			red_rockrete = true
+
 	[types.wood_type]
 
 		[types.wood_type.quark]
