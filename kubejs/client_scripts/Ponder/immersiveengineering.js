@@ -1,4 +1,8 @@
-Ponder.tags((e) => {e.createTag("compression:immersiveengineering", "immersiveengineering:manual", "Immersive Engineering", "The factory must grow.", ["immersiveengineering:hammer"])});
+Ponder.tags((e) => {
+    e.createTag("compression:immersiveengineering", "immersiveengineering:manual", "Immersive Engineering", "The factory must grow.", [
+        "immersiveengineering:hammer"
+    ])
+});
 Ponder.registry((e) => {
     e.create("immersiveengineering:hammer")
         .scene("ie_hammah", "HAMMAH!", "kubejs:ie_base_5x5", (scene,util) => {

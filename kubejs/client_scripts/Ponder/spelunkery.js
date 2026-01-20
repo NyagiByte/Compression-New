@@ -1,7 +1,15 @@
 const NixieTube = Java.loadClass("com.simibubi.create.content.redstone.nixieTube.NixieTubeBlockEntity")
 const PulseTimer = Java.loadClass("com.simibubi.create.content.redstone.diodes.BrassDiodeBlockEntity")
 
-Ponder.tags((e) => {e.createTag("compression:spelunkery", "spelunkery:raw_magnetite", "Spelunkery", "ROCK AND STONE!", ["spelunkery:rock_salt_block", "spelunkery:carved_nephrite", "spelunkery:nephrite_siphon", "spelunkery:nephrite_fountain", "spelunkery:nephrite_diode"])});
+Ponder.tags((e) => {
+    e.createTag("compression:spelunkery", "spelunkery:raw_magnetite", "Spelunkery", "ROCK AND STONE!", [
+        "spelunkery:rock_salt_block",
+        "spelunkery:carved_nephrite",
+        "spelunkery:nephrite_siphon",
+        "spelunkery:nephrite_fountain",
+        "spelunkery:nephrite_diode"
+    ])
+});
 
 Ponder.registry((e) => {
 
@@ -248,391 +256,391 @@ Ponder.registry((e) => {
             scene.markAsFinished();
         });
 
-        e.create("spelunkery:carved_nephrite")
-            .scene("carved_nephrite", "Dew of the Mountain", "kubejs:deepslate_5x5", (scene, util) => {
-                scene.showBasePlate();
-                scene.idle(10);
-                scene.world.setBlock([2,1,2], "spelunkery:carved_nephrite", false)
-                scene.world.showSection([2,1,2], Facing.down)
-                scene.text(70, "Carved Nephrite blocks can store experience points.", [2,1.5,2]).placeNearTarget();
-                scene.idle(80)
-                scene.text(90, "Each block can store 100 XP points, enough to get to level 7, and then some.", [2,1.5,2]).placeNearTarget();
-                var orbs = []
-                for(let i = 0;i<25;i++){
-                        for(let j = 0; j<4;j++){
-                            var x = Math.random()*3+1;
-                            var y = Math.random()*20+25;
-                            var z = Math.random()*3+1;
-                            orbs.push(scene.world.createEntity("minecraft:experience_orb", [x,y,z], o => {
-                                o.load("{Pos:["+x+"d,"+y+"d,"+z+"d], Value:1}")
-                            }))
-                        }
-                }
-                scene.idle(70)
-                for(let i = 0;i<25;i++){
-                    scene.world.modifyEntity(orbs[i*4], o => o.discard())
-                    scene.world.modifyEntity(orbs[i*4+1], o => o.discard())
-                    scene.world.modifyEntity(orbs[i*4+2], o => o.discard())
-                    scene.world.modifyEntity(orbs[i*4+3], o => o.discard())
-                    scene.idle(1)
-                }
-                scene.idle(5)
-                scene.addKeyframe()
-                scene.idle(10)
-                scene.text(80, "It can be filled with a nephrite siphon...", [2,1.5,2]).placeNearTarget();
-                scene.showControls(80, [2,2.5,2], "down").withItem("spelunkery:nephrite_siphon");
-                scene.idle(10)
-                scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "one_to_twenty"), false)
-                scene.idle(20)
-                scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "twentyone_to_fourty"), false)
-                scene.idle(20)
-                scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "sixtyone_to_eighty"), false)
-                scene.idle(20)
-                scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "full"), false)
-                scene.idle(20)
-                scene.text(80, "...drained with a nephrite fountain...", [2,1.5,2]).placeNearTarget();
-                scene.showControls(80, [2,2.5,2], "down").withItem("spelunkery:nephrite_fountain");
-                scene.idle(10)
-                scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "sixtyone_to_eighty"), false)
-                scene.idle(20)
-                scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "twentyone_to_fourty"), false)
-                scene.idle(20)
-                scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "one_to_twenty"), false)
-                scene.idle(20)
-                scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "empty"), false)
-                scene.idle(20)
-                scene.text(80, "...or transferred to/from with a nephrite diode.", [2,1.5,2]).placeNearTarget();
-                scene.showControls(80, [2,2.5,2], "down").withItem("spelunkery:nephrite_diode");
-                scene.idle(90)
-                scene.text(80, "Those three have their own ponders, make sure you check them out!", [2,1.5,2]).placeNearTarget();
-                scene.idle(90)
-                scene.addKeyframe()
-                scene.idle(10)
-                scene.text(80, "Adjacent blocks will balance out their contents", [1,1.5,2]).placeNearTarget();
-                scene.idle(30)
-                scene.world.setBlock([1,1,2], "spelunkery:carved_nephrite", false)
-                scene.world.modifyBlock([1,1,2], (xp) => xp.with("charge", "full"), false)
-                scene.world.showSection([1,1,2], Facing.down)
-                scene.idle(10)
-                scene.world.modifyBlocks([1,1,2, 2,1,2], (xp) => xp.with("charge", "twentyone_to_fourty"), false)
-                scene.idle(50)
-                scene.text(80, "XP will also 'flow' downwards, if possible", [2,2.5,2]).placeNearTarget();
-                scene.idle(30)
-                scene.world.setBlock([2,2,2], "spelunkery:carved_nephrite", false)
-                scene.world.modifyBlock([2,2,2], (xp) => xp.with("charge", "full"), false)
-                scene.world.showSection([2,2,2], Facing.down)
-                scene.idle(10)
-                scene.world.modifyBlocks([1,1,2, 2,1,2], (xp) => xp.with("charge", "full"), false)
-                scene.world.modifyBlock([2,2,2], (xp) => xp.with("charge", "empty"), false)
-                scene.idle(50)
-                scene.text(100, "Note: Actual transfers are not instant, XP needs a bit of time to flow from block to block.", [2,2.5,2]).placeNearTarget();
-                scene.idle(100)
-                scene.world.hideSection([1,1,2, 2,2,2], Facing.up)
-                scene.idle(10)
-                scene.world.setBlocks([1,1,2, 2,2,2], "minecraft:air", false)
-                scene.addKeyframe()
-                scene.idle(10)
-                scene.world.setBlock([2,1,3], "spelunkery:carved_nephrite", false)
-                scene.world.showSection([2,1,3], Facing.down)
-                scene.idle(5)
-                scene.world.setBlock([2,1,2], "minecraft:comparator", false)
-                scene.world.modifyBlock([2,1,2], (cmp) => cmp.with("facing", "south"), false)
-                scene.world.showSection([2,1,2], Facing.down)
-                scene.idle(5)
-                scene.world.setBlock([2,1,1], "create:nixie_tube", false)
-                scene.world.modifyBlock([2,1,1], (nix) => nix.with("facing", "west"), false)
-                scene.world.showSection([2,1,1], Facing.down)
-                scene.idle(5)
-                scene.text(110, "A comparator will output a signal based on the fill level of the block.", [2,1.5,2]).placeNearTarget();
-                scene.idle(20)
-                scene.world.modifyBlock([2,1,2], (cmp) => cmp.with("facing", "south").with("powered", "true"), false)
-                scene.effects.indicateRedstone([2,1,2])
-                scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "one_to_twenty"), false)
-                scene.world.modifyBlockEntity([2,1,1], NixieTube, (nix) => {
-                        nix.updateRedstoneStrength(2);
-                        nix.updateDisplayedStrings()})
-                scene.idle(20)
-                scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "twentyone_to_fourty"), false)
-                scene.world.modifyBlockEntity([2,1,1], NixieTube, (nix) => {
-                        nix.updateRedstoneStrength(5);
-                        nix.updateDisplayedStrings()})
-                scene.idle(20)
-                scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "fourtyone_to_sixty"), false)
-                scene.world.modifyBlockEntity([2,1,1], NixieTube, (nix) => {
-                        nix.updateRedstoneStrength(8);
-                        nix.updateDisplayedStrings()})
-                scene.idle(20)
-                scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "sixtyone_to_eighty"), false)
-                scene.world.modifyBlockEntity([2,1,1], NixieTube, (nix) => {
-                        nix.updateRedstoneStrength(11);
-                        nix.updateDisplayedStrings()})
-                scene.idle(20)
-                scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "eightyone_to_ninetynine"), false)
-                scene.world.modifyBlockEntity([2,1,1], NixieTube, (nix) => {
-                        nix.updateRedstoneStrength(14);
-                        nix.updateDisplayedStrings()})
-                scene.idle(20)
-                scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "full"), false)
-                scene.world.modifyBlockEntity([2,1,1], NixieTube, (nix) => {
-                        nix.updateRedstoneStrength(15);
-                        nix.updateDisplayedStrings()})
-                scene.idle(20)
-                scene.world.hideSection([2,1,1, 2,1,2], Facing.up)
-                scene.idle(10)
-                scene.addKeyframe()
-                scene.idle(10)
-                scene.text(80, "Breaking the block will spill the stored XP as orbs.", [2,1.5,3]).placeNearTarget();
-                scene.idle(40)
-                scene.world.setBlock([2,1,3], "minecraft:air", true)
-                const orb = scene.world.createEntity("minecraft:experience_orb", [2.5, 1.1, 3.5], o => {
-                        o.load("{Pos:[2.5d,1.1d,3.5d],Motion:[0.0d, 0.3d, -0.1d],Value:307}") //yes, i know the block can't store THAT much xp. it's just one orb, so it should be well visible.
-                    })
-                scene.idle(50)
-
-                scene.markAsFinished();
-            })
-
-        e.create("spelunkery:nephrite_siphon")
-            .scene("nephrite_siphon", "It sucks (experience)", "kubejs:deepslate_5x5", (scene, util) => {
-                scene.showBasePlate();
-                scene.idle(10);
-                scene.world.setBlock([2,1,3], "spelunkery:carved_nephrite", false)
-                scene.world.showSection([2,1,3], Facing.down)
-                scene.idle(3)
-                scene.world.setBlock([2,1,2], "spelunkery:nephrite_siphon", false)
-                scene.world.showSection([2,1,2], Facing.down)
-                scene.text(80, "The Nephrite Siphon absorbs XP and deposits it in adjacent carved nephrite blocks", [2,1.5,2]).placeNearTarget();
-                scene.idle(90)
-                scene.addKeyframe();
-                scene.idle(10)
-                
-
-                for(let i = 0;i<100;i++){
-                    scene.particles.simple(1, "smoke", [2.5,1.75,2.5]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
-                }
-                const stand = scene.world.createEntity("minecraft:skeleton", [2.5,1.5,2.5], b => {
-                    b.load('{Pos: [2.5d, 1.5d, 2.5d], Rotation: [135.0f, 0.0f],ArmorItems:[{id:"immersiveengineering:armor_faraday_boots",Count:1},{id:"immersiveengineering:armor_faraday_leggings",Count:1},{id:"immersiveengineering:armor_faraday_chestplate",Count:1},{id:"minecraft:player_head",Count:1}]}')
-                })
-
-                
-                scene.idle(10)
-                scene.text(110, "It can absorb XP from players. Crouching will speed up the transfer significantly.", [2,2.5,2]).placeNearTarget();
-                scene.idle(20)
-                scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "one_to_twenty"), false)
-                scene.idle(20)
-                scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "twentyone_to_fourty"), false)
-                scene.idle(20)
-                scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "fourtyone_to_sixty"), false)
-                scene.idle(20)
-                scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "sixtyone_to_eighty"), false)
-                scene.idle(20)
-                
-                for(let i = 0;i<100;i++){
-                    scene.particles.simple(1, "smoke", [2.5,1.75,2.5]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
-                }
-                scene.world.modifyEntity(stand, (s => s.discard()))
-                scene.idle(15)
-                scene.addKeyframe()
-                scene.idle(10)
-                scene.text(70, "It can also absorb nearby XP orbs directly.", [2,2.5,2]).placeNearTarget();
-                var values = [1,3,7,17,37,73,149,307,617,1237,2477] //These are the minimum values for each orb size. 
-                    var orbs = []
-                    values.forEach(xp => {
-                        var x = Math.random()+2;
-                        var y = Math.random()*10+25;
-                        var z = Math.random()+2;
+    e.create("spelunkery:carved_nephrite")
+        .scene("carved_nephrite", "Dew of the Mountain", "kubejs:deepslate_5x5", (scene, util) => {
+            scene.showBasePlate();
+            scene.idle(10);
+            scene.world.setBlock([2,1,2], "spelunkery:carved_nephrite", false)
+            scene.world.showSection([2,1,2], Facing.down)
+            scene.text(70, "Carved Nephrite blocks can store experience points.", [2,1.5,2]).placeNearTarget();
+            scene.idle(80)
+            scene.text(90, "Each block can store 100 XP points, enough to get to level 7, and then some.", [2,1.5,2]).placeNearTarget();
+            var orbs = []
+            for(let i = 0;i<25;i++){
+                    for(let j = 0; j<4;j++){
+                        var x = Math.random()*3+1;
+                        var y = Math.random()*20+25;
+                        var z = Math.random()*3+1;
                         orbs.push(scene.world.createEntity("minecraft:experience_orb", [x,y,z], o => {
-                            o.load("{Pos:["+x+"d,"+y+"d,"+z+"d], Value:"+xp+"}")
+                            o.load("{Pos:["+x+"d,"+y+"d,"+z+"d], Value:1}")
                         }))
-                        scene.idle(2)
-                    })
-                    scene.idle(40)
-                    orbs.forEach((orb) => {
-                        scene.world.modifyEntity(orb, o => { o.discard() })
-                        scene.idle(2)
-                    })
-                    scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "full"), false)
-                    scene.idle(10)
+                    }
+            }
+            scene.idle(70)
+            for(let i = 0;i<25;i++){
+                scene.world.modifyEntity(orbs[i*4], o => o.discard())
+                scene.world.modifyEntity(orbs[i*4+1], o => o.discard())
+                scene.world.modifyEntity(orbs[i*4+2], o => o.discard())
+                scene.world.modifyEntity(orbs[i*4+3], o => o.discard())
+                scene.idle(1)
+            }
+            scene.idle(5)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.text(80, "It can be filled with a nephrite siphon...", [2,1.5,2]).placeNearTarget();
+            scene.showControls(80, [2,2.5,2], "down").withItem("spelunkery:nephrite_siphon");
+            scene.idle(10)
+            scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "one_to_twenty"), false)
+            scene.idle(20)
+            scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "twentyone_to_fourty"), false)
+            scene.idle(20)
+            scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "sixtyone_to_eighty"), false)
+            scene.idle(20)
+            scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "full"), false)
+            scene.idle(20)
+            scene.text(80, "...drained with a nephrite fountain...", [2,1.5,2]).placeNearTarget();
+            scene.showControls(80, [2,2.5,2], "down").withItem("spelunkery:nephrite_fountain");
+            scene.idle(10)
+            scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "sixtyone_to_eighty"), false)
+            scene.idle(20)
+            scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "twentyone_to_fourty"), false)
+            scene.idle(20)
+            scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "one_to_twenty"), false)
+            scene.idle(20)
+            scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "empty"), false)
+            scene.idle(20)
+            scene.text(80, "...or transferred to/from with a nephrite diode.", [2,1.5,2]).placeNearTarget();
+            scene.showControls(80, [2,2.5,2], "down").withItem("spelunkery:nephrite_diode");
+            scene.idle(90)
+            scene.text(80, "Those three have their own ponders, make sure you check them out!", [2,1.5,2]).placeNearTarget();
+            scene.idle(90)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.text(80, "Adjacent blocks will balance out their contents", [1,1.5,2]).placeNearTarget();
+            scene.idle(30)
+            scene.world.setBlock([1,1,2], "spelunkery:carved_nephrite", false)
+            scene.world.modifyBlock([1,1,2], (xp) => xp.with("charge", "full"), false)
+            scene.world.showSection([1,1,2], Facing.down)
+            scene.idle(10)
+            scene.world.modifyBlocks([1,1,2, 2,1,2], (xp) => xp.with("charge", "twentyone_to_fourty"), false)
+            scene.idle(50)
+            scene.text(80, "XP will also 'flow' downwards, if possible", [2,2.5,2]).placeNearTarget();
+            scene.idle(30)
+            scene.world.setBlock([2,2,2], "spelunkery:carved_nephrite", false)
+            scene.world.modifyBlock([2,2,2], (xp) => xp.with("charge", "full"), false)
+            scene.world.showSection([2,2,2], Facing.down)
+            scene.idle(10)
+            scene.world.modifyBlocks([1,1,2, 2,1,2], (xp) => xp.with("charge", "full"), false)
+            scene.world.modifyBlock([2,2,2], (xp) => xp.with("charge", "empty"), false)
+            scene.idle(50)
+            scene.text(100, "Note: Actual transfers are not instant, XP needs a bit of time to flow from block to block.", [2,2.5,2]).placeNearTarget();
+            scene.idle(100)
+            scene.world.hideSection([1,1,2, 2,2,2], Facing.up)
+            scene.idle(10)
+            scene.world.setBlocks([1,1,2, 2,2,2], "minecraft:air", false)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.world.setBlock([2,1,3], "spelunkery:carved_nephrite", false)
+            scene.world.showSection([2,1,3], Facing.down)
+            scene.idle(5)
+            scene.world.setBlock([2,1,2], "minecraft:comparator", false)
+            scene.world.modifyBlock([2,1,2], (cmp) => cmp.with("facing", "south"), false)
+            scene.world.showSection([2,1,2], Facing.down)
+            scene.idle(5)
+            scene.world.setBlock([2,1,1], "create:nixie_tube", false)
+            scene.world.modifyBlock([2,1,1], (nix) => nix.with("facing", "west"), false)
+            scene.world.showSection([2,1,1], Facing.down)
+            scene.idle(5)
+            scene.text(110, "A comparator will output a signal based on the fill level of the block.", [2,1.5,2]).placeNearTarget();
+            scene.idle(20)
+            scene.world.modifyBlock([2,1,2], (cmp) => cmp.with("facing", "south").with("powered", "true"), false)
+            scene.effects.indicateRedstone([2,1,2])
+            scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "one_to_twenty"), false)
+            scene.world.modifyBlockEntity([2,1,1], NixieTube, (nix) => {
+                    nix.updateRedstoneStrength(2);
+                    nix.updateDisplayedStrings()})
+            scene.idle(20)
+            scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "twentyone_to_fourty"), false)
+            scene.world.modifyBlockEntity([2,1,1], NixieTube, (nix) => {
+                    nix.updateRedstoneStrength(5);
+                    nix.updateDisplayedStrings()})
+            scene.idle(20)
+            scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "fourtyone_to_sixty"), false)
+            scene.world.modifyBlockEntity([2,1,1], NixieTube, (nix) => {
+                    nix.updateRedstoneStrength(8);
+                    nix.updateDisplayedStrings()})
+            scene.idle(20)
+            scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "sixtyone_to_eighty"), false)
+            scene.world.modifyBlockEntity([2,1,1], NixieTube, (nix) => {
+                    nix.updateRedstoneStrength(11);
+                    nix.updateDisplayedStrings()})
+            scene.idle(20)
+            scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "eightyone_to_ninetynine"), false)
+            scene.world.modifyBlockEntity([2,1,1], NixieTube, (nix) => {
+                    nix.updateRedstoneStrength(14);
+                    nix.updateDisplayedStrings()})
+            scene.idle(20)
+            scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "full"), false)
+            scene.world.modifyBlockEntity([2,1,1], NixieTube, (nix) => {
+                    nix.updateRedstoneStrength(15);
+                    nix.updateDisplayedStrings()})
+            scene.idle(20)
+            scene.world.hideSection([2,1,1, 2,1,2], Facing.up)
+            scene.idle(10)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.text(80, "Breaking the block will spill the stored XP as orbs.", [2,1.5,3]).placeNearTarget();
+            scene.idle(40)
+            scene.world.setBlock([2,1,3], "minecraft:air", true)
+            const orb = scene.world.createEntity("minecraft:experience_orb", [2.5, 1.1, 3.5], o => {
+                    o.load("{Pos:[2.5d,1.1d,3.5d],Motion:[0.0d, 0.3d, -0.1d],Value:307}") //yes, i know the block can't store THAT much xp. it's just one orb, so it should be well visible.
+                })
+            scene.idle(50)
 
+            scene.markAsFinished();
+        })
 
-                scene.markAsFinished();
+    e.create("spelunkery:nephrite_siphon")
+        .scene("nephrite_siphon", "It sucks (experience)", "kubejs:deepslate_5x5", (scene, util) => {
+            scene.showBasePlate();
+            scene.idle(10);
+            scene.world.setBlock([2,1,3], "spelunkery:carved_nephrite", false)
+            scene.world.showSection([2,1,3], Facing.down)
+            scene.idle(3)
+            scene.world.setBlock([2,1,2], "spelunkery:nephrite_siphon", false)
+            scene.world.showSection([2,1,2], Facing.down)
+            scene.text(80, "The Nephrite Siphon absorbs XP and deposits it in adjacent carved nephrite blocks", [2,1.5,2]).placeNearTarget();
+            scene.idle(90)
+            scene.addKeyframe();
+            scene.idle(10)
+            
+
+            for(let i = 0;i<100;i++){
+                scene.particles.simple(1, "smoke", [2.5,1.75,2.5]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
+            }
+            const stand = scene.world.createEntity("minecraft:skeleton", [2.5,1.5,2.5], b => {
+                b.load('{Pos: [2.5d, 1.5d, 2.5d], Rotation: [135.0f, 0.0f],ArmorItems:[{id:"immersiveengineering:armor_faraday_boots",Count:1},{id:"immersiveengineering:armor_faraday_leggings",Count:1},{id:"immersiveengineering:armor_faraday_chestplate",Count:1},{id:"minecraft:player_head",Count:1}]}')
             })
 
-        e.create("spelunkery:nephrite_fountain")
-            .scene("nephrite_fountain", "...why is it a snake?", "kubejs:deepslate_5x5", (scene, util) => {
-                scene.showBasePlate();
-                scene.idle(5);
-                scene.world.setBlock([3,1,2], "spelunkery:carved_nephrite", false)
-                scene.world.modifyBlock([3,1,2], (xp) => xp.with("charge", "full"), false)
-                scene.world.showSection([3,1,2], Facing.down)
-                scene.idle(5)
-                scene.world.setBlock([2,1,2], "spelunkery:nephrite_fountain", false)
-                scene.world.modifyBlock([2,1,2], (snek) => snek.with("facing", "west"), false)
-                scene.world.showSection([2,1,2], Facing.east)
-                scene.idle(5)
-                scene.world.setBlock([2,1,1], "minecraft:lever", false);
-                scene.world.modifyBlock([2,1,1], (lever) => lever.with("face", "floor"), false)
-                scene.world.showSection([2,1,1], Facing.down)
-                scene.idle(5)
-                scene.text(100, "The nephrite fountain can convert the charge in carved nephrite back to XP orbs.", [2,1.5,2]).placeNearTarget();
-                scene.idle(110)
-                scene.addKeyframe()
-                scene.idle(10)
-                scene.text(70, "To open it, give it a redstone signal.", [2,1.5,1]).placeNearTarget();
-                scene.idle(30)
-                for(let i = 0;i<100;i++){
-                    scene.particles.simple(1, "smoke", [1,1.75,2.5]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
-                }
-                const stand = scene.world.createEntity("minecraft:skeleton", [1.5,1,2.5], b => {
-                    b.load('{Pos: [1d, 1d, 2.5d], Rotation: [-90.0f, 0.0f],ArmorItems:[{id:"immersiveengineering:armor_faraday_boots",Count:1},{id:"immersiveengineering:armor_faraday_leggings",Count:1},{id:"immersiveengineering:armor_faraday_chestplate",Count:1},{id:"minecraft:player_head",Count:1}]}')
-                })
-                scene.idle(50)
-
-                scene.world.modifyBlock([2,1,1], (lever) => lever.with("powered", "true").with("face", "floor"), false)
-                scene.effects.indicateRedstone([2,1,1])
-                scene.world.modifyBlock([2,1,2], (snek) => snek.with("facing", "west").with("powered", "true"), false)
+            
+            scene.idle(10)
+            scene.text(110, "It can absorb XP from players. Crouching will speed up the transfer significantly.", [2,2.5,2]).placeNearTarget();
+            scene.idle(20)
+            scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "one_to_twenty"), false)
+            scene.idle(20)
+            scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "twentyone_to_fourty"), false)
+            scene.idle(20)
+            scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "fourtyone_to_sixty"), false)
+            scene.idle(20)
+            scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "sixtyone_to_eighty"), false)
+            scene.idle(20)
+            
+            for(let i = 0;i<100;i++){
+                scene.particles.simple(1, "smoke", [2.5,1.75,2.5]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
+            }
+            scene.world.modifyEntity(stand, (s => s.discard()))
+            scene.idle(15)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.text(70, "It can also absorb nearby XP orbs directly.", [2,2.5,2]).placeNearTarget();
+            var values = [1,3,7,17,37,73,149,307,617,1237,2477] //These are the minimum values for each orb size. 
                 var orbs = []
-                for(let i = 0;i<100;i++){
-                    if(orbs.length > 5){
-                        scene.world.modifyEntity(orbs.shift(), o => o.discard());
-                    }
-                    orbs.push(scene.world.createEntity("minecraft:experience_orb", [2.5, 1.1, 2.5], o => {
-                        o.load("{Pos:[2.5d,1.1d,2.5d],Motion:[-0.5d, 0.5d, 0.0d],Value:1}")
+                values.forEach(xp => {
+                    var x = Math.random()+2;
+                    var y = Math.random()*10+25;
+                    var z = Math.random()+2;
+                    orbs.push(scene.world.createEntity("minecraft:experience_orb", [x,y,z], o => {
+                        o.load("{Pos:["+x+"d,"+y+"d,"+z+"d], Value:"+xp+"}")
                     }))
-                    scene.idle(1)
-                    switch (i) {
-                        case 0:
-                            scene.world.modifyBlock([3,1,2], (xp) => xp.with("charge", "eightyone_to_ninetynine"), false)
-                            break;
-                        case 20:
-                            scene.world.modifyBlock([3,1,2], (xp) => xp.with("charge", "sixtyone_to_eighty"), false)
-                            break;
-                        case 40:
-                            scene.world.modifyBlock([3,1,2], (xp) => xp.with("charge", "fourtyone_to_sixty"), false)
-                            break;
-                        case 60:
-                            scene.world.modifyBlock([3,1,2], (xp) => xp.with("charge", "twentyone_to_fourty"), false)
-                            break;
-                        case 80:
-                            scene.world.modifyBlock([3,1,2], (xp) => xp.with("charge", "one_to_twenty"), false)
-                            break;
-                        case 99:
-                            scene.world.modifyBlock([3,1,2], (xp) => xp.with("charge", "empty"), false)
-                            break;
-                    
-                        default:
-                            break;
-                    }
-                }
-                orbs.forEach(orb => {
-                    scene.world.modifyEntity(orb, o => o.discard())
-                    scene.idle(1)
+                    scene.idle(2)
                 })
-                scene.idle(5)
-                scene.world.modifyBlock([2,1,1], (lever) => lever.with("powered", "false").with("face", "floor"), false)
-                scene.world.modifyBlock([2,1,2], (snek) => snek.with("facing", "west").with("powered", "false"), false)
-                scene.idle(5)
-                for(let i = 0;i<100;i++){
-                    scene.particles.simple(1, "smoke", [1,1.75,2.5]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
-                }
-                scene.world.modifyEntity(stand, (s => s.discard()))
-                scene.idle(10)
-                scene.markAsFinished();
-            })
-
-        e.create("spelunkery:nephrite_diode")
-            .scene("nephrite_diode", "One-Way XP Pump", "kubejs:deepslate_5x5", (scene, util) => {
-                scene.showBasePlate();
-                scene.idle(5);
-                scene.world.setBlock([2,1,2], "spelunkery:carved_nephrite", false)
-                scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "full"), false)
-                scene.world.showSection([2,1,2], Facing.down)
-                scene.idle(5)
-                scene.world.setBlock([2,2,2], "spelunkery:nephrite_diode", false)
-                scene.world.modifyBlock([2,2,2], (xp) => xp.with("facing", "down"), false)
-                scene.world.showSection([2,2,2], Facing.down)
-                scene.text(80, "The nephrite diode can transfer XP between carved nephrite blocks.", [2,2.5,2]).placeNearTarget();
-                scene.idle(5)
-                scene.world.setBlock([2,3,2], "spelunkery:carved_nephrite", false)
-                scene.world.showSection([2,3,2], Facing.down)
-                scene.idle(5)
-                scene.world.setBlock([1,2,2], "minecraft:lever", false)
-                scene.world.modifyBlock([1,2,2], (lever) => lever.with("facing", "west").with("face", "wall"), false)
-                scene.world.showSection([1,2,2], Facing.east)                
-                scene.idle(80)
-                scene.addKeyframe()
-                scene.idle(10)
-                scene.text(100, "A redstone pulse will transfer one XP point between blocks in the direction of the arrow.", [1.5,2.5,2.5]).placeNearTarget();
                 scene.idle(40)
-                scene.effects.indicateRedstone([1,2,2])
-                scene.world.modifyBlock([1,2,2], (lever) => lever.with("facing", "west").with("powered", "true").with("face", "wall"), false)
+                orbs.forEach((orb) => {
+                    scene.world.modifyEntity(orb, o => { o.discard() })
+                    scene.idle(2)
+                })
+                scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "full"), false)
+                scene.idle(10)
+
+
+            scene.markAsFinished();
+        })
+
+    e.create("spelunkery:nephrite_fountain")
+        .scene("nephrite_fountain", "...why is it a snake?", "kubejs:deepslate_5x5", (scene, util) => {
+            scene.showBasePlate();
+            scene.idle(5);
+            scene.world.setBlock([3,1,2], "spelunkery:carved_nephrite", false)
+            scene.world.modifyBlock([3,1,2], (xp) => xp.with("charge", "full"), false)
+            scene.world.showSection([3,1,2], Facing.down)
+            scene.idle(5)
+            scene.world.setBlock([2,1,2], "spelunkery:nephrite_fountain", false)
+            scene.world.modifyBlock([2,1,2], (snek) => snek.with("facing", "west"), false)
+            scene.world.showSection([2,1,2], Facing.east)
+            scene.idle(5)
+            scene.world.setBlock([2,1,1], "minecraft:lever", false);
+            scene.world.modifyBlock([2,1,1], (lever) => lever.with("face", "floor"), false)
+            scene.world.showSection([2,1,1], Facing.down)
+            scene.idle(5)
+            scene.text(100, "The nephrite fountain can convert the charge in carved nephrite back to XP orbs.", [2,1.5,2]).placeNearTarget();
+            scene.idle(110)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.text(70, "To open it, give it a redstone signal.", [2,1.5,1]).placeNearTarget();
+            scene.idle(30)
+            for(let i = 0;i<100;i++){
+                scene.particles.simple(1, "smoke", [1,1.75,2.5]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
+            }
+            const stand = scene.world.createEntity("minecraft:skeleton", [1.5,1,2.5], b => {
+                b.load('{Pos: [1d, 1d, 2.5d], Rotation: [-90.0f, 0.0f],ArmorItems:[{id:"immersiveengineering:armor_faraday_boots",Count:1},{id:"immersiveengineering:armor_faraday_leggings",Count:1},{id:"immersiveengineering:armor_faraday_chestplate",Count:1},{id:"minecraft:player_head",Count:1}]}')
+            })
+            scene.idle(50)
+
+            scene.world.modifyBlock([2,1,1], (lever) => lever.with("powered", "true").with("face", "floor"), false)
+            scene.effects.indicateRedstone([2,1,1])
+            scene.world.modifyBlock([2,1,2], (snek) => snek.with("facing", "west").with("powered", "true"), false)
+            var orbs = []
+            for(let i = 0;i<100;i++){
+                if(orbs.length > 5){
+                    scene.world.modifyEntity(orbs.shift(), o => o.discard());
+                }
+                orbs.push(scene.world.createEntity("minecraft:experience_orb", [2.5, 1.1, 2.5], o => {
+                    o.load("{Pos:[2.5d,1.1d,2.5d],Motion:[-0.5d, 0.5d, 0.0d],Value:1}")
+                }))
+                scene.idle(1)
+                switch (i) {
+                    case 0:
+                        scene.world.modifyBlock([3,1,2], (xp) => xp.with("charge", "eightyone_to_ninetynine"), false)
+                        break;
+                    case 20:
+                        scene.world.modifyBlock([3,1,2], (xp) => xp.with("charge", "sixtyone_to_eighty"), false)
+                        break;
+                    case 40:
+                        scene.world.modifyBlock([3,1,2], (xp) => xp.with("charge", "fourtyone_to_sixty"), false)
+                        break;
+                    case 60:
+                        scene.world.modifyBlock([3,1,2], (xp) => xp.with("charge", "twentyone_to_fourty"), false)
+                        break;
+                    case 80:
+                        scene.world.modifyBlock([3,1,2], (xp) => xp.with("charge", "one_to_twenty"), false)
+                        break;
+                    case 99:
+                        scene.world.modifyBlock([3,1,2], (xp) => xp.with("charge", "empty"), false)
+                        break;
+                
+                    default:
+                        break;
+                }
+            }
+            orbs.forEach(orb => {
+                scene.world.modifyEntity(orb, o => o.discard())
+                scene.idle(1)
+            })
+            scene.idle(5)
+            scene.world.modifyBlock([2,1,1], (lever) => lever.with("powered", "false").with("face", "floor"), false)
+            scene.world.modifyBlock([2,1,2], (snek) => snek.with("facing", "west").with("powered", "false"), false)
+            scene.idle(5)
+            for(let i = 0;i<100;i++){
+                scene.particles.simple(1, "smoke", [1,1.75,2.5]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
+            }
+            scene.world.modifyEntity(stand, (s => s.discard()))
+            scene.idle(10)
+            scene.markAsFinished();
+        })
+
+    e.create("spelunkery:nephrite_diode")
+        .scene("nephrite_diode", "One-Way XP Pump", "kubejs:deepslate_5x5", (scene, util) => {
+            scene.showBasePlate();
+            scene.idle(5);
+            scene.world.setBlock([2,1,2], "spelunkery:carved_nephrite", false)
+            scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "full"), false)
+            scene.world.showSection([2,1,2], Facing.down)
+            scene.idle(5)
+            scene.world.setBlock([2,2,2], "spelunkery:nephrite_diode", false)
+            scene.world.modifyBlock([2,2,2], (xp) => xp.with("facing", "down"), false)
+            scene.world.showSection([2,2,2], Facing.down)
+            scene.text(80, "The nephrite diode can transfer XP between carved nephrite blocks.", [2,2.5,2]).placeNearTarget();
+            scene.idle(5)
+            scene.world.setBlock([2,3,2], "spelunkery:carved_nephrite", false)
+            scene.world.showSection([2,3,2], Facing.down)
+            scene.idle(5)
+            scene.world.setBlock([1,2,2], "minecraft:lever", false)
+            scene.world.modifyBlock([1,2,2], (lever) => lever.with("facing", "west").with("face", "wall"), false)
+            scene.world.showSection([1,2,2], Facing.east)                
+            scene.idle(80)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.text(100, "A redstone pulse will transfer one XP point between blocks in the direction of the arrow.", [1.5,2.5,2.5]).placeNearTarget();
+            scene.idle(40)
+            scene.effects.indicateRedstone([1,2,2])
+            scene.world.modifyBlock([1,2,2], (lever) => lever.with("facing", "west").with("powered", "true").with("face", "wall"), false)
+            scene.world.modifyBlock([2,2,2], (xp) => xp.with("facing", "down").with("powered", "true"), false)
+            scene.world.modifyBlock([2,3,2], (xp) => xp.with("charge", "one_to_twenty"), false)
+            scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "eightyone_to_ninetynine"), false)
+            scene.idle(70)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.text(70, "Might need something faster...", [1.5,2.5,2.5]).placeNearTarget();
+            scene.idle(40)
+            scene.world.setBlock([1,2,2], "minecraft:air", true)
+            scene.world.modifyBlock([2,2,2], (xp) => xp.with("facing", "down").with("powered", "false"), false)
+            scene.world.hideSection([1,2,2], Facing.up)
+            scene.idle(15)
+            scene.world.setBlocks([0,1,2, 1,1,2], "spelunkery:polished_nephrite_bricks", false)
+            scene.world.showSection([0,1,2, 1,1,2], Facing.down)
+            scene.idle(5)
+            scene.world.setBlock([1,2,2], "create:pulse_timer", false)
+            scene.world.modifyBlock([1,2,2], (timer) => timer.with("facing", "west").with("powered", "true"), false)
+            scene.world.setBlock([0,2,2], "minecraft:lever", false)
+            scene.world.modifyBlock([0,2,2], (lever) => lever.with("powered", "true").with("face", "floor"), false)
+            scene.world.showSection([0,2,2, 1,2,2], Facing.down)
+            scene.idle(20)
+
+            scene.world.modifyBlock([0,2,2], (lever) => lever.with("powered", "false").with("face", "floor"), false)
+            scene.world.modifyBlockEntityNBT([1,2,2], timer => timer.ScrollValue = 2)
+            scene.world.modifyBlock([1,2,2], (timer) => timer.with("facing", "west").with("powered", "false"), false)
+
+            for(let i = 0;i<110;i++){
                 scene.world.modifyBlock([2,2,2], (xp) => xp.with("facing", "down").with("powered", "true"), false)
-                scene.world.modifyBlock([2,3,2], (xp) => xp.with("charge", "one_to_twenty"), false)
-                scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "eightyone_to_ninetynine"), false)
-                scene.idle(70)
-                scene.addKeyframe()
-                scene.idle(10)
-                scene.text(70, "Might need something faster...", [1.5,2.5,2.5]).placeNearTarget();
-                scene.idle(40)
-                scene.world.setBlock([1,2,2], "minecraft:air", true)
-                scene.world.modifyBlock([2,2,2], (xp) => xp.with("facing", "down").with("powered", "false"), false)
-                scene.world.hideSection([1,2,2], Facing.up)
-                scene.idle(15)
-                scene.world.setBlocks([0,1,2, 1,1,2], "spelunkery:polished_nephrite_bricks", false)
-                scene.world.showSection([0,1,2, 1,1,2], Facing.down)
-                scene.idle(5)
-                scene.world.setBlock([1,2,2], "create:pulse_timer", false)
-                scene.world.modifyBlock([1,2,2], (timer) => timer.with("facing", "west").with("powered", "true"), false)
-                scene.world.setBlock([0,2,2], "minecraft:lever", false)
-                scene.world.modifyBlock([0,2,2], (lever) => lever.with("powered", "true").with("face", "floor"), false)
-                scene.world.showSection([0,2,2, 1,2,2], Facing.down)
-                scene.idle(20)
+                scene.world.modifyBlock([1,2,2], (timer) => timer.with("facing", "west").with("powering", "true"), false)                    
+                scene.idle(1)
 
-                scene.world.modifyBlock([0,2,2], (lever) => lever.with("powered", "false").with("face", "floor"), false)
-                scene.world.modifyBlockEntityNBT([1,2,2], timer => timer.ScrollValue = 2)
-                scene.world.modifyBlock([1,2,2], (timer) => timer.with("facing", "west").with("powered", "false"), false)
-
-                for(let i = 0;i<110;i++){
-                    scene.world.modifyBlock([2,2,2], (xp) => xp.with("facing", "down").with("powered", "true"), false)
-                    scene.world.modifyBlock([1,2,2], (timer) => timer.with("facing", "west").with("powering", "true"), false)                    
-                    scene.idle(1)
-
-                    switch (i) {
-                        case 19:
-                            scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "sixtyone_to_eighty"), false)
-                            scene.world.modifyBlock([2,3,2], (xp) => xp.with("charge", "twentyone_to_fourty"), false)
-                            break;
-                        case 39:
-                            scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "fourtyone_to_sixty"), false)
-                            scene.world.modifyBlock([2,3,2], (xp) => xp.with("charge", "fourtyone_to_sixty"), false)
-                            break;
-                        case 59:
-                            scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "twentyone_to_fourty"), false)
-                            scene.world.modifyBlock([2,3,2], (xp) => xp.with("charge", "sixtyone_to_eighty"), false)
-                            break;
-                        case 79:
-                            scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "one_to_twenty"), false)
-                            scene.world.modifyBlock([2,3,2], (xp) => xp.with("charge", "eightyone_to_ninetynine"), false)
-                            break;
-                        case 98:
-                            scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "empty"), false)
-                            scene.world.modifyBlock([2,3,2], (xp) => xp.with("charge", "full"), false)
-                            break;
-                    
-                        default:
-                            break;
-                    }
-
-                    scene.world.modifyBlock([2,2,2], (xp) => xp.with("facing", "down").with("powered", "false"), false)
-                    scene.world.modifyBlock([1,2,2], (timer) => timer.with("facing", "west").with("powering", "false"), false)
-                    scene.idle(1)
+                switch (i) {
+                    case 19:
+                        scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "sixtyone_to_eighty"), false)
+                        scene.world.modifyBlock([2,3,2], (xp) => xp.with("charge", "twentyone_to_fourty"), false)
+                        break;
+                    case 39:
+                        scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "fourtyone_to_sixty"), false)
+                        scene.world.modifyBlock([2,3,2], (xp) => xp.with("charge", "fourtyone_to_sixty"), false)
+                        break;
+                    case 59:
+                        scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "twentyone_to_fourty"), false)
+                        scene.world.modifyBlock([2,3,2], (xp) => xp.with("charge", "sixtyone_to_eighty"), false)
+                        break;
+                    case 79:
+                        scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "one_to_twenty"), false)
+                        scene.world.modifyBlock([2,3,2], (xp) => xp.with("charge", "eightyone_to_ninetynine"), false)
+                        break;
+                    case 98:
+                        scene.world.modifyBlock([2,1,2], (xp) => xp.with("charge", "empty"), false)
+                        scene.world.modifyBlock([2,3,2], (xp) => xp.with("charge", "full"), false)
+                        break;
+                
+                    default:
+                        break;
                 }
 
-                scene.world.modifyBlock([1,2,2], (timer) => timer.with("facing", "west").with("powered", "true"), false)
-                scene.world.modifyBlock([0,2,2], (lever) => lever.with("powered", "true").with("face", "floor"), false)
+                scene.world.modifyBlock([2,2,2], (xp) => xp.with("facing", "down").with("powered", "false"), false)
+                scene.world.modifyBlock([1,2,2], (timer) => timer.with("facing", "west").with("powering", "false"), false)
+                scene.idle(1)
+            }
 
-                scene.idle(20)
-                scene.markAsFinished();
-            })
+            scene.world.modifyBlock([1,2,2], (timer) => timer.with("facing", "west").with("powered", "true"), false)
+            scene.world.modifyBlock([0,2,2], (lever) => lever.with("powered", "true").with("face", "floor"), false)
+
+            scene.idle(20)
+            scene.markAsFinished();
+        })
 
 })

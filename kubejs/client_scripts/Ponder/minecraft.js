@@ -1,6 +1,11 @@
 Ponder.tags((e) => {
-	e.createTag("compression:minecraft", "minecraft:crafting_table", "Minecraft Basics.", "The Basics of Basics!",
-	["minecraft:cobblestone", "minecraft:glass", "minecraft:oak_log", "minecraft:stone", "minecraft:basalt", "minecraft:respawn_anchor",
+	e.createTag("compression:minecraft", "minecraft:crafting_table", "Minecraft Basics.", "The Basics of Basics!", [
+		"minecraft:cobblestone",
+		"minecraft:glass",
+		"minecraft:oak_log",
+		"minecraft:stone",
+		"minecraft:basalt",
+		"minecraft:respawn_anchor",
 	]);
 });
 //------------------------------------------------------------------
@@ -126,7 +131,7 @@ Ponder.registry((e) => {
         	scene.text(80, "You might want to find a more §ccreative§r solution to this problem...");
         	scene.idle(30);
         });
-//Stone-------------------------------------------------------------------------------------
+	//Stone-------------------------------------------------------------------------------------
 	e.create("minecraft:stone")
         .scene("stone_generator", "A Stone Generator?", "kubejs:botania_7x7",(scene, util) => {
             scene.showBasePlate();
