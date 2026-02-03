@@ -1,0 +1,61 @@
+{
+	"type":"vintageimprovements:vibrating",
+	"ingredients": [ 
+		{
+			"item": "nyagibits_bytes:scrap_metal"
+		}
+	],
+	"results": [
+		{
+            "chance": 0.75,
+            "count": 3,
+			"item": "chemlib:iron_dust"
+		},
+		{
+            "chance": 0.75,
+            "count": 3,
+			"item": "chemlib:copper_dust"
+		},
+		{
+            "chance": 0.75,
+            "count": 3,
+			"item": "chemlib:aluminum_dust"
+		},
+		{
+            "chance": 0.75,
+            "count": 3,
+			"item": "chemlib:lead_dust"
+		},
+		{
+            "chance": 0.75,
+            "count": 9,
+			"item": "chemlib:iron_oxide_dust"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "immersiveengineering:dust_steel"
+		},
+		{
+            "chance": 0.25,
+            "count": 2,
+			"item": "immersiveengineering:plate_steel"
+		},
+		{
+            "chance": 0.35,
+            "count": 2,
+			"item": "chemlib:copper_plate"
+		},
+		{
+            "chance": 0.25,
+            "count": 4,
+			"item": "vintageimprovements:steel_rod"
+		},
+		{
+            "chance": 0.02,
+            "count": 1,
+			"item": "nyagibits_bytes:mix_steel_1080"
+		}
+	],
+	"processingTime": 20
+}

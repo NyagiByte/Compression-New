@@ -1,0 +1,56 @@
+{
+	"type":"vintageimprovements:vibrating",
+	"ingredients": [ 
+		{
+			"item": "nyagibits_bytes:scrap_organic"
+		}
+	],
+	"results": [
+		{
+            "chance": 0.95,
+            "count": 16,
+			"item": "minecraft:coarse_dirt"
+		},
+		{
+            "chance": 0.50,
+            "count": 8,
+			"item": "minecraft:mud"
+		},
+		{
+            "chance": 0.50,
+            "count": 4,
+			"item": "minecraft:sand"
+		},
+		{
+            "chance": 0.10,
+            "count": 2,
+			"item": "nuclearcraft:wasteland_earth"
+		},
+		{
+            "chance": 0.05,
+            "count": 1,
+			"item": "minecraft:dead_bush"
+		},
+		{
+            "chance": 0.05,
+            "count": 8,
+			"item": "minecraft:rotten_flesh"
+		},
+		{
+            "chance": 0.10,
+            "count": 2,
+			"item": "nyagibits_bytes:raw_peat"
+		},
+		{
+            "chance": 0.02,
+            "count": 1,
+			"item": "botania:overgrowth_seed"
+		},
+		{
+            "chance": 0.25,
+            "count": 2,
+			"item": "thermal:tar"
+		}
+	],
+	"processingTime": 20
+}

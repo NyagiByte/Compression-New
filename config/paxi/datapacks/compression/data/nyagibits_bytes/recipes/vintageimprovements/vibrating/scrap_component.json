@@ -1,0 +1,111 @@
+{
+	"type":"vintageimprovements:vibrating",
+	"ingredients": [ 
+		{
+			"item": "nyagibits_bytes:scrap_component"
+		}
+	],
+	"results": [
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "create:shaft"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "create:cogwheel"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "create:large_cogwheel"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "create:belt_connector"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "create:piston_extension_pole"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "create:gantry_shaft"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "create:white_sail"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "create:cardboard"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "create:propeller"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "create:whisk"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "thermal:saw_blade"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "create:brass_hand"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "create:electron_tube"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "create:transmitter"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "create:sturdy_sheet"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "create:precision_mechanism"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "nyagibits_bytes:pile_of_crude_mechanical_parts"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "nyagibits_bytes:crystal_harmonizer"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "nyagibits_bytes:processor_stack"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "nyagibits_bytes:micro_tools"
+		}
+	],
+	"processingTime": 20
+}
