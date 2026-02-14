@@ -1,8 +1,8 @@
 {
     "type":"minecraft:stonecutting",
     "ingredient":{
-        "item": "nyagibits_bytes:ball_plastic_ii"
+        "item": "nyagibits_bytes:ball_plastic_i"
         },
-            "result": "yuushya:venetian_blinds",
+            "result": "yuushya:strawberry_milk",
             "count":1
         }
