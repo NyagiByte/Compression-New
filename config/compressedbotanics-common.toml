@@ -17,4 +17,6 @@
 	"Cocoon Rare Chance" = 0.075
 	#Whether to disable runes being returned from runic altar recipes
 	"Disable Runic Altar Rune Refund" = false
+	#Whether Hydroangeas should decay naturally. Set this to false if implementing a recipe for them.
+	"Enable Natural Hydroangeas Decay" = false
 
