@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3BEACE9F3F1EC3AA"]
+			dependencies: ["11263D7D731E3161"]
 			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
 			icon: "immersiveengineering:wire_electrum"
 			id: "63481AC6B9F7024A"
@@ -23,6 +23,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["63481AC6B9F7024A"]
 			description: [
 				"The &6Punch Card Computer&r will be a custom multiblock made for this tier"
 				""
@@ -51,9 +52,10 @@
 			}]
 			title: "Turing Complete"
 			x: -1.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["17414CAE571D0CF3"]
 			description: [
 				"&dHexcasting&r will be a mod accessable in Tier 3"
 				""
@@ -71,9 +73,10 @@
 			}]
 			title: "Getting Hexical"
 			x: -1.5d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["2EDC03FB8F3AA4E9"]
 			description: [
 				"Botania's &aPortal to Alfheim&r is often overlooked in modpacks and is treated as a \"thing to thing\" converter without much else going on"
 				""
@@ -92,10 +95,11 @@
 				type: "item"
 			}]
 			title: "Alfemic Linguistics"
-			x: -1.5d
-			y: 1.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["17414CAE571D0CF3"]
 			description: [
 				"Ae2 &bAutocrafting&r Finally!"
 				""
@@ -113,10 +117,15 @@
 				item: "ae2:crafting_unit"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
+			dependencies: [
+				"17414CAE571D0CF3"
+				"2EDC03FB8F3AA4E9"
+				"372CCD587E760886"
+			]
 			description: [
 				"At the end of Tier 3 you will begin work on a &alibrary of life&r"
 				""
@@ -131,10 +140,14 @@
 				type: "item"
 			}]
 			title: "Biological Database"
-			x: 0.5d
-			y: -1.5d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
+			dependencies: [
+				"2EDC03FB8F3AA4E9"
+				"372CCD587E760886"
+			]
 			description: [
 				"Tier 3's Ore scaler"
 				""
@@ -146,8 +159,8 @@
 				item: "botania:orechid"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: -1.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Delicate weaving, golden threads"]

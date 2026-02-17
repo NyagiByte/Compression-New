@@ -1813,7 +1813,9 @@
 			y: -10.0d
 		}
 		{
+			dependencies: ["01E0198651D2A78F"]
 			description: ["&cThis Is You"]
+			hide_until_deps_complete: true
 			id: "5829CD62BB33D143"
 			rewards: [{
 				id: "3779152E21A8FB1E"

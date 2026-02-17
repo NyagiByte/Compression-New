@@ -17,7 +17,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["66DDC75CB8C3D557"]
+			dependencies: [
+				"66DDC75CB8C3D557"
+				"1772EEE06C7909D1"
+			]
 			icon: "create:clipboard"
 			id: "4D368CEA652E28A0"
 			size: 3.0d
@@ -1902,6 +1905,8 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["2C59A3066D5BE3F3"]
+			hide_dependency_lines: true
 			id: "3DFD975E77D119EC"
 			tasks: [{
 				id: "6760D6717690B77D"
@@ -1924,6 +1929,8 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["1D5882BE0065A436"]
+			hide_dependency_lines: true
 			id: "4C52668E3DF89739"
 			tasks: [{
 				id: "6731D884B37EA436"
@@ -1982,6 +1989,10 @@
 			y: -6.0d
 		}
 		{
+			dependencies: [
+				"33C1A63A2EBA973D"
+				"404A88584CA083D4"
+			]
 			id: "13DC12D354BF08A1"
 			tasks: [{
 				id: "5EA7802DFE6711CE"
@@ -2082,6 +2093,8 @@
 			y: -8.0d
 		}
 		{
+			dependencies: ["207532D472675972"]
+			hide_dependency_lines: true
 			id: "256DEEE36796D3EC"
 			tasks: [{
 				id: "0769B30F0E5B42C8"
@@ -2106,6 +2119,8 @@
 			y: -9.5d
 		}
 		{
+			dependencies: ["1F05B0BDFBB71D72"]
+			hide_dependency_lines: true
 			id: "709F123AD05B548F"
 			tasks: [{
 				id: "58CE001D6BC03E1B"
@@ -2165,6 +2180,8 @@
 			y: -13.5d
 		}
 		{
+			dependencies: ["3C3A5EAB13F88E26"]
+			hide_dependency_lines: true
 			id: "7C1C867567DD3AA8"
 			tasks: [{
 				id: "6F1DA0F826516E90"
@@ -2187,6 +2204,8 @@
 			y: -15.0d
 		}
 		{
+			dependencies: ["2BCD0D591ECA01FC"]
+			hide_dependency_lines: true
 			id: "43BFC03C3BA0A345"
 			tasks: [{
 				id: "0C004F64C951A4B9"
@@ -2235,6 +2254,8 @@
 			y: -16.5d
 		}
 		{
+			dependencies: ["127773AB50223C84"]
+			hide_dependency_lines: true
 			id: "149A846ED3EDFC71"
 			tasks: [{
 				id: "01E051B28DD1D19A"
@@ -2257,6 +2278,8 @@
 			y: -16.5d
 		}
 		{
+			dependencies: ["55CB591F5D2E3B06"]
+			hide_dependency_lines: true
 			id: "237E2000BF07B7DA"
 			tasks: [{
 				id: "3C3F7C1BB82EB614"
@@ -2737,6 +2760,7 @@
 				item: "chemlib:carbon_dioxide"
 				type: "item"
 			}]
+			title: "Stockpile - Carbon Dioxide"
 			x: -21.593877551020377d
 			y: -19.688435374149606d
 		}
@@ -2937,6 +2961,7 @@
 				item: "chemlib:acetic_acid"
 				type: "item"
 			}]
+			title: "Stockpile - Acetic Acid"
 			x: -22.704081632653057d
 			y: -20.348639455782347d
 		}
@@ -2948,6 +2973,7 @@
 				item: "nyagibits_bytes:sample_acetone"
 				type: "item"
 			}]
+			title: "Stockpile - Acetone"
 			x: -21.96122448979589d
 			y: -20.361904761904704d
 		}
@@ -2970,6 +2996,7 @@
 				item: "nyagibits_bytes:sample_mononitrotoluene"
 				type: "item"
 			}]
+			title: "Stockpile - Mononitrotoluene"
 			x: -21.98843537414963d
 			y: -17.681632653061158d
 		}
@@ -3063,6 +3090,7 @@
 			y: -17.675170068027242d
 		}
 		{
+			dependencies: ["523720A4135CEAF8"]
 			description: ["Not done"]
 			id: "1772EEE06C7909D1"
 			size: 8.0d
@@ -3072,8 +3100,8 @@
 				type: "item"
 			}]
 			title: "QUESTLINE INCOMPLETE"
-			x: -8.5d
-			y: -19.0d
+			x: -8.0d
+			y: -28.0d
 		}
 		{
 			dependencies: ["4D368CEA652E28A0"]
@@ -3118,6 +3146,30 @@
 			}]
 			x: -23.952380952380935d
 			y: -18.993197278911595d
+		}
+		{
+			dependencies: ["4D368CEA652E28A0"]
+			id: "2C59A3066D5BE3F3"
+			tasks: [{
+				id: "1514E796B9711DE0"
+				item: "chemlib:ethanol"
+				type: "item"
+			}]
+			title: "Stockpile - Ethanol"
+			x: -26.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["6F1DEFD73164F177"]
+			hide_until_deps_complete: true
+			id: "523720A4135CEAF8"
+			tasks: [{
+				id: "109C511E2EC13140"
+				title: "chemistry and you read check"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: -23.5d
 		}
 	]
 	subtitle: ["Oh god what is this"]

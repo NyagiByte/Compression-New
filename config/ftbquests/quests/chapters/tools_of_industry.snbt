@@ -181,6 +181,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["0049E87A6B59FE5A"]
 			description: [
 				"The &aLexica Botania&r is your one stop shop to learning all about botania and it's technomagical pieces"
 				""
@@ -206,6 +207,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["0049E87A6B59FE5A"]
 			description: [
 				"The &6Engineer's Manual&r contains information on multiblock formation and mechanics related to both &aImmersive Engineering (IE)&r and &bImmersive Petroleum (IP)&r"
 				""
@@ -294,6 +296,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["0049E87A6B59FE5A"]
 			description: [
 				"The &6Insanity Pill&r is from a custom mod made for Compression called &dPhantoms \\& Nightmares&r"
 				""
@@ -339,7 +342,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["12356B8E644A1A52"]
+			dependencies: [
+				"12356B8E644A1A52"
+				"0049E87A6B59FE5A"
+			]
 			description: [
 				"A &bStone Wand&r!"
 				""
@@ -703,6 +709,7 @@
 			y: -4.5d
 		}
 		{
+			dependencies: ["0049E87A6B59FE5A"]
 			description: [
 				"The &aWand of the Forest&r is your \"wrench\" for &6Botania&r. It can interact with various botania blocks, flowers, and trinkets. The details of this are outlined in the Lexica"
 				""
@@ -843,6 +850,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["0049E87A6B59FE5A"]
 			description: [
 				"For all your &6Ae2 reading needs&r"
 				""
@@ -864,6 +872,18 @@
 			title: "PDA at the ready"
 			x: -0.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["365E56328068F481"]
+			hide_until_deps_complete: true
+			id: "0049E87A6B59FE5A"
+			tasks: [{
+				id: "7BFCD6B9DBB0E23E"
+				title: "tools of industry read check"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 6.5d
 		}
 	]
 	subtitle: ["Tools, Trinkets, and Whatchamacallits"]

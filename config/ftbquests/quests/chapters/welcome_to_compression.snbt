@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["39B2B73AB851E837"]
 			description: [
 				"This pack is designed to be completable without use of the quest book as a guide! "
 				""
@@ -30,16 +31,18 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			size: 2.0d
 			subtitle: "This book is optional"
 			tasks: [{
 				id: "57F748DD19327510"
 				title: "Overview on questbook"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["2B2392C9E05EEE54"]
 			description: [
 				"Simple Backups is installed to be utilized server side."
 				""
@@ -59,10 +62,11 @@
 				title: "Backups"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 1.0d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["049B4B94A7313B6C"]
 			description: [
 				"Chunkloading is done through FTB quests"
 				""
@@ -94,10 +98,11 @@
 				title: "Chunkloading"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 1.0d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["147F646960AE4EBE"]
 			description: [
 				"You will use &beverything"
 				"&cEvery, &dSingle, &cThing"
@@ -116,10 +121,11 @@
 				type: "checkmark"
 			}]
 			title: "Everything"
-			x: 0.5d
-			y: -1.0d
+			x: 3.0d
+			y: -10.5d
 		}
 		{
+			dependencies: ["30E3379C21C76154"]
 			description: [
 				"Oh my god the requirements swell so fast how are we suppose to keep up?"
 				""
@@ -133,15 +139,17 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "127C63548C3099FF"
 				title: "Recipe Scaling"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: -1.0d
+			x: 4.0d
+			y: -4.5d
 		}
 		{
+			dependencies: ["4D9290E8CC180193"]
 			description: ["&cThis land must be a sort of dumping ground, everything is so... Broken"]
 			icon: "nyagibits_bytes:flake"
 			id: "39B2B73AB851E837"
@@ -157,10 +165,11 @@
 				type: "checkmark"
 			}]
 			title: "&cPrison"
-			x: 1.0d
-			y: 0.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["2C473A2432696109"]
 			description: [
 				"The walls of &dFlake &rare impossible to break through! How am I suppose to mine?!"
 				""
@@ -184,10 +193,11 @@
 				type: "checkmark"
 			}]
 			title: "Ores and Mining"
-			x: -1.0d
-			y: 0.0d
+			x: 5.5d
+			y: -4.5d
 		}
 		{
+			dependencies: ["1D2BED04E13B73F3"]
 			description: [
 				"Strawberries as rewards? Yes! Instead of blowing up your inventory with useless cr- garbage, you can collect strawberries to work towards a quest in the &6Proficiency&r tab."
 				""
@@ -208,10 +218,11 @@
 				type: "checkmark"
 			}]
 			title: "&dStrawberries?"
-			x: 0.0d
-			y: 2.0d
+			x: 1.0d
+			y: -7.0d
 		}
 		{
+			dependencies: ["55BE706474A6DB29"]
 			description: [
 				"&6This tab is dedicated to players who showcase exceptional skill in speed, survivability, or unique problem solving. This tab is updated along side any major version releases or bug fix updates."
 				""
@@ -243,7 +254,7 @@
 			}]
 			title: "Special Achivements"
 			x: 0.0d
-			y: -2.0d
+			y: -8.0d
 		}
 		{
 			description: [
@@ -266,16 +277,18 @@
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "Forever Toiling"
 			tasks: [{
 				id: "6FFF2993EEE8ECB8"
 				title: "The quests are about as dense as a star"
 				type: "checkmark"
 			}]
 			title: "Unfinished Pack?"
-			x: 0.0d
-			y: 3.5d
+			x: 4.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["049B4B94A7313B6C"]
 			description: [
 				"&nLost as to the questbook? &aNo worries!&r &nHere are the tabs:&r"
 				""
@@ -306,8 +319,92 @@
 				type: "checkmark"
 			}]
 			title: "&bQuestbook Navigation"
-			x: -2.5d
-			y: 0.0d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["05D0BEF6458AB8D9"]
+			id: "789566071704E521"
+			size: 2.0d
+			tasks: [{
+				id: "20EA979DD62AE0DA"
+				title: "Path To Null"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["30E3379C21C76154"]
+			id: "1D2BED04E13B73F3"
+			size: 2.0d
+			tasks: [{
+				id: "5C7896E145C3EBFD"
+				title: "Automation \\& You"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["30E3379C21C76154"]
+			id: "6F1DEFD73164F177"
+			size: 2.0d
+			tasks: [{
+				id: "51E30EDC6E15A94D"
+				title: "Chemistry \\& You"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2C473A2432696109"]
+			id: "01E0198651D2A78F"
+			tasks: [{
+				id: "4030D7837907ABFB"
+				title: "Scaling Trees"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2C473A2432696109"]
+			id: "2CCCB9817A8651E3"
+			tasks: [{
+				id: "67652942EFC7E8D7"
+				title: "Organics"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1D2BED04E13B73F3"]
+			id: "365E56328068F481"
+			tasks: [{
+				id: "4406B892AEFBDD56"
+				title: "Tools Of Industry"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"1D2BED04E13B73F3"
+				"55F62F8F0F606A69"
+			]
+			id: "147F646960AE4EBE"
+			size: 2.0d
+			tasks: [{
+				id: "399D64A263A084C6"
+				title: "Tutorial-Tutorial"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -9.0d
 		}
 	]
 	subtitle: ["Read me!"]

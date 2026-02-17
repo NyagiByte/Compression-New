@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "6tier_0"
-	group: "1C682695BB4A0B06"
+	group: "73C709C7C69A1BB6"
 	icon: "ae2:energy_acceptor"
 	id: "3132E1AF7B578CC7"
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -55,6 +55,7 @@
 			y: 17.5d
 		}
 		{
+			dependencies: ["147F646960AE4EBE"]
 			description: [
 				"This tab of quests excluding the &eProficiency&r line, is designed to really get into the weeds with the main &d\"Path To Null\"&r quest line. These quests are entirely ignorable if you are experienced or are willing to scramble your brains a bit &bbut for anyone feeling lost or unsure how to progress&a this is for you!&r"
 				""
@@ -64,6 +65,7 @@
 				""
 				"&cThis set of quests also breaks from the story driven nature of the main line, including intentional misdirection. &4If you wish to avoid these quests&c, only the introductory quest for each respective tier will have a berry to claim. You have been warned"
 			]
+			hide_until_deps_complete: true
 			icon: "botania:white_shiny_flower"
 			id: "12057422FF5BBB46"
 			rewards: [{

@@ -15,7 +15,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3BEACE9F3F1EC3AA"]
+			dependencies: ["7BCAB430B974B009"]
 			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
 			icon: "biomancy:flesh_bits"
 			id: "6BC5E6AD744988DD"
@@ -29,6 +29,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6BC5E6AD744988DD"]
 			description: [
 				"A large portion of early gene editing technology relies on &aviruses and bacteria&r to inject gene segments into plants"
 				""
@@ -45,6 +46,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4B6C9F6092F50AF1"]
 			description: [
 				"&aPlants&r will be the first victims of your genetic tinkering"
 				""
@@ -61,6 +63,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0BA4FA2C07E7E89C"]
 			description: [
 				"&bMystical Agriculture&r will be the tier 4 ore-scaling"
 				""
@@ -83,6 +86,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["0BA4FA2C07E7E89C"]
 			description: [
 				"https://bmcbiotechnol.biomedcentral.com/articles/10.1186/s12896-018-0495-1"
 				""
@@ -99,6 +103,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4966D19B92DAF730"]
 			description: [
 				"How to scale animal and mob products without killing my game? You give them &6horrible genetic deformities!&r"
 				""
@@ -121,6 +126,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6C53A12D983F4273"]
 			description: ["Implementation specifics are yet to be decided, but the &chorrors&r continue"]
 			id: "7F97CAFFEC07F149"
 			tasks: [{
@@ -133,6 +139,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["7F97CAFFEC07F149"]
 			description: ["&4The horrors grow&r"]
 			id: "57A3D76B7F9A031E"
 			tasks: [{
@@ -145,6 +152,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6C53A12D983F4273"]
 			description: [
 				"Modification of life will require an understanding of &6rational drug design&r and &6genetic engineering technologies&r"
 				""
@@ -165,6 +173,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["6C53A12D983F4273"]
 			description: [
 				"With hunger not being a thing here, food recipes can be just as &chorribly complicated as real life&r!"
 				""

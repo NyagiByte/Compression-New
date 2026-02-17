@@ -9,10 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"43BF36460BEA05DE"
-				"2591E9EC898378B9"
-			]
+			dependencies: ["472213B0CD3A8117"]
 			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
 			icon: "pneumaticcraft:pressure_tube"
 			id: "2F65DDC0C4F6ABD1"
@@ -32,6 +29,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2F65DDC0C4F6ABD1"]
 			description: [
 				"Liquid Compressor, \\nThermo Compressor, \\& \\nElectrostatic Compressor \\n\\nwill be the &6&nonly&r available compressors for air"
 				""
@@ -52,6 +50,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["680CE28FDE4CA44D"]
 			description: [
 				"Certain recipes will have the capacity to &cfail&r if at the wrong &btemperature&r"
 				""
@@ -64,10 +63,11 @@
 				type: "item"
 			}]
 			title: "Temperature"
-			x: -1.5d
-			y: 0.0d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
+			dependencies: ["77C31178CE83F089"]
 			description: [
 				"All elements and compounds will have &bice&r \\& &egas&r versions and be able to tick into gas via Pollution Of The Realms"
 				""
@@ -82,10 +82,11 @@
 				type: "item"
 			}]
 			title: "Chemlib \\& Pollution Integration"
-			x: -1.5d
-			y: 1.0d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["5A408D26C24F3739"]
 			description: [
 				"Compression is a modpack that is striving to &6avoid magic-box type automations&r when better options exist"
 				""
@@ -102,10 +103,11 @@
 				type: "item"
 			}]
 			title: "Magic-Box Automation"
-			x: -0.5d
-			y: 1.5d
+			x: -2.5d
+			y: -4.0d
 		}
 		{
+			dependencies: ["47CB0697788CF808"]
 			description: [
 				"Mekanism Lasers will be reworked to have &6swappable crystals&r"
 				""
@@ -120,8 +122,8 @@
 				type: "item"
 			}]
 			title: "Rainbow Lasers"
-			x: 0.5d
-			y: 1.5d
+			x: -3.0d
+			y: -5.0d
 		}
 	]
 	subtitle: ["Turning things into other things"]

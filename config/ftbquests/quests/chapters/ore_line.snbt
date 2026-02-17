@@ -17,6 +17,7 @@
 		{
 			dependencies: ["55F62F8F0F606A69"]
 			description: ["This line of quests will guide you towards major key steps in increasing yields in gemstone-type processing"]
+			hide_until_deps_complete: true
 			icon: "minecraft:diamond"
 			id: "35494E3A757EA660"
 			rewards: [{
@@ -31,11 +32,12 @@
 				type: "checkmark"
 			}]
 			x: 8.5d
-			y: -4.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["55F62F8F0F606A69"]
 			description: ["This line of quests will guide you towards major key steps in increasing yields in metal-type processing"]
+			hide_until_deps_complete: true
 			icon: "minecraft:raw_iron"
 			id: "0F2BCC8D3D977D1E"
 			rewards: [{
@@ -49,8 +51,8 @@
 				title: "Metal Processing"
 				type: "checkmark"
 			}]
-			x: -9.5d
-			y: -4.0d
+			x: -5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["0F2BCC8D3D977D1E"]
@@ -71,8 +73,8 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -3.0d
+			x: -6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["531EE69871EFB610"]
@@ -94,19 +96,20 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -3.0d
+			x: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
 				"6F66FCCD63752DC8"
-				"55F62F8F0F606A69"
+				"0F2BCC8D3D977D1E"
 			]
 			description: [
 				"Generic mostly pure iron found on the upper layer of iron geodes. &eExtruded from the inner world, boiling hot with magma and basalt"
 				""
 				"&dDeeper layers require better tools to fracture open"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:iron_ingot"
 			id: "2345F14F53AF22A6"
 			rewards: [{
@@ -120,8 +123,8 @@
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 1.5d
+			x: -5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2345F14F53AF22A6"]
@@ -144,8 +147,8 @@
 				item: "nyagibits_bytes:raw_limonite"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 2.5d
+			x: -5.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2345F14F53AF22A6"]
@@ -168,8 +171,8 @@
 				item: "nyagibits_bytes:raw_hematite"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 2.0d
+			x: -5.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2345F14F53AF22A6"]
@@ -192,8 +195,8 @@
 				item: "nyagibits_bytes:raw_magnetite"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 2.0d
+			x: -6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2345F14F53AF22A6"]
@@ -216,8 +219,8 @@
 				item: "nyagibits_bytes:raw_pyrite"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 3.5d
+			x: -7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2345F14F53AF22A6"]
@@ -240,8 +243,8 @@
 				item: "nyagibits_bytes:raw_siderite"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 3.0d
+			x: -6.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2345F14F53AF22A6"]
@@ -264,8 +267,8 @@
 				item: "nyagibits_bytes:raw_banded_iron"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 3.0d
+			x: -6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2345F14F53AF22A6"]
@@ -288,8 +291,8 @@
 				item: "nyagibits_bytes:raw_bog_iron"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 4.0d
+			x: -7.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2345F14F53AF22A6"]
@@ -312,16 +315,20 @@
 				item: "nyagibits_bytes:raw_meteoric_iron"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 4.0d
+			x: -7.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["6F66FCCD63752DC8"]
+			dependencies: [
+				"6F66FCCD63752DC8"
+				"0F2BCC8D3D977D1E"
+			]
 			description: [
 				"Generic mostly pure copper found on the upper layer of copper geodes. &eThere seems to be quite a variety of organic life around these"
 				""
 				"&dDeeper layers require better tools to fracture open"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:copper_ingot"
 			id: "3DF87F43E36C0204"
 			rewards: [{
@@ -335,8 +342,8 @@
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.5d
+			x: -5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3DF87F43E36C0204"]
@@ -359,8 +366,8 @@
 				item: "nyagibits_bytes:raw_chalcopyrite"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 2.5d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3DF87F43E36C0204"]
@@ -383,8 +390,8 @@
 				item: "nyagibits_bytes:raw_malachite"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 2.0d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3DF87F43E36C0204"]
@@ -407,8 +414,8 @@
 				item: "nyagibits_bytes:raw_azurite"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 2.0d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3DF87F43E36C0204"]
@@ -431,8 +438,8 @@
 				item: "nyagibits_bytes:raw_tetrahedrite"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 3.5d
+			x: -2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3DF87F43E36C0204"]
@@ -455,8 +462,8 @@
 				item: "nyagibits_bytes:raw_enargite"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 3.0d
+			x: -3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3DF87F43E36C0204"]
@@ -479,8 +486,8 @@
 				item: "nyagibits_bytes:raw_chrysocolla"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 3.0d
+			x: -2.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3DF87F43E36C0204"]
@@ -503,8 +510,8 @@
 				item: "nyagibits_bytes:raw_tennanite"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 4.0d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3DF87F43E36C0204"]
@@ -527,11 +534,14 @@
 				item: "nyagibits_bytes:raw_dioptase"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 4.0d
+			x: -3.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["6F66FCCD63752DC8"]
+			dependencies: [
+				"6F66FCCD63752DC8"
+				"0F2BCC8D3D977D1E"
+			]
 			description: [
 				"Generic mostly pure gold and silver found on the upper layer of electrum geodes. &eAncient node of gold and silver taken over by a long dead ancient coral encasing itself around the node itself, spilling digestive acids around its corpse"
 				""
@@ -558,8 +568,8 @@
 				}
 			]
 			title: "Raw Gold and Silver"
-			x: -3.5d
-			y: 1.5d
+			x: -5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["13FC2F89AE4F3F6E"]
@@ -582,8 +592,8 @@
 				item: "nyagibits_bytes:alluvial_slush"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.5d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["13FC2F89AE4F3F6E"]
@@ -606,8 +616,8 @@
 				item: "nyagibits_bytes:native_cluster"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 2.0d
+			x: -5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["13FC2F89AE4F3F6E"]
@@ -630,7 +640,7 @@
 				item: "nyagibits_bytes:raw_argentite"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -7.5d
 			y: 2.0d
 		}
 		{
@@ -654,8 +664,8 @@
 				item: "nyagibits_bytes:raw_chlorargyrite"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 3.5d
+			x: -7.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["13FC2F89AE4F3F6E"]
@@ -678,8 +688,8 @@
 				item: "nyagibits_bytes:raw_polybasite"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 3.0d
+			x: -6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["13FC2F89AE4F3F6E"]
@@ -702,8 +712,8 @@
 				item: "nyagibits_bytes:raw_proustite"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.0d
+			x: -6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["13FC2F89AE4F3F6E"]
@@ -726,8 +736,8 @@
 				item: "nyagibits_bytes:raw_electrum"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 4.0d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["13FC2F89AE4F3F6E"]
@@ -750,11 +760,14 @@
 				item: "nyagibits_bytes:raw_kustelite_electrum"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 4.0d
+			x: -7.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["6F66FCCD63752DC8"]
+			dependencies: [
+				"6F66FCCD63752DC8"
+				"35494E3A757EA660"
+			]
 			description: [
 				"Generic mostly pure redstone found on the upper layer of mercury geodes. &eA tendril of obsidian coated in mercury wrapping around the boulder is seen"
 				""
@@ -773,8 +786,8 @@
 				type: "item"
 			}]
 			title: "Raw Redstone and Mercury"
-			x: -0.5d
-			y: 1.5d
+			x: 8.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1DFA40765C37E21B"]
@@ -797,8 +810,8 @@
 				item: "nyagibits_bytes:raw_cinnabar"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.5d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1DFA40765C37E21B"]
@@ -821,7 +834,7 @@
 				item: "nyagibits_bytes:raw_metacinnabar"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
@@ -845,8 +858,8 @@
 				item: "nyagibits_bytes:raw_corderoite"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1DFA40765C37E21B"]
@@ -869,8 +882,8 @@
 				item: "nyagibits_bytes:raw_basaltic_powder"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.5d
+			x: 6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1DFA40765C37E21B"]
@@ -893,8 +906,8 @@
 				item: "nyagibits_bytes:raw_calomel"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.0d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1DFA40765C37E21B"]
@@ -917,8 +930,8 @@
 				item: "nyagibits_bytes:raw_native_mercury_spherules"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: 7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1DFA40765C37E21B"]
@@ -941,8 +954,8 @@
 				item: "nyagibits_bytes:raw_montroydite"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1DFA40765C37E21B"]
@@ -965,11 +978,14 @@
 				item: "nyagibits_bytes:raw_granulated_obsidian"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["6F66FCCD63752DC8"]
+			dependencies: [
+				"6F66FCCD63752DC8"
+				"35494E3A757EA660"
+			]
 			description: [
 				"Generic mostly pure coal found on the upper layer of coal geodes."
 				"&eMay contain some useful liquids early game as well"
@@ -990,8 +1006,8 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["384CA06F7A29D8CE"]
@@ -1014,8 +1030,8 @@
 				item: "nyagibits_bytes:raw_lignite"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.5d
+			x: 9.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["384CA06F7A29D8CE"]
@@ -1038,8 +1054,8 @@
 				item: "nyagibits_bytes:raw_bituminous"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 2.0d
+			x: 9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["384CA06F7A29D8CE"]
@@ -1062,8 +1078,8 @@
 				item: "nyagibits_bytes:raw_subbituminous"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 2.0d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["384CA06F7A29D8CE"]
@@ -1086,8 +1102,8 @@
 				item: "nyagibits_bytes:raw_anthracite"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.5d
+			x: 10.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["384CA06F7A29D8CE"]
@@ -1110,8 +1126,8 @@
 				item: "nyagibits_bytes:raw_cannel_coal"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 3.0d
+			x: 10.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["384CA06F7A29D8CE"]
@@ -1134,8 +1150,8 @@
 				item: "nyagibits_bytes:raw_jet"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.0d
+			x: 10.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["384CA06F7A29D8CE"]
@@ -1163,8 +1179,8 @@
 				item: "nyagibits_bytes:raw_peat"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 4.0d
+			x: 11.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["384CA06F7A29D8CE"]
@@ -1187,11 +1203,14 @@
 				item: "nyagibits_bytes:raw_graphite"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.0d
+			x: 11.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["6F66FCCD63752DC8"]
+			dependencies: [
+				"6F66FCCD63752DC8"
+				"35494E3A757EA660"
+			]
 			description: [
 				"Generic mostly pure diamond, lapis, emerald found on the upper layer of gemstone geodes. &eOnce believed to be ice frozen so cold it could never melt, this boulder of crystals glisens with the shards of ice surrounding it"
 				""
@@ -1222,8 +1241,8 @@
 				}
 			]
 			title: "Raw Gemstones"
-			x: 5.5d
-			y: 1.5d
+			x: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["36801EB293571923"]
@@ -1256,8 +1275,8 @@
 				item: "nyagibits_bytes:raw_kimberlite"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.5d
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["36801EB293571923"]
@@ -1291,8 +1310,8 @@
 				item: "nyagibits_bytes:raw_lamproite"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 2.0d
+			x: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["36801EB293571923"]
@@ -1326,8 +1345,8 @@
 				item: "nyagibits_bytes:raw_lazurite"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.0d
+			x: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["36801EB293571923"]
@@ -1361,8 +1380,8 @@
 				item: "nyagibits_bytes:raw_lapis_lazuli"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.5d
+			x: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["36801EB293571923"]
@@ -1404,8 +1423,8 @@
 				item: "nyagibits_bytes:raw_prime_beryllic_cluster"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 7.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["36801EB293571923"]
@@ -1428,8 +1447,8 @@
 				item: "nyagibits_bytes:raw_fluorite"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.0d
+			x: 7.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["36801EB293571923"]
@@ -1452,8 +1471,8 @@
 				item: "nyagibits_bytes:raw_chalcogenide_crystal_cluster"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 4.0d
+			x: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["36801EB293571923"]
@@ -1476,13 +1495,13 @@
 				item: "nyagibits_bytes:raw_salt_cluster"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 4.0d
+			x: 6.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
 				"6F66FCCD63752DC8"
-				"55F62F8F0F606A69"
+				"35494E3A757EA660"
 			]
 			description: [
 				"Generic mostly pure quartz and certus found on the upper layer of quartz geodes. &cWell thats curious, not sure how a meteor would get into here, seems to have technology within it as well"
@@ -1510,7 +1529,7 @@
 			]
 			title: "Raw Quartz"
 			x: 8.5d
-			y: 1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["12D07F810D3FEE98"]
@@ -1543,8 +1562,8 @@
 				item: "nyagibits_bytes:raw_herkimer_diamond"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 2.5d
+			x: 9.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["12D07F810D3FEE98"]
@@ -1577,8 +1596,8 @@
 				item: "nyagibits_bytes:raw_dendritic_agate"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 2.0d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["12D07F810D3FEE98"]
@@ -1610,8 +1629,8 @@
 				item: "nyagibits_bytes:raw_chalcedony"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 2.0d
+			x: 9.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["12D07F810D3FEE98"]
@@ -1643,8 +1662,8 @@
 				item: "nyagibits_bytes:raw_rutilated_quartz"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.5d
+			x: 10.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["12D07F810D3FEE98"]
@@ -1676,8 +1695,8 @@
 				item: "nyagibits_bytes:raw_ametrine"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 10.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["12D07F810D3FEE98"]
@@ -1709,8 +1728,8 @@
 				item: "nyagibits_bytes:raw_rose_quartz"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 3.0d
+			x: 10.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["12D07F810D3FEE98"]
@@ -1742,8 +1761,8 @@
 				item: "nyagibits_bytes:raw_prasiolite"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 4.0d
+			x: 11.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["12D07F810D3FEE98"]
@@ -1775,16 +1794,20 @@
 				item: "nyagibits_bytes:raw_meteoric_certus"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 4.0d
+			x: 11.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["6F66FCCD63752DC8"]
+			dependencies: [
+				"6F66FCCD63752DC8"
+				"0F2BCC8D3D977D1E"
+			]
 			description: [
 				"Generic mostly pure zinc found on the upper layer of zinc geodes. &eDesiccated arid ground erroding away to reveal a pillar of zinc pushed from deep within the ground"
 				""
 				"&dDeeper layers require better tools to fracture open"
 			]
+			hide_until_deps_complete: true
 			icon: "create:zinc_ingot"
 			id: "0EE36446F98AA6C3"
 			rewards: [{
@@ -1799,8 +1822,8 @@
 				type: "item"
 			}]
 			title: "Raw Zinc"
-			x: -9.5d
-			y: 7.5d
+			x: -5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0EE36446F98AA6C3"]
@@ -1823,8 +1846,8 @@
 				item: "nyagibits_bytes:raw_zinc_carbonate"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 6.5d
+			x: -3.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["0EE36446F98AA6C3"]
@@ -1847,8 +1870,8 @@
 				item: "nyagibits_bytes:raw_sphalerite"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 7.0d
+			x: -2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0EE36446F98AA6C3"]
@@ -1871,8 +1894,8 @@
 				item: "nyagibits_bytes:raw_smithsonite"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 7.0d
+			x: -2.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0EE36446F98AA6C3"]
@@ -1895,7 +1918,7 @@
 				item: "nyagibits_bytes:raw_hemimorphite"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -4.0d
 			y: 5.5d
 		}
 		{
@@ -1919,8 +1942,8 @@
 				item: "nyagibits_bytes:raw_wurtzite"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 6.0d
+			x: -3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0EE36446F98AA6C3"]
@@ -1943,8 +1966,8 @@
 				item: "nyagibits_bytes:raw_hydrozincite"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 6.0d
+			x: -3.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0EE36446F98AA6C3"]
@@ -1967,8 +1990,8 @@
 				item: "nyagibits_bytes:raw_willemite"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 5.0d
+			x: -4.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0EE36446F98AA6C3"]
@@ -1991,11 +2014,14 @@
 				item: "nyagibits_bytes:raw_franklinite"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 5.0d
+			x: -4.5d
+			y: 6.5d
 		}
 		{
-			dependencies: ["6F66FCCD63752DC8"]
+			dependencies: [
+				"6F66FCCD63752DC8"
+				"0F2BCC8D3D977D1E"
+			]
 			description: [
 				"Generic mostly pure aluminum found on the upper layer of bauxite geodes. &eThe acidic and aluminum rich soil acts as a strong antibacterial substrate, allowing for complex mycology to develop undisturbed"
 				""
@@ -2015,8 +2041,8 @@
 				type: "item"
 			}]
 			title: "Raw Alumin(i)um"
-			x: -6.5d
-			y: 7.5d
+			x: -5.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["759B1A3F42003E45"]
@@ -2039,8 +2065,8 @@
 				item: "nyagibits_bytes:raw_bauxite"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 6.5d
+			x: -3.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["759B1A3F42003E45"]
@@ -2063,8 +2089,8 @@
 				item: "nyagibits_bytes:raw_feldspar"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 7.0d
+			x: -2.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["759B1A3F42003E45"]
@@ -2124,8 +2150,8 @@
 				item: "nyagibits_bytes:raw_clustered_beryl"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 7.0d
+			x: -2.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["759B1A3F42003E45"]
@@ -2148,8 +2174,8 @@
 				item: "nyagibits_bytes:raw_cryolite"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 5.5d
+			x: -4.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["759B1A3F42003E45"]
@@ -2172,8 +2198,8 @@
 				item: "nyagibits_bytes:raw_spinel"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 6.0d
+			x: -3.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["759B1A3F42003E45"]
@@ -2196,8 +2222,8 @@
 				item: "nyagibits_bytes:raw_turquoise"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 6.0d
+			x: -3.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["759B1A3F42003E45"]
@@ -2220,8 +2246,8 @@
 				item: "nyagibits_bytes:raw_garnet_slush"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 5.0d
+			x: -4.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["759B1A3F42003E45"]
@@ -2244,11 +2270,14 @@
 				item: "nyagibits_bytes:raw_native_aluminum"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 5.0d
+			x: -4.5d
+			y: 11.5d
 		}
 		{
-			dependencies: ["6F66FCCD63752DC8"]
+			dependencies: [
+				"6F66FCCD63752DC8"
+				"0F2BCC8D3D977D1E"
+			]
 			description: [
 				"Generic mostly pure lead found on the upper layer of lead geodes. &ePillars of calcite and bleached stones leaking diluted acids, lead leaching into pourous stone "
 				""
@@ -2268,8 +2297,8 @@
 				type: "item"
 			}]
 			title: "Raw Lead"
-			x: -3.5d
-			y: 7.5d
+			x: -5.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["71620A0BAD820CD9"]
@@ -2292,8 +2321,8 @@
 				item: "nyagibits_bytes:raw_galena"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 6.5d
+			x: -7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["71620A0BAD820CD9"]
@@ -2316,7 +2345,7 @@
 				item: "nyagibits_bytes:raw_lead_sulphide"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -7.5d
 			y: 7.0d
 		}
 		{
@@ -2340,8 +2369,8 @@
 				item: "nyagibits_bytes:raw_pyromorphite"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 7.0d
+			x: -7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["71620A0BAD820CD9"]
@@ -2364,8 +2393,8 @@
 				item: "nyagibits_bytes:raw_cerussite"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 5.5d
+			x: -6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["71620A0BAD820CD9"]
@@ -2388,8 +2417,8 @@
 				item: "nyagibits_bytes:raw_anglesite"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 6.0d
+			x: -6.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["71620A0BAD820CD9"]
@@ -2412,8 +2441,8 @@
 				item: "nyagibits_bytes:raw_wulfenite"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 6.0d
+			x: -6.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["71620A0BAD820CD9"]
@@ -2436,8 +2465,8 @@
 				item: "nyagibits_bytes:raw_vanadinite"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 5.0d
+			x: -5.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["71620A0BAD820CD9"]
@@ -2460,11 +2489,14 @@
 				item: "nyagibits_bytes:raw_mimetite"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 5.0d
+			x: -5.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["6F66FCCD63752DC8"]
+			dependencies: [
+				"6F66FCCD63752DC8"
+				"0F2BCC8D3D977D1E"
+			]
 			description: [
 				"Generic mostly pure nickel found on the upper layer of nickel geodes."
 				""
@@ -2484,8 +2516,8 @@
 				type: "item"
 			}]
 			title: "Raw Nickel"
-			x: -0.5d
-			y: 7.5d
+			x: -5.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["45518D2CD823F143"]
@@ -2508,8 +2540,8 @@
 				item: "nyagibits_bytes:raw_pentlandite"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 7.0d
+			x: -7.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["45518D2CD823F143"]
@@ -2532,8 +2564,8 @@
 				item: "nyagibits_bytes:raw_garnierite"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 6.5d
+			x: -7.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["45518D2CD823F143"]
@@ -2556,8 +2588,8 @@
 				item: "nyagibits_bytes:raw_saprolite"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 7.0d
+			x: -7.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["45518D2CD823F143"]
@@ -2580,8 +2612,8 @@
 				item: "nyagibits_bytes:raw_hardened_sulfide_flow"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.5d
+			x: -6.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["45518D2CD823F143"]
@@ -2603,8 +2635,8 @@
 				item: "nyagibits_bytes:raw_millerite"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.0d
+			x: -6.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["45518D2CD823F143"]
@@ -2627,8 +2659,8 @@
 				item: "nyagibits_bytes:raw_nickeline"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.0d
+			x: -6.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["45518D2CD823F143"]
@@ -2651,8 +2683,8 @@
 				item: "nyagibits_bytes:raw_meteoric_taenite"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 5.0d
+			x: -5.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["45518D2CD823F143"]
@@ -2676,11 +2708,14 @@
 				item: "nyagibits_bytes:raw_meteoric_kamacite"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.0d
+			x: -5.5d
+			y: 12.0d
 		}
 		{
-			dependencies: ["6F66FCCD63752DC8"]
+			dependencies: [
+				"6F66FCCD63752DC8"
+				"0F2BCC8D3D977D1E"
+			]
 			description: [
 				"Generic mostly pure uranium found on the upper layer of uranothorium geodes."
 				""
@@ -2700,8 +2735,8 @@
 				type: "item"
 			}]
 			title: "Raw Uranium and Thorium"
-			x: 2.5d
-			y: 7.5d
+			x: -5.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["2C6845E1DFB220C9"]
@@ -2724,8 +2759,8 @@
 				item: "nyagibits_bytes:raw_pitchblende"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 6.5d
+			x: -4.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["2C6845E1DFB220C9"]
@@ -2748,8 +2783,8 @@
 				item: "nyagibits_bytes:raw_carnotite"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.0d
+			x: -2.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["2C6845E1DFB220C9"]
@@ -2772,8 +2807,8 @@
 				item: "nyagibits_bytes:raw_tyuyamunite"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 7.0d
+			x: -2.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["2C6845E1DFB220C9"]
@@ -2796,8 +2831,8 @@
 				item: "nyagibits_bytes:raw_torbernite"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 6.0d
+			x: -3.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["2C6845E1DFB220C9"]
@@ -2820,8 +2855,8 @@
 				item: "nyagibits_bytes:raw_autunite"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 6.0d
+			x: -3.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["2C6845E1DFB220C9"]
@@ -2844,8 +2879,8 @@
 				item: "nyagibits_bytes:raw_thorite"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 5.5d
+			x: -3.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["2C6845E1DFB220C9"]
@@ -2868,8 +2903,8 @@
 				item: "nyagibits_bytes:raw_uranothorite"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 5.0d
+			x: -4.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["2C6845E1DFB220C9"]
@@ -2892,11 +2927,14 @@
 				item: "nyagibits_bytes:raw_thorianite"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 5.0d
+			x: -4.5d
+			y: 16.5d
 		}
 		{
-			dependencies: ["6F66FCCD63752DC8"]
+			dependencies: [
+				"6F66FCCD63752DC8"
+				"0F2BCC8D3D977D1E"
+			]
 			description: [
 				"Generic mostly pure tin found on the upper layer of tin geodes."
 				""
@@ -2916,8 +2954,8 @@
 				type: "item"
 			}]
 			title: "Raw Tin"
-			x: 5.5d
-			y: 7.5d
+			x: -5.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["1CDB5D26D5C8253C"]
@@ -2940,8 +2978,8 @@
 				item: "nyagibits_bytes:raw_cassiterite"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 6.5d
+			x: -6.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["1CDB5D26D5C8253C"]
@@ -2964,8 +3002,8 @@
 				item: "nyagibits_bytes:raw_stannite"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 7.0d
+			x: -5.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1CDB5D26D5C8253C"]
@@ -2988,8 +3026,8 @@
 				item: "nyagibits_bytes:raw_cylindrite"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 7.0d
+			x: -5.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["1CDB5D26D5C8253C"]
@@ -3012,8 +3050,8 @@
 				item: "nyagibits_bytes:raw_franckeite"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 6.0d
+			x: -6.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1CDB5D26D5C8253C"]
@@ -3036,8 +3074,8 @@
 				item: "nyagibits_bytes:raw_canfieldite"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 6.0d
+			x: -6.5d
+			y: 19.0d
 		}
 		{
 			dependencies: ["1CDB5D26D5C8253C"]
@@ -3060,8 +3098,8 @@
 				item: "nyagibits_bytes:raw_teallite"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 5.5d
+			x: -7.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["1CDB5D26D5C8253C"]
@@ -3084,8 +3122,8 @@
 				item: "nyagibits_bytes:raw_brannerite"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 5.0d
+			x: -7.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["1CDB5D26D5C8253C"]
@@ -3108,11 +3146,11 @@
 				item: "nyagibits_bytes:raw_orthoclase"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 5.0d
+			x: -7.5d
+			y: 19.0d
 		}
 		{
-			dependencies: ["6F66FCCD63752DC8"]
+			dependencies: ["35494E3A757EA660"]
 			description: [
 				"Generic mostly pure sulfur and niter found on the upper layer of Migmamite geodes."
 				""
@@ -3141,7 +3179,7 @@
 			]
 			title: "Raw Niter, Sulfur, and other Minerals"
 			x: 8.5d
-			y: 7.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7B8BC8FC6D7C4E87"]
@@ -3164,8 +3202,8 @@
 				item: "nyagibits_bytes:raw_saltpeter"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 6.5d
+			x: 9.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7B8BC8FC6D7C4E87"]
@@ -3188,8 +3226,8 @@
 				item: "nyagibits_bytes:raw_borax"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 7.0d
+			x: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["7B8BC8FC6D7C4E87"]
@@ -3212,8 +3250,8 @@
 				item: "nyagibits_bytes:raw_compacted_limestone"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 7.0d
+			x: 9.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["7B8BC8FC6D7C4E87"]
@@ -3237,8 +3275,8 @@
 				item: "nyagibits_bytes:raw_volcanic_sulfur"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 6.0d
+			x: 10.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["7B8BC8FC6D7C4E87"]
@@ -3261,8 +3299,8 @@
 				item: "nyagibits_bytes:raw_rainbow_obsidian"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 6.0d
+			x: 10.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["7B8BC8FC6D7C4E87"]
@@ -3285,8 +3323,8 @@
 				item: "nyagibits_bytes:raw_petrified_wood"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 5.5d
+			x: 10.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7B8BC8FC6D7C4E87"]
@@ -3310,8 +3348,8 @@
 				item: "nyagibits_bytes:raw_chalk"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 5.0d
+			x: 11.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["7B8BC8FC6D7C4E87"]
@@ -3335,8 +3373,8 @@
 				item: "nyagibits_bytes:raw_trona"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 5.0d
+			x: 11.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["5EF1C3C4635C1CF1"]
@@ -3361,8 +3399,8 @@
 				type: "item"
 			}]
 			title: "The Hyper Layer"
-			x: -0.5d
-			y: 0.0d
+			x: -2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4E7A58F86D085264"]
@@ -3386,13 +3424,13 @@
 				type: "item"
 			}]
 			title: "The Dense Layer"
-			x: -1.5d
-			y: 0.0d
+			x: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
-				"55F62F8F0F606A69"
 				"0CA06BC53DA3167B"
+				"0F2BCC8D3D977D1E"
 			]
 			description: [
 				"Drops 4 ores total from a pool of 8 options, requires at least a manasteel pickaxe to mine"
@@ -3419,8 +3457,8 @@
 				type: "item"
 			}]
 			title: "The Conglomerate Layer"
-			x: -2.5d
-			y: 0.0d
+			x: -3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["30F02289436EB3F9"]
@@ -3445,14 +3483,11 @@
 				type: "item"
 			}]
 			title: "The Tectonic Layer"
-			x: 0.5d
-			y: 0.0d
+			x: -1.0d
+			y: -3.5d
 		}
 		{
-			dependencies: [
-				"00F19BCA2441A0A0"
-				"55F62F8F0F606A69"
-			]
+			dependencies: ["00F19BCA2441A0A0"]
 			description: [
 				"Drops 64 tectonic ores, requires at least a bedrock breaking pickaxe to mine"
 				""
@@ -3473,8 +3508,8 @@
 				type: "item"
 			}]
 			title: "The Core"
-			x: 1.5d
-			y: 0.0d
+			x: -1.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -3513,8 +3548,8 @@
 				type: "item"
 			}]
 			title: "Sintering"
-			x: -10.5d
-			y: -4.0d
+			x: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["35494E3A757EA660"]
@@ -3536,8 +3571,8 @@
 				type: "item"
 			}]
 			title: "Washing"
-			x: 8.5d
-			y: -3.0d
+			x: 9.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["25404916F94B9AE8"]
@@ -3579,10 +3614,11 @@
 				}
 			]
 			title: "Crude Polishing"
-			x: 9.5d
-			y: -3.0d
+			x: 10.5d
+			y: -5.5d
 		}
 		{
+			dependencies: ["7BD5615FF834FB3B"]
 			description: [
 				"So many ores?? How to keep track of everything?!"
 				""
@@ -3598,6 +3634,7 @@
 				""
 				"&6Also most of the descriptions are from wiki so if something is wrong yell at them not me"
 			]
+			hide_until_deps_complete: true
 			icon: "thermal:drill_head"
 			id: "55F62F8F0F606A69"
 			rewards: [{
@@ -3612,7 +3649,7 @@
 				type: "checkmark"
 			}]
 			title: "Ores and You!"
-			x: -0.5d
+			x: 2.5d
 			y: -9.5d
 		}
 		{
@@ -3631,7 +3668,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["510C4A6E6F1259B5"]
@@ -3659,8 +3696,8 @@
 				}
 			]
 			title: "Fluid Assistance"
-			x: 9.5d
-			y: -4.0d
+			x: 10.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1955E60B51E911ED"]
@@ -3682,7 +3719,7 @@
 			}]
 			title: "Puncture The World"
 			x: -0.5d
-			y: 11.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["453481B45C1169E4"]
@@ -3729,11 +3766,11 @@
 				}
 			]
 			title: "Carbonate Igneous Deposit"
-			x: -2.5d
-			y: 10.0d
+			x: 0.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["453481B45C1169E4"]
+			dependencies: ["3EC5385262A7A38A"]
 			description: [
 				"Contrary to the ore name, you dont need to go to Germany for it."
 				"&eGermanite&r will be an important ore to harvest for it's &agermanium&r content."
@@ -3769,11 +3806,11 @@
 				}
 			]
 			title: "Argyrodite Deposit"
-			x: -0.5d
-			y: 10.0d
+			x: 1.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["453481B45C1169E4"]
+			dependencies: ["2B9899F592B4E814"]
 			description: [
 				"Over millions of years mineral springs concentrated &alithium&r in the earth into ores pure enough to form crystals brimming with battery metal."
 				""
@@ -3819,11 +3856,11 @@
 				}
 			]
 			title: "Ancient Mineral Spring Deposit"
-			x: 1.5d
-			y: 10.0d
+			x: 3.0d
+			y: -6.5d
 		}
 		{
-			dependencies: ["453481B45C1169E4"]
+			dependencies: ["38C12E46D6C2B066"]
 			description: [
 				"Oil Sand and Kerogen can be considered to be in that transition state between once being an alive thing and being pumped at the gas station."
 				""
@@ -3857,11 +3894,11 @@
 				}
 			]
 			title: "Hydrocarbon Rich Deposit"
-			x: -2.0d
-			y: 9.0d
+			x: 3.5d
+			y: -5.5d
 		}
 		{
-			dependencies: ["453481B45C1169E4"]
+			dependencies: ["70289AE8732F693E"]
 			description: [
 				"Something must of gone catastrophically wrong here for there to be such a high abundance of bones and fossils"
 				""
@@ -3895,11 +3932,11 @@
 				}
 			]
 			title: "Fossil Deposit"
-			x: 1.0d
-			y: 9.0d
+			x: 4.0d
+			y: -4.5d
 		}
 		{
-			dependencies: ["453481B45C1169E4"]
+			dependencies: ["4DED61BFDA09B17E"]
 			description: [
 				"A rather unusual deposit, the holes within the pumice-like-endstone have &atrapped gas&r within it requiring some liquid assisted bubbling to capture. &cThe air doesnt appear to be from here however&r and has some unusual properties to it."
 				""
@@ -3933,11 +3970,11 @@
 				}
 			]
 			title: "Endermorphic Deposit"
-			x: -2.5d
-			y: 12.0d
+			x: 4.0d
+			y: -3.5d
 		}
 		{
-			dependencies: ["453481B45C1169E4"]
+			dependencies: ["230A582D5ABD1DF2"]
 			description: [
 				"It seems that in some parts of the world the ground entirely delaminates from the flake walls revealing a deep pit downwards. Outside of raw material abundance, there's probably fantastic data within the rocks to learn more about this world"
 				""
@@ -3993,11 +4030,11 @@
 				}
 			]
 			title: "Core Seam "
-			x: 1.5d
-			y: 12.0d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["453481B45C1169E4"]
+			dependencies: ["794BE296BCE95CD3"]
 			description: [
 				"Nuclear material decays via the ejection of a &bHelium-4&r nucleus, not very quickly mind you but over geological time you can get large deposits of it in porous rocks"
 				""
@@ -4035,11 +4072,11 @@
 				}
 			]
 			title: "Helium Deposit"
-			x: -2.0d
-			y: 13.0d
+			x: 4.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["453481B45C1169E4"]
+			dependencies: ["0AA6E4463E27A4F9"]
 			description: [
 				"Rare earths are not actually very rare! The reason they are called rare is due to their relative concentration in the soil being somewhat low, thus requiring large volumes of earth to gather useable amounts. "
 				""
@@ -4093,11 +4130,11 @@
 				}
 			]
 			title: "Lanthanithic Deposit"
-			x: 1.0d
-			y: 13.0d
+			x: 2.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["453481B45C1169E4"]
+			dependencies: ["37982224A6A10F95"]
 			description: [
 				"&cI can... hear something down there... it's so faint&r"
 				""
@@ -4122,8 +4159,8 @@
 				type: "item"
 			}]
 			title: "Void Seam"
-			x: -0.5d
-			y: 12.0d
+			x: 3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["510C4A6E6F1259B5"]
@@ -4152,8 +4189,8 @@
 				}
 			]
 			title: "Getting REALLY clean"
-			x: 10.5d
-			y: -3.982142857142847d
+			x: 11.5d
+			y: -6.482142857142847d
 		}
 		{
 			dependencies: ["50B6548021E10F91"]
@@ -4177,8 +4214,8 @@
 				}
 			]
 			title: "IT'S ALIVE"
-			x: 10.5d
-			y: -3.0d
+			x: 11.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["55F62F8F0F606A69"]
@@ -4201,7 +4238,7 @@
 				title: "Should Hire The Boulder Bros"
 				type: "checkmark"
 			}]
-			x: -0.5d
+			x: 2.5d
 			y: -10.5d
 		}
 	]
