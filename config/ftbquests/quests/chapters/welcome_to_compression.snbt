@@ -191,7 +191,7 @@
 			subtitle: "Fancy rocks"
 			tasks: [{
 				id: "07FFD34EBC199E9C"
-				title: "Ores and Mining"
+				title: "Unlock Ore Scaling"
 				type: "checkmark"
 			}]
 			title: "Ores and Mining"
@@ -328,6 +328,11 @@
 		}
 		{
 			dependencies: ["30E3379C21C76154"]
+			description: [
+				"The &bAutomation \\& You&r tab goes over various trinkets and gizmos that will aid in your factory building endeavors."
+				""
+				"In addition the &6Proficiency&r tab offers a place to trade in berries to claim your bragging rights as a golden. More information in the &dStrawberries?&r quest."
+			]
 			icon: "thermal:ruby_gear"
 			id: "1D2BED04E13B73F3"
 			rewards: [{
@@ -388,7 +393,7 @@
 			subtitle: "TREE(3) not included"
 			tasks: [{
 				id: "4030D7837907ABFB"
-				title: "Scaling Trees"
+				title: "Unlock Scale Tree I"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -411,7 +416,7 @@
 			subtitle: "Useful but in very different ways"
 			tasks: [{
 				id: "67652942EFC7E8D7"
-				title: "Organics"
+				title: "Unlock Organics Scaling"
 				type: "checkmark"
 			}]
 			x: 5.5d
