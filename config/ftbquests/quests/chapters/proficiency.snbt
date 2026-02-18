@@ -5,7 +5,7 @@
 	group: "1C682695BB4A0B06"
 	icon: "ae2:molecular_assembler"
 	id: "49CFEE35A165B6FF"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -146,7 +146,7 @@
 				}
 				{
 					consume_items: true
-					count: 11L
+					count: 19L
 					id: "286C95CC0182FEDF"
 					item: "nyagibits_bytes:tier_zero_strawberry"
 					title: "Welcome Information"

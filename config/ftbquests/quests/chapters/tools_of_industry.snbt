@@ -5,7 +5,7 @@
 	group: "1C682695BB4A0B06"
 	icon: "create:precision_mechanism"
 	id: "1130B5911F3BD6E9"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
