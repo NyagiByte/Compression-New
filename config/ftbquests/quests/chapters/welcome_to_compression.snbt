@@ -214,6 +214,7 @@
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "Elusive FWGM"
 			tasks: [{
 				id: "1F07C5641437DF5C"
 				title: "Holy bingle Celeste:tm: refrence"
@@ -249,6 +250,7 @@
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "<3"
 			tasks: [{
 				id: "26DD74BF61BFBAC0"
 				title: "Special Achivements"
@@ -382,6 +384,8 @@
 				"Crafting recipes are treated to &l&bscaled production&r."
 				""
 				"Scaled production is &7(usually)&r done in a way where existing setups can &agrow&r with you with some adjustments over time."
+				"{@pagebreak}"
+				"More scale trees will exist and will be opened up after going through the subsequent scale tree quests."
 			]
 			icon: "ae2:item_storage_cell_1k"
 			id: "01E0198651D2A78F"
@@ -396,6 +400,7 @@
 				title: "Unlock Scale Tree I"
 				type: "checkmark"
 			}]
+			title: "Scale Trees"
 			x: 4.0d
 			y: -6.0d
 		}
@@ -419,11 +424,17 @@
 				title: "Unlock Organics Scaling"
 				type: "checkmark"
 			}]
+			title: "Things that grow"
 			x: 5.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["1D2BED04E13B73F3"]
+			description: [
+				"Any good engineer needs their assortment of tools to actively loose track of the exact moment they are needed."
+				""
+				"The &bTools of Industry&r tab showcases many gadgets that will aid in your progress."
+			]
 			icon: "thermal:wrench"
 			id: "365E56328068F481"
 			rewards: [{
@@ -431,11 +442,13 @@
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "Lost the 10mm again"
 			tasks: [{
 				id: "4406B892AEFBDD56"
-				title: "Tools Of Industry"
+				title: "Unlock Tools Of Industry"
 				type: "checkmark"
 			}]
+			title: "The Spanner in The Works"
 			x: 3.0d
 			y: -7.0d
 		}
@@ -458,12 +471,27 @@
 		}
 		{
 			dependencies: ["365E56328068F481"]
+			description: [
+				"Bases in &6Compression&r tend to get very big very quickly."
+				""
+				"Building can be tedious. Building huge structures even more so."
+				""
+				"In the &bThe Factory Must Grow&r tab, you will see many options available to you in your ever expanding sprawl of industry."
+			]
 			icon: "createdeco:long_red_bricks"
 			id: "06742EB86FD93B67"
+			rewards: [{
+				id: "74550C8D11978716"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "It's not a lawn base if you make cute industrial skyscrapers"
 			tasks: [{
 				id: "6E1E18588A196B56"
+				title: "Unlock The Factory Must Grow"
 				type: "checkmark"
 			}]
+			title: "Concentrated Construction Chaos"
 			x: 4.0d
 			y: -8.0d
 		}

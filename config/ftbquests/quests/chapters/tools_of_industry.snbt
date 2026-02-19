@@ -134,8 +134,8 @@
 				type: "item"
 			}]
 			title: "Yoink"
-			x: -3.0d
-			y: 2.0d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -477,11 +477,14 @@
 				type: "item"
 			}]
 			title: "Oh God The Lag"
-			x: -7.5d
-			y: 2.5d
+			x: -8.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["4296F49981434BC7"]
+			dependencies: [
+				"4296F49981434BC7"
+				"0049E87A6B59FE5A"
+			]
 			description: ["This quest name makes zero sense if you haven't seen Soul Eater"]
 			id: "28831D522C6F3026"
 			rewards: [{
@@ -495,7 +498,7 @@
 				type: "item"
 			}]
 			title: "A Certain Anime Boy's Favorite Tool"
-			x: -6.5d
+			x: -8.0d
 			y: 4.5d
 		}
 		{
@@ -584,11 +587,14 @@
 				type: "item"
 			}]
 			title: "Really Big Bucket"
-			x: -5.5d
-			y: 6.5d
+			x: -6.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["46FF0B8D87309F93"]
+			dependencies: [
+				"46FF0B8D87309F93"
+				"353E8A9372BF983C"
+			]
 			description: [
 				"A very handy multi-use wrench from Ae2"
 				""
@@ -614,7 +620,10 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["46FF0B8D87309F93"]
+			dependencies: [
+				"46FF0B8D87309F93"
+				"353E8A9372BF983C"
+			]
 			description: [
 				"The &bmemory card&r is able to copy paste settings for &abuses and interfaces&r"
 				""
@@ -639,6 +648,7 @@
 			dependencies: [
 				"46FF0B8D87309F93"
 				"00252987E3B16C8F"
+				"3D98C3DA7C9397AA"
 			]
 			description: [
 				"When the &6Color Applicator&r is slotted into a &aME Chest&r it can act as the storage disk with 1 major difference"
@@ -670,6 +680,7 @@
 			dependencies: [
 				"46FF0B8D87309F93"
 				"4ABA1A64E5BE1E94"
+				"3D98C3DA7C9397AA"
 			]
 			description: [
 				"The &dEntropy Manipulator&r is a bit of an odd-ball in the Ae2 tool kit"
@@ -701,6 +712,7 @@
 			dependencies: [
 				"46FF0B8D87309F93"
 				"00252987E3B16C8F"
+				"3D98C3DA7C9397AA"
 			]
 			description: [
 				"Pretty much what it says on the tin, the &dMatter Cannon&r, go pew pew"
@@ -839,8 +851,8 @@
 				type: "item"
 			}]
 			title: "Falling But Really Really Slowly"
-			x: -5.5d
-			y: 1.0d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [

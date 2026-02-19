@@ -1,0 +1,280 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_factory_must_grow"
+	group: "1C682695BB4A0B06"
+	icon: "immersiveengineering:steel_scaffolding_standard"
+	id: "41391CA0578517E9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["06742EB86FD93B67"]
+			hide_until_deps_complete: true
+			id: "5F964897DC3F3EF8"
+			tasks: [{
+				id: "3892EA84924EEDF4"
+				title: "building read check"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25761DABD5917644"]
+			id: "6875017F7DCC9969"
+			tasks: [{
+				id: "38AEA30B38CBC64F"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Airports have the right idea"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F964897DC3F3EF8"]
+			id: "25761DABD5917644"
+			tasks: [{
+				id: "3BB6E4760395B1F3"
+				title: "Movement"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F964897DC3F3EF8"]
+			id: "400105EB08904710"
+			tasks: [{
+				id: "26AA7103C0EDF7B8"
+				title: "Logistics Management"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5F964897DC3F3EF8"]
+			id: "6A7404C416453F72"
+			tasks: [{
+				id: "4DED9A234D91E752"
+				title: "Structural"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F964897DC3F3EF8"]
+			id: "5E780FBECE1F61E6"
+			tasks: [{
+				id: "24909C282964F565"
+				title: "Mass Construction"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["400105EB08904710"]
+			id: "4FB68561130B82C9"
+			tasks: [{
+				id: "6262AAB068F05B20"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A7404C416453F72"]
+			id: "3B1C0DC00EC8C081"
+			tasks: [{
+				id: "4A678660A4D55785"
+				item: "create:industrial_iron_block"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E780FBECE1F61E6"]
+			id: "570E5A9796C52276"
+			tasks: [
+				{
+					id: "3F159DE6224F556D"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "002AEF9094ACAF86"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["570E5A9796C52276"]
+			id: "70BB746D3E0C4D05"
+			tasks: [{
+				id: "555D0ADE04B94E62"
+				item: "create:schematicannon"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"70BB746D3E0C4D05"
+				"08D3D407B57B7B3B"
+				"4719463793B59AD7"
+			]
+			dependency_requirement: "one_completed"
+			id: "2C3A7E7B4C0FDB11"
+			tasks: [{
+				id: "4A59E776AC0709FE"
+				item: "create_pattern_schematics:empty_pattern_schematic"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6875017F7DCC9969"]
+			id: "08D3D407B57B7B3B"
+			tasks: [{
+				id: "3C7A349B42D00D7E"
+				item: "railways:track_oak"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["08D3D407B57B7B3B"]
+			id: "4719463793B59AD7"
+			tasks: [{
+				id: "57D4507A796778B1"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4FB68561130B82C9"]
+			id: "0D97FCEA76ACC0D1"
+			tasks: [{
+				id: "7FA3A7776F013717"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4FB68561130B82C9"]
+			id: "4979C4345BF49D59"
+			tasks: [
+				{
+					id: "515E0C9B12798724"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+				{
+					id: "034650C98D533FD8"
+					item: "botania:corporea_index"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4979C4345BF49D59"]
+			id: "06082D1481C77AC6"
+			tasks: [
+				{
+					id: "596751B37EBF78B8"
+					item: "create:redstone_link"
+					type: "item"
+				}
+				{
+					id: "15BE6FE464CF417C"
+					item: "create:display_link"
+					type: "item"
+				}
+				{
+					id: "0669B36CA6316210"
+					item: "create:display_board"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3B1C0DC00EC8C081"]
+			id: "4A8BE783CC23F0B5"
+			tasks: [{
+				id: "637001F426E416B8"
+				item: "nyagibits_bytes:ball_plastic_i"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4A8BE783CC23F0B5"]
+			id: "265FD28756CCF3E2"
+			tasks: [{
+				id: "073E7C7C420295D7"
+				item: "minecraft:stonecutter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6875017F7DCC9969"]
+			id: "6413C35ADFAB6CF0"
+			tasks: [{
+				id: "006EB1E8E93939B6"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6413C35ADFAB6CF0"]
+			id: "501114EEFCAFA0C6"
+			tasks: [{
+				id: "0995503D28F47730"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"06082D1481C77AC6"
+				"08D3D407B57B7B3B"
+			]
+			id: "3F078DDC0971F207"
+			tasks: [{
+				id: "46880EB94AE87340"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+	]
+	title: " &fThe Factory Must Grow"
+}
