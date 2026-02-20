@@ -201,8 +201,8 @@
 				item: "create:item_vault"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4FB68561130B82C9"]
@@ -275,7 +275,7 @@
 				item: "create:rope_pulley"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -286,8 +286,8 @@
 				item: "create:elevator_pulley"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -331,6 +331,303 @@
 			}]
 			x: 8.0d
 			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4979C4345BF49D59"
+				"06082D1481C77AC6"
+			]
+			id: "2FC4DA2B196204C7"
+			tasks: [
+				{
+					id: "1DE7250CD4DFE3A9"
+					item: "create:repackager"
+					type: "item"
+				}
+				{
+					id: "694CECA3FE0BCEE6"
+					item: "create:package_frogport"
+					type: "item"
+				}
+				{
+					id: "2CB2A92F25FA53C9"
+					item: "create:stock_ticker"
+					type: "item"
+				}
+				{
+					id: "72DC1BEC7B1EAADA"
+					item: "create:stock_link"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2FC4DA2B196204C7"]
+			id: "652CCCC43895CC57"
+			tasks: [{
+				id: "718E2C3069A3A83B"
+				item: "create:factory_gauge"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"652CCCC43895CC57"
+				"4FB68561130B82C9"
+			]
+			id: "0BCC4B5B144C4EFA"
+			tasks: [
+				{
+					id: "3B266EAFB1FE7BF2"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "42A83DDBFCBFBBE5"
+					item: "ae2:controller"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0D97FCEA76ACC0D1"]
+			id: "5CD2858BBC7FAF3A"
+			tasks: [{
+				id: "1E560294F6CE7C6A"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"5CD2858BBC7FAF3A"
+				"0BCC4B5B144C4EFA"
+			]
+			id: "7936F216A34BA9EC"
+			tasks: [
+				{
+					id: "0B00CA2ABD4BC850"
+					item: "ae2:interface"
+					type: "item"
+				}
+				{
+					id: "67B02B8DAFC5EEB2"
+					item: "ae2:storage_bus"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["438276B3F0F5F994"]
+			id: "21EAF6135B6C068F"
+			tasks: [
+				{
+					id: "0D93A5357B9F9243"
+					item: "create:pulse_repeater"
+					type: "item"
+				}
+				{
+					id: "59A3BB1C8403BF29"
+					item: "create:pulse_extender"
+					type: "item"
+				}
+				{
+					id: "2DFF00145953BD4D"
+					item: "create:pulse_timer"
+					type: "item"
+				}
+				{
+					id: "1A1506A9773C66B3"
+					item: "create:powered_latch"
+					type: "item"
+				}
+				{
+					id: "46BB3875899E7C24"
+					item: "create:analog_lever"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["21EAF6135B6C068F"]
+			id: "55D9685F3A80E054"
+			tasks: [{
+				id: "62450779B19290E7"
+				item: "vintageimprovements:redstone_module"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"438276B3F0F5F994"
+				"0BCC4B5B144C4EFA"
+			]
+			id: "5453F57FB425DD00"
+			tasks: [{
+				id: "1C32D7418CD7F182"
+				item: "ae2:redstone_card"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["06082D1481C77AC6"]
+			id: "438276B3F0F5F994"
+			tasks: [{
+				id: "297D2B5DD1C8BCD1"
+				item: "minecraft:comparator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["438276B3F0F5F994"]
+			id: "1D17CE10B4749AD8"
+			tasks: [
+				{
+					id: "0552579817C9D71E"
+					item: "create:stockpile_switch"
+					type: "item"
+				}
+				{
+					id: "7CC5261A4B91B134"
+					item: "create:content_observer"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["55D9685F3A80E054"]
+			id: "60DF2A2BCD2D9D93"
+			tasks: [{
+				id: "33F7ADA68AD3F667"
+				item: "projectred_integration:timer_gate"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["48A8F46D3E54FD28"]
+			id: "636384B8E591917C"
+			tasks: [{
+				id: "4A36239C4C798D6F"
+				item: "projectred_transmission:red_alloy_wire"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["438276B3F0F5F994"]
+			id: "48A8F46D3E54FD28"
+			tasks: [{
+				id: "4E8C34538ABD0DAB"
+				item: "supplementaries:cog_block"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"55D9685F3A80E054"
+				"636384B8E591917C"
+			]
+			id: "1D2A5BA88EDCE162"
+			tasks: [{
+				id: "12ACD7DDC5F3B591"
+				item: "projectred_transmission:neutral_bundled_wire"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1D2A5BA88EDCE162"]
+			id: "1405F87224E16FB7"
+			tasks: [{
+				id: "3CF9BB99F42ACF95"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6875017F7DCC9969"]
+			id: "2051A8DBD7855C03"
+			tasks: [
+				{
+					id: "1DE7B6AA12C90895"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "661F4850E6C7EB98"
+					item: "minecraft:hay_block"
+					type: "item"
+				}
+				{
+					id: "7A03957DD5B97DD4"
+					item: {
+						Count: 1
+						id: "vc_gliders:paraglider_netherite"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4979C4345BF49D59"]
+			id: "5BE8366BFF85CE9D"
+			tasks: [
+				{
+					id: "4484931282F0D171"
+					item: "botania:corporea_funnel"
+					type: "item"
+				}
+				{
+					id: "58900661C886EA6B"
+					item: "botania:corporea_interceptor"
+					type: "item"
+				}
+				{
+					id: "796BBD9A4B116A3E"
+					item: "botania:corporea_retainer"
+					type: "item"
+				}
+				{
+					id: "31DA431650FD5D93"
+					item: "botania:corporea_crystal_cube"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.5d
 		}
 	]
 	title: " &fThe Factory Must Grow"
