@@ -456,6 +456,10 @@
 			dependencies: [
 				"1D2BED04E13B73F3"
 				"5ADA3C4D97A9FA53"
+				"5F964897DC3F3EF8"
+				"0049E87A6B59FE5A"
+				"6E7A4B55A9475E35"
+				"7C2306F0A64DE040"
 			]
 			icon: "quark:mangrove_bookshelf"
 			id: "147F646960AE4EBE"

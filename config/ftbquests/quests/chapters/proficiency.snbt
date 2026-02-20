@@ -323,6 +323,7 @@
 				"5ADA3C4D97A9FA53"
 			]
 			description: ["I like KNAWLEDGE"]
+			hide_until_deps_visible: true
 			id: "68833F45298254BF"
 			rewards: [{
 				id: "38CBBA5C2166B9F4"

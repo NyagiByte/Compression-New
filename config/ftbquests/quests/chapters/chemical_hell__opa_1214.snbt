@@ -1992,7 +1992,9 @@
 			dependencies: [
 				"33C1A63A2EBA973D"
 				"404A88584CA083D4"
+				"3BEACE9F3F1EC3AA"
 			]
+			hide_until_deps_complete: true
 			id: "13DC12D354BF08A1"
 			tasks: [{
 				id: "5EA7802DFE6711CE"

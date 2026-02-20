@@ -1,4 +1,5 @@
 {
+	autofocus_id: "404A88584CA083D4"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "organics"
@@ -256,6 +257,7 @@
 				"63EDC0EBBEFA483E"
 			]
 			description: ["Block 'o Wool. You already know the deal here get some shears"]
+			hide_until_deps_visible: true
 			id: "700DE235CD7B7063"
 			rewards: [{
 				id: "39704C8C383ABDD6"
@@ -773,11 +775,12 @@
 		}
 		{
 			dependencies: ["2CCCB9817A8651E3"]
+			description: ["&7To unlock the rest of the welcome tab, confirm this quest was read with the checkmark above."]
 			hide_until_deps_complete: true
 			id: "6E7A4B55A9475E35"
 			tasks: [{
 				id: "67F7847A19861C0D"
-				title: "Organic read check"
+				title: "Confirmation You Have Read The Blerb"
 				type: "checkmark"
 			}]
 			x: -0.5d

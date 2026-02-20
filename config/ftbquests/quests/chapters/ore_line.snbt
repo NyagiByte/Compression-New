@@ -31,7 +31,7 @@
 				title: "Gemstone Processing"
 				type: "checkmark"
 			}]
-			x: 8.5d
+			x: 6.0d
 			y: -6.5d
 		}
 		{
@@ -51,8 +51,8 @@
 				title: "Metal Processing"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: -6.0d
+			x: -6.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0F2BCC8D3D977D1E"]
@@ -73,8 +73,8 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -5.0d
+			x: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["531EE69871EFB610"]
@@ -96,8 +96,8 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -6.0d
+			x: -7.5d
+			y: -7.5d
 		}
 		{
 			dependencies: [
@@ -123,8 +123,8 @@
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -2.0d
+			x: -7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2345F14F53AF22A6"]
@@ -147,8 +147,8 @@
 				item: "nyagibits_bytes:raw_limonite"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -3.0d
+			x: -7.739455782312895d
+			y: -4.98299319727888d
 		}
 		{
 			dependencies: ["2345F14F53AF22A6"]
@@ -171,8 +171,8 @@
 				item: "nyagibits_bytes:raw_hematite"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.0d
+			x: -9.943537414965952d
+			y: -4.98299319727888d
 		}
 		{
 			dependencies: ["2345F14F53AF22A6"]
@@ -195,8 +195,8 @@
 				item: "nyagibits_bytes:raw_magnetite"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -2.0d
+			x: -9.208843537414936d
+			y: -4.98299319727888d
 		}
 		{
 			dependencies: ["2345F14F53AF22A6"]
@@ -219,8 +219,8 @@
 				item: "nyagibits_bytes:raw_pyrite"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -2.0d
+			x: -8.841496598639424d
+			y: -4.309523809523789d
 		}
 		{
 			dependencies: ["2345F14F53AF22A6"]
@@ -243,8 +243,8 @@
 				item: "nyagibits_bytes:raw_siderite"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -3.0d
+			x: -8.474149659863912d
+			y: -4.98299319727888d
 		}
 		{
 			dependencies: ["2345F14F53AF22A6"]
@@ -267,8 +267,8 @@
 				item: "nyagibits_bytes:raw_banded_iron"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.0d
+			x: -8.1068027210884d
+			y: -4.309523809523789d
 		}
 		{
 			dependencies: ["2345F14F53AF22A6"]
@@ -291,8 +291,8 @@
 				item: "nyagibits_bytes:raw_bog_iron"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -3.0d
+			x: -9.576190476190447d
+			y: -4.28911564625848d
 		}
 		{
 			dependencies: ["2345F14F53AF22A6"]
@@ -315,8 +315,8 @@
 				item: "nyagibits_bytes:raw_meteoric_iron"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -1.0d
+			x: -10.310884353741464d
+			y: -4.28911564625848d
 		}
 		{
 			dependencies: [
@@ -342,8 +342,8 @@
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.5d
+			x: -6.617006802721058d
+			y: -4.314625850340114d
 		}
 		{
 			dependencies: ["3DF87F43E36C0204"]
@@ -366,8 +366,8 @@
 				item: "nyagibits_bytes:raw_chalcopyrite"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.5d
+			x: -3.6782312925169762d
+			y: -4.314625850340114d
 		}
 		{
 			dependencies: ["3DF87F43E36C0204"]
@@ -390,8 +390,8 @@
 				item: "nyagibits_bytes:raw_malachite"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -0.5d
+			x: -5.882312925170034d
+			y: -4.314625850340114d
 		}
 		{
 			dependencies: ["3DF87F43E36C0204"]
@@ -414,8 +414,8 @@
 				item: "nyagibits_bytes:raw_azurite"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.5d
+			x: -5.514965986394529d
+			y: -3.641156462585009d
 		}
 		{
 			dependencies: ["3DF87F43E36C0204"]
@@ -438,8 +438,8 @@
 				item: "nyagibits_bytes:raw_tetrahedrite"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: -4.045578231292488d
+			y: -3.641156462585009d
 		}
 		{
 			dependencies: ["3DF87F43E36C0204"]
@@ -462,8 +462,8 @@
 				item: "nyagibits_bytes:raw_enargite"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -0.5d
+			x: -5.147619047619017d
+			y: -4.314625850340114d
 		}
 		{
 			dependencies: ["3DF87F43E36C0204"]
@@ -486,8 +486,8 @@
 				item: "nyagibits_bytes:raw_chrysocolla"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: -4.412925170067993d
+			y: -4.314625850340114d
 		}
 		{
 			dependencies: ["3DF87F43E36C0204"]
@@ -510,8 +510,8 @@
 				item: "nyagibits_bytes:raw_tennanite"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: -3.298979591836691d
+			y: -3.639455782312922d
 		}
 		{
 			dependencies: ["3DF87F43E36C0204"]
@@ -534,8 +534,8 @@
 				item: "nyagibits_bytes:raw_dioptase"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.5d
+			x: -4.780272108843505d
+			y: -3.641156462585009d
 		}
 		{
 			dependencies: [
@@ -568,8 +568,8 @@
 				}
 			]
 			title: "Raw Gold and Silver"
-			x: -5.0d
-			y: 3.0d
+			x: -5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["13FC2F89AE4F3F6E"]
@@ -592,8 +592,8 @@
 				item: "nyagibits_bytes:alluvial_slush"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 2.0d
+			x: -6.217346938775464d
+			y: -2.480272108843536d
 		}
 		{
 			dependencies: ["13FC2F89AE4F3F6E"]
@@ -616,8 +616,8 @@
 				item: "nyagibits_bytes:native_cluster"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 4.0d
+			x: -8.360204081632595d
+			y: -2.480272108843536d
 		}
 		{
 			dependencies: ["13FC2F89AE4F3F6E"]
@@ -640,8 +640,8 @@
 				item: "nyagibits_bytes:raw_argentite"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 2.0d
+			x: -7.64591836734688d
+			y: -2.480272108843536d
 		}
 		{
 			dependencies: ["13FC2F89AE4F3F6E"]
@@ -664,8 +664,8 @@
 				item: "nyagibits_bytes:raw_chlorargyrite"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 4.0d
+			x: -7.2744897959183135d
+			y: -1.7945578231292458d
 		}
 		{
 			dependencies: ["13FC2F89AE4F3F6E"]
@@ -688,8 +688,8 @@
 				item: "nyagibits_bytes:raw_polybasite"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 4.0d
+			x: -6.560204081632598d
+			y: -1.7945578231292458d
 		}
 		{
 			dependencies: ["13FC2F89AE4F3F6E"]
@@ -712,8 +712,8 @@
 				item: "nyagibits_bytes:raw_proustite"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 2.0d
+			x: -6.931632653061172d
+			y: -2.480272108843536d
 		}
 		{
 			dependencies: ["13FC2F89AE4F3F6E"]
@@ -736,8 +736,8 @@
 				item: "nyagibits_bytes:raw_electrum"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 3.0d
+			x: -7.988775510204022d
+			y: -1.7945578231292458d
 		}
 		{
 			dependencies: ["13FC2F89AE4F3F6E"]
@@ -760,8 +760,8 @@
 				item: "nyagibits_bytes:raw_kustelite_electrum"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 3.0d
+			x: -8.703061224489737d
+			y: -1.7945578231292458d
 		}
 		{
 			dependencies: [
@@ -786,8 +786,8 @@
 				type: "item"
 			}]
 			title: "Raw Redstone and Mercury"
-			x: 8.5d
-			y: 3.0d
+			x: 6.6394557823129645d
+			y: -4.311904761904756d
 		}
 		{
 			dependencies: ["1DFA40765C37E21B"]
@@ -810,8 +810,8 @@
 				item: "nyagibits_bytes:raw_cinnabar"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 4.802721088435412d
+			y: -3.638435374149651d
 		}
 		{
 			dependencies: ["1DFA40765C37E21B"]
@@ -834,8 +834,8 @@
 				item: "nyagibits_bytes:raw_metacinnabar"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: 5.170068027210924d
+			y: -4.311904761904756d
 		}
 		{
 			dependencies: ["1DFA40765C37E21B"]
@@ -858,8 +858,8 @@
 				item: "nyagibits_bytes:raw_corderoite"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 3.3333333333333712d
+			y: -3.638435374149651d
 		}
 		{
 			dependencies: ["1DFA40765C37E21B"]
@@ -882,8 +882,8 @@
 				item: "nyagibits_bytes:raw_basaltic_powder"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.0d
+			x: 3.700680272108883d
+			y: -4.311904761904756d
 		}
 		{
 			dependencies: ["1DFA40765C37E21B"]
@@ -906,8 +906,8 @@
 				item: "nyagibits_bytes:raw_calomel"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.0d
+			x: 4.4353741496599d
+			y: -4.311904761904756d
 		}
 		{
 			dependencies: ["1DFA40765C37E21B"]
@@ -930,8 +930,8 @@
 				item: "nyagibits_bytes:raw_native_mercury_spherules"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 4.0d
+			x: 4.068027210884388d
+			y: -3.638435374149651d
 		}
 		{
 			dependencies: ["1DFA40765C37E21B"]
@@ -954,8 +954,8 @@
 				item: "nyagibits_bytes:raw_montroydite"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.0d
+			x: 5.904761904761948d
+			y: -4.311904761904756d
 		}
 		{
 			dependencies: ["1DFA40765C37E21B"]
@@ -978,8 +978,8 @@
 				item: "nyagibits_bytes:raw_granulated_obsidian"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 5.537414965986436d
+			y: -3.638435374149651d
 		}
 		{
 			dependencies: [
@@ -1006,8 +1006,8 @@
 				item: "minecraft:coal"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.5d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["384CA06F7A29D8CE"]
@@ -1030,8 +1030,8 @@
 				item: "nyagibits_bytes:raw_lignite"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 0.5d
+			x: 10.31292517006807d
+			y: -4.311904761904756d
 		}
 		{
 			dependencies: ["384CA06F7A29D8CE"]
@@ -1054,8 +1054,8 @@
 				item: "nyagibits_bytes:raw_bituminous"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -0.5d
+			x: 7.7414965986395d
+			y: -4.9853741496598545d
 		}
 		{
 			dependencies: ["384CA06F7A29D8CE"]
@@ -1078,8 +1078,8 @@
 				item: "nyagibits_bytes:raw_subbituminous"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 1.5d
+			x: 8.108843537415012d
+			y: -4.311904761904756d
 		}
 		{
 			dependencies: ["384CA06F7A29D8CE"]
@@ -1102,8 +1102,8 @@
 				item: "nyagibits_bytes:raw_anthracite"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 0.5d
+			x: 8.843537414966022d
+			y: -4.311904761904756d
 		}
 		{
 			dependencies: ["384CA06F7A29D8CE"]
@@ -1126,8 +1126,8 @@
 				item: "nyagibits_bytes:raw_cannel_coal"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -0.5d
+			x: 8.476190476190524d
+			y: -4.9853741496598545d
 		}
 		{
 			dependencies: ["384CA06F7A29D8CE"]
@@ -1150,8 +1150,8 @@
 				item: "nyagibits_bytes:raw_jet"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.5d
+			x: 9.945578231292558d
+			y: -4.9853741496598545d
 		}
 		{
 			dependencies: ["384CA06F7A29D8CE"]
@@ -1179,8 +1179,8 @@
 				item: "nyagibits_bytes:raw_peat"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -0.5d
+			x: 9.210884353741534d
+			y: -4.9853741496598545d
 		}
 		{
 			dependencies: ["384CA06F7A29D8CE"]
@@ -1203,8 +1203,8 @@
 				item: "nyagibits_bytes:raw_graphite"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 1.5d
+			x: 9.578231292517046d
+			y: -4.311904761904756d
 		}
 		{
 			dependencies: [
@@ -1241,8 +1241,8 @@
 				}
 			]
 			title: "Raw Gemstones"
-			x: 8.5d
-			y: 8.0d
+			x: 5.196598639455807d
+			y: -1.8017006802721127d
 		}
 		{
 			dependencies: ["36801EB293571923"]
@@ -1275,8 +1275,8 @@
 				item: "nyagibits_bytes:raw_kimberlite"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 8.0d
+			x: 2.2374149659864244d
+			y: -1.7812925170068112d
 		}
 		{
 			dependencies: ["36801EB293571923"]
@@ -1310,8 +1310,8 @@
 				item: "nyagibits_bytes:raw_lamproite"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 7.0d
+			x: 4.465986394557852d
+			y: -1.7812925170068112d
 		}
 		{
 			dependencies: ["36801EB293571923"]
@@ -1345,8 +1345,8 @@
 				item: "nyagibits_bytes:raw_lazurite"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 9.0d
+			x: 4.094557823129271d
+			y: -1.0955782312925209d
 		}
 		{
 			dependencies: ["36801EB293571923"]
@@ -1380,8 +1380,8 @@
 				item: "nyagibits_bytes:raw_lapis_lazuli"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 8.0d
+			x: 1.8659863945578508d
+			y: -1.0955782312925209d
 		}
 		{
 			dependencies: ["36801EB293571923"]
@@ -1423,8 +1423,8 @@
 				item: "nyagibits_bytes:raw_prime_beryllic_cluster"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 7.0d
+			x: 3.723129251700705d
+			y: -1.7812925170068112d
 		}
 		{
 			dependencies: ["36801EB293571923"]
@@ -1447,8 +1447,8 @@
 				item: "nyagibits_bytes:raw_fluorite"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 9.0d
+			x: 3.3517006802721383d
+			y: -1.0955782312925209d
 		}
 		{
 			dependencies: ["36801EB293571923"]
@@ -1471,8 +1471,8 @@
 				item: "nyagibits_bytes:raw_chalcogenide_crystal_cluster"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 7.0d
+			x: 2.9802721088435646d
+			y: -1.7812925170068112d
 		}
 		{
 			dependencies: ["36801EB293571923"]
@@ -1495,8 +1495,8 @@
 				item: "nyagibits_bytes:raw_salt_cluster"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 9.0d
+			x: 2.608843537414991d
+			y: -1.0955782312925209d
 		}
 		{
 			dependencies: [
@@ -1528,8 +1528,8 @@
 				}
 			]
 			title: "Raw Quartz"
-			x: 8.5d
-			y: 5.5d
+			x: 5.580272108843566d
+			y: -2.487414965986396d
 		}
 		{
 			dependencies: ["12D07F810D3FEE98"]
@@ -1562,8 +1562,8 @@
 				item: "nyagibits_bytes:raw_herkimer_diamond"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 5.5d
+			x: 6.323129251700713d
+			y: -2.487414965986396d
 		}
 		{
 			dependencies: ["12D07F810D3FEE98"]
@@ -1596,8 +1596,8 @@
 				item: "nyagibits_bytes:raw_dendritic_agate"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.5d
+			x: 6.69455782312928d
+			y: -1.8017006802721056d
 		}
 		{
 			dependencies: ["12D07F810D3FEE98"]
@@ -1629,8 +1629,8 @@
 				item: "nyagibits_bytes:raw_chalcedony"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 6.5d
+			x: 7.808843537414994d
+			y: -2.487414965986396d
 		}
 		{
 			dependencies: ["12D07F810D3FEE98"]
@@ -1662,8 +1662,8 @@
 				item: "nyagibits_bytes:raw_rutilated_quartz"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 5.5d
+			x: 7.0659863945578465d
+			y: -2.487414965986396d
 		}
 		{
 			dependencies: ["12D07F810D3FEE98"]
@@ -1695,8 +1695,8 @@
 				item: "nyagibits_bytes:raw_ametrine"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.5d
+			x: 7.437414965986427d
+			y: -1.8017006802721056d
 		}
 		{
 			dependencies: ["12D07F810D3FEE98"]
@@ -1728,8 +1728,8 @@
 				item: "nyagibits_bytes:raw_rose_quartz"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.5d
+			x: 8.18027210884356d
+			y: -1.8017006802721056d
 		}
 		{
 			dependencies: ["12D07F810D3FEE98"]
@@ -1761,8 +1761,8 @@
 				item: "nyagibits_bytes:raw_prasiolite"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 4.5d
+			x: 8.551700680272127d
+			y: -2.487414965986396d
 		}
 		{
 			dependencies: ["12D07F810D3FEE98"]
@@ -1794,8 +1794,8 @@
 				item: "nyagibits_bytes:raw_meteoric_certus"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 6.5d
+			x: 8.923129251700708d
+			y: -1.8017006802721056d
 		}
 		{
 			dependencies: [
@@ -1822,8 +1822,8 @@
 				type: "item"
 			}]
 			title: "Raw Zinc"
-			x: -5.0d
-			y: 5.5d
+			x: -5.084013605442117d
+			y: -1.765986394557821d
 		}
 		{
 			dependencies: ["0EE36446F98AA6C3"]
@@ -1846,8 +1846,8 @@
 				item: "nyagibits_bytes:raw_zinc_carbonate"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 5.5d
+			x: -2.130782312925092d
+			y: -1.7430272108843425d
 		}
 		{
 			dependencies: ["0EE36446F98AA6C3"]
@@ -1870,8 +1870,8 @@
 				item: "nyagibits_bytes:raw_sphalerite"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 4.5d
+			x: -2.8629251700679674d
+			y: -1.7608843537414884d
 		}
 		{
 			dependencies: ["0EE36446F98AA6C3"]
@@ -1894,8 +1894,8 @@
 				item: "nyagibits_bytes:raw_smithsonite"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 6.5d
+			x: -3.964965986394482d
+			y: -1.0823129251700578d
 		}
 		{
 			dependencies: ["0EE36446F98AA6C3"]
@@ -1918,8 +1918,8 @@
 				item: "nyagibits_bytes:raw_hemimorphite"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.5d
+			x: -3.230272108843465d
+			y: -1.0619047619047493d
 		}
 		{
 			dependencies: ["0EE36446F98AA6C3"]
@@ -1942,8 +1942,8 @@
 				item: "nyagibits_bytes:raw_wurtzite"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 4.5d
+			x: -3.601020408163201d
+			y: -1.7608843537414884d
 		}
 		{
 			dependencies: ["0EE36446F98AA6C3"]
@@ -1966,8 +1966,8 @@
 				item: "nyagibits_bytes:raw_hydrozincite"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 6.5d
+			x: -1.7931972789114994d
+			y: -1.0602040816326408d
 		}
 		{
 			dependencies: ["0EE36446F98AA6C3"]
@@ -1990,8 +1990,8 @@
 				item: "nyagibits_bytes:raw_willemite"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 4.5d
+			x: -4.340816326530543d
+			y: -1.7659863945578138d
 		}
 		{
 			dependencies: ["0EE36446F98AA6C3"]
@@ -2014,8 +2014,8 @@
 				item: "nyagibits_bytes:raw_franklinite"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 6.5d
+			x: -2.4955782312924413d
+			y: -1.0619047619047421d
 		}
 		{
 			dependencies: [
@@ -2041,8 +2041,8 @@
 				type: "item"
 			}]
 			title: "Raw Alumin(i)um"
-			x: -5.0d
-			y: 10.5d
+			x: -3.55680272108836d
+			y: 0.7952380952381191d
 		}
 		{
 			dependencies: ["759B1A3F42003E45"]
@@ -2065,8 +2065,8 @@
 				item: "nyagibits_bytes:raw_bauxite"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 10.5d
+			x: -2.823129251700628d
+			y: 0.8095238095238315d
 		}
 		{
 			dependencies: ["759B1A3F42003E45"]
@@ -2089,8 +2089,8 @@
 				item: "nyagibits_bytes:raw_feldspar"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 9.5d
+			x: -2.0884353741496042d
+			y: 0.8299319727891401d
 		}
 		{
 			dependencies: ["759B1A3F42003E45"]
@@ -2150,8 +2150,8 @@
 				item: "nyagibits_bytes:raw_clustered_beryl"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 11.5d
+			x: -0.9863945578230755d
+			y: 1.5238095238095468d
 		}
 		{
 			dependencies: ["759B1A3F42003E45"]
@@ -2174,8 +2174,8 @@
 				item: "nyagibits_bytes:raw_cryolite"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 10.5d
+			x: -0.6190476190475636d
+			y: 0.8299319727891401d
 		}
 		{
 			dependencies: ["759B1A3F42003E45"]
@@ -2198,8 +2198,8 @@
 				item: "nyagibits_bytes:raw_spinel"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 9.5d
+			x: -1.3537414965985874d
+			y: 0.8299319727891401d
 		}
 		{
 			dependencies: ["759B1A3F42003E45"]
@@ -2222,8 +2222,8 @@
 				item: "nyagibits_bytes:raw_turquoise"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 11.5d
+			x: -1.7210884353740994d
+			y: 1.5238095238095468d
 		}
 		{
 			dependencies: ["759B1A3F42003E45"]
@@ -2246,8 +2246,8 @@
 				item: "nyagibits_bytes:raw_garnet_slush"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 9.5d
+			x: -2.4353741496598147d
+			y: 1.5034013605442453d
 		}
 		{
 			dependencies: ["759B1A3F42003E45"]
@@ -2270,8 +2270,8 @@
 				item: "nyagibits_bytes:raw_native_aluminum"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 11.5d
+			x: -0.2517006802720516d
+			y: 1.5238095238095468d
 		}
 		{
 			dependencies: [
@@ -2297,8 +2297,8 @@
 				type: "item"
 			}]
 			title: "Raw Lead"
-			x: -5.0d
-			y: 8.0d
+			x: -3.924149659863879d
+			y: 0.0945578231292643d
 		}
 		{
 			dependencies: ["71620A0BAD820CD9"]
@@ -2321,8 +2321,8 @@
 				item: "nyagibits_bytes:raw_galena"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 8.0d
+			x: -6.504761904761843d
+			y: 0.7809523809523995d
 		}
 		{
 			dependencies: ["71620A0BAD820CD9"]
@@ -2345,8 +2345,8 @@
 				item: "nyagibits_bytes:raw_lead_sulphide"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 7.0d
+			x: -6.137414965986331d
+			y: 0.10748299319730137d
 		}
 		{
 			dependencies: ["71620A0BAD820CD9"]
@@ -2369,8 +2369,8 @@
 				item: "nyagibits_bytes:raw_pyromorphite"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 9.0d
+			x: -7.2394557823128665d
+			y: 0.7809523809523995d
 		}
 		{
 			dependencies: ["71620A0BAD820CD9"]
@@ -2393,8 +2393,8 @@
 				item: "nyagibits_bytes:raw_cerussite"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 8.0d
+			x: -6.8721088435373545d
+			y: 0.10748299319730137d
 		}
 		{
 			dependencies: ["71620A0BAD820CD9"]
@@ -2417,8 +2417,8 @@
 				item: "nyagibits_bytes:raw_anglesite"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 7.0d
+			x: -5.402721088435314d
+			y: 0.10748299319730137d
 		}
 		{
 			dependencies: ["71620A0BAD820CD9"]
@@ -2441,8 +2441,8 @@
 				item: "nyagibits_bytes:raw_wulfenite"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 9.0d
+			x: -5.770068027210826d
+			y: 0.7809523809523995d
 		}
 		{
 			dependencies: ["71620A0BAD820CD9"]
@@ -2465,8 +2465,8 @@
 				item: "nyagibits_bytes:raw_vanadinite"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 7.0d
+			x: -4.66802721088429d
+			y: 0.10748299319730137d
 		}
 		{
 			dependencies: ["71620A0BAD820CD9"]
@@ -2489,8 +2489,8 @@
 				item: "nyagibits_bytes:raw_mimetite"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 9.0d
+			x: -5.035374149659802d
+			y: 0.7809523809523995d
 		}
 		{
 			dependencies: [
@@ -2516,8 +2516,8 @@
 				type: "item"
 			}]
 			title: "Raw Nickel"
-			x: -5.0d
-			y: 13.0d
+			x: -2.418367346938723d
+			y: 2.7278911564626256d
 		}
 		{
 			dependencies: ["45518D2CD823F143"]
@@ -2540,8 +2540,8 @@
 				item: "nyagibits_bytes:raw_pentlandite"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 14.0d
+			x: -3.8945578231291975d
+			y: 2.720748299319766d
 		}
 		{
 			dependencies: ["45518D2CD823F143"]
@@ -2564,8 +2564,8 @@
 				item: "nyagibits_bytes:raw_garnierite"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 13.0d
+			x: -3.523129251700624d
+			y: 3.377891156462624d
 		}
 		{
 			dependencies: ["45518D2CD823F143"]
@@ -2588,8 +2588,8 @@
 				item: "nyagibits_bytes:raw_saprolite"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 12.0d
+			x: -5.380272108843485d
+			y: 2.720748299319766d
 		}
 		{
 			dependencies: ["45518D2CD823F143"]
@@ -2612,8 +2612,8 @@
 				item: "nyagibits_bytes:raw_hardened_sulfide_flow"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 13.0d
+			x: -4.265986394557771d
+			y: 3.377891156462624d
 		}
 		{
 			dependencies: ["45518D2CD823F143"]
@@ -2635,8 +2635,8 @@
 				item: "nyagibits_bytes:raw_millerite"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 14.0d
+			x: -3.15170068027205d
+			y: 2.720748299319766d
 		}
 		{
 			dependencies: ["45518D2CD823F143"]
@@ -2659,8 +2659,8 @@
 				item: "nyagibits_bytes:raw_nickeline"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 12.0d
+			x: -4.637414965986338d
+			y: 2.720748299319766d
 		}
 		{
 			dependencies: ["45518D2CD823F143"]
@@ -2683,8 +2683,8 @@
 				item: "nyagibits_bytes:raw_meteoric_taenite"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 14.0d
+			x: -5.751700680272052d
+			y: 3.406462585034049d
 		}
 		{
 			dependencies: ["45518D2CD823F143"]
@@ -2708,8 +2708,8 @@
 				item: "nyagibits_bytes:raw_meteoric_kamacite"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 12.0d
+			x: -5.008843537414911d
+			y: 3.406462585034049d
 		}
 		{
 			dependencies: [
@@ -2735,8 +2735,8 @@
 				type: "item"
 			}]
 			title: "Raw Uranium and Thorium"
-			x: -5.0d
-			y: 15.5d
+			x: -2.055272108843482d
+			y: 3.424319727891188d
 		}
 		{
 			dependencies: ["2C6845E1DFB220C9"]
@@ -2759,8 +2759,8 @@
 				item: "nyagibits_bytes:raw_pitchblende"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 15.5d
+			x: -1.294557823129196d
+			y: 3.435034013605481d
 		}
 		{
 			dependencies: ["2C6845E1DFB220C9"]
@@ -2783,8 +2783,8 @@
 				item: "nyagibits_bytes:raw_carnotite"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 14.5d
+			x: -0.1802721088434751d
+			y: 4.1207482993197715d
 		}
 		{
 			dependencies: ["2C6845E1DFB220C9"]
@@ -2807,8 +2807,8 @@
 				item: "nyagibits_bytes:raw_tyuyamunite"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 16.5d
+			x: 1.3054421768708195d
+			y: 4.092176870748347d
 		}
 		{
 			dependencies: ["2C6845E1DFB220C9"]
@@ -2831,8 +2831,8 @@
 				item: "nyagibits_bytes:raw_torbernite"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 14.5d
+			x: -0.9231292517006153d
+			y: 4.1207482993197715d
 		}
 		{
 			dependencies: ["2C6845E1DFB220C9"]
@@ -2855,8 +2855,8 @@
 				item: "nyagibits_bytes:raw_autunite"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 16.5d
+			x: 0.9340136054422459d
+			y: 3.435034013605481d
 		}
 		{
 			dependencies: ["2C6845E1DFB220C9"]
@@ -2879,8 +2879,8 @@
 				item: "nyagibits_bytes:raw_thorite"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 15.5d
+			x: 0.5625850340136793d
+			y: 4.1207482993197715d
 		}
 		{
 			dependencies: ["2C6845E1DFB220C9"]
@@ -2903,8 +2903,8 @@
 				item: "nyagibits_bytes:raw_uranothorite"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 14.5d
+			x: 0.19115646258509855d
+			y: 3.435034013605481d
 		}
 		{
 			dependencies: ["2C6845E1DFB220C9"]
@@ -2927,8 +2927,8 @@
 				item: "nyagibits_bytes:raw_thorianite"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 16.5d
+			x: -0.5517006802720417d
+			y: 3.435034013605481d
 		}
 		{
 			dependencies: [
@@ -2954,8 +2954,8 @@
 				type: "item"
 			}]
 			title: "Raw Tin"
-			x: -5.0d
-			y: 18.0d
+			x: -0.9136054421768023d
+			y: 5.396938775510243d
 		}
 		{
 			dependencies: ["1CDB5D26D5C8253C"]
@@ -2978,8 +2978,8 @@
 				item: "nyagibits_bytes:raw_cassiterite"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 18.0d
+			x: -3.110884353741433d
+			y: 5.40374149659867d
 		}
 		{
 			dependencies: ["1CDB5D26D5C8253C"]
@@ -3002,8 +3002,8 @@
 				item: "nyagibits_bytes:raw_stannite"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 17.0d
+			x: -1.6414965986393923d
+			y: 5.383333333333361d
 		}
 		{
 			dependencies: ["1CDB5D26D5C8253C"]
@@ -3026,8 +3026,8 @@
 				item: "nyagibits_bytes:raw_cylindrite"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 19.0d
+			x: -2.376190476190409d
+			y: 5.40374149659867d
 		}
 		{
 			dependencies: ["1CDB5D26D5C8253C"]
@@ -3050,8 +3050,8 @@
 				item: "nyagibits_bytes:raw_franckeite"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 17.0d
+			x: -3.845578231292457d
+			y: 5.40374149659867d
 		}
 		{
 			dependencies: ["1CDB5D26D5C8253C"]
@@ -3074,8 +3074,8 @@
 				item: "nyagibits_bytes:raw_canfieldite"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 19.0d
+			x: -2.0088435374149043d
+			y: 6.077210884353768d
 		}
 		{
 			dependencies: ["1CDB5D26D5C8253C"]
@@ -3098,8 +3098,8 @@
 				item: "nyagibits_bytes:raw_teallite"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 18.0d
+			x: -4.212925170067962d
+			y: 6.077210884353782d
 		}
 		{
 			dependencies: ["1CDB5D26D5C8253C"]
@@ -3122,8 +3122,8 @@
 				item: "nyagibits_bytes:raw_brannerite"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 17.0d
+			x: -2.743537414965921d
+			y: 6.097619047619077d
 		}
 		{
 			dependencies: ["1CDB5D26D5C8253C"]
@@ -3146,8 +3146,8 @@
 				item: "nyagibits_bytes:raw_orthoclase"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 19.0d
+			x: -3.478231292516945d
+			y: 6.097619047619077d
 		}
 		{
 			dependencies: ["35494E3A757EA660"]
@@ -3178,8 +3178,8 @@
 				}
 			]
 			title: "Raw Niter, Sulfur, and other Minerals"
-			x: 8.5d
-			y: 10.5d
+			x: 4.0945578231292785d
+			y: -0.0017006802721084568d
 		}
 		{
 			dependencies: ["7B8BC8FC6D7C4E87"]
@@ -3202,8 +3202,8 @@
 				item: "nyagibits_bytes:raw_saltpeter"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 10.5d
+			x: 7.046258503401383d
+			y: 0.010884353741523967d
 		}
 		{
 			dependencies: ["7B8BC8FC6D7C4E87"]
@@ -3226,8 +3226,8 @@
 				item: "nyagibits_bytes:raw_borax"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 9.5d
+			x: 6.311564625850359d
+			y: 0.010884353741523967d
 		}
 		{
 			dependencies: ["7B8BC8FC6D7C4E87"]
@@ -3250,8 +3250,8 @@
 				item: "nyagibits_bytes:raw_compacted_limestone"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 11.5d
+			x: 5.194217687074854d
+			y: 0.6860544217687377d
 		}
 		{
 			dependencies: ["7B8BC8FC6D7C4E87"]
@@ -3275,8 +3275,8 @@
 				item: "nyagibits_bytes:raw_volcanic_sulfur"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 9.5d
+			x: 5.580272108843566d
+			y: -0.0017006802721084568d
 		}
 		{
 			dependencies: ["7B8BC8FC6D7C4E87"]
@@ -3299,8 +3299,8 @@
 				item: "nyagibits_bytes:raw_rainbow_obsidian"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 11.5d
+			x: 5.923809523809545d
+			y: 0.6843537414966292d
 		}
 		{
 			dependencies: ["7B8BC8FC6D7C4E87"]
@@ -3323,8 +3323,8 @@
 				item: "nyagibits_bytes:raw_petrified_wood"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 10.5d
+			x: 7.393197278911579d
+			y: 0.6843537414966292d
 		}
 		{
 			dependencies: ["7B8BC8FC6D7C4E87"]
@@ -3348,8 +3348,8 @@
 				item: "nyagibits_bytes:raw_chalk"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 9.5d
+			x: 4.837414965986419d
+			y: -0.0017006802721084568d
 		}
 		{
 			dependencies: ["7B8BC8FC6D7C4E87"]
@@ -3373,8 +3373,8 @@
 				item: "nyagibits_bytes:raw_trona"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 11.5d
+			x: 6.658503401360569d
+			y: 0.6843537414966292d
 		}
 		{
 			dependencies: ["5EF1C3C4635C1CF1"]
@@ -3399,8 +3399,8 @@
 				type: "item"
 			}]
 			title: "The Hyper Layer"
-			x: -2.0d
-			y: -3.0d
+			x: 0.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["4E7A58F86D085264"]
@@ -3424,13 +3424,13 @@
 				type: "item"
 			}]
 			title: "The Dense Layer"
-			x: -3.0d
-			y: -3.5d
+			x: -1.0d
+			y: -9.5d
 		}
 		{
 			dependencies: [
 				"0CA06BC53DA3167B"
-				"0F2BCC8D3D977D1E"
+				"77D8649486036493"
 			]
 			description: [
 				"Drops 4 ores total from a pool of 8 options, requires at least a manasteel pickaxe to mine"
@@ -3457,8 +3457,8 @@
 				type: "item"
 			}]
 			title: "The Conglomerate Layer"
-			x: -3.0d
-			y: -4.5d
+			x: -1.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["30F02289436EB3F9"]
@@ -3483,8 +3483,8 @@
 				type: "item"
 			}]
 			title: "The Tectonic Layer"
-			x: -1.0d
-			y: -3.5d
+			x: 1.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["00F19BCA2441A0A0"]
@@ -3508,8 +3508,8 @@
 				type: "item"
 			}]
 			title: "The Core"
-			x: -1.0d
-			y: -4.5d
+			x: 1.0d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -3548,8 +3548,8 @@
 				type: "item"
 			}]
 			title: "Sintering"
-			x: -6.0d
-			y: -7.0d
+			x: -8.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["35494E3A757EA660"]
@@ -3571,8 +3571,8 @@
 				type: "item"
 			}]
 			title: "Washing"
-			x: 9.5d
-			y: -5.5d
+			x: 7.3829931972789495d
+			y: -7.1717687074829755d
 		}
 		{
 			dependencies: ["25404916F94B9AE8"]
@@ -3614,11 +3614,14 @@
 				}
 			]
 			title: "Crude Polishing"
-			x: 10.5d
-			y: -5.5d
+			x: 7.77074829931977d
+			y: -7.845238095238081d
 		}
 		{
-			dependencies: ["7BD5615FF834FB3B"]
+			dependencies: [
+				"7BD5615FF834FB3B"
+				"7C2306F0A64DE040"
+			]
 			description: [
 				"So many ores?? How to keep track of everything?!"
 				""
@@ -3649,8 +3652,8 @@
 				type: "checkmark"
 			}]
 			title: "Ores and You!"
-			x: 2.5d
-			y: -9.5d
+			x: 0.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["35494E3A757EA660"]
@@ -3667,8 +3670,8 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -5.5d
+			x: 7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["510C4A6E6F1259B5"]
@@ -3696,8 +3699,8 @@
 				}
 			]
 			title: "Fluid Assistance"
-			x: 10.5d
-			y: -6.5d
+			x: 7.423809523809574d
+			y: -8.518707482993186d
 		}
 		{
 			dependencies: ["1955E60B51E911ED"]
@@ -3718,8 +3721,8 @@
 				type: "checkmark"
 			}]
 			title: "Puncture The World"
-			x: -0.5d
-			y: -5.5d
+			x: 0.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["453481B45C1169E4"]
@@ -3766,8 +3769,8 @@
 				}
 			]
 			title: "Carbonate Igneous Deposit"
-			x: 0.0d
-			y: -6.5d
+			x: -0.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["3EC5385262A7A38A"]
@@ -3806,8 +3809,8 @@
 				}
 			]
 			title: "Argyrodite Deposit"
-			x: 1.0d
-			y: -7.0d
+			x: 0.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["2B9899F592B4E814"]
@@ -3856,8 +3859,8 @@
 				}
 			]
 			title: "Ancient Mineral Spring Deposit"
-			x: 3.0d
-			y: -6.5d
+			x: -0.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["38C12E46D6C2B066"]
@@ -3894,8 +3897,8 @@
 				}
 			]
 			title: "Hydrocarbon Rich Deposit"
-			x: 3.5d
-			y: -5.5d
+			x: 0.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["70289AE8732F693E"]
@@ -3932,8 +3935,8 @@
 				}
 			]
 			title: "Fossil Deposit"
-			x: 4.0d
-			y: -4.5d
+			x: 0.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["4DED61BFDA09B17E"]
@@ -3970,8 +3973,8 @@
 				}
 			]
 			title: "Endermorphic Deposit"
-			x: 4.0d
-			y: -3.5d
+			x: -0.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["230A582D5ABD1DF2"]
@@ -4030,8 +4033,8 @@
 				}
 			]
 			title: "Core Seam "
-			x: 3.5d
-			y: -1.5d
+			x: 0.0d
+			y: -17.5d
 		}
 		{
 			dependencies: ["794BE296BCE95CD3"]
@@ -4072,8 +4075,8 @@
 				}
 			]
 			title: "Helium Deposit"
-			x: 4.0d
-			y: -2.5d
+			x: 0.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["0AA6E4463E27A4F9"]
@@ -4130,8 +4133,8 @@
 				}
 			]
 			title: "Lanthanithic Deposit"
-			x: 2.0d
-			y: -7.0d
+			x: 0.0d
+			y: -13.5d
 		}
 		{
 			dependencies: ["37982224A6A10F95"]
@@ -4159,8 +4162,8 @@
 				type: "item"
 			}]
 			title: "Void Seam"
-			x: 3.0d
-			y: -0.5d
+			x: 0.0d
+			y: -18.5d
 		}
 		{
 			dependencies: ["510C4A6E6F1259B5"]
@@ -4189,8 +4192,8 @@
 				}
 			]
 			title: "Getting REALLY clean"
-			x: 11.5d
-			y: -6.482142857142847d
+			x: 8.525850340136103d
+			y: -7.845238095238081d
 		}
 		{
 			dependencies: ["50B6548021E10F91"]
@@ -4214,8 +4217,8 @@
 				}
 			]
 			title: "IT'S ALIVE"
-			x: 11.5d
-			y: -5.5d
+			x: 8.913605442176916d
+			y: -8.518707482993186d
 		}
 		{
 			dependencies: ["55F62F8F0F606A69"]
@@ -4238,8 +4241,23 @@
 				title: "Should Hire The Boulder Bros"
 				type: "checkmark"
 			}]
-			x: 2.5d
-			y: -10.5d
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7BD5615FF834FB3B"]
+			description: ["&7To unlock the rest of the welcome tab, confirm this quest was read with the checkmark above."]
+			icon: "botania:corporea_spark_creative"
+			id: "7C2306F0A64DE040"
+			subtitle: "No diggy diggy hole here :("
+			tasks: [{
+				id: "7354478B9F16A364"
+				title: "Confirmation You Have Read The Blerb"
+				type: "checkmark"
+			}]
+			title: "Welcome To The Ore Line"
+			x: 0.0d
+			y: -6.5d
 		}
 	]
 	subtitle: ["I am a dwarf and I'm digging a hole"]
