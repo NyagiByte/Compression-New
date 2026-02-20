@@ -431,7 +431,7 @@
 		{
 			dependencies: ["1D2BED04E13B73F3"]
 			description: [
-				"Any good engineer needs their assortment of tools to actively loose track of the exact moment they are needed."
+				"Any good engineer needs their assortment of tools to actively lose track of the exact moment they are needed."
 				""
 				"The &bTools of Industry&r tab showcases many gadgets that will aid in your progress."
 			]
@@ -455,8 +455,7 @@
 		{
 			dependencies: [
 				"1D2BED04E13B73F3"
-				"55F62F8F0F606A69"
-				"523720A4135CEAF8"
+				"5ADA3C4D97A9FA53"
 			]
 			icon: "quark:mangrove_bookshelf"
 			id: "147F646960AE4EBE"

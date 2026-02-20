@@ -914,13 +914,21 @@
 		}
 		{
 			dependencies: ["365E56328068F481"]
+			description: [
+				"&7To unlock the rest of the welcome tab, confirm this quest was read with the checkmark above."
+				""
+				"This tab, &dTools of Industry&r, will showcase options available to you in terms of &atools and gadgets&r that will aid in a variety of tasks around your base."
+			]
 			hide_until_deps_complete: true
+			icon: "botania:corporea_spark_creative"
 			id: "0049E87A6B59FE5A"
+			subtitle: "All the tools you'll ever need"
 			tasks: [{
 				id: "7BFCD6B9DBB0E23E"
-				title: "tools of industry read check"
+				title: "Confirmation You Have Read The Blerb"
 				type: "checkmark"
 			}]
+			title: "Welcome To Tools of Industry"
 			x: -3.5d
 			y: 4.5d
 		}

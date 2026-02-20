@@ -10,13 +10,31 @@
 	quests: [
 		{
 			dependencies: ["06742EB86FD93B67"]
+			description: [
+				"&7To unlock the rest of the welcome tab, confirm this quest was read with the checkmark above."
+				""
+				"Here in &dThe Factory Must Grow&r, you will be delighted with all the options open to you for building &aquickly&r, &arobustly&r, and most importantly, with &bstyle and beauty&r."
+				"{@pagebreak}"
+				"The &a4 attached quests&r point towards general catagories."
+				""
+				"&b&nStructural&r - Building \\& Scrapping mechanics."
+				""
+				"&b&nMass Construction&r - I don't think I need to explain this one."
+				""
+				"&b&nMovement&r - Getting around your base quickly."
+				""
+				"&b&nLogistics Management&r - Getting stuff that isn't you around your base quickly."
+			]
 			hide_until_deps_complete: true
+			icon: "botania:corporea_spark_creative"
 			id: "5F964897DC3F3EF8"
+			subtitle: "Try out Pyanodons!"
 			tasks: [{
 				id: "3892EA84924EEDF4"
-				title: "building read check"
+				title: "Confirmation You Have Read The Blerb"
 				type: "checkmark"
 			}]
+			title: "Welcome to The Factory Must Grow"
 			x: 1.0d
 			y: 0.0d
 		}
@@ -34,6 +52,7 @@
 		}
 		{
 			dependencies: ["5F964897DC3F3EF8"]
+			icon: "pneumaticcraft:speed_upgrade"
 			id: "25761DABD5917644"
 			tasks: [{
 				id: "3BB6E4760395B1F3"
@@ -45,6 +64,13 @@
 		}
 		{
 			dependencies: ["5F964897DC3F3EF8"]
+			icon: {
+				Count: 1
+				id: "pneumaticcraft:logistics_drone"
+				tag: {
+					"pneumaticcraft:air": 120000
+				}
+			}
 			id: "400105EB08904710"
 			tasks: [{
 				id: "26AA7103C0EDF7B8"
@@ -56,6 +82,7 @@
 		}
 		{
 			dependencies: ["5F964897DC3F3EF8"]
+			icon: "minecraft:scaffolding"
 			id: "6A7404C416453F72"
 			tasks: [{
 				id: "4DED9A234D91E752"
@@ -67,6 +94,7 @@
 		}
 		{
 			dependencies: ["5F964897DC3F3EF8"]
+			icon: "create:builders_tea"
 			id: "5E780FBECE1F61E6"
 			tasks: [{
 				id: "24909C282964F565"
@@ -274,6 +302,35 @@
 			}]
 			x: 4.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["6875017F7DCC9969"]
+			id: "47A6AC722E35E179"
+			tasks: [
+				{
+					id: "094DF6F456402399"
+					item: "create_hypertube:hypertube_entrance"
+					type: "item"
+				}
+				{
+					id: "588FAD2AE37D4DB3"
+					item: "create_hypertube:hypertube"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["47A6AC722E35E179"]
+			id: "375105B06291C374"
+			tasks: [{
+				id: "5F7FE4445B946230"
+				item: "create_hypertube:hypertube_accelerator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
 		}
 	]
 	title: " &fThe Factory Must Grow"
