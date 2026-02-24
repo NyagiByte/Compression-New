@@ -266,17 +266,34 @@
 		{
 			dependencies: ["4FB68561130B82C9"]
 			id: "0D97FCEA76ACC0D1"
-			tasks: [{
-				id: "7FA3A7776F013717"
-				item: "create:item_vault"
+			rewards: [{
+				id: "0E56F16B7DBFEE4C"
+				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			tasks: [
+				{
+					id: "7FA3A7776F013717"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					id: "1BFA418B332E0723"
+					item: "create:item_hatch"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["4FB68561130B82C9"]
 			id: "4979C4345BF49D59"
+			rewards: [{
+				id: "2CE49CF94C2B834B"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "515E0C9B12798724"
