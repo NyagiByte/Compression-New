@@ -28,6 +28,11 @@
 			hide_until_deps_complete: true
 			icon: "botania:corporea_spark_creative"
 			id: "5F964897DC3F3EF8"
+			rewards: [{
+				id: "4FEA6479DADF12EA"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			subtitle: "Try out Pyanodons!"
 			tasks: [{
 				id: "3892EA84924EEDF4"
@@ -54,16 +59,25 @@
 			dependencies: ["5F964897DC3F3EF8"]
 			icon: "pneumaticcraft:speed_upgrade"
 			id: "25761DABD5917644"
+			subtitle: "Trains are the crabs of transportation"
 			tasks: [{
 				id: "3BB6E4760395B1F3"
-				title: "Movement"
+				title: "→ Movement →"
 				type: "checkmark"
 			}]
+			title: "→ Getting Around →"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5F964897DC3F3EF8"]
+			description: [
+				"Getting items around your base &aefficiently&r is not difficult on an &nindividual recipe level&r."
+				""
+				"The difficulty comes when &ecross connecting&r production areas and &6maintaining stock&r of everything at once while also &cpreventing overflow&r or bottlenecks."
+				"{@pagebreak}"
+				"Thankfully &dLogistics Management&r has your back with all the infrastructure needed to maintain less spaghetti than normal."
+			]
 			icon: {
 				Count: 1
 				id: "pneumaticcraft:logistics_drone"
@@ -72,23 +86,44 @@
 				}
 			}
 			id: "400105EB08904710"
+			rewards: [{
+				id: "30614F212391A1D4"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "The MSG Company is down, ran out of GPU membranes"
 			tasks: [{
 				id: "26AA7103C0EDF7B8"
-				title: "Logistics Management"
+				title: "↓ Logistics Management ↓"
 				type: "checkmark"
 			}]
+			title: "↓ The Supply Chain ↓"
 			x: 1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5F964897DC3F3EF8"]
+			description: [
+				"Factories are much more than the machines inside. The &l&6physical skeleton&r of the structure itself needs attention to ensure &aproper expandability&r."
+				""
+				"More importantly as well is to make things &dpretty&r. This may seem like a waste but a pretty base is a base you'll want to work in."
+				"{@pagebreak}"
+				"If you lawn base I will remove all of your bones."
+			]
 			icon: "minecraft:scaffolding"
 			id: "6A7404C416453F72"
+			rewards: [{
+				id: "54CFF1549AD8B17A"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "It's not a real base without concrete and lamps - Dosh"
 			tasks: [{
 				id: "4DED9A234D91E752"
-				title: "Structural"
+				title: "← Structural Info"
 				type: "checkmark"
 			}]
+			title: "← Structual \\& Building ←"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -96,17 +131,38 @@
 			dependencies: ["5F964897DC3F3EF8"]
 			icon: "create:builders_tea"
 			id: "5E780FBECE1F61E6"
+			subtitle: "Gray Goo Not Included"
 			tasks: [{
 				id: "24909C282964F565"
-				title: "Mass Construction"
+				title: "↑ Mass Construction ↑"
 				type: "checkmark"
 			}]
+			title: "↑ Automation Includes Building Too ↑"
 			x: 1.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["400105EB08904710"]
+			description: [
+				"Chests! Oh glorious Chest!"
+				""
+				"Can be &nsolo or double&r as I'm sure is known."
+				"{@pagebreak}"
+				"Besides the obvious storage applications, chests can act as &abuffers&r for continous automation tasks."
+				""
+				"For example slapping a chest directly on the output of a &6cobblestone generator&r can act as a buffer to better tolerate spikes in demand.  "
+				"{@pagebreak}"
+				"In addition the chest can be read by a comparator to &6auto-shut-off&r the cobblegen once sufficiently full."
+				""
+				"More information on comparators on the quest to the &n→ right →&r, there you see it right? Ok."
+			]
 			id: "4FB68561130B82C9"
+			rewards: [{
+				id: "67348EFC4F5B39B2"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "Recipe unchanged as a small mercy"
 			tasks: [{
 				id: "6262AAB068F05B20"
 				item: "minecraft:chest"
@@ -117,12 +173,26 @@
 		}
 		{
 			dependencies: ["6A7404C416453F72"]
+			description: [
+				"&dIndustrial Iron&r is a block from create that can be &6instantly picked up&r with a shift right click of a &ewrench&r."
+				""
+				"I'm sure you can see the applications in using these blocks as &atemporary scaffolding&r or moving structure elements."
+				""
+				"They also look quite nice on their own."
+			]
 			id: "3B1C0DC00EC8C081"
+			rewards: [{
+				id: "0DDBABFC59722CED"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "Don't forget your wrench!"
 			tasks: [{
 				id: "4A678660A4D55785"
 				item: "create:industrial_iron_block"
 				type: "item"
 			}]
+			title: "Shockingly Good Scaffolding"
 			x: -3.0d
 			y: 0.0d
 		}
@@ -246,19 +316,57 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3B1C0DC00EC8C081"]
+			dependencies: [
+				"3B1C0DC00EC8C081"
+				"3BEACE9F3F1EC3AA"
+			]
+			description: [
+				"So many structures strwen about! What to do with them?"
+				""
+				"Because the dev team &7(one person)&r is insane, all decorative blocks are now subject to &6a scrapping system!&r"
+				"{@pagebreak}"
+				"Decorative elements in structures have &n2 routes&r to processing them."
+				""
+				"&l1)&r &bSawing&r them into a &6matter ball&r of a designated flavor."
+				""
+				"&l2)&r &bSmashing&r them into their component parts."
+				"{@pagebreak}"
+				"The distinction between &nsawing and smashing&r ensures that any decorative element can be \"&are-rolled&r\" into any other decorative element of its respective \"level\"."
+				"{@pagebreak}"
+				"This also means decorative elements can have &atier-gated&r recipes but still remain somewhat accessible."
+				""
+				"The real treat from this as well is that given a &blucky enough find&r you can gain access to materials well &cb&6e&ey&ao&bn&dd&r your tech level."
+			]
 			id: "4A8BE783CC23F0B5"
+			rewards: [{
+				id: "2781E3A082852204"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "Loot goblin paradise"
 			tasks: [{
 				id: "637001F426E416B8"
 				item: "nyagibits_bytes:ball_plastic_i"
 				type: "item"
 			}]
+			title: "Scrapping all that loot"
 			x: -3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4A8BE783CC23F0B5"]
+			description: [
+				"With a stone cutter or filtered create saw you can exchange your matter balls for practically any other decorative block related to it. "
+				""
+				"Be sure to check JEI carefully!"
+			]
 			id: "265FD28756CCF3E2"
+			rewards: [{
+				id: "709A6C39D29929FB"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "The magic \"pick output\" crafting UI"
 			tasks: [{
 				id: "073E7C7C420295D7"
 				item: "minecraft:stonecutter"
@@ -630,5 +738,6 @@
 			y: 5.5d
 		}
 	]
+	subtitle: [" &fThe stupid biters are on my oil patch!"]
 	title: " &fThe Factory Must Grow"
 }
