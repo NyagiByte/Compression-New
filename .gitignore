@@ -56,3 +56,4 @@ config/oculus.properties
 config/packetfixer.properties
 config/xenon-options.json
 config/xenon++.toml
+/config/worldedit
