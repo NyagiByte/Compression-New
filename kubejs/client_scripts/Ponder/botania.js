@@ -23,6 +23,7 @@ Ponder.tags((e) => {
         "botania:enchanter"
     ])
 
+    // I got lazy
     function corporeaName(name) {
         return "botania:corporea_" + name
     }
@@ -31,7 +32,10 @@ Ponder.tags((e) => {
         corporeaName("spark"),
         corporeaName("block"),
         corporeaName("funnel"),
-        corporeaName("interceptor")
+        corporeaName("interceptor"),
+        corporeaName("retainer"),
+        corporeaName("crystal_cube"),
+        corporeaName("index")
     ])
 })
 //------------------------------------------------------------------
@@ -1184,8 +1188,8 @@ Ponder.registry((e) => {
         .scene("corporea_start", "Corporea Basics", "kubejs:botania_5x5", (scene, util) => {
             scene.showBasePlate();
             scene.idle(10)
-            const master = createSparkAt(scene, 2.5, 1.5, 2.5, true)
-            const notMaster = createSparkAt(scene, 2.5, 2.5, 2.5, false)
+            const master = createSparkAt(scene, 2.5, 1.5, 2.5, true, false)
+            const notMaster = createSparkAt(scene, 2.5, 2.5, 2.5, false, false)
             scene.text(160, "Due to technical limitations, corporea sparks will be represented by glazed terracotta, with master and non-master sparks being light blue and pink (bottom and top) respectively.")
             scene.idle(160)
             scene.world.modifyEntity(master, discard)
@@ -1197,12 +1201,13 @@ Ponder.registry((e) => {
             scene.world.setBlock([1, 1, 2], "minecraft:chest", false)
             scene.world.setBlock([2, 1, 2], "minecraft:barrel", false)
             scene.world.setBlock([3, 1, 2], "create:item_vault", false)
+            scene.world.modifyBlock([3,1,2], (vault) => vault.with("axis", "z"), false)
             scene.world.showSection([[1, 1, 2], [3, 1, 2]], Facing.down)
             scene.text(90, "...They must be placed on an inventory...")
             scene.idle(10)
-            const overChest = createSparkAt(scene, 1.5, 2.5, 2.5, false, true)
-            const overBarrel = createSparkAt(scene, 2.5, 2.5, 2.5, false, true)
-            const overVault = createSparkAt(scene, 3.5, 2.5, 2.5, false, true)
+            const overChest = createSparkAt(scene, 1.5, 2.5, 2.5, false)
+            const overBarrel = createSparkAt(scene, 2.5, 2.5, 2.5, false)
+            const overVault = createSparkAt(scene, 3.5, 2.5, 2.5, false)
             scene.idle(70)
             scene.world.hideSection([[1, 1, 2], [3, 1, 2]], Facing.up)
             scene.world.modifyEntity(overChest, discard)
@@ -1215,9 +1220,9 @@ Ponder.registry((e) => {
             scene.world.showSection([[1, 1, 2], [3, 1, 2]], Facing.down)
             scene.text(90, "...Or on specialized corporea blocks.")
             scene.idle(10)
-            const overCube = createSparkAt(scene, 1.5, 2.5, 2.5, false, true)
-            const overBlock = createSparkAt(scene, 2.5, 2.5, 2.5, false, true)
-            const overFunnel = createSparkAt(scene, 3.5, 2.5, 2.5, false, true)
+            const overCube = createSparkAt(scene, 1.5, 2.5, 2.5, false)
+            const overBlock = createSparkAt(scene, 2.5, 2.5, 2.5, false)
+            const overFunnel = createSparkAt(scene, 3.5, 2.5, 2.5, false)
             scene.idle(70)
             scene.world.hideSection([1, 1, 2], Facing.up)
             scene.world.hideSection([3, 1, 2], Facing.up)
@@ -1238,7 +1243,7 @@ Ponder.registry((e) => {
             scene.world.showSection([2, 1, 2], Facing.down)
             scene.text(120, "...A spark can also be picked up by right clicking on it with a wand while crouching.")
             scene.idle(10)
-            const wrenchedSpark = createSparkAt(scene, 2.5, 2.5, 2.5, false, true)
+            const wrenchedSpark = createSparkAt(scene, 2.5, 2.5, 2.5, false)
             scene.idle(30)
             scene.showControls(40, [2.5, 3, 2.5], "down")
                 .rightClick()
@@ -1260,9 +1265,9 @@ Ponder.registry((e) => {
             scene.idle(5)
             scene.text(105, "Sparks within 8 blocks will connect to form a network...")
             scene.idle(10)
-            createSparkAt(scene, 1.5, 2.5, 2.5, false, true)
+            createSparkAt(scene, 1.5, 2.5, 2.5, false)
             scene.idle(20)
-            createSparkAt(scene, 3.5, 2.5, 2.5, false, true)
+            createSparkAt(scene, 3.5, 2.5, 2.5, false)
             scene.idle(20)
             for(let i = 0; i < 3; i++) {
                 scene.overlay.showLine(PonderPalette.WHITE, [1.5, 2.5, 2.5], [3.5, 2.5, 2.5], 10)
@@ -1281,7 +1286,7 @@ Ponder.registry((e) => {
             scene.world.setBlock([2, 1, 2], "botania:corporea_block", false)
             scene.world.showSection([2, 1, 2], Facing.down)
             scene.idle(10)
-            createSparkAt(scene, 2.5, 2.5, 2.5, true, true)
+            createSparkAt(scene, 2.5, 2.5, 2.5, true)
             scene.idle(80)
             scene.text(80, "With a master spark in place, the network can now be used however you so choose!", [2.5, 2.5, 2.5]).placeNearTarget()
             scene.idle(85)
@@ -1311,7 +1316,7 @@ Ponder.registry((e) => {
             scene.world.showSection([2, 1, 2], Facing.down)
             scene.text(80, "Sparks will start off with the default \"white\" network, represented here by wool...")
             scene.idle(10)
-            const master1 = createSparkAt(scene, 2.5, 2.5, 2.5, true, true)
+            const master1 = createSparkAt(scene, 2.5, 2.5, 2.5, true)
             const whiteColor = colorSparkAt(scene, 2.5, 2.5, 2.5, "white")
             scene.idle(75)
             scene.text(100, "...But this can be changed by simply applying dye to the spark.")
@@ -1336,10 +1341,10 @@ Ponder.registry((e) => {
             scene.text(100, "Sparks on different colored networks will not connect with one another...")
                 .attachKeyFrame()
             scene.idle(10)
-            createSparkAt(scene, 1.5, 2.5, 1.5, false, true)
-            createSparkAt(scene, 3.5, 2.5, 1.5, false, true)
-            createSparkAt(scene, 1.5, 2.5, 3.5, false, true)
-            createSparkAt(scene, 3.5, 2.5, 3.5, false, true)
+            createSparkAt(scene, 1.5, 2.5, 1.5, false)
+            createSparkAt(scene, 3.5, 2.5, 1.5, false)
+            createSparkAt(scene, 1.5, 2.5, 3.5, false)
+            createSparkAt(scene, 3.5, 2.5, 3.5, false)
             colorSparkAt(scene, 1.5, 2.5, 1.5, "white", false)
             colorSparkAt(scene, 3.5, 2.5, 1.5, "magenta", false)
             colorSparkAt(scene, 1.5, 2.5, 3.5, "white", false)
@@ -1391,7 +1396,7 @@ Ponder.registry((e) => {
             scene.world.showSection([[3, 1, 3], [3, 2, 3]], Facing.down)
             scene.text(80, "Corporea funnels are the main way of retrieving items for automation with corporea.")
             scene.idle(10)
-            const spark = createSparkAt(scene, 3.5, 3.5, 3.5, true, true)
+            createSparkAt(scene, 3.5, 3.5, 3.5, true)
             scene.idle(70)
             scene.text(120, "The type of item a funnel will request is based on the item in the item frame placed on the funnel, so this funnel would request cobblestone stairs.", [2.5, 3.2, 2]).placeNearTarget()
             var frame = itemFrame(scene, 3, 2, 2, "north", "minecraft:cobblestone_stairs", 0, true)
@@ -1445,9 +1450,9 @@ Ponder.registry((e) => {
             scene.world.showSection([5, 1, 3], Facing.down)
             scene.text(120, "Corporea interceptors are an extremely powerful tool for automation using corporea, allowing the network to react to requests that it can't fulfill.")
             scene.idle(10)
-            createSparkAt(scene, 3.5, 2.5, 3.5, true, true)
-            createSparkAt(scene, 5.5, 2.5, 3.5, false, true)
-            createSparkAt(scene, 1.5, 2.5, 3.5, false, true)
+            createSparkAt(scene, 3.5, 2.5, 3.5, true)
+            createSparkAt(scene, 5.5, 2.5, 3.5, false)
+            createSparkAt(scene, 1.5, 2.5, 3.5, false)
             scene.idle(30)
             scene.world.setBlock([0, 1, 3], "minecraft:lever", false)
             scene.world.setBlock([4, 1, 3], "minecraft:lever", false)
@@ -1527,8 +1532,7 @@ Ponder.registry((e) => {
                 scene.overlay.showOutline(PonderPalette.RED, "funnel_2", [5, 1, 3], 10)
                 scene.idle(20)
             }
-            scene.idle(10)
-            scene.idle(5)
+            scene.idle(15)
             scene.world.modifyBlock([4,1,3], (lever) => lever.with("facing", "west").with("face", "wall").with("powered", "true"), false)
             scene.effects.indicateRedstone([4, 1, 3])
             scene.idle(20)
@@ -1562,6 +1566,414 @@ Ponder.registry((e) => {
             scene.markAsFinished()
             scene.idle(20)
             scene.world.modifyBlock([0,1,3], (lever) => lever.with("facing", "west").with("face", "wall").with("powered", "false"), false)
+        })
+
+    e.create("botania:corporea_retainer")
+        .scene("corporea_retainer", "What did I come here for?", "kubejs:botania_5x5", (scene, util) => {
+            scene.showBasePlate()
+            scene.idle(9)
+            scene.world.setBlock([3, 1, 1], "botania:corporea_retainer", false)
+            scene.world.setBlock([3, 1, 2], "botania:corporea_interceptor", false)
+            scene.world.setBlock([3, 1, 3], "minecraft:redstone_lamp", false)
+            scene.world.setBlock([1, 1, 2], "minecraft:barrel", false)
+            scene.world.setBlock([1, 2, 2], "botania:corporea_funnel", false)
+            scene.idle(1)
+            scene.world.showSection([[3, 1, 1], [3, 1, 3]], Facing.down)
+            scene.world.showSection([[1, 1, 2], [1, 2, 2]], Facing.down)
+            scene.idle(10)
+            scene.text(100, "Retainers are another essential tool for corporea automation, allowing for unfulfilled requests to be refired.")
+            const spark1 = createSparkAt(scene, 3.5, 2.5, 2.5, true)
+            const spark2 = createSparkAt(scene, 1.5, 3.5, 2.5, false)
+            scene.world.setBlock([0, 2, 2], "minecraft:lever", false)
+            scene.world.setBlock([2, 1, 1], "minecraft:lever", false)
+            scene.world.modifyBlock([0, 2, 2], (lever) => lever.with("facing", "west").with("face", "wall").with("powered", "false"), false)
+            scene.world.modifyBlock([2, 1, 1], (lever) => lever.with("facing", "west").with("face", "wall").with("powered", "false"), false)
+            scene.idle(10)
+            scene.world.showSection([0, 2, 2], Facing.east)
+            scene.world.showSection([2, 1, 1], Facing.east)
+            scene.idle(15)
+            const frame1 = itemFrame(scene, 2, 1, 2, "west", "minecraft:cobblestone", 0, true)
+            scene.idle(10)
+            const frame2 = itemFrame(scene, 1, 2, 1, "north", "minecraft:cobblestone", 0, true)
+            scene.idle(70)
+            scene.text(100, "In order for a retainer to be useful, it must be placed next to an interceptor.", [3.3, 1.5, 2]).placeNearTarget()
+            scene.idle(10)
+            for(var i = 0; i < 3; i++){
+                scene.overlay.showOutline(PonderPalette.RED, "interceptor", [[3, 1, 1], [3, 1, 2]], 10)
+                scene.idle(20)
+            }
+            scene.idle(35)
+            scene.text(120, "When a retainer's interceptor catches an unfulfilled request...").attachKeyFrame()
+            scene.idle(20)
+            for(var i = 0; i < 3; i++){
+                scene.overlay.showOutline(PonderPalette.RED, "funnel", [1, 2, 2], 10)
+                scene.idle(20)
+            }
+            scene.idle(15)
+            scene.world.modifyBlock([0, 2, 2], (lever) => lever.with("facing", "west").with("face", "wall").with("powered", "true"), false)
+            scene.effects.indicateRedstone([0, 2, 2])
+            scene.idle(20)
+            scene.world.modifyBlock([3, 1, 3], (lamp) => lamp.with("lit", "true"), false)
+            scene.idle(5)
+            scene.world.modifyBlock([3, 1, 3], (lamp) => lamp.with("lit", "false"), false)
+            scene.idle(20)
+            scene.world.modifyBlock([0,2,2], (lever) => lever.with("facing", "west").with("face", "wall").with("powered", "false"), false)
+            scene.idle(10)
+            scene.text(80, "...The retainer will \"retain\" the request that was made...", [3.1, 1.5, 2]).placeNearTarget()
+            scene.showControls(50, [4.6, 0.5, 2], "right").withItem("minecraft:cobblestone")
+            scene.idle(85)
+            scene.text(80, "...And will make the request again when a redstone pulse is applied.")
+            scene.idle(20)
+            scene.world.modifyBlock([2, 1, 1], (lever) => lever.with("facing", "west").with("face", "wall").with("powered", "true"), false)
+            scene.effects.indicateRedstone([2, 1, 1])
+            scene.idle(20)
+            scene.showControls(50, [1.6, 1.5, 2], "right").withItem("minecraft:cobblestone")
+            scene.idle(25)
+            scene.world.modifyBlock([2, 1, 1], (lever) => lever.with("facing", "west").with("face", "wall").with("powered", "false"), false)
+            scene.idle(35)
+            scene.text(200, "Retainers keep track of 3 things...").attachKeyFrame()
+            scene.idle(30)
+            scene.text(100, "...What the request was for, a number of items (depending on the mode)...", [2.3, 2.2, 2]).placeNearTarget()
+            scene.idle(105)
+            scene.text(80, "...And what made the request.", [1, 2.3, 2]).placeNearTarget()
+            scene.idle(90)
+            scene.text(100, "The retainer uses this information to recreate the request when given a redstone pulse.")
+            scene.idle(105)
+            scene.world.hideSection([[0, 1, 1], [3, 2, 3]], Facing.up)
+            scene.world.modifyEntity(spark1, discard)
+            scene.world.modifyEntity(spark2, discard)
+            scene.world.modifyEntity(frame1, discard)
+            scene.world.modifyEntity(frame2, discard)
+            scene.idle(15)
+            scene.world.setBlock([3, 1, 1], "botania:corporea_retainer", false)
+            scene.world.setBlock([3, 1, 2], "botania:corporea_interceptor", false)
+            scene.world.setBlock([3, 1, 3], "minecraft:redstone_lamp", false)
+            scene.world.setBlock([2, 1, 1], "minecraft:comparator", false)
+            scene.world.setBlock([1, 1, 1], "create:nixie_tube", false)
+            scene.world.setBlock([1, 1, 2], "minecraft:air", false)
+            scene.world.modifyBlock([2, 1, 1], (c) => c.with("powered", "false").with("facing", "east"), false)
+            scene.world.modifyBlock([1, 1, 1], (c) => c.with("facing", "west"), false)
+            scene.world.modifyBlockEntity([1, 1, 1], NixieTubeBE, (tube) => { // mostly just here so I can have the example
+                tube.updateRedstoneStrength(0);
+                tube.updateDisplayedStrings()
+            })
+            scene.world.showSection([[1, 1, 1], [3, 1, 3]], Facing.down)
+            scene.idle(10)
+            createSparkAt(scene, 3.5, 2.5, 2.5, true)
+            scene.idle(5)
+            scene.addKeyframe()
+            scene.idle(5)
+            scene.text(80, "Retainers also have functionality with comparators...")
+            scene.idle(10)
+            for(var i = 0; i < 3; i++){
+                scene.overlay.showOutline(PonderPalette.RED, "comparator", [2, 1, 1], 10)
+                scene.idle(20)
+            }
+            scene.idle(15)
+            scene.text(120, "...Where the strength of the signal represents the number of items a retainer's request will look for...")
+            scene.idle(125)
+            scene.text(10, "...More specifically, one more than the floor of the base 2 logarithm of the value.")
+            scene.idle(100)
+            scene.addKeyframe()
+            scene.idle(5)
+            scene.text(80, "For example, on a request size of 4...")
+            scene.idle(40)
+            scene.world.modifyBlock([3, 1, 3], (lamp) => lamp.with("lit", "true"), false)
+            scene.idle(5)
+            scene.world.modifyBlock([3, 1, 3], (lamp) => lamp.with("lit", "false"), false)
+            scene.idle(5)
+            scene.effects.indicateRedstone([2, 1, 1])
+            scene.world.modifyBlock([2, 1, 1], (c) => c.with("powered", "true").with("facing", "east"), false)
+            scene.world.modifyBlockEntity([1, 1, 1], NixieTubeBE, (tube) => {
+                tube.updateRedstoneStrength(3);
+                tube.updateDisplayedStrings()
+            })
+            scene.idle(35)
+            scene.text(90, "...The signal strength would be 3.", [0.4, 2.2, 1]).placeNearTarget()
+            scene.idle(10)
+            for(var i = 0; i < 3; i++){
+                scene.overlay.showOutline(PonderPalette.RED, "comparator", [1, 1, 1], 10)
+                scene.idle(20)
+            }
+            scene.idle(20)
+            scene.text(80, "And for a request of 5...")
+            scene.idle(40)
+            scene.world.modifyBlock([3, 1, 3], (lamp) => lamp.with("lit", "true"), false)
+            scene.idle(5)
+            scene.world.modifyBlock([3, 1, 3], (lamp) => lamp.with("lit", "false"), false)
+            scene.idle(5)
+            scene.effects.indicateRedstone([2, 1, 1])
+            scene.idle(35)
+            scene.text(90, "...The signal strength would remain 3.", [0.4, 2.2, 1]).placeNearTarget()
+            scene.idle(10)
+            for(var i = 0; i < 3; i++){
+                scene.overlay.showOutline(PonderPalette.RED, "comparator", [1, 1, 1], 10)
+                scene.idle(20)
+            }
+            scene.markAsFinished()
+        })
+        .scene("corporea_retainer_modes", "Walls of Text: What was that again?", "kubejs:botania_5x5", (scene, util) => {
+            scene.showBasePlate()
+            scene.world.setBlock([2, 1, 2], "botania:corporea_retainer", false)
+            scene.world.showSection([2, 1, 2], Facing.down)
+            scene.idle(15)
+            scene.text(150, "For the sake of consistency, references to \"the request\" in this scene mean a request for a stack of items with half a stack visible in the network.")
+            scene.idle(160)
+            scene.addKeyframe()
+            scene.text(100, "Retainers have two modes for determining what value they hold after a failed request...")
+            scene.idle(105)
+            scene.text(100, "...By default, it will always maintain the original amount requested.")
+            scene.idle(105)
+            scene.text(120, "For example, the request would result in the retainer having a value of 64, despite the 32 visible in the network.")
+            scene.idle(125)
+            scene.addKeyframe()
+            scene.text(130, "To switch a retainer's mode, you simply right click it with a wand.")
+            scene.idle(40)
+            scene.showControls(60, [2.5, 2, 2.5], "down")
+                .rightClick()
+                .withItem("botania:twig_wand")
+            scene.idle(95)
+            scene.addKeyframe()
+            scene.text(100, "The second mode will retain the missing number of items for a request...")
+            scene.idle(105)
+            scene.text(120, "...This means that the request will result in the retainer maintaining a request size of 32, as that is the number needed to.")
+            scene.idle(125)
+            scene.text(120, "While in this second mode, the retainer is able to \"re-catch\" the request it sends out when powered.")
+            scene.idle(125)
+            scene.text(100, "This allows for fulfilling large requests even when the crafter cannot keep up.")
+            scene.idle(50)
+            scene.markAsFinished()
+        })
+    
+    e.create("botania:corporea_crystal_cube")
+        .scene("corporea_crystal_cube", "Stock checking", "kubejs:botania_5x5", (scene, util) => {
+            scene.scaleSceneView(1.75)
+            scene.showBasePlate()
+            scene.idle(9)
+            scene.world.setBlock([3, 1, 2], "minecraft:barrel", false)
+            scene.world.setBlock([1, 1, 2], "botania:corporea_crystal_cube", false)
+            scene.idle(1)
+            scene.world.showSection([3, 1, 2], Facing.down)
+            scene.world.showSection([1, 1, 2], Facing.down)
+            scene.idle(10)
+            const spark1 = createSparkAt(scene, 3.5, 2.5, 2.5, false)
+            const spark2 = createSparkAt(scene, 1.5, 2.5, 2.5, true)
+            scene.idle(10)
+            scene.text(100, "The crystal cube is the main way for tracking an item's stock with corporea.", [0.7, 2.3, 2]).placeNearTarget()
+            scene.idle(105)
+            scene.text(80, "Which item a crystal cube tracks can be set by right clicking with an item.")
+            scene.idle(20)
+            scene.showControls(60, [1.5, 2, 2.5], "down")
+                .rightClick()
+                .withItem("minecraft:cobblestone")
+            scene.idle(30)
+            scene.world.modifyBlockEntityNBT([1, 1, 2], true, (cube) => {
+                cube.requestTarget = {
+                    "id": "minecraft:cobblestone",
+                    "Count": 1
+                }
+                cube.itemCount = 0
+            })
+            for(let i = 0; i < 5; i++) {
+                scene.particles.simple(1, "cloud", [1.5, 1.5, 2.5]).density(5).motion([Math.random()/5-0.1, Math.random()/5-0.1, Math.random()/5-0.1]).lifetime(15);
+            }
+            scene.idle(35)
+            scene.text(100, "The number displayed is how many of the item is present in the network.")
+            scene.world.setBlock([3, 1, 3], "minecraft:hopper", false)
+            scene.world.modifyBlock([3, 1, 3], (hopper) => hopper.with("facing", "north"), false)
+            scene.world.showSection([3, 1, 3], Facing.north)
+            scene.idle(20)
+            const items = scene.world.createItemEntity([3.5, 2.5, 3.5], [0, 0.2, 0], "32x minecraft:cobblestone")
+            scene.idle(35)
+            scene.world.modifyEntity(items, discard)
+            scene.idle(5)
+            scene.world.hideSection([3, 1, 3], Facing.south)
+            scene.world.modifyBlockEntityNBT([1, 1, 2], true, (cube) => {
+                cube.itemCount = 32
+            })
+            for(let i = 0; i < 5; i++) {
+                scene.particles.simple(1, "cloud", [1.5, 1.5, 2.5]).density(5).motion([Math.random()/5-0.1, Math.random()/5-0.1, Math.random()/5-0.1]).lifetime(10);
+            }
+            scene.idle(45)
+            scene.text(80, "The cube can be locked by shift right-clicking with a wand, preventing accidental changes...").attachKeyFrame()
+            scene.idle(10)
+            scene.showControls(30, [1.5, 2, 2.5], "down")
+                .rightClick()
+                .whileSneaking()
+                .withItem("botania:twig_wand")
+            scene.idle(75)
+            scene.text(60, "...And unlocking it is done in the same way.")
+            scene.idle(65)
+            scene.text(60, "The cube is also capable of making requests for its item...").attachKeyFrame()
+            scene.idle(65)
+            scene.text(80, "...Punching it will request a single item...")
+            scene.idle(10)
+            scene.showControls(30, [1.5, 2, 2.5], "down")
+                .leftClick()
+            scene.idle(35)
+            scene.world.modifyBlockEntityNBT([1, 1, 2], true, (cube) => {
+                cube.itemCount = 31
+            })
+            const singleCobble = scene.world.createItemEntity([1.5, 2.1, 2.5], [0, 0.1, -0.15], "minecraft:cobblestone")
+            scene.idle(30)
+            scene.world.modifyEntity(singleCobble, discard)
+            scene.idle(10)
+            scene.text(80, "...And punching while crouching requests a full stack.")
+            scene.idle(10)
+            scene.showControls(30, [1.5, 2, 2.5], "down")
+                .leftClick()
+                .whileSneaking()
+            scene.idle(35)
+            scene.world.modifyBlockEntityNBT([1, 1, 2], true, (cube) => {
+                cube.itemCount = 0
+            })
+            const multiCobble = scene.world.createItemEntity([1.5, 2.1, 2.5], [0, 0.1, -0.15], "31x minecraft:cobblestone")
+            scene.idle(30)
+            scene.world.modifyEntity(multiCobble, discard)
+            scene.idle(20)
+            scene.world.hideSection([3, 1, 2], Facing.up)
+            scene.world.hideSection([1, 1, 2], Facing.up)
+            scene.world.modifyEntity(spark1, discard)
+            scene.world.modifyEntity(spark2, discard)
+            scene.idle(15)
+            scene.world.setBlock([2, 1, 3], "botania:corporea_crystal_cube", false)
+            scene.world.setBlock([2, 1, 2], "minecraft:comparator", false)
+            scene.world.setBlock([2, 1, 1], "create:nixie_tube", false)
+            scene.world.modifyBlock([2, 1, 2], (c) => c.with("powered", "false").with("facing", "south"), false)
+            scene.world.modifyBlock([2, 1, 1], (c) => c.with("facing", "west"), false)
+            scene.world.modifyBlockEntity([2, 1, 1], NixieTubeBE, (tube) => { // mostly just here so I can have the example
+                tube.updateRedstoneStrength(0);
+                tube.updateDisplayedStrings()
+            })
+            scene.world.modifyBlockEntityNBT([2, 1, 3], (cube) => {
+                cube.requestTarget = {
+                    "id": "minecraft:cobblestone",
+                    "Count": 1
+                }
+                cube.itemCount = 0
+            })
+            scene.world.showSection([[2, 1, 1], [2, 1, 3]], Facing.down)
+            scene.idle(10)
+            createSparkAt(scene, 2.5, 2.5, 3.5, true)
+            scene.idle(10)
+            scene.text(100, "Cubes have functionality with comparators, with the strength representing the current stock of the item...").attachKeyFrame()
+            scene.idle(105)
+            scene.text(100, "...More specifically, the signal strength is one more than the base 2 logarithm of the item's stock.")
+            scene.idle(105)
+            scene.text(60, "For example, if the amount stocked is 4...")
+            scene.idle(10)
+            scene.world.modifyBlockEntityNBT([2, 1, 3], (cube) => {
+                cube.itemCount = 4
+            })
+            for(let i = 0; i < 5; i++) {
+                scene.particles.simple(1, "cloud", [2.5, 1.5, 3.5]).density(5).motion([Math.random()/5-0.1, Math.random()/5-0.1, Math.random()/5-0.1]).lifetime(10);
+            }
+            scene.idle(50)
+            scene.world.modifyBlock([2, 1, 2], (c) => c.with("powered", "true").with("facing", "south"), false)
+            scene.effects.indicateRedstone([2, 1, 2])
+            scene.world.modifyBlockEntity([2, 1, 1], NixieTubeBE, (tube) => {
+                tube.updateRedstoneStrength(3);
+                tube.updateDisplayedStrings()
+            })
+            scene.idle(5)
+            scene.text(80, "...Then the signal strength would be 3.")
+            scene.idle(10)
+            for(var i = 0; i < 3; i++){
+                scene.overlay.showOutline(PonderPalette.RED, "tube", [2, 1, 1], 10)
+                scene.idle(20)
+            }
+            scene.idle(15)
+            scene.text(60, "Or, if it was 65...")
+            scene.idle(10)
+            scene.world.modifyBlockEntityNBT([2, 1, 3], (cube) => {
+                cube.itemCount = 65
+            })
+            for(let i = 0; i < 5; i++) {
+                scene.particles.simple(1, "cloud", [2.5, 1.5, 3.5]).density(5).motion([Math.random()/5-0.1, Math.random()/5-0.1, Math.random()/5-0.1]).lifetime(10);
+            }
+            scene.idle(50)
+            scene.effects.indicateRedstone([2, 1, 2])
+            scene.world.modifyBlockEntity([2, 1, 1], NixieTubeBE, (tube) => {
+                tube.updateRedstoneStrength(7);
+                tube.updateDisplayedStrings()
+            })
+            scene.idle(5)
+            scene.text(80, "...Then the signal strength would be 7.")
+            scene.idle(10)
+            for(var i = 0; i < 3; i++){
+                scene.overlay.showOutline(PonderPalette.RED, "tube", [2, 1, 1], 10)
+                scene.idle(20)
+            }
+            scene.markAsFinished()
+        })
+
+    e.create("botania:corporea_index")
+        .scene("corporea_index", "Walls Of Text: Requesting", "kubejs:botania_5x5", (scene, util) => {
+            scene.showBasePlate()
+            scene.idle(10)
+            scene.world.setBlock([2, 1, 2], "botania:corporea_index", false)
+            scene.world.showSection([2, 1, 2], Facing.down)
+            scene.idle(10)
+            createSparkAt(scene, 2.5, 2.5, 2.5, true)
+            scene.text(120, "The corporea index is the primary way to request items from the network, and is effectively the heart of your corporea network...")
+            scene.idle(125)
+            scene.text(80, "...It will intercept chat messages and interpret them to request items.")
+            scene.idle(85)
+            scene.text(80, "When within 2.5 blocks of the index...").attachKeyFrame()
+            scene.idle(5)
+            for(let i = 0;i<100;i++){
+                scene.particles.simple(1, "smoke", [1.5,1.25,3.5]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
+            }
+            const stand = scene.world.createEntity("minecraft:armor_stand", [1.5,1,3.5], b => {
+                b.load(`{
+                    Pos: [1.5d, 1d, 3.5d], Rotation: [225.0f, 0.0f],
+                    ArmorItems:[{id:"immersiveengineering:armor_faraday_boots",Count:1},{id:"immersiveengineering:armor_faraday_leggings",Count:1},{id:"immersiveengineering:armor_faraday_chestplate",Count:1},{id:"minecraft:player_head",Count:1}],
+                    Pose: { Head: [20.0f, 0.0f] }, NoBasePlate: 1b, ShowArms: 1b
+                }`)
+            })
+            scene.idle(80)
+            scene.text(100, "...Then a ring will appear, indicating that your messages will be treated as requests.")
+            // ======== little bit of shenanigans
+            const expansionTime = 15 // edit if timing needs to change
+            const steps = 2.5 / expansionTime
+            const vals = [[0, 0, steps], [0, 0, -steps], [steps, 0, 0], [-steps, 0, 0]]
+            var ents = []
+            for(var i = 0; i < 4; i++) {
+                ents[i] = scene.world.createEntity("minecraft:block_display", [2.5, 1, 2.5], (o) => {
+                    o.load(`{transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f],translation:[-0.25f,-0.25f,-0.25f]},block_state:{Name:"minecraft:magenta_concrete_powder"},Pos:[2.5d,1d,2.5d]}`)
+                })
+            }
+            for(var i = 0; i < expansionTime; i++) {
+                vals.forEach((val, idx) => {
+                    scene.world.modifyEntity(ents[idx], (e) => {
+                        var newPos = e.position().add(val)
+                        e.setPos(newPos)
+                    })
+                })
+                scene.idle(1)
+            }
+            scene.idle(105 - expansionTime)
+            // ======== shenanigans over, normal code resumes
+            scene.idle(10)
+            scene.text(90, "There are several different ways to phrase requests, each requesting different amounts of the item.").attachKeyFrame()
+            scene.idle(95)
+            scene.text(100, "Just the item name or \"an (item)\" will request one of the item.")
+            scene.idle(105)
+            scene.text(140, "Requesting a stack, \"half stack\", or a \"quarter stack\" of an item will request 64, 32, and 16 of the item respectively, regardless of the item's actual stack size")
+            scene.idle(145)
+            scene.text(80, "Requesting a dozen will request 12 of the item, as you'd expect.")
+            scene.idle(85)
+            scene.text(140, "For requests of singles, dozens, or full stacks, they can be formatted to \"X (value)\" will request X times the amount it normally does.")
+            scene.idle(145)
+            scene.text(80, "There is also some nuance to how the name of the item can be written.").attachKeyFrame()
+            scene.idle(85)
+            scene.text(100, `Starting or ending an item name with and of "...", "~", "+", or "?" will look for any item §ocontaining§r the name used...`)
+            scene.idle(105)
+            scene.text(80, "...For example \"?log\" would match any logs in the network.")
+            scene.idle(85)
+            scene.text(100, "And using \"this\" as the item will request whatever you currently have in your main hand.")
+            scene.idle(50)
+            scene.markAsFinished()
         })
 });
 
@@ -1718,12 +2130,12 @@ function manaBurst(scene, start, end, time, size){
  * @param {Number} y The y coordinate to place the "spark" at
  * @param {Number} z The z coordinate to place the "spark" at
  * @param {Boolean} isMaster Whether the corporea spark is a "master" spark, determines what to display it as
- * @param {true|undefined} particle Whether to cause particles when creating the "spark", must be a literal `true`
+ * @param {false|undefined} particle Whether to skip causing particles when creating the "spark", must be a literal `false`
  * @returns The element link for the created spark
  */
 function createSparkAt(scene, x, y, z, isMaster, particle) {
     var block = (isMaster ? "minecraft:light_blue_glazed_terracotta" : "minecraft:pink_glazed_terracotta")
-    if(particle === true) {
+    if(particle !== false) {
         for(let i = 0; i < 5; i++) {
             scene.particles.simple(1, "cloud", [x, y, z]).density(5).motion([Math.random()/5-0.1, Math.random()/5-0.1, Math.random()/5-0.1]).lifetime(10);
         }
