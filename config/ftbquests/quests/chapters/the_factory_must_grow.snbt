@@ -265,12 +265,20 @@
 		}
 		{
 			dependencies: ["4FB68561130B82C9"]
+			description: [
+				"&6[W] To Ponder!&r"
+				""
+				"Vaults work very well in supply chains as &nbuffers&r."
+				""
+				"They can be used as generic storage by interfacing with &astock links&r or &astorage buses&r but it's recommended to limit use of this functionality as it can cause &clag at larger scales&r."
+			]
 			id: "0D97FCEA76ACC0D1"
 			rewards: [{
 				id: "0E56F16B7DBFEE4C"
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "Beeeeg Chest"
 			tasks: [
 				{
 					id: "7FA3A7776F013717"
@@ -283,6 +291,7 @@
 					type: "item"
 				}
 			]
+			title: "Big Blue Bulk"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -294,6 +303,7 @@
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "Shockingly Powderful"
 			tasks: [
 				{
 					id: "515E0C9B12798724"
@@ -306,12 +316,14 @@
 					type: "item"
 				}
 			]
+			title: "Allergy Inducing AE"
 			x: 2.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4979C4345BF49D59"]
 			id: "06082D1481C77AC6"
+			subtitle: "Mmmm yes the wrench market is looking healthy this quarter"
 			tasks: [
 				{
 					id: "596751B37EBF78B8"
@@ -329,6 +341,7 @@
 					type: "item"
 				}
 			]
+			title: "Status Report!"
 			x: 4.5d
 			y: 4.0d
 		}
@@ -463,6 +476,7 @@
 				"06082D1481C77AC6"
 			]
 			id: "2FC4DA2B196204C7"
+			subtitle: "No you don't need an actual frog for the frogport, have some faith in the recipe design. Instead you enslave a snow golem"
 			tasks: [
 				{
 					id: "1DE7250CD4DFE3A9"
@@ -485,17 +499,20 @@
 					type: "item"
 				}
 			]
+			title: "Robust Logistics"
 			x: 3.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["2FC4DA2B196204C7"]
 			id: "652CCCC43895CC57"
+			subtitle: "Why didn't we think of this sooner?"
 			tasks: [{
 				id: "718E2C3069A3A83B"
 				item: "create:factory_gauge"
 				type: "item"
 			}]
+			title: "72 Hour Work Days"
 			x: 2.0d
 			y: 7.0d
 		}
@@ -505,6 +522,7 @@
 				"4FB68561130B82C9"
 			]
 			id: "0BCC4B5B144C4EFA"
+			subtitle: "Every problem can be solved by more storage"
 			tasks: [
 				{
 					id: "3B266EAFB1FE7BF2"
@@ -517,17 +535,20 @@
 					type: "item"
 				}
 			]
+			title: "Item Type Hell"
 			x: 1.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["0D97FCEA76ACC0D1"]
 			id: "5CD2858BBC7FAF3A"
+			subtitle: "No not like that! Get your mind out of the gutter"
 			tasks: [{
 				id: "1E560294F6CE7C6A"
 				item: "ae2:storage_bus"
 				type: "item"
 			}]
+			title: "Exposing your Inventories"
 			x: 0.0d
 			y: 8.5d
 		}
@@ -536,7 +557,9 @@
 				"5CD2858BBC7FAF3A"
 				"0BCC4B5B144C4EFA"
 			]
+			description: [""]
 			id: "7936F216A34BA9EC"
+			subtitle: "Super Soaryn Drive! TPS: &c1.07"
 			tasks: [
 				{
 					id: "0B00CA2ABD4BC850"
@@ -549,12 +572,14 @@
 					type: "item"
 				}
 			]
+			title: "A subnet in a subnet in a subnet in a..."
 			x: 1.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["438276B3F0F5F994"]
 			id: "21EAF6135B6C068F"
+			subtitle: "Once you start using these you won't stop"
 			tasks: [
 				{
 					id: "0D93A5357B9F9243"
@@ -582,17 +607,20 @@
 					type: "item"
 				}
 			]
+			title: "Create is a Redstone Mod"
 			x: 5.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["21EAF6135B6C068F"]
 			id: "55D9685F3A80E054"
+			subtitle: "Good luck with the recipe"
 			tasks: [{
 				id: "62450779B19290E7"
 				item: "vintageimprovements:redstone_module"
 				type: "item"
 			}]
+			title: "Getting Some SERIOUSstone"
 			x: 5.0d
 			y: 8.5d
 		}
@@ -602,28 +630,40 @@
 				"0BCC4B5B144C4EFA"
 			]
 			id: "5453F57FB425DD00"
-			tasks: [{
-				id: "1C32D7418CD7F182"
-				item: "ae2:redstone_card"
-				type: "item"
-			}]
+			subtitle: "All things in order. All things in place"
+			tasks: [
+				{
+					id: "1C32D7418CD7F182"
+					item: "ae2:redstone_card"
+					type: "item"
+				}
+				{
+					id: "730888D8C47F5A08"
+					item: "ae2:level_emitter"
+					type: "item"
+				}
+			]
+			title: "Digital Redstone"
 			x: 2.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["06082D1481C77AC6"]
 			id: "438276B3F0F5F994"
+			subtitle: "There is an image in here, don't be scared of the comparators. They can't bite you much"
 			tasks: [{
 				id: "297D2B5DD1C8BCD1"
 				item: "minecraft:comparator"
 				type: "item"
 			}]
+			title: "Preventing a Lag Machine"
 			x: 5.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["438276B3F0F5F994"]
 			id: "1D17CE10B4749AD8"
+			subtitle: "These do more obviously, but here, it's about redstone logic"
 			tasks: [
 				{
 					id: "0552579817C9D71E"
@@ -636,39 +676,46 @@
 					type: "item"
 				}
 			]
+			title: "Anti-Lag, but Compact"
 			x: 6.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["55D9685F3A80E054"]
 			id: "60DF2A2BCD2D9D93"
+			subtitle: "All components crafted the same! Enjoy!"
 			tasks: [{
 				id: "33F7ADA68AD3F667"
 				item: "projectred_integration:timer_gate"
 				type: "item"
 			}]
+			title: "Compact Logic Goodness"
 			x: 4.0d
 			y: 10.5d
 		}
 		{
 			dependencies: ["48A8F46D3E54FD28"]
 			id: "636384B8E591917C"
+			subtitle: "These are extremely cheap in tier 1"
 			tasks: [{
 				id: "4A36239C4C798D6F"
 				item: "projectred_transmission:red_alloy_wire"
 				type: "item"
 			}]
+			title: "Redstone on the Roof and Walls"
 			x: 6.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["438276B3F0F5F994"]
 			id: "48A8F46D3E54FD28"
+			subtitle: "Hehe, cog block"
 			tasks: [{
 				id: "4E8C34538ABD0DAB"
 				item: "supplementaries:cog_block"
 				type: "item"
 			}]
+			title: "Redstone, but as a Block"
 			x: 6.5d
 			y: 7.0d
 		}
@@ -678,11 +725,13 @@
 				"636384B8E591917C"
 			]
 			id: "1D2A5BA88EDCE162"
+			subtitle: "Surely this is enough information density right?"
 			tasks: [{
 				id: "12ACD7DDC5F3B591"
 				item: "projectred_transmission:neutral_bundled_wire"
 				type: "item"
 			}]
+			title: "The Data on the Bus Goes Beep Boop Beep"
 			x: 5.0d
 			y: 10.5d
 		}
@@ -729,6 +778,7 @@
 		{
 			dependencies: ["4979C4345BF49D59"]
 			id: "5BE8366BFF85CE9D"
+			subtitle: "Only Slightly Complicated"
 			tasks: [
 				{
 					id: "4484931282F0D171"
@@ -751,8 +801,29 @@
 					type: "item"
 				}
 			]
+			title: "This There Overthere Everywhere"
 			x: 2.0d
 			y: 5.5d
+		}
+		{
+			dependencies: ["7936F216A34BA9EC"]
+			id: "37122B138026B67F"
+			subtitle: "No I mean a techytech crossover. Botania is a tech mod"
+			tasks: [
+				{
+					id: "5EA961A021F19294"
+					item: "ae2:interface"
+					type: "item"
+				}
+				{
+					id: "6C7C9CC02E9C884E"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+			]
+			title: "A Magitech Crossover"
+			x: 2.5d
+			y: 9.5d
 		}
 	]
 	subtitle: [" &fThe stupid biters are on my oil patch!"]
