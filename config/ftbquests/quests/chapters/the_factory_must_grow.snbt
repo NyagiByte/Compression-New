@@ -168,6 +168,7 @@
 				item: "minecraft:chest"
 				type: "item"
 			}]
+			title: "A Box With a Hinge"
 			x: 1.0d
 			y: 4.0d
 		}
@@ -565,6 +566,40 @@
 		}
 		{
 			dependencies: ["0D97FCEA76ACC0D1"]
+			description: [
+				"Storage buses act as a way to link an &bexternal inventory&r such as a &nchest, package,&r or &nvault&r to your ae2 system such that you can access the items."
+				""
+				"Storage buses also have a few &aunique tricks&r such as allowing &npriority designation, filtering,&r and even &noverflow automation&r."
+				"{@pagebreak}"
+				"To set priority simply click the &atop right&r of the UI:"
+				""
+				"{image:compression:textures/quests/storage_bus_inv_ui.png width:153 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"And select a &anumber&r."
+				""
+				"{image:compression:textures/quests/storage_bus_pri_ui.png width:141 height:100 align:center}"
+				""
+				"&bHigher numbers&r go &n\"first\"&r and will attempt to put items &ointo&r the inventory first and &oextract&r &nlast&r."
+				""
+				"&dLower numbers&r &cinvert&r this behavior."
+				"{@pagebreak}"
+				"Filtering can be done by simply dragging an item from your &ninventory&r or &nJEI&r into a slot in the UI."
+				""
+				"This will filter what items/fluids the storage bus is &eallowed to interact&r with &7unsurprisingly I imagine&r."
+				"{@pagebreak}"
+				"Adding an &cInverter Card&r to the upgrade slot will &nflip&r this behavior to allow interaction with &aeverything&r &oexcept&r what is listed in the filter."
+				""
+				"Adding a &6Fuzzy Card&r will allow you to toggle if the storage bus treats &asame items&r of &cdifferent durability&r or &cnbt&r as the same thing or not."
+				""
+				"A major use-case for fuzzy cards being handling items from mob farms such as tools or armor."
+				"{@pagebreak}"
+				"Adding an &4Overflow Card&r will void excess items automatically."
+				""
+				"This can be an easy way to &cdelete&r vast amounts of items &nby accident&r if the storage bus is &cimproperly configured&r since, if your drives are full, all new inputs will be &cdeleted forever&r."
+				""
+				"There is also the issue of &epollution&r when destroying things..."
+			]
 			id: "5CD2858BBC7FAF3A"
 			rewards: [{
 				id: "3F71F6E733E77645"
@@ -932,6 +967,7 @@
 				item: "nyagibits_bytes:tier_one_strawberry"
 				type: "item"
 			}]
+			subtitle: "For all those cases you accidentally build your super computer on the wrong side of your base"
 			tasks: [
 				{
 					id: "1FA8F14AB2CD039F"
@@ -944,11 +980,19 @@
 					type: "item"
 				}
 			]
+			title: "Super Magic Signal Wormhole"
 			x: 3.0d
 			y: 10.5d
 		}
 		{
+			dependencies: ["55D9685F3A80E054"]
 			id: "69D6CF09D736CADE"
+			rewards: [{
+				id: "354DE937F34AF952"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			subtitle: "I guess if fate is real determinism must be true? How would one change that..."
 			tasks: [
 				{
 					id: "28BBB5BC146B99FD"
@@ -971,13 +1015,104 @@
 					type: "item"
 				}
 				{
-					id: "2C3130CC47F208F7"
-					item: "botania:red_string_interceptor"
+					id: "4C4333BA6315675D"
+					item: "botania:red_string_relay"
 					type: "item"
 				}
 			]
+			title: "Deterministic Fate"
 			x: 4.0d
 			y: 10.5d
+		}
+		{
+			dependencies: [
+				"69D6CF09D736CADE"
+				"37122B138026B67F"
+			]
+			id: "40F696D29393D212"
+			rewards: [{
+				id: "20397C926ADE4B89"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			subtitle: "Have fun lmao"
+			tasks: [
+				{
+					id: "01B364078DB74A92"
+					item: "entangled:block"
+					type: "item"
+				}
+				{
+					id: "40F467206A14284D"
+					item: "entangled:item"
+					type: "item"
+				}
+			]
+			title: "This Sh*t is Not Balanced"
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4FB68561130B82C9"]
+			id: "5F55D2A02633D838"
+			subtitle: "Works in vanilla shulker loaders as well!"
+			tasks: [{
+				id: "6ADE7385A7A08455"
+				item: "packages:package_maker"
+				type: "item"
+			}]
+			title: "Where Are My Drawers?"
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"5F55D2A02633D838"
+				"6D738741AA3A32BC"
+			]
+			description: ["&l&cThis feature is not implemented yet, disregard text for now&r"]
+			icon: "ae2:quantum_entangled_singularity"
+			id: "6A33FE01EADE00C3"
+			rewards: [{
+				id: "29A0A2F4DD2FADCC"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			subtitle: "Just craft them all at once"
+			tasks: [
+				{
+					id: "2517658489331D1F"
+					title: "Scaling Silly Style"
+					type: "checkmark"
+				}
+				{
+					id: "44217E837A8D7D76"
+					item: "nyagibits_bytes:flake"
+					type: "item"
+				}
+			]
+			title: "↑ Hyper Parallel Crafting ↑"
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5F55D2A02633D838"]
+			icon: "minecraft:bowl"
+			id: "6D738741AA3A32BC"
+			rewards: [{
+				id: "133FE698208120C6"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "Chunky Storage"
+			tasks: [{
+				id: "3A76C83A42DCA49C"
+				title: "Got that? Ok good"
+				type: "checkmark"
+			}]
+			title: "Package Nesting"
+			x: -1.5d
+			y: 7.0d
 		}
 	]
 	subtitle: [" &fThe stupid biters are on my oil patch!"]
