@@ -297,6 +297,7 @@
 		}
 		{
 			dependencies: ["4FB68561130B82C9"]
+			description: ["&6[W] To Ponder!&r"]
 			id: "4979C4345BF49D59"
 			rewards: [{
 				id: "2CE49CF94C2B834B"
@@ -322,7 +323,13 @@
 		}
 		{
 			dependencies: ["4979C4345BF49D59"]
+			description: ["&6[W] To Ponder!&r"]
 			id: "06082D1481C77AC6"
+			rewards: [{
+				id: "6C2E87BC4B007BC7"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			subtitle: "Mmmm yes the wrench market is looking healthy this quarter"
 			tasks: [
 				{
@@ -475,7 +482,13 @@
 				"4979C4345BF49D59"
 				"06082D1481C77AC6"
 			]
+			description: ["&6[W] To Ponder!&r"]
 			id: "2FC4DA2B196204C7"
+			rewards: [{
+				id: "2F2940A4C5B9AEE9"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			subtitle: "No you don't need an actual frog for the frogport, have some faith in the recipe design. Instead you enslave a snow golem"
 			tasks: [
 				{
@@ -505,7 +518,13 @@
 		}
 		{
 			dependencies: ["2FC4DA2B196204C7"]
+			description: ["&6[W] To Ponder!&r"]
 			id: "652CCCC43895CC57"
+			rewards: [{
+				id: "63CAFB70A2A989CF"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			subtitle: "Why didn't we think of this sooner?"
 			tasks: [{
 				id: "718E2C3069A3A83B"
@@ -522,6 +541,11 @@
 				"4FB68561130B82C9"
 			]
 			id: "0BCC4B5B144C4EFA"
+			rewards: [{
+				id: "0821D3D493066DED"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
 			subtitle: "Every problem can be solved by more storage"
 			tasks: [
 				{
@@ -542,6 +566,11 @@
 		{
 			dependencies: ["0D97FCEA76ACC0D1"]
 			id: "5CD2858BBC7FAF3A"
+			rewards: [{
+				id: "3F71F6E733E77645"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
 			subtitle: "No not like that! Get your mind out of the gutter"
 			tasks: [{
 				id: "1E560294F6CE7C6A"
@@ -559,6 +588,11 @@
 			]
 			description: [""]
 			id: "7936F216A34BA9EC"
+			rewards: [{
+				id: "37019D69C91CC504"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
 			subtitle: "Super Soaryn Drive! TPS: &c1.07"
 			tasks: [
 				{
@@ -578,7 +612,13 @@
 		}
 		{
 			dependencies: ["438276B3F0F5F994"]
+			description: ["&6[W] To Ponder!&r"]
 			id: "21EAF6135B6C068F"
+			rewards: [{
+				id: "47C56625B34C48AE"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			subtitle: "Once you start using these you won't stop"
 			tasks: [
 				{
@@ -614,6 +654,11 @@
 		{
 			dependencies: ["21EAF6135B6C068F"]
 			id: "55D9685F3A80E054"
+			rewards: [{
+				id: "6704DAF9F9B6581B"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
 			subtitle: "Good luck with the recipe"
 			tasks: [{
 				id: "62450779B19290E7"
@@ -630,6 +675,11 @@
 				"0BCC4B5B144C4EFA"
 			]
 			id: "5453F57FB425DD00"
+			rewards: [{
+				id: "3609C6F14F20ACDE"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
 			subtitle: "All things in order. All things in place"
 			tasks: [
 				{
@@ -644,12 +694,17 @@
 				}
 			]
 			title: "Digital Redstone"
-			x: 2.5d
+			x: 3.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["06082D1481C77AC6"]
 			id: "438276B3F0F5F994"
+			rewards: [{
+				id: "3551546A1D0AB000"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			subtitle: "There is an image in here, don't be scared of the comparators. They can't bite you much"
 			tasks: [{
 				id: "297D2B5DD1C8BCD1"
@@ -662,7 +717,13 @@
 		}
 		{
 			dependencies: ["438276B3F0F5F994"]
+			description: ["&6[W] To Ponder!&r"]
 			id: "1D17CE10B4749AD8"
+			rewards: [{
+				id: "52F487B5C88DCBDD"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			subtitle: "These do more obviously, but here, it's about redstone logic"
 			tasks: [
 				{
@@ -683,6 +744,11 @@
 		{
 			dependencies: ["55D9685F3A80E054"]
 			id: "60DF2A2BCD2D9D93"
+			rewards: [{
+				id: "36792512483A7010"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
 			subtitle: "All components crafted the same! Enjoy!"
 			tasks: [{
 				id: "33F7ADA68AD3F667"
@@ -691,11 +757,16 @@
 			}]
 			title: "Compact Logic Goodness"
 			x: 4.0d
-			y: 10.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["48A8F46D3E54FD28"]
 			id: "636384B8E591917C"
+			rewards: [{
+				id: "3243C9BD45FC5440"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			subtitle: "These are extremely cheap in tier 1"
 			tasks: [{
 				id: "4A36239C4C798D6F"
@@ -709,6 +780,11 @@
 		{
 			dependencies: ["438276B3F0F5F994"]
 			id: "48A8F46D3E54FD28"
+			rewards: [{
+				id: "79BB2A3F33D1CCC3"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			subtitle: "Hehe, cog block"
 			tasks: [{
 				id: "4E8C34538ABD0DAB"
@@ -725,6 +801,11 @@
 				"636384B8E591917C"
 			]
 			id: "1D2A5BA88EDCE162"
+			rewards: [{
+				id: "2D4AFB2F530ECF13"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
 			subtitle: "Surely this is enough information density right?"
 			tasks: [{
 				id: "12ACD7DDC5F3B591"
@@ -738,13 +819,20 @@
 		{
 			dependencies: ["1D2A5BA88EDCE162"]
 			id: "1405F87224E16FB7"
+			rewards: [{
+				id: "010FFD04B10233E4"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			subtitle: "Listen if you need this much redstone power you surely have botania set up by now"
 			tasks: [{
 				id: "3CF9BB99F42ACF95"
 				item: "botania:alchemy_catalyst"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 11.5d
+			title: "Just In Case 16 Signals isn't Enough"
+			x: 6.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["6875017F7DCC9969"]
@@ -777,7 +865,13 @@
 		}
 		{
 			dependencies: ["4979C4345BF49D59"]
+			description: ["&6[W] To Ponder!&r"]
 			id: "5BE8366BFF85CE9D"
+			rewards: [{
+				id: "39A08D4CEF78D9E1"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			subtitle: "Only Slightly Complicated"
 			tasks: [
 				{
@@ -808,6 +902,11 @@
 		{
 			dependencies: ["7936F216A34BA9EC"]
 			id: "37122B138026B67F"
+			rewards: [{
+				id: "549904E916AE1441"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
 			subtitle: "No I mean a techytech crossover. Botania is a tech mod"
 			tasks: [
 				{
@@ -822,8 +921,63 @@
 				}
 			]
 			title: "A Magitech Crossover"
-			x: 2.5d
-			y: 9.5d
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5453F57FB425DD00"]
+			id: "4E29F03DB5A55935"
+			rewards: [{
+				id: "31B6E549B18E16FD"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1FA8F14AB2CD039F"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "23FF54A829B4335B"
+					item: "ae2:memory_card"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			id: "69D6CF09D736CADE"
+			tasks: [
+				{
+					id: "28BBB5BC146B99FD"
+					item: "botania:red_string_container"
+					type: "item"
+				}
+				{
+					id: "1DFC60CA4599148C"
+					item: "botania:red_string_dispenser"
+					type: "item"
+				}
+				{
+					id: "13E1BB43ACD16412"
+					item: "botania:red_string_fertilizer"
+					type: "item"
+				}
+				{
+					id: "25A58AFC61D59F70"
+					item: "botania:red_string_comparator"
+					type: "item"
+				}
+				{
+					id: "2C3130CC47F208F7"
+					item: "botania:red_string_interceptor"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 10.5d
 		}
 	]
 	subtitle: [" &fThe stupid biters are on my oil patch!"]
