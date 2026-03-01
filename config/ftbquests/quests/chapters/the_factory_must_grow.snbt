@@ -599,6 +599,50 @@
 				"This can be an easy way to &cdelete&r vast amounts of items &nby accident&r if the storage bus is &cimproperly configured&r since, if your drives are full, all new inputs will be &cdeleted forever&r."
 				""
 				"There is also the issue of &epollution&r when destroying things..."
+				"{@pagebreak}"
+				"&6Capacity cards&r are... a thing that exists."
+				""
+				"You can filter more things. Thats it yeah."
+				"{@pagebreak}"
+				"As if the storage bus couldn't already do a lot of things, the buttons on the &a← left side ←&r of the UI have unique functionality as well!"
+				"{@pagebreak}"
+				"&dPartition storage&r shown as the &nwrench icon&r is able to set the filters on the bus by looking at what is already in the inventory."
+				""
+				"{image:compression:textures/quests/storage_bus_partition.png width:185 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"&dReport Inaccessable Items&r is a toggle between &nyes/no&r that lets you choose wether or not items existing in an inventory not part of the filter can still be seen by the network."
+				""
+				""
+				"{image:compression:textures/quests/storage_bus_report_no.png width:185 height:100 align:center}"
+				"{image:compression:textures/quests/strorage_bus_report_yes.png width:185 height:79 align:center}"
+				""
+				"{@pagebreak}"
+				"&dFiltered Operations&r is a toggle between:"
+				""
+				"&nFilter on import and export&r "
+				""
+				"{image:compression:textures/quests/storage_bus_filter__both.png width:185 height:100 align:center} "
+				""
+				"&nFilter only on import&r"
+				""
+				"{image:compression:textures/quests/storage_bus_filter_out.png width:185 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"And finally the &dInput Output Mode&r."
+				"This toggles between:"
+				""
+				"&nBi-directional&r"
+				""
+				"{image:compression:textures/quests/storage_bus_io_bi.png width:185 height:100 align:center}"
+				""
+				"&nInsert only&r"
+				""
+				"{image:compression:textures/quests/storage_bus_io_insert.png width:185 height:100 align:center}"
+				""
+				"&nExtract only&r"
+				""
+				"{image:compression:textures/quests/storage_bus_io_extract.png width:185 height:100 align:center}"
 			]
 			id: "5CD2858BBC7FAF3A"
 			rewards: [{
@@ -621,7 +665,36 @@
 				"5CD2858BBC7FAF3A"
 				"0BCC4B5B144C4EFA"
 			]
-			description: [""]
+			description: [
+				"As if storage buses didn't do enough already they have yet another &aunique and very powerful&r interaction with &6interfaces&r."
+				""
+				"&cS&6u&eb&an&be&dt&cs&r!"
+				""
+				"{image:compression:textures/quests/subnetting.png width:177 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"{image:compression:textures/quests/subnetting.png width:177 height:100 align:center}"
+				""
+				"Pictured here we have two networks. "
+				"&bBlue&r and &cRed&r."
+				""
+				"&bBlue&r is connected via a &astorage bus&r to an interface on the &cRed&r network. The networks themselves are seperated and only bridged by a &6quartz fiber&r &7(power only)&r."
+				"{@pagebreak}"
+				"In this example the &bBlue&r network is able to see that the &cRed&r network has a drive and is able to pull from that inventory."
+				""
+				"{image:compression:textures/quests/subnetting.png width:177 height:100 align:center}"
+				""
+				"The &cRed&r network in this instance is unable to see the &bBlue&r network, since this subnet interaction is 1 way."
+				"{@pagebreak}"
+				"This mechanic has many use-cases. A primary one is &nexpanding how much 1 channel is able to do&r from the main controller to a nearly &6infinite&r amount. "
+				""
+				"Instead of a direct connection from the master controller, &na single channel&r can be used to subnet into another system &adedicated to a process&r."
+				"{@pagebreak}"
+				"This also means subnets can &6endlessly chain&r into more subnets."
+				""
+				"Please be careful with this as nesting deeply can cause &cperformance issues&r. Subnets should be kept to &n1-2 deep&r in most cases."
+			]
 			id: "7936F216A34BA9EC"
 			rewards: [{
 				id: "37019D69C91CC504"
@@ -936,6 +1009,15 @@
 		}
 		{
 			dependencies: ["7936F216A34BA9EC"]
+			description: [
+				"Interestingly storage buses are &onot the only thing&r able to expose the contents of an Ae network."
+				""
+				"A &dspark&r &7(from botania)&r on an interface is able to expose the entire inventory of that network."
+				""
+				"{image:compression:textures/quests/spark_interface.png width:185 height:100 align:center}"
+				""
+				"Stocking specific items in the interface will cause the spark to &nonly&r see the stocked items instead of the entire inventory."
+			]
 			id: "37122B138026B67F"
 			rewards: [{
 				id: "549904E916AE1441"
@@ -1053,8 +1135,21 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["4FB68561130B82C9"]
+			dependencies: [
+				"4FB68561130B82C9"
+				"741704A82A2C1227"
+			]
+			description: [
+				"Packages are your most powerful &abulk storage&r option for single items."
+				""
+				"Packages can interface with setups much in the same way as a &avanilla shulkerbox loader&r, but this being modded, there are better options for filling/breaking them up."
+			]
 			id: "5F55D2A02633D838"
+			rewards: [{
+				id: "30F9BF99DA3AA217"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			subtitle: "Works in vanilla shulker loaders as well!"
 			tasks: [{
 				id: "6ADE7385A7A08455"
@@ -1078,7 +1173,7 @@
 				item: "nyagibits_bytes:tier_one_strawberry"
 				type: "item"
 			}]
-			subtitle: "Just craft them all at once"
+			subtitle: "Just craft them all at once lmao"
 			tasks: [
 				{
 					id: "2517658489331D1F"
@@ -1097,6 +1192,16 @@
 		}
 		{
 			dependencies: ["5F55D2A02633D838"]
+			description: [
+				"Inherently a package can only store up to &l8 stacks&r, &o&nbut&r&r have the ability to nest within themselves up to &b4 packages deep&r."
+				""
+				"{image:compression:textures/quests/packages.png width:177 height:100 align:center}"
+				""
+				"&c&l512 Items&r"
+				"&6&l4,096 Items&r"
+				"&e&l32,768 Items&r"
+				"&a&l262,144 Items&r"
+			]
 			icon: "minecraft:bowl"
 			id: "6D738741AA3A32BC"
 			rewards: [{
