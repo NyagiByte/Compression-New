@@ -372,6 +372,8 @@
 				"This at a glance will showcase areas of the base &cbottlenecking or failing to produce&r, saving you a lot of wandering about."
 				"{@pagebreak}"
 				"The displays can also be &ddyed&r for fun."
+				""
+				"{image:compression:textures/quests/display.png width:185 height:100 align:center}"
 			]
 			id: "06082D1481C77AC6"
 			rewards: [{
