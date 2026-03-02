@@ -974,7 +974,11 @@
 		}
 		{
 			dependencies: ["438276B3F0F5F994"]
-			description: ["&6[W] To Ponder!&r"]
+			description: [
+				"&6[W] To Ponder!&r"
+				""
+				"Have an inventory that doesn't play well with comparators?"
+			]
 			id: "1D17CE10B4749AD8"
 			rewards: [{
 				id: "52F487B5C88DCBDD"
