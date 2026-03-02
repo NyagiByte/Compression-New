@@ -537,11 +537,16 @@
 			dependencies: [
 				"4979C4345BF49D59"
 				"06082D1481C77AC6"
+				"741704A82A2C1227"
 			]
 			description: [
 				"&6[W] To Ponder!&r"
 				""
-				"While a rather pricy investment, these set of blocks will kick your entire infrastructure up a level."
+				"While a rather &epricy investment&r, this set of blocks will kick your entire infrastructure up a level."
+				""
+				"The interactions with &dCreate 6.0&r's logistics get rather involved, I would highly recommend studying the ponders closely."
+				"{@pagebreak}"
+				"It is highly recommended to set some &apackage-based-logistics&r before moving to ae2 as the cost investment of ae2 is even higher &7(start of Tier 1)."
 			]
 			id: "2FC4DA2B196204C7"
 			rewards: [{
@@ -551,11 +556,6 @@
 			}]
 			subtitle: "No you don't need an actual frog for the frogport, have some faith in the recipe design. Instead you enslave a snow golem"
 			tasks: [
-				{
-					id: "1DE7250CD4DFE3A9"
-					item: "create:repackager"
-					type: "item"
-				}
 				{
 					id: "694CECA3FE0BCEE6"
 					item: "create:package_frogport"
@@ -581,6 +581,11 @@
 					item: "minecraft:chain"
 					type: "item"
 				}
+				{
+					id: "2D05AA019029D54F"
+					item: "create:packager"
+					type: "item"
+				}
 			]
 			title: "Robust Logistics"
 			x: 3.0d
@@ -588,7 +593,13 @@
 		}
 		{
 			dependencies: ["2FC4DA2B196204C7"]
-			description: ["&6[W] To Ponder!&r"]
+			description: [
+				"&6[W] To Ponder!&r"
+				""
+				"To further run your package-based-logistics and truly feel the spirit of the factory come to life the &dFactory Gauge&r will ensure the symphony of industry is alive and well."
+				""
+				"Make sure to study the &6ponder&r closely!"
+			]
 			id: "652CCCC43895CC57"
 			rewards: [{
 				id: "63CAFB70A2A989CF"
@@ -610,7 +621,46 @@
 				"652CCCC43895CC57"
 				"4FB68561130B82C9"
 			]
-			description: [""]
+			description: [
+				"1 Drive can store &a10 cells&r"
+				""
+				"Each cell can carry &n63 unique items each&r."
+				"{@pagebreak}"
+				"Cells can also be given upgrades in a &dcell workbench&r."
+				""
+				"{image:compression:textures/quests/cell_workbench.png width:185 height:49 align:center}"
+				""
+				"{@pagebreak}"
+				""
+				"The &4Overflow Card&r here works much in the same way as it does in the storage bus where excess inputs &cvoid&r the items and produce &epollution&r."
+				""
+				"{@pagebreak}"
+				""
+				"&dFuzzy&r and &dInverter&r cards here have functionality with the &bcell-partition&r mechanic in the workbench."
+				""
+				"&bPartitioning&r a drive means it only stores what is listed in the internal filter as seen below."
+				""
+				"{image:compression:textures/quests/partition.png width:185 height:49 align:center}"
+				""
+				"&dFuzzy&r cards ignore durability and nbt when considering the filter."
+				""
+				"&dInverter&r cards allow the disk to store everything except what is listed in the filter."
+				"{@pagebreak}"
+				"An upgrade unique to cells is the &dEqual Distribution&r card."
+				""
+				"{image:compression:textures/quests/equal_distribution.png width:185 height:78 align:center}"
+				""
+				"By default this does &cnothing&r. But! When you have &a2 or more&r in a drive something magical happens."
+				"{@pagebreak}"
+				"The items distribute! &eSomewhat&r..."
+				""
+				"{image:compression:textures/quests/distribute_one.png width:139 height:101 align:center}"
+				"{image:compression:textures/quests/distribute_two.png width:139 height:101 align:center}"
+				""
+				"It's a bit &cjank&r but it works mostly well enough."
+				"{@pagebreak}"
+				"Oh and drives also have &apriority settings&r much in the same way as &bstorage buses&r do. More details in the quest directly to the &n← left ←&r."
+			]
 			icon: "ae2:item_cell_housing"
 			id: "0BCC4B5B144C4EFA"
 			rewards: [{
