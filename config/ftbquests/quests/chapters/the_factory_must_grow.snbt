@@ -977,7 +977,9 @@
 			description: [
 				"&6[W] To Ponder!&r"
 				""
-				"Have an inventory that doesn't play well with comparators?"
+				"Have an inventory that doesn't play well with comparators? Or simply want more &acompact monitoring&r?"
+				""
+				"The &dThreshold Switch&r and &dSmart Observer&r have got you covered. &bCheck out the ponders&r!"
 			]
 			id: "1D17CE10B4749AD8"
 			rewards: [{
