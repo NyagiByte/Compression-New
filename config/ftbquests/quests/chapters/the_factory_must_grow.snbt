@@ -928,6 +928,27 @@
 		}
 		{
 			dependencies: ["06082D1481C77AC6"]
+			description: [
+				"&dComparators&r are your friends when it comes to &eturning off your machines&r when the buffer output is full."
+				""
+				"&lWhy is this important?&r "
+				"Well a lot of setups do &cnot auto-stop&r since they generate &bitem entities in world&r and computers are &o&ephysically limited by the laws of the universe&r&r and thus can not deal with several &ctens of thousands of cobblestone on the floor&r, resulting in the server admins putting &otheir thumbs into your eye sockets&r."
+				""
+				"&nSimple setups on the next page.&r"
+				"{@pagebreak}"
+				"This simple setup needs &b1 comparator&r and &b1 analog lever&r."
+				""
+				"{image:compression:textures/quests/simple_comparator.png width:185 height:100 align:center}"
+				""
+				"Pictured here the comparator is set to &6&ncompare mode&r&r and, with a signal strength of 15 on the side, will &aonly output if the chest is full to the brim&r."
+				""
+				"Now if you'd like the machine to turn off with less items in the chest it is as simple as switching the comparator to &6&nsubtract mode&r and lowering the lever's output signal."
+				"{@pagebreak}"
+				"See that was not so bad, now please, don't brick servers <3"
+				""
+				"&7Note: Iron Chests do not work with comparators sorry!"
+			]
+			icon: "minecraft:comparator"
 			id: "438276B3F0F5F994"
 			rewards: [{
 				id: "3551546A1D0AB000"
@@ -935,11 +956,18 @@
 				type: "item"
 			}]
 			subtitle: "There is an image in here, don't be scared of the comparators. They can't bite you much"
-			tasks: [{
-				id: "297D2B5DD1C8BCD1"
-				item: "minecraft:comparator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "297D2B5DD1C8BCD1"
+					item: "minecraft:comparator"
+					type: "item"
+				}
+				{
+					id: "156B31FFCDDDC275"
+					item: "create:analog_lever"
+					type: "item"
+				}
+			]
 			title: "Preventing a Lag Machine"
 			x: 5.0d
 			y: 5.0d
