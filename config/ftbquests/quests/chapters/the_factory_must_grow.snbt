@@ -1018,7 +1018,13 @@
 		}
 		{
 			dependencies: ["4979C4345BF49D59"]
-			description: ["&6[W] To Ponder!&r"]
+			description: [
+				"&6[W] To Ponder!&r"
+				""
+				"This set of blocks is your backbone to moving items around with corporea."
+				""
+				"Each individual block is rather involved but thanks to &dReal_Septicake&r they have ponders. Enjoy!"
+			]
 			id: "5BE8366BFF85CE9D"
 			rewards: [{
 				id: "39A08D4CEF78D9E1"
