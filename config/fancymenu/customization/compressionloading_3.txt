@@ -4,12 +4,12 @@ layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
   last_edited_time = 1733989314560
-  is_enabled = false
+  is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:a5b9af37-45fd-4508-ac4f-219db3cce967-1763593889643] = [groups:][instances:]
+  [loading_requirement_container_meta:15bb291a-2ee9-46eb-9315-2e9da7b84ee9-1772356195928] = [groups:][instances:]
 }
 
 customization {

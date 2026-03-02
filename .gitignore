@@ -57,3 +57,12 @@ config/packetfixer.properties
 config/xenon-options.json
 config/xenon++.toml
 /config/worldedit
+config/ironchests/defaults.properties
+/config/NoChatReports
+/config/NoChatReports
+config/oculus.properties
+config/packetfixer.properties
+config/xenon-fingerprint.json
+fabricloader.log
+impossible_data/what_is_this_folder.txt
+spiffy_instance_data/death_point.json
