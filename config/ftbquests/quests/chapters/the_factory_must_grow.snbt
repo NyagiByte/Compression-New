@@ -538,7 +538,11 @@
 				"4979C4345BF49D59"
 				"06082D1481C77AC6"
 			]
-			description: ["&6[W] To Ponder!&r"]
+			description: [
+				"&6[W] To Ponder!&r"
+				""
+				"While a rather pricy investment, these set of blocks will kick your entire infrastructure up a level."
+			]
 			id: "2FC4DA2B196204C7"
 			rewards: [{
 				id: "2F2940A4C5B9AEE9"
@@ -565,6 +569,16 @@
 				{
 					id: "72DC1BEC7B1EAADA"
 					item: "create:stock_link"
+					type: "item"
+				}
+				{
+					id: "2860C347798E1663"
+					item: "create:chain_conveyor"
+					type: "item"
+				}
+				{
+					id: "1C4EBEBAF27D5A99"
+					item: "minecraft:chain"
 					type: "item"
 				}
 			]
