@@ -362,7 +362,17 @@
 		}
 		{
 			dependencies: ["4979C4345BF49D59"]
-			description: ["&6[W] To Ponder!&r"]
+			description: [
+				"&6[W] To Ponder!&r"
+				""
+				"Goodness it's only Tier 0 and it's getting somewhat tricky to keep track of these production lines! &dWhat to do ‽&r"
+				""
+				"By sticking &ndisplay links on smart observers on the output buffers of automated setups&r you can build a &acentralized area&r showcasing the current stock of all items."
+				""
+				"This at a glance will showcase areas of the base &cbottlenecking or failing to produce&r, saving you a lot of wandering about."
+				"{@pagebreak}"
+				"The displays can also be &ddyed&r for fun."
+			]
 			id: "06082D1481C77AC6"
 			rewards: [{
 				id: "6C2E87BC4B007BC7"
@@ -382,7 +392,12 @@
 					type: "item"
 				}
 				{
-					id: "0669B36CA6316210"
+					id: "3CAE9AD102D1E579"
+					item: "create:content_observer"
+					type: "item"
+				}
+				{
+					id: "20851C53B7AB67D4"
 					item: "create:display_board"
 					type: "item"
 				}
