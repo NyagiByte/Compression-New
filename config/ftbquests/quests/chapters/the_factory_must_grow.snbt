@@ -271,8 +271,9 @@
 				""
 				"Vaults work very well in supply chains as &nbuffers&r."
 				""
-				"They can be used as generic storage by interfacing with &astock links&r or &astorage buses&r but it's recommended to limit use of this functionality as it can cause &clag at larger scales&r."
+				"They can be used as generic storage by interfacing with &astock links, sparks&r or &astorage buses&r but it's recommended to limit use of this functionality as it can cause &clag at larger scales&r."
 			]
+			icon: "create:item_vault"
 			id: "0D97FCEA76ACC0D1"
 			rewards: [{
 				id: "0E56F16B7DBFEE4C"
@@ -298,14 +299,51 @@
 		}
 		{
 			dependencies: ["4FB68561130B82C9"]
-			description: ["&6[W] To Ponder!&r"]
+			description: [
+				"&6[W] To Ponder!&r"
+				""
+				"&dCorporea&r and &6EMI&r have integrations with each other that can streamline pre-automation construction of your base!"
+				""
+				"{image:compression:textures/quests/corporea_emi.png width:185 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"Firstly you don't necessarily need to type in chat to request items. By &apinning an item to your bookmark&r &7(press [A] while hovering it)&r you can hover the bookmarked item and press c &7(by defauly)&r to request the item."
+				""
+				"{image:compression:textures/quests/add_bookmark_corp.png width:185 height:76 align:center}"
+				""
+				"{@pagebreak}"
+				"Pressing &b[C]&r by itself requests 1 item"
+				""
+				"{image:compression:textures/quests/c_request.png width:140 height:130 align:center}"
+				""
+				"{@pagebreak}"
+				"Pressing &b[Shift + C]&r will request an entire stack of that item."
+				""
+				"{image:compression:textures/quests/c_shift_request.png width:140 height:130 align:center}"
+				""
+				"{@pagebreak}"
+				"This mechanic also works with the &6recipe tree viewer&r!"
+				""
+				"As an example lets craft some &nfurnaces&r."
+				""
+				""
+				"{image:compression:textures/quests/tree_crafting.png width:296 height:160 align:center}"
+				""
+				"By toggling the view to &6[Crafting Recipe Tree]&r the items in the tree will display as &abookmarks&r."
+				"{@pagebreak}"
+				"From here you can simply &arequest items&r in the same way shown prior."
+				""
+				"{image:compression:textures/quests/tree_crafting_bookmark.png width:197 height:33 align:center}"
+				""
+				"By doing things this way you can entirely cut out &cwasted time&r looking for items!"
+			]
 			id: "4979C4345BF49D59"
 			rewards: [{
 				id: "2CE49CF94C2B834B"
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
-			subtitle: "Shockingly Powderful"
+			subtitle: "Shockingly Powerful"
 			tasks: [
 				{
 					id: "515E0C9B12798724"
@@ -541,6 +579,8 @@
 				"652CCCC43895CC57"
 				"4FB68561130B82C9"
 			]
+			description: [""]
+			icon: "ae2:item_cell_housing"
 			id: "0BCC4B5B144C4EFA"
 			rewards: [{
 				id: "0821D3D493066DED"
@@ -557,6 +597,11 @@
 				{
 					id: "42A83DDBFCBFBBE5"
 					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					id: "2D638CB27EEBBD14"
+					item: "ae2:item_storage_cell_1k"
 					type: "item"
 				}
 			]
