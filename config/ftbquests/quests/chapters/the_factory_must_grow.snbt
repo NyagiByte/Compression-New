@@ -1141,6 +1141,21 @@
 		}
 		{
 			dependencies: ["438276B3F0F5F994"]
+			description: [
+				"The &6Cog Block&r is a useful component that allows redstone signals to move in basically any direction."
+				""
+				"{image:compression:textures/quests/sup_cog_1.png width:185 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"So long as the cog blocks are &6touching each other&r the signal will transmit."
+				""
+				"{image:compression:textures/quests/sup_cog_2.png width:185 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"An &eimportant limitation&r to note is the fact that the cog blocks will still &close signal strength&r per block, much like regular redstone dust."
+				""
+				"{image:compression:textures/quests/sup_cog_3.png width:185 height:100 align:center}"
+			]
 			id: "48A8F46D3E54FD28"
 			rewards: [{
 				id: "79BB2A3F33D1CCC3"
