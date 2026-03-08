@@ -337,6 +337,7 @@
 				""
 				"By doing things this way you can entirely cut out &cwasted time&r looking for items!"
 			]
+			icon: "botania:corporea_index"
 			id: "4979C4345BF49D59"
 			rewards: [{
 				id: "2CE49CF94C2B834B"
@@ -346,6 +347,7 @@
 			subtitle: "Shockingly Powerful"
 			tasks: [
 				{
+					count: 2L
 					id: "515E0C9B12798724"
 					item: "botania:corporea_spark"
 					type: "item"
@@ -353,6 +355,11 @@
 				{
 					id: "034650C98D533FD8"
 					item: "botania:corporea_index"
+					type: "item"
+				}
+				{
+					id: "31EA85F95BC1C334"
+					item: "botania:corporea_spark_master"
 					type: "item"
 				}
 			]
@@ -375,6 +382,7 @@
 				""
 				"{image:compression:textures/quests/display.png width:185 height:100 align:center}"
 			]
+			icon: "create:display_board"
 			id: "06082D1481C77AC6"
 			rewards: [{
 				id: "6C2E87BC4B007BC7"
@@ -405,7 +413,7 @@
 				}
 			]
 			title: "Status Report!"
-			x: 4.5d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
@@ -548,6 +556,7 @@
 				"{@pagebreak}"
 				"It is highly recommended to set some &apackage-based-logistics&r before moving to ae2 as the cost investment of ae2 is even higher &7(start of Tier 1)."
 			]
+			icon: "create:package_frogport"
 			id: "2FC4DA2B196204C7"
 			rewards: [{
 				id: "2F2940A4C5B9AEE9"
@@ -841,7 +850,13 @@
 		}
 		{
 			dependencies: ["438276B3F0F5F994"]
-			description: ["&6[W] To Ponder!&r"]
+			description: [
+				"&6[W] To Ponder!&r"
+				""
+				"Create comes with its own &cw&6o&en&ad&be&dr&cf&6u&el &aa&bd&dd&ci&6t&ei&ao&bn&ds&r to redstone."
+				""
+				"Be sure to check out their &lponders&r for information on how to use them!"
+			]
 			id: "21EAF6135B6C068F"
 			rewards: [{
 				id: "47C56625B34C48AE"
@@ -882,6 +897,13 @@
 		}
 		{
 			dependencies: ["21EAF6135B6C068F"]
+			description: [
+				"Redstone is fine and all but sometimes the physical &cbulk&r can get in the way of existing machines."
+				""
+				"Worry not for the a little item known as a &6&nRedstone Module&r can be cut up into a dizzying array of compact logical redstone components. More in the quest on the &a← left ←&r."
+				""
+				"The module itself comes with a &lponder&r explaining interactions with &bVintage Improvement&r machinery."
+			]
 			id: "55D9685F3A80E054"
 			rewards: [{
 				id: "6704DAF9F9B6581B"
@@ -933,7 +955,7 @@
 				"{@pagebreak}"
 				"Toggling the torch gives you inverted behavior where the signal will be sent when the amount of items is &b<(n)&r."
 				""
-				"{image:compression:textures/quests/level_emitter_above_or_equal.png width:185 height:65 align:center}"
+				"{image:compression:textures/quests/level_emitter_below.png width:185 height:65 align:center}"
 				""
 				"It is important to note here that it is strictly only &o&6less than&r&r and not &o&eless than or equal to&r."
 				""
@@ -1050,6 +1072,7 @@
 				""
 				"The &dThreshold Switch&r and &dSmart Observer&r have got you covered. &bCheck out the ponders&r!"
 			]
+			icon: "create:content_observer"
 			id: "1D17CE10B4749AD8"
 			rewards: [{
 				id: "52F487B5C88DCBDD"
@@ -1075,6 +1098,13 @@
 		}
 		{
 			dependencies: ["55D9685F3A80E054"]
+			description: [
+				"&dProjectRed&r comes equiped with a wide selection of &bsingle-block-logic&r components."
+				""
+				"&eEventually these will get proper ponders&r but in the effort to not &cre-write sections of a comp sci textbook&r it will be helpful to simply google &n&lTruth Tables&r and go from there for these gates."
+				""
+				"Good luck!"
+			]
 			id: "60DF2A2BCD2D9D93"
 			rewards: [{
 				id: "36792512483A7010"
@@ -1204,6 +1234,7 @@
 				""
 				"Each individual block is rather involved but thanks to &dReal_Septicake&r they have ponders. Enjoy!"
 			]
+			icon: "botania:corporea_crystal_cube"
 			id: "5BE8366BFF85CE9D"
 			rewards: [{
 				id: "39A08D4CEF78D9E1"
@@ -1273,6 +1304,89 @@
 		}
 		{
 			dependencies: ["5453F57FB425DD00"]
+			description: [
+				"&dP2P Tunnels&r also known as &nPoint-to-Point Tunnels&r are a way to shuttle various things an &aarbitrarily long distance&r through your network."
+				""
+				"For this quest the usecase will focus on &credstone signaling&r but it is worth noting that p2p tunnels can work with many different &b\"substances\"&r. "
+				""
+				"&7Attachment types can be viewed by clicking the p2p in the quest above and looking for the JEI entry &n[P2P Tunnel Attunement]&r."
+				"{@pagebreak}"
+				"&lSo why care about p2p redstone?&r"
+				""
+				"Bases here tend to &eswell in size&r very very quickly, and many &abiome-specific interactions&r will cause sprawling infrastructure many &dhundreds or thousands of blocks&r from the centralized area."
+				""
+				"Create's redstone link has a &crange limit&r of &n256 blocks in radius&r. Which, while usually fine for bases, &cwon't be enough long term&r."
+				"{@pagebreak}"
+				"In this example we will simply be pointing a &dlevel emitter&r into a &bp2p tunnel on the &n← left ←&r with the other side of the &6tunnel off to the &n→ right →&r. "
+				""
+				"{image:compression:textures/quests/p2p_redstone.png width:185 height:100 align:center}"
+				""
+				"This distance can be &aarbitrarily long&r or even &athrough quantum rings&r. But for the sake of the diagram, it is nearby."
+				""
+				"{@pagebreak}"
+				""
+				"By default a placed p2p tunnel will be attuned to connect to &nae2 cables&r. "
+				""
+				"To change this to &credstone attunement&r, simply &nright click&r the p2p tunnel with any listed item under the &aredstone-attunement-forge-tag&r as seen on the &nfollowing pages&r or in JEI."
+				"{@pagebreak}"
+				"{image:compression:textures/quests/p2p_redstone_tag_one.png width:130 height:185 align:center}"
+				"{image:compression:textures/quests/p2p_redstone_tag_two.png width:130 height:185 align:center}"
+				"{@pagebreak}"
+				"{image:compression:textures/quests/p2p_redstone_tag_three.png width:130 height:185 align:center}"
+				"{image:compression:textures/quests/p2p_redstone_tag_four.png width:130 height:185 align:center}"
+				"{@pagebreak}"
+				"{image:compression:textures/quests/p2p_redstone_tag_five.png width:130 height:185 align:center}"
+				""
+				"&6Note:&r This tag list is significantly expanded from base Ae2 and is subject to updates."
+				"{@pagebreak}"
+				"With that out of the way let's actually &ouse&r these tunnels!"
+				""
+				"You'll want to place &62&r P2P tunnels onto an ME cable line and &nattune&r them to redstone signals"
+				""
+				"{image:compression:textures/quests/p2p_memory_one.png width:185 height:100 align:center}"
+				""
+				"&7Their exact positions does not matter but they &l&n&amust&r &7exist on the same network. P2P tunnels also &c&nwill not function&r &7between subnets."
+				""
+				"{@pagebreak}"
+				""
+				"By default the tunnels &cdon't know to talk to each other&r. To link them together you'll use a &bmemory card&r."
+				""
+				"{image:compression:textures/quests/p2p_memory_two.png width:185 height:100 align:center}"
+				""
+				"To use the memory card simply &nshift + right-click&r the side of the tunnel you wish to be the &ainput&r. &7More on this later&r."
+				"{@pagebreak}"
+				"When you do this you will see a &npopup&r letting you know a new configuration has been &acreated and copied&r to the memory card. You will also see a visual update on the &ncard and tunnel&r showing the frequency that has been copied."
+				""
+				"{image:compression:textures/quests/p2p_memory_four.png width:185 height:100 align:center}"
+				""
+				"You can also see above on the \"what am I looking at\" overlay that the tunnel itself has a frequency listed. Here it is &l0&a5&8F&e4&r."
+				""
+				"{image:compression:textures/quests/p2p_jade.png width:185 height:78 align:center}"
+				"{image:compression:textures/quests/p2p_memory_five.png width:185 height:67 align:center}"
+				"{@pagebreak}"
+				"To designate an &coutput&r side simply &nright-click&r another tunnel."
+				""
+				"{image:compression:textures/quests/p2p_memory_three.png width:185 height:100 align:center}"
+				""
+				"Something to note here. The redstone line &cdidn't instantly update&r. This will happen sometimes and requires the &ainput&r side to be updated to register properly."
+				"{@pagebreak}"
+				"When &bproperly updated&r you now have a tunnel of redstone signal!"
+				""
+				"{image:compression:textures/quests/p2p_memory_six.png width:185 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"A fun feature of p2p tunnels is, despite only allowing 1 &ainput&r, you can have an &6arbitrary amount of &r&coutputs&r!"
+				""
+				"{image:compression:textures/quests/p2p_memory_seven.png width:185 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"Another &efeature/limitation&r of p2p redstone is the fact that the tunnels are &emonodirectional&r in their signal sending. Meaning a side designated as &coutput&r can not send the signal backwards. &n&lOnly&r the &ainput&r side can send a signal through."
+				""
+				"{image:compression:textures/quests/p2p_memory_eight.png width:185 height:100 align:center}"
+				"{@pagebreak}"
+				"An important note to make is that modded redstone items can often have &eweird and inconsistent behavior&r with p2p tunnels. It is &nvery important&r to test these interactions before planning out a build."
+				"{image:compression:textures/quests/p2p_weird_connections.png width:185 height:100 align:center}"
+			]
 			id: "4E29F03DB5A55935"
 			rewards: [{
 				id: "31B6E549B18E16FD"
@@ -1282,6 +1396,7 @@
 			subtitle: "For all those cases you accidentally build your super computer on the wrong side of your base"
 			tasks: [
 				{
+					count: 2L
 					id: "1FA8F14AB2CD039F"
 					item: "ae2:me_p2p_tunnel"
 					type: "item"
