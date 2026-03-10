@@ -1,8 +1,8 @@
 {
     "type":"minecraft:stonecutting",
     "ingredient":{
-        "item": "ae2:matter_ball"
+        "item": "nyagibits_bytes:ball_plastic_ii"
         },
             "result": "yuushya:venetian_blinds",
-            "count":4
+            "count":1
         }

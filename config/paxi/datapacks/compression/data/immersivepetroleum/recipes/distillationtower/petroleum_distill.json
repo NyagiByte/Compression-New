@@ -1,0 +1,25 @@
+{
+  "type": "immersivepetroleum:distillation",
+    "byproducts": [
+      {
+        "chance": "0.25",
+        "item": "nyagibits_bytes:carbon_residue"
+      }
+    ],
+  "energy": 1024,
+  "input": {
+    "amount": 10,
+    "tag": "forge:petroleum_gas"
+  },
+  "results": [
+    {
+      "amount": 4,
+      "fluid": "nyagibits_bytes:propylene_fluid"
+    },
+    {
+      "amount": 2,
+      "fluid": "nyagibits_bytes:gasoline_additives_raw_fluid"
+    }
+  ],
+  "time": 1
+}

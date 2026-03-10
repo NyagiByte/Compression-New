@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:aspen_wood"
+        "item": "biomeswevegone:aspen_wood"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_aspen_wood"
+        "item": "biomeswevegone:stripped_aspen_wood"
       },
       {
         "item": "farmersdelight:tree_bark"

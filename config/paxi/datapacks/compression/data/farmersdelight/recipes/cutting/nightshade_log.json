@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:nightshade_log"
+        "item": "biomeswevegone:nightshade_log"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_nightshade_log"
+        "item": "biomeswevegone:stripped_nightshade_log"
       },
       {
         "item": "farmersdelight:tree_bark"

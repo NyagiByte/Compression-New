@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:blue_enchanted_planks"
+      "item": "biomeswevegone:blue_enchanted_planks"
     }
   ],
   "processingTime": 200,
@@ -10,7 +10,7 @@
     {
       "chance": 0.25,
       "count": 2,
-      "item": "everycomp:hc/byg/blue_enchanted_board"
+      "item": "everycomp:hc/biomeswevegone/blue_enchanted_board"
     }
   ]
 }

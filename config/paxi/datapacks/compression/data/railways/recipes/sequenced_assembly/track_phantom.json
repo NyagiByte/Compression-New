@@ -1,0 +1,17 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "create:track"
+      },
+      {
+        "item": "botania:phantom_ink"
+      }
+    ],
+    "results": [
+      {
+        "count": 1,
+        "item": "railways:track_phantom"
+      }
+    ]
+  }

@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:embur_pedu"
+        "item": "biomeswevegone:embur_pedu"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_embur_pedu"
+        "item": "biomeswevegone:stripped_embur_pedu"
       },
       {
         "item": "farmersdelight:tree_bark"

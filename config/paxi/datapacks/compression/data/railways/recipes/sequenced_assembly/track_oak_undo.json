@@ -13,7 +13,7 @@
       {
         "chance": 0.5,
         "count": 1,
-        "item": "handcrafted:oak_board"
+        "item": "minecraft:oak_planks"
       }
     ]
   }

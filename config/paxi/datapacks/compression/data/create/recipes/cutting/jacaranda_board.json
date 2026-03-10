@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:jacaranda_planks"
+      "item": "biomeswevegone:jacaranda_planks"
     }
   ],
   "processingTime": 200,
@@ -10,7 +10,7 @@
     {
       "chance": 0.25,
       "count": 2,
-      "item": "everycomp:hc/byg/jacaranda_board"
+      "item": "everycomp:hc/biomeswevegone/jacaranda_board"
     }
   ]
 }

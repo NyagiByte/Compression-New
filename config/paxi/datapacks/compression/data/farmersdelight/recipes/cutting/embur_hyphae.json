@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:embur_hyphae"
+        "item": "biomeswevegone:embur_hyphae"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_embur_hyphae"
+        "item": "biomeswevegone:stripped_embur_hyphae"
       },
       {
         "item": "farmersdelight:tree_bark"

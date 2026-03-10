@@ -1,8 +1,8 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item":"everycomp:hc/byg/redwood_board"},
-      "B": {"item":"byg:redwood_planks"},
+      "A": {"item":"everycomp:hc/biomeswevegone/redwood_board"},
+      "B": {"item":"biomeswevegone:redwood_planks"},
       "C": {"tag":"c:wooden_chests"}
     },
     "pattern": [
@@ -12,6 +12,6 @@
     ],
     "result": {
       "count": 2,
-      "item": "everycomp:hc/byg/redwood_cupboard"
+      "item": "everycomp:hc/biomeswevegone/redwood_cupboard"
   }
 }

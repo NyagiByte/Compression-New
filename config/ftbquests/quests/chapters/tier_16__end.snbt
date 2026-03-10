@@ -8,7 +8,9 @@
 	order_index: 16
 	quest_links: [ ]
 	quests: [{
+		dependencies: ["56CA9F9D6F6226BE"]
 		description: ["&cIt's all gone, take yours now, it's over"]
+		hide_until_deps_complete: true
 		icon: "ftbquests:barrier"
 		id: "037525CBB3136E46"
 		shape: "hexagon"

@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:zelkova_planks"
+      "item": "biomeswevegone:zelkova_planks"
     }
   ],
   "processingTime": 200,
@@ -10,7 +10,7 @@
     {
       "chance": 0.25,
       "count": 2,
-      "item": "everycomp:hc/byg/zelkova_board"
+      "item": "everycomp:hc/biomeswevegone/zelkova_board"
     }
   ]
 }

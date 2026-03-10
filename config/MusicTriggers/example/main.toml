@@ -8,28 +8,25 @@
 		triggers = [ ]
 	[songs.alonelyspeckinthegreatenvelopingcosmicdark]
 		chance = 1
-		triggers = [ "generic" ]
+		triggers = [ "generic", "menu" ]
 	[songs.bluesunrise]
 		chance = 1
-		triggers = [ "generic" ]
+		triggers = [ "generic", "menu" ]
 	[songs.edditsinthespacetimecontinuum]
 		chance = 1
-		triggers = [ "generic" ]
+		triggers = [ "generic", "menu" ]
 	[songs.gentlewinds]
 		chance = 1
-		triggers = [ "generic" ]
-	[songs.godseyesarelikemymotherseyes]
-		chance = 1
-		triggers = [ "" ]
+		triggers = [ "generic", "menu" ]
 	[songs.heavenexistsandisfullofpoorpeople]
 		chance = 1
-		triggers = [ "generic" ]
+		triggers = [ "generic", "menu" ]
 	[songs.hydra]
 		chance = 1
-		triggers = [ "generic" ]
+		triggers = [ "generic", "menu" ]
 	[songs.innocence]
 		chance = 1
-		triggers = [ "generic" ]
+		triggers = [ "generic", "menu" ]
 	[songs.lastmoonlaststars]
 		chance = 1
 		triggers = [ "time-Night" ]
@@ -41,7 +38,7 @@
 		triggers = [ "time-Night" ]
 	[songs.pandorasbox]
 		chance = 1
-		triggers = [ "generic" ]
+		triggers = [ "generic", "menu" ]
 	[songs.relic12]
 		chance = 1
 		triggers = [ "time-Night" ]
@@ -64,30 +61,32 @@
 		triggers = [ ]
 	[songs.silicontransmitterdecay]
 		chance = 1
-		triggers = [ "generic" ]
+		triggers = [ "generic", "menu" ]
 	[songs.silicontransmitterruin]
 		chance = 1
 		triggers = [ "time-Night" ]
 	[songs.thankyouforgivingsomuch]
 		chance = 1
-		triggers = [ "generic" ]
+		triggers = [ "generic", "menu" ]
 	[songs.thegloriousexperienceofdyingpeacefully]
 		chance = 1
-		triggers = [ "generic" ]
+		triggers = [ "generic", "menu" ]
 	[songs.tobeahuman]
 		chance = 1
 		triggers = [ "time-Night" ]
 	[songs.west]
 		chance = 1
-		triggers = [ "generic" ]
+		triggers = [ "generic", "menu" ]
 	[songs.wheredoyouhideinthebrightlight]
 		chance = 1
-		triggers = [ "generic" ]
+		triggers = [ "generic", "menu" ]
 
 [triggers]
 	[triggers.generic]
 		fade_in = 40
 		fade_out = 40
+	[triggers.menu]
+		not = true
 	[triggers.time]
 		fade_in = 40
 		fade_out = 40

@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:ball_plastic_ii"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "count": 4,
+        "item": "nyagibits_bytes:ball_plastic_i"
+      },
+      {
+        "chance": 0.5,
+        "item": "nyagibits_bytes:string_woolen"
+      }
+    ]
+  }

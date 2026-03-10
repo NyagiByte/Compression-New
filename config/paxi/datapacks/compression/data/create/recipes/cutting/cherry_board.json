@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:cherry_planks"
+      "item": "biomeswevegone:cherry_planks"
     }
   ],
   "processingTime": 200,
@@ -10,7 +10,7 @@
     {
       "chance": 0.25,
       "count": 2,
-      "item": "everycomp:hc/byg/cherry_board"
+      "item": "everycomp:hc/biomeswevegone/cherry_board"
     }
   ]
 }

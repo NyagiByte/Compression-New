@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:mahogany_planks"
+      "item": "biomeswevegone:mahogany_planks"
     }
   ],
   "processingTime": 200,
@@ -10,7 +10,7 @@
     {
       "chance": 0.25,
       "count": 2,
-      "item": "everycomp:hc/byg/mahogany_board"
+      "item": "everycomp:hc/biomeswevegone/mahogany_board"
     }
   ]
 }

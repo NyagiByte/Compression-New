@@ -1,9 +1,9 @@
 {
     "type": "create:sandpaper_polishing",
     "ingredients": [
-      {"item": "byg:ether_planks"}
+      {"item": "biomeswevegone:ether_planks"}
     ],
     "results": [
-      {"item": "everycomp:hearth_and_home/byg/ether_sanded_wood"}
+      {"item": "everycomp:hearth_and_home/biomeswevegone/ether_sanded_wood"}
     ]
 }

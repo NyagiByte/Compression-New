@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:palm_planks"
+      "item": "biomeswevegone:palm_planks"
     }
   ],
   "processingTime": 200,
@@ -10,7 +10,7 @@
     {
       "chance": 0.25,
       "count": 2,
-      "item": "everycomp:hc/byg/palm_board"
+      "item": "everycomp:hc/biomeswevegone/palm_board"
     }
   ]
 }

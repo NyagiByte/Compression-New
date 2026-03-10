@@ -1,0 +1,56 @@
+{
+	"type":"vintageimprovements:vibrating",
+	"ingredients": [ 
+		{
+			"item": "nyagibits_bytes:scrap_structural"
+		}
+	],
+	"results": [
+		{
+            "chance": 0.75,
+            "count": 4,
+			"item": "immersiveengineering:treated_wood_horizontal"
+		},
+		{
+            "chance": 0.75,
+            "count": 6,
+			"item": "immersiveengineering:slab_treated_wood_horizontal"
+		},
+		{
+            "chance": 0.75,
+            "count": 8,
+			"item": "immersiveengineering:stick_treated"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "immersiveengineering:treated_scaffold"
+		},
+		{
+            "chance": 0.50,
+            "count": 4,
+			"item": "quark:framed_glass"
+		},
+		{
+            "chance": 0.50,
+            "count": 8,
+			"item": "minecraft:bricks"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "immersivepetroleum:asphalt"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "immersiveengineering:alu_scaffolding_standard"
+		},
+		{
+            "chance": 0.50,
+            "count": 1,
+			"item": "immersiveengineering:steel_scaffolding_standard"
+		}
+	],
+	"processingTime": 20
+}

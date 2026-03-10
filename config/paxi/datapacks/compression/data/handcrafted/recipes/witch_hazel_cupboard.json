@@ -1,8 +1,8 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item":"everycomp:hc/byg/witch_hazel_board"},
-      "B": {"item":"byg:witch_hazel_planks"},
+      "A": {"item":"everycomp:hc/biomeswevegone/witch_hazel_board"},
+      "B": {"item":"biomeswevegone:witch_hazel_planks"},
       "C": {"tag":"c:wooden_chests"}
     },
     "pattern": [
@@ -12,6 +12,6 @@
     ],
     "result": {
       "count": 2,
-      "item": "everycomp:hc/byg/witch_hazel_cupboard"
+      "item": "everycomp:hc/biomeswevegone/witch_hazel_cupboard"
   }
 }

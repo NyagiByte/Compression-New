@@ -1,0 +1,14 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "tag": "forge:balls/balls_plastic_i"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "item": "nyagibits_bytes:ball_plastic_i"
+      }
+    ]
+  }

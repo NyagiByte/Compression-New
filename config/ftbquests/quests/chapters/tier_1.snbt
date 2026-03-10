@@ -21,6 +21,7 @@
 				""
 				"&6You are more than welcome to continue playing. However keep in mind things will be incomplete and are very likely to run into softlocks making you unable to progress, or running into progression skips if we forget to disable anything. Note: This will not count towards being a \"Game Breaker\""
 			]
+			hide_until_deps_complete: true
 			icon: "thermal:enderium_gear"
 			id: "472213B0CD3A8117"
 			rewards: [{
@@ -1061,11 +1062,9 @@
 			y: 7.0d
 		}
 		{
-			dependencies: [
-				"4CFC6292BA365120"
-				"103B984BD274E9AF"
-			]
+			dependencies: ["103B984BD274E9AF"]
 			description: ["Still the same type limit, but you can have more per cell. Also 1:1 upgrades! Horray!"]
+			hide_until_deps_complete: false
 			id: "3B26CEFA5BEC5331"
 			rewards: [{
 				id: "7798962C8F6E3C64"
@@ -1192,7 +1191,7 @@
 				item: "ae2:controller"
 				type: "item"
 			}]
-			title: "&bThe heart and the brain"
+			title: "&bThe Heart and the Brain"
 			x: 0.0d
 			y: -15.0d
 		}
@@ -1383,10 +1382,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"7483F87F4311A3CA"
-				"35A20FFD1692F737"
-			]
+			dependencies: ["7483F87F4311A3CA"]
 			description: ["As it turns out the rocks themselves seem to push themselves off the ground treating the object as a whole as an arcane magnet. Probably quite useful"]
 			id: "45E43BF51EC35414"
 			rewards: [{
@@ -1467,7 +1463,6 @@
 		{
 			dependencies: [
 				"3DEB55D883E126E6"
-				"35A20FFD1692F737"
 				"163ECE113A4F686B"
 				"080D76D1638818DE"
 			]
@@ -2294,10 +2289,7 @@
 			y: 14.5d
 		}
 		{
-			dependencies: [
-				"0096F28CB0BC9933"
-				"55A43DC5FB887F23"
-			]
+			dependencies: ["0096F28CB0BC9933"]
 			id: "6657035C06A91C38"
 			rewards: [{
 				id: "43EF930590FAC8B6"
@@ -2547,6 +2539,7 @@
 				"&k&4PleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii\\nPleaseiistopiiPleaseiistopiiPleaseiistopii"
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			hide_until_deps_visible: true
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "552C4872868114FD"
@@ -3178,7 +3171,7 @@
 			tasks: [{
 				id: "66B0BAA4E4001215"
 				item: {
-					Count: 1b
+					Count: 1
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
@@ -3384,11 +3377,7 @@
 			}]
 			tasks: [{
 				id: "671608856FD75836"
-				item: {
-					Count: 1
-					id: "ae2:energy_cell"
-					tag: { }
-				}
+				item: "ae2:energy_cell"
 				type: "item"
 			}]
 			title: "Latent Energy"
@@ -3646,20 +3635,12 @@
 			tasks: [
 				{
 					id: "69C59A42783E3B96"
-					item: {
-						Count: 1
-						id: "entangled:block"
-						tag: { }
-					}
+					item: "entangled:block"
 					type: "item"
 				}
 				{
 					id: "046D31A807171B9D"
-					item: {
-						Count: 1
-						id: "entangled:item"
-						tag: { }
-					}
+					item: "entangled:item"
 					type: "item"
 				}
 			]
@@ -3736,11 +3717,7 @@
 			}]
 			tasks: [{
 				id: "1A743A788CA6842A"
-				item: {
-					Count: 1
-					id: "botania:mana_gun"
-					tag: { }
-				}
+				item: "botania:mana_gun"
 				type: "item"
 			}]
 			title: "For My Neutral Special, GUN!"

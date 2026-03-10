@@ -1,0 +1,19 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "railways:track_phantom"
+      }
+    ],
+    "results": [
+      {
+        "count": 1,
+        "item": "create:track"
+      },
+      {
+        "chance": 0.9,
+        "count": 1,
+        "item": "botania:phantom_ink"
+      }
+    ]
+  }

@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:fir_planks"
+      "item": "biomeswevegone:fir_planks"
     }
   ],
   "processingTime": 200,
@@ -10,7 +10,7 @@
     {
       "chance": 0.25,
       "count": 2,
-      "item": "everycomp:hc/byg/fir_board"
+      "item": "everycomp:hc/biomeswevegone/fir_board"
     }
   ]
 }

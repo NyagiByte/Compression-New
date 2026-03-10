@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:lament_wood"
+        "item": "biomeswevegone:lament_wood"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_lament_wood"
+        "item": "biomeswevegone:stripped_lament_wood"
       },
       {
         "item": "farmersdelight:tree_bark"

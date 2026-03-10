@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3BEACE9F3F1EC3AA"]
+			dependencies: ["2AFF7F1DA6E52A24"]
 			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
 			icon: "pneumaticcraft:transistor"
 			id: "3141035C996CF5B0"
@@ -23,6 +23,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["3141035C996CF5B0"]
 			description: [
 				"Tier 6 will focus almost exclusively on &6one&r production chain"
 				""
@@ -45,6 +46,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["5BCCEDAC43C85FE3"]
 			description: [
 				"&bMasks&r used in the &dUltraviolet Lithography&r steps are extremely important as they determin how good your chips are"
 				""
@@ -65,6 +67,7 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["5BCCEDAC43C85FE3"]
 			description: [
 				"Now you may of seen the &a\"make everything\"&r part of the pack and then seen the &cmassive variation in building blocks&r and gotten worried"
 				""

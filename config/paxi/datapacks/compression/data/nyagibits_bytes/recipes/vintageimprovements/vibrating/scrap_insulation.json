@@ -1,0 +1,56 @@
+{
+	"type":"vintageimprovements:vibrating",
+	"ingredients": [ 
+		{
+			"item": "nyagibits_bytes:scrap_insulation"
+		}
+	],
+	"results": [
+		{
+            "chance": 0.75,
+            "count": 4,
+			"item": "nyagibits_bytes:gypsum_block"
+		},
+		{
+            "chance": 0.75,
+            "count": 2,
+			"item": "nyagibits_bytes:foam_board"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "nyagibits_bytes:vermiculite_asbestos_blend"
+		},
+		{
+            "chance": 0.75,
+            "count": 2,
+			"item": "nyagibits_bytes:hardened_polyurethane_foam"
+		},
+		{
+            "chance": 0.50,
+            "count": 2,
+			"item": "nyagibits_bytes:fiberglass_batt"
+		},
+		{
+            "chance": 0.25,
+            "count": 2,
+			"item": "nyagibits_bytes:synthetic_mica"
+		},
+		{
+            "chance": 0.05,
+            "count": 1,
+			"item": "pneumaticcraft:smooth_plastic_brick_white"
+		},
+		{
+            "chance": 0.05,
+            "count": 1,
+			"item": "immersiveengineering:insulating_glass"
+		},
+		{
+            "chance": 0.15,
+            "count": 1,
+			"item": "thermal:light_gray_rockwool"
+		}
+	],
+	"processingTime": 20
+}

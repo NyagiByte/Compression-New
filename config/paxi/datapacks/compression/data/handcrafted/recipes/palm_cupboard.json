@@ -1,8 +1,8 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item":"everycomp:hc/byg/palm_board"},
-      "B": {"item":"byg:palm_planks"},
+      "A": {"item":"everycomp:hc/biomeswevegone/palm_board"},
+      "B": {"item":"biomeswevegone:palm_planks"},
       "C": {"tag":"c:wooden_chests"}
     },
     "pattern": [
@@ -12,6 +12,6 @@
     ],
     "result": {
       "count": 2,
-      "item": "everycomp:hc/byg/palm_cupboard"
+      "item": "everycomp:hc/biomeswevegone/palm_cupboard"
   }
 }

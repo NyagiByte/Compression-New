@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:witch_hazel_log"
+        "item": "biomeswevegone:witch_hazel_log"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_witch_hazel_log"
+        "item": "biomeswevegone:stripped_witch_hazel_log"
       },
       {
         "item": "farmersdelight:tree_bark"

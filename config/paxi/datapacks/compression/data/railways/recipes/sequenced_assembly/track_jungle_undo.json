@@ -13,7 +13,7 @@
       {
         "chance": 0.5,
         "count": 1,
-        "item": "handcrafted:jungle_board"
+        "item": "minecraft:jungle_planks"
       }
     ]
   }

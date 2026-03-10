@@ -1,8 +1,8 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item":"everycomp:hc/byg/bulbis_board"},
-      "B": {"item":"byg:bulbis_planks"},
+      "A": {"item":"everycomp:hc/biomeswevegone/bulbis_board"},
+      "B": {"item":"biomeswevegone:bulbis_planks"},
       "C": {"tag":"c:wooden_chests"}
     },
     "pattern": [
@@ -12,6 +12,6 @@
     ],
     "result": {
       "count": 2,
-      "item": "everycomp:hc/byg/bulbis_cupboard"
+      "item": "everycomp:hc/biomeswevegone/bulbis_cupboard"
   }
 }

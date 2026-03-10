@@ -8,7 +8,7 @@
     },
     "output": {
       "type": "block",
-      "block": "byg:scoria_stone"
+      "block": "biomeswevegone:scoria_stone"
     },
     "weight": 10
   }

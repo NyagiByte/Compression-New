@@ -1,18 +1,25 @@
-Ponder.tags((e) => {e.createTag("compression:immersiveengineering", "immersiveengineering:manual", "Immersive Engineering", "The factory must grow.", ["immersiveengineering:hammer"])});
+Ponder.tags((e) => {
+    e.createTag("compression:immersiveengineering", "immersiveengineering:manual", "Immersive Engineering", "The factory must grow.", [
+        "immersiveengineering:hammer"
+    ])
+});
 Ponder.registry((e) => {
     e.create("immersiveengineering:hammer")
         .scene("ie_hammah", "HAMMAH!", "kubejs:ie_base_5x5", (scene,util) => {
+            scene.configureBasePlate(0,0,5);
             scene.showBasePlate();
             scene.idle(10);
             scene.text(60, "The Engineer's Hammer is one of the most important tools when working with Immersive Engineering,", [2.5,1,2.5]);
             var hammers = [];
             hammers.push(scene.world.createItemEntity([2.5,1,2.5], [0,0.4,0], "immersiveengineering:hammer"))
             for(let i = 0; i<20;i++){
-                hammers.push(scene.world.createItemEntity([2.5,1,2.5], [
+                var hammer = scene.world.createItemEntity([2.5,1,2.5], [
                     (Math.random()/3)-0.16,
                     (Math.random())/2,
                     (Math.random()/3)-0.16
-                ], "immersiveengineering:hammer"));
+                ], "immersiveengineering:hammer");
+                scene.world.modifyEntity(hammer, (e) => {e.noPhysics = true});
+                hammers.push(hammer);
                 scene.idle(2)
             }
             scene.idle(10);

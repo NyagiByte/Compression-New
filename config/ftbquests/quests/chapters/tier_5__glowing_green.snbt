@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3BEACE9F3F1EC3AA"]
+			dependencies: ["57A3D76B7F9A031E"]
 			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
 			icon: "nuclearcraft:uranium_rtg"
 			id: "15E201E7CE25E2A0"
@@ -23,6 +23,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["15E201E7CE25E2A0"]
 			description: [
 				"Nuclearcraft reactors are nice and all, but once you build one it just sits there converting items to power"
 				""
@@ -50,6 +51,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["13E7A9A30CD0864B"]
 			description: [
 				"&bCompression&r will feature another overarching mechanic for &citem decay&r"
 				""
@@ -64,10 +66,11 @@
 				type: "item"
 			}]
 			title: "Decay!"
-			x: -1.5d
-			y: -1.0d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["5138DF291E95296A"]
 			description: [
 				"&dCorium&r is a liquid produced by &cmelting down nuclear reactors&r in a &ccatastrophic failure&r"
 				""
@@ -81,10 +84,11 @@
 				item: "nuclearcraft:corium_bucket"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["7A966108AC327A14"]
 			description: [
 				"Physics research often requires &especific isotopes&r of elements to gain clearer insights into underlying nuclear mechanisms"
 				""
@@ -103,10 +107,11 @@
 				type: "item"
 			}]
 			title: "Isotopic Isolation"
-			x: -1.5d
-			y: 1.0d
+			x: -2.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["7A966108AC327A14"]
 			description: ["Material gathered from refurbished nuclear components will be used for Tier 5's ore-line boost"]
 			id: "14F4CD294DB3A003"
 			tasks: [{
@@ -115,8 +120,8 @@
 				type: "item"
 			}]
 			title: "Irradiated Ore"
-			x: -0.5d
-			y: 1.5d
+			x: -2.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Twisting the dragon's tail"]

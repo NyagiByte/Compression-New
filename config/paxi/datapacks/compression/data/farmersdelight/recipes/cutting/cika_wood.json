@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:cika_wood"
+        "item": "biomeswevegone:cika_wood"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_cika_wood"
+        "item": "biomeswevegone:stripped_cika_wood"
       },
       {
         "item": "farmersdelight:tree_bark"

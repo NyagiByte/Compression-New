@@ -1,0 +1,8 @@
+{
+    "type":"minecraft:stonecutting",
+    "ingredient":{
+        "item": "nyagibits_bytes:ball_plastic_i"
+        },
+            "result": "yuushya:milk_tea",
+            "count":1
+        }

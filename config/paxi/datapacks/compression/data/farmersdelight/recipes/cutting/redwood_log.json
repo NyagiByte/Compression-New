@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:redwood_log"
+        "item": "biomeswevegone:redwood_log"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_redwood_log"
+        "item": "biomeswevegone:stripped_redwood_log"
       },
       {
         "item": "farmersdelight:tree_bark"

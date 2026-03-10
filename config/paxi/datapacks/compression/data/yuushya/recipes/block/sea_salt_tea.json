@@ -1,0 +1,8 @@
+{
+    "type":"minecraft:stonecutting",
+    "ingredient":{
+        "item": "nyagibits_bytes:ball_plastic_i"
+        },
+            "result": "yuushya:sea_salt_tea",
+            "count":1
+        }

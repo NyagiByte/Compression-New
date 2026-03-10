@@ -5,12 +5,12 @@
         "minecraft:lily_of_the_valley",
         "botania:white_petal",
         "botania:white_mushroom",
-        "byg:oddity_cactus",
-        "byg:white_anemone",
-        "byg:white_sage",
-        "byg:winter_rose",
-        "byg:snowdrops",
-        "byg:angelica",
+        "biomeswevegone:oddity_cactus",
+        "biomeswevegone:white_anemone",
+        "biomeswevegone:white_sage",
+        "biomeswevegone:winter_rose",
+        "biomeswevegone:snowdrops",
+        "biomeswevegone:angelica",
         "abyssal_decor:bark_orchid"
     ]
   }

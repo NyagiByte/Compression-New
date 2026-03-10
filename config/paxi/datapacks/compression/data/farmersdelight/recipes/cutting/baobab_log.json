@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:baobab_log"
+        "item": "biomeswevegone:baobab_log"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_baobab_log"
+        "item": "biomeswevegone:stripped_baobab_log"
       },
       {
         "item": "farmersdelight:tree_bark"

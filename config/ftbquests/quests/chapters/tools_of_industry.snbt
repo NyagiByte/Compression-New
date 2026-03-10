@@ -5,11 +5,14 @@
 	group: "1C682695BB4A0B06"
 	icon: "create:precision_mechanism"
 	id: "1130B5911F3BD6E9"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["6F66FCCD63752DC8"]
+			dependencies: [
+				"6F66FCCD63752DC8"
+				"0049E87A6B59FE5A"
+			]
 			description: [
 				"&6Copper Diving Boots&r are part of your OSHA compliant gear"
 				""
@@ -35,8 +38,8 @@
 				type: "item"
 			}]
 			title: "Go Go Gadget Falling"
-			x: -6.0d
-			y: 1.5d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -68,8 +71,8 @@
 				type: "item"
 			}]
 			title: "I Am Unda Da Water"
-			x: -6.0d
-			y: -1.5d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2169A5DFADF3C694"]
@@ -98,8 +101,8 @@
 				type: "item"
 			}]
 			title: "Wearable Pipebomb"
-			x: -6.0d
-			y: -0.5d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -131,11 +134,14 @@
 				type: "item"
 			}]
 			title: "Yoink"
-			x: -7.0d
-			y: -0.5d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["5E7D0899ECE970A7"]
+			dependencies: [
+				"5E7D0899ECE970A7"
+				"0049E87A6B59FE5A"
+			]
 			description: [
 				"The &bCrafting Halo&r works as a portable crafting table with one big upside!"
 				""
@@ -153,8 +159,8 @@
 				type: "item"
 			}]
 			title: "Crafting With My MIND"
-			x: -3.5d
-			y: -0.5d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6B38747E1261448A"]
@@ -177,10 +183,11 @@
 				type: "item"
 			}]
 			title: "Factorio Crafting"
-			x: -3.5d
-			y: -1.5d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["0049E87A6B59FE5A"]
 			description: [
 				"The &aLexica Botania&r is your one stop shop to learning all about botania and it's technomagical pieces"
 				""
@@ -202,10 +209,11 @@
 				type: "item"
 			}]
 			title: "What Are All These Flowers?"
-			x: -3.5d
-			y: -2.5d
+			x: -1.4999999999999858d
+			y: 3.0714285714285694d
 		}
 		{
+			dependencies: ["0049E87A6B59FE5A"]
 			description: [
 				"The &6Engineer's Manual&r contains information on multiblock formation and mechanics related to both &aImmersive Engineering (IE)&r and &bImmersive Petroleum (IP)&r"
 				""
@@ -223,11 +231,14 @@
 				type: "item"
 			}]
 			title: "RTFM!"
-			x: 1.0d
-			y: -0.5d
+			x: -3.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["4B89973C8D23D164"]
+			dependencies: [
+				"4B89973C8D23D164"
+				"0049E87A6B59FE5A"
+			]
 			description: [
 				"&nProbably the most important tool you will make&r"
 				""
@@ -261,10 +272,13 @@
 			}]
 			title: "I'm not making another wrench joke"
 			x: -5.0d
-			y: -0.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["4B89973C8D23D164"]
+			dependencies: [
+				"4B89973C8D23D164"
+				"593F4B6288E939F1"
+			]
 			description: [
 				"&dToolboxes&r are an &bunderused powerhouse&r in factory expansion!"
 				""
@@ -290,10 +304,11 @@
 				type: "item"
 			}]
 			title: "DIY Logibots"
-			x: -5.0d
-			y: 0.5d
+			x: -6.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["0049E87A6B59FE5A"]
 			description: [
 				"The &6Insanity Pill&r is from a custom mod made for Compression called &dPhantoms \\& Nightmares&r"
 				""
@@ -313,8 +328,8 @@
 				type: "item"
 			}]
 			title: "Go Crazy Brwaahhh"
-			x: 2.5d
-			y: -0.5d
+			x: 7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4252BCA134E2B9CD"]
@@ -335,11 +350,14 @@
 				type: "item"
 			}]
 			title: "Take a chill pill"
-			x: 2.5d
-			y: -1.5d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["12356B8E644A1A52"]
+			dependencies: [
+				"12356B8E644A1A52"
+				"0049E87A6B59FE5A"
+			]
 			description: [
 				"A &bStone Wand&r!"
 				""
@@ -364,8 +382,8 @@
 				type: "item"
 			}]
 			title: "Itty Bitty Placer"
-			x: -8.5d
-			y: -0.5d
+			x: -5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -396,8 +414,8 @@
 				type: "item"
 			}]
 			title: "More Place, More Block"
-			x: -8.5d
-			y: -1.5d
+			x: -6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -428,8 +446,8 @@
 				type: "item"
 			}]
 			title: "Placing Blocks n Shit"
-			x: -8.5d
-			y: -2.5d
+			x: -7.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -459,11 +477,14 @@
 				type: "item"
 			}]
 			title: "Oh God The Lag"
-			x: -8.5d
-			y: -3.5d
+			x: -8.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["4296F49981434BC7"]
+			dependencies: [
+				"4296F49981434BC7"
+				"0049E87A6B59FE5A"
+			]
 			description: ["This quest name makes zero sense if you haven't seen Soul Eater"]
 			id: "28831D522C6F3026"
 			rewards: [{
@@ -477,11 +498,14 @@
 				type: "item"
 			}]
 			title: "A Certain Anime Boy's Favorite Tool"
-			x: -9.5d
-			y: -1.5d
+			x: -8.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["4CBFDFBD1A71E6B4"]
+			dependencies: [
+				"4CBFDFBD1A71E6B4"
+				"0049E87A6B59FE5A"
+			]
 			description: [
 				"The &bEngineer's Hammer&r is your &a\"wrench\"&r for Immersive Engineering \\& Immersive Petroleum"
 				""
@@ -505,11 +529,14 @@
 				type: "item"
 			}]
 			title: "Overkill Egg Cracker"
-			x: 1.0d
-			y: -1.5d
+			x: -2.5d
+			y: 6.5d
 		}
 		{
-			dependencies: ["4B89973C8D23D164"]
+			dependencies: [
+				"4B89973C8D23D164"
+				"0049E87A6B59FE5A"
+			]
 			description: [
 				"It's a bucket, but &abig&r"
 				""
@@ -535,8 +562,8 @@
 				type: "item"
 			}]
 			title: "Big Bucket"
-			x: -2.0d
-			y: -0.5d
+			x: -5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -560,11 +587,14 @@
 				type: "item"
 			}]
 			title: "Really Big Bucket"
-			x: -2.0d
-			y: -1.5d
+			x: -6.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["46FF0B8D87309F93"]
+			dependencies: [
+				"46FF0B8D87309F93"
+				"353E8A9372BF983C"
+			]
 			description: [
 				"A very handy multi-use wrench from Ae2"
 				""
@@ -586,11 +616,14 @@
 				type: "item"
 			}]
 			title: "A Fancy Wrench"
-			x: -0.5d
-			y: -0.5d
+			x: -3.5d
+			y: 6.5d
 		}
 		{
-			dependencies: ["46FF0B8D87309F93"]
+			dependencies: [
+				"46FF0B8D87309F93"
+				"353E8A9372BF983C"
+			]
 			description: [
 				"The &bmemory card&r is able to copy paste settings for &abuses and interfaces&r"
 				""
@@ -604,21 +637,18 @@
 			}]
 			tasks: [{
 				id: "71E817E386540DD3"
-				item: {
-					Count: 1
-					id: "ae2:memory_card"
-					tag: { }
-				}
+				item: "ae2:memory_card"
 				type: "item"
 			}]
 			title: "I Rember"
-			x: -0.5d
-			y: -1.5d
+			x: -3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
 				"46FF0B8D87309F93"
 				"00252987E3B16C8F"
+				"3D98C3DA7C9397AA"
 			]
 			description: [
 				"When the &6Color Applicator&r is slotted into a &aME Chest&r it can act as the storage disk with 1 major difference"
@@ -639,21 +669,18 @@
 			}]
 			tasks: [{
 				id: "08F5C72CB76C85E2"
-				item: {
-					Count: 1
-					id: "ae2:color_applicator"
-					tag: { }
-				}
+				item: "ae2:color_applicator"
 				type: "item"
 			}]
 			title: "Splatoon Brush"
-			x: -0.5d
-			y: -2.5d
+			x: -4.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
 				"46FF0B8D87309F93"
 				"4ABA1A64E5BE1E94"
+				"3D98C3DA7C9397AA"
 			]
 			description: [
 				"The &dEntropy Manipulator&r is a bit of an odd-ball in the Ae2 tool kit"
@@ -678,13 +705,14 @@
 				type: "item"
 			}]
 			title: "I CAST BECOME OLD"
-			x: -0.5d
-			y: -3.5d
+			x: -3.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
 				"46FF0B8D87309F93"
 				"00252987E3B16C8F"
+				"3D98C3DA7C9397AA"
 			]
 			description: [
 				"Pretty much what it says on the tin, the &dMatter Cannon&r, go pew pew"
@@ -703,18 +731,15 @@
 			}]
 			tasks: [{
 				id: "14D15D14712F0293"
-				item: {
-					Count: 1
-					id: "ae2:matter_cannon"
-					tag: { }
-				}
+				item: "ae2:matter_cannon"
 				type: "item"
 			}]
 			title: "This.. is just a gun?"
-			x: -0.5d
-			y: -4.5d
+			x: -4.0d
+			y: 9.5d
 		}
 		{
+			dependencies: ["0049E87A6B59FE5A"]
 			description: [
 				"The &aWand of the Forest&r is your \"wrench\" for &6Botania&r. It can interact with various botania blocks, flowers, and trinkets. The details of this are outlined in the Lexica"
 				""
@@ -742,8 +767,8 @@
 				type: "item"
 			}]
 			title: "Bipity Bopity B- *achoo*, ugh allergies"
-			x: -3.5d
-			y: -3.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["13496F0256112C9B"]
@@ -766,11 +791,14 @@
 				type: "item"
 			}]
 			title: "Listen Here Children, You Will Help Me Do Crimes"
-			x: -3.5d
-			y: -4.5d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["02903DDEA28657F2"]
+			dependencies: [
+				"02903DDEA28657F2"
+				"593F4B6288E939F1"
+			]
 			description: [
 				"A &bHaunted Bell&r! Spooky"
 				""
@@ -790,11 +818,14 @@
 				type: "item"
 			}]
 			title: "Pest Control"
-			x: -7.0d
-			y: 0.5d
+			x: -4.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["4B89973C8D23D164"]
+			dependencies: [
+				"4B89973C8D23D164"
+				"593F4B6288E939F1"
+			]
 			description: [
 				"While &6Elytra&r can be found in end city towers they break very quickly and are rather costly to maintain. And sometimes you just need something to jump off mountains or your own base."
 				""
@@ -820,11 +851,14 @@
 				type: "item"
 			}]
 			title: "Falling But Really Really Slowly"
-			x: -7.0d
+			x: -3.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["4296F49981434BC7"]
+			dependencies: [
+				"4296F49981434BC7"
+				"593F4B6288E939F1"
+			]
 			description: [
 				"Mob spawns can be annoying, and torch spam is often &cugly&r so what do?"
 				""
@@ -851,10 +885,11 @@
 				}
 			]
 			title: "Salt The Lands"
-			x: -5.0d
-			y: -2.0d
+			x: -4.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["0049E87A6B59FE5A"]
 			description: [
 				"For all your &6Ae2 reading needs&r"
 				""
@@ -874,10 +909,30 @@
 				type: "item"
 			}]
 			title: "PDA at the ready"
-			x: -0.5d
-			y: 0.5d
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["365E56328068F481"]
+			description: [
+				"&7To unlock the rest of the welcome tab, confirm this quest was read with the checkmark above."
+				""
+				"This tab, &dTools of Industry&r, will showcase options available to you in terms of &atools and gadgets&r that will aid in a variety of tasks around your base."
+			]
+			hide_until_deps_complete: true
+			icon: "botania:corporea_spark_creative"
+			id: "0049E87A6B59FE5A"
+			subtitle: "All the tools you'll ever need"
+			tasks: [{
+				id: "7BFCD6B9DBB0E23E"
+				title: "Confirmation You Have Read The Blerb"
+				type: "checkmark"
+			}]
+			title: "Welcome To Tools of Industry"
+			x: -3.5d
+			y: 4.5d
 		}
 	]
-	subtitle: ["Tools, Trinkets, and Whatchamacallits"]
+	subtitle: [" &fTools, Trinkets, and Whatchamacallits"]
 	title: " &fTools Of Industry"
 }

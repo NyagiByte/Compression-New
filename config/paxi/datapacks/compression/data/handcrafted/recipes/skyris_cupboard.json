@@ -1,8 +1,8 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item":"everycomp:hc/byg/skyris_board"},
-      "B": {"item":"byg:skyris_planks"},
+      "A": {"item":"everycomp:hc/biomeswevegone/skyris_board"},
+      "B": {"item":"biomeswevegone:skyris_planks"},
       "C": {"tag":"c:wooden_chests"}
     },
     "pattern": [
@@ -12,6 +12,6 @@
     ],
     "result": {
       "count": 2,
-      "item": "everycomp:hc/byg/skyris_cupboard"
+      "item": "everycomp:hc/biomeswevegone/skyris_cupboard"
   }
 }

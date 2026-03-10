@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:sythian_stem"
+        "item": "biomeswevegone:sythian_stem"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_sythian_stem"
+        "item": "biomeswevegone:stripped_sythian_stem"
       },
       {
         "item": "farmersdelight:tree_bark"

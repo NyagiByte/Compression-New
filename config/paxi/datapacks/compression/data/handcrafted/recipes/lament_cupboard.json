@@ -1,8 +1,8 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item":"everycomp:hc/byg/lament_board"},
-      "B": {"item":"byg:lament_planks"},
+      "A": {"item":"everycomp:hc/biomeswevegone/lament_board"},
+      "B": {"item":"biomeswevegone:lament_planks"},
       "C": {"tag":"c:wooden_chests"}
     },
     "pattern": [
@@ -12,6 +12,6 @@
     ],
     "result": {
       "count": 2,
-      "item": "everycomp:hc/byg/lament_cupboard"
+      "item": "everycomp:hc/biomeswevegone/lament_cupboard"
   }
 }

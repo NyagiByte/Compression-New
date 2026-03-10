@@ -1,4 +1,5 @@
 {
+	autofocus_id: "5829CD62BB33D143"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "scale_tree_i"
@@ -32,8 +33,12 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["12356B8E644A1A52"]
+			dependencies: [
+				"12356B8E644A1A52"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for paper"]
+			hide_dependency_lines: true
 			icon: "minecraft:paper"
 			id: "71143467829FD119"
 			rewards: [{
@@ -86,8 +91,12 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["12356B8E644A1A52"]
+			dependencies: [
+				"12356B8E644A1A52"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for books"]
+			hide_dependency_lines: true
 			icon: "minecraft:book"
 			id: "58CE0C7BD7398413"
 			rewards: [{
@@ -149,8 +158,12 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["02903DDEA28657F2"]
+			dependencies: [
+				"02903DDEA28657F2"
+				"4B88B2632966F946"
+			]
 			description: ["The most basic of machine components, the start of the tree. Vanilla recipe yields"]
+			hide_dependency_lines: true
 			id: "464E07BF8ADBFB35"
 			rewards: [{
 				id: "28CD4EBA037DDE32"
@@ -192,8 +205,12 @@
 			y: -10.0d
 		}
 		{
-			dependencies: ["0601DBB1C7FD9207"]
+			dependencies: [
+				"0601DBB1C7FD9207"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for cured rubber"]
+			hide_dependency_lines: true
 			icon: "thermal:cured_rubber"
 			id: "33F886E51F20B0F5"
 			rewards: [{
@@ -311,8 +328,12 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["5B109E7F50E8EBC2"]
+			dependencies: [
+				"5B109E7F50E8EBC2"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for stainless steel"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:steel_stainless"
 			id: "387DFD801FA80B99"
 			rewards: [{
@@ -366,8 +387,12 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["7063B8BCE64899C9"]
+			dependencies: [
+				"7063B8BCE64899C9"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for ae2 processors"]
+			hide_dependency_lines: true
 			icon: "ae2:logic_processor"
 			id: "031EFEA90E87FC96"
 			rewards: [{
@@ -444,8 +469,12 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["7063B8BCE64899C9"]
+			dependencies: [
+				"7063B8BCE64899C9"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for quartz glass"]
+			hide_dependency_lines: true
 			icon: "ae2:quartz_glass"
 			id: "368547EA5877E132"
 			rewards: [{
@@ -507,8 +536,12 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["4FFC0930D0539B28"]
+			dependencies: [
+				"4FFC0930D0539B28"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for rose quartz"]
+			hide_dependency_lines: true
 			icon: "create:rose_quartz"
 			id: "1C8AA0B6AF089D28"
 			rewards: [{
@@ -526,12 +559,16 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["12356B8E644A1A52"]
+			dependencies: [
+				"12356B8E644A1A52"
+				"4B88B2632966F946"
+			]
 			description: [
 				"This is the scale tree for all pure daisy conversions"
 				""
 				"&eThe \"scaling\" with pure daisy conversion has to do with SPEED. More specifically using more constructed blocks to engage in the process that both take less time and yield more product"
 			]
+			hide_dependency_lines: true
 			icon: "botania:pure_daisy"
 			id: "600D1BF0A4506C5F"
 			rewards: [{
@@ -730,8 +767,12 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["5E7D0899ECE970A7"]
+			dependencies: [
+				"5E7D0899ECE970A7"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for charcoal"]
+			hide_dependency_lines: true
 			icon: "minecraft:charcoal"
 			id: "7B696C8A5735DFAE"
 			rewards: [{
@@ -800,8 +841,12 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["5E7D0899ECE970A7"]
+			dependencies: [
+				"5E7D0899ECE970A7"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for glazed terracottas"]
+			hide_dependency_lines: true
 			icon: "minecraft:white_glazed_terracotta"
 			id: "35280773B6BDF401"
 			rewards: [{
@@ -896,8 +941,12 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["4ABA1A64E5BE1E94"]
+			dependencies: [
+				"4ABA1A64E5BE1E94"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for flux mixture"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:flux_mixture"
 			id: "62C78DBE446214A4"
 			rewards: [{
@@ -915,8 +964,12 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["256F108BD683D592"]
+			dependencies: [
+				"256F108BD683D592"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for low temperature solder"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:low_temperature_solder"
 			id: "0BF07A3A2129E4A1"
 			rewards: [{
@@ -934,8 +987,12 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["4CBFDFBD1A71E6B4"]
+			dependencies: [
+				"4CBFDFBD1A71E6B4"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for ceramic"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:ceramic"
 			id: "4FDE3B132728A444"
 			rewards: [{
@@ -997,8 +1054,12 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["28B78F18CDBAEB65"]
+			dependencies: [
+				"28B78F18CDBAEB65"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for industrial grade coke"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:industrial_grade_coke"
 			id: "056F9E4C1BDBC15C"
 			rewards: [{
@@ -1238,8 +1299,12 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["472213B0CD3A8117"]
+			dependencies: [
+				"472213B0CD3A8117"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for sterilized quartz glass"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:sterilized_quartz_glass"
 			id: "30B109F8DC8FC981"
 			rewards: [{
@@ -1311,8 +1376,12 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["472213B0CD3A8117"]
+			dependencies: [
+				"472213B0CD3A8117"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for petri dishes"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:petri_dish_empty"
 			id: "4E623870E1DDAFB7"
 			rewards: [{
@@ -1374,8 +1443,12 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["472213B0CD3A8117"]
+			dependencies: [
+				"472213B0CD3A8117"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for crude silicon boules"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:crude_silicon_boule"
 			id: "6407F47B14260E92"
 			rewards: [{
@@ -1422,8 +1495,12 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["7F547C6C8CC1328F"]
+			dependencies: [
+				"7F547C6C8CC1328F"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for polycrystalline silicon carbide"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:polycrystalline_silicon_carbide"
 			id: "551C5D4153F3D8D1"
 			rewards: [{
@@ -1492,8 +1569,12 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["6F66FCCD63752DC8"]
+			dependencies: [
+				"6F66FCCD63752DC8"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for slag gravel"]
+			hide_dependency_lines: true
 			icon: "immersiveengineering:slag_gravel"
 			id: "6E25827A414FCAC6"
 			rewards: [{
@@ -1555,8 +1636,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["472213B0CD3A8117"]
+			dependencies: [
+				"472213B0CD3A8117"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for lead acid cells"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:lead_acid_cell"
 			id: "6A60597D0E27046C"
 			rewards: [{
@@ -1656,8 +1741,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["472213B0CD3A8117"]
+			dependencies: [
+				"472213B0CD3A8117"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for skystone shielding"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:skystone_shielding"
 			id: "27D593107293F670"
 			rewards: [{
@@ -1738,8 +1827,12 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["4CBFDFBD1A71E6B4"]
+			dependencies: [
+				"4CBFDFBD1A71E6B4"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for ink"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:ink"
 			id: "06A7C4F97B02E62B"
 			rewards: [{
@@ -1813,13 +1906,65 @@
 			y: -10.0d
 		}
 		{
-			description: ["&cThis Is You"]
+			dependencies: [
+				"01E0198651D2A78F"
+				"4B88B2632966F946"
+			]
+			description: [
+				"&cThis Is You"
+				"{@pagebreak}"
+				"&4ctcaaaagtc tagagccacc gtccagggag caggtagctg ctgggctccg gggacacttt"
+				"&4gcgttcgggc tgggagcgtg ctttccacga cggtgacacg cttccctgga ttggcagcca"
+				"&4gactgccttc cgggtcactg ccatggagga gccgcagtca gatcctagcg tcgagccccc"
+				"&4tctgagtcag gaaacatttt cagacctatg gaaactactt cctgaaaaca acgttctgtc"
+				"&4ccccttgccg tcccaagcaa tggatgattt gatgctgtcc ccggacgata ttgaacaatg"
+				"&4gttcactgaa gacccaggtc cagatgaagc tcccagaatg ccagaggctg ctccccccgt"
+				"&4ggcccctgca ccagcagctc ctacaccggc ggcccctgca ccagccccct cctggcccct"
+				"&4gtcatcttct gtcccttccc agaaaaccta ccagggcagc tacggtttcc gtctgggctt"
+				"&4cttgcattct gggacagcca agtctgtgac ttgcacgtac tcccctgccc tcaacaagat"
+				"&4gttttgccaa ctggccaaga cctgccctgt gcagctgtgg gttgattcca cacccccgcc"
+				"&4cggcacccgc gtccgcgcca tggccatcta caagcagtca cagcacatga cggaggttgt"
+				"&4gaggcgctgc ccccaccatg agcgctgctc agatagcgat ggtctggccc ctcctcagca"
+				"&4tcttatccga gtggaaggaa atttgcgtgt ggagtatttg gatgacagaa acacttttcg"
+				"&4acatagtgtg gtggtgccct atgagccgcc tgaggttggc tctgactgta ccaccatcca"
+				"&4ctacaactac atgtgtaaca gttcctgcat gggcggcatg aaccggaggc ccatcctcac"
+				"&4catcatcaca ctggaagact ccagtggtaa tctactggga cggaacagct ttgaggtgcg"
+				"&4tgtttgtgcc tgtcctggga gagaccggcg cacagaggaa gagaatctcc gcaagaaagg"
+				"&4ggagcctcac cacgagctgc ccccagggag cactaagcga gcactgccca acaacaccag"
+				"&4ctcctctccc cagccaaaga agaaaccact ggatggagaa tatttcaccc ttcagatccg"
+				"&4tgggcgtgag cgcttcgaga tgttccgaga gctgaatgag gccttggaac tcaaggatgc"
+				"&4ccaggctggg aaggagccag gggggagcag ggctcactcc agccacctga agtccaaaaa"
+				"&4gggtcagtct acctcccgcc ataaaaaact catgttcaag acagaagggc ctgactcaga"
+				"&4ctgacattct ccacttcttg ttccccactg acagcctccc acccccatct ctccctcccc"
+				"&4tgccattttg ggttttgggt ctttgaaccc ttgcttgcaa taggtgtgcg tcagaagcac"
+				"&4ccaggacttc catttgcttt gtcccggggc tccactgaac aagttggcct gcactggtgt"
+				"&4tttgttgtgg ggaggaggat ggggagtagg acataccagc ttagatttta aggtttttac"
+				"&4tgtgagggat gtttgggaga tgtaagaaat gttcttgcag ttaagggtta gtttacaatc"
+				"&4agccacattc taggtagggg cccacttcac cgtactaacc agggaagctg tccctcactg"
+				"&4ttgaattttc tctaacttca aggcccatat ctgtgaaatg ctggcatttg cacctacctc"
+				"&4acagagtgca ttgtgagggt taatgaaata atgtacatct ggccttgaaa ccacctttta"
+				"&4ttacatgggg tctagaactt gacccccttg agggtgcttg ttccctctcc ctgttggtcg"
+				"&4gtgggttggt agtttctaca gttgggcagc tggttaggta gagggagttg tcaagtctct"
+				"&4gctggcccag ccaaaccctg tctgacaacc tcttggtgaa ccttagtacc taaaaggaaa"
+				"&4tctcacccca tcccacaccc tggaggattt catctcttgt atatgatgat ctggatccac"
+				"&4caagacttgt tttatgctca gggtcaattt cttttttctt tttttttttt ttttttcttt"
+				"&4ttctttgaga ctgggtctcg ctttgttgcc caggctggag tggagtggcg tgatcttggc"
+				"&4ttactgcagc ctttgcctcc ccggctcgag cagtcctgcc tcagcctccg gagtagctgg"
+				"&4gaccacaggt tcatgccacc atggccagcc aacttttgca tgttttgtag agatggggtc"
+				"&4tcacagtgtt gcccaggctg gtctcaaact cctgggctca ggcgatccac ctgtctcagc"
+				"&4ctcccagagt gctgggatta caattgtgag ccaccacgtc cagctggaag ggtcaacatc"
+				"&4ttttacattc tgcaagcaca tctgcatttt caccccaccc ttcccctcct tctccctttt"
+				"&4tatatcccat ttttatatcg atctcttatt ttacaataaa actttgctgc ca"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "5829CD62BB33D143"
 			rewards: [{
 				id: "3779152E21A8FB1E"
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "Supressed..."
 			tasks: [{
 				id: "0CBA622ABC4767F5"
 				item: "nyagibits_bytes:inert_god_heart"
@@ -1840,17 +1985,22 @@
 				item: "nyagibits_bytes:tier_one_strawberry"
 				type: "item"
 			}]
+			subtitle: "Harmony of hate"
 			tasks: [{
 				id: "6C121EA13D8E0040"
 				item: "nyagibits_bytes:faintly_resonating_god_heart"
 				type: "item"
 			}]
 			x: -5.5d
-			y: 3.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["472213B0CD3A8117"]
+			dependencies: [
+				"472213B0CD3A8117"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for activated charcoal"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:activated_charcoal"
 			id: "4D3DF93F34A14E87"
 			rewards: [{
@@ -1912,8 +2062,12 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["472213B0CD3A8117"]
+			dependencies: [
+				"472213B0CD3A8117"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for chemically inert wood"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:chemically_inert_wood"
 			id: "15B68BB7170FFDFE"
 			rewards: [{
@@ -1953,8 +2107,12 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["639B2FF66B0FB1B4"]
+			dependencies: [
+				"639B2FF66B0FB1B4"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for botania elemental runes"]
+			hide_dependency_lines: true
 			icon: "botania:rune_fire"
 			id: "0F19705DACECC023"
 			rewards: [{
@@ -2019,8 +2177,12 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["66DDC75CB8C3D557"]
+			dependencies: [
+				"66DDC75CB8C3D557"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for fire extinguishers"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:fire_extinguisher"
 			id: "57F177720529C750"
 			rewards: [{
@@ -2158,8 +2320,12 @@
 			y: -9.5d
 		}
 		{
-			dependencies: ["4D339608203DD4F6"]
+			dependencies: [
+				"4D339608203DD4F6"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for vinegar"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:bottle_of_vinegar"
 			id: "61409154D028F9A4"
 			rewards: [{
@@ -2280,8 +2446,12 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["37FAB0261BCDF974"]
+			dependencies: [
+				"37FAB0261BCDF974"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for samples of chitin"]
+			hide_dependency_lines: true
 			icon: "chemlib:chitin"
 			id: "3530206414F3F62A"
 			rewards: [{
@@ -2426,8 +2596,12 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["68300CAEDAC23F73"]
+			dependencies: [
+				"68300CAEDAC23F73"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for mana-imbued glucose crystal"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:mana_imbued_glucose_crystal"
 			id: "1D21362DCA5080A2"
 			rewards: [{
@@ -2445,8 +2619,12 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["37FAB0261BCDF974"]
+			dependencies: [
+				"37FAB0261BCDF974"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for mana-imbued oobleck"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:mana_imbued_oobleck"
 			id: "703AFBD6C6C2718F"
 			rewards: [{
@@ -2539,8 +2717,12 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["5CBD2601022F5420"]
+			dependencies: [
+				"5CBD2601022F5420"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for low voltage capacitors "]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:low_voltage_capacitor"
 			id: "654419675F278563"
 			rewards: [{
@@ -2602,8 +2784,12 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["28208E9BB8763E5C"]
+			dependencies: [
+				"28208E9BB8763E5C"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for skystone encrusted boules"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:skystone_encrusted_boule"
 			id: "4FDB45C6E4D43A98"
 			rewards: [{
@@ -2665,8 +2851,12 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["256F108BD683D592"]
+			dependencies: [
+				"256F108BD683D592"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for samples of sulfuric acid &eand&r sulfur trioxide"]
+			hide_dependency_lines: true
 			icon: "chemlib:sulfur_trioxide"
 			id: "018C4CE17066E57D"
 			rewards: [{
@@ -2730,8 +2920,12 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["68300CAEDAC23F73"]
+			dependencies: [
+				"68300CAEDAC23F73"
+				"4B88B2632966F946"
+			]
 			description: ["This is the scaling tree for amorphous cellulose"]
+			hide_dependency_lines: true
 			icon: "nyagibits_bytes:bucket_of_amorphous_cellulose"
 			id: "223044FE2BE7354C"
 			rewards: [{
@@ -2857,6 +3051,21 @@
 			title: "Sulfur But More"
 			x: 5.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["01E0198651D2A78F"]
+			description: ["&7To unlock the rest of the welcome tab, confirm this quest was read with the checkmark above."]
+			hide_until_deps_complete: true
+			icon: "botania:corporea_spark_creative"
+			id: "4B88B2632966F946"
+			tasks: [{
+				id: "1D7CD78E1C2FE1B2"
+				title: "Confirmation You Have Read The Blerb"
+				type: "checkmark"
+			}]
+			title: "Welcome To Scale Tree I"
+			x: -5.5d
+			y: -3.5d
 		}
 	]
 	subtitle: ["I NEED MORE STUFF"]

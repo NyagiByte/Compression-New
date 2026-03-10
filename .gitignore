@@ -7,6 +7,7 @@
 /mods/.connector
 /saves
 /screenshots
+/crash-reports
 resourcepacks/Quark Programmer Art.zip
 /tacz/tacz_default_gun
 /simplebackups
@@ -22,9 +23,6 @@ icon.png
 fancymenu_data/last_world.fmdata
 config/oculus.properties
 config/packetfixer.properties
-crash-reports/crash-2025-11-13_13.12.03-client.txt
-crash-reports/crash-2025-11-13_11.55.54-client.txt
-crash-reports/crash-2025-11-13_11.53.48-client.txt
 config/konkrete/locals/de_de.local
 config/konkrete/locals/en_us.local
 config/konkrete/locals/pl_pl.local
@@ -36,7 +34,6 @@ config/ironchests/defaults.properties
 config/packetfixer.properties
 config/paxi/datapacks/compression/data/gardenofglass/loot_tables/pebbles.json
 config/packetfixer.properties
-*.txt
 config/packetfixer.properties
 fancymenu_data/last_world.fmdata
 config/emi.css
@@ -50,3 +47,22 @@ config/oculus.properties
 config/oculus.properties
 config/xenon++.toml
 config/xenon-options.json
+config/fml.toml
+icon.png
+config/emi.css
+config/fabric/indigo-renderer.properties
+config/ironchests/defaults.properties
+config/oculus.properties
+config/packetfixer.properties
+config/xenon-options.json
+config/xenon++.toml
+/config/worldedit
+config/ironchests/defaults.properties
+/config/NoChatReports
+/config/NoChatReports
+config/oculus.properties
+config/packetfixer.properties
+config/xenon-fingerprint.json
+fabricloader.log
+impossible_data/what_is_this_folder.txt
+spiffy_instance_data/death_point.json

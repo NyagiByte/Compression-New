@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:pine_planks"
+      "item": "biomeswevegone:pine_planks"
     }
   ],
   "processingTime": 200,
@@ -10,7 +10,7 @@
     {
       "chance": 0.25,
       "count": 2,
-      "item": "everycomp:hc/byg/pine_board"
+      "item": "everycomp:hc/biomeswevegone/pine_board"
     }
   ]
 }

@@ -4,10 +4,10 @@
         "minecraft:orange_tulip",
         "botania:orange_petal",
         "botania:orange_mushroom",
-        "byg:orange_amaranth",
-        "byg:orange_daisy",
-        "byg:guzmania",
-        "byg:incan_lily",
-        "byg:california_poppy"
+        "biomeswevegone:orange_amaranth",
+        "biomeswevegone:orange_daisy",
+        "biomeswevegone:guzmania",
+        "biomeswevegone:incan_lily",
+        "biomeswevegone:california_poppy"
     ]
   }

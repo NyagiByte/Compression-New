@@ -1,0 +1,21 @@
+{
+  "type": "immersivepetroleum:hydrotreater",
+  "energy": 80,
+  "input": {
+    "amount": 10,
+    "tag": "forge:ethylene_impure"
+  },
+  "result": {
+    "amount": 10,
+    "fluid": "chemlib:ethylene_fluid"
+  },
+  "secondary_input": {
+    "amount": 5,
+    "tag": "forge:hydrogen"
+  },
+  "secondary_result": {
+    "chance": "0.05",
+    "item": "chemlib:sulfur_dust"
+  },
+  "time": 1
+}

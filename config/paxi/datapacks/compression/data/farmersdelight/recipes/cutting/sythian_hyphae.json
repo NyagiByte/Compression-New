@@ -2,12 +2,12 @@
     "type": "farmersdelight:cutting",
     "ingredients": [
       {
-        "item": "byg:sythian_hyphae"
+        "item": "biomeswevegone:sythian_hyphae"
       }
     ],
     "result": [
       {
-        "item": "byg:stripped_sythian_hyphae"
+        "item": "biomeswevegone:stripped_sythian_hyphae"
       },
       {
         "item": "farmersdelight:tree_bark"

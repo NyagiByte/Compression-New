@@ -9,17 +9,16 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["39B2B73AB851E837"]
 			description: [
-				"This pack is designed to be completable without use of the quest book as a guide! "
-				""
-				"&6Automation and YOU! Exists as a source of hints and explanations on more complex and involved aspects of the pack if one feels stuck and unsure how to automate a task&r"
+				"This pack is designed to be completable &cw&6i&et&ah&bo&du&ct&r use of the quest book as a guide! "
 				""
 				"&bThat being said &rthe quest book exists to serve as a guide for"
 				"people struggling with the spaghetti of the crafting web and points towards "
 				"intended goals."
 				""
-				"&bSomething to note:&r There will be no rewards from this book, just information"
-				""
+				"&bSomething to note:&r There will be no rewards &7(except for berries)&r from this book, just information."
+				"{@pagebreak}"
 				"&cVGhpcyBib29rIHdhcyB3cml0dGVuIGJ5IHRoZSBnb2RzLCBpdCB3aWxsIGxpZSB0byB5b3U="
 			]
 			icon: "minecraft:writable_book"
@@ -30,16 +29,18 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			size: 2.0d
 			subtitle: "This book is optional"
 			tasks: [{
 				id: "57F748DD19327510"
 				title: "Overview on questbook"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["2B2392C9E05EEE54"]
 			description: [
 				"Simple Backups is installed to be utilized server side."
 				""
@@ -59,10 +60,11 @@
 				title: "Backups"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: 1.0d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["049B4B94A7313B6C"]
 			description: [
 				"Chunkloading is done through FTB quests"
 				""
@@ -94,10 +96,11 @@
 				title: "Chunkloading"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 1.0d
+			x: 3.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["147F646960AE4EBE"]
 			description: [
 				"You will use &beverything"
 				"&cEvery, &dSingle, &cThing"
@@ -116,14 +119,15 @@
 				type: "checkmark"
 			}]
 			title: "Everything"
-			x: 0.5d
-			y: -1.0d
+			x: 2.5d
+			y: -11.0d
 		}
 		{
+			dependencies: ["30E3379C21C76154"]
 			description: [
-				"Oh my god the requirements swell so fast how are we suppose to keep up?"
+				"The &bRecipe Scaling&r tab contains all information related to increasing yields from &6ores&r, &aorganics&r, and &dgeneral recipes&r."
 				""
-				"Good news! The &bRecipe Scaling &rtab will show you the available recipes you can do to make previous tier items more efficiently"
+				"It will be &n&ovital&r&r to pay attention to recipes that can be &aimproved&r as you &cprogress&r."
 			]
 			icon: "megacells:item_storage_cell_256m"
 			id: "2C473A2432696109"
@@ -133,15 +137,18 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			size: 2.0d
+			subtitle: "More things more fasterer"
 			tasks: [{
 				id: "127C63548C3099FF"
 				title: "Recipe Scaling"
 				type: "checkmark"
 			}]
-			x: -0.5d
-			y: -1.0d
+			x: 4.0d
+			y: -4.5d
 		}
 		{
+			dependencies: ["4D9290E8CC180193"]
 			description: ["&cThis land must be a sort of dumping ground, everything is so... Broken"]
 			icon: "nyagibits_bytes:flake"
 			id: "39B2B73AB851E837"
@@ -151,24 +158,27 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "Even the skys above and below..."
 			tasks: [{
 				id: "4F7D249F207B3FDF"
 				title: "Prison"
 				type: "checkmark"
 			}]
 			title: "&cPrison"
-			x: 1.0d
-			y: 0.0d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["2C473A2432696109"]
 			description: [
 				"The walls of &dFlake &rare impossible to break through! How am I suppose to mine?!"
 				""
 				"Ores appear exclusively on the surface of the world in massive layered &aboulders.&r"
 				""
-				"&bRecipe Scaling &rhas more information on the processing of the ores themselves"
+				"{@pagebreak}"
+				"&bRecipe Scaling &rhas more information on the processing of the ores themselves."
 				""
-				"&cAlso, don't worry about renewable materials, boulders have roughly &61 million raw ores&r in them&r"
+				"&cAlso, don't worry about renewable materials, boulders have roughly &61 million raw ores&r in them&r."
 			]
 			icon: "nyagibits_bytes:raw_banded_iron"
 			id: "7BD5615FF834FB3B"
@@ -178,16 +188,18 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "Fancy rocks"
 			tasks: [{
 				id: "07FFD34EBC199E9C"
-				title: "Ores and Mining"
+				title: "Unlock Ore Scaling"
 				type: "checkmark"
 			}]
 			title: "Ores and Mining"
-			x: -1.0d
-			y: 0.0d
+			x: 5.5d
+			y: -4.5d
 		}
 		{
+			dependencies: ["1D2BED04E13B73F3"]
 			description: [
 				"Strawberries as rewards? Yes! Instead of blowing up your inventory with useless cr- garbage, you can collect strawberries to work towards a quest in the &6Proficiency&r tab."
 				""
@@ -202,16 +214,18 @@
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "Elusive FWGM"
 			tasks: [{
 				id: "1F07C5641437DF5C"
 				title: "Holy bingle Celeste:tm: refrence"
 				type: "checkmark"
 			}]
 			title: "&dStrawberries?"
-			x: 0.0d
-			y: 2.0d
+			x: 1.0d
+			y: -7.0d
 		}
 		{
+			dependencies: ["55BE706474A6DB29"]
 			description: [
 				"&6This tab is dedicated to players who showcase exceptional skill in speed, survivability, or unique problem solving. This tab is updated along side any major version releases or bug fix updates."
 				""
@@ -236,6 +250,7 @@
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "<3"
 			tasks: [{
 				id: "26DD74BF61BFBAC0"
 				title: "Special Achivements"
@@ -243,21 +258,21 @@
 			}]
 			title: "Special Achivements"
 			x: 0.0d
-			y: -2.0d
+			y: -8.0d
 		}
 		{
 			description: [
-				"Hello! &bThank you&r for checking out Compression"
+				"Hello! &bThank you&r for checking out Compression."
 				""
-				"As you may notice there are many many &cuncompleted&r quests in Tier 1 along with the following quests being &cempty&r"
+				"As you may notice there are many many &cuncompleted&r quests in Tier 1 along with the following quests being &cempty&r."
+				"{@pagebreak}"
+				"Compression is a &6very long-term project&r similar to GTNH. Meaning the development cycle is purely a \"more gets added per update\" forever and ever."
 				""
-				"Compression is a &6very long-term project&r similar to GTNH. Meaning the development cycle is purely a \"more gets added per update\" forever and ever"
+				"Despite so little looking done, the task density past Tier 0 is very high per quest and can comfortably supply a &afew hundred hours&r of gameplay."
+				"{@pagebreak}"
+				"Any un-implemented quests contain an &3icon similar to this quest&r for consistency sake."
 				""
-				"Despite so little looking done, the task density past Tier 0 is very high per quest and can comfortably supply a &afew hundred hours&r of gameplay"
-				""
-				"Any un-implemented quests contain an &3icon similar to this quest&r for consistency sake"
-				""
-				"If you do choose to stay for future updates, welcome! And if not, I am happy you chose to check out my project &c<3&r"
+				"If you do choose to stay for future updates, welcome! And if not, I am happy you chose to check out my project &c<3&r."
 			]
 			icon: "compactmachines:wall"
 			id: "4D9290E8CC180193"
@@ -266,32 +281,22 @@
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "Forever Toiling"
 			tasks: [{
 				id: "6FFF2993EEE8ECB8"
 				title: "The quests are about as dense as a star"
 				type: "checkmark"
 			}]
 			title: "Unfinished Pack?"
-			x: 0.0d
-			y: 3.5d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
+			dependencies: ["049B4B94A7313B6C"]
 			description: [
-				"&nLost as to the questbook? &aNo worries!&r &nHere are the tabs:&r"
+				"This questbook has &bseveral major catagories&r."
 				""
-				"&n&cPath To Null&r is the main progression line. Little guidance is given here and serves as a general path to the \"next step.\" "
-				"------------------------------------------------------------------"
-				"&n&dAutomation and YOU!&r contains &bthree main groups&r-"
-				""
-				"> Information tabs on useful tools under &a&nTools of Industry&r that will help with various tasks in your base. &n"
-				""
-				"> Submit Challenges to claim &6Golden Berries&r under &a&nProficiency&r to prove mastery of a tier "
-				""
-				"> &bSub-Tutorial Chapters&r that give more granular information on the respective tiers in &cPath To Null&r for the cases where you are &eunsure how to best proceed&r between main steps. The quests here also go into far &amore detail as to game mechanics and design philosophy&r when it comes to nailing down what makes for a good functional factory for any &bplayers new to heavy tech-automation&r. And if this is you, thank you for choosing &dCompression&r as your first, you are brave"
-				"------------------------------------------------------------------"
-				"&a&nChemistry and YOU!&r is a chapter with no berry rewards and exists to &6untangle some more insane chemical chains&r since the JEI search can get a bit &cmessed up&r when recipes get absurd"
-				"------------------------------------------------------------------"
-				"&b&nRecipe Scaling&r is all about showing you which most &dprogression-relevant recipes get boosts and when&r. Do keep in mind &6most recipes get scaled versions&r, this set of quests just shows the most relevant of the bunch"
+				"The main questline will open up once you navigate to each tab and &aconfirm you have read the blerbs&r."
 			]
 			icon: "minecraft:compass"
 			id: "30E3379C21C76154"
@@ -300,14 +305,198 @@
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "Where things are"
 			tasks: [{
 				id: "31217720D190185D"
 				title: "This way! Onwards!"
 				type: "checkmark"
 			}]
 			title: "&bQuestbook Navigation"
-			x: -2.5d
-			y: 0.0d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["05D0BEF6458AB8D9"]
+			icon: "botania:black_hole_talisman"
+			id: "789566071704E521"
+			size: 2.0d
+			tasks: [{
+				id: "20EA979DD62AE0DA"
+				title: "Path To Null"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["30E3379C21C76154"]
+			description: [
+				"The &bAutomation \\& You&r tab goes over various trinkets and gizmos that will aid in your factory building endeavors."
+				""
+				"In addition the &6Proficiency&r tab offers a place to trade in berries to claim your bragging rights as a golden. More information in the &dStrawberries?&r quest."
+			]
+			icon: "thermal:ruby_gear"
+			id: "1D2BED04E13B73F3"
+			rewards: [{
+				id: "1FAEC2358EE8A681"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "The Factory Must Grow"
+			tasks: [{
+				id: "5C7896E145C3EBFD"
+				title: "Automation \\& You"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["30E3379C21C76154"]
+			description: [
+				"&aChemistry \\& You&r exists to aid with complex recipe paths."
+				""
+				"It will &cnot unlock&r until a quest in &btier 1&r is unlocked."
+				""
+				"&7This blerb exists to let you know it exists. There will be a reminder when you arrive at said quest."
+			]
+			icon: "nyagibits_bytes:sample_oleum"
+			id: "6F1DEFD73164F177"
+			rewards: [{
+				id: "64E1C9E32F860737"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "*Fluorinates You*"
+			tasks: [{
+				id: "51E30EDC6E15A94D"
+				title: "Chemistry \\& You"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2C473A2432696109"]
+			description: [
+				"Crafting recipes are treated to &l&bscaled production&r."
+				""
+				"Scaled production is &7(usually)&r done in a way where existing setups can &agrow&r with you with some adjustments over time."
+				"{@pagebreak}"
+				"More scale trees will exist and will be opened up after going through the subsequent scale tree quests."
+			]
+			icon: "ae2:item_storage_cell_1k"
+			id: "01E0198651D2A78F"
+			rewards: [{
+				id: "653FF39F72DFC82A"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "TREE(3) not included"
+			tasks: [{
+				id: "4030D7837907ABFB"
+				title: "Unlock Scale Tree I"
+				type: "checkmark"
+			}]
+			title: "Scale Trees"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2C473A2432696109"]
+			description: [
+				"&aCrops&r, &6Animals&r, and &cHostile Mobs&r are all scaleable."
+				""
+				"Most won't recieve large boosts until &bTier 4&r but, the tab will still offer &6useful information&r on what products are needed and what earlier-game options are available."
+			]
+			icon: "botania:grass_seeds"
+			id: "2CCCB9817A8651E3"
+			rewards: [{
+				id: "31A08348A2E4D639"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "Useful but in very different ways"
+			tasks: [{
+				id: "67652942EFC7E8D7"
+				title: "Unlock Organics Scaling"
+				type: "checkmark"
+			}]
+			title: "Things that grow"
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1D2BED04E13B73F3"]
+			description: [
+				"Any good engineer needs their assortment of tools to actively lose track of the exact moment they are needed."
+				""
+				"The &bTools of Industry&r tab showcases many gadgets that will aid in your progress."
+			]
+			icon: "thermal:wrench"
+			id: "365E56328068F481"
+			rewards: [{
+				id: "191E62BCAC86E679"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "Lost the 10mm again"
+			tasks: [{
+				id: "4406B892AEFBDD56"
+				title: "Unlock Tools Of Industry"
+				type: "checkmark"
+			}]
+			title: "The Spanner in The Works"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"1D2BED04E13B73F3"
+				"5ADA3C4D97A9FA53"
+				"5F964897DC3F3EF8"
+				"0049E87A6B59FE5A"
+				"6E7A4B55A9475E35"
+				"7C2306F0A64DE040"
+			]
+			icon: "quark:mangrove_bookshelf"
+			id: "147F646960AE4EBE"
+			size: 2.0d
+			tasks: [{
+				id: "399D64A263A084C6"
+				title: "Tutorial-Tutorial"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["365E56328068F481"]
+			description: [
+				"Bases in &6Compression&r tend to get very big very quickly."
+				""
+				"Building can be tedious. Building huge structures even more so."
+				""
+				"In the &bThe Factory Must Grow&r tab, you will see many options available to you in your ever expanding sprawl of industry."
+			]
+			icon: "createdeco:long_red_bricks"
+			id: "06742EB86FD93B67"
+			rewards: [{
+				id: "74550C8D11978716"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "It's not a lawn base if you make cute industrial skyscrapers"
+			tasks: [{
+				id: "6E1E18588A196B56"
+				title: "Unlock The Factory Must Grow"
+				type: "checkmark"
+			}]
+			title: "Concentrated Construction Chaos"
+			x: 4.0d
+			y: -8.0d
 		}
 	]
 	subtitle: ["Read me!"]

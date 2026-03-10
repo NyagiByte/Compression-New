@@ -2,7 +2,7 @@
   "type": "create:cutting",
   "ingredients": [
     {
-      "item": "byg:baobab_planks"
+      "item": "biomeswevegone:baobab_planks"
     }
   ],
   "processingTime": 200,
@@ -10,7 +10,7 @@
     {
       "chance": 0.25,
       "count": 2,
-      "item": "everycomp:hc/byg/baobab_board"
+      "item": "everycomp:hc/biomeswevegone/baobab_board"
     }
   ]
 }
