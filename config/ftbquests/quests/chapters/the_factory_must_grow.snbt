@@ -741,7 +741,7 @@
 				"{image:compression:textures/quests/storage_bus_partition.png width:185 height:100 align:center}"
 				""
 				"{@pagebreak}"
-				"&dReport Inaccessable Items&r is a toggle between &nyes/no&r that lets you choose wether or not items existing in an inventory not part of the filter can still be seen by the network."
+				"&dReport Inaccessable Items&r is a toggle between &nyes/no&r that lets you choose whether or not items existing in an inventory not part of the filter can still be seen by the network."
 				""
 				""
 				"{image:compression:textures/quests/storage_bus_report_no.png width:185 height:100 align:center}"
@@ -1176,6 +1176,7 @@
 			dependencies: [
 				"55D9685F3A80E054"
 				"636384B8E591917C"
+				"1405F87224E16FB7"
 			]
 			id: "1D2A5BA88EDCE162"
 			rewards: [{
@@ -1194,7 +1195,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["1D2A5BA88EDCE162"]
+			dependencies: ["636384B8E591917C"]
 			id: "1405F87224E16FB7"
 			rewards: [{
 				id: "010FFD04B10233E4"
