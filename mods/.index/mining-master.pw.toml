@@ -1,0 +1,17 @@
+filename = 'miningmaster-1.20.1-4.1.3.jar'
+name = 'Mining Master'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Release 4.1.3 for Minecraft 1.20.1'
+
+[download]
+hash = 'd042acd211e6b53c4358c61ad4776d60e1213431'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5540513
+project-id = 534956
