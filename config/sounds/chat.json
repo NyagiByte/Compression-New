@@ -21,7 +21,8 @@
 		"soundEvent": "minecraft:block.note_block.chime"
 	},
 	"mentionKeywords": [
-		"@Ozymandeas"
+		"@Ozymandeas",
+		"@Big_Barza"
 	],
 	"ignoreSystemChats": false,
 	"enableChatSoundCooldown": false,

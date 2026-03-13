@@ -2063,8 +2063,22 @@
 		{"namespace": "farmersdelight", "path": "recipes/integration/create/mixing/tomato_sauce_from_mixing.json"},
 		{"namespace": "farmersdelight", "path": "recipes/cooking/tomato_sauce.json"},
 		{"namespace": "tmted", "path": "recipes/bottling/tomato_sauce.json"},
-		{"namespace": "tmted", "path": "recipes/squeezer/tomato.json"}
+		{"namespace": "tmted", "path": "recipes/squeezer/tomato.json"},
 
+		{"namespace": "miningmaster", "path": "recipes/smithing/air_malachite_smithing.json"},
+		{"namespace": "miningmaster", "path": "recipes/smithing/dive_aquamarine_smithing.json"},
+		{"namespace": "miningmaster", "path": "recipes/smithing/divine_beryl_smithing.json"},
+		{"namespace": "miningmaster", "path": "recipes/smithing/fire_ruby_smithing.json"},
+		{"namespace": "miningmaster", "path": "recipes/smithing/haste_peridot_smithing.json"},
+		{"namespace": "miningmaster", "path": "recipes/smithing/heart_rhodonite_smithing.json"},
+		{"namespace": "miningmaster", "path": "recipes/smithing/ice_sapphire_smithing.json"},
+		{"namespace": "miningmaster", "path": "recipes/smithing/kinetic_opal_smithing.json"},
+		{"namespace": "miningmaster", "path": "recipes/smithing/lucky_citrine_smithing.json"},
+		{"namespace": "miningmaster", "path": "recipes/smithing/power_pyrite_smithing.json"},
+		{"namespace": "miningmaster", "path": "recipes/smithing/spider_kunzite_smithing.json"},
+		{"namespace": "miningmaster", "path": "recipes/smithing/spirit_garnet_smithing.json"},
+		{"namespace": "miningmaster", "path": "recipes/smithing/unbreaking_iolite_smithing.json"}
+		
 	]}
 	
 }
