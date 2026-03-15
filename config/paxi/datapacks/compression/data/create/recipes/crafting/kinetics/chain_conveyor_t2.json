@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"nyagibits_bytes:steel_casing"},
+    "B": {"item":"nyagibits_bytes:pile_of_cogs"}
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "count": 8, 
+    "item": "create:chain_conveyor"
+}
+}
