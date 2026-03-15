@@ -1018,7 +1018,7 @@
 				}
 			]
 			title: "Elbow Grease"
-			x: -0.5d
+			x: 2.5d
 			y: -5.5d
 		}
 		{
@@ -1117,7 +1117,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: ["6F66FCCD63752DC8"]
+			dependencies: ["12356B8E644A1A52"]
 			description: [
 				"The All In One Tool!"
 				""
@@ -1130,6 +1130,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			size: 1.25d
 			subtitle: "Magic Spell - Less Inventory Clutter"
 			tasks: [{
 				id: "4AD71BFFD5D74D37"
@@ -1145,32 +1146,6 @@
 			title: "The picaxlhoe, The axickvle, The..."
 			x: 0.5d
 			y: -5.0d
-		}
-		{
-			dependencies: ["12356B8E644A1A52"]
-			description: ["Finally something to chip off the top layer of these &bore boulders"]
-			id: "6F66FCCD63752DC8"
-			rewards: [{
-				id: "6DE912734723EF10"
-				item: "nyagibits_bytes:tier_zero_strawberry"
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "Isn't It Stoneronic?"
-			tasks: [{
-				id: "4F105E638E690E29"
-				item: {
-					Count: 1
-					id: "aiotbotania:livingrock_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "Finally Digging!"
-			x: 1.5d
-			y: -5.5d
 		}
 		{
 			dependencies: ["789566071704E521"]
@@ -1250,7 +1225,7 @@
 				}
 			]
 			title: "Automating Bark"
-			x: -3.0d
+			x: 4.0d
 			y: -5.5d
 		}
 		{
@@ -1271,7 +1246,7 @@
 				type: "checkmark"
 			}]
 			title: "Sourcing Andesite"
-			x: 4.0d
+			x: -5.0d
 			y: -5.5d
 		}
 		{
@@ -1291,7 +1266,7 @@
 				type: "item"
 			}]
 			title: "Anti-Softlocking"
-			x: 5.0d
+			x: -4.0d
 			y: -5.5d
 		}
 		{
@@ -1311,7 +1286,7 @@
 				type: "item"
 			}]
 			title: "Diorite Might Be Right"
-			x: 4.5d
+			x: -4.5d
 			y: -6.5d
 		}
 		{
@@ -1339,8 +1314,91 @@
 				type: "item"
 			}]
 			title: "Forbidden Cheese"
-			x: 6.0d
+			x: -3.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["4D339608203DD4F6"]
+			description: [
+				"Chipping away at stone with a different flavor of stone instead of your hands is a nice change of pace but it still feels awfully slow. Whats worse is a better base material isn't available till &bmanasteel&r."
+				""
+				"Thankfully with some smithing action, &dfluix crystals (efficiency) &r, and &6amethyst crystals (silk touch)&r can be hammered on to introduce basic enchantments to tools."
+			]
+			icon: "minecraft:smithing_table"
+			id: "6FFF5504814248DF"
+			rewards: [{
+				id: "5558647A03B64FD0"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "Your enchanting privilages have been relocated to &dTier 3"
+			tasks: [
+				{
+					id: "03113AC048025192"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+				{
+					id: "37F18F4AD8B5FA48"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+				{
+					id: "0B4566C387B842C8"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+			]
+			title: "Tool Upgrades?"
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"223785685664F186"
+				"6FFF5504814248DF"
+			]
+			description: [
+				"With just 2 levels of &dEffiency&r on shears, &avines&r become insta-mineable."
+				""
+				"This boost is nice early game before automated methods become available and carries over to automated setups once the &bhelve hammer&r can automate the efficiency application."
+			]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "minecraft:shears"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7090C69438B15D57"
+			rewards: [{
+				id: "12A21162B93839D9"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "38C07F8FEB29455A"
+					item: {
+						Count: 1
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "65E5F27901411F9D"
+					item: "ae2:fluix_crystal"
+					type: "item"
+				}
+			]
+			title: "Sharper Shearin'"
+			x: 5.0d
+			y: -5.0d
 		}
 	]
 	subtitle: ["The Tutorial"]

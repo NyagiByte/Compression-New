@@ -100,10 +100,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"6F66FCCD63752DC8"
-				"0F2BCC8D3D977D1E"
-			]
+			dependencies: ["0F2BCC8D3D977D1E"]
 			description: [
 				"Generic mostly pure iron found on the upper layer of iron geodes. &eExtruded from the inner world, boiling hot with magma and basalt"
 				""
@@ -319,10 +316,7 @@
 			y: -4.28911564625848d
 		}
 		{
-			dependencies: [
-				"6F66FCCD63752DC8"
-				"0F2BCC8D3D977D1E"
-			]
+			dependencies: ["0F2BCC8D3D977D1E"]
 			description: [
 				"Generic mostly pure copper found on the upper layer of copper geodes. &eThere seems to be quite a variety of organic life around these"
 				""
@@ -538,10 +532,7 @@
 			y: -3.641156462585009d
 		}
 		{
-			dependencies: [
-				"6F66FCCD63752DC8"
-				"0F2BCC8D3D977D1E"
-			]
+			dependencies: ["0F2BCC8D3D977D1E"]
 			description: [
 				"Generic mostly pure gold and silver found on the upper layer of electrum geodes. &eAncient node of gold and silver taken over by a long dead ancient coral encasing itself around the node itself, spilling digestive acids around its corpse"
 				""
@@ -764,10 +755,7 @@
 			y: -1.7945578231292458d
 		}
 		{
-			dependencies: [
-				"6F66FCCD63752DC8"
-				"35494E3A757EA660"
-			]
+			dependencies: ["35494E3A757EA660"]
 			description: [
 				"Generic mostly pure redstone found on the upper layer of mercury geodes. &eA tendril of obsidian coated in mercury wrapping around the boulder is seen"
 				""
@@ -982,10 +970,7 @@
 			y: -3.638435374149651d
 		}
 		{
-			dependencies: [
-				"6F66FCCD63752DC8"
-				"35494E3A757EA660"
-			]
+			dependencies: ["35494E3A757EA660"]
 			description: [
 				"Generic mostly pure coal found on the upper layer of coal geodes."
 				"&eMay contain some useful liquids early game as well"
@@ -1207,10 +1192,7 @@
 			y: -4.311904761904756d
 		}
 		{
-			dependencies: [
-				"6F66FCCD63752DC8"
-				"35494E3A757EA660"
-			]
+			dependencies: ["35494E3A757EA660"]
 			description: [
 				"Generic mostly pure diamond, lapis, emerald found on the upper layer of gemstone geodes. &eOnce believed to be ice frozen so cold it could never melt, this boulder of crystals glisens with the shards of ice surrounding it"
 				""
@@ -1499,10 +1481,7 @@
 			y: -1.0955782312925209d
 		}
 		{
-			dependencies: [
-				"6F66FCCD63752DC8"
-				"35494E3A757EA660"
-			]
+			dependencies: ["35494E3A757EA660"]
 			description: [
 				"Generic mostly pure quartz and certus found on the upper layer of quartz geodes. &cWell thats curious, not sure how a meteor would get into here, seems to have technology within it as well"
 				""
@@ -1798,10 +1777,7 @@
 			y: -1.8017006802721056d
 		}
 		{
-			dependencies: [
-				"6F66FCCD63752DC8"
-				"0F2BCC8D3D977D1E"
-			]
+			dependencies: ["0F2BCC8D3D977D1E"]
 			description: [
 				"Generic mostly pure zinc found on the upper layer of zinc geodes. &eDesiccated arid ground erroding away to reveal a pillar of zinc pushed from deep within the ground"
 				""
@@ -2018,10 +1994,7 @@
 			y: -1.0619047619047421d
 		}
 		{
-			dependencies: [
-				"6F66FCCD63752DC8"
-				"0F2BCC8D3D977D1E"
-			]
+			dependencies: ["0F2BCC8D3D977D1E"]
 			description: [
 				"Generic mostly pure aluminum found on the upper layer of bauxite geodes. &eThe acidic and aluminum rich soil acts as a strong antibacterial substrate, allowing for complex mycology to develop undisturbed"
 				""
@@ -2274,10 +2247,7 @@
 			y: 1.5238095238095468d
 		}
 		{
-			dependencies: [
-				"6F66FCCD63752DC8"
-				"0F2BCC8D3D977D1E"
-			]
+			dependencies: ["0F2BCC8D3D977D1E"]
 			description: [
 				"Generic mostly pure lead found on the upper layer of lead geodes. &ePillars of calcite and bleached stones leaking diluted acids, lead leaching into pourous stone "
 				""
@@ -2493,10 +2463,7 @@
 			y: 0.7809523809523995d
 		}
 		{
-			dependencies: [
-				"6F66FCCD63752DC8"
-				"0F2BCC8D3D977D1E"
-			]
+			dependencies: ["0F2BCC8D3D977D1E"]
 			description: [
 				"Generic mostly pure nickel found on the upper layer of nickel geodes."
 				""
@@ -2712,10 +2679,7 @@
 			y: 3.406462585034049d
 		}
 		{
-			dependencies: [
-				"6F66FCCD63752DC8"
-				"0F2BCC8D3D977D1E"
-			]
+			dependencies: ["0F2BCC8D3D977D1E"]
 			description: [
 				"Generic mostly pure uranium found on the upper layer of uranothorium geodes."
 				""
@@ -2931,10 +2895,7 @@
 			y: 3.435034013605481d
 		}
 		{
-			dependencies: [
-				"6F66FCCD63752DC8"
-				"0F2BCC8D3D977D1E"
-			]
+			dependencies: ["0F2BCC8D3D977D1E"]
 			description: [
 				"Generic mostly pure tin found on the upper layer of tin geodes."
 				""
@@ -4347,6 +4308,7 @@
 				"&lTier 16 - [...]&r"
 				"&b... Items per raw ore&r"
 			]
+			hide_until_deps_complete: true
 			icon: "botania:corporea_spark_creative"
 			id: "7C2306F0A64DE040"
 			subtitle: "No diggy diggy hole here :("

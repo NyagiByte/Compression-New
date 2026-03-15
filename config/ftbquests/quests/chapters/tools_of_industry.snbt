@@ -9,10 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"6F66FCCD63752DC8"
-				"0049E87A6B59FE5A"
-			]
+			dependencies: ["0049E87A6B59FE5A"]
 			description: [
 				"&6Copper Diving Boots&r are part of your OSHA compliant gear"
 				""
@@ -42,10 +39,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"6F66FCCD63752DC8"
-				"50AB8E6C2E4F9E7B"
-			]
+			dependencies: ["50AB8E6C2E4F9E7B"]
 			description: [
 				"A &6Copper Diving Helmet&r!"
 				""
