@@ -1,0 +1,25 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "aiotbotania:livingrock_aiot"
+      }
+    ],
+    "results": [
+      {
+        "item": "aiotbotania:livingrock_pickaxe"
+      },
+      {
+        "item": "aiotbotania:livingrock_sword"
+      },
+      {
+        "item": "aiotbotania:livingrock_axe"
+      },
+      {
+        "item": "aiotbotania:livingrock_shovel"
+      },
+      {
+        "item": "aiotbotania:livingrock_hoe"
+      }
+    ]
+  }

@@ -1303,6 +1303,11 @@
 		{"namespace": "aiotbotania", "path": "recipes/livingwood_shears.json"},
 		{"namespace": "aiotbotania", "path": "recipes/livingwood_aiot.json"},
 
+		{"namespace": "botania", "path": "recipes/manasteel_hoe.json"},
+		{"namespace": "botania", "path": "recipes/manasteel_shovel.json"},
+		{"namespace": "botania", "path": "recipes/manasteel_pick.json"},
+		{"namespace": "botania", "path": "recipes/manasteel_axe.json"},
+		{"namespace": "botania", "path": "recipes/manasteel_sword.json"},
 
 		{"namespace": "botania", "path": "recipes/red_string_alt.json"},
 		{"namespace": "botania", "path": "recipes/tiny_planet_block.json"},

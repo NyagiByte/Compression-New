@@ -1,0 +1,25 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "aiotbotania:manasteel_aiot"
+      }
+    ],
+    "results": [
+      {
+        "item": "botania:manasteel_sword"
+      },
+      {
+        "item": "botania:manasteel_axe"
+      },
+      {
+        "item": "botania:manasteel_pick"
+      },
+      {
+        "item": "botania:manasteel_shovel"
+      },
+      {
+        "item": "botania:manasteel_hoe"
+      }
+    ]
+  }
