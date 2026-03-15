@@ -1095,6 +1095,7 @@
 		{"namespace": "biomeswevegone", "path": "recipes/scoria_stone_from_crafting.json"},
 		{"namespace": "biomeswevegone", "path": "recipes/scoria_from_basalt.json"},
 
+		{"namespace": "create", "path": "recipes/crafting/appliances/chain_from_zinc.json"},
 		{"namespace": "create", "path": "recipes/crafting/deploying/large_cogwheel.json"},
 		{"namespace": "create", "path": "recipes/crafting/deploying/cogwheel.json"},
 		{"namespace": "create", "path": "recipes/crafting/kinetics/steam_engine.json"},
