@@ -1266,7 +1266,7 @@
 				type: "item"
 			}]
 			title: "Anti-Softlocking"
-			x: -4.0d
+			x: -6.0d
 			y: -5.5d
 		}
 		{
@@ -1286,7 +1286,7 @@
 				type: "item"
 			}]
 			title: "Diorite Might Be Right"
-			x: -4.5d
+			x: -5.5d
 			y: -6.5d
 		}
 		{

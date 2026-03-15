@@ -1888,6 +1888,8 @@
 		{"namespace": "create_hypertube", "path": "recipes/hyper_accelerator_large_cogwheel.json"},
 		{"namespace": "create_hypertube", "path": "recipes/hyper_accelerator_small_cogwheel.json"},
 
+		{"namespace": "farmersdelight", "path": "recipes/organic_compost_from_rotten_flesh.json"},
+
 
 
 
