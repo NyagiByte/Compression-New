@@ -1186,8 +1186,15 @@
 				"1405F87224E16FB7"
 			]
 			description: [
+				"Even with 16 flavors of wire to run side by side, the &nphysical footprint&r can still be a problem."
+				""
+				"Thankfully a quick trip through a stone cutter with a &credstone module&r will yield you bundled wire."
+				"{@pagebreak}"
+				"Bundled wire, &7as pictured below&r, is able to connect to insulated wires and carry signals from those wires."
 				""
 				"{image:compression:textures/quests/pr_wire_bundled.png width:185 height:100 align:center}"
+				""
+				"Bundled wires can carry an independent signal from all color-types at &athe same time&r. Allowing for some very compact redstone."
 			]
 			id: "1D2A5BA88EDCE162"
 			rewards: [{
@@ -1209,6 +1216,12 @@
 			dependencies: ["636384B8E591917C"]
 			description: [
 				"Wire spaghetti is good and all early game but it reaches an &cunmanageable&r point very quickly."
+				""
+				"{image:compression:textures/quests/pr_wire_color.png width:185 height:100 align:center}"
+				""
+				"Thankfully a quick dip in a &bmana-pool&r with an &6alchemy catalyst&r will cover the wire in colored insulation. Subsequent dips will &nchange&r this color."
+				"{@pagebreak}"
+				"Wires of &ntwo different colors&r will stay seperated from each other allowing for more &acompact wiring&r. "
 				""
 				"{image:compression:textures/quests/pr_wire_color.png width:185 height:100 align:center}"
 			]

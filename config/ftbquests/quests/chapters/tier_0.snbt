@@ -1372,6 +1372,7 @@
 				}
 			}
 			id: "7090C69438B15D57"
+			subtitle: "Snip Snip"
 			tasks: [
 				{
 					id: "38C07F8FEB29455A"
@@ -1427,7 +1428,7 @@
 				type: "checkmark"
 			}]
 			title: "Reworked SU Values"
-			x: -3.5d
+			x: -2.5d
 			y: -2.5d
 		}
 	]
