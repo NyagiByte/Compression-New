@@ -12,6 +12,7 @@ resourcepacks/Quark Programmer Art.zip
 /tacz/tacz_default_gun
 /simplebackups
 /tacz_backup
+/.mixin.out
 usercache.json
 usernamecache.json
 .mixin.out/class/net/minecraft/client/renderer/RenderType$CompositeRenderType.class
@@ -21,6 +22,7 @@ fancymenu_data/last_world.fmdata
 emi.json
 icon.png
 fancymenu_data/last_world.fmdata
+patchouli_data.json
 config/oculus.properties
 config/packetfixer.properties
 config/konkrete/locals/de_de.local
