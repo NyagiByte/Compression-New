@@ -1185,6 +1185,10 @@
 				"636384B8E591917C"
 				"1405F87224E16FB7"
 			]
+			description: [
+				""
+				"{image:compression:textures/quests/pr_wire_bundled.png width:185 height:100 align:center}"
+			]
 			id: "1D2A5BA88EDCE162"
 			rewards: [{
 				id: "2D4AFB2F530ECF13"
@@ -1203,6 +1207,12 @@
 		}
 		{
 			dependencies: ["636384B8E591917C"]
+			description: [
+				"Wire spaghetti is good and all early game but it reaches an &cunmanageable&r point very quickly."
+				""
+				"{image:compression:textures/quests/pr_wire_color.png width:185 height:100 align:center}"
+			]
+			icon: "botania:alchemy_catalyst"
 			id: "1405F87224E16FB7"
 			rewards: [{
 				id: "010FFD04B10233E4"
@@ -1210,12 +1220,19 @@
 				type: "item"
 			}]
 			subtitle: "Listen if you need this much redstone power you surely have botania set up by now"
-			tasks: [{
-				id: "3CF9BB99F42ACF95"
-				item: "botania:alchemy_catalyst"
-				type: "item"
-			}]
-			title: "Just In Case 16 Signals isn't Enough"
+			tasks: [
+				{
+					id: "3CF9BB99F42ACF95"
+					item: "botania:alchemy_catalyst"
+					type: "item"
+				}
+				{
+					id: "484B2DBBE0F0E5B3"
+					item: "projectred_transmission:white_insulated_wire"
+					type: "item"
+				}
+			]
+			title: "Multicolored Nerd String"
 			x: 6.5d
 			y: 10.5d
 		}
