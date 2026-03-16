@@ -1,0 +1,8 @@
+{
+    "type":"compressiontweaks:smithing_enchant",
+    "blacklist":{"tag":"c:hidden_from_recipe_viewers"},
+    "addition":{"item":"ae2:fluix_crystal"},
+    "enchantments":[
+        "minecraft:efficiency"
+        ]
+}

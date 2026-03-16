@@ -1,0 +1,8 @@
+{
+    "type":"compressiontweaks:smithing_enchant",
+    "blacklist":{"tag":"c:hidden_from_recipe_viewers"},
+    "addition":{"item":"minecraft:amethyst_shard"},
+    "enchantments":[
+        "minecraft:silk_touch"
+        ]
+}
