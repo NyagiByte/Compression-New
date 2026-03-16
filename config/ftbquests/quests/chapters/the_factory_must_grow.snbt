@@ -1123,6 +1123,13 @@
 		}
 		{
 			dependencies: ["48A8F46D3E54FD28"]
+			description: [
+				"&bRed alloy wire&r, &7especially its \"Framed\" version&r, is an &ainvaluable tool&r in your factory for one main reason."
+				""
+				"{image:compression:textures/quests/pr_wire.png width:185 height:100 align:center}"
+				""
+				"Red alloy wires do not have signal decay!"
+			]
 			id: "636384B8E591917C"
 			rewards: [{
 				id: "3243C9BD45FC5440"
