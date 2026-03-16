@@ -1372,11 +1372,6 @@
 				}
 			}
 			id: "7090C69438B15D57"
-			rewards: [{
-				id: "12A21162B93839D9"
-				item: "nyagibits_bytes:tier_zero_strawberry"
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "38C07F8FEB29455A"
@@ -1399,6 +1394,41 @@
 			title: "Sharper Shearin'"
 			x: 5.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["4B89973C8D23D164"]
+			description: [
+				"Stress unit generation has been &lheavily&r modified!"
+				""
+				"&cOld&r VS &bNew&r Values:"
+				""
+				"&lWater Wheel&r"
+				"&c32&r → &b&n512&r"
+				""
+				"&lLarge Water Wheel&r"
+				"&c512&r → &b&n8,192&r"
+				""
+				"&lWindmill &7(Max)&r"
+				"&c8,192&r → &b&n131,072&r"
+				""
+				"&lSteam Engine&r"
+				"&c4,096&r → &b&n~4 Million&r"
+				"{@pagebreak}"
+				"As a side note. It is fairly common for bases by mid Tier 1 to approach &6~1 Million SU usage&r so. This isn't as overkill as it may seem."
+			]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			icon: "create:stressometer"
+			id: "4EDD33A856D22A56"
+			subtitle: "HOW MUCH SU?!"
+			tasks: [{
+				id: "659F585E4336A606"
+				title: "Less Waterwheel Spam! Yay!"
+				type: "checkmark"
+			}]
+			title: "Reworked SU Values"
+			x: -3.5d
+			y: -2.5d
 		}
 	]
 	subtitle: ["The Tutorial"]
