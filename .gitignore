@@ -69,3 +69,8 @@ fabricloader.log
 impossible_data/what_is_this_folder.txt
 spiffy_instance_data/death_point.json
 patchouli_data.json
+config/ironchests/defaults.properties
+config/oculus.properties
+config/packetfixer.properties
+config/sounds/chat.json
+config/sounds/chat.json
