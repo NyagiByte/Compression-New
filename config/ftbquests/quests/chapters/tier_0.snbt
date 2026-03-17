@@ -1320,7 +1320,7 @@
 		{
 			dependencies: ["4D339608203DD4F6"]
 			description: [
-				"Chipping away at stone with a different flavor of stone instead of your hands is a nice change of pace but it still feels awfully slow. Whats worse is a better base material isn't available till &bmanasteel&r."
+				"Chipping away at stone with a different flavor of stone instead of your hands is a nice change of pace but it still feels awfully slow. What's worse is a better base material isn't available till &bmanasteel&r."
 				""
 				"Thankfully with some smithing action, &dfluix crystals (efficiency) &r, and &6amethyst crystals (silk touch)&r can be hammered on to introduce basic enchantments to tools."
 			]
@@ -1331,7 +1331,7 @@
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
-			subtitle: "Your enchanting privilages have been relocated to &dTier 3"
+			subtitle: "Your enchanting privileges have been relocated to &dTier 3"
 			tasks: [
 				{
 					id: "03113AC048025192"
@@ -1359,7 +1359,7 @@
 				"6FFF5504814248DF"
 			]
 			description: [
-				"With just 2 levels of &dEffiency&r on shears, &avines&r become insta-mineable."
+				"With just 2 levels of &dEfficiency&r on shears, &avines&r become insta-mineable."
 				""
 				"This boost is nice early game before automated methods become available and carries over to automated setups once the &bhelve hammer&r can automate the efficiency application."
 			]

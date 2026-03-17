@@ -1195,6 +1195,10 @@
 				"{image:compression:textures/quests/pr_wire_bundled.png width:185 height:100 align:center}"
 				""
 				"Bundled wires can carry an independent signal from all color-types at &athe same time&r. Allowing for some very compact redstone."
+				"{@pagebreak}"
+				"Additionally the bundled wires themselves can be treated to an &balchemy-catalyst-mana-pool&r to designate a color type for the bundled wire."
+				""
+				"Just in case you need to channel &6256 unique redstone signals&r down a 4x4 gap for whatever reason.."
 			]
 			id: "1D2A5BA88EDCE162"
 			rewards: [{
