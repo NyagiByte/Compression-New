@@ -1470,6 +1470,55 @@
 		}
 		{
 			dependencies: ["55D9685F3A80E054"]
+			description: [
+				"&cRed String&r blocks are a rather arcane and advanced way to interface with automation in your base."
+				""
+				"This set of blocks is able to link to blocks &6&nat range&r&r and interface with said blocks in different ways depending on the type of container bound."
+				"{@pagebreak}"
+				"For the sake of the dioramas a &awand of the forest&r will be held in hand in order to render the &cred string connection&r to the example inventory/block."
+				"{@pagebreak}"
+				"The &cRed String Container&r is able to connect to inventories, &7such as a chest&r, and basically, &apretend to be that inventory&r."
+				""
+				"{image:compression:textures/quests/rs_cont_one.png width:185 height:100 align:center}"
+				""
+				"In practice what that means is the &cred string container&r can now be the &binput/output&r of an inventory without the inventory itself being touched by hoppers or anything else."
+				"{@pagebreak}"
+				"Something interesting to note here is, if the &cred string container&r and chest &nboth&r have outputting hoppers, the &cred string container&r still takes export priority."
+				""
+				"{image:compression:textures/quests/rs_cont_two.png width:185 height:100 align:center}"
+				""
+				"Pictured above, items will prioritize being exported through the &ccontainer&r instead of the chest."
+				"{@pagebreak}"
+				"The &cred string container&r is also able to handle export/import with a wide variety of modded item logistics"
+				""
+				"{image:compression:textures/quests/rs_cont_three.png width:185 height:100 align:center}"
+				"{@pagebreak}"
+				"The &cRed String Dispenser&r is a specialized version of the &cred string container&r that can ineract with &6dispensers&r and &6droppers&r."
+				""
+				"{image:compression:textures/quests/rs_disp.png width:185 height:100 align:center}"
+				""
+				"Besides item I/O, this block can &bactivate&r dispensers and dropped when it is powered. &aRemote activation&r!"
+				"{@pagebreak}"
+				"The &cRed String Comparator&r is able to take a &6comparator output&r of an attached inventory."
+				""
+				"{image:compression:textures/quests/rs_comp.png width:185 height:100 align:center}"
+				""
+				"This comes in extra handy in those situations where every face of an inventory has something else in the way already."
+				"{@pagebreak}"
+				"The &cRed String Nutrifier&r is a bit of an odd-ball. This block is able to remotely &abonemeal&r crops."
+				""
+				"{image:compression:textures/quests/rs_nutr_one.png width:185 height:100 align:center}"
+				""
+				"Something important shown here is that the &cnutrifier&r is looking at the &bcrop&r and &nnot&r the &6farm-tile&r."
+				"{@pagebreak}"
+				"This may seem pretty useless but it is important to remember that various trees tend to not grow properly due to &eobscure directionality rules&r in the base game. In addition several modded trees have a tendancy to &coverride blocks&r as they grow."
+				""
+				"{image:compression:textures/quests/rs_nutr_two.png width:185 height:100 align:center}"
+				""
+				"And so with some chaining with &cred string dispensers&r the actual grow-mechanism can be seperated from the crop. &4I wonder if anything especially hazardous would need this later on&r..."
+				"{@pagebreak}"
+				"The &cRed String Spoofer&r"
+			]
 			id: "69D6CF09D736CADE"
 			rewards: [{
 				id: "354DE937F34AF952"
@@ -1501,6 +1550,11 @@
 				{
 					id: "4C4333BA6315675D"
 					item: "botania:red_string_relay"
+					type: "item"
+				}
+				{
+					id: "07E021D81C0F0473"
+					item: "botania:red_string_interceptor"
 					type: "item"
 				}
 			]

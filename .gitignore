@@ -68,3 +68,4 @@ config/xenon-fingerprint.json
 fabricloader.log
 impossible_data/what_is_this_folder.txt
 spiffy_instance_data/death_point.json
+patchouli_data.json
