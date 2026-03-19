@@ -45,7 +45,20 @@
 		}
 		{
 			dependencies: ["25761DABD5917644"]
+			description: [
+				"&6[W] To Ponder!&r"
+				""
+				"A &amax speed belt&r stretching across a long hallway in your base is a great way to cut back on those commute times between parts of your factory."
+				"{@pagebreak}"
+				"After you do that you can look into ripping out the floors in your actual house and &n&cb&6u&er&ay &by&do&cu&6r &el&aa&bn&dd&cl&6o&er&ad&r under the sounds of progress reaching into your day to day life as you move between your computer chair and bathroom with greater efficiency to play this modpack more."
+			]
 			id: "6875017F7DCC9969"
+			rewards: [{
+				id: "2DC9F21F10F2E9C4"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "Everyone on the people mover:tm:"
 			tasks: [{
 				id: "38AEA30B38CBC64F"
 				item: "create:belt_connector"
@@ -57,8 +70,18 @@
 		}
 		{
 			dependencies: ["5F964897DC3F3EF8"]
+			description: [
+				"Moving your items around is a given, but have you ever considered &6infrastructure for yourself&r? "
+				""
+				"Off this way to all the machinations that can move your &cfleshy vessel&r with a decent safety margin."
+			]
 			icon: "pneumaticcraft:speed_upgrade"
 			id: "25761DABD5917644"
+			rewards: [{
+				id: "08B04940E748B478"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			subtitle: "Trains are the crabs of transportation"
 			tasks: [{
 				id: "3BB6E4760395B1F3"
@@ -244,12 +267,29 @@
 		}
 		{
 			dependencies: ["6875017F7DCC9969"]
+			description: [
+				"&6[W] To Ponder!&r"
+				""
+				"&lTrains?! In Tier 0?!&r"
+				""
+				"Yes! While trains are a quite a jump up in terms of &einfrastructure cost&r it is impossible to deny the &awide use-cases trains can deal with&r while looking &o&6awesome&r at the same time."
+				""
+				"Create trains have many automation capacities, more listed in the quest below and slightly to the left of this one named &b[A Ballet Of High Moving Steel]&r."
+			]
+			icon: "railways:track_monorail"
 			id: "08D3D407B57B7B3B"
-			tasks: [{
-				id: "3C7A349B42D00D7E"
-				item: "railways:track_oak"
+			rewards: [{
+				id: "65EC5144AD4986F2"
+				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "we'll take you outside of a train and also inside of one also as well"
+			tasks: [{
+				id: "732E54E1A118170E"
+				item: "create:controls"
+				type: "item"
+			}]
+			title: "Techbro's Crab"
 			x: 5.5d
 			y: -1.0d
 		}
@@ -478,7 +518,13 @@
 		}
 		{
 			dependencies: ["6875017F7DCC9969"]
+			description: ["&6[W] To Ponder!&r"]
 			id: "6413C35ADFAB6CF0"
+			rewards: [{
+				id: "21FBD01587BB7B29"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			tasks: [{
 				id: "006EB1E8E93939B6"
 				item: "create:rope_pulley"
@@ -489,7 +535,13 @@
 		}
 		{
 			dependencies: ["6413C35ADFAB6CF0"]
+			description: ["&6[W] To Ponder!&r"]
 			id: "501114EEFCAFA0C6"
+			rewards: [{
+				id: "27F81E2CD4E8BE6A"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0995503D28F47730"
 				item: "create:elevator_pulley"
@@ -503,12 +555,73 @@
 				"06082D1481C77AC6"
 				"08D3D407B57B7B3B"
 			]
+			description: [
+				"&6[W] To Ponder!&r"
+				""
+				"Trains have the ability to be fully automated &aFactorio styled&r!"
+				""
+				"The specifics of this comes down to your exact network layout and well, that aspect is &cquite outside the scope of one quest&r."
+				""
+				"Instead the items above have &bponders&r tied to them showcasing the roles each plays in a wider network. "
+				""
+				"Functional networks can be made with a &efew or all of the items&r depending on how complex or simple you wish to make it. &n&dAll up to &cyou&d!&r"
+			]
+			icon: "create:schedule"
 			id: "3F078DDC0971F207"
-			tasks: [{
-				id: "46880EB94AE87340"
-				item: "create:track_signal"
+			rewards: [{
+				id: "5BAAB6C747EECCA7"
+				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "Be sure to not tip over several thousand tons of acidic exposives into the environment thank you!"
+			tasks: [
+				{
+					id: "46880EB94AE87340"
+					item: "create:track_signal"
+					type: "item"
+				}
+				{
+					id: "1C82CE13C8C30976"
+					item: "create:track_observer"
+					type: "item"
+				}
+				{
+					id: "49D4453B5B8DD5EA"
+					item: "railways:semaphore"
+					type: "item"
+				}
+				{
+					id: "4607D94BAC6DF434"
+					item: "railways:track_coupler"
+					type: "item"
+				}
+				{
+					id: "025179BD5402C5F2"
+					item: "railways:track_switch_andesite"
+					type: "item"
+				}
+				{
+					id: "44646911636ECDFD"
+					item: "railways:buffer"
+					type: "item"
+				}
+				{
+					id: "17A285BB2BDFE4C8"
+					item: "create:schedule"
+					type: "item"
+				}
+				{
+					id: "6DEBC4CDA350F8F9"
+					item: "create:white_postbox"
+					type: "item"
+				}
+				{
+					id: "42973A96C67B2A62"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "A Ballet Of High Moving Steel"
 			x: 4.5d
 			y: 1.0d
 		}
