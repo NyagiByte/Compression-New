@@ -1225,7 +1225,7 @@
 				}
 			]
 			title: "Automating Bark"
-			x: 4.0d
+			x: 3.5d
 			y: -5.5d
 		}
 		{
@@ -1247,7 +1247,7 @@
 			}]
 			title: "Sourcing Andesite"
 			x: -5.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["534BE39A40D1BF20"]
@@ -1267,7 +1267,7 @@
 			}]
 			title: "Anti-Softlocking"
 			x: -6.0d
-			y: -5.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["534BE39A40D1BF20"]
@@ -1287,7 +1287,7 @@
 			}]
 			title: "Diorite Might Be Right"
 			x: -5.5d
-			y: -6.5d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -1314,8 +1314,8 @@
 				type: "item"
 			}]
 			title: "Forbidden Cheese"
-			x: -3.0d
-			y: -3.5d
+			x: -0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4D339608203DD4F6"]
@@ -1393,8 +1393,8 @@
 				}
 			]
 			title: "Sharper Shearin'"
-			x: 5.0d
-			y: -5.0d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4B89973C8D23D164"]
