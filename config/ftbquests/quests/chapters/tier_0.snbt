@@ -1428,7 +1428,7 @@
 				type: "checkmark"
 			}]
 			title: "Reworked SU Values"
-			x: -2.5d
+			x: -1.0d
 			y: -2.5d
 		}
 	]
