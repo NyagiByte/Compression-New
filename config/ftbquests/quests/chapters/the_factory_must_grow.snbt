@@ -1368,16 +1368,26 @@
 		}
 		{
 			dependencies: ["6875017F7DCC9969"]
+			description: [
+				"Gliders are a wonderful tool to have on you when exploring due to the &euneven and sudden elevation changes&r in the biomes."
+				""
+				"Gliders also have a unique interaction with &6campfires&r where the updraft created by the fire can be &aridden upwards&r."
+				"{@pagebreak}"
+				"Now it is worth noting that, &edespite visually larger smoke&r, campfires with &6haybales&r underneath &cdo not grant more updraft height&r."
+				""
+				"{image:compression:textures/quests/glider_air_lift.png width:185 height:100 align:center}"
+			]
 			id: "2051A8DBD7855C03"
+			rewards: [{
+				id: "5C5CAF83CCE94AFD"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "You are the kite with a key high in the thunder cloud"
 			tasks: [
 				{
 					id: "1DE7B6AA12C90895"
 					item: "minecraft:campfire"
-					type: "item"
-				}
-				{
-					id: "661F4850E6C7EB98"
-					item: "minecraft:hay_block"
 					type: "item"
 				}
 				{
@@ -1392,6 +1402,7 @@
 					type: "item"
 				}
 			]
+			title: "Recreational Falling"
 			x: 7.5d
 			y: 1.0d
 		}
