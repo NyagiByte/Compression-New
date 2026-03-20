@@ -4,6 +4,7 @@ const ParticleTypes = Java.loadClass("net.minecraft.core.particles.ParticleTypes
 const NixieTubeBE = Java.loadClass("com.simibubi.create.content.redstone.nixieTube.NixieTubeBlockEntity")
 const ManaEnchanter = Java.loadClass("vazkii.botania.common.block.block_entity.ManaEnchanterBlockEntity")
 const BlockEntity = Java.loadClass("net.minecraft.world.entity.Display$BlockDisplay")
+const CompressedBotanics = Java.loadClass("com.pression.compressedbotanics.CompressedBotanics") //Yeah we're really doing this huh
 
 Ponder.tags((e) => {
     e.createTag("compression:botania", "botania:lexicon", "Botania", "For all your floral needs", [
@@ -20,7 +21,14 @@ Ponder.tags((e) => {
         "botania:hydroangeas",
         "botania:thermalily",
         "botania:rosa_arcana",
-        "botania:enchanter"
+        "botania:enchanter",
+        "botania:red_string",
+        "botania:red_string_container",
+        "botania:red_string_dispenser",
+        "botania:red_string_fertilizer",
+        "botania:red_string_comparator",
+        "botania:red_string_relay",
+        "botania:red_string_interceptor"
     ])
 
     // I got lazy
@@ -1967,7 +1975,444 @@ Ponder.registry((e) => {
             scene.idle(50)
             scene.markAsFinished()
         })
+
+
+
+        //RED STRING START
+
+    e.create("botania:red_string")
+        .scene("red_string_basics", "Not Actually Wireless", "kubejs:botania_7x7", (scene, util) => {
+            scene.showBasePlate();
+            scene.idle(10);
+            const red_stringed = {
+                "container": [1,1,4],
+                "dispenser": [3,1,4],
+                "fertilizer": [5,1,4],
+                "comparator": [5,1,2],
+                "relay": [3,1,2],
+                "interceptor": [1,1,2]
+            }
+
+            scene.text(120, "Red Stringed blocks have the capacity to create an ethereal link to another block.");
+            for(const [id, pos] of Object.entries(red_stringed)) {
+                scene.world.setBlock(pos, "botania:red_string_"+id, false)
+                scene.world.modifyBlock(pos, (rs) => rs.with("facing", "north"), false)
+                scene.world.showSection(pos, Facing.down)
+                scene.idle(15)
+            }
+            scene.idle(30)
+            scene.world.hideSection([1,1,2, 5,1,4], Facing.up)
+            scene.idle(20)
+            scene.world.setBlocks([1,1,2, 5,1,4], "minecraft:air", false)
+            scene.idle(10)
+            scene.addKeyframe()
+            scene.idle(10)
+
+            scene.world.setBlock([3,1,5], "botania:red_string_container", false)
+            scene.world.modifyBlock([3,1,5], (rs) => rs.with("facing", "north"), false)
+            scene.world.showSection([3,1,5], Facing.down)
+            scene.idle(10)
+            scene.text(80, "Each red stringed block connects to a specific category of blocks.", [3.5,1.5,5.5]).placeNearTarget();
+            scene.world.setBlock([3,1,1], "minecraft:barrel", false)
+            scene.world.showSection([3,1,1], Facing.down)
+            scene.idle(90)
+            scene.world.setBlock([1,1,3], "botania:red_string_container", false)
+            scene.world.modifyBlock([1,1,3], (rs) => rs.with("facing", "up"), false)
+            scene.world.showSection([1,1,3], Facing.down)
+            scene.idle(10)
+            scene.text(90, "The connection starts from the face with the red dot and goes in a straight line.", [1.5,1.5,3.5]).placeNearTarget();
+            scene.world.setBlock([1,4,3], "minecraft:barrel", false)
+            scene.world.showSection([1,4,3], Facing.down)
+            scene.idle(100)
+            scene.text(90, "Additionally, the target must be within 8 blocks of the red stringed block.", [1.5,1.5,3.5]).placeNearTarget();
+            scene.idle(80)
+            scene.world.hideSection([1,1,3, 1,4,3], Facing.west)
+            scene.idle(15)
+            scene.world.setBlocks([1,1,3, 1,4,3], "minecraft:air", false)
+            scene.idle(5)
+            scene.text(90, "Normally, the link is invisible. To see it in-world, hold a wand of the forest.", [3.5,1.5,3.5])
+            scene.showControls(90, [3.5,2,3.5], "down").withItem("botania:twig_wand");
+            scene.idle(100)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.world.setBlock([3,1,3], "minecraft:obsidian", false)
+            scene.world.showSection([3,1,3], Facing.down)
+            scene.text(70, "The red string link can pass through other blocks.", [3.5,1.5,3.5])
+            scene.idle(80)
+            scene.world.setBlock([3,1,1], "botania:red_string_container", true)
+            scene.world.modifyBlock([3,1,1], (rs) => rs.with("facing", "west"), false)
+            scene.idle(10)
+            scene.world.setBlock([1,1,1], "minecraft:barrel", false)
+            scene.world.showSection([1,1,1], Facing.down)
+            scene.text(90, "Red stringed blocks themselves CANNOT be a target.", [3.5,1.5,1.5])
+            scene.idle(100)
+            scene.world.setBlock([4,1,1], "botania:red_string_container", true)
+            scene.world.modifyBlock([4,1,1], (rs) => rs.with("facing", "west"), false)
+            scene.world.setBlock([5,1,1], "botania:red_string_container", true)
+            scene.world.modifyBlock([5,1,1], (rs) => rs.with("facing", "west"), false)
+            scene.world.showSection([4,1,1,5,1,1], Facing.down)
+            scene.text(90, "This means you can create a line of blocks all connected to the same target.", [4.5,1.5,1.5])
+            scene.idle(100)
+            scene.world.hideSection([0,1,0,6,6,6], Facing.up)
+            scene.idle(15)
+            scene.world.setBlocks([0,1,0,6,6,6], "minecraft:air", false)
+            scene.idle(5)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.world.setBlock([3,1,3], "botania:red_string_container", false)
+            scene.world.modifyBlock([3,1,3], (rs) => rs.with("facing", "north"), false)
+            scene.world.showSection([3,1,3], Facing.down)
+            scene.idle(5)
+            const barrels = [[3,1,1],[1,1,3], [5,1,3], [3,1,5]]
+            barrels.forEach((pos) => {
+                scene.world.setBlock(pos, "minecraft:barrel", false)
+                scene.world.showSection(pos, Facing.down)
+                scene.idle(5)
+            })
+            scene.idle(10)
+            scene.text(150, "Using the wand of the forest while crouching, will rotate the block by 90 degrees on the axis of the targeted face.", [3.5,1.5,3.5])
+            scene.showControls(80, [3.5,2,3.5], "down")
+                    .rightClick()
+                    .whileSneaking()
+                    .withItem("botania:twig_wand");
+            scene.idle(70)
+            scene.world.modifyBlock([3,1,3], (rs) => rs.with("facing", "west"), false)
+            scene.idle(20)
+            scene.world.modifyBlock([3,1,3], (rs) => rs.with("facing", "south"), false)
+            scene.idle(20)
+            scene.world.modifyBlock([3,1,3], (rs) => rs.with("facing", "east"), false)
+            scene.idle(20)
+            scene.world.modifyBlock([3,1,3], (rs) => rs.with("facing", "north"), false)
+            scene.idle(30)
+            scene.text(150, "Unless you target the red dot face, or its opposite. Then it will flip around", [3.5,1.5,3.5])
+            scene.idle(50)
+            scene.world.modifyBlock([3,1,3], (rs) => rs.with("facing", "south"), false)
+            scene.idle(40)
+            scene.world.modifyBlock([3,1,3], (rs) => rs.with("facing", "north"), false)
+            scene.idle(70)
+            scene.text(150, "Holding the wand of the forest and looking at the red stringed block will highlight its target", [3.5,1.5,3.5])
+            scene.showControls(130, [3.5,2,3.5], "down")
+                    .withItem("botania:twig_wand");
+            scene.idle(30)
+            scene.overlay.showOutline(PonderPalette.WHITE, "airgap", [3,1,1], 100);
+            scene.idle(100)    
+            scene.markAsFinished()
+        });
+
+    e.create("botania:red_string_container")
+        .scene("red_string_container", "Remote I/O", "kubejs:botania_7x7", (scene, util) => {
+            scene.showBasePlate();
+            redStringBasicsDisclaimer(scene);
+            scene.world.setBlock([3,1,5], "botania:red_string_container", false)
+            scene.world.modifyBlock([3,1,5], (rs) => rs.with("facing", "north"), false)
+            scene.text(100, "The Red Stringed Container connects to most blocks that can hold items.", [3.5,1.5,5.5]).placeNearTarget();
+            scene.world.setBlock([3,1,1], "minecraft:barrel", false)
+            var sec = scene.world.showIndependentSection([3,1,1,3,1,5], Facing.DOWN);
+            scene.idle(100)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.world.setBlock([3,2,5], "create:chute", false)
+            scene.world.showSection([3,2,5], Facing.down)
+            scene.text(100, "It then acts as if it was said container, allowing for automated input...", [3.5,2.5,5.5]).placeNearTarget();
+            scene.idle(30)
+            var item = scene.world.createItemEntity([3.5, 3.5, 5.5], [0.0, 0.2, 0.0], "minecraft:yellow_wool")
+            scene.idle(12)
+            scene.world.modifyEntity(item, i => i.discard())
+            scene.showControls(50, [3.5,1.5,1.5], "down").withItem("minecraft:yellow_wool");
+            scene.idle(60)
+            scene.world.moveSection(sec, [0,2,0], 10)
+            scene.idle(25)
+            var dropped = scene.world.createItemEntity([3.5, 1.5, 5.5], [0.0, 0.0, 0.0], "minecraft:yellow_wool")
+            scene.text(70, "...or automated output!", [3.5,1.1,5.5]).placeNearTarget();
+            scene.idle(80)
+            scene.world.moveSection(sec, [0,-2,0], 10)
+            scene.idle(10)
+            scene.world.setBlock([3,1,1], "minecraft:furnace", true)
+            scene.world.modifyBlock([3,1,1], (f) => f.with("facing", "west"), false)
+            scene.world.modifyEntity(dropped, i => i.discard())
+            scene.idle(5)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.text(150, "When interfacing with blocks that have sided input/output, like furnaces, the side of the red stringed container is used and respected.", [3.5,1.5,5.5]).placeNearTarget();
+            scene.idle(60)
+
+            var oak = scene.world.createItemEntity([3.5, 3.5, 5.5], [0.0, 0.2, 0.0], "minecraft:oak_log")
+            scene.idle(12)
+            scene.world.modifyEntity(oak, i => i.discard())
+            scene.showControls(200, [3.5,2,1.5], "down").withItem("minecraft:oak_log");
+            scene.idle(90)
+            scene.text(150, "Despite the connection being made to the side, the wood is in the top slot, since it was inserted through the top of the container.", [3.5,1.5,1.5]).placeNearTarget();
+            scene.idle(70)
+            scene.markAsFinished()
+        });
+
+    e.create("botania:red_string_dispenser")
+        .scene("red_string_dispenser", "Remote Firing Control", "kubejs:botania_7x7", (scene, util) => {
+            scene.showBasePlate();
+            redStringBasicsDisclaimer(scene);
+            scene.world.setBlock([3,1,5], "botania:red_string_dispenser", false)
+            scene.world.modifyBlock([3,1,5], (rs) => rs.with("facing", "north"), false)
+            scene.text(100, "The Red Stringed Dispenser is a specialized variant of the Red Stringed Container.", [3.5,1.5,5.5]).placeNearTarget();
+            scene.world.setBlock([3,1,1], "minecraft:dispenser", false)
+            scene.world.modifyBlock([3,1,1], (d) => d.with("facing", "west"), false)
+            var sec = scene.world.showIndependentSection([3,1,1,3,1,5], Facing.DOWN);
+            scene.idle(110)
+            scene.text(70, "It only connects to dispensers and droppers.", [3.5,1.5,1.5]).placeNearTarget();
+            scene.idle(80)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.world.setBlock([3,2,5], "create:chute", false)
+            scene.world.showSection([3,2,5], Facing.down)
+            scene.text(140, "Like the container, it allows inserting and extracting items from the connected block", [3.5,2.5,5.5]).placeNearTarget();
+            scene.idle(50)
+            var item = scene.world.createItemEntity([3.5, 3.5, 5.5], [0.0, 0.2, 0.0], "minecraft:arrow")
+            scene.idle(12)
+            scene.world.modifyEntity(item, i => i.discard())
+            scene.showControls(50, [3.5,1.5,1.5], "down").withItem("minecraft:arrow");
+            scene.idle(90)
+            scene.world.hideSection([3,2,5], Facing.up)
+            scene.world.moveSection(sec, [2,1,0], 10)
+            scene.idle(15)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.text(120, "Applying a redstone signal will activate the connected dispenser/dropper", [4.5,2.5,5.5]).placeNearTarget();
+            scene.world.setBlock([4,2,5], "minecraft:lever", false)
+            scene.world.modifyBlock([4,2,5], (l) => l.with("facing", "west"), false)
+            scene.world.showSection([4,2,5], Facing.east)
+            scene.idle(60)
+            scene.world.modifyBlock([4,2,5], (l) => l.with("facing", "west").with("powered", "true"), false)
+            scene.effects.indicateRedstone([4,1,5])
+            scene.idle(2)
+            var arrow = scene.world.createEntity("minecraft:arrow", [5, 2.5, 1.5], o => {
+                o.load("{Pos: [4d, 2.5d, 1.5d], Motion: [-0.6d, 0.1d, 0d]}")
+            })
+            for(let i = 0;i<20;i++){
+                scene.particles.simple(1, "smoke", [5, 2.5, 1.5]).density(1).motion([-Math.random()/5, Math.random()/10-0.05, Math.random()/10-0.05]);
+            }
+            
+            scene.idle(60)
+            scene.markAsFinished()
+        });
+
+
+    e.create("botania:red_string_fertilizer")
+        .scene("red_string_fertilizer", "Remote Bonemealing", "kubejs:botania_7x7", (scene, util) => {
+            scene.showBasePlate();
+            redStringBasicsDisclaimer(scene);
+            scene.world.setBlock([3,1,5], "botania:livingrock_bricks", false)
+            scene.world.showSection([3,1,5], Facing.down)
+            scene.idle(5)
+            scene.world.setBlock([3,2,5], "botania:red_string_fertilizer", false)
+            scene.world.modifyBlock([3,2,5], (rs) => rs.with("facing", "north"), false)
+            scene.world.showSection([3,2,5], Facing.down)
+            scene.idle(5)
+            scene.world.setBlock([3,1,1], "minecraft:farmland", false)
+            scene.world.modifyBlock([3,1,1], (f) => f.with("moisture", "7"), false)
+            scene.world.showSection([3,1,1,3,2,1], Facing.down)
+            scene.idle(15)
+            scene.world.setBlock([3,2,1], "minecraft:wheat", false)
+            scene.world.modifyBlock([3,2,1], (f) => f.with("age", "0"), true)
+            scene.text(100, "The Red Stringed Nutrifier connects to blocks that can receive bone meal, such as crops and saplings.", [3.5,2.5,1.5]).placeNearTarget();
+            scene.idle(110)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.showControls(100, [3.5,2.5,5.5], "down").rightClick().withItem("minecraft:bone_meal");
+            scene.text(100, "Using bone meal on the nutrifier, will instead apply it to the linked block.", [3.5,2.5,5.5]).placeNearTarget();
+            scene.idle(50)
+            scene.world.modifyBlock([3,2,1], (f) => f.with("age", "7"), true)
+            for(let i = 0;i<20;i++){
+                scene.particles.simple(1, "composter", [3+Math.random(), 2+Math.random(), 1+Math.random()/2]).density(1);
+            }
+            scene.idle(60)
+            scene.text(100, "The application of bone meal can also be done by dispensers, or deployers.", [3.5,2.5,5.5])
+            scene.idle(30)
+            scene.world.setBlock([4,2,5], "minecraft:dispenser", false)
+            scene.world.modifyBlock([4,2,5], (d) => d.with("facing", "west"), false)
+            scene.world.showSection([4,2,5], Facing.west)
+            scene.idle(30)
+            scene.world.setBlock([3,4,5], "create:deployer", false)
+            scene.world.modifyBlock([3,4,5], (d) => d.with("facing", "down"), false)
+            scene.world.showSection([3,4,5], Facing.down)
+            scene.idle(40)
+            scene.markAsFinished()
+            
+        });
+
+
+
+   e.create("botania:red_string_comparator")
+        .scene("red_string_comparator", "Remote Reading", "kubejs:botania_7x7", (scene, util) => {
+            scene.showBasePlate();
+            redStringBasicsDisclaimer(scene);
+            scene.world.setBlock([4,1,5], "botania:red_string_comparator", false)
+            scene.world.modifyBlock([4,1,5], (rs) => rs.with("facing", "north"), false)
+            scene.text(100, "The Red Stringed Comparator connects to most blocks that can be interfaced with by a redstone comparator.", [4.5,1.5,5.5]).placeNearTarget();
+            scene.world.setBlock([4,1,1], "minecraft:barrel", false)
+            scene.world.showSection([4,1,1,4,1,5], Facing.DOWN);
+            scene.idle(105)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.world.setBlock([3,1,5], "minecraft:comparator", false)
+            scene.world.modifyBlock([3,1,5], (cmp) => cmp.with("facing", "east"), false)
+            scene.world.showSection([3,1,5], Facing.east)
+            scene.world.setBlock([3,1,1], "minecraft:comparator", false)
+            scene.world.modifyBlock([3,1,1], (cmp) => cmp.with("facing", "east"), false)
+            scene.world.showSection([3,1,1], Facing.east)
+            scene.idle(10)
+            scene.world.setBlock([2,1,5], "create:nixie_tube", false)
+            scene.world.modifyBlock([2,1,5], (nix) => nix.with("facing", "west"), false)
+            scene.world.showSection([2,1,5], Facing.down)
+            scene.world.setBlock([2,1,1], "create:nixie_tube", false)
+            scene.world.modifyBlock([2,1,1], (nix) => nix.with("facing", "west"), false)
+            scene.world.showSection([2,1,1], Facing.down)
+            scene.idle(20)
+            scene.text(150, "A comparator reading from the red stringed block will give the same signal strength as one reading directly from the block", [3.5,1.5,5.5]);
+            scene.idle(60)
+            scene.world.modifyBlock([3,1,5], (cmp) => cmp.with("facing", "east").with("powered", "true"), false)
+            scene.effects.indicateRedstone([3,1,5])
+            scene.world.modifyBlock([3,1,1], (cmp) => cmp.with("facing", "east").with("powered", "true"), false)
+            scene.effects.indicateRedstone([3,1,1])
+            scene.world.modifyBlockEntity([2,1,5], NixieTubeBE, (nix) => {
+                nix.updateRedstoneStrength(12);
+                nix.updateDisplayedStrings()
+            })
+            scene.world.modifyBlockEntity([2,1,1], NixieTubeBE, (nix) => {
+                nix.updateRedstoneStrength(12);
+                nix.updateDisplayedStrings()
+            })
+            scene.idle(100)
+            scene.markAsFinished()
+        });
+
+
+   e.create("botania:red_string_relay")
+        .scene("red_string_relay", "Remote Botanics", "kubejs:botania_7x7", (scene, util) => {
+            scene.showBasePlate();
+            redStringBasicsDisclaimer(scene);
+            scene.world.setBlock([3,1,5], "botania:red_string_relay", false)
+            scene.world.modifyBlock([3,1,5], (rs) => rs.with("facing", "north"), false)
+            scene.world.showSection([3,1,5], Facing.down)
+            scene.world.showSection([3,1,1], Facing.down)
+            scene.text(90, "The Red Stringed Spoofer is arguably the most complex of the bunch.", [3.5,1.5,5.5]).placeNearTarget();
+            scene.idle(100)
+            const validTargets = ["minecraft:dandelion", "minecraft:brown_mushroom", "minecraft:blue_orchid", "botania:yellow_mystical_flower", "minecraft:potted_blue_orchid", "minecraft:potted_red_mushroom", "minecraft:potted_pink_tulip", "botania:potted_red_mystical_flower", "botania:light_blue_mystical_flower"]
+            scene.text(170, "It targets most mundane flowers, mushrooms and simple mystical flowers. The target can be in a flower pot.", [3.5,1,1.5]).placeNearTarget();
+            validTargets.forEach(target => {
+                scene.world.setBlock([3,1,1], target, true)
+                scene.idle(20)
+            })
+            scene.idle(20)
+            const invalidTargets = ["botania:red_floating_flower", "botania:endoflame", "botania:narslimmus", "botania:blue_floating_flower", "botania:bellethorn", "botania:pure_daisy", "botania:floating_manastar"]
+            scene.text(130, "Floating, functional or generating flowers are NOT valid targets.", [3.5,1,1.5]).placeNearTarget();
+            invalidTargets.forEach(target => {
+                scene.world.setBlock([3,1,1], target, true)
+                scene.idle(20)
+            })
+            scene.idle(10)
+            scene.world.setBlock([3,1,1], "botania:black_mystical_flower", true)
+            scene.idle(10)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.text(90, "To use the spoofer, place a functional or generating flower on top of it.", [3.5,1.5,5.5]).placeNearTarget();
+            scene.idle(50)
+            scene.world.setBlock([3,2,5], "botania:endoflame", false)
+            scene.world.showSection([3,2,5], Facing.down)
+            scene.idle(50)
+
+            scene.text(100, "The spoofed flower will now (mostly) act as if it was in the position of the target.", [3.5,1,1.5]).placeNearTarget();
+            scene.idle(50)
+
+            var item = scene.world.createItemEntity([3.5, 3.5, 0.5], [0.0, 0.2, 0.0], "minecraft:oak_log")
+            scene.idle(40)
+            scene.world.modifyEntity(item, (r) => { 
+                    r.getLevel().addParticle(ParticleTypes.FLAME, r.getX(), r.getY(), r.getZ(), 0,0,0)
+                    r.getLevel().addParticle(ParticleTypes.LARGE_SMOKE, r.getX(), r.getY()+0.1, r.getZ(), 0,0,0)
+                    r.discard(); 
+                });
+                scene.particles.simple(40, "flame", [3.7,2.55,5.4]).density(1);
+            scene.world.modifyBlockEntityNBT([3,2,5], flower => flower.mana = 60000)
+            scene.idle(20)
+            scene.text(100, "That log would have been outside the range of the endoflame, but it is within range of the spoofed position.", [3.5,1,0.5]).placeNearTarget();
+            scene.idle(110)
+            scene.text(100, "Note: Mana input/output and item input for functional flowers is still done at the original position.", [3.5,1.5,5.5]).placeNearTarget();
+            scene.idle(100)
+            scene.world.hideSection([0,1,0, 6,6,6], Facing.up)
+            scene.idle(15)
+            scene.world.setBlocks([0,1,0, 6,6,6], "minecraft:air", false)
+            scene.idle(5)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.world.setBlock([1,1,1], "botania:red_mystical_flower", false)
+            scene.world.showSection([1,1,1], Facing.down)
+            scene.idle(5)
+            scene.world.setBlock([1,1,5], "botania:red_string_relay", false)
+            scene.world.modifyBlock([1,1,5], rs => rs.with("facing", "north"), false)
+            scene.world.showSection([1,1,5], Facing.down)
+            scene.idle(5)
+            scene.world.setBlock([5,1,1], "botania:red_string_relay", false)
+            scene.world.modifyBlock([5,1,1], rs => rs.with("facing", "west"), false)
+            scene.world.showSection([5,1,1], Facing.down)
+            scene.idle(5)
+            scene.world.setBlock([1,2,5], "botania:dreadthorn", false)
+            scene.world.showSection([1,2,5], Facing.down)
+            scene.idle(5)
+            scene.world.setBlock([5,2,1], "botania:pollidisiac", false)
+            scene.world.showSection([5,2,1], Facing.down)
+            scene.text(150, "Multiple spoofers can link to the same target, each one carrying its own flower. This allows layering the effects in a single position.", [1.5,1.5,1.5]).placeNearTarget();
+            scene.idle(150)
+            scene.markAsFinished()
+        });
+
+
+
+
+   e.create("botania:red_string_interceptor")
+        .scene("red_string_interceptor", "Remote Trolling", "kubejs:botania_7x7", (scene, util) => {
+            scene.showBasePlate();
+            redStringBasicsDisclaimer(scene);
+            scene.world.setBlock([3,1,5], "botania:red_string_interceptor", false)
+            scene.world.modifyBlock([3,1,5], (rs) => rs.with("facing", "north"), false)
+            scene.text(100, "The Red Stringed Interceptor connects to...'Any sufficiently complex block'", [3.5,1.5,5.5]).placeNearTarget();
+            scene.world.setBlock([3,1,1], "minecraft:furnace", false)
+            var sec = scene.world.showIndependentSection([3,1,1,3,1,5], Facing.DOWN);
+            scene.idle(110)
+            scene.text(90, "In practice, it means blocks that can be interacted with by players.", [3.5,1.5,5.5]).placeNearTarget();
+            scene.idle(100)
+            scene.addKeyframe()
+            scene.idle(10)
+            scene.world.setBlock([4,1,5], "minecraft:redstone_lamp", false)
+            scene.world.showSection([4,1,5], Facing.down)
+            scene.text(100, "The interceptor will emit a redstone pulse whenever the target block is right-clicked.", [3.5,1.5,5.5]).placeNearTarget();
+            scene.showControls(100, [3.5,2.5,1.5], "down").rightClick()
+            scene.idle(50)
+            scene.world.modifyBlock([4,1,5], (l) => l.with("lit", "true"), false)
+            scene.effects.indicateRedstone([4,1,5])
+            scene.idle(5)
+            scene.effects.indicateRedstone([4,1,5])
+            scene.world.modifyBlock([4,1,5], (l) => l.with("lit", "false"), false)
+            scene.idle(55)
+            scene.showControls(150, [3.5,2.5,1.5], "down").withItem("create:deployer")
+            scene.text(100, "The interaction doesn't necessarily have to be from a player. Deployers can also trigger it.", [3.5,1.5,1.5]).placeNearTarget();
+            scene.idle(100)
+            scene.markAsFinished()
+        });
+
+
+
 });
+
+//This creates a small bit at the start of each red string block to tell players that the basics of red string are covered in another ponder
+function redStringBasicsDisclaimer(scene){
+    scene.idle(10)
+    scene.showControls(190, [3.5,1.5,3.5], "down").withItem("botania:red_string");
+    scene.text(90, "The basics of red string linking are covered in the Red String's ponder", [3.5,1.5,3.5]).placeNearTarget();
+    scene.idle(100)
+    scene.text(80, "If you haven't already, make sure you check that out first.", [3.5,1.5,3.5]).placeNearTarget();
+    scene.idle(90)
+    scene.addKeyframe()
+    scene.idle(10)
+}
+
 
 // with that many duplicate lambdas we might as well have a function for it
 function discard(entity) { entity.discard() }

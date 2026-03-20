@@ -1,0 +1,7 @@
+
+["Compressed Botanics Client Config"]
+	#A multiplier on the render thickness for red string. Increasing it will make it easier to see. Do not go overboard.
+	"Red String Render Thickness" = 5
+	#Whether red string blocks should always render the string in ponders, regardless of what the player's holding.
+	"Always show red string in ponders" = true
+
