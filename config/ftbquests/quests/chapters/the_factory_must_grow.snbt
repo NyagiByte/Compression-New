@@ -627,7 +627,43 @@
 		}
 		{
 			dependencies: ["6875017F7DCC9969"]
-			description: [""]
+			description: [
+				"&cT&6u&eb&ae&bs&d!&r"
+				""
+				"Hypertubes are a &nfast and whimsical&r way to move players around the place!"
+				"{@pagebreak}"
+				"The &dHypertube Entrance Block&r will allow you to enter a tube as long as it has a minimum of &b32rpm&r &7(with 256 SU)&r."
+				""
+				"{image:compression:textures/quests/tube_stress.png width:185 height:100 align:center}"
+				""
+				"&aTo enter a tube&r simply walk near it and hold &nshift&r. You'll be slorped right in!"
+				"{@pagebreak}"
+				"Alternatively you can &nright-click&r the tube entrance with a &6wrench&r to have it automatically grab you."
+				""
+				"{image:compression:textures/quests/tube_auto.png width:185 height:100 align:center}"
+				""
+				"This mode will also enable &eany mob&r to enter into the tube! &7(Be careful with this)&r."
+				"{@pagebreak}"
+				"Tube segments themselves are limited to &n40 blocks&r. Placing a length is as simple as &bright-clicking&r one end and placing the other end when the guide line turns &agreen&r."
+				""
+				"{image:compression:textures/quests/tube_size.png width:185 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"Tube segments can be &6endlessly chained together&r, the only requirement is enough room for the bends."
+				""
+				"{image:compression:textures/quests/tube_chain.png width:185 height:100 align:center}"
+				""
+				"{@pagebreak}"
+				"Oh and in case any friends decide to trap you in &ctube hell&r, a simple &areconnect&r will kick you out of the tube."
+				""
+				"{image:compression:textures/quests/tube_comedy.png width:185 height:100 align:center}"
+				""
+				"&7(This also means if a tube is mid-air and you or the server crashes you will respawn mid-air and become one with the floor shortly after)&r."
+				"{@pagebreak}"
+				"May your factory be full of &l&ajoy&r."
+				""
+				"{image:compression:textures/quests/tube_final.png width:185 height:100 align:center}"
+			]
 			id: "47A6AC722E35E179"
 			rewards: [{
 				id: "34DE195E9B1794D2"
@@ -659,11 +695,13 @@
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "LetsGameItOut here with another episode of Satisfactory"
 			tasks: [{
 				id: "5F7FE4445B946230"
 				item: "create_hypertube:hypertube_accelerator"
 				type: "item"
 			}]
+			title: "How To Piss Off A Server Admin"
 			x: 8.0d
 			y: 2.5d
 		}
