@@ -689,6 +689,10 @@
 		}
 		{
 			dependencies: ["47A6AC722E35E179"]
+			description: [
+				""
+				"{image:compression:textures/quests/tube_hyper.png width:185 height:100 align:center}"
+			]
 			id: "375105B06291C374"
 			rewards: [{
 				id: "449E43E0AFD2C627"
