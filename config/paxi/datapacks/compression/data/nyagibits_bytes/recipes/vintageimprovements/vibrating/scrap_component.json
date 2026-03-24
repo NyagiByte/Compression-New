@@ -17,95 +17,95 @@
 			"item": "create:cogwheel"
 		},
 		{
-            "chance": 0.50,
+            "chance": 0.40,
             "count": 2,
 			"item": "create:large_cogwheel"
 		},
 		{
-            "chance": 0.50,
+            "chance": 0.20,
             "count": 2,
 			"item": "create:belt_connector"
 		},
 		{
-            "chance": 0.50,
+            "chance": 0.10,
             "count": 2,
 			"item": "create:piston_extension_pole"
 		},
 		{
-            "chance": 0.50,
+            "chance": 0.10,
             "count": 2,
 			"item": "create:gantry_shaft"
 		},
 		{
-            "chance": 0.50,
+            "chance": 0.10,
             "count": 2,
 			"item": "create:white_sail"
 		},
 		{
-            "chance": 0.50,
-            "count": 2,
+            "chance": 0.05,
+            "count": 8,
 			"item": "create:cardboard"
 		},
 		{
-            "chance": 0.50,
-            "count": 2,
+            "chance": 0.25,
+            "count": 1,
 			"item": "create:propeller"
 		},
 		{
-            "chance": 0.50,
-            "count": 2,
+            "chance": 0.25,
+            "count": 1,
 			"item": "create:whisk"
 		},
 		{
-            "chance": 0.50,
-            "count": 2,
+            "chance": 0.25,
+            "count": 1,
 			"item": "thermal:saw_blade"
 		},
 		{
-            "chance": 0.50,
-            "count": 2,
+            "chance": 0.25,
+            "count": 1,
 			"item": "create:brass_hand"
 		},
 		{
-            "chance": 0.50,
+            "chance": 0.15,
             "count": 2,
 			"item": "create:electron_tube"
 		},
 		{
-            "chance": 0.50,
+            "chance": 0.25,
             "count": 2,
 			"item": "create:transmitter"
 		},
 		{
-            "chance": 0.50,
-            "count": 2,
+            "chance": 0.25,
+            "count": 4,
 			"item": "create:sturdy_sheet"
 		},
 		{
-            "chance": 0.50,
-            "count": 2,
+            "chance": 0.02,
+            "count": 1,
 			"item": "create:precision_mechanism"
 		},
 		{
-            "chance": 0.50,
-            "count": 2,
+            "chance": 0.02,
+            "count": 1,
 			"item": "nyagibits_bytes:pile_of_crude_mechanical_parts"
 		},
 		{
-            "chance": 0.50,
-            "count": 2,
+            "chance": 0.05,
+            "count": 1,
 			"item": "nyagibits_bytes:crystal_harmonizer"
 		},
 		{
-            "chance": 0.50,
-            "count": 2,
+            "chance": 0.05,
+            "count": 1,
 			"item": "nyagibits_bytes:processor_stack"
 		},
 		{
-            "chance": 0.50,
-            "count": 2,
+            "chance": 0.05,
+            "count": 1,
 			"item": "nyagibits_bytes:micro_tools"
 		}
 	],
-	"processingTime": 20
+	"processingTime": 300
 }

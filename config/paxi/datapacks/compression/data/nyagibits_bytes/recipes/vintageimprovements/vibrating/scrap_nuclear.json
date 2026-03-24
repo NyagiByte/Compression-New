@@ -1,0 +1,56 @@
+{
+	"type":"vintageimprovements:vibrating",
+	"ingredients": [ 
+		{
+			"item": "nyagibits_bytes:scrap_nuclear"
+		}
+	],
+	"results": [
+		{
+            "chance": 0.5,
+            "count": 2,
+			"item": "chemlib:lead_plate"
+		},
+		{
+            "chance": 0.1,
+            "count": 1,
+			"item": "chemlib:tungsten_dust"
+		},
+		{
+            "chance": 0.25,
+            "count": 4,
+			"item": "yuushya:reinforced_concrete"
+		},
+		{
+            "chance": 0.1,
+            "count": 4,
+			"item": "nyagibits_bytes:trinitite"
+		},
+		{
+            "chance": 0.1,
+            "count": 2,
+			"item": "nyagibits_bytes:embrittled_plating_zircaloy_4"
+		},
+		{
+            "chance": 0.01,
+            "count": 1,
+			"item": "nyagibits_bytes:embrittled_fuel_casing"
+		},
+		{
+            "chance": 0.01,
+            "count": 1,
+			"item": "nyagibits_bytes:tritium_tube"
+		},
+		{
+            "chance": 0.01,
+            "count": 1,
+			"item": "nyagibits_bytes:cobalt_60_tube"
+		},
+		{
+            "chance": 0.01,
+            "count": 1,
+			"item": "nuclearcraft:depleted_fuel_uranium_leu_235"
+		}
+	],
+	"processingTime": 20
+}

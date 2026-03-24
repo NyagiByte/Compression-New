@@ -1,0 +1,56 @@
+{
+	"type":"vintageimprovements:vibrating",
+	"ingredients": [ 
+		{
+			"item": "nyagibits_bytes:scrap_hazardous"
+		}
+	],
+	"results": [
+		{
+            "chance": 0.5,
+            "count": 1,
+			"item": "nyagibits_bytes:fiberglass_batt"
+		},
+		{
+            "chance": 0.25,
+            "count": 2,
+			"item": "nyagibits_bytes:vermiculite_asbestos_blend"
+		},
+		{
+            "chance": 0.5,
+            "count": 4,
+			"item": "nyagibits_bytes:nitrocellulose"
+		},
+		{
+            "chance": 0.25,
+            "count": 1,
+			"item": "quark:gunpowder_sack"
+		},
+		{
+            "chance": 0.15,
+            "count": 1,
+			"item": "nyagibits_bytes:white_phosphorus_dust"
+		},
+		{
+            "chance": 0.05,
+            "count": 1,
+			"item": "nyagibits_bytes:phosphorus_trichloride_dust"
+		},
+		{
+            "chance": 0.1,
+            "count": 1,
+			"item": "minecraft:tnt"
+		},
+		{
+            "chance": 0.001,
+            "count": 1,
+			"item": "minecraft:red_bed"
+		},
+		{
+            "chance": 0.02,
+            "count": 1,
+			"item": "nyagibits_bytes:scrap_nuclear"
+		}
+	],
+	"processingTime": 20
+}

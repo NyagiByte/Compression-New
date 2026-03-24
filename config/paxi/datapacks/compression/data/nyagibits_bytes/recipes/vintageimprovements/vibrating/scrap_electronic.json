@@ -1,0 +1,66 @@
+{
+	"type":"vintageimprovements:vibrating",
+	"ingredients": [ 
+		{
+			"item": "nyagibits_bytes:scrap_electronic"
+		}
+	],
+	"results": [
+		{
+            "chance": 0.5,
+            "count": 2,
+			"item": "create:electron_tube"
+		},
+		{
+            "chance": 0.25,
+            "count": 4,
+			"item": "create:transmitter"
+		},
+		{
+            "chance": 0.75,
+            "count": 4,
+			"item": "nyagibits_bytes:solder_wire"
+		},
+		{
+            "chance": 0.25,
+            "count": 2,
+			"item": "immersiveengineering:wirecoil_copper"
+		},
+		{
+            "chance": 0.25,
+            "count": 1,
+			"item": "immersiveengineering:wirecoil_copper_ins"
+		},
+		{
+            "chance": 0.10,
+            "count": 1,
+			"item": "immersiveengineering:connector_lv"
+		},
+		{
+            "chance": 0.10,
+            "count": 1,
+			"item": "immersiveengineering:connector_lv_relay"
+		},
+		{
+            "chance": 0.10,
+            "count": 1,
+			"item": "immersiveengineering:circuit_board"
+		},
+		{
+            "chance": 0.20,
+            "count": 1,
+			"item": "immersiveengineering:component_electronic"
+		},
+		{
+            "chance": 0.05,
+            "count": 1,
+			"item": "immersiveengineering:component_electronic_adv"
+		},
+		{
+            "chance": 0.05,
+            "count": 1,
+			"item": "immersiveengineering:logic_circuit"
+		}
+	],
+	"processingTime": 20
+}

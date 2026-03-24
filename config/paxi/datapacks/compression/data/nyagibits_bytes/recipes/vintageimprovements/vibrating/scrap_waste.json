@@ -1,0 +1,56 @@
+{
+	"type":"vintageimprovements:vibrating",
+	"ingredients": [ 
+		{
+			"item": "nyagibits_bytes:scrap_waste"
+		}
+	],
+	"results": [
+		{
+            "chance": 0.05,
+            "count": 2,
+			"item": "immersiveengineering:plate_duroplast"
+		},
+		{
+            "chance": 0.75,
+            "count": 4,
+			"item": "thermal:slag"
+		},
+		{
+            "chance": 0.25,
+            "count": 2,
+			"item": "thermal:rich_slag"
+		},
+		{
+            "chance": 0.50,
+            "count": 1,
+			"item": "nyagibits_bytes:dust_unidentified_solid_metallic_tailings_generic"
+		},
+		{
+            "chance": 0.15,
+            "count": 2,
+			"item": "nyagibits_bytes:saturated_carbon_waste"
+		},
+		{
+            "chance": 0.15,
+            "count": 1,
+			"item": "nyagibits_bytes:floc"
+		},
+		{
+            "chance": 0.25,
+            "count": 1,
+			"item": "nyagibits_bytes:wood_ash"
+		},
+		{
+            "chance": 0.50,
+            "count": 4,
+			"item": "supplementaries:ash"
+		},
+		{
+            "chance": 0.25,
+            "count": 8,
+			"item": "nyagibits_bytes:sludge"
+		}
+	],
+	"processingTime": 20
+}
