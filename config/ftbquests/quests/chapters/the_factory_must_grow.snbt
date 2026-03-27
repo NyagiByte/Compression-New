@@ -518,35 +518,69 @@
 		}
 		{
 			dependencies: ["6875017F7DCC9969"]
-			description: ["&6[W] To Ponder!&r"]
+			description: [
+				"&6[W] To Ponder!&r"
+				""
+				"Pulleys are your low-ish tech solution to getting &nup and down&r your base."
+				""
+				"These inherently come with &climitations&r when it comes to creating \"floors\" but work well enough for 2 story buildings."
+				""
+				"&o&7Probably useful in certain boulder mining activities&r."
+			]
 			id: "6413C35ADFAB6CF0"
 			rewards: [{
 				id: "21FBD01587BB7B29"
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "...Must have gone up at some point"
 			tasks: [{
 				id: "006EB1E8E93939B6"
 				item: "create:rope_pulley"
 				type: "item"
 			}]
+			title: "What Goes Down..."
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6413C35ADFAB6CF0"]
-			description: ["&6[W] To Ponder!&r"]
+			description: [
+				"&6[W] To Ponder!&r"
+				""
+				"By &6brassing up&r a rope pulley you can get your hands on an &delevator pulley&r!"
+				""
+				"The major benefit of the elevator pulley is the ability to &acreate floors and travel to them directly&r! Make sure to &npay attention to the ponder&r closely on this one."
+				""
+				"&7&oShould try one at max speed to world height and falling off of it to know your doom is impending the whole way down&r."
+			]
+			icon: "create:elevator_pulley"
 			id: "501114EEFCAFA0C6"
 			rewards: [{
 				id: "27F81E2CD4E8BE6A"
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
-			tasks: [{
-				id: "0995503D28F47730"
-				item: "create:elevator_pulley"
-				type: "item"
-			}]
+			subtitle: "Taking full advantage of that increased world height"
+			tasks: [
+				{
+					id: "0995503D28F47730"
+					item: "create:elevator_pulley"
+					type: "item"
+				}
+				{
+					id: "5196A2F6F737C5F0"
+					item: "create:contraption_controls"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6794DAE525984B8F"
+					item: "create:redstone_contact"
+					type: "item"
+				}
+			]
+			title: "Want to go to Heaven?"
 			x: 9.0d
 			y: 0.0d
 		}
@@ -690,8 +724,17 @@
 		{
 			dependencies: ["47A6AC722E35E179"]
 			description: [
+				"The &dHypertube Accelerator Block&r is a block that, when powered, will make you &amove faster &rin a tube."
 				""
 				"{image:compression:textures/quests/tube_hyper.png width:185 height:100 align:center}"
+				""
+				"1) The &6acceleration&r &nscales with the rpm&r it gets."
+				""
+				"2) &6It stacks&r."
+				""
+				"3) You can &cload chunks&r at an alarming rate."
+				""
+				"4) You will be &c&nhunted&r by the admins."
 			]
 			id: "375105B06291C374"
 			rewards: [{
