@@ -67,7 +67,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["5BCCEDAC43C85FE3"]
+			dependencies: [
+				"5BCCEDAC43C85FE3"
+				"6977B81B0209DB97"
+			]
 			description: [
 				"Now you may of seen the &a\"make everything\"&r part of the pack and then seen the &cmassive variation in building blocks&r and gotten worried"
 				""
@@ -97,6 +100,47 @@
 			title: "AI Assisted Climate Change"
 			x: -1.5d
 			y: 1.0d
+		}
+		{
+			dependencies: [
+				"5BCCEDAC43C85FE3"
+				"35305DC2A70419C6"
+			]
+			description: [
+				"Advances in computer technology and other meta-materials relies on plasma vapor deposition of various metals. This is needed to produce cutting edge computer products."
+				""
+				"This research will also be foundational for the next Tier."
+			]
+			id: "6977B81B0209DB97"
+			tasks: [{
+				id: "71C0DDA9E9C20677"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Plasma Physics"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51C3E42CFDA923A6"]
+			description: [
+				"Villagers are mostly useless by this point in the pack but offer some oddities to consider."
+				""
+				"They are beings that can form societies with their very souls stiched together by the [REDACTED]"
+				""
+				"Their behavior at a macroscopic scale must in some way reflect the behaviors of [REDACTED]"
+				""
+				"In order to peer into the higher minds we must simulate the societies formed by the lower minds."
+			]
+			id: "3EE8C6F8CFE02BD1"
+			tasks: [{
+				id: "424C6259B88034E8"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Le' Society"
+			x: -2.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Metal and sand made to think"]
