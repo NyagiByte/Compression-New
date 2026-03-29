@@ -7,21 +7,129 @@
 	id: "13B4B27E774FDAB7"
 	order_index: 7
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["3BEACE9F3F1EC3AA"]
-		description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
-		hide_until_deps_complete: false
-		id: "2D5173EA12F7B0BF"
-		size: 2.0d
-		tasks: [{
-			id: "3553F2D822A3CDF9"
-			item: "nuclearcraft:fusion_core"
-			type: "item"
-		}]
-		title: "Tokomak my Beloved"
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["3BEACE9F3F1EC3AA"]
+			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+			hide_until_deps_complete: false
+			id: "2D5173EA12F7B0BF"
+			size: 2.0d
+			tasks: [{
+				id: "3553F2D822A3CDF9"
+				item: "nuclearcraft:fusion_core"
+				type: "item"
+			}]
+			title: "Tokomak my Beloved"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E5499E299E417ED"]
+			id: "0D6FCB630A560E67"
+			tasks: [{
+				id: "704329E7D2C823E4"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "An Itty Bitty Speck Of Antimatter"
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14B46980C5503330"]
+			id: "1E5499E299E417ED"
+			tasks: [{
+				id: "784C91E93891E214"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Particle Decelerator"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C6F2847B6AA9618"]
+			id: "14B46980C5503330"
+			tasks: [{
+				id: "0A7F738D1BB72811"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Very Fast Protons"
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4268E94ACC5F5ED8"]
+			id: "1C6F2847B6AA9618"
+			tasks: [{
+				id: "642036AB6E6253A1"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cyclotron"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C6F2847B6AA9618"]
+			id: "2B224FC3EB51A270"
+			tasks: [{
+				id: "795A0E359D2ED235"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Nuclear Medicine"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["14B46980C5503330"]
+			id: "2D0F7E4F8A2B0FDE"
+			tasks: [{
+				id: "2874938D9AE34CBB"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Alchemy the hard way"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D0F7E4F8A2B0FDE"]
+			id: "6974826F5E8335CA"
+			tasks: [{
+				id: "32957A5059A41F7C"
+				item: "chemlib:oganesson"
+				type: "item"
+			}]
+			title: "Terrible Bombardment Routs"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D5173EA12F7B0BF"]
+			id: "4268E94ACC5F5ED8"
+			tasks: [{
+				id: "4D96603AA8434B7C"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "LINAC"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "1571A3C4B6EE7390"
+			tasks: [{
+				id: "3625088C122E355F"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+	]
 	subtitle: ["Only 20 years away!"]
 	title: " &6Tier 7&b - A very small sun"
 }

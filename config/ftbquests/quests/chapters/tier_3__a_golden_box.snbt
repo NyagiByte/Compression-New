@@ -117,6 +117,7 @@
 				item: "ae2:crafting_unit"
 				type: "item"
 			}]
+			title: "Floptastic"
 			x: -2.0d
 			y: -1.0d
 		}
@@ -159,6 +160,7 @@
 				item: "botania:orechid"
 				type: "item"
 			}]
+			title: "Opus Magnus"
 			x: -1.0d
 			y: 2.0d
 		}

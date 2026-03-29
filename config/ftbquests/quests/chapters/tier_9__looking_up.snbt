@@ -7,20 +7,45 @@
 	id: "293D11FE9470BC37"
 	order_index: 9
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["3BEACE9F3F1EC3AA"]
-		description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
-		id: "13ABA16FBB63A831"
-		size: 2.0d
-		tasks: [{
-			id: "0F512E7B5C6681BE"
-			item: "abyssal_decor:telescope_bottom"
-			type: "item"
-		}]
-		title: "&cThe Nature of Reality"
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["3BEACE9F3F1EC3AA"]
+			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+			id: "13ABA16FBB63A831"
+			size: 2.0d
+			tasks: [{
+				id: "0F512E7B5C6681BE"
+				item: "abyssal_decor:telescope_bottom"
+				type: "item"
+			}]
+			title: "&cThe Nature of Reality"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "3490E3BE0AC60DF6"
+			tasks: [{
+				id: "7701B4F88C54678F"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Synchatron Radiation Detector"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3490E3BE0AC60DF6"]
+			id: "47DC6CAD43AFB0EB"
+			tasks: [{
+				id: "32ABE940E3FB9001"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Scanning the heavens"
+			x: -3.5d
+			y: 2.5d
+		}
+	]
 	subtitle: ["All things formed decay.."]
 	title: " &6Tier 9&b - Looking Up"
 }

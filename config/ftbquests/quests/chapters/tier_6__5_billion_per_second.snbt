@@ -70,6 +70,7 @@
 			dependencies: [
 				"5BCCEDAC43C85FE3"
 				"6977B81B0209DB97"
+				"02157688F83852C6"
 			]
 			description: [
 				"Now you may of seen the &a\"make everything\"&r part of the pack and then seen the &cmassive variation in building blocks&r and gotten worried"
@@ -126,9 +127,9 @@
 			description: [
 				"Villagers are mostly useless by this point in the pack but offer some oddities to consider."
 				""
-				"They are beings that can form societies with their very souls stiched together by the [REDACTED]"
+				"They are beings that can form societies with their very souls stiched together by the &c[REDACTED]&r"
 				""
-				"Their behavior at a macroscopic scale must in some way reflect the behaviors of [REDACTED]"
+				"Their behavior at a macroscopic scale must in some way reflect the behaviors of &c[REDACTED]&r"
 				""
 				"In order to peer into the higher minds we must simulate the societies formed by the lower minds."
 			]
@@ -141,6 +142,42 @@
 			title: "Le' Society"
 			x: -2.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["51C3E42CFDA923A6"]
+			description: ["In addition to simulating societies, simulating the very concept of emergent complexity grants insights into the underlying ticking of reality woven together by &c[REDACTED]&r"]
+			id: "7104FAC47450788A"
+			tasks: [{
+				id: "1AB29863DA6D9982"
+				item: "botania:dandelifeon"
+				type: "item"
+			}]
+			title: "Le' Emergent Complexity"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["35305DC2A70419C6"]
+			description: [
+				"Part of the process of producing good computer chips is &nconstant monitoring&r."
+				""
+				"Electron microscopes will be unlocked in &aTier 4&r but do not offer the best quality at this scale."
+				""
+				"&dAtomic force microscopes&r will be part of this self-correcting chain."
+				""
+				"The microscope will engage in a &nmini-game&r and function similarly to the punch card computer from &aTier 3&r"
+				""
+				"When scanning a silicon wafer the output will represent a &n16 x 16 grid&r output as a &dhexadecimal&r. You will get a few pulses pointing to different parts of that grid that need \"cleaning\". Your job will be to apply those signals to a cleaning machine in order to clean the wafer."
+			]
+			id: "02157688F83852C6"
+			tasks: [{
+				id: "78525CDABC81D2CE"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Atomic Force Microscopy"
+			x: -4.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Metal and sand made to think"]
