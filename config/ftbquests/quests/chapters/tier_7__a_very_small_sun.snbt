@@ -120,14 +120,16 @@
 			y: 0.0d
 		}
 		{
-			id: "1571A3C4B6EE7390"
+			dependencies: ["4268E94ACC5F5ED8"]
+			id: "41C9A53B03DF4A33"
 			tasks: [{
-				id: "3625088C122E355F"
+				id: "4BF5928DB7C32990"
 				item: "compactmachines:wall"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -1.5d
+			title: "Hyper Efficient Wafers"
+			x: -2.5d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Only 20 years away!"]
