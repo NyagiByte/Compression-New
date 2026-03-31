@@ -926,6 +926,257 @@
 			x: -3.5d
 			y: 4.5d
 		}
+		{
+			dependencies: ["0049E87A6B59FE5A"]
+			description: [
+				"&e...is not a thing in this pack!&r"
+				""
+				"Neither are most of the other enchanted books!"
+				"No need to go hunting down and enslaving villagers. "
+				"&cNot right away, at least...&r"
+				""
+				"&aDoesn't mean tools are gonna be a hassle&r, the next few quests will go over the changes made to early repairing and enchanting."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/enchanted_book"
+				}
+			}
+			id: "7A27B26539B7CE54"
+			tasks: [{
+				id: "784A914E71A59F32"
+				title: "I acknowledge that it is pointless to seek villagers for enchanted books."
+				type: "checkmark"
+			}]
+			title: "Mending..."
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7A27B26539B7CE54"]
+			description: [
+				"The &aXP cost&r in anvils has been completely removed!"
+				""
+				"This means you can rename and keep repairing your tools. &e(As long as you have the repair materials!)"
+			]
+			id: "65730138BBE3827D"
+			tasks: [{
+				id: "72C94EF5B664E313"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "vintageimprovements:anvils"
+					}
+				}
+				title: "Any Anvil"
+				type: "item"
+			}]
+			title: "It's FREE!"
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["65730138BBE3827D"]
+			description: [
+				"While Mending may be gone, some materials have innate properties resembling it."
+				""
+				"Instead of &aXP&r, they consume &bmana&r."
+				"Carrying a &bMana Tablet&r with you will drain its mana instead of durability, and repair them over time."
+				""
+				"Most mana-mending items are made of &9manasteel&r, although some livingrock tools are also capable of doing so. &aLike the AIOT!&r"
+				""
+				"&eJust...make sure you have enough mana generation, especially for...&r"
+			]
+			id: "3A92476AE71F7B56"
+			tasks: [{
+				id: "7B38D22F4E1BAEC0"
+				item: {
+					Count: 1
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				match_nbt: false
+				title: "Mana Tablet (Doesn't need to be full!)"
+				type: "item"
+			}]
+			title: "Mending?"
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3A92476AE71F7B56"]
+			description: [
+				"&e...the elytra!&r"
+				""
+				"Under normal circumstances, &dphantom membranes&r are &cunavailable.&r"
+				"So, to repair elytras, you can use leather. &6A LOT of leather&r."
+				""
+				"Alternatively, it can also drain &bmana&r to repair itself."
+				"&6What's the catch? It's very mana thirsty. "
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:elytra"
+				tag: {
+					Damage: 500
+				}
+			}
+			id: "72B103E068FE9553"
+			tasks: [{
+				id: "004F1E51DA8CACDF"
+				item: "quark:bonded_leather"
+				type: "item"
+			}]
+			title: "Chase the Skies"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7A27B26539B7CE54"]
+			description: [
+				"So normal enchanting is off the table. What then?"
+				""
+				"You can use a &aSmithing Table&r to augment your tools."
+				"Applying certain materials to your gear will grant it one level of a specific enchant."
+				""
+				"If the enchant has multiple levels, the material can be applied again to &aincrease the level by 1 each time.&r"
+				""
+				"Example: &dFluix crystals&r give &aEfficiency&r. Applying a &dfluix crystal&r 5 times will give the tool &aEfficiency V.&r"
+				""
+				"&eThe next few quests will go over the possible augmentations.&r"
+			]
+			id: "5CF658C54863F0D3"
+			tasks: [{
+				id: "4F213DD9840E6901"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			title: "Toolsmith's Artificery"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5CF658C54863F0D3"]
+			description: ["Using &dFluix Crystals&r will give the tool one level of &aEfficiency&r"]
+			icon: {
+				Count: 1
+				id: "aiotbotania:livingrock_aiot"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 1
+					}]
+				}
+			}
+			id: "2F5346F258C8B6F4"
+			tasks: [{
+				id: "5862445CCBF783AB"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			title: "Efficiency"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5CF658C54863F0D3"]
+			description: ["Using &dAmethyst Shards&r will give the tool &aSilk Touch&r"]
+			icon: {
+				Count: 1
+				id: "aiotbotania:livingrock_aiot"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:silk_touch"
+						lvl: 1
+					}]
+				}
+			}
+			id: "0881E2A194077AE8"
+			tasks: [{
+				id: "1B8FAED316ABADF7"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			title: "Silk Touch"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5CF658C54863F0D3"]
+			description: [
+				"Using &cTNT&r will give the tool &aExcavating.&r"
+				""
+				"&aExcavating&r is a new augment."
+				"A tool with Excavating is &cslower&r, but will break blocks in a &e3x3 square&r."
+				""
+				"&aCrouching will deactivate its effects.&r"
+			]
+			icon: {
+				Count: 1
+				id: "aiotbotania:livingrock_aiot"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "nyagibits_bytes:excavating"
+						lvl: 1
+					}]
+				}
+			}
+			id: "25D807ED79C23EFE"
+			tasks: [{
+				id: "7CB2ED9687942694"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			title: "Excavating?"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"25D807ED79C23EFE"
+				"0881E2A194077AE8"
+				"2F5346F258C8B6F4"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Naturally, you can combine any or all of them to make the specific tool that suits your needs."
+				""
+				"Go ahead and &dTinker&r!"
+			]
+			icon: {
+				Count: 1
+				id: "aiotbotania:livingrock_aiot"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "minecraft:efficiency"
+							lvl: 1
+						}
+						{
+							id: "nyagibits_bytes:excavating"
+							lvl: 1
+						}
+					]
+				}
+			}
+			id: "40708277777DDA4E"
+			tasks: [{
+				id: "383C407108A3914A"
+				title: "The punchline is Tinker's Construct."
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
 	]
 	subtitle: [" &fTools, Trinkets, and Whatchamacallits"]
 	title: " &fTools Of Industry"
