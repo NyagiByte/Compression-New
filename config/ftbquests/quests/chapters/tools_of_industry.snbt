@@ -962,6 +962,11 @@
 				"This means you can rename and keep repairing your tools. &e(As long as you have the repair materials!)"
 			]
 			id: "65730138BBE3827D"
+			rewards: [{
+				id: "2E72AEEFDA877334"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			tasks: [{
 				id: "72C94EF5B664E313"
 				item: {
@@ -976,10 +981,10 @@
 			}]
 			title: "It's FREE!"
 			x: -0.5d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["65730138BBE3827D"]
+			dependencies: ["72B103E068FE9553"]
 			description: [
 				"While Mending may be gone, some materials have innate properties resembling it."
 				""
@@ -988,9 +993,14 @@
 				""
 				"Most mana-mending items are made of &9manasteel&r, although some livingrock tools are also capable of doing so. &aLike the AIOT!&r"
 				""
-				"&eJust...make sure you have enough mana generation, especially for...&r"
+				"The &dElytra&r can also &bmend itself using mana&r. &6However, it is very thirsty&r, it can drain a full tablet in about 10 minutes of flight."
 			]
 			id: "3A92476AE71F7B56"
+			rewards: [{
+				id: "27B2FB568DBB456D"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7B38D22F4E1BAEC0"
 				item: {
@@ -1005,19 +1015,18 @@
 				type: "item"
 			}]
 			title: "Mending?"
-			x: 0.5d
-			y: 5.5d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["3A92476AE71F7B56"]
+			dependencies: ["65730138BBE3827D"]
 			description: [
-				"&e...the elytra!&r"
+				"You might have managed to acquire an &dElytra&r. &6But can't just put Mending on it&r."
 				""
 				"Under normal circumstances, &dphantom membranes&r are &cunavailable.&r"
 				"So, to repair elytras, you can use leather. &6A LOT of leather&r."
 				""
-				"Alternatively, it can also drain &bmana&r to repair itself."
-				"&6What's the catch? It's very mana thirsty. "
+				"&bBut there's another way...&r"
 			]
 			icon: {
 				Count: 1
@@ -1027,13 +1036,18 @@
 				}
 			}
 			id: "72B103E068FE9553"
+			rewards: [{
+				id: "6121D83BF7388C6B"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			tasks: [{
 				id: "004F1E51DA8CACDF"
 				item: "quark:bonded_leather"
 				type: "item"
 			}]
 			title: "Chase the Skies"
-			x: 1.5d
+			x: 0.5d
 			y: 5.5d
 		}
 		{
@@ -1042,114 +1056,14 @@
 				"So normal enchanting is off the table. What then?"
 				""
 				"You can use a &aSmithing Table&r to augment your tools."
-				"Applying certain materials to your gear will grant it one level of a specific enchant."
+				"Applying certain materials to your gear will grant it one level of a specific enchantment!"
 				""
 				"If the enchant has multiple levels, the material can be applied again to &aincrease the level by 1 each time.&r"
 				""
-				"Example: &dFluix crystals&r give &aEfficiency&r. Applying a &dfluix crystal&r 5 times will give the tool &aEfficiency V.&r"
+				"&bYou can smith multiple augments into a tool, as long as it supports them!&r"
 				""
 				"&eThe next few quests will go over the possible augmentations.&r"
-			]
-			id: "5CF658C54863F0D3"
-			tasks: [{
-				id: "4F213DD9840E6901"
-				item: "minecraft:smithing_table"
-				type: "item"
-			}]
-			title: "Toolsmith's Artificery"
-			x: 0.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["5CF658C54863F0D3"]
-			description: ["Using &dFluix Crystals&r will give the tool one level of &aEfficiency&r"]
-			icon: {
-				Count: 1
-				id: "aiotbotania:livingrock_aiot"
-				tag: {
-					Damage: 0
-					Enchantments: [{
-						id: "minecraft:efficiency"
-						lvl: 1
-					}]
-				}
-			}
-			id: "2F5346F258C8B6F4"
-			tasks: [{
-				id: "5862445CCBF783AB"
-				item: "ae2:fluix_crystal"
-				type: "item"
-			}]
-			title: "Efficiency"
-			x: 1.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["5CF658C54863F0D3"]
-			description: ["Using &dAmethyst Shards&r will give the tool &aSilk Touch&r"]
-			icon: {
-				Count: 1
-				id: "aiotbotania:livingrock_aiot"
-				tag: {
-					Damage: 0
-					Enchantments: [{
-						id: "minecraft:silk_touch"
-						lvl: 1
-					}]
-				}
-			}
-			id: "0881E2A194077AE8"
-			tasks: [{
-				id: "1B8FAED316ABADF7"
-				item: "minecraft:amethyst_shard"
-				type: "item"
-			}]
-			title: "Silk Touch"
-			x: -1.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["5CF658C54863F0D3"]
-			description: [
-				"Using &cTNT&r will give the tool &aExcavating.&r"
-				""
-				"&aExcavating&r is a new augment."
-				"A tool with Excavating is &cslower&r, but will break blocks in a &e3x3 square&r."
-				""
-				"&aCrouching will deactivate its effects.&r"
-			]
-			icon: {
-				Count: 1
-				id: "aiotbotania:livingrock_aiot"
-				tag: {
-					Damage: 0
-					Enchantments: [{
-						id: "nyagibits_bytes:excavating"
-						lvl: 1
-					}]
-				}
-			}
-			id: "25D807ED79C23EFE"
-			tasks: [{
-				id: "7CB2ED9687942694"
-				item: "minecraft:tnt"
-				type: "item"
-			}]
-			title: "Excavating?"
-			x: 0.0d
-			y: 7.5d
-		}
-		{
-			dependencies: [
-				"25D807ED79C23EFE"
-				"0881E2A194077AE8"
-				"2F5346F258C8B6F4"
-			]
-			dependency_requirement: "one_completed"
-			description: [
-				"Naturally, you can combine any or all of them to make the specific tool that suits your needs."
-				""
-				"Go ahead and &dTinker&r!"
+				"&8The punchline is Tinker's Construct"
 			]
 			icon: {
 				Count: 1
@@ -1168,13 +1082,117 @@
 					]
 				}
 			}
-			id: "40708277777DDA4E"
-			tasks: [{
-				id: "383C407108A3914A"
-				title: "The punchline is Tinker's Construct."
-				type: "checkmark"
+			id: "5CF658C54863F0D3"
+			rewards: [{
+				id: "58A0F0FED577F8CD"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
 			}]
+			tasks: [{
+				id: "4F213DD9840E6901"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			title: "Toolsmith's Artificery"
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["5CF658C54863F0D3"]
+			description: [
+				"Using &dFluix Crystals&r will give the tool one level of &aEfficiency&r"
+				""
+				"&bThis augmentation can be reapplied all the way up to Efficiency V!&r"
+			]
+			icon: {
+				Count: 1
+				id: "aiotbotania:livingrock_aiot"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:efficiency"
+						lvl: 1
+					}]
+				}
+			}
+			id: "2F5346F258C8B6F4"
+			rewards: [{
+				id: "2542658DBEB6F735"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5862445CCBF783AB"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			title: "Efficiency"
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5CF658C54863F0D3"]
+			description: ["Using &dAmethyst Shards&r will give the tool &aSilk Touch&r"]
+			icon: {
+				Count: 1
+				id: "aiotbotania:livingrock_aiot"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:silk_touch"
+						lvl: 1
+					}]
+				}
+			}
+			id: "0881E2A194077AE8"
+			rewards: [{
+				id: "7776597541C0211A"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B8FAED316ABADF7"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			title: "Silk Touch"
 			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5CF658C54863F0D3"]
+			description: [
+				"Using &cTNT&r will give the tool &aExcavating.&r"
+				""
+				"&aExcavating&r is a new Enchantment."
+				"A tool with Excavating is &cslower&r, but will break blocks in a &e3x3 square&r."
+				""
+				"&aCrouching will deactivate its effects.&r"
+			]
+			icon: {
+				Count: 1
+				id: "aiotbotania:livingrock_aiot"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "nyagibits_bytes:excavating"
+						lvl: 1
+					}]
+				}
+			}
+			id: "25D807ED79C23EFE"
+			rewards: [{
+				id: "7F55714267F3AEA6"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CB2ED9687942694"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			title: "Excavating?"
+			x: -1.0d
 			y: 8.5d
 		}
 	]

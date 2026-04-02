@@ -219,7 +219,7 @@
 				}
 				{
 					consume_items: true
-					count: 17L
+					count: 22L
 					id: "4E13BBED8B51742F"
 					item: "nyagibits_bytes:tier_zero_strawberry"
 					title: "Tools Of Industry"
