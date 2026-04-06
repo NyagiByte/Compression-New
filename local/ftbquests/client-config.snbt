@@ -1,7 +1,7 @@
 {
 	ui: {
 		# Default: false
-		old_scroll_wheel: false
+		old_scroll_wheel: true
 		
 		# Default: 4
 		# Range: -∞ ~ +∞

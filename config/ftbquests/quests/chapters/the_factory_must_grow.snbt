@@ -152,8 +152,23 @@
 		}
 		{
 			dependencies: ["5F964897DC3F3EF8"]
+			description: [
+				"\"&d&9Automate Everything&r&r\""
+				""
+				"Surely it doesn't extend to &ebuilding&r, right?"
+				"&cWRONG.&r"
+				""
+				"Automating &deverything&r in your factory also means automating &6building the factory itself&r."
+				""
+				"&cThe factory must grow. The factory shall assist you in growing it."
+			]
 			icon: "create:builders_tea"
 			id: "5E780FBECE1F61E6"
+			rewards: [{
+				id: "1B272642949FCEEE"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			subtitle: "Gray Goo Not Included"
 			tasks: [{
 				id: "24909C282964F565"
@@ -222,48 +237,133 @@
 		}
 		{
 			dependencies: ["5E780FBECE1F61E6"]
+			description: [
+				"Schematics are the &9\"blueprint\"&r of a building, a map of where each block goes."
+				"&6Create&r offers methods to create and deploy schematics."
+				""
+				"To begin, acquire a &bschematic and quill&r, then select two opposite corners to mark the area of the building you want to make a schematic of."
+				"This area can be manually fine-tuned afterwards."
+				""
+				"After the selection area is at the correct size, use the &bschematic and quill&r again to name your schematic and save it."
+				""
+				"&dYou can do this in a separate world to bring in a building you made or found. (We won't judge)"
+				"{@pagebreak}"
+				"After saving the schematic, grab an &bempty schematic&r and a &6schematic table&r."
+				""
+				"Opening the &6schematic table&r, you can see a list of all saved schematics."
+				"Adding the &bempty schematic&r and selecting a schematic will write it down, giving you a &bfilled schematic&r."
+				""
+				"Afterwards, head to where you want to place down the schematic, and use the &bschematic item&r to place a &d\"ghost\"&r of your building."
+				"After fine-tuning the position, you can &6finally go ahead and start manually placing blocks one by one.&r"
+				""
+				"&a...just kidding!&r Well, you CAN do that, but there's ways to &2automate&r this process."
+			]
+			icon: "create:schematic_and_quill"
 			id: "570E5A9796C52276"
+			rewards: [{
+				id: "2F31E16D3AD414AC"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			tasks: [
-				{
-					id: "3F159DE6224F556D"
-					item: "create:deployer"
-					type: "item"
-				}
 				{
 					id: "002AEF9094ACAF86"
 					item: "create:empty_schematic"
 					type: "item"
 				}
+				{
+					id: "5823FFDABB223EC3"
+					item: "create:schematic_and_quill"
+					type: "item"
+				}
+				{
+					id: "3BE8F5436AC3E4D2"
+					item: "create:schematic_table"
+					type: "item"
+				}
 			]
+			title: "It's Blueprint- oh wait this isn't Balatro."
 			x: 1.0d
-			y: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["570E5A9796C52276"]
+			description: [
+				"The &6schematicannon&r is a compact solution for placing down schematics."
+				""
+				"To use it, place it down and give it the following things."
+				"- A &bSchematic&r with a set position"
+				"- Some &cgunpowder&r (One per 400 blocks)"
+				"- A storage container placed next to it with the required blocks."
+				""
+				"After giving it everything it needs, press the &6Start [➤]&r button."
+				""
+				"&aIt will then start shooting blocks to place them in the correct position.&r"
+				"{@pagebreak}"
+				"Giving the &acannon&r a &6book&r or a &6clipboard&r will write down a &dmaterial checklist&r."
+				""
+				"This &dchecklist&r will list out all the blocks that are needed to build the schematic but &6are not present in the connected storage&r."
+				""
+				"We recommend using a &6clipboard&r over a book, since it &ashows what the blocks look like&r and &ballows to manually check off items as they get supplied.&r"
+				""
+				"&dFeeding the same book/clipboard back in will overwrite the contents with the updated checklist.&r"
+			]
+			icon: "create:schematicannon"
 			id: "70BB746D3E0C4D05"
-			tasks: [{
-				id: "555D0ADE04B94E62"
-				item: "create:schematicannon"
+			rewards: [{
+				id: "63DE30C5DBEC47EB"
+				item: "nyagibits_bytes:tier_one_strawberry"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.0d
+			tasks: [
+				{
+					id: "555D0ADE04B94E62"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "3A01B70DC203534B"
+					item: "create:clipboard"
+					type: "item"
+				}
+			]
+			title: "Yes, a cannon for construction"
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
-				"70BB746D3E0C4D05"
+				"570E5A9796C52276"
 				"08D3D407B57B7B3B"
+				"1B848B67E7A9EBD6"
 				"4719463793B59AD7"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"The &dpattern schematic&r is a specialized version of the &bschematic&r"
+				""
+				"After whichever method used to place the blocks down reaches the edge of the defined area, &ait will wrap around and start building it again&r!"
+				""
+				"This can be used to tile a specific section over a long stretch."
+				""
+				"Bridges and walls are just some of the things it can make."
+				""
+				"&cIt could also prove useful for rebuilding a machine in place should something happen to it.&r"
+			]
 			id: "2C3A7E7B4C0FDB11"
+			rewards: [{
+				id: "09929AB988D30123"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4A59E776AC0709FE"
 				item: "create_pattern_schematics:empty_pattern_schematic"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.0d
+			title: "&oPink&rprint?"
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6875017F7DCC9969"]
@@ -291,18 +391,50 @@
 			}]
 			title: "Techbro's Crab"
 			x: 5.5d
-			y: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["08D3D407B57B7B3B"]
+			description: [
+				"&6Trains&r are great for long range transportation and logistics."
+				"&eBut what about normal minecart tracks?&r"
+				""
+				"The &6cart assembler&r lets you build a contraption &eon top of a minecart&r"
+				""
+				"To use it, place it on a minecart track, then build the contraption on top of it."
+				"&aRemember to glue it all up!&r"
+				""
+				"To assemble the contraption, place a &7minecart&r inside, and apply a &credstone&r signal to the assembler."
+				"{@pagebreak}"
+				"To disassemble the contraption, &cpunch out&r the &7minecart,&r or have it ride over an &cUNPOWERED&r assembler."
+				""
+				"By using a &6wrench,&r a &6cart contraption&r can be &apicked up, and placed back down elsewhere&r. &cHaving certain blocks on board will disallow picking up the contraption &4AT ALL.&r &c(Like mob spawners)&r"
+				"&3These blocks can still be moved by moving the minecart normally."
+				""
+				"Overall, &6cart contraptions&r are great for farms where the circular rotation of a &6mechanical bearing&r &edoesn't quite cut it&r, or setups arranged in a straight line."
+			]
+			icon: "create:cart_assembler"
 			id: "4719463793B59AD7"
-			tasks: [{
-				id: "57D4507A796778B1"
-				item: "create:cart_assembler"
+			rewards: [{
+				id: "3A03D494014B9B15"
+				item: "nyagibits_bytes:tier_one_strawberry"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -5.0d
+			tasks: [
+				{
+					id: "57D4507A796778B1"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					id: "015F20DA68E4313A"
+					item: "minecraft:minecart"
+					type: "item"
+				}
+			]
+			title: "Getting back on track"
+			x: 5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4FB68561130B82C9"]
@@ -657,7 +789,7 @@
 			]
 			title: "A Ballet Of High Moving Steel"
 			x: 4.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6875017F7DCC9969"]
@@ -1971,6 +2103,33 @@
 			title: "Package Nesting"
 			x: -1.5d
 			y: 7.0d
+		}
+		{
+			dependencies: ["570E5A9796C52276"]
+			description: [
+				"After setting the position on a &bschematic&r, you can set it as the filter item on a &6deployer&r"
+				""
+				"Then mount the &6deployer&r on a &econtraption,&r and giving said contraption access to storage containing the blocks that make up the building."
+				""
+				"The &6deployer&r will only &bplace blocks if they match the position of the schematic&r."
+				"In other words, &ait turns into a 3d printer&r!"
+				""
+				"As for how to move it around to place all layers of the building...&cthat is for the builder to figure out&r."
+			]
+			id: "1B848B67E7A9EBD6"
+			rewards: [{
+				id: "1C60833025CD0D81"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C6FA88BEEA291F5"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "No slicer needed for this one"
+			x: 2.0d
+			y: -4.5d
 		}
 	]
 	subtitle: [" &fThe stupid biters are on my oil patch!"]

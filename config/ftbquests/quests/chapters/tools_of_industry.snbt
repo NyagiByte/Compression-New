@@ -945,6 +945,11 @@
 				}
 			}
 			id: "7A27B26539B7CE54"
+			rewards: [{
+				id: "4FF8DBF392EBEB95"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			tasks: [{
 				id: "784A914E71A59F32"
 				title: "I acknowledge that it is pointless to seek villagers for enchanted books."
@@ -1162,7 +1167,7 @@
 		{
 			dependencies: ["5CF658C54863F0D3"]
 			description: [
-				"Using &cTNT&r will give the tool &aExcavating.&r"
+				"Using &cTiny TNT&r will give the tool &aExcavating.&r &8This is safe, right?"
 				""
 				"&aExcavating&r is a new Enchantment."
 				"A tool with Excavating is &cslower&r, but will break blocks in a &e3x3 square&r."
@@ -1183,12 +1188,12 @@
 			id: "25D807ED79C23EFE"
 			rewards: [{
 				id: "7F55714267F3AEA6"
-				item: "nyagibits_bytes:tier_one_strawberry"
+				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
 			tasks: [{
 				id: "7CB2ED9687942694"
-				item: "minecraft:tnt"
+				item: "ae2:tiny_tnt"
 				type: "item"
 			}]
 			title: "Excavating?"

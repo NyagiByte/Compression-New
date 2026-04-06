@@ -219,10 +219,18 @@
 				}
 				{
 					consume_items: true
-					count: 22L
+					count: 24L
 					id: "4E13BBED8B51742F"
 					item: "nyagibits_bytes:tier_zero_strawberry"
 					title: "Tools Of Industry"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 33L
+					id: "602AC0DE2A26763F"
+					item: { Count: 33, id: "nyagibits_bytes:tier_zero_strawberry" }
+					title: "The Factory Must Grow"
 					type: "item"
 				}
 			]
