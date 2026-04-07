@@ -412,6 +412,11 @@
 				"&3These blocks can still be moved by moving the minecart normally."
 				""
 				"Overall, &6cart contraptions&r are great for farms where the circular rotation of a &6mechanical bearing&r &edoesn't quite cut it&r, or setups arranged in a straight line."
+				"{@pagebreak}"
+				"&dTip:&r A &6mechanical plough&r can &epick up rails&r., while a &6deployer&r &ecan place them&r."
+				""
+				""
+				"{ \"text\": \"The two could be combined into one contraption...\", \"underlined\": \"true\", \"hoverEvent\": {\"action\": \"show_text\", \"value\": \"There's a video URL here...\"}, \"clickEvent\": { \"action\": \"open_url\", \"value\": \"https://www.youtube.com/watch?v=ss8LtGKxCx8\" } }"
 			]
 			icon: "create:cart_assembler"
 			id: "4719463793B59AD7"
