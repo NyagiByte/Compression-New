@@ -57,13 +57,19 @@
 		{
 			dependencies: ["147F646960AE4EBE"]
 			description: [
-				"This tab of quests excluding the &eProficiency&r line, is designed to really get into the weeds with the main &d\"Path To Null\"&r quest line. These quests are entirely ignorable if you are experienced or are willing to scramble your brains a bit &bbut for anyone feeling lost or unsure how to progress&a this is for you!&r"
+				"This tab of quests is designed to really get into the weeds with the main &d\"Path To Null\"&r quest line. These quests are entirely ignorable if you are experienced or are willing to scramble your brains a bit &bbut for anyone feeling lost or unsure how to progress&a this is for you!&r"
 				""
-				"No berries will be rewarded &b(outside of more key points)&r but you will be provided with as much context and information as needed. &6Vanilla mechanics will be explained&r, no knowledge assumptions will be made."
+				"{@pagebreak}"
+				"No berries will be rewarded &b(outside of this one quest)&r but you will be provided with as much context and information as needed. &6Vanilla mechanics will be explained&r, no knowledge assumptions will be made."
 				""
-				"Eventually ponders will be created for most things to reduce reliance on tabbing into the quest book but that is an ongoing project"
+				"Eventually ponders will be created for most things to reduce reliance on tabbing into the quest book but that is an ongoing project."
 				""
-				"&cThis set of quests also breaks from the story driven nature of the main line, including intentional misdirection. &4If you wish to avoid these quests&c, only the introductory quest for each respective tier will have a berry to claim. You have been warned"
+				"{@pagebreak}"
+				"&cThis set of quests also breaks from the &nstory driven nature&r&c of the main line, including &n&l&ointentional misdirection&r&c. "
+				""
+				"&4If you wish to avoid these quests&c, &nonly the introductory quest for this one read-me will have a berry to claim&r&c. "
+				""
+				"&6You have been warned."
 			]
 			hide_until_deps_complete: true
 			icon: "botania:white_shiny_flower"
@@ -74,6 +80,7 @@
 				type: "item"
 			}]
 			size: 2.0d
+			subtitle: "Please read till the end <3"
 			tasks: [{
 				id: "2A1C0BE6E27EF35F"
 				title: "&bYou got this"
@@ -116,34 +123,13 @@
 				type: "checkmark"
 			}]
 			title: "Do Not Avoid Farms!"
-			x: -0.5d
+			x: 0.0d
 			y: -10.5d
 		}
 		{
 			dependencies: [
-				"21625928069FF7FA"
-				"10A6343D18D3A913"
-			]
-			description: [
-				"The entire concept of mining for resources in Compression has been &cremoved."
-				""
-				"To satisfy early stone demand it may be worth it to multitask and &eflatten terrain for builds&r while collecting stone"
-			]
-			icon: "minecraft:stone"
-			id: "136DCA2889C96A65"
-			tasks: [{
-				id: "2C20D3562CAEB8D5"
-				title: "If you lawn base i'm stealing your kidneys"
-				type: "checkmark"
-			}]
-			title: "Landscaping Pro"
-			x: 0.5d
-			y: -10.5d
-		}
-		{
-			dependencies: [
-				"21625928069FF7FA"
 				"7182388FCC361CB0"
+				"322E8B40B0197798"
 			]
 			description: ["Waiting for sugarcane to grow early game can be rather annoying and soft lock progression on servers. So early game paper just needs bark now! &bI'd recommend doing this in batches of 63 at a time&r"]
 			icon: "farmersdelight:tree_bark"
@@ -159,8 +145,8 @@
 		}
 		{
 			dependencies: [
-				"136DCA2889C96A65"
 				"7182388FCC361CB0"
+				"322E8B40B0197798"
 			]
 			description: ["Furnace taking forever? Have you considered simply making &dmore&r?"]
 			icon: "minecraft:furnace"
@@ -205,30 +191,6 @@
 		{
 			dependencies: ["036E9DF57584653C"]
 			description: [
-				"Finally! You can move those misplaced furnaces you slapped down in a hurry"
-				""
-				"Oh and I guess you can finally scout for an &dIron Boulder&r as there are no ores underground"
-			]
-			icon: {
-				Count: 1
-				id: "aiotbotania:livingrock_pickaxe"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "343ECB22C2C6AB2E"
-			tasks: [{
-				id: "59436FD66E9D1A44"
-				title: "Oh yeah only botania tools"
-				type: "checkmark"
-			}]
-			title: "Chipping Away"
-			x: 0.5d
-			y: -6.5d
-		}
-		{
-			dependencies: ["1800AA593EB0F020"]
-			description: [
 				"Your first beautiful aiot"
 				""
 				"Now, before you scurry off and use it until failure &ait is recommended to use this tool to help you stock up a few more tools&r, just in case yaknow"
@@ -249,8 +211,8 @@
 				type: "checkmark"
 			}]
 			title: "You will use this for a while"
-			x: 0.0d
-			y: -5.5d
+			x: 0.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["0DBAF3F8573D1C7D"]
@@ -287,8 +249,14 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["343ECB22C2C6AB2E"]
-			description: ["Iron! &cI can't wait for every mod to use 7 trillion of it"]
+			dependencies: ["02B7D7FBFBAF0412"]
+			description: [
+				"Iron! &cI can't wait for every mod to use 7 trillion of it"
+				""
+				"Your two main sources of iron early on will be from &bIron Boulders&r or the bulk &6Agglomerated Carbo-Metallic Rock &rfound in the main impact crater."
+				""
+				"&7More info on boulders under &bRecipe Scaling&r &7> &aOre Line&r&7."
+			]
 			icon: "minecraft:iron_ingot"
 			id: "1800AA593EB0F020"
 			tasks: [{
@@ -305,6 +273,7 @@
 				"21EBC179B83DE39D"
 				"02B7D7FBFBAF0412"
 				"1800AA593EB0F020"
+				"342544B909351001"
 			]
 			description: [
 				"&bEtched Living Wood!&r While the raw components are very cheap it is rather microcrafty. To aid in early game progression it is recommended that these are made in &ebulk&r and the components made in &ebulk&r. &aWhat is \"in bulk?\"&r, basically instead of crafting enough for 1 item, you craft enough for a stack to have on hand"
@@ -1248,6 +1217,7 @@
 				""
 				"&eGranted the experience here is like living in a room where the floor is a sand paper conveyor belt, but do not fear, the &6Tutorial-Tutorial quest line&e will gently beat you instead of un-gently beating you <3&r"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:crafting_table"
 			id: "6F181CBD1F58B946"
 			tasks: [{
@@ -1374,10 +1344,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"21625928069FF7FA"
-				"136DCA2889C96A65"
-			]
+			dependencies: ["21625928069FF7FA"]
 			description: [
 				"You can find &aMystical flowers&r scattered all over the world."
 				"Typically found in small clusters, there's 16 different colors, and each one has both a short and a tall variant."

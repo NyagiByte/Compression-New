@@ -12,6 +12,7 @@
 		{
 			dependencies: ["6E7A4B55A9475E35"]
 			description: ["Tomatoes are used early game as a source of acid for the crude acidics test, grow them!"]
+			hide_until_deps_complete: true
 			id: "6AACB528AE3E38EC"
 			rewards: [{
 				id: "57871CA9F2B2E8C0"
@@ -32,6 +33,7 @@
 		{
 			dependencies: ["6E7A4B55A9475E35"]
 			description: ["Cabbages contain a natural pH indicator called anthocyanin, which early on is about as good as you have to do chemistry tests. Grow some!"]
+			hide_until_deps_complete: true
 			id: "6881ADF9AA924AF6"
 			rewards: [{
 				id: "2F2205BD2659802D"
@@ -55,6 +57,7 @@
 				"6C86D86CCAEED256"
 			]
 			description: ["Petrified wood hold ancient genetic information for long gone tree species, &cI wonder if there is a way to generate saplings from this.."]
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:raw_petrified_wood"
 			id: "3E430A180563A3E4"
 			rewards: [{
@@ -106,6 +109,7 @@
 				""
 				"&cAnimal loot tables have changed to account for skeletons no longer spawning&r"
 			]
+			hide_until_deps_complete: true
 			id: "44305D597DEAF9D3"
 			rewards: [{
 				id: "650CACDF2D8CFDA1"
@@ -216,6 +220,7 @@
 		{
 			dependencies: ["6E7A4B55A9475E35"]
 			description: ["Leather! While somewhat annoying early game is very important for multiple items. Get that farm going"]
+			hide_until_deps_complete: true
 			id: "34B64FEF04CB584D"
 			rewards: [{
 				id: "147AFEC6D321278C"
@@ -235,6 +240,7 @@
 		{
 			dependencies: ["6E7A4B55A9475E35"]
 			description: ["String has many sources some of which entirely avoid interacting with mobs. It's only down here because the top row already has too much"]
+			hide_until_deps_complete: true
 			id: "4DC6F1A0241AA002"
 			rewards: [{
 				id: "4B0750F421BB0BE8"
@@ -454,6 +460,7 @@
 		}
 		{
 			dependencies: ["6E7A4B55A9475E35"]
+			hide_until_deps_complete: true
 			id: "4D74C44A41F6BABD"
 			tasks: [{
 				id: "7FCEF7BB84393525"
@@ -465,6 +472,7 @@
 		}
 		{
 			dependencies: ["6E7A4B55A9475E35"]
+			hide_until_deps_complete: true
 			id: "391A2CC8B10152E7"
 			tasks: [{
 				id: "7CB446789B624768"
@@ -775,14 +783,25 @@
 		}
 		{
 			dependencies: ["2CCCB9817A8651E3"]
-			description: ["&7To unlock the rest of the welcome tab, confirm this quest was read with the checkmark above."]
+			description: [
+				"&7To unlock the rest of the welcome tab, confirm this quest was read with the checkmark above."
+				""
+				"&aPlants&r and &eMob&r Scaling?"
+				""
+				"Yes! &n&oEverything&r in &dCompression&r gets scaled!"
+				""
+				"Most intense scaling in this group wont be seen until &bTier 4&r, but you can still find&6 useful nuggets of information&r in this tab before that point."
+			]
 			hide_until_deps_complete: true
+			icon: "botania:corporea_spark_creative"
 			id: "6E7A4B55A9475E35"
+			subtitle: "The Original Self Replicators"
 			tasks: [{
 				id: "67F7847A19861C0D"
 				title: "Confirmation You Have Read The Blerb"
 				type: "checkmark"
 			}]
+			title: "Welcome To Organics"
 			x: -0.5d
 			y: 0.5d
 		}

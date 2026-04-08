@@ -3051,10 +3051,19 @@
 		}
 		{
 			dependencies: ["01E0198651D2A78F"]
-			description: ["&7To unlock the rest of the welcome tab, confirm this quest was read with the checkmark above."]
+			description: [
+				"&7To unlock the rest of the welcome tab, confirm this quest was read with the checkmark above."
+				""
+				"Welcome to &aScale Tree I&r."
+				""
+				"This is an overview of &nmajor progression related recipes&r showcasing how production rate can &7(and should)&r be &bincreased&r!"
+				""
+				"More Scale Trees will open up as you progress either through &cPath To Null&r or &6Tutorial Tutorial&r."
+			]
 			hide_until_deps_complete: true
 			icon: "botania:corporea_spark_creative"
 			id: "4B88B2632966F946"
+			subtitle: "The Factory Is Hungry For MORE"
 			tasks: [{
 				id: "1D7CD78E1C2FE1B2"
 				title: "Confirmation You Have Read The Blerb"

@@ -100,7 +100,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["147F646960AE4EBE"]
+			dependencies: [
+				"147F646960AE4EBE"
+				"12057422FF5BBB46"
+			]
 			description: [
 				"You will use &beverything"
 				"&cEvery, &dSingle, &cThing"
@@ -113,6 +116,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "The End Is Not The End Is Not The End Is Not The En... "
 			tasks: [{
 				id: "54278B1758C5D0ED"
 				title: "Everything"
@@ -178,7 +182,7 @@
 				"{@pagebreak}"
 				"&bRecipe Scaling &rhas more information on the processing of the ores themselves."
 				""
-				"&cAlso, don't worry about renewable materials, boulders have roughly &61 million raw ores&r in them&r."
+				"&cAlso, don't worry about renewable materials, boulders have roughly &61 million raw ores&r &cin them&r."
 			]
 			icon: "nyagibits_bytes:raw_banded_iron"
 			id: "7BD5615FF834FB3B"
@@ -205,7 +209,7 @@
 				""
 				"&dProving a golden is legit gets you a special role in the Compression Discord&r"
 				""
-				"Also &bDO NOT LOOSE THE BERRIES, THERE IS NO WAY TO GET MORE"
+				"Also &bDO NOT LOSE THE BERRIES, THERE IS NO WAY TO GET MORE"
 			]
 			icon: "nyagibits_bytes:tier_zero_strawberry"
 			id: "55BE706474A6DB29"
@@ -317,14 +321,28 @@
 		}
 		{
 			dependencies: ["05D0BEF6458AB8D9"]
+			description: [
+				"&k&4t&r&c&k&4t&r&c &k&4t&r&c  &k&4t&r&c&k&4t&r&c&k&4t&r&c &k&4t&r&c  &k&4t&r&c &l&cStep Forward&r &k&4t&r&c&k&4t&r&c &k&4t&r&c &k&4t&r&c&k&4t&r&c&k&4t&r&c"
+				""
+				"&k&4t&r&c&k&4t&r&c  &k&4t&r&c&k&4t&r&c&k&4t&r&c&k&4t&r&c&k&4t&r&c &l&cEscape This Place&r &k&4t&r&c&k&4t&r&c &k&4t&r&c&k&4t&r&c&k&4t&r&c &k&4t&r&c&k&4t&r&c &k&4t&r&c"
+				""
+				"&k&4t&r&c  &l&cFinish What You Started&r &k&4t&r&c&k&4t&r&c&k&4t&r&c&k&4t&r&c&k&4t&r&c &k&4t&r&c&k&4t&r&c"
+			]
 			icon: "botania:black_hole_talisman"
 			id: "789566071704E521"
+			rewards: [{
+				id: "297582DCBB96095D"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			size: 2.0d
+			subtitle: "54 68 69 73 20 42 6F 6F 6B 20 49 73 20 41 20 4C 69 65 20 50 4C 45 41 53 45 20 48 45 2D 20"
 			tasks: [{
 				id: "20EA979DD62AE0DA"
 				title: "Path To Null"
 				type: "checkmark"
 			}]
+			title: "&l&cWelcome To Compression"
 			x: 4.0d
 			y: -12.0d
 		}
@@ -461,14 +479,37 @@
 				"6E7A4B55A9475E35"
 				"7C2306F0A64DE040"
 			]
+			description: [
+				"&o&lWait Wait Wait!&r &6Important&r to read!"
+				""
+				"This pack is a&l &cvery high difficulty &n&dExpert Pack&r which, &7unless you are a seasoned player&r, is likely to be &eextremely overwhelming&r."
+				""
+				"In that same breath an &noverly detailed questline&r to an experienced player would get rather irritating."
+				""
+				"&n&l&bSo! The Solution!&r"
+				"{@pagebreak}"
+				"Clicking this checkmark &n↑ above ↑&r will &agrant access&r to a &bheavily tutorialized questline&r that goes into a large amount of detail about how to progress and will teach you about &ddesign philosophy&r around what makes for a &dgood robust factory&r."
+				""
+				"Call it an &n&6ideal guide for anyone new to heavy automation&r."
+				""
+				"{@pagebreak}"
+				"If this hand-holdy type of questline &eisn't your speed&r, simply checkmark the first quest in &6Tutorial-Tutorial Tier 0&r, claim your &aberry&r, and return here to unlock &c&lPath To Null&r for the intendedly-vauge progression tree."
+			]
 			icon: "quark:mangrove_bookshelf"
 			id: "147F646960AE4EBE"
+			rewards: [{
+				id: "45A23EF17FEDE070"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
 			size: 2.0d
+			subtitle: "Before you continue please read!"
 			tasks: [{
 				id: "399D64A263A084C6"
 				title: "Tutorial-Tutorial"
 				type: "checkmark"
 			}]
+			title: "The Questbook As A Guide"
 			x: 2.0d
 			y: -9.0d
 		}

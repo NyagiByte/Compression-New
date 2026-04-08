@@ -265,6 +265,7 @@
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "Where is brainstorm?"
 			tasks: [
 				{
 					id: "002AEF9094ACAF86"
@@ -315,6 +316,7 @@
 				item: "nyagibits_bytes:tier_one_strawberry"
 				type: "item"
 			}]
+			subtitle: "Try our companion product the makeup shotgun!"
 			tasks: [
 				{
 					id: "555D0ADE04B94E62"
@@ -356,6 +358,7 @@
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "The ever growing sound of paperclips folding in the distance"
 			tasks: [{
 				id: "4A59E776AC0709FE"
 				item: "create_pattern_schematics:empty_pattern_schematic"
@@ -425,6 +428,7 @@
 				item: "nyagibits_bytes:tier_one_strawberry"
 				type: "item"
 			}]
+			subtitle: "Great for absolutely obliterating your world"
 			tasks: [
 				{
 					id: "57D4507A796778B1"
@@ -2127,6 +2131,7 @@
 				item: "nyagibits_bytes:tier_zero_strawberry"
 				type: "item"
 			}]
+			subtitle: "EnderMan3, now with a bent z-rod!"
 			tasks: [{
 				id: "4C6FA88BEEA291F5"
 				item: "create:deployer"

@@ -61,6 +61,7 @@
 				""
 				"&b1 drop per ore"
 			]
+			hide_until_deps_complete: true
 			id: "531EE69871EFB610"
 			rewards: [{
 				id: "52220145E67B81DA"
@@ -538,6 +539,7 @@
 				""
 				"&dDeeper layers require better tools to fracture open"
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:gold_ingot"
 			id: "13FC2F89AE4F3F6E"
 			rewards: [{
@@ -761,6 +763,7 @@
 				""
 				"&dDeeper layers require better tools to fracture open"
 			]
+			hide_until_deps_complete: true
 			id: "1DFA40765C37E21B"
 			rewards: [{
 				id: "38AF5EF2F3BD6726"
@@ -979,6 +982,7 @@
 				""
 				"&bNote: Coal ores have additional processing chains outside of extracting coal"
 			]
+			hide_until_deps_complete: true
 			id: "384CA06F7A29D8CE"
 			rewards: [{
 				id: "0872CA4FAE482D4F"
@@ -1198,6 +1202,7 @@
 				""
 				"&dDeeper layers require better tools to fracture open"
 			]
+			hide_until_deps_complete: true
 			id: "36801EB293571923"
 			rewards: [{
 				id: "03B0577D4CFB539B"
@@ -1487,6 +1492,7 @@
 				""
 				"&dDeeper layers require better tools to fracture open"
 			]
+			hide_until_deps_complete: true
 			id: "12D07F810D3FEE98"
 			rewards: [{
 				id: "2CDCD41BD4415AA6"
@@ -2000,6 +2006,7 @@
 				""
 				"&dDeeper layers require better tools to fracture open"
 			]
+			hide_until_deps_complete: true
 			icon: "immersiveengineering:ingot_aluminum"
 			id: "759B1A3F42003E45"
 			rewards: [{
@@ -2253,6 +2260,7 @@
 				""
 				"&dDeeper layers require better tools to fracture open"
 			]
+			hide_until_deps_complete: true
 			icon: "thermal:lead_ingot"
 			id: "71620A0BAD820CD9"
 			rewards: [{
@@ -2469,6 +2477,7 @@
 				""
 				"&dDeeper layers require better tools to fracture open"
 			]
+			hide_until_deps_complete: true
 			icon: "immersiveengineering:ingot_nickel"
 			id: "45518D2CD823F143"
 			rewards: [{
@@ -2685,6 +2694,7 @@
 				""
 				"&dDeeper layers require better tools to fracture open"
 			]
+			hide_until_deps_complete: true
 			icon: "mekanism:ingot_uranium"
 			id: "2C6845E1DFB220C9"
 			rewards: [{
@@ -2901,6 +2911,7 @@
 				""
 				"&dDeeper layers require better tools to fracture open"
 			]
+			hide_until_deps_complete: true
 			icon: "thermal:tin_ingot"
 			id: "1CDB5D26D5C8253C"
 			rewards: [{
@@ -3119,6 +3130,7 @@
 				""
 				"&bNote: This geode contains a very random mix of ores used in many many lines and thus do not have consistent processing"
 			]
+			hide_until_deps_complete: true
 			id: "7B8BC8FC6D7C4E87"
 			rewards: [{
 				id: "4D88578427D0742E"
@@ -3389,10 +3401,7 @@
 			y: -9.5d
 		}
 		{
-			dependencies: [
-				"0CA06BC53DA3167B"
-				"77D8649486036493"
-			]
+			dependencies: ["77D8649486036493"]
 			description: [
 				"Drops 4 ores total from a pool of 8 options, requires at least a manasteel pickaxe to mine"
 				""
@@ -3519,6 +3528,7 @@
 				""
 				"&b1 drop per ore"
 			]
+			hide_until_deps_complete: true
 			id: "25404916F94B9AE8"
 			rewards: [{
 				id: "14403CDC10D2C901"
@@ -3619,6 +3629,7 @@
 		{
 			dependencies: ["35494E3A757EA660"]
 			description: ["Some gemstones are more useful crushed to dust.."]
+			hide_until_deps_complete: true
 			id: "38A22A91E1E443B1"
 			rewards: [{
 				id: "714A7909CD9D6209"
