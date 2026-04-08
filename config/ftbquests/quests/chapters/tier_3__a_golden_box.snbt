@@ -11,6 +11,7 @@
 		{
 			dependencies: ["11263D7D731E3161"]
 			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+			hide_until_deps_complete: true
 			icon: "immersiveengineering:wire_electrum"
 			id: "63481AC6B9F7024A"
 			size: 2.0d
@@ -44,11 +45,11 @@
 				""
 				"If the input to the computer does not match the requested task the craft will &cfail&r and mangle your punch card"
 			]
+			icon: "compactmachines:wall"
 			id: "17414CAE571D0CF3"
 			tasks: [{
-				id: "4C49A969A7DDD2CF"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "20D249A3444BA134"
+				type: "checkmark"
 			}]
 			title: "Turing Complete"
 			x: -1.5d
@@ -65,11 +66,11 @@
 				""
 				"These structures can be triggered by redstone and be as complex or simple as desired"
 			]
+			icon: "compactmachines:wall"
 			id: "2EDC03FB8F3AA4E9"
 			tasks: [{
-				id: "335AEFA42E65F2C1"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "6F5D60FD97A99A24"
+				type: "checkmark"
 			}]
 			title: "Getting Hexical"
 			x: -1.5d
@@ -88,11 +89,11 @@
 				""
 				"And it will have to be automated ;)"
 			]
+			icon: "botania:alfheim_portal"
 			id: "372CCD587E760886"
 			tasks: [{
-				id: "5AC6D1BB0637E4AE"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "1E32165E2F62AB56"
+				type: "checkmark"
 			}]
 			title: "Alfemic Linguistics"
 			x: -2.0d
@@ -111,11 +112,11 @@
 				""
 				"To gain &d\"flops\"&r the Flopotron must be fed completed computational tasks from either the &6punchcard computer&r or an equivalent &6hexcasting sourced rune&r"
 			]
+			icon: "ae2:256k_crafting_storage"
 			id: "6F07152A73C044C0"
 			tasks: [{
-				id: "3C2B0481AF6CE6E6"
-				item: "ae2:crafting_unit"
-				type: "item"
+				id: "466D36FADBA8B618"
+				type: "checkmark"
 			}]
 			title: "Floptastic"
 			x: -2.0d
@@ -134,11 +135,11 @@
 				""
 				"Hope you like &6statistics&r!"
 			]
+			icon: "compactmachines:wall"
 			id: "7BCAB430B974B009"
 			tasks: [{
-				id: "44D54D66B302D02F"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "29106E8AFF1461C5"
+				type: "checkmark"
 			}]
 			title: "Biological Database"
 			x: -3.5d
@@ -150,15 +151,19 @@
 				"372CCD587E760886"
 			]
 			description: [
-				"Tier 3's Ore scaler"
+				"Tier 3's ore scaler will be based off the game &lOpus Magnus&r"
 				""
-				"Specifics yet to be decided"
+				"The Orechid will produce blocks similar to the &batoms&r in-game."
+				""
+				"These blocks will be &6unbreakable&r but &amoveable&r and subjects to specific joining-rules."
+				""
+				"The minigame here will be to build a system to move these blocks to &dproduce specific end products&r in ways that auto-balance the ratio of outputs and automatically avoids deadlocks in the system."
 			]
+			icon: "botania:orechid"
 			id: "3AAA7076E55D45C4"
 			tasks: [{
-				id: "0096388C9AE76603"
-				item: "botania:orechid"
-				type: "item"
+				id: "2F1D8CD458256C87"
+				type: "checkmark"
 			}]
 			title: "Opus Magnus"
 			x: -1.0d

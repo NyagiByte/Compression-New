@@ -17,6 +17,7 @@
 		{
 			dependencies: ["7BCAB430B974B009"]
 			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+			hide_until_deps_complete: true
 			icon: "biomancy:flesh_bits"
 			id: "6BC5E6AD744988DD"
 			size: 2.0d
@@ -35,11 +36,11 @@
 				""
 				"A massive portion of early Tier 4 will involve their cultivation, replication, and modification"
 			]
+			icon: "compactmachines:wall"
 			id: "4B6C9F6092F50AF1"
 			tasks: [{
-				id: "16A985FED7FC79C4"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "350644FFEFD22F79"
+				type: "checkmark"
 			}]
 			title: "Virology \\& Bacteria"
 			x: -1.5d
@@ -52,11 +53,11 @@
 				""
 				"Certain species of bacteria can forcefully insert plasmids into plant cells to alter their behavior, and naturally this process can be changed"
 			]
+			icon: "compactmachines:wall"
 			id: "0BA4FA2C07E7E89C"
 			tasks: [{
-				id: "2BF843A46B13B256"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "4A49C58A22844AAC"
+				type: "checkmark"
 			}]
 			title: "Plant Modification"
 			x: -2.5d
@@ -75,28 +76,31 @@
 				""
 				"Failing any of these conditions will result in either the plant dying or a &crapid unscheduled dissassembly&r of the machine"
 			]
+			icon: "compactmachines:wall"
 			id: "3DE5749C16D38249"
 			tasks: [{
-				id: "0CA98EA95EE37055"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "0D6E89582A4A064B"
+				type: "checkmark"
 			}]
 			title: "Mystical Agriculture"
 			x: -2.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["0BA4FA2C07E7E89C"]
+			dependencies: [
+				"0BA4FA2C07E7E89C"
+				"3DE5749C16D38249"
+			]
 			description: [
 				"https://bmcbiotechnol.biomedcentral.com/articles/10.1186/s12896-018-0495-1"
 				""
 				"Chickens can be gene edited to make &6drugs&r! As if chickens arnt abused enough in minecraft"
 			]
+			icon: "compactmachines:wall"
 			id: "4966D19B92DAF730"
 			tasks: [{
-				id: "7FA7EBB9A2F45868"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "4E8BDF7BEEA55247"
+				type: "checkmark"
 			}]
 			title: "Egg.Inc"
 			x: -3.5d
@@ -115,24 +119,28 @@
 				""
 				"Modified animals will require &especial diets&r and &econstant medical upkeep&r to keep alive long enough to be butchered "
 			]
+			icon: "farmersdelight:minced_beef"
 			id: "6C53A12D983F4273"
 			tasks: [{
-				id: "3444D6961E313D6F"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "09DE161FE051E480"
+				type: "checkmark"
 			}]
 			title: "Animal Modification"
 			x: -4.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["6C53A12D983F4273"]
+			dependencies: [
+				"6C53A12D983F4273"
+				"6F6021449AD3CF86"
+				"23222F6C5ECEE7D0"
+			]
 			description: ["Implementation specifics are yet to be decided, but the &chorrors&r continue"]
+			icon: "biomancy:bio_forge"
 			id: "7F97CAFFEC07F149"
 			tasks: [{
-				id: "18BC059D7C0AAD4B"
-				item: "biomancy:bio_forge"
-				type: "item"
+				id: "3C19B9DC1A407C52"
+				type: "checkmark"
 			}]
 			title: "Into Biomancy"
 			x: -5.5d
@@ -140,12 +148,18 @@
 		}
 		{
 			dependencies: ["7F97CAFFEC07F149"]
-			description: ["&4The horrors grow&r"]
+			description: [
+				"&4The horrors grow&r."
+				""
+				"&43 Mods dancing in a disgusting harmony&r."
+				""
+				"&7(No information due to major spoiler element)&r"
+			]
+			icon: "minecraft:sculk"
 			id: "57A3D76B7F9A031E"
 			tasks: [{
-				id: "6BDA06FB9D8870E8"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "36E7FF0BF97DD0DF"
+				type: "checkmark"
 			}]
 			title: "Secret Last Step"
 			x: -6.5d
@@ -162,11 +176,11 @@
 				""
 				"Anyways who wants to give dogs &cb&6r&ea&ai&bn &dc&ca&6n&ec&ae&br&r?"
 			]
+			icon: "compactmachines:wall"
 			id: "23222F6C5ECEE7D0"
 			tasks: [{
-				id: "716DAD6D3DCECC61"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "2E2E4927CCE519E5"
+				type: "checkmark"
 			}]
 			title: "Genetic Pharmaceuticals"
 			x: -4.5d
@@ -185,15 +199,33 @@
 				""
 				"&bFeedstock for modified animals"
 			]
+			icon: "compactmachines:wall"
 			id: "6F6021449AD3CF86"
 			tasks: [{
-				id: "22C451AAEBE68D23"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "02D89F1456C96460"
+				type: "checkmark"
 			}]
 			title: "Food"
 			x: -4.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["57A3D76B7F9A031E"]
+			description: [
+				"You didn't think the gods would create a prison without some sort of &csecurity system&r right?"
+				""
+				"In the distance you hear an alarming amount of air displaced.... It's getting &9colder&r...."
+			]
+			hide_until_deps_complete: true
+			icon: "chemlib:carbon_dioxide"
+			id: "2038DA8753EFBD01"
+			tasks: [{
+				id: "1AD4D11E9B1BFDD0"
+				type: "checkmark"
+			}]
+			title: "A... Bossfight?"
+			x: -7.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Life is chemistry in motion"]

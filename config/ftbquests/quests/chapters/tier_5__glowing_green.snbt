@@ -11,6 +11,7 @@
 		{
 			dependencies: ["57A3D76B7F9A031E"]
 			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+			hide_until_deps_complete: true
 			icon: "nuclearcraft:uranium_rtg"
 			id: "15E201E7CE25E2A0"
 			size: 2.0d
@@ -19,7 +20,7 @@
 				title: "Time to crack some atoms"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -31,7 +32,7 @@
 				""
 				"In real life material close to &eheavy neutron sources&r (aka the heart of the reactor) are subject to having the neutrons &ccombine with the nuclei&r of the atoms in said material, become unstable, and decay while still being part of the physical structure of the reactor. This leads to &cweakening of the material and in some cases becoming radioactive&r"
 				""
-				"&nHow this will translate to gameplay is this:&r"
+				"&nHow this will translate to gameplay:&r"
 				"When a reactor finishes processing &afuel&r the internal components, rods, coolers, graphite blocks, ect will have a chance to convert to an &eirradiated version of themselves&r"
 				""
 				"These irradiated blocks will &cnot function&r and be &cunbreakable&r, but still remain &nmovable&r "
@@ -40,14 +41,14 @@
 				""
 				"The goal as the player is to design your reactor in a way where per cycle it can be &6gutted, replaced, and rerun automatically&r"
 			]
+			icon: "compactmachines:wall"
 			id: "7A966108AC327A14"
 			tasks: [{
-				id: "11E303DB06FED700"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "52F99E54B4A40852"
+				type: "checkmark"
 			}]
 			title: "Neutron Bombardment"
-			x: -1.5d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -59,18 +60,21 @@
 				""
 				"The relevance here is of course nuclear material is unstable and &nwill&r &crot away&r in storage meaning your reactors must be &bflowing at all times&r"
 			]
+			icon: "compactmachines:wall"
 			id: "5138DF291E95296A"
 			tasks: [{
-				id: "2B538E24DE1C67A9"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "37350931D0811382"
+				type: "checkmark"
 			}]
 			title: "Decay!"
-			x: -3.5d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["5138DF291E95296A"]
+			dependencies: [
+				"5138DF291E95296A"
+				"20A5420BEE6599AB"
+			]
 			description: [
 				"&dCorium&r is a liquid produced by &cmelting down nuclear reactors&r in a &ccatastrophic failure&r"
 				""
@@ -78,14 +82,14 @@
 				""
 				"I'm sure you know where this is going, you are smart, I believe in you"
 			]
+			icon: "nuclearcraft:corium_bucket"
 			id: "2AFF7F1DA6E52A24"
 			tasks: [{
-				id: "3DE761A772030D95"
-				item: "nuclearcraft:corium_bucket"
-				type: "item"
+				id: "045BFB8E711A9D92"
+				type: "checkmark"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: -6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7A966108AC327A14"]
@@ -100,11 +104,11 @@
 				""
 				"&b&nThis also means chemlib will be getting a \"full\" periodic table&r&r"
 			]
+			icon: "mekanism:isotopic_centrifuge"
 			id: "13E7A9A30CD0864B"
 			tasks: [{
-				id: "52574D31A8F65CCE"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "1A45F9518CC0DCD1"
+				type: "checkmark"
 			}]
 			title: "Isotopic Isolation"
 			x: -2.5d
@@ -113,15 +117,184 @@
 		{
 			dependencies: ["7A966108AC327A14"]
 			description: ["Material gathered from refurbished nuclear components will be used for Tier 5's ore-line boost"]
+			icon: "compactmachines:wall"
 			id: "14F4CD294DB3A003"
 			tasks: [{
-				id: "54538AE8EDA225A5"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "63664980888A8FAC"
+				type: "checkmark"
 			}]
 			title: "Irradiated Ore"
-			x: -2.0d
+			x: 0.5d
 			y: 1.0d
+		}
+		{
+			dependencies: [
+				"13E7A9A30CD0864B"
+				"58AA75CF0D16F1FE"
+			]
+			description: ["By attaching &6singular atoms of nuclear material&r to designed organic compounds you can be hyper selective about &adelivering death where you see fit&r!"]
+			icon: "nuclearcraft:neptunium_spallation_waste"
+			id: "62CF6ACDB44CE7F9"
+			tasks: [{
+				id: "775782BAF3836BDE"
+				type: "checkmark"
+			}]
+			title: "Radiopharmaceuticals"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["62CF6ACDB44CE7F9"]
+			description: [
+				"&6A Scaler for GMO'd creatures&r."
+				""
+				"What use is giving a baby cow &ahorrific cancers&r if the cancers kill it before being useful?"
+				""
+				"Creating nuclear medicines to destroy cancer will dramatically improve survival chances so you can kill them when it benefits &cyou&r specifically."
+			]
+			icon: "compactmachines:wall"
+			id: "6FA2CBB34F21FA35"
+			tasks: [{
+				id: "7D6FE68370977DE8"
+				title: "Cancer Treatment"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["13E7A9A30CD0864B"]
+			description: ["With the advent of &6radiotracers&r you can analyze very large areas at once to locate resources. Think of it like a &aGT Orescanner&r."]
+			icon: "abyssal_decor:iron_dish"
+			id: "45E9C50C9AB0033D"
+			tasks: [{
+				id: "740CC8A84B4ACF00"
+				title: "Advanced Geological Surveys"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13E7A9A30CD0864B"]
+			description: [
+				"Also spelled Caesium."
+				""
+				"Trace element from lithium extraction. Will be needed in bulk."
+			]
+			icon: "chemlib:cesium"
+			id: "7BC30300078A955C"
+			tasks: [{
+				id: "3CA19667240F0EE0"
+				type: "checkmark"
+			}]
+			title: "Cesium"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BC30300078A955C"]
+			description: [
+				"By embeding samples of &astructural components&r with radioactive cesium you can perform &bstructural analysis&r and identify weak points."
+				""
+				"This will greatly aid in your ability to refine products and produce stronger more reliable materials."
+			]
+			icon: "compactmachines:wall"
+			id: "02B3557C8A7343FF"
+			tasks: [{
+				id: "428D42F0CD919CDF"
+				type: "checkmark"
+			}]
+			title: "Cesium-137 Structual Analysis"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7BC30300078A955C"]
+			description: ["This specific flavor of Cesium will allow you to finally produce &6Atomic Clocks&r. This will be your most accurate time-keeping piece for a &cvery very long time&r."]
+			icon: "minecraft:clock"
+			id: "0FCF9E9A808793A1"
+			tasks: [{
+				id: "174BAF9C7835ED24"
+				type: "checkmark"
+			}]
+			title: "Cesium-133 Clocks"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["13E7A9A30CD0864B"]
+			description: [
+				"Exposing standard &enickel&r to a high neutron flux environment can convert it to &6nickel-63&r. "
+				""
+				"Which when sandwiched between certain materials can create a &abattery&r feeding off the decay of that nickel in a way that is &beasily shielded and long lasting&r."
+				""
+				"This makes it ideal for applications where servicing a battery is difficult and needs to function for &cvery long periods of time&r."
+			]
+			icon: "sophisticatedbackpacks:battery_upgrade"
+			id: "176AE869399CA4F5"
+			tasks: [{
+				id: "3CA1A8CB0ABD42B1"
+				type: "checkmark"
+			}]
+			title: "Betavoltaic Batteries"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A966108AC327A14"]
+			description: [
+				"By placing a &ehighly radioactive substance&r in the center of a circular garden you can essentially spam the &amutation rng&r on plants, animals, or even microbes to get something unique and &6industrially relevant&r."
+				""
+				"Naturally this radiation source will &cdecay&r and the products tend to be &csterile&r so both aspects will need to be automated and sustained."
+			]
+			icon: "mekanism:radioactive_waste_barrel"
+			id: "211A3228ECE3C96F"
+			tasks: [{
+				id: "1DAD8CE15A04C1D7"
+				type: "checkmark"
+			}]
+			title: "The Atomic Garden"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["13E7A9A30CD0864B"]
+			description: [
+				"You thought purifying your compounds was a pain? &6Well it gets worse!&r"
+				""
+				"&aProper nuclear science&r often needs samples of elements that are &6isotopically pure&r. This means the chemlib list will be &dmassively expanded to include every isotope of every element&r."
+				""
+				"&cTime to face the true periodic table&r."
+			]
+			icon: "compactmachines:wall"
+			id: "20A5420BEE6599AB"
+			tasks: [{
+				id: "4B0DC964E4006D8C"
+				type: "checkmark"
+			}]
+			title: "Bombardment Science"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7A966108AC327A14"]
+			description: [
+				"A byproduct of nuclear reactors."
+				""
+				"&aFirst ever synthetic element discovered&r."
+				""
+				"Has many unique use-cases that will aid your factory when fed back in."
+			]
+			icon: "chemlib:technetium"
+			id: "58AA75CF0D16F1FE"
+			tasks: [{
+				id: "75673F3A87210677"
+				type: "checkmark"
+			}]
+			title: "Technetium"
+			x: 0.5d
+			y: -1.0d
 		}
 	]
 	subtitle: ["Twisting the dragon's tail"]

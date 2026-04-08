@@ -9,15 +9,15 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3BEACE9F3F1EC3AA"]
+			dependencies: ["3EE8C6F8CFE02BD1"]
 			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
-			hide_until_deps_complete: false
+			hide_until_deps_complete: true
+			icon: "nuclearcraft:fusion_core"
 			id: "2D5173EA12F7B0BF"
 			size: 2.0d
 			tasks: [{
-				id: "3553F2D822A3CDF9"
-				item: "nuclearcraft:fusion_core"
-				type: "item"
+				id: "0019870E82D4BEEE"
+				type: "checkmark"
 			}]
 			title: "Tokomak my Beloved"
 			x: 0.0d

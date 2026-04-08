@@ -11,6 +11,7 @@
 		{
 			dependencies: ["2AFF7F1DA6E52A24"]
 			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+			hide_until_deps_complete: true
 			icon: "pneumaticcraft:transistor"
 			id: "3141035C996CF5B0"
 			tasks: [{
@@ -35,11 +36,11 @@
 				""
 				"Time to build a city sized cleanroom :fire:"
 			]
+			icon: "industrialhellscape:retro_computer"
 			id: "5BCCEDAC43C85FE3"
 			tasks: [{
-				id: "44817F99AA1CF247"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "42AB7F619D723046"
+				type: "checkmark"
 			}]
 			title: "Taiwan Simulator"
 			x: -1.0d
@@ -48,19 +49,19 @@
 		{
 			dependencies: ["5BCCEDAC43C85FE3"]
 			description: [
-				"&bMasks&r used in the &dUltraviolet Lithography&r steps are extremely important as they determin how good your chips are"
+				"&bMasks&r used in the &dUltraviolet Lithography&r steps are extremely important as they determine how good your chips are"
 				""
 				"The idea is to let you &adesign a mask&r by plotting out a square on the ground and building out &credstone&r. "
 				""
 				"The redstone will then be tested for &a\"speed\"&r at whatever task the mask is being made for."
 				""
-				"However it performs will determin the &6quality of the mask&r, which determins how &6productive&r that step in the crafting chain will be"
+				"However it performs will determine the &6quality of the mask&r, which determines how &6productive&r that step in the crafting chain will be"
 			]
+			icon: "compactmachines:wall"
 			id: "35305DC2A70419C6"
 			tasks: [{
-				id: "184F22CD959C0546"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "7F969CEB98EE62C3"
+				type: "checkmark"
 			}]
 			title: "Mask Production"
 			x: -1.5d
@@ -90,13 +91,13 @@
 				""
 				"This machine at great energetic cost will consume decorative blocks and produce optimization related data which when recombined with other science will produce optimization cards that will boost the efficiency of the universal factory"
 				""
-				"You can plug these machines into eachother and after chewing through the &6energy production of a whole country&r and a &cfew billion items&r, it will be \"good enough\" to use"
+				"You can plug these machines into each other and after chewing through the &6energy production of a whole country&r and a &cfew billion items&r, it will be \"good enough\" to use"
 			]
+			icon: "compactmachines:wall"
 			id: "51C3E42CFDA923A6"
 			tasks: [{
-				id: "0A1A4B53042AAB66"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "5F2C0AA859694A00"
+				type: "checkmark"
 			}]
 			title: "AI Assisted Climate Change"
 			x: -1.5d
@@ -112,11 +113,11 @@
 				""
 				"This research will also be foundational for the next Tier."
 			]
+			icon: "compactmachines:wall"
 			id: "6977B81B0209DB97"
 			tasks: [{
-				id: "71C0DDA9E9C20677"
-				item: "compactmachines:wall"
-				type: "item"
+				id: "236C2B6D11A4C34D"
+				type: "checkmark"
 			}]
 			title: "Plasma Physics"
 			x: -2.0d
@@ -133,11 +134,11 @@
 				""
 				"In order to peer into the higher minds we must simulate the societies formed by the lower minds."
 			]
+			icon: "minecraft:villager_spawn_egg"
 			id: "3EE8C6F8CFE02BD1"
 			tasks: [{
-				id: "424C6259B88034E8"
-				item: "compactmachines:wall"
-				type: "item"
+				id: "23AC3D3FA8D147F1"
+				type: "checkmark"
 			}]
 			title: "Le' Society"
 			x: -2.0d
@@ -146,11 +147,11 @@
 		{
 			dependencies: ["51C3E42CFDA923A6"]
 			description: ["In addition to simulating societies, simulating the very concept of emergent complexity grants insights into the underlying ticking of reality woven together by &c[REDACTED]&r"]
+			icon: "botania:dandelifeon"
 			id: "7104FAC47450788A"
 			tasks: [{
-				id: "1AB29863DA6D9982"
-				item: "botania:dandelifeon"
-				type: "item"
+				id: "3C808C8E3F38EACE"
+				type: "checkmark"
 			}]
 			title: "Le' Emergent Complexity"
 			x: -1.0d
@@ -167,13 +168,13 @@
 				""
 				"The microscope will engage in a &nmini-game&r and function similarly to the punch card computer from &aTier 3&r"
 				""
-				"When scanning a silicon wafer the output will represent a &n16 x 16 grid&r output as a &dhexadecimal&r. You will get a few pulses pointing to different parts of that grid that need \"cleaning\". Your job will be to apply those signals to a cleaning machine in order to clean the wafer."
+				"When scanning a silicon wafer the output will represent a &n16 x 16 grid&r output as a pair of &dhexadecimals&r. You will get a few pulses pointing to different parts of that grid that need \"cleaning\". Your job will be to apply those signals to a cleaning machine in order to clean the wafer."
 			]
+			icon: "compactmachines:wall"
 			id: "02157688F83852C6"
 			tasks: [{
-				id: "78525CDABC81D2CE"
-				item: "compactmachines:wall"
-				type: "item"
+				id: "5DBC51D8083737A6"
+				type: "checkmark"
 			}]
 			title: "Atomic Force Microscopy"
 			x: -4.0d

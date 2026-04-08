@@ -11,6 +11,7 @@
 		{
 			dependencies: ["472213B0CD3A8117"]
 			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+			hide_until_deps_complete: true
 			icon: "pneumaticcraft:pressure_tube"
 			id: "2F65DDC0C4F6ABD1"
 			rewards: [{
@@ -39,11 +40,11 @@
 				""
 				"Certain recipes will require &cred-zone&r pressures"
 			]
+			icon: "compactmachines:wall"
 			id: "680CE28FDE4CA44D"
 			tasks: [{
-				id: "30D95BB0C05BE9BA"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "314B75B1C61A1C1E"
+				type: "checkmark"
 			}]
 			title: "Changes to Pressure"
 			x: -1.5d
@@ -56,11 +57,11 @@
 				""
 				"Certain fluids will require being sustained &bcold&r or &chot&r to exist"
 			]
+			icon: "compactmachines:wall"
 			id: "77C31178CE83F089"
 			tasks: [{
-				id: "0E458833ACC63E1D"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "7FBFB7CFEF8EDA80"
+				type: "checkmark"
 			}]
 			title: "Temperature"
 			x: -2.0d
@@ -75,11 +76,11 @@
 				""
 				"Pollutions Of The Realms will &6NOT&r be the pollution system. That will be made in house and will be different. &aThis mod exists for the gas-mechanics&r"
 			]
+			icon: "compactmachines:wall"
 			id: "5A408D26C24F3739"
 			tasks: [{
-				id: "19A6881BC3C2E809"
-				item: "compactmachines:solid_wall"
-				type: "item"
+				id: "392D9BE017642A52"
+				type: "checkmark"
 			}]
 			title: "Chemlib \\& Pollution Integration"
 			x: -2.0d
@@ -96,11 +97,11 @@
 				""
 				"&n&bAs an example:&r&r\\nSpraying an item with &elubricant&r will grant it a &6+lubricated&r &etag&r, the Lathe in JEI will have a &d[!]&r which when hovered over will say \"benefits from +lubricated\". The resulting recipe will happen &dfaster&r than usual"
 			]
+			icon: "mekanism:elite_infusing_factory"
 			id: "47CB0697788CF808"
 			tasks: [{
-				id: "57E14A78095D127C"
-				item: "mekanism:elite_infusing_factory"
-				type: "item"
+				id: "474D0AE6625BEA19"
+				type: "checkmark"
 			}]
 			title: "Magic-Box Automation"
 			x: -2.5d
@@ -115,11 +116,11 @@
 				""
 				"Much later on will exist &bexotic crystals&r for physics research"
 			]
+			icon: "mekanism:laser"
 			id: "11263D7D731E3161"
 			tasks: [{
-				id: "35615D760922DE5B"
-				item: "mekanism:laser"
-				type: "item"
+				id: "7EE5FB6956C4C915"
+				type: "checkmark"
 			}]
 			title: "Rainbow Lasers"
 			x: -3.0d
