@@ -1217,7 +1217,6 @@
 				""
 				"&eGranted the experience here is like living in a room where the floor is a sand paper conveyor belt, but do not fear, the &6Tutorial-Tutorial quest line&e will gently beat you instead of un-gently beating you <3&r"
 			]
-			hide_until_deps_complete: true
 			icon: "minecraft:crafting_table"
 			id: "6F181CBD1F58B946"
 			tasks: [{

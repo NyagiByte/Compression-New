@@ -24,12 +24,22 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1E5499E299E417ED"]
+			dependencies: [
+				"1E5499E299E417ED"
+				"2D0F7E4F8A2B0FDE"
+			]
+			description: [
+				"After all that work with massive accelerator rings and &ecountry level energy input&r, you can enjoy your prize of a &cfew dozen antiprotons&r in a magnetic flask."
+				""
+				"No really. All that work was for a few itty bitty particles."
+				""
+				"Scaling beyond this point will take some... outside the box physics."
+			]
+			icon: "mekanism:pellet_antimatter"
 			id: "0D6FCB630A560E67"
 			tasks: [{
-				id: "704329E7D2C823E4"
-				item: "compactmachines:wall"
-				type: "item"
+				id: "5E854377C1C0A17B"
+				type: "checkmark"
 			}]
 			title: "An Itty Bitty Speck Of Antimatter"
 			x: -8.0d
@@ -37,11 +47,24 @@
 		}
 		{
 			dependencies: ["14B46980C5503330"]
+			description: [
+				"The &6LEIR&r part of an accelerator complex will itself reduce beam energy from main rings but wont decelerate particles all the way."
+				""
+				"From &6LEIR&r the beam will be passed through several other systems:"
+				""
+				"&aAD Target&r Producing the antiprotons."
+				""
+				"&dAD Ring&r --> &bELENA&r. To decelerate the antiprotons."
+				""
+				"Here the beam of antiprotons will be moving slowly enough &7(0.1 MeV)&r to be used in research."
+				""
+				"&7(Aegis, ALPHA, ALPHA-g, ASACUSA Cusp, ASACUSA antiprotonic Helium, BASE and GBAR)&r"
+			]
+			icon: "compactmachines:wall"
 			id: "1E5499E299E417ED"
 			tasks: [{
-				id: "784C91E93891E214"
-				item: "compactmachines:wall"
-				type: "item"
+				id: "459D176D4FA4ED8B"
+				type: "checkmark"
 			}]
 			title: "Particle Decelerator"
 			x: -6.5d
@@ -49,11 +72,18 @@
 		}
 		{
 			dependencies: ["1C6F2847B6AA9618"]
+			description: [
+				"A &bProton Synchrotron Booster&r &7(PSB)&r is an accelerator ring designed to accelerate individual protons to near light speed. "
+				""
+				"This machine is primarily used to hook up to larger accelerators, with itself fed by a &dLINAC&r system, as a sort of \"primary speed-up\" but can itself be used for research."
+				""
+				"The main research contribution is when attached to &aIsotope Separator Online DEvice&r &7(ISOLDE)&r extremely pure and exotic isotopes of certain elements can be collected for research or medical applications."
+			]
+			icon: "chemlib:hydrogen"
 			id: "14B46980C5503330"
 			tasks: [{
-				id: "0A7F738D1BB72811"
-				item: "compactmachines:wall"
-				type: "item"
+				id: "4632F43673EA8DE2"
+				type: "checkmark"
 			}]
 			title: "Very Fast Protons"
 			x: -5.0d
@@ -61,11 +91,18 @@
 		}
 		{
 			dependencies: ["4268E94ACC5F5ED8"]
+			description: [
+				"Your first accelerator in the shape of a donut."
+				""
+				"These machines are far more compact than &dLINACs&r which makes them ideal for cramming into certain processes within a factory."
+				""
+				"Cyclotrons are&a primarily used in research&r but find use in medical applications."
+			]
+			icon: "compactmachines:wall"
 			id: "1C6F2847B6AA9618"
 			tasks: [{
-				id: "642036AB6E6253A1"
-				item: "compactmachines:wall"
-				type: "item"
+				id: "4C1F9C6C96117509"
+				type: "checkmark"
 			}]
 			title: "Cyclotron"
 			x: -3.5d
@@ -73,35 +110,65 @@
 		}
 		{
 			dependencies: ["1C6F2847B6AA9618"]
+			description: [
+				"&aFluorine-18&r is a short lived isotope that can be produced from cyclotrons."
+				""
+				"In medical settings some hospitals can have a cyclotron in the basement to produce &afluorine-18&r on demand to attach to glucose and administer to a patient."
+				""
+				"Because things like cancer &7(usually)&r absorb sugar at a higher rate, the &afluorine-18&r is taken in much more than surrounding tissues."
+				""
+				"As the &afluorine-18&r decays positrons are produced and annihilate with electrons to produce gamma radiation. This radiation is then picked up by fancy crystals, downconverted, and recorded as a signal."
+				""
+				"This is how a PET Scan works."
+				""
+				"PET Scanners will improve the effectiveness of diagnosis and treatment of your fancy &6GMO'ed&r creatures."
+			]
+			icon: "compactmachines:wall"
 			id: "2B224FC3EB51A270"
 			tasks: [{
-				id: "795A0E359D2ED235"
-				item: "compactmachines:wall"
-				type: "item"
+				id: "12480F81EF24B3CC"
+				type: "checkmark"
 			}]
-			title: "Nuclear Medicine"
-			x: -4.0d
-			y: 1.0d
+			title: "Extra Spicy Fluorine"
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["14B46980C5503330"]
+			description: [
+				"A sub-system called &6LEIR&r &7(Low Energy Ion Ring)&r can be used between a heavy ion &dLINAC&r and &bPSB&r to accelerate or decelerate heavier atomic nuclei or work for deceleration infrastructure."
+				""
+				"The main use case for &6LEIR&r is to decelerate things produced from the main accelerators. &cAntimatter&r being the major one."
+				""
+				"Accelerated heavy nuclei can also be diverted into target samples to produce &eultra heavy synthetic elements&r."
+			]
+			icon: "compactmachines:wall"
 			id: "2D0F7E4F8A2B0FDE"
 			tasks: [{
-				id: "2874938D9AE34CBB"
-				item: "compactmachines:wall"
-				type: "item"
+				id: "7A620968A43E374B"
+				type: "checkmark"
 			}]
 			title: "Alchemy the hard way"
 			x: -6.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["2D0F7E4F8A2B0FDE"]
+			dependencies: [
+				"2D0F7E4F8A2B0FDE"
+				"4BC4922AEBF81C8F"
+			]
+			description: [
+				"Ultra heavy synthetic elements are produced by colliding one material into another at high speeds and &ehoping for the best.&r"
+				""
+				"This method produces very large nuclei that are at the &acorrect proton count&r but &clack enough neutrons&r. Which is why these elements tend to be &chorrifically unstable&r."
+				""
+				"Elements produced will count almost entirely as research since most will rot away in a single in-game tick."
+			]
+			icon: "chemlib:oganesson"
 			id: "6974826F5E8335CA"
 			tasks: [{
-				id: "32957A5059A41F7C"
-				item: "chemlib:oganesson"
-				type: "item"
+				id: "3E51BBFC642B6392"
+				type: "checkmark"
 			}]
 			title: "Terrible Bombardment Routs"
 			x: -6.5d
@@ -109,11 +176,22 @@
 		}
 		{
 			dependencies: ["2D5173EA12F7B0BF"]
+			description: [
+				"The &dLinear Particle Accelerator&r is your first generation particle accelerator."
+				""
+				"These machines are basically a &abig tube of magnets&r that make very tiny things go very very fast."
+				""
+				"&bTier 7&r begins a trend in the progression where science is not shunted to the end of a tier but instead works together as you progress through the tier."
+				""
+				"&dLINACs&r initially will be involved in particle physics research for the purpose of improving accelerator technology."
+				""
+				"Use-cases for the factory will stem off as &ebyproducts&r to progressing through accelerator technologies, eventually landing at large scale fusion."
+			]
+			icon: "compactmachines:wall"
 			id: "4268E94ACC5F5ED8"
 			tasks: [{
-				id: "4D96603AA8434B7C"
-				item: "compactmachines:wall"
-				type: "item"
+				id: "3393D65D0D6017BD"
+				type: "checkmark"
 			}]
 			title: "LINAC"
 			x: -2.0d
@@ -121,15 +199,196 @@
 		}
 		{
 			dependencies: ["4268E94ACC5F5ED8"]
+			description: [
+				"Slicing up &aMonocrystalline Silicon&r can be quite the pain given the massive material cost per boule."
+				""
+				"It especially hurts when &chalf of the boule gets turned to dust&r by slicing into them."
+				""
+				"By using a LINAC system you can &ddouble&r your raw wafer efficiency by embeding atoms a few layers behind the silicon, allowing a disk to pop off in one piece. &bCutting waste to nearly zero&r."
+			]
+			icon: "compactmachines:wall"
 			id: "41C9A53B03DF4A33"
 			tasks: [{
-				id: "4BF5928DB7C32990"
-				item: "compactmachines:wall"
-				type: "item"
+				id: "34911C2DC1CC5859"
+				type: "checkmark"
 			}]
 			title: "Hyper Efficient Wafers"
 			x: -2.5d
 			y: 1.0d
+		}
+		{
+			dependencies: [
+				"4268E94ACC5F5ED8"
+				"2B224FC3EB51A270"
+			]
+			description: [
+				"&dLINACs&r and &dCyclotrons&r can be used in directed beam therapies to blast cancers to biological dust. "
+				""
+				"The second to last improvement of treatment for creatures."
+			]
+			icon: "compactmachines:wall"
+			id: "07E393F00FE08CB3"
+			tasks: [{
+				id: "270F99C1C2909DBD"
+				type: "checkmark"
+			}]
+			title: "Advanced Medicine"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["14B46980C5503330"]
+			description: [
+				"What good is colliding stuff if you can't observe what is happening?"
+				""
+				"Along the rings you will build &6detector complexes&r, each tuned to produce data if the beam is at the correct &aenergy level, luminosity,&r and &atype of collision&r. The detectors you will build will be based off the real ones at the &dLHC&r, and possibly feature future less realistic ones for the sake of the modpack."
+				"{@pagebreak}"
+				"From the official page:"
+				""
+				""
+				"&6ATLAS &7(A Toroidal LHC ApparatuS)"
+				"&bCMS &7(Compact Muon Solenoid)"
+				"&aLHCb &7(Large Hadron Collider beauty experiment)"
+				"&dALICE &7(A Large Ion Collider Experiment)"
+				"&9TOTEM &7(Total Cross Section, Elastic Scattering and Diffraction Dissociation)"
+				"&eLHCf &7(LHC forward) &6(ATLAS Attachment)"
+				"&cMoEDAL &7(the Monopole and Exotics Detector At the LHC)"
+				"&3FASER &7(Forward Search Experiment)"
+				"&5SND &7(Scattering and Neutrino Detector)"
+				"&2CODEX-b &a(LHCb Attachment)"
+			]
+			icon: "compactmachines:wall"
+			id: "4BC4922AEBF81C8F"
+			tasks: [{
+				id: "3012A3DB8E240A44"
+				type: "checkmark"
+			}]
+			title: "Detectors"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4BC4922AEBF81C8F"]
+			description: [
+				"To increase rate of science, you need to collide &amore stuff&r &6more harder&r &bmore faster&r. "
+				""
+				"Rings inherently have &cspeed limits&r since turning the beam causes it to lose a bit of speed. The only real way around this is having a &dlarger ring&r so this loss is well, less."
+				""
+				"As you progress existing rings will &estop being producers&r and &asimply tie into new larger rings&r, sending each other beams until whatever is the largest ring in your factory does the work."
+			]
+			icon: "compactmachines:wall"
+			id: "6BFED9DFAB88AB58"
+			tasks: [{
+				id: "196CF5F0B0B6EA33"
+				type: "checkmark"
+			}]
+			title: "Rings On Rings"
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0D6FCB630A560E67"
+				"6BFED9DFAB88AB58"
+			]
+			description: [
+				"With sufficient advances in capturing collision products, you now have an interesting chance here to produce a catalyst for nuclear fusion with a beam of &dmuons&r."
+				""
+				"&dMuons&r belong to the same family of electrons &7(Leptons)&r and such can form atoms in a similar way."
+				""
+				"The key difference here is that &cmuons&r are much &eheavier&r than electrons &7(105.66 MeV vs 0.511 MeV)."
+				""
+				"When a muonic atom forms, &7in this case muonic hydrogen&r, the &melectron&r muon cloud is so small that fusion can happen at &aroom temperature&r. The cool sci-fi \"cold fusion\"."
+				""
+				"{@pagebreak}"
+				"Now the problem here is producing a muon takes &cmore energy&r than the amount of fusion events it can trigger before &cdecaying&r."
+				""
+				"Clearly not useable for the entire reaction but with a nice hot beam of muons it can surely be part of the &6ignition&r, and more importantly, breeding of rare isotopes needed to sustain the reaction."
+			]
+			icon: "compactmachines:wall"
+			id: "70419BDF2E69C429"
+			tasks: [{
+				id: "6CDAC42F149AC31F"
+				type: "checkmark"
+			}]
+			title: "The Muon Catalyst"
+			x: -10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41C9A53B03DF4A33"]
+			id: "76657F5544B89CE8"
+			tasks: [{
+				id: "4C512494A6530421"
+				type: "checkmark"
+			}]
+			title: "Superconducting Hell"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"70419BDF2E69C429"
+				"6F1CE2A93AD7E92A"
+			]
+			id: "471FED5AA87D2F3B"
+			tasks: [{
+				id: "368E9101AEC30760"
+				type: "checkmark"
+			}]
+			title: "IGNITION!"
+			x: -11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"76657F5544B89CE8"
+				"4BC4922AEBF81C8F"
+			]
+			id: "2BDBCB8A28CF8049"
+			tasks: [{
+				id: "4DCBD29A2ED6EBFF"
+				type: "checkmark"
+			}]
+			title: "Neutron Absorbers"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2BDBCB8A28CF8049"]
+			id: "4F32E2A23F08BB0E"
+			tasks: [{
+				id: "4B5A706D4633FF26"
+				type: "checkmark"
+			}]
+			title: "Breeding Blanket"
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["76657F5544B89CE8"]
+			id: "22D826F87313D555"
+			tasks: [{
+				id: "236E9144C4B53823"
+				type: "checkmark"
+			}]
+			title: "The Most Insane Magnets"
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"22D826F87313D555"
+				"4F32E2A23F08BB0E"
+			]
+			id: "6F1CE2A93AD7E92A"
+			tasks: [{
+				id: "29A5BE63665AC26E"
+				type: "checkmark"
+			}]
+			title: "Tritium"
+			x: -10.0d
+			y: 3.5d
 		}
 	]
 	subtitle: ["Only 20 years away!"]
