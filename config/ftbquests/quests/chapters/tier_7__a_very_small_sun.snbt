@@ -317,6 +317,18 @@
 		}
 		{
 			dependencies: ["41C9A53B03DF4A33"]
+			description: [
+				"Superconducting materials are able to have &n&6zero&r electrical resistance."
+				""
+				"This is incredibly useful for base infrastructure, but more importantly &bmagnets&r."
+				""
+				"Superconducting magnets are the key to getting your particle accelerators and magnetic confinement upgraded."
+				""
+				"The downside is all known superconductors either need &9cryogenic temperatures&r, or &cinside of planets level pressures&r."
+				""
+				"This means, until you can make some truly &dexotic compounds&r, your magnets will themselves need infrastructure! Yay!"
+			]
+			icon: "pneumaticcraft:magnet_upgrade"
 			id: "76657F5544B89CE8"
 			tasks: [{
 				id: "4C512494A6530421"
@@ -331,6 +343,42 @@
 				"70419BDF2E69C429"
 				"6F1CE2A93AD7E92A"
 			]
+			description: [
+				"After you build your massive toroidal magnet with a &dmuon beam blasting in&r, filled with &atritium and duterium&r, &6liquid lithium flowing along the walls&r, and a really&b hot and angry proton LINAC blasting the chamber&r you can achieve ignition! A little baby star is born."
+				""
+				"Now that was a lot of work, whats it all for?"
+				""
+				"A lot actually."
+				"{@pagebreak}"
+				"For one your &aenergy issues are largely solved&r for a very long time. "
+				""
+				"Your fuel source is &bwater&r now as well, so hopefully you got a few dozen ocean hexes laying around still."
+				"{@pagebreak}"
+				"As for advancing your factory supplies, &6everything before iron on the periodic table is up for grabs&r from base hydrogen. "
+				""
+				"Heavier elements past hydrogen will need higher temperatures which means better confinement tech, heating systems, and beefier LINAC ignition. But that will be a self contained improvement loop with science."
+				""
+				"All of these processes will be &apower positive&r, the most energetic being on the hydrogen side, &eslowly decreasing&r until manganese. (one before iron)."
+				"{@pagebreak}"
+				"Iron fusion and above will be &cpower negative&r."
+				""
+				"Reliably the heaviest thing that can be produced at huge cost will be Zirconium."
+				"{@pagebreak}"
+				"Beyond that point you'll need proper &cneutron star conditions&r to get much else done."
+				""
+				"But ok we have the oreline, &n&lwhy is this useful&r?"
+				"{@pagebreak}"
+				"The utility here is the fusion reactions will let you make ex-nihilo&6 specific isotopes of elements&r, which will be needed for &abombardment experiments&r and &bconducting more research&r."
+				""
+				"What research?"
+				"{@pagebreak}"
+				"&c&l&oBombs&r"
+				""
+				"Full proper momentary star, country cracking, hydrogen bombs."
+				""
+				"I mean, I think it's about time we at least tried to chip some of that &5Flake&r. Good place to start I recon."
+			]
+			icon: "minecraft:nether_star"
 			id: "471FED5AA87D2F3B"
 			tasks: [{
 				id: "368E9101AEC30760"
@@ -345,6 +393,16 @@
 				"76657F5544B89CE8"
 				"4BC4922AEBF81C8F"
 			]
+			description: [
+				"Neutron absorbing techology is already used in &dTier 5&r but was mostly about controlling the fission reactions and not really about capturing the energy from them directly outside of boiling some water."
+				""
+				"Here catching the &6ultra hot neutrons&r from fusion will be how you actually get energy out of the system. "
+				""
+				"This also means the internal blanket of the reactor must be resistant to &eneutron flux&r while also allowing neutrons to either pass through it, or itself absorb them."
+				"{@pagebreak}"
+				"Another issue to consider is that a large chunk of the material for the blanket will become &cactivated&r overtime and will need to be replaced, introducing the need to basically rip your reactor apart every once in a while to gut and replace the blanket."
+			]
+			icon: "compactmachines:wall"
 			id: "2BDBCB8A28CF8049"
 			tasks: [{
 				id: "4DCBD29A2ED6EBFF"
@@ -356,6 +414,16 @@
 		}
 		{
 			dependencies: ["2BDBCB8A28CF8049"]
+			description: [
+				"The issue of the blanket leads into a fun solution. &6Liquid Lithium&r!"
+				""
+				"By having the walls of the reactor internally be &aswirling liquid lithium&r you can avoid the issue of sputtering from tungsten while also serving as a &bbreeding medium&r."
+				""
+				"When a neutron slams into the lithium it will spit out &btritium&r, which is fusion fuel."
+				""
+				"Naturally keeping liquid lithium swirling around the walls while &cseveral hundred million degree plasma&r sits centimeters away wont be trivial but, thats \"just\" an engineering problem."
+			]
+			icon: "chemlib:lithium"
 			id: "4F32E2A23F08BB0E"
 			tasks: [{
 				id: "4B5A706D4633FF26"
@@ -367,6 +435,14 @@
 		}
 		{
 			dependencies: ["76657F5544B89CE8"]
+			description: [
+				"Superconducting Magnets will need &9liquid nitrogen or colder&r to exist in-world next to it in order to function."
+				""
+				"Some systems will have &cliquid helium&r as a hard requirement."
+				""
+				"This is a mechanic introduced all the way back in &6Tier 2&r but here will be the true large scale construction and maintenence of said mechanic. Enjoy!"
+			]
+			icon: "chemlib:helium"
 			id: "22D826F87313D555"
 			tasks: [{
 				id: "236E9144C4B53823"
@@ -381,6 +457,18 @@
 				"22D826F87313D555"
 				"4F32E2A23F08BB0E"
 			]
+			description: [
+				"Outside of exotic liquid blankets, tritium can be produced through &aneutron bombardment of deuterium&r."
+				""
+				"Which basically translates to making your old nuclear reactors from tier 5 &bextra wet&r with heavy water."
+				""
+				"This process is very inefficient but will be needed to get your initial supply."
+				""
+				"After that the liquid could probably be swapped with &esomething else&r to make the setup still useful. "
+				""
+				"Probably a good idea to have some tritium always produced and stored if your reactor ever shits itself so badly you don't notice it until all your tritium decays away. &6Hint Hint&r."
+			]
+			icon: "compactmachines:wall"
 			id: "6F1CE2A93AD7E92A"
 			tasks: [{
 				id: "29A5BE63665AC26E"
