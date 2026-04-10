@@ -342,6 +342,8 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
+				"&6[W] To Ponder!&r"
+				""
 				"The &dpattern schematic&r is a specialized version of the &bschematic&r"
 				""
 				"After whichever method used to place the blocks down reaches the edge of the defined area, &ait will wrap around and start building it again&r!"
@@ -399,6 +401,8 @@
 		{
 			dependencies: ["08D3D407B57B7B3B"]
 			description: [
+				"&6[W] To Ponder!&r"
+				""
 				"&6Trains&r are great for long range transportation and logistics."
 				"&eBut what about normal minecart tracks?&r"
 				""

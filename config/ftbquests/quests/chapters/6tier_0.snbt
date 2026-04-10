@@ -27,6 +27,7 @@
 			description: ["As a note, the tutorials won't go over how to do create automations that the internal ponder system is able to show. These tabs are for pack specific choke points"]
 			icon: "create:goggles"
 			id: "18F5C12EAF8B07CB"
+			subtitle: "Ponder the orb"
 			tasks: [{
 				id: "70AF4FB1D571ED33"
 				title: "[W] To Ponder!"
@@ -99,6 +100,7 @@
 			]
 			icon: "botania:overgrowth_seed"
 			id: "4BE7C54B1F7E2DBB"
+			subtitle: "More More MORE"
 			tasks: [{
 				id: "34299759064CD574"
 				title: "And also, dont forget, scale!"
@@ -117,6 +119,7 @@
 			]
 			icon: "biomeswevegone:willow_sapling"
 			id: "21625928069FF7FA"
+			subtitle: "Quark Trumpet trees are nice for this"
 			tasks: [{
 				id: "1CC98EA7493C4FF2"
 				title: "Or do, I'm not your parent"
@@ -131,9 +134,16 @@
 				"7182388FCC361CB0"
 				"322E8B40B0197798"
 			]
-			description: ["Waiting for sugarcane to grow early game can be rather annoying and soft lock progression on servers. So early game paper just needs bark now! &bI'd recommend doing this in batches of 63 at a time&r"]
+			description: [
+				"Waiting for sugarcane to grow early game can be rather annoying and soft lock progression on servers. So early game paper just needs bark now! &bI'd recommend doing this in batches of 63 at a time&r."
+				"{@pagebreak}"
+				"The cutting board can also be &aautomated&r with a &ndispenser&r:"
+				""
+				"{image:compression:textures/quests/cutting_board_example.png width:154 height:81 align:center}"
+			]
 			icon: "farmersdelight:tree_bark"
 			id: "1E28F7EFBEC2EC36"
+			subtitle: "Needs a cutting board"
 			tasks: [{
 				id: "7FA2D464D11AA7F3"
 				title: "haha, thats what a dog says, bark, hah"
@@ -151,6 +161,7 @@
 			description: ["Furnace taking forever? Have you considered simply making &dmore&r?"]
 			icon: "minecraft:furnace"
 			id: "27A36AE6319647D5"
+			subtitle: "Minecraft has this magical thing where you can place more than 1 thing down, it's awesome"
 			tasks: [{
 				id: "70CA2F3BB925A06C"
 				title: "Also dont forget the tree farm for charcoal"
@@ -165,6 +176,7 @@
 			description: ["Paper demand at this point is extremely low and only needed for sand paper. &bA stack or two of paper should last very comfortably up until you can automate it"]
 			icon: "minecraft:paper"
 			id: "0DBAF3F8573D1C7D"
+			subtitle: "Full of splinters"
 			tasks: [{
 				id: "707FE4FA1714CEDD"
 				title: "Fold it into a paper plane, no wait dont throw it at those two-"
@@ -179,6 +191,7 @@
 			description: ["Living rock needs twice smelted cobble? Guess it's time to twice up your furnaces and twice up your cobble ;)"]
 			icon: "minecraft:smooth_stone"
 			id: "036E9DF57584653C"
+			subtitle: "Just use 2 furnaces and some hoppers at this stage"
 			tasks: [{
 				id: "1743F4C83B6774BC"
 				title: "Just make like, a lot at once ok?"
@@ -205,6 +218,7 @@
 				}
 			}
 			id: "02B7D7FBFBAF0412"
+			subtitle: "You can also crush the AIOT"
 			tasks: [{
 				id: "55EB901377A47920"
 				title: "This shit look like the battle pass"
@@ -225,6 +239,7 @@
 				}
 			}
 			id: "342544B909351001"
+			subtitle: "It's buffed here!"
 			tasks: [{
 				id: "2445212A48348148"
 				title: "Sanding blocks really messes up the animation lmao"
@@ -236,9 +251,14 @@
 		}
 		{
 			dependencies: ["342544B909351001"]
-			description: ["A singular sand paper is able to yield about &e32&r polished stones. I'd recommend making &ba stack or two&r of &dPolished Livisite&r at a time"]
+			description: [
+				"A singular sand paper is able to yield about &e32&r polished stones. "
+				""
+				"I'd recommend making &ba stack or two&r of &dPolished Livisite&r at a time"
+			]
 			icon: "botania:polished_livingrock"
 			id: "21EBC179B83DE39D"
+			subtitle: "Shmove Stone"
 			tasks: [{
 				id: "5722504F0BC5FACB"
 				title: "you could probably curling stone this"
@@ -259,6 +279,7 @@
 			]
 			icon: "minecraft:iron_ingot"
 			id: "1800AA593EB0F020"
+			subtitle: "Isn't It Iron Ing- The pun doesn't work the same way never mind"
 			tasks: [{
 				id: "33ED2F956DA3DD2B"
 				title: "A star killer.."
@@ -276,12 +297,17 @@
 				"342544B909351001"
 			]
 			description: [
-				"&bEtched Living Wood!&r While the raw components are very cheap it is rather microcrafty. To aid in early game progression it is recommended that these are made in &ebulk&r and the components made in &ebulk&r. &aWhat is \"in bulk?\"&r, basically instead of crafting enough for 1 item, you craft enough for a stack to have on hand"
+				"&bEtched Living Wood!&r While the raw components are very cheap it is rather microcrafty. "
 				""
+				"To aid in early game progression it is recommended that these are made in &ebulk&r and the components made in &ebulk&r. "
+				""
+				"&aWhat is \"in bulk?\"&r, basically instead of crafting enough for 1 item, you craft enough for a stack to have on hand"
+				"{@pagebreak}"
 				"If you are looking to speedrun towards &d24 mechanical assemblers&r &e(being the bare minimum to manually use)&r, that will require &b14 etched living wood&r assuming &czero infrastructure or automation&r so it would be smart to aim for about a stack especially considering how useful &agearboxes&r are"
 			]
 			icon: "nyagibits_bytes:etched_living_wood"
 			id: "07342BD3CA400AA9"
+			subtitle: "It has 2 types of living wood look closely"
 			tasks: [{
 				id: "0B188CF97EFAF1A3"
 				title: "Wood, but uh, woodier"
@@ -296,6 +322,7 @@
 			description: ["The All Powerful &bAndesite Casing&r. This can make all sorts of machines to begin your automation journey. Also like 80% of these will become &egear boxes&r so just get mentally ready for that"]
 			icon: "create:andesite_casing"
 			id: "1D8A454B0BE4AF89"
+			subtitle: "Life becomes easier if you just make as many as you can tolerate making"
 			tasks: [{
 				id: "4B62995520C52A92"
 				title: "I'm not joking about the gearboxes"
@@ -318,6 +345,7 @@
 			]
 			icon: "create:mechanical_press"
 			id: "05C0FBBDDC62201D"
+			subtitle: "Smoosh, oops your fingers are gone"
 			tasks: [{
 				id: "283C706FF609A978"
 				title: "Comes with a liveleak watermark"
@@ -336,6 +364,7 @@
 			]
 			icon: "minecraft:bucket"
 			id: "52DEE1B4C6CC1A19"
+			subtitle: "Dear God... There's More... No..."
 			tasks: [{
 				id: "3F04A8A215AEB90B"
 				title: "Dear God.. There's More... Noooo"
@@ -366,6 +395,7 @@
 			]
 			icon: "minecraft:dripstone_block"
 			id: "74717735BC45A113"
+			subtitle: "Blaze-cake loops are the other option"
 			tasks: [{
 				id: "6F8A948EEDB18F19"
 				title: "Finding these can take a bit, mark ore boulders on the way"
@@ -385,6 +415,7 @@
 			]
 			icon: "create:mechanical_drill"
 			id: "6FCB5BABEA5C0B68"
+			subtitle: "AUTOMATE, MAKE THAT COBBLE GEN. WE ADDED A PONDER ON COBBLESTONE"
 			tasks: [{
 				id: "19FB7DD9AB8C857B"
 				title: "We'll get to the cluster in no time Δ"
@@ -399,6 +430,7 @@
 			description: ["Chutes are like hoppers, but way faster straight dowards. They cant output to the side unless you use &afunnels&r or &aa vanilla hopper&r but they do have the upside of being able to send items vertically with the use of an &bencased fan&r. Do Note: &dThe direction the fan spins matters so double check the fan is pushing instead of sucking&r"]
 			icon: "create:chute"
 			id: "6E61C014A48DD33A"
+			subtitle: "Can also be right clicked with a wrench to create a window"
 			tasks: [{
 				id: "4F159802ED0D4F8F"
 				title: "Falling without style"
@@ -414,8 +446,10 @@
 				"74717735BC45A113"
 			]
 			description: [
-				"For anyone that hasn't been graced by the agony of accidentally making obsidian on a skyblock &ehere is a fairly simple setup for a &6cobblestone generator&r that will work:&r"
+				"&6[W] To Ponder!&r"
 				""
+				"For anyone that hasn't been graced by the agony of accidentally making obsidian on a skyblock &ehere is a fairly simple setup for a &6cobblestone generator&r that will work:&r"
+				"{@pagebreak}"
 				"&cDo Note:&r The setup written below is to be &bvisualized being vertical&r, 3 blocks tall, so the drill is up top and the hopper is below"
 				""
 				"&c[L] - Lava Source Block&r"
@@ -433,6 +467,7 @@
 			]
 			icon: "minecraft:cobblestone"
 			id: "2E96FA6479D27C27"
+			subtitle: "Don't procrastinate making this, make the gen, make it, MAKE IT"
 			tasks: [{
 				id: "4E0429AA56BFE6E8"
 				title: "Now just do this forever"
@@ -450,15 +485,19 @@
 				"Good news! This is a &dskill issue&r, and the solution is &bEncased Fans&r!"
 				""
 				"Encased fans can &eentirely replace&r the use of &efurnaces and smokers&r with additional functionality."
-				""
+				"{@pagebreak}"
 				"By placing &bWater, &cLava,&r or &6Fire&r directly infront of an encased fan pushing air forward, that gust of wind can &bwash, &cblast,&r or &6smoke&r items dropped in front of it."
 				""
 				"The amount you drop at once does affect the processing times, but the effect is fairly small"
-				""
+				"{@pagebreak}"
 				"Much like mechanical presses &adepots&r work here too, but outside of manual use, the &breal automation solution&r is to have one blow over a long belt moving towards it &6slowly&r to ensure the items process"
+				"{@pagebreak}"
+				""
+				"{image:compression:textures/quests/fan_example.png width:137 height:77 align:center}"
 			]
 			icon: "create:encased_fan"
 			id: "285BEA3F3B3B139E"
+			subtitle: "No more furnaces!"
 			tasks: [{
 				id: "78831C9D99160BCF"
 				title: "Make sure it is blowing!"
@@ -481,6 +520,7 @@
 			]
 			icon: "minecraft:water_bucket"
 			id: "5E49A44D84677908"
+			subtitle: "Blub Blub Blub"
 			tasks: [{
 				id: "384A468811ECD1E6"
 				title: "Splish Splash I'm Takin' A Bath"
@@ -505,6 +545,7 @@
 			]
 			icon: "minecraft:lava_bucket"
 			id: "16D01481957D30C3"
+			subtitle: "Super blast furnace"
 			tasks: [{
 				id: "79C3C6E1CEBEA4C3"
 				title: "Splish Spla- OW THATS HOT"
@@ -536,6 +577,7 @@
 				}
 			}
 			id: "4C1E98828193DC20"
+			subtitle: "Super smoker"
 			tasks: [{
 				id: "045B99E423E5691A"
 				title: "Does.. This count as a flame-thrower?"
@@ -548,6 +590,8 @@
 		{
 			dependencies: ["16D01481957D30C3"]
 			description: [
+				"&6[W] To Ponder!&r"
+				""
 				"&dMechanical Saws&r are rad and important for "
 				"&es t r e t c h i n g&r your resources further!"
 				""
@@ -556,10 +600,11 @@
 				""
 				"&bLivisite processed&r into shafts will now do it at a rate of 1 alloy : &d6 shafts&r instead of 1 : 4"
 				""
-				"Saws can also &achop down entire trees&r when placed on some sort of mechanical contraption! &d[w] To Ponder&r for more info "
+				"Saws can also &achop down entire trees&r when placed on some sort of mechanical contraption!"
 			]
 			icon: "create:mechanical_saw"
 			id: "58FEDD50B927AA01"
+			subtitle: "Try not to send the splinters into your eyeballs"
 			tasks: [{
 				id: "24ECD0732076BA15"
 				title: "Doctors hate this 1 weird trick to loosing 70 pounds (your legs are gone)"
@@ -572,12 +617,14 @@
 		{
 			dependencies: ["16D01481957D30C3"]
 			description: [
-				"The &dMillstone!&r This small machine is able to grind up various materials into their powders. Some &emetals&r will gain a &bslight increased yield&r from passing them through."
+				"&6[W] To Ponder!&r"
 				""
-				"However the real power this grants at this stage of the game is allowing you to create &agravel&r"
+				"The &dMillstone!&r This small machine is able to grind up various materials into their powders. Some &emetals&r will gain a &bslight increased yield&r from passing them through."
+				"{@pagebreak}"
+				"The real power this grants at this stage of the game is allowing you to create &agravel&r"
 				""
 				"With automatic gravel you can pass it through once more to gain &aflint&r. With both of these components you are &e2/3rds of the way to a much &6faster&r &eandesite production"
-				""
+				"{@pagebreak}"
 				"The &dmillstone&r can also boost the &bdye&r yields of most plants and let you source more crops from &bmixed seeds&r"
 				""
 				"&6Note:&r"
@@ -585,6 +632,7 @@
 			]
 			icon: "create:millstone"
 			id: "4181778D139B2C3C"
+			subtitle: "What do you mean I can't make bread yet?"
 			tasks: [{
 				id: "474BC7B82491247E"
 				title: "Why are there so many finger crushing machines"
@@ -597,14 +645,17 @@
 		{
 			dependencies: ["16D01481957D30C3"]
 			description: [
+				"&6[W] To Ponder!&r"
+				""
 				"The &bMechanical Harvester&r!"
 				""
 				"When placed on a &emoving contraption&r these will collect crops the harvester collides with and automagically replants said crop"
-				""
+				"{@pagebreak}"
 				"The most immediately relevant crops to harvest will be &akelp&r and &aindustrial hemp&r but if you are feeling extra ambitious some other relevant crops include &ewheat, cabbage, tomatoes, flax, carrots, and potatoes&r"
 			]
 			icon: "create:mechanical_harvester"
 			id: "1EFBCCBE696089FD"
+			subtitle: "Crop circle time"
 			tasks: [{
 				id: "1D654742A42A5381"
 				title: "Stardew Tractor Mod ahh"
@@ -623,6 +674,7 @@
 			]
 			icon: "minecraft:dried_kelp"
 			id: "5D9FCC6B40A02869"
+			subtitle: "Makilishious"
 			tasks: [{
 				id: "4EF7DBF155582209"
 				title: "Mmmmm Kelp Shake"
@@ -641,6 +693,7 @@
 			]
 			icon: "minecraft:iron_nugget"
 			id: "08C44A71E0B4E6B7"
+			subtitle: "Or maybe you are doing a weird challenge run I dunno"
 			tasks: [{
 				id: "72EB68C616BBE390"
 				title: "Trust me this is not worth it - Nyagi"
@@ -663,11 +716,12 @@
 				"They can &emove items&r around and even &etransfer rotational force&r"
 				""
 				"Their behaviors with certain loading/unloading components can be &esomewhat specific&r so make sure to consult the [w] ponder to see specifics"
-				""
+				"{@pagebreak}"
 				"&dNote&r: Before you go off to try to make belts get a good &avine&r farm running. &bMechanical harvesters&r are &cunable&r to collect vines. &bDeployers with shears&r are able to do so, but thats &cunavailable at this stage&r. &aEarlier methods are possible&r with some out of the box thinking"
 			]
 			icon: "create:belt_connector"
 			id: "224ED8218767CAAA"
+			subtitle: "Potato Kenishes"
 			tasks: [{
 				id: "5720C480753ED402"
 				title: "We SHMOVIN'"
@@ -712,6 +766,7 @@
 			]
 			icon: "immersiveengineering:hemp_fiber"
 			id: "632B5FB5A7EDC8F3"
+			subtitle: "Seeing nightmare fractals"
 			tasks: [{
 				id: "527F869F3EA1D369"
 				title: "sadly not the fun type of hemp"
@@ -745,21 +800,33 @@
 				"It's Gravlin' time."
 				""
 				"Hook up your &eautomatic cobblestone farm&r to your new &amillstones&r and bask in your endless gravel."
+				"{@pagebreak}"
+				"As for the &bflint&r you can feed your new gravel into &aanother millstone&r to produce the flint. "
 				""
-				"As for the &bflint&r you can feed your new gravel into &aanother millstone&r to produce the flint. While that does work to supply flint, this gets into a &6new concept&r that will be important to ensuring your factory hums along smoothly and avoid falling into &cpitfalls&r players &dnew to automation styled packs&r tend to run into"
+				"While that does work to supply flint, this gets into a &6new concept&r that will be important to ensuring your factory hums along smoothly and avoid falling into &cpitfalls&r players &dnew to automation styled packs&r tend to run into."
+				"{@pagebreak}"
+				"By feeding your gravel generator into a flint generator you introduce a &cbottleneck&r into your system. "
 				""
-				"By feeding your gravel generator into a flint generator you introduce a &cbottleneck&r into your system. If something ends up eating flint &etoo quickly&r other systems that rely on gravel will themselves be starved. "
+				"If something ends up eating flint &etoo quickly&r other systems that rely on gravel will themselves be starved. "
 				""
-				"This can be solved by simply &6scaling up&r your gravel production to fully saturate your flint production. Or you could design &bparallelized&r systems"
+				"This can be solved by simply &6scaling up&r your gravel production to fully saturate your flint production. "
 				""
-				"In short when you design systems to be &bparallelized&r you are treating them as self contained units. Why feed from the gravel maker to the flint maker when you can simply &6give the flint maker it's own gravel maker&r? That way both lines can produce without impacting eachother"
+				"Or you could design &b&l&n&oparallelized&r systems"
+				"{@pagebreak}"
+				"In short when you design systems to be &bparallelized&r you are treating them as self contained units. "
 				""
-				"This design concept for factories will help ensure &cbottlenecks&r are a lot &aeasier to resolve&r for very basic material production and will make for &asmoother expansions&r"
+				"Why feed from the gravel maker to the flint maker when you can simply &6give the flint maker &n&l&oits own gravel maker&r? "
 				""
-				"Anyways thats probably the longest quest you've seen talking about making gravel, go on now, make it"
+				"That way both lines can produce without impacting each other!"
+				""
+				"{@pagebreak}"
+				"This design concept for factories will help ensure &cbottlenecks&r are a lot &aeasier to resolve&r for very basic material production and will make for &asmoother expansions&r."
+				""
+				"Anyways thats probably the longest quest you've seen talking about making gravel, go on now, make it."
 			]
 			icon: "minecraft:gravel"
 			id: "02755BE7FF325275"
+			subtitle: "Designing good modules"
 			tasks: [{
 				id: "4D5C797E2A1043D6"
 				title: "Perfect to fall off your bike over at high speeds"
@@ -778,6 +845,7 @@
 			]
 			icon: "create:wrench"
 			id: "544FEAEF78746D88"
+			subtitle: "Please make this asap"
 			tasks: [{
 				id: "1BB1402E6EC90A66"
 				title: "I already lost the 10mm socket dammit"
@@ -792,10 +860,27 @@
 			description: [
 				"You very likely don't have access to a &eBucket&r yet so just cram this &bwater wheel&r literally anywhere you can with some flowing water."
 				""
-				"These can be placed &dvertically&r or &dhorizontally&r and the amount of flowing water does not actually influence the &astress unit (SU)&r output rate, so however looks nicer to you is perfectly fine"
+				"These can be placed &dvertically&r or &dhorizontally&r and the amount of flowing water does not actually influence the &astress unit (SU)&r output rate, so however looks nicer to you is perfectly fine."
+				""
+				"Also! &aSU output rates&r are massively buffed &7(see next page)&r."
+				"{@pagebreak}"
+				"&cOld&r VS &bNew&r Values:"
+				""
+				"&lWater Wheel&r"
+				"&c32&r → &b&n512&r"
+				""
+				"&lLarge Water Wheel&r"
+				"&c512&r → &b&n8,192&r"
+				""
+				"&lWindmill &7(Max)&r"
+				"&c8,192&r → &b&n131,072&r"
+				""
+				"&lSteam Engine&r"
+				"&c4,096&r → &b&n~4 Million&r"
 			]
 			icon: "create:water_wheel"
 			id: "3E7BB1B6448D05B6"
+			subtitle: "Giga jank setup"
 			tasks: [{
 				id: "6EC96F33073D4A59"
 				title: "There is also a larger one"
@@ -808,14 +893,15 @@
 		{
 			dependencies: ["4C1E98828193DC20"]
 			description: [
-				"While &bQuartz boulders&r have high amounts of quartz themselves in addition to multiple unique items, sometimes you just need regular ol' quartz to get those unpolished rose quartz."
-				""
+				"While &bQuartz boulders&r have high amounts of quartz themselves in addition to multiple unique items, sometimes you just need regular ol' quartz to craft &6rose quartz&r."
+				"{@pagebreak}"
 				"Thankfully if you already have found either &esoul sand or soul soil&r they can be converted into each other, and more importantly, used in an &aencased fan&r in place of &cnetherrack&r to give it a &3soul fire&r instead."
 				""
 				"This allows for \"haunting\" recipes, sand can now become soul sand and washed into &dquartz"
 			]
 			icon: "minecraft:soul_soil"
 			id: "6CC15C25470A8A6F"
+			subtitle: "The souls of the damned packed into soil is load bearing for the factory"
 			tasks: [{
 				id: "7E2E7A48F908B7F8"
 				title: "The souls feed the machines!"
@@ -839,6 +925,7 @@
 			]
 			icon: "minecraft:quartz"
 			id: "168B98C3C815C316"
+			subtitle: "Mmmmineral!"
 			tasks: [{
 				id: "2388905353082287"
 				title: "It also gives gold i guess"
@@ -865,6 +952,7 @@
 			]
 			icon: "minecraft:andesite"
 			id: "60A789A9FD9C1289"
+			subtitle: "Ratios are important"
 			tasks: [{
 				id: "2E66033937FAB433"
 				title: "I've always wanted to ratio a rock <3 18.7k"
@@ -1078,6 +1166,8 @@
 		{
 			dependencies: ["6E61C014A48DD33A"]
 			description: [
+				"&6[W] To Ponder!&r"
+				""
 				"Botania is a tech mod, so it has a...well it can be a storage system, but it's more of a &ologistics&r system."
 				"This is corporea, a system usually ignored by most due to requiring lategame resources. Not here, it is available very early on."
 				""
@@ -1088,6 +1178,7 @@
 			]
 			icon: "botania:corporea_spark"
 			id: "1BDC7381D6607E31"
+			subtitle: "Massive retier?!"
 			tasks: [{
 				id: "7F1B5A8DA51F3038"
 				title: "Zappy"
@@ -1100,40 +1191,48 @@
 		{
 			dependencies: ["1BDC7381D6607E31"]
 			description: [
-				"To connect to each other, two corporea sparks must be within 8 blocks of eachother."
+				"&6[W] To Ponder!&r"
 				""
-				"To place sparks just to bridge a gap, you can use Corporea blocks and extend the network without needlessly adding more inventories."
+				"To connect to each other, &ntwo&r corporea sparks must be within &a8 blocks&r of eachother."
 				""
-				"They're also perfect to place the master corporea spark on, since it can't access an inventory anyway, but is subject to the same placement restrictions."
+				"To place sparks just to bridge a gap, you can use Corporea blocks and &bextend the network&r without needlessly adding more inventories."
+				"{@pagebreak}"
+				"They're also perfect to place the &dmaster corporea spark&r on, since it can't access an inventory anyway, but is subject to the &esame placement restrictions&r."
 				""
 				"They also just look cool."
 			]
 			icon: "botania:corporea_block"
 			id: "785652262D0F8C91"
+			subtitle: "Rock but glittery"
 			tasks: [{
 				id: "651A918E5FCB1D7C"
-				title: "Sparkly Block"
+				title: "Ourple"
 				type: "checkmark"
 			}]
+			title: "Sparkly Block"
 			x: 7.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["785652262D0F8C91"]
 			description: [
-				"The Corporea Index is the main method for a player to withdraw items from a corporea network."
+				"&6[W] To Ponder!&r"
 				""
-				"To use it, stand near it, and start talking (send a chat message)"
-				"If the index is ready to use, you will see a circle of sparks near it and a message while the chat box is open."
+				"The &dCorporea Index&r is the main method for a player to withdraw items from a corporea network."
 				""
-				"Instead of being sent out to the world, your message will be interpreted as a request and the item will be withdrawn from a "
-				"connected inventory and pop out of the index."
+				"To use it, &astand near it&r, and &astart talking&r &7(send a chat message)&r"
+				"If the index is ready to use, you will see a &bcircle of sparks&r near it and a message while the chat box is open."
+				"{@pagebreak}"
+				"Instead of being sent out to the world, your message will be &einterpreted&r as a request and the item will be withdrawn from a connected inventory and pop out of the index."
 				""
-				"Example: Saying \"3 iron ingots\" will pop 3 iron ingots from the network."
+				"&nExample&r: Saying \"&d3 iron ingots&r\" will pop &d3 iron ingots&r from the network."
 				"The full possibilities of requests are quite complex, so it's recommended to consult the lexica botania for more info."
+				"{@pagebreak}"
+				"There is also special interactions with &6REI&r search! Make sure to check out &l&dAutomation and You! &f> &bThe Factory Must Grow&r"
 			]
 			icon: "botania:corporea_index"
 			id: "616464677ADE6DB4"
+			subtitle: "Ponder the or- uh, thingy"
 			tasks: [{
 				id: "09D40251E15BA879"
 				title: "Hey! Gimmi!"
@@ -1146,65 +1245,80 @@
 		{
 			dependencies: ["616464677ADE6DB4"]
 			description: [
-				"The corporea funnel is your main method of automatically transporting items with the corporea network."
+				"&6[W] To Ponder!&r"
 				""
-				"To use it, place it over an inventory, then place a corporea spark on it to connect it to the network."
+				"The &dCorporea Funnel&r is your main method of automatically transporting items with the corporea network."
 				""
-				"Place an item frame on the funnel, then put the item to request in the frame. Rotate it to select the amount."
+				"To use it, place it over an inventory, then place a &bcorporea spark&r on it to connect it to the network."
+				"{@pagebreak}"
+				"Place an &6item frame&r on the funnel, then put the item to request in the frame. "
 				""
-				"Amounts: 1, 2, 4, 8, 16, 32, 48, 64"
+				"Rotate it to select the amount:"
 				""
-				"Finally, give it a redstone pulse to request the item and put it in the inventory underneath"
+				"&lAmounts:&r 1, 2, 4, 8, 16, 32, 48, 64"
+				""
+				"Finally, give it a &credstone pulse&r to request the item and put it in the &ainventory underneath&r or, &7if there is a solid block under the funnel and an inventory below that&r, into that inventory through the block."
 			]
 			icon: "botania:corporea_funnel"
 			id: "1829036099806630"
+			subtitle: "Who even needs ae2?"
 			tasks: [{
 				id: "72C76F78F54F4570"
-				title: "Gimmi! But over here"
+				title: "Telepathic Yoink"
 				type: "checkmark"
 			}]
+			title: "Gimmi! But over here"
 			x: 6.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["616464677ADE6DB4"]
 			description: [
-				"The Corporea Interceptor emits a redstone pulse whenever a corporea request cannot be fulfilled."
-				"Placing an item frame on it will filter its action to just the item within the frame."
+				"&6[W] To Ponder!&r"
 				""
-				"The redstone pulse can be used for anything, but the intended use is to activate a system that crafts the item."
+				"The Corporea Interceptor emits a &credstone pulse&r whenever a corporea request cannot be fulfilled."
+				""
+				"Placing an &6item frame&r on it will filter its action to just the item within the frame."
+				""
+				"The &credstone pulse&r can be used for anything, but the intended use is to activate a system that crafts the item."
 				""
 				"Deceptively useful for automation."
 			]
 			icon: "botania:corporea_interceptor"
 			id: "4FDDF94EC02A0D02"
+			subtitle: "Physically making your recipe tree"
 			tasks: [{
 				id: "21B47D2ED5678E91"
-				title: "Let me get that for you"
+				title: "Autocrafting! Just more painful!"
 				type: "checkmark"
 			}]
+			title: "Let me get that for you"
 			x: 7.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["4FDDF94EC02A0D02"]
 			description: [
-				"The Interceptor is useful for automation, but it doesn't handle fulfulling the original request once the item has been resupplied."
+				"&6[W] To Ponder!&r"
 				""
-				"That task does to the Corporea Retainer."
-				"Place it next to a Corporea Interceptor. No need to place a spark on the retainer."
+				"The &dInterceptor&r is useful for automation, but it doesn't handle fulfulling the original request once the item has been resupplied."
 				""
-				"When the interceptor activates, the retainer will remember what the original request was. Sending a redstone pulse to it will re-trigger the original request, from wherever in the network it came from, be it a funnel, index or cube."
+				"That task goes to the Corporea Retainer."
+				"Place it &nnext to&r a Corporea Interceptor. No need to place a spark on the retainer."
+				"{@pagebreak}"
+				"When the interceptor activates, the retainer will &aremember&r what the original request was. Sending a &credstone pulse&r to it will &bre-trigger the original request&r, from wherever in the network it came from, be it a funnel, index or cube."
 				""
 				"In other words, its purpose is to signal to the network when an item has been resupplied and to try to fulfill the request again."
 			]
 			icon: "botania:corporea_retainer"
 			id: "56BAD950091D55D1"
+			subtitle: "I forgor"
 			tasks: [{
 				id: "1B6CBF03963F7EF1"
-				title: "Hold up where does this go again?"
+				title: "I remember now"
 				type: "checkmark"
 			}]
+			title: "Hold up where does this go again?"
 			x: 7.5d
 			y: 5.0d
 		}
@@ -1219,6 +1333,7 @@
 			]
 			icon: "minecraft:crafting_table"
 			id: "6F181CBD1F58B946"
+			subtitle: "Check REI!!!!"
 			tasks: [{
 				id: "567009DA0DF35843"
 				title: "0.1.0, how time flies"
@@ -1239,6 +1354,7 @@
 			]
 			icon: "minecraft:cobblestone"
 			id: "10A6343D18D3A913"
+			subtitle: "Grass blocks not regular grass"
 			tasks: [{
 				id: "720B2AE71E75F8CC"
 				title: "Using an auto clicker for this is incredibly loud"
@@ -1259,6 +1375,7 @@
 			]
 			icon: "botania:apothecary_default"
 			id: "56B11633B6E55BF8"
+			subtitle: "It needs water, water from a bowl, bowl of water, please don't forget the water"
 			tasks: [{
 				id: "79DA56623F6003CD"
 				title: "Don't forget the water, it needs water"
@@ -1286,6 +1403,7 @@
 				}
 			}
 			id: "7182388FCC361CB0"
+			subtitle: "Paid biweekly, week 2 water soup"
 			tasks: [{
 				id: "4C7D97DC908013F0"
 				title: "bou' o' wo'ta'"
@@ -1298,21 +1416,25 @@
 		{
 			dependencies: ["616464677ADE6DB4"]
 			description: [
-				"To use the Corporea Crystal Cube, place it anywhere and connect it to the network with a corporea spark."
+				"&6[W] To Ponder!&r"
 				""
-				"Then, right click it with an item. The cube will now show the amount of that item in its corporea network."
+				"To use the &dCorporea Crystal Cube&r, place it anywhere and connect it to the network with a &bcorporea spark&r."
 				""
-				"Left-Clicking it will request one of said item and pop it near the cube. Shift-Left-Clicking will request a stack."
+				"Then, &nright-click&r it with an item. The cube will now show the amount of that item in its corporea network."
+				"{@pagebreak}"
+				"&nLeft-Clicking&r it will request &6one&r of said item and pop it near the cube. &nShift-Left-Clicking&r will request a &astack&r."
 				""
-				"To prevent accidentially changing the viewed item, shift-right-click the cube with a Wand of the Forest to lock it."
+				"To prevent accidentially changing the viewed item, &nshift-right-click&r the cube with a &bWand of the Forest&r to lock it."
 			]
 			icon: "botania:corporea_crystal_cube"
 			id: "71893BAA75FC3D55"
+			subtitle: "No no this is the cube to ponder. But the other thing is also a cube? Whatever idk"
 			tasks: [{
 				id: "5676DF0C1A4544BD"
-				title: "Pondering the...Cube?"
+				title: "Basically a drawer if you squint a bit"
 				type: "checkmark"
 			}]
+			title: "Pondering the...Cube?"
 			x: 8.5d
 			y: 3.5d
 		}
@@ -1321,10 +1443,10 @@
 			description: [
 				"Some of these blocks are too complex to explain in a reasonable amount of words."
 				""
-				"The Lexica Botania contains all the information about all things Botania."
+				"The &aLexica Botania&r contains all the information about all things Botania."
 				"Craft the basic one with a book and a sapling, then combine it with a Corporea Spark to see most entries right away."
 				""
-				"Corporea is explained in the \"Ender Artifacts\" section."
+				"Corporea is explained in the \"&dEnder Artifacts&r\" section."
 			]
 			icon: {
 				Count: 1
@@ -1334,6 +1456,7 @@
 				}
 			}
 			id: "2A713A1369B51963"
+			subtitle: "Heh, Neat"
 			tasks: [{
 				id: "76957459384BF856"
 				title: "Patchouli is a mod by Vazkii!"
@@ -1359,6 +1482,7 @@
 			]
 			icon: "botania:white_mystical_flower"
 			id: "322E8B40B0197798"
+			subtitle: "Use your flower pouch!"
 			tasks: [{
 				id: "6C0F8A288A4D0E0C"
 				title: "So Sparkly!"
@@ -1739,6 +1863,8 @@
 				"56BAD950091D55D1"
 			]
 			description: [
+				"&6[W] To Ponder!&r"
+				""
 				"Botania's &aCrafty Crate&r is a &6very cheap&r and &6very fast&r autocrafter for any default 3x3 recipes"
 				""
 				"So whats the catch?"
@@ -1753,6 +1879,7 @@
 			]
 			icon: "botania:crafty_crate"
 			id: "607E9B99520A22A2"
+			subtitle: "Molecular assemblers are locked to tier 3, get good"
 			tasks: [{
 				id: "0754A61387637A99"
 				title: "This is basically a vanilla crafter, but harder"
@@ -1777,6 +1904,7 @@
 			]
 			icon: "botania:placeholder"
 			id: "6BA3B2FBB446A92C"
+			subtitle: "Aww they are all over the floor now"
 			tasks: [{
 				id: "686CD95637389CBF"
 				title: "mmm vanilla wafers"
