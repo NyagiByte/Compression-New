@@ -981,7 +981,7 @@
 				""
 				"Creating &6livisite&r works &nexactly the same way&r as &aliving wood&r or &bliving stone&r. "
 				"{@pagebreak}"
-				"You &ocould&r just cram the andesite into your existing living wood setup but, again, &n&l&n&eto avoid deadlocks&r it would be more &bwise&r to set up &n&adedicated conversion&r for each type of conversion needed in your factory."
+				"You &ocould&r just cram the andesite into your existing living wood setup but, again, &n&l&n&eto avoid deadlocks&r, it would be more &bwise&r to set up &n&adedicated conversion&r for each type of conversion needed in your factory."
 				"{@pagebreak}"
 				"Why have &none&r thing &cslow&r when &nmany thing&r &afaster&r? Think think."
 			]
@@ -1055,6 +1055,7 @@
 			dependencies: ["77853C5852B161C9"]
 			icon: "nyagibits_bytes:livisite_alloy"
 			id: "7667563D092228C1"
+			subtitle: "Always check recipes!"
 			tasks: [{
 				id: "64DE96B837DABA64"
 				type: "checkmark"
