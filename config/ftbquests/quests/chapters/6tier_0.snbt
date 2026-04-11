@@ -781,10 +781,11 @@
 			description: [
 				"It is worth pointing out moving forward you should make a &anew machine&r for every production line!"
 				""
-				"As for plank production they are used in &bcogs&r and &bframed woods&r for etched wood"
+				"As for plank production they are used in &bcogs&r and &bframed woods&r for etched wood."
 			]
 			icon: "botania:livingwood_planks"
 			id: "3A9D304009725ECF"
+			subtitle: "Does anyone remember this? No? God I'm old"
 			tasks: [{
 				id: "4F3742A5CA352D70"
 				title: "I think this meme is older than some of the players"
@@ -939,16 +940,24 @@
 			dependencies: ["02755BE7FF325275"]
 			description: [
 				"With that concept of avoiding &cbottlenecks&r behind us we can start producing &bandesite&r!"
+				"{@pagebreak}"
+				"With some &4lava&r in a basin your previously automated &eflint and gravel&r can be pressed into a fresh block of andesite."
 				""
-				"With some &4lava&r in a basin your previously automated &eflint and gravel&r can be pressed into a fresh block of andesite"
+				"Oh but did you catch that about the recipe? It takes &a2&r flint and &a1&r gravel per craft."
+				"{@pagebreak}"
+				"Say hello to a &bnew concept&r in your factory endevors called &6&l&n&oratios!!!&r"
 				""
-				"Oh but did you catch that about the recipe? It takes &a2&r flint and &a1&r gravel per craft"
+				"&nWhat does that mean?&r Well certain recipes do not consume ingredients at the same pace, in our example andesite is &a2:1&r on it's &eflint:gravel&r consumption rate. "
 				""
-				"Say hello to a &bnew concept&r in your factory endevors called &6ratios&r"
+				"The hidden suggestion here is to simply &6double your flint production&r relative to your gravel production."
+				"{@pagebreak}"
+				"And as an important point it's &cnot strictly necessary&r to math this out. "
 				""
-				"What does that mean? Well certain recipes do not consume ingredients at the same pace, in our example andesite is &a2:1&r on it's &eflint:gravel&r consumption rate. The hidden suggestion here is to simply &6double your flint production&r relative to your gravel production"
+				"Sure you &ocould&r time how long each step makes and do a &6perfect ratio&r setup where &einput rates&r are exactly the same as &econsumption rate&r. "
 				""
-				"And as an important point it's &cnot strictly necessary&r to math this out. Sure you could time how long each step makes and do a &6perfect ratio&r setup where &einput rates&r are exactly the same as &econsumption rate&r. You are allowed to just eyeball it and go \"eh good enough\""
+				"But... you are allowed to just eyeball it and go \"&aeh good enough&r\"."
+				""
+				"So long as you can spam the setups any setup will let your factory &4grow&r."
 			]
 			icon: "minecraft:andesite"
 			id: "60A789A9FD9C1289"
@@ -963,24 +972,22 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["60A789A9FD9C1289"]
+			dependencies: [
+				"60A789A9FD9C1289"
+				"10A2398723CBC444"
+			]
 			description: [
-				"With a small create compacting setup pumping out &aandesite&r you can look towards automating your livisite needs"
+				"With a small create compacting setup pumping out &dandesite&r you can look towards automating your livisite needs."
 				""
-				"Deployers are still a bit out of reach &7(unless you rushed them)&r but &adispensers&r, thanks to &dQuark&r, can place blocks"
-				""
-				"So with a setup where &aandesite&r from your &acompacting basin&r can be belted into some dispensers, &bpulsed with redstone&r to place you now have a way to automatically &6start a pure daisy conversion cycle&r"
-				""
-				"Now to collect the livisite you'll need to know &o&nwhen&r you can break the blocks. &aTwo ways you can do this&r is either some kind of timer via &bcreate's pulse repeater&r, or a direct detection with a &dsmart observer&r filtered to the target conversion block"
-				""
-				"Once you have the &atimer or the direct detection&r, a redstone signal from either can then be wired into your &6chosen collection method&r. This could be some moving create contraption with &adrills&r, or &adrills&r dedicated to each pure daisy tile, or something else, probably with &adrills&r"
-				""
-				"&n&6But notice what we did here&r&r. This &ccomplex task&r was &abroken up into smaller problems&r to solve, all of which you had choices on how to handle. &n&bThis is a very important principle&r&r when it comes to taking on more complicated automation tasks later in the pack."
-				""
-				"Instead of viewing the &centire monolith of the task&r, &n&areally try to break down the steps&r&r, see what the task actually asks of you. You will often find that it is &6easier&r than anticipated"
+				"Creating &6livisite&r works &nexactly the same way&r as &aliving wood&r or &bliving stone&r. "
+				"{@pagebreak}"
+				"You &ocould&r just cram the andesite into your existing living wood setup but, again, &n&l&n&eto avoid deadlocks&r it would be more &bwise&r to set up &n&adedicated conversion&r for each type of conversion needed in your factory."
+				"{@pagebreak}"
+				"Why have &none&r thing &cslow&r when &nmany thing&r &afaster&r? Think think."
 			]
 			icon: "nyagibits_bytes:livisite_stone"
 			id: "77853C5852B161C9"
+			subtitle: "Of course we had to make create harder stop crying it'll only get worse from here besides you have a lot of work to do starting right now!"
 			tasks: [{
 				id: "0358C989006DAE87"
 				title: "What are you a pesant? Automate this"
@@ -1021,24 +1028,20 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["5F863127930E520A"]
+			dependencies: [
+				"5F863127930E520A"
+				"77853C5852B161C9"
+			]
 			description: [
-				"With a small stone smelting setup pumping out &asmooth stone&r you can look towards automating your livingrock needs"
+				"With a small stone smelting setup pumping out &6smooth stone&r you can look towards automating your livingrock needs."
 				""
-				"Deployers are still a bit out of reach &7(unless you rushed them)&r but &adispensers&r, thanks to &dQuark&r, can place blocks"
+				"This really just involves doing what you did for the previous two pure daisy automations &n&aa third time&r."
 				""
-				"So with a setup where &asmooth stone&r from your &abulk blasting&r can be belted into some dispensers, &bpulsed with redstone&r to place you now have a way to automatically &6start a pure daisy conversion cycle&r"
-				""
-				"Now to collect the living rock you'll need to know &o&nwhen&r you can break the blocks. &aTwo ways you can do this&r is either some kind of timer via &bcreate's pulse repeater&r, or a direct detection with a &dsmart observer&r filtered to the target conversion block"
-				""
-				"Once you have the &atimer or the direct detection&r, a redstone signal from either can then be wired into your &6chosen collection method&r. This could be some moving create contraption with &adrills&r, or &adrills&r dedicated to each pure daisy tile, or something else, probably with &adrills&r"
-				""
-				"&n&6But notice what we did here&r&r. This &ccomplex task&r was &abroken up into smaller problems&r to solve, all of which you had choices on how to handle. &n&bThis is a very important principle&r&r when it comes to taking on more complicated automation tasks later in the pack."
-				""
-				"Instead of viewing the &centire monolith of the task&r, &n&areally try to break down the steps&r&r, see what the task actually asks of you. You will often find that it is &6easier&r than anticipated"
+				"&bYou got this&r! You're practically a pro at this by now."
 			]
 			icon: "botania:livingrock"
 			id: "679AC30680D0664F"
+			subtitle: "Give it up for round 3!!!"
 			tasks: [{
 				id: "2787B0407B298C66"
 				title: "What are you a pesant? Automate this"
@@ -1063,14 +1066,23 @@
 		{
 			dependencies: ["58FEDD50B927AA01"]
 			description: [
-				"Without access to &bDeployers&r at this stage you may be tempted to forgo an automated farm until you can make one"
+				"Without access to &bDeployers&r at this stage you may be tempted to forgo an automated farm until you can make one."
+				"{@pagebreak}"
+				"This, however, is an &cunecessary burden&r upon yourself. "
 				""
-				"This, however, is an &cunecessary burden&r upon yourself. Setting up the farm &bdeployerless&r will still aid massively in reducing your &epersonal labor involvement&r with collecting a basic resource. Running over to replant saplings is still &aless work&r than replanting and harvesting yourself"
+				"Setting up the farm &bdeployerless&r will still aid massively in reducing your &epersonal labor involvement&r with collecting a basic resource. "
 				""
-				"Also, thanks to the mod &bQuark&r dispensers are able to place blocks and crops. So if you are willing to make an &eunconventional farm&r and fiddle with redstone you can fully automate it at this stage"
+				"Running over to replant saplings is still &aless work&r than replanting and harvesting yourself."
+				"{@pagebreak}"
+				"Also, thanks to the mod &bQuark&r dispensers are able to place blocks and crops. "
+				""
+				"So if you are willing to make an &eunconventional farm&r and fiddle with redstone you can fully automate it at this stage."
+				"{@pagebreak}"
+				"&7There also may be a secret mechanic with dispensers to avoid deployers entirely..."
 			]
 			icon: "minecraft:oak_sapling"
 			id: "663739E71D834D27"
+			subtitle: "Or fully automatic if you know basic redstone"
 			tasks: [{
 				id: "3AD5F789DC4A2ABB"
 				title: "With this button all of the amazon will disappear!"
@@ -1083,22 +1095,37 @@
 		{
 			dependencies: ["663739E71D834D27"]
 			description: [
-				"With a tree chopping setup pumping out &alogs&r you can look towards automating your livingwood needs"
+				"With a tree chopping setup pumping out &6logs&r you can look towards automating your &nlivingwood needs&r."
 				""
-				"Deployers are still a bit out of reach &7(unless you rushed them)&r but &adispensers&r, thanks to &dQuark&r, can place blocks"
+				"Deployers are still a bit out of reach &7(unless you rushed them)&r but &adispensers&r, thanks to &dQuark&r, can place blocks."
+				"{@pagebreak}"
+				"With your &atree farm&r, the logs can be belted into some dispensers, and &bpulsed with redstone&r to place around a pure daisy."
 				""
-				"So with a setup where &alogs&r from your &atree farm&r can be belted into some dispensers, &bpulsed with redstone&r to place you now have a way to automatically &6start a pure daisy conversion cycle&r"
+				"You now have a way to automatically &6start a pure daisy conversion cycle&r!"
+				"{@pagebreak}"
+				"Now to collect the living wood you'll need to know &o&nwhen&r you can break the blocks. "
 				""
-				"Now to collect the living wood you'll need to know &o&nwhen&r you can break the blocks. &aTwo ways you can do this&r is either some kind of timer via &bcreate's pulse repeater&r, or a direct detection with a &dsmart observer&r filtered to the target conversion block"
+				"&a&nTwo ways you can do this:&r "
 				""
-				"Once you have the &atimer or the direct detection&r, a redstone signal from either can then be wired into your &6chosen collection method&r. This could be some moving create contraption with &adrills&r, or &adrills&r dedicated to each pure daisy tile, or something else, probably with &adrills&r"
+				"&6A timer&r, &7via create's pulse repeater&r, set to &n~1 minute&r."
 				""
-				"&n&6But notice what we did here&r&r. This &ccomplex task&r was &abroken up into smaller problems&r to solve, all of which you had choices on how to handle. &n&bThis is a very important principle&r&r when it comes to taking on more complicated automation tasks later in the pack."
+				"&6Direct detection&r with a &dsmart observer&r filtered to the target conversion block, or a vanilla observer with &cbinary counters&r set to throw an output after a set number of updates."
+				"{@pagebreak}"
+				"Once you have the &atimer or the direct detection&r, a redstone signal from either can then be wired into your &6chosen collection method&r. "
 				""
-				"Instead of viewing the &centire monolith of the task&r, &n&areally try to break down the steps&r&r, see what the task actually asks of you. You will often find that it is &6easier&r than anticipated"
+				"This could be some moving create contraption with &adrills&r, or &adrills&r dedicated to each pure daisy tile, or something else, probably with &adrills&r."
+				"{@pagebreak}"
+				"&n&6&lBut notice what we did here&r&r. This &ccomplex task&r was &abroken up into smaller problems&r to solve, all of which you had choices on how to handle. "
+				""
+				"&n&b&lThis is a very important principle&r&r when it comes to taking on more complicated automation tasks later in the pack."
+				""
+				"Instead of viewing the &centire monolith of the task&r, &n&areally try to break down the steps&r&r, see what the task actually asks of you. You will often find that it is &6easier&r than anticipated."
+				"{@pagebreak}"
+				"&bDeliver&r → &6Place&r → &aClock &7(or) &aDetect&r → &dBreak&r → &cCollect&r → &4Loop Forever&r →"
 			]
 			icon: "botania:livingwood_log"
 			id: "10A2398723CBC444"
+			subtitle: "How to break up a complex task"
 			tasks: [{
 				id: "08016D774DCA4EF6"
 				title: "What are you a pesant? Automate this"
@@ -1122,8 +1149,18 @@
 		}
 		{
 			dependencies: ["679AC30680D0664F"]
+			description: [
+				"Wait but the &bbelt sander&r is locked behind a &cbrass casing&r. Don't we need to automate things?"
+				""
+				"&6Good eye&r! But &enot sharp enough&r."
+				""
+				"This recipe specifically is an &oinvitation&r to look more closely at existing recipes. "
+				""
+				"&n&o&dLearn to dive through the recipe chains in REI&r. You may spot a work around.... &7Hint Hint&r."
+			]
 			icon: "botania:polished_livingrock"
 			id: "1ECD32BB25F43FC0"
+			subtitle: "Automatic Sanding?!"
 			tasks: [{
 				id: "73671101896D22B9"
 				type: "checkmark"
