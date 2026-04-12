@@ -1053,11 +1053,21 @@
 		}
 		{
 			dependencies: ["77853C5852B161C9"]
+			description: [
+				"Now that you have automatic livisite supplies, &6livisite alloy&r becomes trivial! "
+				""
+				"A hopper feeding iron nuggets into a basin with a mixer will grant you alloy for &anext to no personal involvement&r!"
+				""
+				"Whats that? You were crafting it the whole time and &cdidn't see the mixer recipe&r? Well guess thats a good lesson in &echecking the recipes&r then."
+				"{@pagebreak}"
+				"&7Side note, that last line was included due to me (&lNyagi&r&7 the dev) directly seeing several twitch vods where people miss the mixer recipe for half cost alloys."
+			]
 			icon: "nyagibits_bytes:livisite_alloy"
 			id: "7667563D092228C1"
 			subtitle: "Always check recipes!"
 			tasks: [{
 				id: "64DE96B837DABA64"
+				title: "How does rock and metal mix like this?"
 				type: "checkmark"
 			}]
 			title: "Andesite Alloy's Twin"
@@ -1176,10 +1186,29 @@
 				"7667563D092228C1"
 				"3A9D304009725ECF"
 			]
+			description: [
+				"Now, with your &nlivingwood planks&r, &nlivisite alloy&r, and &npolished livingrock&r all automated you have an important decision."
+				""
+				"&a&nAutocraft&r with &bcrafty crates&r and deal with &credstone&r."
+				""
+				"&4&nManually craft&r until &6mechanical crafters&r are available."
+				"{@pagebreak}"
+				"This is an &n&6important decision&r to make because this recipe won't be the only one that needs crafting &o&ebefore&r you can create mechanical crafters."
+				""
+				"Specifically &d10 recipes&r are hard crafting-type requirements. One of which features an &cunstackable item&r."
+				"{@pagebreak}"
+				"The decision here is of &epersonal taste&r and &etolerance&r for manual tasks."
+				""
+				"And this decision is brought up because there will be several points where you may be tempted &cto put off automation&r until you can claw up to something better."
+				""
+				"Whether or not that is a good decision comes down to the time it will take to get to that \"&abetter thing&r\" while also &cforgoing the available option&r."
+			]
 			icon: "nyagibits_bytes:etched_living_wood"
 			id: "1440D789406EF358"
+			subtitle: "Decisions Decisions..."
 			tasks: [{
 				id: "105D977024CBD48C"
+				title: "Pick your poison"
 				type: "checkmark"
 			}]
 			title: "Comes With Recipe Eye Strain"
