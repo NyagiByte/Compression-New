@@ -75,3 +75,4 @@ config/packetfixer.properties
 config/sounds/chat.json
 config/sounds/chat.json
 /config/ironchests
+config/emi.css

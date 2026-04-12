@@ -15,6 +15,10 @@
       {
         "count": 4,
         "item": "create:andesite_alloy"
+      },
+      {
+        "count": 1,
+        "item": "thermal:slag"
       }
     ]
   }
