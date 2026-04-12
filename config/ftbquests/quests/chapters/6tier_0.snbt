@@ -1560,10 +1560,23 @@
 		}
 		{
 			dependencies: ["7667563D092228C1"]
+			description: [
+				"And now, for a taste of &6&l&oscaling recipes&r."
+				""
+				"Building copies of the same setup gets &cold quickly&r, especially without mass construction tools."
+				""
+				"Instead this pack opts for letting you &dswap inputs&r for more complex versions and getting more per craft! "
+				""
+				"In this case swapping the iron nugget for a &abrass nugget&r."
+				"{@pagebreak}"
+				"This way existing setups can &agrow with you&r instead of needing to be &ctorn up&r every upgrade."
+			]
 			icon: "create:brass_nugget"
 			id: "02F4BEF888F769B9"
+			subtitle: "Scale mechanic time!"
 			tasks: [{
 				id: "15D1D29AD2B6E5BA"
+				title: "MOOORE"
 				type: "checkmark"
 			}]
 			title: "Boost I"
@@ -1632,10 +1645,23 @@
 		}
 		{
 			dependencies: ["7A974BCCA6882D04"]
+			description: [
+				"And now, for a taste of &6&l&oscaling recipes&r."
+				""
+				"Building copies of the same setup gets &cold quickly&r, especially without mass construction tools."
+				""
+				"Instead this pack opts for letting you &dswap inputs&r for more complex versions and getting more per craft! "
+				""
+				"In this case swapping the iron nugget for an &ainvar nugget&r."
+				"{@pagebreak}"
+				"This way existing setups can &agrow with you&r instead of needing to be &ctorn up&r every upgrade."
+			]
 			icon: "thermal:invar_nugget"
 			id: "025F10E72C0B8392"
+			subtitle: "Scale mechanic time!"
 			tasks: [{
 				id: "5EF291C10B84E126"
+				title: "MOOORE"
 				type: "checkmark"
 			}]
 			title: "Boost I"
