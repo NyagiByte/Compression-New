@@ -428,18 +428,8 @@
 			icon: "create:cart_assembler"
 			id: "4719463793B59AD7"
 			rewards: [{
-<<<<<<< Updated upstream
 				id: "3A03D494014B9B15"
 				item: "nyagibits_bytes:tier_one_strawberry"
-=======
-				id: "54E8A5835062CE08"
-				item: "nyagibits_bytes:tier_one_strawberry"
-				type: "item"
-			}]
-			tasks: [{
-				id: "57D4507A796778B1"
-				item: "create:cart_assembler"
->>>>>>> Stashed changes
 				type: "item"
 			}]
 			subtitle: "Great for absolutely obliterating your world"
