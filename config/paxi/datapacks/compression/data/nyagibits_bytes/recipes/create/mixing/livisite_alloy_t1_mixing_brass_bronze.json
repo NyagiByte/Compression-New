@@ -13,12 +13,12 @@
     ],
     "results": [
       {
-        "count": 4,
-        "item": "nyagibits_bytes:livisite_alloy"
-      },
-      {
         "count": 1,
         "item": "thermal:slag"
+      },
+      {
+        "count": 4,
+        "item": "nyagibits_bytes:livisite_alloy"
       }
     ]
   }
