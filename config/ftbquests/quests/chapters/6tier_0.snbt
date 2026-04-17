@@ -1220,10 +1220,41 @@
 				"7A974BCCA6882D04"
 				"1440D789406EF358"
 			]
+			description: [
+				"With both &betched living wood&r and &bandesite alloy&r being cranked out in the factory you can now enjoy &dandesite casings&r for &alittle to no personal involvement&r."
+				""
+				"Even &oless&r personal involvement if you chose to rush a &6deployer&r to finish the final step automatically. "
+				"{@pagebreak}"
+				"Now here is an &n&aimportant shift in thinking&r that is vital to internalize moving forward."
+				""
+				"Recipe complexity ramps up incredibly fast beyond this point and it can be very easy to get &coverwhelmed&r."
+				"{@pagebreak}"
+				"The shift in thinking that can help quell those thoughts is this:"
+				""
+				"When a new thing is &aautomated&r, you can safely &bforget about all the previous steps&r."
+				"{@pagebreak}"
+				"To be more clear about this let's think about crafting &dGearboxes&r."
+				""
+				"Naturally when seeing the recipe you are needing to factor in crafting every single &esub-component&r since it was all done by hand."
+				""
+				"But now with &aautomated casings&r, a large chunk of that mental recipe tracking simply &ndoesn't need to happen anymore&r."
+				"{@pagebreak}"
+				"Now you have the luxury of &nonly thinking about crafting the &dcogs&r. Half the work is already done!"
+				""
+				"And if you &aautomate crafting the cogs well&r, that means any use-case that has a gearbox involved can be abstracted away to being \"&bbasically free&r\" or \"&birrelevant&r.\""
+				"{@pagebreak}"
+				"In this way you can &dtighten your view&r to what is directly available to you while also freeing your brain from needing to worry about everything that comes before."
+				""
+				"After all when you make spaghetti at home you don't think about &emaking the noodles, sauce, cheese, and meat&r. You simply focus on making spaghetti."
+				""
+				"&l&o&bNow go and make your mechanical spaghetti sprawl&r!"
+			]
 			icon: "create:andesite_casing"
 			id: "24F263BFA0B3056C"
+			subtitle: "Less Labor = It's free* now!"
 			tasks: [{
 				id: "16A5B52FE76B8D2F"
+				title: "Casings now on the cheap!"
 				type: "checkmark"
 			}]
 			title: "Semi Manual Encasement"
@@ -1588,8 +1619,30 @@
 				"7667563D092228C1"
 				"02F4BEF888F769B9"
 			]
+			description: [
+				"Still need &omore&r alloy? Well luckily for you a simple &dbronze nugget&r added in will double your yields yet again!"
+				""
+				"Whats that? The mixer is still doing the &colder recipe&r? "
+				""
+				"Well thats where &bFilters&r come into play!"
+				"{@pagebreak}"
+				"You may have noticed that the basin recipes showcase a &ebyproduct item&r &obefore&r the actual alloy."
+				""
+				"&aThis is no mistake&r!"
+				""
+				"{image:compression:textures/quests/filter_basin_livisite.png width:185 height:100 align:center}"
+				""
+				"Due to &cinternal jank&r the basin only respects &bfilters&r of the &nfirst&r item in the output list."
+				"{@pagebreak}"
+				"This allows you to filter the basin or a &bList Filter&r to that byproduct item."
+				""
+				"{image:compression:textures/quests/filter_ui.png width:185 height:68 align:center}"
+				""
+				"You can now &o&n&6guarantee&r your machine does the recipe you want!"
+			]
 			icon: "thermal:bronze_nugget"
 			id: "1D5E49CF2F3ED329"
+			subtitle: "Filter Tech"
 			tasks: [{
 				id: "304525D1F29F1BD9"
 				title: "MOOOOOORE"
@@ -1604,10 +1657,17 @@
 				"7667563D092228C1"
 				"1D5E49CF2F3ED329"
 			]
+			description: [
+				"&o&lStill not enough livisite alloy&r?!"
+				""
+				"Toss in a &dconstantan nugget&r, and be sure to change the filters!"
+			]
 			icon: "thermal:constantan_nugget"
 			id: "47A9A4193B7EB0DA"
+			subtitle: "Scale Scale Scale!"
 			tasks: [{
 				id: "183B8AAB456F7DC0"
+				title: "MOOOOOOOOORE!!!"
 				type: "checkmark"
 			}]
 			title: "Boost III"
@@ -1619,8 +1679,30 @@
 				"7A974BCCA6882D04"
 				"025F10E72C0B8392"
 			]
+			description: [
+				"Still need &omore&r alloy? Well luckily for you a simple &dcast iron nugget&r added in will double your yields yet again!"
+				""
+				"Whats that? The mixer is still doing the &colder recipe&r? "
+				""
+				"Well thats where &bFilters&r come into play!"
+				"{@pagebreak}"
+				"You may have noticed that the basin recipes showcase a &ebyproduct item&r &obefore&r the actual alloy."
+				""
+				"&aThis is no mistake&r!"
+				""
+				"{image:compression:textures/quests/filter_basin_andesite.png width:185 height:100 align:center}"
+				""
+				"Due to &cinternal jank&r the basin only respects &bfilters&r of the &nfirst&r item in the output list."
+				"{@pagebreak}"
+				"This allows you to filter the basin or a &bList Filter&r to that byproduct item."
+				""
+				"{image:compression:textures/quests/filter_ui.png width:185 height:68 align:center}"
+				""
+				"You can now &o&n&6guarantee&r your machine does the recipe you want!"
+			]
 			icon: "createdeco:industrial_iron_nugget"
 			id: "2B48314A99226E2F"
+			subtitle: "Filter Tech"
 			tasks: [{
 				id: "551FC147A78420F6"
 				title: "MOOOOOORE"
@@ -1635,10 +1717,19 @@
 				"7A974BCCA6882D04"
 				"2B48314A99226E2F"
 			]
+			description: [
+				"&o&lStill not enough andesite alloy&r?!"
+				""
+				"Well you're out of luck, for the next level up needs &dsteel nuggets&r. "
+				""
+				"Wonder if there's any way to &escrounge some from the world&r before making a &6blast brick furnace&r..."
+			]
 			icon: "immersiveengineering:nugget_steel"
 			id: "133C259229A0E4EF"
+			subtitle: "Oooo not quite yet sorry!"
 			tasks: [{
 				id: "7742C51FB7F3452A"
+				title: "MOOO- aw :("
 				type: "checkmark"
 			}]
 			title: "Boost III... wait"
