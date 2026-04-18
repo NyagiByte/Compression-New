@@ -9,20 +9,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["20D167D82EF73539"]
-			description: ["No video provided for this one. TNT is inaccessable in &6Tier 0&r, &da more natural source of combustion is needed"]
-			icon: "minecraft:creeper_head"
-			id: "697E50D684D5A997"
-			tasks: [{
-				id: "27B6F8DB912C23DB"
-				title: "The Compressed Iron Puzzle"
-				type: "checkmark"
-			}]
-			title: "The Compressed Iron Puzzle"
-			x: -0.5d
-			y: 17.5d
-		}
-		{
 			dependencies: ["1D8A454B0BE4AF89"]
 			description: ["As a note, the tutorials won't go over how to do create automations that the internal ponder system is able to show. These tabs are for pack specific choke points"]
 			icon: "create:goggles"
@@ -36,24 +22,6 @@
 			title: "[W] To Ponder!"
 			x: 0.0d
 			y: -2.5d
-		}
-		{
-			dependencies: [
-				"20D167D82EF73539"
-				"697E50D684D5A997"
-			]
-			description: [""]
-			hide_dependency_lines: false
-			icon: "create:blaze_burner"
-			id: "789821A8D7342A72"
-			tasks: [{
-				id: "464DA84D619E20F7"
-				title: "Amazon box delivery chain"
-				type: "checkmark"
-			}]
-			title: "Amazon box delivery chain"
-			x: 0.5d
-			y: 17.5d
 		}
 		{
 			dependencies: ["147F646960AE4EBE"]
@@ -732,10 +700,7 @@
 			y: 8.5d
 		}
 		{
-			dependencies: [
-				"697E50D684D5A997"
-				"789821A8D7342A72"
-			]
+			dependencies: ["20D167D82EF73539"]
 			description: [
 				"It is worth pointing out moving forward you should make a &anew machine&r for every production line!"
 				""
@@ -750,7 +715,7 @@
 			}]
 			title: "She Saw On My Alloy Till I Shaft"
 			x: 0.0d
-			y: 19.0d
+			y: 18.5d
 		}
 		{
 			dependencies: [
@@ -1771,7 +1736,7 @@
 			}]
 			title: "A Shiny New Resource Sink"
 			x: -0.5d
-			y: 24.0d
+			y: 23.5d
 		}
 		{
 			dependencies: [
@@ -1789,7 +1754,7 @@
 			}]
 			title: "A Pile Of Bullsh- Useful Components"
 			x: 0.0d
-			y: 23.0d
+			y: 22.5d
 		}
 		{
 			dependencies: [
@@ -1804,7 +1769,7 @@
 			}]
 			title: "Tower of Hanoi Piece"
 			x: 0.0d
-			y: 21.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["21F5BFE011A81849"]
@@ -1816,7 +1781,7 @@
 			}]
 			title: "Cogwheel++"
 			x: 0.5d
-			y: 20.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["0B5F5B6B7780F35A"]
@@ -1828,7 +1793,7 @@
 			}]
 			title: "Computer! 500 Cogwheels"
 			x: -0.5d
-			y: 20.0d
+			y: 19.5d
 		}
 		{
 			dependencies: [
@@ -1843,7 +1808,7 @@
 			}]
 			title: "Automating... Wrenches.. Sure why not"
 			x: -1.5d
-			y: 21.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["552DD25027690140"]
@@ -1855,7 +1820,7 @@
 			}]
 			title: "You Probably Have These Already"
 			x: 1.5d
-			y: 20.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["552DD25027690140"]
@@ -1867,7 +1832,7 @@
 			}]
 			title: "This Is Why My Dominant Arm Is Jacked"
 			x: -1.5d
-			y: 20.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["5A823DC796D1B3C7"]
@@ -1879,10 +1844,10 @@
 			}]
 			title: "Great Nose Picker Tool"
 			x: 1.5d
-			y: 21.5d
+			y: 21.0d
 		}
 		{
-			dependencies: ["789821A8D7342A72"]
+			dependencies: ["20D167D82EF73539"]
 			icon: "create:brass_sheet"
 			id: "5A823DC796D1B3C7"
 			tasks: [{
@@ -1891,10 +1856,10 @@
 			}]
 			title: "Antimicrobial Rectangle"
 			x: 2.5d
-			y: 20.5d
+			y: 20.0d
 		}
 		{
-			dependencies: ["697E50D684D5A997"]
+			dependencies: ["20D167D82EF73539"]
 			icon: "create:electron_tube"
 			id: "685AF8C450180B2F"
 			tasks: [{
@@ -1903,7 +1868,7 @@
 			}]
 			title: "Blinky Blinky"
 			x: -2.5d
-			y: 20.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["24F263BFA0B3056C"]
@@ -1952,15 +1917,16 @@
 			]
 			icon: "botania:auto_crafting_halo"
 			id: "20D167D82EF73539"
+			size: 1.5d
 			subtitle: "I said modular not a lawn base, I will strike you down where you stand!"
 			tasks: [{
 				id: "6A882C5E413C70B0"
 				title: "Cubes of Industry"
 				type: "checkmark"
 			}]
-			title: "The Modular Factory"
+			title: "&bThe Modular Factory"
 			x: 0.0d
-			y: 16.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["38D12B5F0800566A"]
@@ -1972,7 +1938,7 @@
 			}]
 			title: "Automatic Assembly"
 			x: 0.5d
-			y: 24.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["3631B3D7904473FD"]
@@ -1984,7 +1950,7 @@
 			}]
 			title: "Premium Countertops"
 			x: 0.0d
-			y: 26.0d
+			y: 25.5d
 		}
 		{
 			dependencies: ["1DD0A837E5B7A273"]
@@ -1996,7 +1962,7 @@
 			}]
 			title: "Beating the devs to death"
 			x: 0.0d
-			y: 27.0d
+			y: 26.5d
 		}
 		{
 			dependencies: [
@@ -2014,7 +1980,7 @@
 			}]
 			title: "Time To Scribble"
 			x: 0.0d
-			y: 28.5d
+			y: 28.0d
 		}
 		{
 			dependencies: ["3631B3D7904473FD"]
@@ -2026,7 +1992,7 @@
 			}]
 			title: "Extra Full Squids"
 			x: 2.5d
-			y: 25.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["3631B3D7904473FD"]
@@ -2038,7 +2004,7 @@
 			}]
 			title: "Sproingy"
 			x: 1.0d
-			y: 26.0d
+			y: 25.5d
 		}
 		{
 			dependencies: ["3631B3D7904473FD"]
@@ -2050,7 +2016,7 @@
 			}]
 			title: "Oh no I spilled them everywhere"
 			x: -1.0d
-			y: 26.0d
+			y: 25.5d
 		}
 		{
 			dependencies: ["6F2D142E58E23CAA"]
@@ -2062,7 +2028,7 @@
 			}]
 			title: "Ink in da tube"
 			x: 1.0d
-			y: 27.5d
+			y: 27.0d
 		}
 		{
 			dependencies: ["451CB901650E8F5B"]
@@ -2074,7 +2040,7 @@
 			}]
 			title: "Tiny Wet Paper Ball Shooter"
 			x: 2.0d
-			y: 26.5d
+			y: 26.0d
 		}
 		{
 			dependencies: ["3631B3D7904473FD"]
@@ -2086,7 +2052,7 @@
 			}]
 			title: "It's Like If Gum Was Disgusting"
 			x: -2.5d
-			y: 25.5d
+			y: 25.0d
 		}
 		{
 			dependencies: [
@@ -2158,7 +2124,7 @@
 			}]
 			title: "About Sequenced Assemblies"
 			x: 0.0d
-			y: 25.0d
+			y: 24.5d
 		}
 	]
 	title: " &6Tier 0"
