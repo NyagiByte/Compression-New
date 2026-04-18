@@ -5,7 +5,7 @@
 	group: "1C682695BB4A0B06"
 	icon: "minecraft:enchanted_golden_apple"
 	id: "49CFEE35A165B6FF"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
