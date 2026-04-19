@@ -1,6 +1,8 @@
 {
     "replace": true,
     "values": [
-        "pneumaticcraft:pressure_tube"
+        "pneumaticcraft:pressure_tube",
+        "phantomsandnightmares:insanity_pill",
+        "phantomsandnightmares:sanity_pill"
     ]
   }
