@@ -3,6 +3,12 @@
     "values": [
         "pneumaticcraft:pressure_tube",
         "phantomsandnightmares:insanity_pill",
-        "phantomsandnightmares:sanity_pill"
+        "phantomsandnightmares:sanity_pill",
+        "botania:shulk_me_not",
+        "botania:floating_shulk_me_not",
+        "botania:clayconia",
+        "botania:clayconia_chibi",
+        "botania:floating_clayconia_chibi",
+        "botania:floating_clayconia"
     ]
   }
