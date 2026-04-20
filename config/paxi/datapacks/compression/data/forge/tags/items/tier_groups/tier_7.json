@@ -1,0 +1,13 @@
+{
+    "replace": true,
+    "values": [
+        "aiotbotania:alfsteel_aiot",
+        "mythicbotany:alfsteel_sword",
+        "mythicbotany:alfsteel_axe",
+        "mythicbotany:alfsteel_pick",
+        "aiotbotania:alfsteel_shovel",
+        "aiotbotania:alfsteel_hoe",
+        "mythicbotany:alfsteel_ingot",
+        "mythicbotany:alfsteel_nugget"
+    ]
+  }
