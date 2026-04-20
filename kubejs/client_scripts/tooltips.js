@@ -12,5 +12,17 @@ ItemEvents.tooltip(event => {
 
     event.add(['#forge:tier_groups/tier_3'],
     '§dTier 3'
+    ),
+
+    event.add(['#forge:tier_groups/tier_4'],
+    '§aTier 4'
+    ),
+
+    event.add(['#forge:tier_groups/tier_5'],
+    '§eTier 5'
+    ),
+
+    event.add(['#forge:tier_groups/tier_6'],
+    '§fTier 6'
     )
 })

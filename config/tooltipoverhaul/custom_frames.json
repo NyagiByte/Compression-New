@@ -162,6 +162,30 @@
       "gradientType": "custom",
       "borderType": "static",
       "gradientColors": ["#D500D9", "#D500D9", "#D500D9"]
+    },
+    {
+      "tags": [
+        "forge:tier_groups/tier_4"
+      ],
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": ["#4FFF53", "#4FFF53", "#4FFF53"]
+    },
+    {
+      "tags": [
+        "forge:tier_groups/tier_5"
+      ],
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": ["#FFF200", "#FFF200", "#FFF200"]
+    },
+    {
+      "tags": [
+        "forge:tier_groups/tier_6"
+      ],
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": ["#FFFFFF", "#FFFFFF", "#FFFFFF"]
     }
   ]
 }

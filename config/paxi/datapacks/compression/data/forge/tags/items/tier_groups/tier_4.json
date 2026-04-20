@@ -1,0 +1,15 @@
+{
+    "replace": true,
+    "values": [
+        "botania:spawner_claw",
+        "botania:enchanted_soil",
+        "botania:virus_necrodermal",
+        "botania:virus_nullodermal",
+        "botania:black_lotus",
+        "botania:blacker_lotus",
+        "botania:overgrowth_seed",
+        "botania:blood_pendant",
+        "botania:fallen_kanade",
+        "botania:floating_fallen_kanade"
+    ]
+  }
