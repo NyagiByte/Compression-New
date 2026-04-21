@@ -1,0 +1,9 @@
+{
+    "replace": true,
+    "values": [
+        "botania:tiny_planet_block",
+        "botania:tiny_potato",
+        "botania:black_hole_talisman",
+        "botania:tiny_planet"
+    ]
+  }

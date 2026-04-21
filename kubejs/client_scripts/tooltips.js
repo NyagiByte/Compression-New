@@ -28,5 +28,9 @@ ItemEvents.tooltip(event => {
 
     event.add(['#forge:tier_groups/tier_7'],
     '§4Tier 7'
+    ),
+
+    event.add(['#forge:tier_groups/tier_9'],
+    '§dTier 9'
     )
 })

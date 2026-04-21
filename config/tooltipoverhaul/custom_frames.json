@@ -194,6 +194,14 @@
       "gradientType": "custom",
       "borderType": "static",
       "gradientColors": ["#A30000", "#A30000", "#A30000"]
+    },
+    {
+      "tags": [
+        "forge:tier_groups/tier_9"
+      ],
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": ["#41008C", "#41008C", "#41008C"]
     }
   ]
 }

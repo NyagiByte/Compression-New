@@ -31,6 +31,13 @@
         "botania:magnet_ring_greater",
         "aiotbotania:terra_aiot",
         "aiotbotania:terra_hoe",
-        "aiotbotania:terra_shovel"
+        "aiotbotania:terra_shovel",
+        "alchemistry:fission_chamber_controller",
+        "alchemistry:fission_core",
+        "alchemistry:reactor_casing",
+        "alchemistry:reactor_output",
+        "alchemistry:reactor_input",
+        "alchemistry:reactor_energy",
+        "alchemistry:reactor_glass"
     ]
   }

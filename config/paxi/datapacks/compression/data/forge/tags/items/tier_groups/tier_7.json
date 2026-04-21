@@ -8,6 +8,8 @@
         "aiotbotania:alfsteel_shovel",
         "aiotbotania:alfsteel_hoe",
         "mythicbotany:alfsteel_ingot",
-        "mythicbotany:alfsteel_nugget"
+        "mythicbotany:alfsteel_nugget",
+        "alchemistry:fusion_chamber_controller",
+        "alchemistry:fusion_core"
     ]
   }

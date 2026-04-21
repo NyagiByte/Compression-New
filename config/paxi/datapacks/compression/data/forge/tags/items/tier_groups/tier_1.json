@@ -491,6 +491,11 @@
         "projectred_transmission:green_framed_bundled_wire",
         "projectred_transmission:red_framed_bundled_wire",
         "projectred_transmission:black_framed_bundled_wire",
-        "projectred_transmission:purple_insulated_wire"
+        "projectred_transmission:purple_insulated_wire",
+        "alchemistry:atomizer",
+        "alchemistry:compactor",
+        "alchemistry:combiner",
+        "alchemistry:dissolver",
+        "alchemistry:liquifier"
     ]
   }
