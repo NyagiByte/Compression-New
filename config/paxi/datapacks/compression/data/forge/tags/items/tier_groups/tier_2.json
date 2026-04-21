@@ -9,6 +9,16 @@
         "botania:clayconia",
         "botania:clayconia_chibi",
         "botania:floating_clayconia_chibi",
-        "botania:floating_clayconia"
+        "botania:floating_clayconia",
+        "minecraft:netherite_upgrade_smithing_template",
+        "minecraft:netherite_upgrade_smithing_template",
+        "minecraft:netherite_ingot",
+        "minecraft:netherite_scrap",
+        "minecraft:jukebox",
+        "minecraft:tinted_glass",
+        "minecraft:netherite_block",
+        "minecraft:ancient_debris",
+        "minecraft:reinforced_deepslate",
+        "minecraft:phantom_membrane"
     ]
   }

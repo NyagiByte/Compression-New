@@ -4,6 +4,9 @@
         "botania:tiny_planet_block",
         "botania:tiny_potato",
         "botania:black_hole_talisman",
-        "botania:tiny_planet"
+        "botania:tiny_planet",
+        "minecraft:bedrock",
+        "minecraft:totem_of_undying",
+        "minecraft:disc_fragment_5"
     ]
   }
