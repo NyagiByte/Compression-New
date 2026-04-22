@@ -66,6 +66,7 @@
 				""
 				"If you find yourself in this situation just remember: the world is &dbig&r, you can simply &bmake more of them&r"
 			]
+			hide_until_deps_complete: true
 			icon: "botania:overgrowth_seed"
 			id: "4BE7C54B1F7E2DBB"
 			subtitle: "More More MORE"
@@ -463,6 +464,7 @@
 				""
 				"{image:compression:textures/quests/fan_example.png width:137 height:77 align:center}"
 			]
+			hide_until_deps_complete: true
 			icon: "create:encased_fan"
 			id: "285BEA3F3B3B139E"
 			subtitle: "No more furnaces!"
@@ -702,15 +704,24 @@
 		{
 			dependencies: ["20D167D82EF73539"]
 			description: [
-				"It is worth pointing out moving forward you should make a &anew machine&r for every production line!"
+				"Moving forward in the &6&nTutorial-Tutorial&r quests for specific production items will simply consist of a &achecklist&r and &brecommended throughput rate&r."
 				""
-				"Shaft (heh) production is needed to mass produce &bcogs&r and is later used to make &bthin casings&r for pens, but thats much further down the line"
+				"Longer descriptions will be reserved to introducing new &dconcepts&r in mass automation. For now these next quests serve to put what you've learned into practice!"
+				"{@pagebreak}"
+				"&a&n&lChecklist:&r"
+				""
+				"&dAutomated Livisite Alloy.&r"
+				""
+				"&b&n&lRecommended Machine Ratio:&r"
+				""
+				"&6Maximum 4 saws per livisite alloy mixer.&r"
 			]
 			icon: "create:shaft"
 			id: "0B5F5B6B7780F35A"
+			subtitle: "Making a list, checking it twice, god dammit what broke now"
 			tasks: [{
 				id: "2D6253845875BE2C"
-				title: "Oh and like a bunch of random stuff too"
+				title: "Check list time!"
 				type: "checkmark"
 			}]
 			title: "She Saw On My Alloy Till I Shaft"
@@ -1239,6 +1250,7 @@
 				""
 				"There must be one master spark somewhere in the network, but it will not be able to access an inventory itself."
 			]
+			hide_until_deps_complete: true
 			icon: "botania:corporea_spark"
 			id: "1BDC7381D6607E31"
 			subtitle: "Massive retier?!"
@@ -1728,14 +1740,28 @@
 		}
 		{
 			dependencies: ["3B239E07261D8D7D"]
+			description: [
+				"&a&n&lChecklist:&r"
+				""
+				"&dAutomated Andesite Casings.&r"
+				""
+				"&eHaving a deployer.&r"
+				""
+				"&b&n&lRecommended Machine Ratio:&r"
+				""
+				"&61 Deployer on Brass Casings per 1-2 Deployers on Andesite Casings.&r"
+			]
+			hide_until_deps_complete: true
 			icon: "create:brass_casing"
 			id: "38D12B5F0800566A"
+			subtitle: "A boxier box"
 			tasks: [{
 				id: "113D434898B7B3BE"
+				title: "Shiny Box"
 				type: "checkmark"
 			}]
 			title: "A Shiny New Resource Sink"
-			x: -0.5d
+			x: 0.5d
 			y: 23.5d
 		}
 		{
@@ -1746,10 +1772,22 @@
 				"67839BBF21FEC1E4"
 				"526B74809D6455D8"
 			]
+			description: [
+				"&a&n&lChecklist:&r"
+				""
+				"&dAutomated 8 item input system.&r"
+				"&eAND Gate control or sync-input brass tunnel should help here.&r"
+				""
+				"&b&n&lRecommended Machine Ratio:&r"
+				""
+				"&61 Press on Pile of Crude Mechanical Parts.&r"
+			]
 			icon: "nyagibits_bytes:pile_of_crude_mechanical_parts"
 			id: "3B239E07261D8D7D"
+			subtitle: "Putting it all together"
 			tasks: [{
 				id: "4C0BD3355FC976A7"
+				title: "Almost there..."
 				type: "checkmark"
 			}]
 			title: "A Pile Of Bullsh- Useful Components"
@@ -1761,10 +1799,21 @@
 				"37084732C1D76991"
 				"21F5BFE011A81849"
 			]
+			description: [
+				"&a&n&lChecklist:&r"
+				""
+				"&dAutomated Cogs \\& Large Cogs.&r"
+				""
+				"&b&n&lRecommended Machine Ratio:&r"
+				""
+				"&61 Mixer on Pile Of Cogs (&nShapeless Crafting&r&6).&r"
+			]
 			icon: "nyagibits_bytes:pile_of_cogs"
 			id: "552DD25027690140"
+			subtitle: "Only 52! moves to go"
 			tasks: [{
 				id: "56016B980A85F811"
+				title: "This one should be simple"
 				type: "checkmark"
 			}]
 			title: "Tower of Hanoi Piece"
@@ -1773,10 +1822,23 @@
 		}
 		{
 			dependencies: ["21F5BFE011A81849"]
+			description: [
+				"&a&n&lChecklist:&r"
+				""
+				"&dAutomated Living Wood Processing (Logs -> Stripped Log Slabs).&r"
+				""
+				"&eCogs for boosted input (&nRecommended&r&e).&r"
+				""
+				"&b&n&lRecommended Machine Ratio:&r"
+				""
+				"&61-2 Crafters on Large Cogwheels.&r"
+			]
 			icon: "create:large_cogwheel"
 			id: "37084732C1D76991"
+			subtitle: "This REALLY grinds my cogs"
 			tasks: [{
 				id: "06E9B5B15771CC1F"
+				title: "More Crafting Steps!!!"
 				type: "checkmark"
 			}]
 			title: "Cogwheel++"
@@ -1785,10 +1847,29 @@
 		}
 		{
 			dependencies: ["0B5F5B6B7780F35A"]
+			description: [
+				"&a&n&lChecklist:&r"
+				""
+				"&dAutomated Living Wood.&r"
+				""
+				"&dAutomated Living Wood Processing (Logs -> Planks).&r"
+				""
+				"&eBrass nugget crafting for boosted input (&nRecommended&r&e).&r"
+				""
+				"&b&n&lRecommended Machine Ratio:&r"
+				""
+				"&61-4 Saws on Planks -> Slabs.&r"
+				""
+				"&61-2 Crafters on Planks -> Stairs.&r"
+				""
+				"&61-2 Crafters on Cogwheels.&r"
+			]
 			icon: "create:cogwheel"
 			id: "21F5BFE011A81849"
+			subtitle: "This really grinds my cogs"
 			tasks: [{
 				id: "59AEB3A224B856BA"
+				title: "500 Crafting Steps"
 				type: "checkmark"
 			}]
 			title: "Computer! 500 Cogwheels"
@@ -1800,10 +1881,25 @@
 				"685AF8C450180B2F"
 				"49C19A8B5519A87F"
 			]
+			description: [
+				"&a&n&lChecklist:&r"
+				""
+				"&dAutomated Gold Plates.&r"
+				""
+				"&dAutomated Gold Nuggets.&r"
+				""
+				"&dAutomated Fences.&r"
+				""
+				"&b&n&lRecommended Machine Ratio:&r"
+				""
+				"&61-2 Crafters on Wrenches.&r"
+			]
 			icon: "create:wrench"
 			id: "526B74809D6455D8"
+			subtitle: "OOOO an unstackable how annoying"
 			tasks: [{
 				id: "0E40395B313FFB72"
+				title: "Wronch"
 				type: "checkmark"
 			}]
 			title: "Automating... Wrenches.. Sure why not"
@@ -1812,10 +1908,23 @@
 		}
 		{
 			dependencies: ["552DD25027690140"]
+			description: [
+				"&a&n&lChecklist:&r"
+				""
+				"&dAutomated Andesite Alloy.&r"
+				""
+				"&dAutomated/Boulder-sourced Redstone.&r"
+				""
+				"&b&n&lRecommended Machine Ratio:&r"
+				""
+				"&61 Crafter on Gantry Shaft.&r"
+			]
 			icon: "create:gantry_shaft"
 			id: "36EA315878C88EBE"
+			subtitle: "Horizontal shmovement"
 			tasks: [{
 				id: "19BD4C1F28640B88"
+				title: "Also very simple"
 				type: "checkmark"
 			}]
 			title: "You Probably Have These Already"
@@ -1824,10 +1933,23 @@
 		}
 		{
 			dependencies: ["552DD25027690140"]
+			description: [
+				"&a&n&lChecklist:&r"
+				""
+				"&dAutomated Brass Nuggets.&r"
+				""
+				"&dAutomated Etched Living Wood.&r"
+				""
+				"&b&n&lRecommended Machine Ratio:&r"
+				""
+				"&61 Crafter on Hand Crank.&r"
+			]
 			icon: "create:hand_crank"
 			id: "49C19A8B5519A87F"
+			subtitle: "Crankin' It'"
 			tasks: [{
 				id: "15523A33AC70F5C9"
+				title: "Something about a hog"
 				type: "checkmark"
 			}]
 			title: "This Is Why My Dominant Arm Is Jacked"
@@ -1835,11 +1957,25 @@
 			y: 19.5d
 		}
 		{
-			dependencies: ["5A823DC796D1B3C7"]
+			dependencies: [
+				"5A823DC796D1B3C7"
+				"36EA315878C88EBE"
+			]
+			description: [
+				"&a&n&lChecklist:&r"
+				""
+				"&dAutomated Brass Nuggets.&r"
+				""
+				"&b&n&lRecommended Machine Ratio:&r"
+				""
+				"&61 Crafter on Brass Hand.&r"
+			]
 			icon: "create:brass_hand"
 			id: "67839BBF21FEC1E4"
+			subtitle: "*points at you*"
 			tasks: [{
 				id: "6AA88DF55B07B260"
+				title: "Boop"
 				type: "checkmark"
 			}]
 			title: "Great Nose Picker Tool"
@@ -1848,10 +1984,27 @@
 		}
 		{
 			dependencies: ["20D167D82EF73539"]
+			description: [
+				"Moving forward in the &6&nTutorial-Tutorial&r quests for specific production items will simply consist of a &achecklist&r and &brecommended throughput rate&r."
+				""
+				"Longer descriptions will be reserved to introducing new &dconcepts&r in mass automation. For now these next quests serve to put what you've learned into practice!"
+				"{@pagebreak}"
+				"&a&n&lChecklist:&r"
+				""
+				"&dCopper \\& Zinc boulders harvested.&r"
+				""
+				"&b&n&lRecommended Machine Ratio:&r"
+				""
+				"&62-4 Full up-time mixers for brass smelting.&r"
+				""
+				"&62-4 Full up-time presses for brass smashing.&r"
+			]
 			icon: "create:brass_sheet"
 			id: "5A823DC796D1B3C7"
+			subtitle: "Tarnishes quite quickly"
 			tasks: [{
 				id: "550DF1A49CD43DC1"
+				title: "Check list time!"
 				type: "checkmark"
 			}]
 			title: "Antimicrobial Rectangle"
@@ -1860,10 +2013,33 @@
 		}
 		{
 			dependencies: ["20D167D82EF73539"]
+			description: [
+				"Moving forward in the &6&nTutorial-Tutorial&r quests for specific production items will simply consist of a &achecklist&r and &brecommended throughput rate&r."
+				""
+				"Longer descriptions will be reserved to introducing new &dconcepts&r in mass automation. For now these next quests serve to put what you've learned into practice!"
+				"{@pagebreak}"
+				"&a&n&lChecklist:&r"
+				""
+				"&dAutomated iron sheet production.&r"
+				""
+				"&dBeetroot or automated red mystical flower plot.&r"
+				""
+				"&dGlass production \\& Breaking of glass.&r"
+				""
+				"&dRedstone \\& Quartz boulders harvested.&r"
+				""
+				"&b&n&lRecommended Machine Ratio:&r"
+				""
+				"&61 Crafter on unpolished rose quartz&r"
+				""
+				"&61-8 Belt Sanders on rose quartz&r"
+			]
 			icon: "create:electron_tube"
 			id: "685AF8C450180B2F"
+			subtitle: "Finally! A Beep Boop Doohicky!"
 			tasks: [{
 				id: "4ECB6D1E0FAFE459"
+				title: "Check list time!"
 				type: "checkmark"
 			}]
 			title: "Blinky Blinky"
@@ -1915,6 +2091,7 @@
 				""
 				"You can get very &bcreative&r with actual positioning of your modules. Go make some beautiful and functional builds!"
 			]
+			hide_until_deps_complete: true
 			icon: "botania:auto_crafting_halo"
 			id: "20D167D82EF73539"
 			size: 1.5d
@@ -1937,7 +2114,7 @@
 				type: "checkmark"
 			}]
 			title: "Automatic Assembly"
-			x: 0.5d
+			x: -0.5d
 			y: 23.5d
 		}
 		{
@@ -2125,6 +2302,493 @@
 			title: "About Sequenced Assemblies"
 			x: 0.0d
 			y: 24.5d
+		}
+		{
+			dependencies: ["38D12B5F0800566A"]
+			hide_until_deps_complete: true
+			icon: "create:cardboard"
+			id: "5106D178346697BD"
+			tasks: [{
+				id: "72FC98D18568AADF"
+				type: "checkmark"
+			}]
+			title: "Factory Rebuild Planning"
+			x: 3.0d
+			y: 24.0d
+		}
+		{
+			dependencies: [
+				"5106D178346697BD"
+				"572376FFCBF1346B"
+				"49C5B73F889B93FE"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			icon: "create:packager"
+			id: "735E537316779397"
+			tasks: [{
+				id: "3ACA4E8D4C69716F"
+				type: "checkmark"
+			}]
+			title: "Full Auto Part III"
+			x: 3.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["5106D178346697BD"]
+			icon: "create:package_frogport"
+			id: "43FA3306245C8508"
+			tasks: [{
+				id: "659A705056EE6D17"
+				type: "checkmark"
+			}]
+			title: "Full Auto Part I"
+			x: 4.0d
+			y: 26.0d
+		}
+		{
+			dependencies: ["43FA3306245C8508"]
+			icon: "create:stock_ticker"
+			id: "49C5B73F889B93FE"
+			tasks: [{
+				id: "5E847D271F2EC375"
+				type: "checkmark"
+			}]
+			title: "Full Auto Part II"
+			x: 4.0d
+			y: 27.0d
+		}
+		{
+			dependencies: ["735E537316779397"]
+			icon: "create:factory_gauge"
+			id: "430C94D9517D5D9D"
+			tasks: [{
+				id: "4D31CD555D32F2A0"
+				type: "checkmark"
+			}]
+			title: "Full Auto Part IV"
+			x: 3.5d
+			y: 29.0d
+		}
+		{
+			dependencies: ["572376FFCBF1346B"]
+			hide_until_deps_complete: true
+			icon: "minecraft:book"
+			id: "47F680540FB93E79"
+			tasks: [{
+				id: "186A395BC85A9892"
+				type: "checkmark"
+			}]
+			title: "An Empty Book"
+			x: 0.5d
+			y: 29.0d
+		}
+		{
+			dependencies: [
+				"572376FFCBF1346B"
+				"47F680540FB93E79"
+			]
+			icon: "nyagibits_bytes:lab_notebook"
+			id: "03A815CBCA0DBB53"
+			tasks: [{
+				id: "60B8824250314F86"
+				type: "checkmark"
+			}]
+			title: "Book Full of Words"
+			x: 0.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["29BC304ECFD216ED"]
+			icon: "nyagibits_bytes:sturdy_box"
+			id: "15CCC13268A61E5A"
+			tasks: [{
+				id: "14ED733BBE9FA569"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 33.0d
+		}
+		{
+			dependencies: [
+				"660F85642D39AD82"
+				"0740C8BA77017C14"
+				"05BF53187F0ECE8B"
+				"000D944FF68C9795"
+			]
+			icon: "nyagibits_bytes:soil_sample"
+			id: "031FC7BF6DBACBDA"
+			tasks: [{
+				id: "71FD5B0A1E190265"
+				type: "checkmark"
+			}]
+			title: "Ball of Various Dirts"
+			x: -3.0d
+			y: 31.0d
+		}
+		{
+			dependencies: ["30CB9B465E44B168"]
+			icon: "minecraft:piston"
+			id: "29BC304ECFD216ED"
+			tasks: [{
+				id: "3D98AD348A536169"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 32.0d
+		}
+		{
+			dependencies: [
+				"29BC304ECFD216ED"
+				"15CCC13268A61E5A"
+				"031FC7BF6DBACBDA"
+			]
+			icon: "nyagibits_bytes:crude_compression_test"
+			id: "39F43B22D41B03F0"
+			tasks: [{
+				id: "4BBF9E52B535F11A"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 32.0d
+		}
+		{
+			dependencies: [
+				"2EC39D6B00E83562"
+				"03A815CBCA0DBB53"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			icon: "nyagibits_bytes:lab_notebook_with_crude_compression_data"
+			id: "11DB025ACD257549"
+			tasks: [{
+				id: "63C33F76A1A3AFF4"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["39F43B22D41B03F0"]
+			icon: "nyagibits_bytes:used_crude_compression_test"
+			id: "2EC39D6B00E83562"
+			tasks: [{
+				id: "128E64507B14D82C"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["3721EAFBBF12DED2"]
+			icon: "minecraft:mud"
+			id: "0740C8BA77017C14"
+			tasks: [{
+				id: "04FEC17C2033AD81"
+				type: "checkmark"
+			}]
+			title: "Wet Dirt"
+			x: -2.0d
+			y: 30.5d
+		}
+		{
+			dependencies: ["660F85642D39AD82"]
+			icon: "minecraft:dirt"
+			id: "3721EAFBBF12DED2"
+			tasks: [{
+				id: "62D8D38671847BED"
+				type: "checkmark"
+			}]
+			title: "Dirty Dirt"
+			x: -2.0d
+			y: 29.5d
+		}
+		{
+			dependencies: ["05BF53187F0ECE8B"]
+			icon: "minecraft:clay"
+			id: "000D944FF68C9795"
+			tasks: [{
+				id: "4AE52426A707AED6"
+				type: "checkmark"
+			}]
+			title: "Tiny Wet Sand"
+			x: -2.0d
+			y: 28.5d
+		}
+		{
+			dependencies: ["6E710D3AFF2C376F"]
+			icon: "minecraft:sand"
+			id: "05BF53187F0ECE8B"
+			tasks: [{
+				id: "4AC5FDF4C648A445"
+				type: "checkmark"
+			}]
+			title: "Sandy Sand"
+			x: -3.0d
+			y: 29.0d
+		}
+		{
+			dependencies: ["6E710D3AFF2C376F"]
+			icon: "minecraft:coarse_dirt"
+			id: "660F85642D39AD82"
+			tasks: [{
+				id: "2F763F6B400B601F"
+				type: "checkmark"
+			}]
+			title: "Rough Dirt"
+			x: -3.0d
+			y: 30.0d
+		}
+		{
+			dependencies: ["03A815CBCA0DBB53"]
+			hide_until_deps_complete: true
+			icon: "minecraft:gravel"
+			id: "6E710D3AFF2C376F"
+			tasks: [{
+				id: "042DE37B475F3056"
+				type: "checkmark"
+			}]
+			title: "Big Pre-Sand"
+			x: -3.0d
+			y: 28.0d
+		}
+		{
+			dependencies: ["6E710D3AFF2C376F"]
+			icon: "create:piston_extension_pole"
+			id: "30CB9B465E44B168"
+			tasks: [{
+				id: "4C59F7DE1534E2B9"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 32.0d
+		}
+		{
+			dependencies: [
+				"15CCC13268A61E5A"
+				"41A6D23F9FD20AEB"
+			]
+			icon: "nyagibits_bytes:crude_material_properties_test"
+			id: "268903A6E46B5500"
+			tasks: [{
+				id: "768E327237E217C7"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 34.0d
+		}
+		{
+			dependencies: [
+				"36D04E231A17BDB7"
+				"268903A6E46B5500"
+			]
+			icon: "nyagibits_bytes:used_crude_material_properties_test"
+			id: "72D13894AD693D88"
+			tasks: [{
+				id: "57BA9DD913218A50"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 35.0d
+		}
+		{
+			dependencies: [
+				"03A815CBCA0DBB53"
+				"72D13894AD693D88"
+				"41A6D23F9FD20AEB"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			icon: "nyagibits_bytes:lab_notebook_with_crude_material_properties_data"
+			id: "79BEC631B6F6A2CB"
+			tasks: [{
+				id: "7DD6E941E11CDBBD"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 35.0d
+		}
+		{
+			dependencies: [
+				"175BC8F5D75985F2"
+				"03A815CBCA0DBB53"
+				"11DB025ACD257549"
+			]
+			dependency_requirement: "one_completed"
+			hide_until_deps_complete: true
+			icon: "nyagibits_bytes:lab_notebook_with_crude_acidics_data"
+			id: "41A6D23F9FD20AEB"
+			tasks: [{
+				id: "3313119B6E8161BC"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 34.0d
+		}
+		{
+			dependencies: ["75474EF033B15515"]
+			icon: "nyagibits_bytes:used_crude_acidics_test"
+			id: "175BC8F5D75985F2"
+			tasks: [{
+				id: "4CC9CE93F7D83B6C"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 34.0d
+		}
+		{
+			dependencies: [
+				"78BE8C217A1971B2"
+				"36D04E231A17BDB7"
+			]
+			icon: "nyagibits_bytes:crude_acidics_test"
+			id: "75474EF033B15515"
+			tasks: [{
+				id: "6222A496517CC0A0"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 34.0d
+		}
+		{
+			dependencies: ["75329A546B4CC7FB"]
+			icon: "nyagibits_bytes:bottle_of_malic_and_citric_acid"
+			id: "36D04E231A17BDB7"
+			tasks: [{
+				id: "4A962A48F2673F66"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 35.0d
+		}
+		{
+			dependencies: ["77D688DBAECDEA3E"]
+			icon: "nyagibits_bytes:bottle_of_anthocyanin"
+			id: "78BE8C217A1971B2"
+			tasks: [{
+				id: "071E4CDF558C076C"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["03A815CBCA0DBB53"]
+			hide_until_deps_complete: true
+			icon: "nyagibits_bytes:lab_notebook_with_crude_entropy_data"
+			id: "6295DB4A1C1D9F8E"
+			tasks: [{
+				id: "732595AB10D46F5A"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 34.0d
+		}
+		{
+			dependencies: ["03A815CBCA0DBB53"]
+			hide_until_deps_complete: true
+			icon: "nyagibits_bytes:lab_notebook_with_crude_statics_data"
+			id: "53AE2AA704854714"
+			tasks: [{
+				id: "48375EF4E43FB818"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["03A815CBCA0DBB53"]
+			hide_until_deps_complete: true
+			icon: "nyagibits_bytes:lab_notebook_with_crude_natural_arcana_data"
+			id: "140562E25237984C"
+			tasks: [{
+				id: "1539122D7F22A903"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 33.0d
+		}
+		{
+			dependencies: ["03A815CBCA0DBB53"]
+			hide_until_deps_complete: true
+			icon: "create:mechanical_harvester"
+			id: "2D1FCCE41C9BDAE0"
+			tasks: [{
+				id: "36F432F945AFD292"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 30.0d
+		}
+		{
+			dependencies: ["2D1FCCE41C9BDAE0"]
+			icon: "farmersdelight:cabbage"
+			id: "77D688DBAECDEA3E"
+			tasks: [{
+				id: "5B6BEDE560F241E5"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 32.0d
+		}
+		{
+			dependencies: ["77D688DBAECDEA3E"]
+			icon: "farmersdelight:tomato"
+			id: "75329A546B4CC7FB"
+			tasks: [{
+				id: "00EE1631D8BF42DB"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 33.0d
+		}
+		{
+			id: "0469825002DD7DDC"
+			tasks: [{
+				id: "4614BEC31B17A4AC"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 33.0d
+		}
+		{
+			id: "04807CA10AFCF465"
+			tasks: [{
+				id: "43ED36CE724E9BDE"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 32.0d
+		}
+		{
+			icon: "nyagibits_bytes:used_crude_statics_test"
+			id: "313F68E1E329804D"
+			tasks: [{
+				id: "3EA04F75AA4841D6"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 31.0d
+		}
+		{
+			icon: "nyagibits_bytes:crude_statics_test"
+			id: "2CB109127EF45108"
+			tasks: [{
+				id: "7D9C0E6514ACF223"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 31.0d
+		}
+		{
+			icon: "nyagibits_bytes:torn_wool_ball"
+			id: "7EFD3E2557368382"
+			tasks: [{
+				id: "2C53B48F91638AA8"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 30.0d
 		}
 	]
 	title: " &6Tier 0"
