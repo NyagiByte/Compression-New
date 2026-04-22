@@ -773,6 +773,24 @@
         "minecraft:gray_candle",
         "minecraft:black_candle",
         "minecraft:brown_candle",
-        "minecraft:red_candles"
+        "minecraft:red_candles",
+        "minecraft:orange_candle",
+        "minecraft:yellow_candle",
+        "minecraft:lime_candle",
+        "minecraft:green_candle",
+        "minecraft:cyan_candle",
+        "minecraft:light_blue_candle",
+        "minecraft:blue_candle",
+        "minecraft:purple_candle",
+        "minecraft:magenta_candle",
+        "minecraft:pink_candle",
+        "minecraft:white_banner",
+        "minecraft:light_gray_banner",
+        "minecraft:gray_banner",
+        "minecraft:black_banner",
+        "minecraft:brown_banner",
+        "minecraft:red_banner",
+        "minecraft:orange_banner",
+        "minecraft:yellow_banner"
     ]
   }
