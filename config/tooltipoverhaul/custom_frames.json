@@ -130,15 +130,28 @@
     },
     {
       "tags": [
-        "forge:tier_groups/tier_9"
+        "forge:tier_groups/tier_8"
       ],
-      "itemRating": "Tier 9",
-      "colorItemRating": "0x41008C",
+      "itemRating": "Tier 8",
+      "colorItemRating": "0x5100AD",
       "titleAlignment": "left",
       "ratingAlignment": "left",
       "gradientType": "custom",
       "borderType": "static",
-      "gradientColors": ["#41008C", "#41008C", "#41008C"],
+      "gradientColors": ["#5100AD", "#5100AD", "#5100AD"],
+      "showRating": true
+    },
+    {
+      "tags": [
+        "forge:tier_groups/tier_9"
+      ],
+      "itemRating": "Tier 9",
+      "colorItemRating": "0x503C68",
+      "titleAlignment": "left",
+      "ratingAlignment": "left",
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": ["#503C68", "#503C68", "#503C68"],
       "showRating": true
     }
   ]
