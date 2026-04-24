@@ -28,73 +28,118 @@
       "tags": [
         "forge:tier_groups/tier_0"
       ],
+      "itemRating": "Tier 0",
+      "colorItemRating": "0x858585",
+      "titleAlignment": "left",
+      "ratingAlignment": "left",
       "gradientType": "custom",
       "borderType": "static",
-      "gradientColors": ["#858585", "#858585", "#858585"]
+      "gradientColors": ["#858585", "#858585", "#858585"],
+      "showRating": true
     },
     {
       "tags": [
         "forge:tier_groups/tier_1"
       ],
+      "itemRating": "Tier 1",
+      "colorItemRating": "0x80B9FF",
+      "titleAlignment": "left",
+      "ratingAlignment": "left",
       "gradientType": "custom",
       "borderType": "static",
-      "gradientColors": ["#80B9FF", "#80B9FF", "#80B9FF"]
+      "gradientColors": ["#80B9FF", "#80B9FF", "#80B9FF"],
+      "showRating": true
     },
     {
       "tags": [
         "forge:tier_groups/tier_2"
       ],
+      "itemRating": "Tier 2",
+      "colorItemRating": "0xE08114",
+      "titleAlignment": "left",
+      "ratingAlignment": "left",
       "gradientType": "custom",
       "borderType": "static",
-      "gradientColors": ["#E08114", "#E08114", "#E08114"]
+      "gradientColors": ["#E08114", "#E08114", "#E08114"],
+      "showRating": true
     },
     {
       "tags": [
         "forge:tier_groups/tier_3"
       ],
+      "itemRating": "Tier 3",
+      "colorItemRating": "0xD500D9",
+      "titleAlignment": "left",
+      "ratingAlignment": "left",
       "gradientType": "custom",
       "borderType": "static",
-      "gradientColors": ["#D500D9", "#D500D9", "#D500D9"]
+      "gradientColors": ["#D500D9", "#D500D9", "#D500D9"],
+      "showRating": true
     },
     {
       "tags": [
         "forge:tier_groups/tier_4"
       ],
+      "itemRating": "Tier 4",
+      "colorItemRating": "0x4FFF53",
+      "titleAlignment": "left",
+      "ratingAlignment": "left",
       "gradientType": "custom",
       "borderType": "static",
-      "gradientColors": ["#4FFF53", "#4FFF53", "#4FFF53"]
+      "gradientColors": ["#4FFF53", "#4FFF53", "#4FFF53"],
+      "showRating": true
     },
     {
       "tags": [
         "forge:tier_groups/tier_5"
       ],
+      "itemRating": "Tier 5",
+      "colorItemRating": "0xFFF200",
+      "titleAlignment": "left",
+      "ratingAlignment": "left",
       "gradientType": "custom",
       "borderType": "static",
-      "gradientColors": ["#FFF200", "#FFF200", "#FFF200"]
+      "gradientColors": ["#FFF200", "#FFF200", "#FFF200"],
+      "showRating": true
     },
     {
       "tags": [
         "forge:tier_groups/tier_6"
       ],
+      "itemRating": "Tier 6",
+      "colorItemRating": "0xFFFFFF",
+      "titleAlignment": "left",
+      "ratingAlignment": "left",
       "gradientType": "custom",
       "borderType": "static",
-      "gradientColors": ["#FFFFFF", "#FFFFFF", "#FFFFFF"]
+      "gradientColors": ["#FFFFFF", "#FFFFFF", "#FFFFFF"],
+      "showRating": true
     },
     {
       "tags": [
         "forge:tier_groups/tier_7"
       ],
+      "itemRating": "Tier 7",
+      "colorItemRating": "0xA30000",
+      "titleAlignment": "left",
+      "ratingAlignment": "left",
       "gradientType": "custom",
       "borderType": "static",
-      "gradientColors": ["#A30000", "#A30000", "#A30000"]
+      "gradientColors": ["#A30000", "#A30000", "#A30000"],
+      "showRating": true
     },
     {
       "tags": [
         "forge:tier_groups/tier_9"
       ],
+      "itemRating": "Tier 9",
+      "colorItemRating": "0x41008C",
+      "titleAlignment": "left",
+      "ratingAlignment": "left",
       "gradientType": "custom",
       "borderType": "static",
-      "gradientColors": ["#41008C", "#41008C", "#41008C"]
+      "gradientColors": ["#41008C", "#41008C", "#41008C"],
+      "showRating": true
     }
   ]
 }
