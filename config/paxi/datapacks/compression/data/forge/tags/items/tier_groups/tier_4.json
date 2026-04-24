@@ -132,6 +132,14 @@
         "minecraft:zombie_horse_spawn_egg",
         "minecraft:zombie_villager_spawn_egg",
         "minecraft:zombified_piglin_spawn_egg",
-        "minecraft:drowned_spawn_egg"
+        "minecraft:drowned_spawn_egg",
+        "create:bar_of_chocolate",
+        "create:sweet_roll",
+        "create:chocolate_glazed_berries",
+        "create:honeyed_apple",
+        "create:builders_tea",
+        "create:chocolate_bucket",
+        "create:experience_nugget",
+        "create:experience_block"
     ]
   }

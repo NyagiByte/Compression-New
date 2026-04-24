@@ -38,6 +38,10 @@
         "alchemistry:reactor_output",
         "alchemistry:reactor_input",
         "alchemistry:reactor_energy",
-        "alchemistry:reactor_glass"
+        "alchemistry:reactor_glass",
+        "vintageimprovements:uranium_rod",
+        "vintageimprovements:uranium_wire",
+        "vintageimprovements:uranium_spring",
+        "vintageimprovements:small_uranium_spring"
     ]
   }
