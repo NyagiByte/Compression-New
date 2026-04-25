@@ -97,6 +97,7 @@
         "minecraft:snout_armor_trim_smithing_template",
         "minecraft:rib_armor_trim_smithing_template",
         "minecraft:eye_armor_trim_smithing_template",
-        "minecraft:spire_armor_trim_smithing_template"
+        "minecraft:spire_armor_trim_smithing_template",
+        "nyagibits_bytes:rune_computational"
     ]
   }
