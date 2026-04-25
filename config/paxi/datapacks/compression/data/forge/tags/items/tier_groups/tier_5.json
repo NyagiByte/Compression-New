@@ -42,6 +42,12 @@
         "vintageimprovements:uranium_rod",
         "vintageimprovements:uranium_wire",
         "vintageimprovements:uranium_spring",
-        "vintageimprovements:small_uranium_spring"
+        "vintageimprovements:small_uranium_spring",
+        "nyagibits_bytes:embrittled_plating_zircaloy_4",
+        "nyagibits_bytes:embrittled_fuel_casing",
+        "nyagibits_bytes:tritium_tube",
+        "nyagibits_bytes:cobalt_60_tube",
+        "nyagibits_bytes:trinitite",
+        "nyagibits_bytes:scrap_nuclear"
     ]
   }
