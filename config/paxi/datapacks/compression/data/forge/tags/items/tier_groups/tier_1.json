@@ -1471,6 +1471,8 @@
         "nyagibits_bytes:bucket_of_gasoline_additives_raw",
         "nyagibits_bytes:bucket_of_ethylene",
         "nyagibits_bytes:bucket_of_benzene",
-        "nyagibits_bytes:bucket_of_opa_1214"
+        "nyagibits_bytes:bucket_of_opa_1214",
+        "entangled:item",
+        "entangled:block"
     ]
   }
