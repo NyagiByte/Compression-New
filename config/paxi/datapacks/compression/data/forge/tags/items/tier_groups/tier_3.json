@@ -98,6 +98,12 @@
         "minecraft:rib_armor_trim_smithing_template",
         "minecraft:eye_armor_trim_smithing_template",
         "minecraft:spire_armor_trim_smithing_template",
-        "nyagibits_bytes:rune_computational"
+        "nyagibits_bytes:rune_computational",
+        "atmospheric:sun_pottery_sherd",
+        "atmospheric:succulent_pottery_sherd",
+        "atmospheric:scythe_pottery_sherd",
+        "atmospheric:petrified_armor_trim_smithing_template",
+        "atmospheric:druid_armor_trim_smithing_template",
+        "atmospheric:apostle_armor_trim_smithing_template"
     ]
   }
