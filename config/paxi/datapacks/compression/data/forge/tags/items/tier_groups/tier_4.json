@@ -155,6 +155,24 @@
         "nyagibits_bytes:sample_amex_solution",
         "nyagibits_bytes:scrap_organic",
         "nyagibits_bytes:floral_fruit_flavoring",
-        "nyagibits_bytes:bucket_of_amex_solution"
+        "nyagibits_bytes:bucket_of_amex_solution",
+        "atmospheric:orange_pudding",
+        "atmospheric:candied_orange_slices",
+        "atmospheric:passion_fruit_tart",
+        "atmospheric:yucca_gateau",
+        "atmospheric:roasted_yucca_fruit",
+        "atmospheric:golden_dragon_fruit",
+        "atmospheric:shimmering_passion_fruit",
+        "atmospheric:orange_sorbet",
+        "atmospheric:aloe_gel_bottle",
+        "atmospheric:aloe_gel_block",
+        "atmospheric:roasted_yucca_bundle",
+        "atmospheric:roasted_yucca_cask",
+        "atmospheric:shimmering_passion_fruit_crate",
+        "atmospheric:golden_dragon_fruit_crate",
+        "atmospheric:cochineal_spawn_egg",
+        "atmospheric:tetra_spawn_egg",
+        "atmospheric:passion_fruit_sorbet",
+        "atmospheric:currant_muffin"
     ]
   }
