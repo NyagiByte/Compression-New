@@ -112,6 +112,19 @@
         "nyagibits_bytes:incomplete_petri_dish_glass",
         "nyagibits_bytes:incomplete_processed_pulp_amex",
         "nyagibits_bytes:incomplete_processed_pulp_glutaraldehyde",
-        "nyagibits_bytes:incomplete_processed_pulp_potassium_permanganate"
+        "nyagibits_bytes:incomplete_processed_pulp_potassium_permanganate",
+        "appbot:portable_mana_storage_cell_4k",
+        "appbot:portable_mana_storage_cell_1k",
+        "appbot:mana_storage_cell_256k",
+        "appbot:mana_storage_cell_64k",
+        "appbot:mana_storage_cell_16k",
+        "appbot:mana_storage_cell_4k",
+        "appbot:mana_storage_cell_1k",
+        "appbot:mana_cell_housing",
+        "appbot:fluix_mana_pool",
+        "appbot:mana_p2p_tunnel",
+        "appbot:portable_mana_storage_cell_256k",
+        "appbot:portable_mana_storage_cell_64k",
+        "appbot:portable_mana_storage_cell_16k"
     ]
   }
