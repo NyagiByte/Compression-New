@@ -32,7 +32,12 @@
 
 		{"namespace": "mekanism", "path": "recipes/sawing/item_frame.json"},
 
+		{"namespace": "mekanism", "path": "recipes/processing/uranium/fissile_fuel.json"},
+		{"namespace": "mekanism", "path": "recipes/processing/lategame/plutonium.json"},
 		{"namespace": "mekanism", "path": "recipes/processing/lategame/polonium.json"},
+
+		{"namespace": "mekanism", "path": "recipes/steam.json"},
+		{"namespace": "mekanism", "path": "recipes/sodium.json"},
 
 		{"namespace": "compressedcreativity", "path": "recipes/crafting/mesh_empty.json"},
 		{"namespace": "compressedcreativity", "path": "recipes/crafting/mechanical_visor_upgrade.json"},
