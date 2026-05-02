@@ -280,6 +280,13 @@
         "architects_palette:entrails_stairs",
         "architects_palette:entrails_vertical_slab",
         "architects_palette:entrails_slab",
-        "architects_palette:entrails"
+        "architects_palette:entrails",
+        "natures_spirit:cheese_arrow",
+        "natures_spirit:cheese_bucket",
+        "natures_spirit:quarter_pizza",
+        "natures_spirit:half_pizza",
+        "natures_spirit:three_quarters_pizza",
+        "natures_spirit:whole_pizza",
+        "natures_spirit:whole_pizza"
     ]
   }
