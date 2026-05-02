@@ -1,0 +1,17 @@
+filename = 'starterstructure-1.20.1-4.2.jar'
+name = 'Starter Structure'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[Fabric/Forge/Neo] 1.20.1-4.2 | Starter Structure'
+
+[download]
+hash = '26683c2f96d6ff6cf8fbff1d720016d50a7434ae'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6367233
+project-id = 746391

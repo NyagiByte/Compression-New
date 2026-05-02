@@ -1,0 +1,17 @@
+filename = 'fast-ip-ping-v1.0.11-mc1.20.4-forge.jar'
+name = 'Fast IP Ping'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[forge] Fast IP Ping v1.0.11 for mc1.20.4'
+
+[download]
+hash = '0499d46875bce1bffb1978ff775a77b13363aa22'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7936389
+project-id = 904356
