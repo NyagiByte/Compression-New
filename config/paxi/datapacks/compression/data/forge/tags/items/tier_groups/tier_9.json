@@ -7,6 +7,8 @@
         "botania:tiny_planet",
         "minecraft:bedrock",
         "minecraft:totem_of_undying",
-        "minecraft:disc_fragment_5"
+        "minecraft:disc_fragment_5",
+        "architects_palette:unobtanium",
+        "architects_palette:unobtanium_block"
     ]
   }
