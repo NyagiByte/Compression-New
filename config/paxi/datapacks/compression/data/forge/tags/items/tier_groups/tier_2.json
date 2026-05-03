@@ -175,6 +175,18 @@
         "quark:indigo_crystal_lamp",
         "quark:violet_crystal_lamp",
         "quark:white_crystal_lamp",
-        "quark:black_crystal_lamp"
+        "quark:black_crystal_lamp",
+        "minecraft:music_disc_13",
+        "biomeswevegone:music_disc_better_days",
+        "biomeswevegone:music_disc_pixie_club",
+        "quark:music_disc_endermosh",
+        "quark:music_disc_chatter",
+        "quark:music_disc_crickets",
+        "quark:music_disc_clock",
+        "quark:music_disc_fire",
+        "quark:music_disc_wind",
+        "quark:music_disc_rain",
+        "quark:music_disc_ocean",
+        "quark:music_disc_drips"
     ]
   }
