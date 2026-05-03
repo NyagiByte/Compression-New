@@ -1798,6 +1798,8 @@
         "quark:chorus_twist",
         "quark:redstone_randomizer",
         "quark:prismarine_trapped_chest",
-        "quark:bottled_cloud"
+        "quark:bottled_cloud",
+        "constructionwand:infinity_wand",
+        "constructionwand:diamond_wand"
     ]
   }

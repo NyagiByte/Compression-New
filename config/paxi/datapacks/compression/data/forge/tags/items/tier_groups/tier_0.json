@@ -5893,6 +5893,8 @@
         "quark:iron_button",
         "quark:obsidian_pressure_plate",
         "quark:trowel",
-        "quark:grate"
+        "quark:grate",
+        "constructionwand:iron_wand",
+        "constructionwand:stone_wand"
     ]
   }

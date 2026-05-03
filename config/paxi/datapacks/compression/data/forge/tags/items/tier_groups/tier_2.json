@@ -187,6 +187,25 @@
         "quark:music_disc_wind",
         "quark:music_disc_rain",
         "quark:music_disc_ocean",
-        "quark:music_disc_drips"
+        "quark:music_disc_drips",
+        "minecraft:music_disc_cat",
+        "minecraft:music_disc_blocks",
+        "minecraft:music_disc_chirp",
+        "minecraft:music_disc_far",
+        "minecraft:music_disc_mall",
+        "minecraft:music_disc_mellohi",
+        "minecraft:music_disc_stal",
+        "minecraft:music_disc_strad",
+        "minecraft:music_disc_ward",
+        "minecraft:music_disc_11",
+        "minecraft:music_disc_wait",
+        "minecraft:music_disc_otherside",
+        "minecraft:music_disc_5",
+        "minecraft:music_disc_pigstep",
+        "minecraft:music_disc_relic",
+        "endergetic:music_disc_kilobyte",
+        "supplementaries:music_disc_heave_ho",
+        "textiles_and_trinkets:disc_down_hearted_blues",
+        "textiles_and_trinkets:disc_dipper_mouth_blues"
     ]
   }
