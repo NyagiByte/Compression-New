@@ -126,6 +126,8 @@
         "ae2:256k_crafting_storage",
         "ae2:64k_crafting_storage",
         "ae2:16k_crafting_storage",
-        "ae2:1k_crafting_storage"
+        "ae2:1k_crafting_storage",
+        "botania:elf_quartz_stairs",
+        "botania:stripped_dreamwood_stairs"
     ]
   }

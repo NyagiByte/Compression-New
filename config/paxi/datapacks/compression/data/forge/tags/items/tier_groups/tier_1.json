@@ -1789,6 +1789,9 @@
         "createdeco:long_pearl_brick_slab",
         "create_pattern_schematics:pattern_schematic",
         "createdeco:mossy_pearl_brick_wall",
-        "createdeco:cracked_pearl_brick_wall"
+        "createdeco:cracked_pearl_brick_wall",
+        "botania:cosmetic_pink_flower_bud",
+        "botania:obedience_stick",
+        "botania:lens_storm"
     ]
   }
