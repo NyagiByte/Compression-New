@@ -1797,6 +1797,7 @@
         "quark:chorus_weeds",
         "quark:chorus_twist",
         "quark:redstone_randomizer",
-        "quark:prismarine_trapped_chest"
+        "quark:prismarine_trapped_chest",
+        "quark:bottled_cloud"
     ]
   }

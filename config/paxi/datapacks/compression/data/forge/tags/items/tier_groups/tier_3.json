@@ -129,6 +129,7 @@
         "ae2:1k_crafting_storage",
         "botania:elf_quartz_stairs",
         "botania:stripped_dreamwood_stairs",
-        "quark:ancient_tome"
+        "quark:ancient_tome",
+        "quark:smithing_template_rune"
     ]
   }

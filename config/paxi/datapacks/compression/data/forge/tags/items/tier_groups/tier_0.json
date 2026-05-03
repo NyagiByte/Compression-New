@@ -5882,6 +5882,17 @@
         "quark:abacus",
         "quark:crafter",
         "quark:ender_watcher",
-        "quark:gravisand"
+        "quark:gravisand",
+        "quark:torch_arrow",
+        "quark:egg_parrot_red_blue",
+        "quark:egg_parrot_blue",
+        "quark:egg_parrot_green",
+        "quark:egg_parrot_yellow_blue",
+        "quark:egg_parrot_gray",
+        "quark:gold_button",
+        "quark:iron_button",
+        "quark:obsidian_pressure_plate",
+        "quark:trowel",
+        "quark:grate"
     ]
   }
