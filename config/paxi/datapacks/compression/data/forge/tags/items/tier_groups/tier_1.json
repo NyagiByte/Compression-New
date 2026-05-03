@@ -1792,6 +1792,11 @@
         "createdeco:cracked_pearl_brick_wall",
         "botania:cosmetic_pink_flower_bud",
         "botania:obedience_stick",
-        "botania:lens_storm"
+        "botania:lens_storm",
+        "quark:prismarine_chest",
+        "quark:chorus_weeds",
+        "quark:chorus_twist",
+        "quark:redstone_randomizer",
+        "quark:prismarine_trapped_chest"
     ]
   }

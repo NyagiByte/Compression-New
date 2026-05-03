@@ -309,6 +309,17 @@
         "quark:ancient_planks_slab",
         "quark:vertical_ancient_planks",
         "quark:ancient_planks",
-        "quark:ancient_hedge"
+        "quark:ancient_hedge",
+        "quark:ancient_trapped_chest",
+        "quark:ancient_chest",
+        "quark:ancient_hanging_sign",
+        "quark:ancient_sign",
+        "quark:ancient_bookshelf",
+        "quark:ancient_ladder",
+        "quark:ancient_sapling",
+        "quark:ancient_leaf_carpet",
+        "quark:ancient_leaves",
+        "quark:ancient_chest_boat",
+        "quark:ancient_boat"
     ]
   }
