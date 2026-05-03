@@ -287,6 +287,9 @@
         "natures_spirit:half_pizza",
         "natures_spirit:three_quarters_pizza",
         "natures_spirit:whole_pizza",
-        "natures_spirit:whole_pizza"
+        "natures_spirit:whole_pizza",
+        "quark:cooked_crab_leg",
+        "quark:golden_carrot_crate",
+        "quark:golden_apple_crate"
     ]
   }
