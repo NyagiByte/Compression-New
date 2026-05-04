@@ -6281,6 +6281,7 @@
         "ironchests:iron_dolly",
         "ironchests:obsidian_barrel",
         "ironchests:crystal_barrel",
-        "ironchests:diamond_barrel"
+        "ironchests:diamond_barrel",
+        "measurements:tape_measure"
     ]
   }
