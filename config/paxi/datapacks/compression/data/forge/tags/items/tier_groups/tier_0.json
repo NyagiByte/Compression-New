@@ -6282,6 +6282,23 @@
         "ironchests:obsidian_barrel",
         "ironchests:crystal_barrel",
         "ironchests:diamond_barrel",
-        "measurements:tape_measure"
+        "measurements:tape_measure",
+        "spelunkery:wooden_rail",
+        "spelunkery:nephrite_diode",
+        "spelunkery:nephrite_fountain",
+        "spelunkery:nephrite_siphon",
+        "spelunkery:carved_nephrite",
+        "spelunkery:rope_ladder",
+        "spelunkery:stone_sluice",
+        "spelunkery:stone_channel",
+        "spelunkery:wooden_sluice",
+        "spelunkery:nephrite_chunk",
+        "spelunkery:charcoal_lump",
+        "spelunkery:coal_lump",
+        "spelunkery:parachute",
+        "spelunkery:echo_fork",
+        "spelunkery:tuning_fork",
+        "spelunkery:mineomite",
+        "spelunkery:obsidian_hammer_and_chisel"
     ]
   }
