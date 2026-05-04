@@ -6305,6 +6305,21 @@
         "mekanism:salt",
         "mekanism:sawdust",
         "mekanism:basic_fluid_tank",
-        "mekanism:block_salt"
+        "mekanism:block_salt",
+        "quark:azalea_boat",
+        "quark:slime_in_a_bucket",
+        "quark:crab_bucket",
+        "quark:glow_lichen_growth",
+        "quark:glow_shroom_ring",
+        "quark:glow_shroom_stem",
+        "quark:glow_shroom_block",
+        "quark:glow_shroom",
+        "quark:myalite_crystal",
+        "quark:crab_shell",
+        "quark:dirty_shard",
+        "quark:crab_leg",
+        "quark:blossom_chest_boat",
+        "quark:blossom_boat",
+        "quark:azalea_chest_boat"
     ]
   }

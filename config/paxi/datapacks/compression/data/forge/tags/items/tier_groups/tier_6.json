@@ -251,6 +251,8 @@
         "railways:track_incomplete_quark_ancient",
         "railways:track_incomplete_quark_blossom_narrow",
         "railways:track_incomplete_quark_blossom_wide",
-        "railways:track_incomplete_quark_blossom"
+        "railways:track_incomplete_quark_blossom",
+        "quark:monster_box",
+        "quark:soul_bead"
     ]
   }
