@@ -48,6 +48,19 @@
         "nyagibits_bytes:tritium_tube",
         "nyagibits_bytes:cobalt_60_tube",
         "nyagibits_bytes:trinitite",
-        "nyagibits_bytes:scrap_nuclear"
+        "nyagibits_bytes:scrap_nuclear",
+        "mekanism:hazmat_pants",
+        "mekanism:hazmat_gown",
+        "mekanism:hazmat_mask",
+        "mekanism:geiger_counter",
+        "mekanism:dosimeter",
+        "mekanism:radioactive_waste_barrel",
+        "mekanism:ultimate_fluid_tank",
+        "mekanism:isotopic_centrifuge",
+        "mekanism:seismic_vibrator",
+        "mekanism:seismic_reader",
+        "mekanism:yellow_cake_uranium",
+        "mekanism:reprocessed_fissile_fragment",
+        "mekanism:hazmat_boots"
     ]
   }

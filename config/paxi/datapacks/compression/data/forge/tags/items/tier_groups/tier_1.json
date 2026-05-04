@@ -1854,6 +1854,9 @@
         "chemlib:sulfuric_acid_bucket",
         "chemlib:sulfur_trioxide_bucket",
         "chemlib:sulfur_dioxide_bucket",
-        "ironchests:diamond_dolly"
+        "ironchests:diamond_dolly",
+        "mekanism:advanced_fluid_tank",
+        "mekanism:industrial_alarm",
+        "mekanism:dust_fluorite"
     ]
   }

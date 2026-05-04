@@ -6299,6 +6299,12 @@
         "spelunkery:echo_fork",
         "spelunkery:tuning_fork",
         "spelunkery:mineomite",
-        "spelunkery:obsidian_hammer_and_chisel"
+        "spelunkery:obsidian_hammer_and_chisel",
+        "mekanism:dust_coal",
+        "mekanism:dust_charcoal",
+        "mekanism:salt",
+        "mekanism:sawdust",
+        "mekanism:basic_fluid_tank",
+        "mekanism:block_salt"
     ]
   }

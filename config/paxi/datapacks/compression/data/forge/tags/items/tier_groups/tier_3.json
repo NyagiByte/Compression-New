@@ -132,6 +132,9 @@
         "quark:ancient_tome",
         "quark:smithing_template_rune",
         "supplementaries:botania/sign_post_dreamwood",
-        "suppsquared:botania/item_shelf_dreamwood"
+        "suppsquared:botania/item_shelf_dreamwood",
+        "mekanism:alloy_atomic",
+        "mekanism:laser_tractor_beam",
+        "mekanism:elite_fluid_tank"
     ]
   }
