@@ -384,6 +384,18 @@
         "endergetic:boof_block",
         "endergetic:bolloom_crate",
         "endergetic:bolloom_bud",
-        "endergetic:tall_poise_bush"
+        "endergetic:tall_poise_bush",
+        "supplementaries:bamboo_spikes_tipped",
+        "suppsquared:quark/item_shelf_ancient",
+        "suppsquared:endergetic/item_shelf_poise",
+        "supplementaries:quark/sign_post_ancient",
+        "chemlib:epinephrine_bucket",
+        "thermal:syrup_bucket",
+        "pneumaticcraft:memory_essence_bucket",
+        "biomancy:acid_bucket",
+        "nuclearcraft:dark_chocolate_bucket",
+        "nuclearcraft:milk_chocolate_bucket",
+        "nuclearcraft:chocolate_liquor_bucket",
+        "nuclearcraft:unsweetened_chocolate_bucket"
     ]
   }

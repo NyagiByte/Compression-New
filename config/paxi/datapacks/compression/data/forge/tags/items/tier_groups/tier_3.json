@@ -130,6 +130,8 @@
         "botania:elf_quartz_stairs",
         "botania:stripped_dreamwood_stairs",
         "quark:ancient_tome",
-        "quark:smithing_template_rune"
+        "quark:smithing_template_rune",
+        "supplementaries:botania/sign_post_dreamwood",
+        "suppsquared:botania/item_shelf_dreamwood"
     ]
   }
