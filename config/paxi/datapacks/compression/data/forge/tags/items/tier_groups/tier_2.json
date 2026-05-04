@@ -234,6 +234,10 @@
         "immersiveengineering:redstone_acid_bucket",
         "thermal:tree_oil_bucket",
         "thermal:ender_bucket",
-        "thermal:glowstone_bucket"
+        "thermal:glowstone_bucket",
+        "ironchests:obsidian_chest_upgrade",
+        "ironchests:netherite_chest_upgrade",
+        "ironchests:netherite_barrel",
+        "ironchests:netherite_chest"
     ]
   }

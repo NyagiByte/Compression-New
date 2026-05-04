@@ -1853,6 +1853,7 @@
         "chemlib:ethanol_bucket",
         "chemlib:sulfuric_acid_bucket",
         "chemlib:sulfur_trioxide_bucket",
-        "chemlib:sulfur_dioxide_bucket"
+        "chemlib:sulfur_dioxide_bucket",
+        "ironchests:diamond_dolly"
     ]
   }
