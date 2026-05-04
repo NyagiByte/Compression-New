@@ -397,6 +397,27 @@
         "nuclearcraft:milk_chocolate_bucket",
         "nuclearcraft:chocolate_liquor_bucket",
         "nuclearcraft:unsweetened_chocolate_bucket",
-        "quark:ancient_fruit"
+        "quark:ancient_fruit",
+        "spelunkery:grilled_portabella",
+        "spelunkery:bunny_ears",
+        "spelunkery:dust_bun",
+        "spelunkery:magnetic_compass",
+        "spelunkery:raw_magnetite_block",
+        "spelunkery:raw_magnetite_nugget",
+        "spelunkery:raw_magnetite",
+        "supplementaries:candy",
+        "supplementaries:pancake",
+        "supplementaries:lunch_basket",
+        "supplementaries:enderman_head",
+        "supplementaries:urn",
+        "xkdeco:bottle_stack",
+        "xkdeco:fruit_platter",
+        "xkdeco:refreshments6",
+        "xkdeco:refreshments5",
+        "xkdeco:refreshments4",
+        "xkdeco:refreshments3",
+        "xkdeco:refreshments2",
+        "xkdeco:refreshments",
+        "xkdeco:maya_crystal_skull"
     ]
   }

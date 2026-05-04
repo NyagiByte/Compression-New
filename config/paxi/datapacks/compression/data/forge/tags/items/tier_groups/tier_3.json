@@ -135,6 +135,9 @@
         "suppsquared:botania/item_shelf_dreamwood",
         "mekanism:alloy_atomic",
         "mekanism:laser_tractor_beam",
-        "mekanism:elite_fluid_tank"
+        "mekanism:elite_fluid_tank",
+        "supplementaries:dragon_banner_pattern",
+        "xkdeco:ink_painting",
+        "xkdeco:calligraphy"
     ]
   }

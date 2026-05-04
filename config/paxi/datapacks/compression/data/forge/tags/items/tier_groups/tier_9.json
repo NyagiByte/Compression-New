@@ -10,6 +10,11 @@
         "minecraft:disc_fragment_5",
         "architects_palette:unobtanium",
         "architects_palette:unobtanium_block",
-        "mekanism:robit"
+        "mekanism:robit",
+        "xkdeco:telescope",
+        "xkdeco:big_solar_system_model",
+        "xkdeco:solar_system_model",
+        "xkdeco:globe",
+        "xkdeco:wood_globe"
     ]
   }
