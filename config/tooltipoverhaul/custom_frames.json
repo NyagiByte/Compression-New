@@ -28,6 +28,7 @@
       "tags": [
         "forge:tier_groups/tier_0"
       ],
+      "namespace": "bbb",
       "itemRating": "Tier 0",
       "colorItemRating": "0x858585",
       "titleAlignment": "left",
