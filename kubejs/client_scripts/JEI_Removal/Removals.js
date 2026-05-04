@@ -526,7 +526,9 @@ JEIEvents.hideItems(event => {
     'cb_microblock:stone_rod',
     'cb_microblock:stone_saw',
     'cb_microblock:iron_saw',
-    "%cb_microblock",
+    'cb_microblock:microblock', //Recipe left in (less clutter)
+    //Vertical Slabs
+    '#v_slab_compat:vertical_slabs',
     //Item Filters
     'itemfilters:always_true',
     'itemfilters:always_false',
