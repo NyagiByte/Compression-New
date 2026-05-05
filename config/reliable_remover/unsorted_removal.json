@@ -19,7 +19,23 @@
             "quark:diamond_heart",
             "quark:pathfinders_quill",
             "quark:trowel",
-            "ae2:fluix_upgrade_smithing_template"
+            "ae2:fluix_upgrade_smithing_template",
+            "vintageimprovements:shadow_steel_sheet",
+            "create:refined_radiance",
+            "create:shadow_steel",
+            "natures_spirit:chert_redstone_ore",
+            "natures_spirit:chert_gold_ore",
+            "natures_spirit:chert_copper_ore",
+            "natures_spirit:chert_iron_ore",
+            "natures_spirit:chert_coal_ore",
+            "nuclearcraft:feral_ghoul_spawn_egg",
+            "vintageimprovements:shadow_steel_wire",
+            "vintageimprovements:shadow_steel_rod",
+            "vintageimprovements:refined_radiance_sheet",
+            "vintageimprovements:refined_radiance_rod",
+            "vintageimprovements:refined_radiance_wire",
+            "constructionwand:core_destruction",
+            "constructionwand:core_angel"
         ]
     }
 ]
