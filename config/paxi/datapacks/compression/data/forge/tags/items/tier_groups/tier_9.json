@@ -15,6 +15,8 @@
         "xkdeco:big_solar_system_model",
         "xkdeco:solar_system_model",
         "xkdeco:globe",
-        "xkdeco:wood_globe"
+        "xkdeco:wood_globe",
+        "bedrockminer:bedrock_chunk",
+        "handcrafted:evoker_trophy"
     ]
   }

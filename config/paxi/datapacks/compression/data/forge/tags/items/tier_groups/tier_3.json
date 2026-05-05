@@ -138,6 +138,15 @@
         "mekanism:elite_fluid_tank",
         "supplementaries:dragon_banner_pattern",
         "xkdeco:ink_painting",
-        "xkdeco:calligraphy"
+        "xkdeco:calligraphy",
+        "pneumaticcraft:aerial_interface",
+        "thermal:xp_crystal",
+        "botania:diva_charm",
+        "botania:temperance_stone",
+        "botania:spell_cloth",
+        "botania:open_bucket",
+        "botania:clip",
+        "xkdeco:xiangqi_board",
+        "xkdeco:weiqi_board"
     ]
   }

@@ -278,6 +278,9 @@
         "xkdeco:screen_message",
         "xkdeco:screen_transport",
         "xkdeco:screen_wave",
-        "xkdeco:hologram_xekr_logo"
+        "xkdeco:hologram_xekr_logo",
+        "pneumaticcraft:solar_wafer",
+        "pneumaticcraft:solar_cell",
+        "pneumaticcraft:memory_stick"
     ]
   }

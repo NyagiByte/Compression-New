@@ -62,6 +62,8 @@
         "mekanism:yellow_cake_uranium",
         "mekanism:reprocessed_fissile_fragment",
         "mekanism:hazmat_boots",
-        "xkdeco:steel_filings"
+        "xkdeco:steel_filings",
+        "pneumaticcraft:seismic_sensor",
+        "patchouli:guide_book"
     ]
   }
