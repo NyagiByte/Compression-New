@@ -645,7 +645,8 @@
         "nyagibits_bytes:low_grade_coke",
         "nyagibits_bytes:ph_strip",
         "nyagibits_bytes:sterilized_quartz_glass",
-        "nyagibits_bytes:burette", "nyagibits_bytes:inlet",
+        "nyagibits_bytes:burette",
+        "nyagibits_bytes:inlet",
         "nyagibits_bytes:distillation_column",
         "nyagibits_bytes:round_bottom_flask",
         "nyagibits_bytes:beaker",
@@ -1882,6 +1883,9 @@
         "xkdeco:varnished_narrow_doors",
         "xkdeco:varnished_oblique_brace",
         "xkdeco:varnished_screen",
-        "xkdeco:varnished_column_head"
+        "xkdeco:varnished_column_head",
+        "bbb:dark_prismarine_layer",
+        "bbb:prismarine_brick_layer",
+        "bbb:prismarine_layer"
     ]
   }
