@@ -153,6 +153,19 @@
       "borderType": "static",
       "gradientColors": ["#503C68", "#503C68", "#503C68"],
       "showRating": true
+    },
+    {
+      "tags": [
+        "forge:tier_groups/tier_11"
+      ],
+      "itemRating": "Tier 11",
+      "colorItemRating": "0x4340FF",
+      "titleAlignment": "left",
+      "ratingAlignment": "left",
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": ["#4340FF", "#4340FF", "#4340FF"],
+      "showRating": true
     }
   ]
 }
