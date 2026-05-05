@@ -1,0 +1,25 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "supplementaries:crank",
+            "spelunkery:end_stone_pebble",
+            "spelunkery:basalt_pebble",
+            "spelunkery:blackstone_pebble",
+            "spelunkery:magma_pebble",
+            "spelunkery:netherrack_pebble",
+            "spelunkery:deepslate_pebble",
+            "spelunkery:saltpeter_block",
+            "spelunkery:saltpeter",
+            "quark:forgotten_hat",
+            "quark:iron_rod",
+            "quark:feeding_trough",
+            "quark:deepslate_furnace",
+            "quark:blackstone_furnace",
+            "quark:diamond_heart",
+            "quark:pathfinders_quill",
+            "quark:trowel",
+            "ae2:fluix_upgrade_smithing_template"
+        ]
+    }
+]

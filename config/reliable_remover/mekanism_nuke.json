@@ -203,7 +203,23 @@
             "mekanism:advanced_induction_cell",
             "mekanism:advanced_induction_provider",
             "mekanism:elite_induction_cell",
-            "mekanism:elite_induction_provider"
+            "mekanism:elite_induction_provider",
+            "mekanism:advanced_universal_cable",
+            "mekanism:basic_universal_cable",
+            "mekanism:advanced_thermodynamic_conductor",
+            "mekanism:basic_chemical_tank",
+            "mekanism:advanced_chemical_tank",
+            "mekanism:elite_chemical_tank",
+            "mekanism:qio_drive_base",
+            "mekanism:qio_drive_hyper_dense",
+            "mekanism:qio_drive_time_dilating",
+            "mekanism:basic_thermodynamic_conductor",
+            "mekanism:elite_thermodynamic_conductor",
+            "mekanism:elite_pressurized_tube",
+            "mekanism:advanced_pressurized_tube",
+            "mekanism:basic_pressurized_tube",
+            "mekanism:ultimate_universal_cable",
+            "mekanism:elite_universal_cable"
         ]
     }
 ]
