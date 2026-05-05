@@ -13,6 +13,17 @@
         "ae2:spatial_cell_component_2",
         "ae2:condenser",
         "ae2:spatial_io_port",
-        "ae2:quantum_link"
+        "ae2:quantum_link",
+        "compactmachines:tunnel",
+        "compactmachines:tunnel",
+        "compactmachines:tunnel",
+        "compactmachines:solid_wall",
+        "compactmachines:wall",
+        "compactmachines:personal_shrinking_device",
+        "compactmachines:machine_maximum",
+        "blockofsky:void_block",
+        "blockofsky:sky_block",
+        "sophisticatedbackpacks:stack_upgrade_tier_4",
+        "sophisticatedbackpacks:inception_upgrade"
     ]
   }
