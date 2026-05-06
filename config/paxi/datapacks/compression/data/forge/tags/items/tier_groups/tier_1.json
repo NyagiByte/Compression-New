@@ -2118,6 +2118,12 @@
         "rechiseled:prismarine_bricks_woven",
         "rechiseled:prismarine_bricks_woven_connecting",
         "abyssal_decor:block_of_prismarine_crystal",
-        "abyssal_decor:prismarine_crystal_pane"
+        "abyssal_decor:prismarine_crystal_pane",
+        "immersiveengineering:ingot_steel",
+        "immersiveengineering:nugget_steel",
+        "immersiveengineering:plate_steel",
+        "immersiveengineering:dust_steel",
+        "immersiveengineering:storage_steel",
+        "immersiveengineering:slab_storage_steel"
     ]
   }
