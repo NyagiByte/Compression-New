@@ -9464,6 +9464,7 @@
         "immersiveengineering:clinker_brick_sill",
         "immersiveengineering:clinker_brick_quoin",
         "immersiveengineering:slag_gravel",
-        "immersiveengineering:grit_sand"
+        "immersiveengineering:grit_sand",
+        "packages:package"
     ]
   }
