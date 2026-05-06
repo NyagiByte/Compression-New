@@ -1,0 +1,17 @@
+{
+    "replace": true,
+    "values": [
+        "botania:infrangible_platform",
+        "botania:creative_pool",
+        "sophisticatedbackpacks:infinity_upgrade",
+        "quark:dragon_scale",
+        "amendments:dragon_charge",
+        "minecraft:end_portal_frame",
+        "minecraft:dragon_egg",
+        "minecraft:dragon_head",
+        "minecraft:player_head",
+        "botania:corporea_spark_creative",
+        "mekanism:cardboard_box",
+        "ironchests:dirt_chest"
+    ]
+  }
