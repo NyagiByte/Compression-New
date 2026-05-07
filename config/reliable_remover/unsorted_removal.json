@@ -298,7 +298,9 @@
             "pneumaticcraft:smart_chest_kit",
             "pneumaticcraft:reinforced_chest_kit",
             "thermal:creosote_bucket",
-            "immersiveengineering:slag"
+            "immersiveengineering:slag",
+            "compressedcreativity:brass_gilded_lapis_lazuli",
+            "compressedcreativity:brass_coated_upgrade_matrix"
         ]
     }
 ]

@@ -2247,6 +2247,18 @@
         "immersiveengineering:mold_wire",
         "immersiveengineering:mold_packing_9",
         "immersiveengineering:mold_unpacking",
-        "immersiveengineering:revolver"
+        "immersiveengineering:revolver",
+        "immersiveengineering:wire_electrum",
+        "immersiveengineering:wire_steel",
+        "immersiveengineering:light_bulb",
+        "immersiveengineering:connector_lv_relay",
+        "immersiveengineering:windmill_sail",
+        "immersiveengineering:component_electronic_adv",
+        "immersiveengineering:waterwheel_segment",
+        "immersiveengineering:windmill_blade",
+        "immersiveengineering:connector_mv_relay",
+        "immersiveengineering:insulating_glass",
+        "immersiveengineering:connector_hv_relay",
+        "immersiveengineering:windmill"
     ]
   }
