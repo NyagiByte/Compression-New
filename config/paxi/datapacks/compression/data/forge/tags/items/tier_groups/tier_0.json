@@ -9494,6 +9494,13 @@
         "immersiveengineering:slab_sheetmetal_nickel",
         "immersiveengineering:sheetmetal_constantan",
         "immersiveengineering:slab_sheetmetal_constantan",
-        "immersiveengineering:metal_ladder_none"
+        "immersiveengineering:metal_ladder_none",
+        "immersiveengineering:sheetmetal_copper",
+        "immersiveengineering:slab_sheetmetal_copper",
+        "immersiveengineering:chute_copper",
+        "immersiveengineering:sheetmetal_iron",
+        "immersiveengineering:slab_sheetmetal_iron",
+        "immersiveengineering:chute_iron",
+        "immersiveengineering:chute_aluminum"
     ]
   }
