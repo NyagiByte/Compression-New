@@ -296,7 +296,9 @@
             "pneumaticcraft:unassembled_netherite_drill_bit",
             "pneumaticcraft:stop_worm",
             "pneumaticcraft:smart_chest_kit",
-            "pneumaticcraft:reinforced_chest_kit"
+            "pneumaticcraft:reinforced_chest_kit",
+            "thermal:creosote_bucket",
+            "immersiveengineering:slag"
         ]
     }
 ]
