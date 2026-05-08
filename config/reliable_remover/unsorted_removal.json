@@ -305,7 +305,11 @@
             "immersiveengineering:slab_alloybrick",
             "nuclearcraft:uranium_plate",
             "nuclearcraft:lead_plate",
-            "immersivepetroleum:bitumen"
+            "immersivepetroleum:bitumen",
+            "nuclearcraft:platinum_ingot",
+            "nuclearcraft:platinum_spallation_waste",
+            "nuclearcraft:lead_platinum_ingot",
+            "nuclearcraft:lead_platinum_dust"
         ]
     }
 ]

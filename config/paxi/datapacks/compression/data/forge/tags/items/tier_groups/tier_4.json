@@ -664,6 +664,20 @@
         "everycomp:ap/quark/ancient_board_stairs",
         "everycomp:ap/quark/ancient_board_wall",
         "abyssal_decor:echo_shard_block",
-        "abyssal_decor:polished_echo_shard_block"
+        "abyssal_decor:polished_echo_shard_block",
+        "abyssal_decor:toasted_seeds",
+        "abyssal_decor:cooked_muckroot",
+        "abyssal_decor:muckroot_soup",
+        "abyssal_decor:bog_roll",
+        "abyssal_decor:candy_bog_apple",
+        "abyssal_decor:bog_apple_pie",
+        "abyssal_decor:popped_spidercorn",
+        "abyssal_decor:spidercorn_tortilla",
+        "abyssal_decor:cave_taco",
+        "abyssal_decor:nithing_bottom",
+        "abyssal_decor:cinnamon_apple",
+        "abyssal_decor:cinnamon_roll",
+        "abyssal_decor:cinnamon_tea",
+        "abyssal_decor:fever_blossom_tea"
     ]
   }
