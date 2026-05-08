@@ -302,7 +302,10 @@
             "compressedcreativity:brass_gilded_lapis_lazuli",
             "compressedcreativity:brass_coated_upgrade_matrix",
             "immersiveengineering:alloybrick",
-            "immersiveengineering:slab_alloybrick"
+            "immersiveengineering:slab_alloybrick",
+            "nuclearcraft:uranium_plate",
+            "nuclearcraft:lead_plate",
+            "immersivepetroleum:bitumen"
         ]
     }
 ]
