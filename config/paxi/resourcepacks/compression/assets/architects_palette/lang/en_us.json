@@ -23,6 +23,10 @@
     "block.architects_palette.onyx_brick_wall": "Burnt Granite Brick Wall",
     "block.architects_palette.onyx_pillar": "Burnt Granite Pillar",
 
+    "block.architects_palette.twisted_log": "Raw Twisted Log",
+    "block.architects_palette.twisted_wood": "Full-Sided Twisted Log",
+    "block.architects_palette.stripped_twisted_wood": "Stripped Full-Sided Twisted Log",
+
     "block.architects_palette.sheet_metal_block": "Wide Panel Sheet Metal",
     "block.architects_palette.sheet_metal_wall": "Wide Panel Sheet Metal Wall",
 

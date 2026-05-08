@@ -1,0 +1,11 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "abyssal_decor:cinnamon_leaves",
+            "abyssal_decor:flowering_cinnamon_leaves",
+            "abyssal_decor:cinnamon_bush",
+            "abyssal_decor:cinnamon_stick"
+        ]
+    }
+]

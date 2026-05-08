@@ -11,5 +11,22 @@
     "item.botania.terrasteel_nugget": "Cf☢SiO-Ω₃ Terrasteel Nugget",
     "block.botania.terrasteel_block": "Cf☢SiO-Ω₃ Terrasteel Block",
 
-    "block.botania.apothecary_default": "Wooden Petal Apothecary"
+    "block.botania.apothecary_default": "Wooden Petal Apothecary",
+
+    "block.botania.framed_livingwood": "➘ Framed Livingwood Planks ➘",
+    "block.botania.pattern_framed_livingwood": "╔ Pattern Framed Livingwood Planks ╝",
+
+    "block.botania.livingwood": "Full-Sided Livingwood Log",
+    "block.botania.livingwood_slab": "Full-Sided Livingwood Slab",
+    "block.botania.glimmering_livingwood": "Full-Sided Glimmering Livingwood Log",
+    "block.botania.dreamwood": "Full-Sided Dreamwood Log",
+    "block.botania.dreamwood_slab": "Full-Sided Dreamwood Slab",
+    "block.botania.glimmering_dreamwood": "Full-Sided Glimmering Dreamwood Log",
+
+    "block.botania.stripped_livingwood": "Stripped Full-Sided Livingwood Log",
+    "block.botania.stripped_livingwood_slab": "Stripped Full-Sided Livingwood Slab",
+    "block.botania.stripped_glimmering_livingwood": "Stripped Full-Sided Glimmering Livingwood Log",
+    "block.botania.stripped_dreamwood": "Stripped Full-Sided Dreamwood Log",
+    "block.botania.stripped_dreamwood_slab": "Stripped Full-Sided Dreamwood Slab",
+    "block.botania.glimmering_stripped_dreamwood": "Stripped Full-Sided Glimmering Dreamwood Log"
 }

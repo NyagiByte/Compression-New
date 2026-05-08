@@ -1,0 +1,28 @@
+{
+    "block.atmospheric.rosewood_log": "Raw Rosewood Log",
+    "block.atmospheric.morado_log": "Raw Morado Log",
+    "block.atmospheric.yucca_log": "Raw Yucca Log",
+    "block.atmospheric.laurel_log": "Raw Laurel Log",
+    "block.atmospheric.aspen_log": "Raw Aspen Log",
+    "block.atmospheric.kousa_log": "Raw Kousa Log",
+    "block.atmospheric.grimwood_log": "Raw Grimwood Log",
+    "block.atmospheric.crustose_log": "Raw Crustose Log",
+
+    "block.atmospheric.rosewood": "Full-Sided Rosewood Log",
+    "block.atmospheric.morado_wood": "Full-Sided Morado Log",
+    "block.atmospheric.yucca_wood": "Full-Sided Yucca Log",
+    "block.atmospheric.laurel_wood": "Full-Sided Laurel Log",
+    "block.atmospheric.aspen_wood": "Full-Sided Aspen Log",
+    "block.atmospheric.kousa_wood": "Full-Sided Kousa Log",
+    "block.atmospheric.grimwood": "Full-Sided Grimwood Log",
+    "block.atmospheric.watchful_aspen_wood": "Full-Sided Watchful Aspen Log",
+    "block.atmospheric.crustose_wood": "Full-Sided Crustose Log",
+
+    "block.atmospheric.stripped_rosewood": "Stripped Full-Sided Rosewood Log",
+    "block.atmospheric.stripped_morado_wood": "Stripped Full-Sided Morado Log",
+    "block.atmospheric.stripped_yucca_wood": "Stripped Full-Sided Yucca Log",
+    "block.atmospheric.stripped_laurel_wood": "Stripped Full-Sided Laurel Log",
+    "block.atmospheric.stripped_aspen_wood": "Stripped Full-Sided Aspen Log",
+    "block.atmospheric.stripped_kousa_wood": "Stripped Full-Sided Kousa Log",
+    "block.atmospheric.stripped_grimwood": "Stripped Full-Sided Grimwood Log"
+}

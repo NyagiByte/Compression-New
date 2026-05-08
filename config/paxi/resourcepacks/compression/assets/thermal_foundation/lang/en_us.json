@@ -46,5 +46,9 @@
     "block.thermal.brown_rockwool": "Brown Alkaline-Earth Silicate Wool",
     "block.thermal.green_rockwool": "Green Alkaline-Earth Silicate Wool",
     "block.thermal.red_rockwool": "Red Alkaline-Earth Silicate Wool",
-    "block.thermal.black_rockwool": "Black Alkaline-Earth Silicate Wool"
+    "block.thermal.black_rockwool": "Black Alkaline-Earth Silicate Wool",
+
+    "block.thermal.rubberwood_log": "Raw Rubberwood Log",
+    "block.thermal.rubberwood_wood": "Full-Sided Rubberwood Log",
+    "block.thermal.stripped_rubberwood_wood": "Stripped Full-Sided Rubberwood Log"
 }

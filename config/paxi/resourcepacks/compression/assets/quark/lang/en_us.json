@@ -1,3 +1,15 @@
 {
-    "item.quark.abacus": "Abacus [Simple Measure]"
+    "item.quark.abacus": "Abacus [Simple Measure]",
+
+    "block.quark.ancient_log": "Raw Ashen Log",
+    "block.quark.azalea_log": "Raw Azalea Log",
+    "block.quark.blossom_log": "Raw Trumpet Log",
+
+    "block.quark.ancient_wood": "Full-Sided Ashen Log",
+    "block.quark.azalea_wood": "Full-Sided Azalea Log",
+    "block.quark.blossom_wood": "Full-Sided Trumpet Log",
+
+    "block.quark.stripped_ancient_wood": "Stripped Full-Sided Ashen Log",
+    "block.quark.stripped_azalea_wood": "Stripped Full-Sided Azalea Log",
+    "block.quark.stripped_blossom_wood": "Stripped Full-Sided Trumpet Log"
 }
