@@ -300,7 +300,9 @@
             "thermal:creosote_bucket",
             "immersiveengineering:slag",
             "compressedcreativity:brass_gilded_lapis_lazuli",
-            "compressedcreativity:brass_coated_upgrade_matrix"
+            "compressedcreativity:brass_coated_upgrade_matrix",
+            "immersiveengineering:alloybrick",
+            "immersiveengineering:slab_alloybrick"
         ]
     }
 ]

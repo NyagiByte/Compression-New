@@ -635,6 +635,7 @@
         "compressedcreativity:green_plastic_bracket",
         "compressedcreativity:red_plastic_bracket",
         "compressedcreativity:black_plastic_bracket",
-        "compressedcreativity:compressed_iron_casing"
+        "compressedcreativity:compressed_iron_casing",
+        "immersiveengineering:concrete_sprayed"
     ]
   }
