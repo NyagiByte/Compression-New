@@ -662,6 +662,8 @@
         "everycomp:ap/quark/ancient_boards",
         "everycomp:ap/quark/ancient_board_slab",
         "everycomp:ap/quark/ancient_board_stairs",
-        "everycomp:ap/quark/ancient_board_wall"
+        "everycomp:ap/quark/ancient_board_wall",
+        "abyssal_decor:echo_shard_block",
+        "abyssal_decor:polished_echo_shard_block"
     ]
   }
