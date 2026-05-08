@@ -29,5 +29,10 @@
     "block.minecraft.gold_block": "Block of Impure Gold",
     
     "item.minecraft.leather": "Working Leather",
-    "item.minecraft.gunpowder": "Low Grade Gunpowder"
+    "item.minecraft.gunpowder": "Low Grade Gunpowder",
+
+    "item.minecraft.water_bucket": "Raw Brackish Water Bucket",
+    "item.minecraft.milk_bucket": "Raw Milk Bucket",
+
+    "block.minecraft.water": "Raw Brackish Water"
 }
