@@ -2321,6 +2321,8 @@
         "immersivepetroleum:asphalt_slab",
         "immersivepetroleum:asphalt_stair",
         "v_slab_compat:immersiveengineering/insulating_glass_vertical_slab",
-        "immersiveengineering:slab_insulating_glass"
+        "immersiveengineering:slab_insulating_glass",
+        "immersivepetroleum:paraffin_wax_block",
+        "immersivepetroleum:paraffin_wax"
     ]
   }
