@@ -2445,6 +2445,9 @@
         "everycomp:hc/abyssal_decor/cinnamon_fancy_bed",
         "everycomp:hc/endergetic/poise_fancy_bed", 
         "everycomp:hc/atmospheric/rosewood_fancy_bed",
-        "everycomp:hc/natures_spirit/joshua_fancy_bed"
+        "everycomp:hc/natures_spirit/joshua_fancy_bed",
+        "everycomp:af/architects_palette/twisted_flower_box",
+        "everycomp:q/architects_palette/twisted_hedge",
+        "everycomp:q/architects_palette/twisted_leaf_carpet"
     ]
   }

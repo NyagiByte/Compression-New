@@ -309,7 +309,11 @@
             "nuclearcraft:platinum_ingot",
             "nuclearcraft:platinum_spallation_waste",
             "nuclearcraft:lead_platinum_ingot",
-            "nuclearcraft:lead_platinum_dust"
+            "nuclearcraft:lead_platinum_dust",
+            "everycomp:q/abyssal_decor/cinnamon_hedge",
+            "everycomp:q/abyssal_decor/cinnamon_leaf_carpet",
+            "everycomp:q/abyssal_decor/flowering_cinnamon_hedge",
+            "everycomp:q/abyssal_decor/flowering_cinnamon_leaf_carpet"
         ]
     }
 ]
