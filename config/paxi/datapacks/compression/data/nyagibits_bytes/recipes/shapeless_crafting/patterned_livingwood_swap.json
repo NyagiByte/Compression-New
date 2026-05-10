@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "botania:framed_livingwood"
+        }
+    ],
+    "result": {
+        "item": "botania:pattern_framed_livingwood"
+    }
+}
