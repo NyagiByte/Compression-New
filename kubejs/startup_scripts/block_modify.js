@@ -5,4 +5,7 @@ BlockEvents.modification(e => {
     e.modify('botania:apothecary_default', block => {
       block.requiresTool = false
     })
+    e.modify('minecraft:respawn_anchor', block => {
+      block.requiresTool = false
+    })
   })
