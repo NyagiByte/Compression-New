@@ -1,0 +1,17 @@
+filename = 'underlay-1.0.1-forge-mc1.20.1.jar'
+name = 'Underlay'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = 'a3be49e8b8bd5b98f80241c1fa934ecda83bae38d31f2cc71c4b1e1252d0df855dda5d79cd7a6ece632fb0d8b18b9be9e1dcc916d8090e91c8d69b7b6b899226'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/iltKD9qU/versions/nyVhWDCv/underlay-1.0.1-forge-mc1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'iltKD9qU'
+version = 'nyVhWDCv'
