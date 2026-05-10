@@ -87,6 +87,9 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "underlay": {
+    "overlay": true
+  },
   "balm": {
     "jade": true
   },
