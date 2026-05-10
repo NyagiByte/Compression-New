@@ -1111,7 +1111,8 @@
 		{"namespace": "create", "path": "recipes/item_application/brass_casing_from_wood.json"},
 		{"namespace": "create", "path": "recipes/item_application/copper_casing_from_wood.json"},
 
-		{"namespace": "create", "path": "recipes/compat/ae2/milling/ender_pearl.json"},
+		{"namespace": "create", "path": "recipes/milling/compat/ae2/ender_pearl.json"},
+		{"namespace": "create", "path": "recipes/mixing/compat/ae2/fluix_crystal.json"},
 
 		{"namespace": "create", "path": "recipes/milling/charcoal.json"},
 		{"namespace": "create", "path": "recipes/milling/wool.json"},

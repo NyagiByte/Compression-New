@@ -319,7 +319,9 @@
             "ftbquests:screen_5",
             "ftbquests:screen_3",
             "abyssal_decor:seabrass_ore",
-            "abyssal_decor:raw_seabrass"
+            "abyssal_decor:raw_seabrass",
+            "nuclearcraft:zinc_ingot",
+            "ae2:ender_dust"
         ]
     }
 ]
