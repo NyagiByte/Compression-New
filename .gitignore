@@ -85,3 +85,4 @@ config/ironchests/defaults.properties
 config/oculus.properties
 config/oculus.properties
 config/packetfixer.properties
+/xaero/world-map
