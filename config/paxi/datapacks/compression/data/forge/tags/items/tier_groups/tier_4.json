@@ -786,6 +786,13 @@
         "everycomp:ap/endergetic/poise_railing",
         "everycomp:q/thermal/rubberwood_hedge",
         "everycomp:q/thermal/rubberwood_leaf_carpet",
-        "abyssal_decor:seabrass_catalyst"
+        "abyssal_decor:seabrass_catalyst",
+        "chemlib:acetylsalicylic_acid_dust",
+        "chemlib:caffeine_dust",
+        "chemlib:cucurbitacin_dust",
+        "chemlib:epinephrine",
+        "chemlib:cucurbitacin",
+        "chemlib:caffeine",
+        "chemlib:acetylsalicylic_acid"
     ]
   }

@@ -1,0 +1,24 @@
+{
+    "replace": true,
+    "values": [
+        "chemlib:meitnerium",
+        "chemlib:hassium",
+        "chemlib:bohrium",
+        "chemlib:seaborgium",
+        "chemlib:dubnium",
+        "chemlib:rutherfordium",
+        "chemlib:lawrencium",
+        "chemlib:nobelium",
+        "chemlib:mendelevium",
+        "chemlib:oganesson",
+        "chemlib:tennessine",
+        "chemlib:livermorium",
+        "chemlib:moscovium",
+        "chemlib:flerovium",
+        "chemlib:nihonium",
+        "chemlib:copernicium",
+        "chemlib:roentgenium",
+        "chemlib:darmstadtium",
+        "mythicbotany:mjoellnir"
+    ]
+  }

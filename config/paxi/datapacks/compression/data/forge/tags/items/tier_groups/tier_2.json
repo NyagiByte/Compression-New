@@ -678,6 +678,7 @@
         "everycomp:ap/xkdeco/varnished_boards",
         "everycomp:ap/xkdeco/varnished_board_slab",
         "everycomp:ap/xkdeco/varnished_board_stairs",
-        "everycomp:ap/xkdeco/varnished_board_wall"
+        "everycomp:ap/xkdeco/varnished_board_wall",
+        "chemlib:radon"
     ]
   }

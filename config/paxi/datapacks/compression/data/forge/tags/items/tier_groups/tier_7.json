@@ -53,6 +53,8 @@
         "mythicbotany:cursed_andwari_ring",
         "mythicbotany:gjallar_horn_full",
         "mythicbotany:gjallar_horn_empty",
-        "botania:flare_chakram"
+        "botania:flare_chakram",
+        "chemlib:fermium",
+        "chemlib:einsteinium"
     ]
   }
