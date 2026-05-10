@@ -133,7 +133,7 @@
         "forge:tier_groups/tier_8"
       ],
       "itemRating": "Tier 8",
-      "colorItemRating": "0x5100AD",
+      "colorItemRating": "0x6B07DE",
       "titleAlignment": "left",
       "ratingAlignment": "left",
       "gradientType": "custom",
@@ -191,6 +191,19 @@
       "gradientType": "custom",
       "borderType": "static",
       "gradientColors": ["#000000", "#000000", "#000000"],
+      "showRating": true
+    },
+    {
+      "tags": [
+        "forge:tier_groups/tier_unknown"
+      ],
+      "itemRating": "Tier ???",
+      "colorItemRating": "0xFF0000",
+      "titleAlignment": "left",
+      "ratingAlignment": "left",
+      "gradientType": "custom",
+      "borderType": "gradient",
+      "gradientColors": ["#7A45FF", "#D154FF", "#FF7AEB"],
       "showRating": true
     }
   ]
