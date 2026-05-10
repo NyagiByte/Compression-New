@@ -785,6 +785,7 @@
         "everycomp:c/endergetic/poise_window_pane",
         "everycomp:ap/endergetic/poise_railing",
         "everycomp:q/thermal/rubberwood_hedge",
-        "everycomp:q/thermal/rubberwood_leaf_carpet"
+        "everycomp:q/thermal/rubberwood_leaf_carpet",
+        "abyssal_decor:seabrass_catalyst"
     ]
   }
