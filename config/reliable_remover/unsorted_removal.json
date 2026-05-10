@@ -313,7 +313,11 @@
             "everycomp:q/abyssal_decor/cinnamon_hedge",
             "everycomp:q/abyssal_decor/cinnamon_leaf_carpet",
             "everycomp:q/abyssal_decor/flowering_cinnamon_hedge",
-            "everycomp:q/abyssal_decor/flowering_cinnamon_leaf_carpet"
+            "everycomp:q/abyssal_decor/flowering_cinnamon_leaf_carpet",
+            "ftbquests:loot_crate_opener",
+            "ftbquests:screen_1",
+            "ftbquests:screen_5",
+            "ftbquests:screen_3"
         ]
     }
 ]
