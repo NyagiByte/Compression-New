@@ -80,3 +80,8 @@ config/emi.css
 config/fml.toml
 config/emi.css
 config/emi.css
+config/fabric/indigo-renderer.properties
+config/ironchests/defaults.properties
+config/oculus.properties
+config/oculus.properties
+config/packetfixer.properties
