@@ -220,7 +220,8 @@
             "mekanism:basic_pressurized_tube",
             "mekanism:ultimate_universal_cable",
             "mekanism:elite_universal_cable",
-            "mekanism:scuba_mask"
+            "mekanism:scuba_mask",
+            "mekanism:metallurgic_infuser"
         ]
     }
 ]
