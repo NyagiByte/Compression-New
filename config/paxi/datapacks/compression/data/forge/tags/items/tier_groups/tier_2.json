@@ -1174,6 +1174,18 @@
         "nyagibits_bytes:sample_pure_tantalum",
         "nyagibits_bytes:pure_iridium_dust",
         "nyagibits_bytes:sample_pure_iridium",
-        "nyagibits_bytes:pure_osmium_dust"
+        "nyagibits_bytes:pure_osmium_dust",
+        "immersiveengineering:fertilizer",
+        "nyagibits_bytes:float_separated_osmium_dust",
+        "nyagibits_bytes:float_separated_tungsten_dust",
+        "nyagibits_bytes:float_separated_tantalum_dust",
+        "nyagibits_bytes:float_separated_hafnium_dust",
+        "nyagibits_bytes:float_separated_rhodium_dust",
+        "nyagibits_bytes:float_separated_ruthenium_dust",
+        "nyagibits_bytes:float_separated_niobium_dust",
+        "nyagibits_bytes:float_separated_yttrium_dust",
+        "nyagibits_bytes:float_separated_scandium_dust",
+        "nyagibits_bytes:float_separated_thallium_dust",
+        "nyagibits_bytes:float_separated_iridium_dust"
     ]
   }

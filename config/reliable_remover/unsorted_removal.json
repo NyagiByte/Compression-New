@@ -321,7 +321,9 @@
             "abyssal_decor:seabrass_ore",
             "abyssal_decor:raw_seabrass",
             "nuclearcraft:zinc_ingot",
-            "ae2:ender_dust"
+            "ae2:ender_dust",
+            "immersiveengineering:dust_saltpeter",
+            "immersiveengineering:dust_wood"
         ]
     }
 ]

@@ -139,6 +139,7 @@
         "nyagibits_bytes:pure_polonium_ingot",
         "nyagibits_bytes:pure_polonium_dust",
         "nyagibits_bytes:sample_pure_polonium",
-        "nyagibits_bytes:pure_polonium_block"
+        "nyagibits_bytes:pure_polonium_block",
+        "nyagibits_bytes:float_separated_polonium_dust"
     ]
   }
