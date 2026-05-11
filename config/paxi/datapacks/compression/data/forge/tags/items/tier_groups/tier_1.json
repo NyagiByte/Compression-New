@@ -2711,6 +2711,26 @@
         "nyagibits_bytes:float_separated_zirconium_dust",
         "nyagibits_bytes:float_separated_gallium_dust",
         "nyagibits_bytes:float_separated_zinc_dust",
-        "immersiveengineering:breaker_switch"
+        "immersiveengineering:breaker_switch",
+        "immersiveengineering:razor_wire",
+        "immersiveengineering:armor_faraday_boots",
+        "immersiveengineering:armor_faraday_leggings",
+        "immersiveengineering:armor_faraday_chestplate",
+        "immersiveengineering:armor_faraday_helmet",
+        "immersiveengineering:coresample",
+        "immersiveengineering:empty_casing",
+        "immersivepetroleum:benzol_bucket",
+        "immersivepetroleum:crudeoil_bucket",
+        "immersiveengineering:stairs_hempcrete_brick",
+        "immersiveengineering:slab_hempcrete_brick",
+        "immersiveengineering:furnace_heater",
+        "abyssal_decor:bottomless_bag_of_netherrack",
+        "abyssal_decor:bottomless_bag_of_snow",
+        "abyssal_decor:bottomless_bag_of_cobblestone",
+        "abyssal_decor:bottomless_bag_of_dirt",
+        "chemlib:mercury_sulfide_dust",
+        "chemlib:lead_sulfide_dust",
+        "chemlib:acetic_acid",
+        "chemlib:sodium_plate"
     ]
   }

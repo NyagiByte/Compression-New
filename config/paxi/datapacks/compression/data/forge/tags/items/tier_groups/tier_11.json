@@ -24,6 +24,7 @@
         "blockofsky:void_block",
         "blockofsky:sky_block",
         "sophisticatedbackpacks:stack_upgrade_tier_4",
-        "sophisticatedbackpacks:inception_upgrade"
+        "sophisticatedbackpacks:inception_upgrade",
+        "ae2:spatial_pylon"
     ]
   }

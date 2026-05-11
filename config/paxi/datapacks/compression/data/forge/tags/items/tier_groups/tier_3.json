@@ -202,6 +202,24 @@
         "everycomp:ap/botania/dreamwood_boards",
         "everycomp:ap/botania/dreamwood_board_slab",
         "everycomp:ap/botania/dreamwood_board_stairs",
-        "everycomp:ap/botania/dreamwood_board_wall"
+        "everycomp:ap/botania/dreamwood_board_wall",
+        "immersiveengineering:bannerpattern_treated_wood",
+        "immersiveengineering:bannerpattern_ornate",
+        "immersiveengineering:bannerpattern_bevels",
+        "immersiveengineering:bannerpattern_hammer",
+        "immersiveengineering:toolupgrade_railgun_capacitors",
+        "immersiveengineering:toolupgrade_railgun_scope",
+        "immersiveengineering:toolupgrade_revolver_electro",
+        "immersiveengineering:shader",
+        "immersiveengineering:railgun",
+        "immersiveengineering:shader_bag_epic",
+        "immersiveengineering:shader_bag_uncommon",
+        "immersiveengineering:shader_bag_common",
+        "immersiveengineering:shader_bag_ie_masterwork",
+        "immersiveengineering:shader_bag_rare",
+        "immersiveengineering:bannerpattern_wolf",
+        "immersiveengineering:bannerpattern_wolf_l",
+        "immersiveengineering:bannerpattern_wolf_r",
+        "immersiveengineering:bannerpattern_windmill"
     ]
   }

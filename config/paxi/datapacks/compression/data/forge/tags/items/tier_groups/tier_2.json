@@ -1314,6 +1314,18 @@
         "stonezone:c/pneumaticcraft/small_compressed_stone_brick_slab",
         "stonezone:c/pneumaticcraft/small_compressed_stone_brick_wall",
         "stonezone:c/pneumaticcraft/compressed_stone_pillar",
-        "stonezone:c/pneumaticcraft/layered_compressed_stone"
+        "stonezone:c/pneumaticcraft/layered_compressed_stone",
+        "immersiveengineering:fiberboard",
+        "immersiveengineering:toolupgrade_shield_flash",
+        "immersiveengineering:toolupgrade_drill_fortune",
+        "immersiveengineering:fluorescent_tube",
+        "immersiveengineering:jerrycan",
+        "immersiveengineering:grindingdisk",
+        "abyssal_decor:ammonite",
+        "abyssal_decor:dusty_cd",
+        "nuclearcraft:hyperspace",
+        "nuclearcraft:wanderer",
+        "nuclearcraft:money_for_nothing",
+        "nuclearcraft:end_of_the_world"
     ]
   }

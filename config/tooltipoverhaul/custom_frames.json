@@ -156,6 +156,19 @@
     },
     {
       "tags": [
+        "forge:tier_groups/tier_10"
+      ],
+      "itemRating": "Tier 10",
+      "colorItemRating": "0xFFADFE",
+      "titleAlignment": "left",
+      "ratingAlignment": "left",
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": ["#FFADFE", "#FFADFE", "#FFADFE"],
+      "showRating": true
+    },
+    {
+      "tags": [
         "forge:tier_groups/tier_11"
       ],
       "itemRating": "Tier 11",
@@ -165,6 +178,19 @@
       "gradientType": "custom",
       "borderType": "static",
       "gradientColors": ["#4340FF", "#4340FF", "#4340FF"],
+      "showRating": true
+    },
+    {
+      "tags": [
+        "forge:tier_groups/tier_12"
+      ],
+      "itemRating": "Tier 12",
+      "colorItemRating": "0xFF0000",
+      "titleAlignment": "left",
+      "ratingAlignment": "left",
+      "gradientType": "custom",
+      "borderType": "static",
+      "gradientColors": ["#000000", "#000000", "#000000"],
       "showRating": true
     },
     {
