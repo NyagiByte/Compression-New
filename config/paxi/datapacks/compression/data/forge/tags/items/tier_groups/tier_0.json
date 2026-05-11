@@ -18105,6 +18105,10 @@
         "stonezone:c/architects_palette/small_hadaline_brick_slab",
         "stonezone:c/architects_palette/small_hadaline_brick_wall",
         "stonezone:c/architects_palette/hadaline_pillar",
-        "stonezone:c/architects_palette/layered_hadaline"
+        "stonezone:c/architects_palette/layered_hadaline",
+        "immersiveengineering:lantern",
+        "immersiveengineering:sheetmetal_lead",
+        "immersiveengineering:slab_sheetmetal_lead",
+        "v_slab_compat:immersiveengineering/sheetmetal_lead_vertical_slab"
     ]
   }

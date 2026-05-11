@@ -2710,6 +2710,7 @@
         "nyagibits_bytes:float_separated_molybdenum_dust",
         "nyagibits_bytes:float_separated_zirconium_dust",
         "nyagibits_bytes:float_separated_gallium_dust",
-        "nyagibits_bytes:float_separated_zinc_dust"
+        "nyagibits_bytes:float_separated_zinc_dust",
+        "immersiveengineering:breaker_switch"
     ]
   }
