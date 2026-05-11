@@ -2630,6 +2630,12 @@
         "chemlib:zinc_sulfate",
         "chemlib:zinc_oxide",
         "chemlib:calcium_sulfate",
-        "chemlib:calcium_sulfate_dust"
+        "chemlib:calcium_sulfate_dust",
+        "chemlib:vanadium_nugget",
+        "chemlib:vanadium_dust",
+        "chemlib:vanadium_plate",
+        "chemlib:vanadium_ingot",
+        "chemlib:vanadium_metal_block",
+        "chemlib:vanadium"
     ]
   }
