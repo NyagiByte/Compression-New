@@ -134,6 +134,11 @@
         "chemlib:curium",
         "chemlib:berkelium",
         "chemlib:californium",
-        "chemlib:radon_lamp_block"
+        "chemlib:radon_lamp_block",
+        "nyagibits_bytes:pure_polonium_plate",
+        "nyagibits_bytes:pure_polonium_ingot",
+        "nyagibits_bytes:pure_polonium_dust",
+        "nyagibits_bytes:sample_pure_polonium",
+        "nyagibits_bytes:pure_polonium_block"
     ]
   }
