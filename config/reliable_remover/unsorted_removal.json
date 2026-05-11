@@ -323,7 +323,9 @@
             "nuclearcraft:zinc_ingot",
             "ae2:ender_dust",
             "immersiveengineering:dust_saltpeter",
-            "immersiveengineering:dust_wood"
+            "immersiveengineering:dust_wood",
+            "immersiveengineering:ore_uranium",
+            "immersiveengineering:deepslate_ore_uranium"
         ]
     }
 ]
