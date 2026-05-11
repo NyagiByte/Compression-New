@@ -1,0 +1,17 @@
+filename = 'nyagibits_bytes-1-1.20.1.jar'
+name = "Nyagi's Bits & Bytes"
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'nyagibits_bytes-1-1.20.3.jar'
+
+[download]
+hash = '685741f6c234fea1dcffdd604cbf413ff0516ce7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8071440
+project-id = 979658
