@@ -315,6 +315,16 @@
         "nuclearcraft:upgrade_stack",
         "nuclearcraft:silicon_p_doped",
         "nuclearcraft:silicon_n_doped",
-        "nuclearcraft:silicon_wafer"
+        "nuclearcraft:silicon_wafer",
+        "megacells:portable_mana_cell_16m",
+        "megacells:portable_mana_cell_4m",
+        "megacells:portable_mana_cell_256m",
+        "megacells:portable_mana_cell_64m",
+        "megacells:portable_mana_cell_1m",
+        "megacells:portable_fluid_cell_256m",
+        "megacells:portable_fluid_cell_64m",
+        "megacells:portable_chemical_cell_256m",
+        "megacells:portable_chemical_cell_64m",
+        "megacells:mega_mana_cell_housing"
     ]
   }

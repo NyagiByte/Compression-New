@@ -865,6 +865,10 @@
         "nuclearcraft:fuel_thorium_tbu_ox",
         "nuclearcraft:fuel_thorium_tbu",
         "nuclearcraft:fuel_thorium_tbu_ni",
-        "nuclearcraft:fuel_thorium_tbu_tr"
+        "nuclearcraft:fuel_thorium_tbu_tr",
+        "megacells:portable_fluid_cell_16m",
+        "megacells:portable_fluid_cell_4m",
+        "megacells:portable_chemical_cell_16m",
+        "megacells:portable_chemical_cell_4m"
     ]
   }

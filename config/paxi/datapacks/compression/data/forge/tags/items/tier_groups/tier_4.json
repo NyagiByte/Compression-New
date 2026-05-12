@@ -856,6 +856,10 @@
         "nuclearcraft:dark_chocolate",
         "nuclearcraft:graham_cracker",
         "nuclearcraft:marshmallow",
-        "nuclearcraft:milk_chocolate"
+        "nuclearcraft:milk_chocolate",
+        "megacells:portable_fluid_cell_1m",
+        "megacells:portable_chemical_cell_1m",
+        "megacells:bulk_item_cell",
+        "megacells:mega_chemical_cell_housing"
     ]
   }
