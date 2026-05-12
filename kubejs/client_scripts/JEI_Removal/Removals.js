@@ -528,7 +528,11 @@ JEIEvents.hideItems(event => {
     'cb_microblock:iron_saw',
     'cb_microblock:microblock', //Recipe left in (less clutter)
     //Vertical Slabs
-    '#v_slab_compat:vertical_slabs',
+    '#v_slab_compat:vertical_slabs', 
+    //Immersive Aircraft   
+    "@immersive_aircraft",
+    //Tacz
+    '@tacz',
     //Item Filters
     'itemfilters:always_true',
     'itemfilters:always_false',

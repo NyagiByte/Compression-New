@@ -373,6 +373,10 @@ ServerEvents.recipes(e => {
         e.remove({mod: 'compactmachines'})
     //Biomancy
         e.remove({mod: 'biomancy'})
+    //Immersive Aircraft
+        e.remove({mod: 'immersive_aircraft'})
+    //Guns
+        e.remove({mod: 'tacz'})
     //PneumaticCraft
         e.remove({output: 'pneumaticcraft:pressure_gauge'});
         e.remove({output: 'pneumaticcraft:stone_base'});
