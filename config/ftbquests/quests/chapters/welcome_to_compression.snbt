@@ -11,6 +11,10 @@
 		{
 			dependencies: ["39B2B73AB851E837"]
 			description: [
+				""
+				"{image:compression:textures/quests/mucho_texto.png width:100 height:100 align:center}"
+				""
+				"{@pagebreak}"
 				"This pack is designed to be completable &cw&6i&et&ah&bo&du&ct&r use of the quest book as a guide! "
 				""
 				"&bThat being said &rthe quest book exists to serve as a guide for"
@@ -538,6 +542,15 @@
 			title: "Concentrated Construction Chaos"
 			x: 4.0d
 			y: -8.0d
+		}
+		{
+			id: "2DD967186AF374D8"
+			tasks: [{
+				id: "1D046A6C4FBB2D7B"
+				type: "custom"
+			}]
+			x: 9.5d
+			y: -3.5d
 		}
 	]
 	subtitle: ["Read me!"]
