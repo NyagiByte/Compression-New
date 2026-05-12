@@ -1431,6 +1431,39 @@
 			x: -2.0d
 			y: -2.5d
 		}
+		{
+			dependencies: ["4D339608203DD4F6"]
+			description: [
+				"That massive scar in the land as your spawn point &aisn't just for show&r!"
+				""
+				"The crater has many &bearly game goodies&r to dramatically speed up your industry!"
+				"{@pagebreak}"
+				"Mineable with the &dLivingrock AIOT&r:"
+				""
+				"{image:compression:textures/quests/crater_2.png width:180 height:45 align:center}"
+				"{image:compression:textures/quests/crater_3.png width:185 height:45 align:center}"
+				"{image:compression:textures/quests/crater_5.png width:185 height:45 align:center}"
+				"{image:compression:textures/quests/crater_1.png width:185 height:45 align:center}"
+				"{@pagebreak}"
+				"Mineable with a &dcreate drill&r:"
+				""
+				"{image:compression:textures/quests/crater_4.png width:185 height:45 align:center}"
+				"{image:compression:textures/quests/crater_6.png width:145 height:45 align:center}"
+				"{image:compression:textures/quests/crater_7.png width:185 height:45 align:center}"
+			]
+			hide_until_deps_complete: true
+			icon: "nyagibits_bytes:carbometallic_rock"
+			id: "191DD5E5CD3EB804"
+			subtitle: "A \"gift\" from above"
+			tasks: [{
+				id: "229502501CF2A97A"
+				title: "Speedrun!"
+				type: "checkmark"
+			}]
+			title: "Bountiful Punishment"
+			x: -1.0d
+			y: -6.5d
+		}
 	]
 	subtitle: ["The Tutorial"]
 	title: " &6Tier 0&b - Learning the Ropes"

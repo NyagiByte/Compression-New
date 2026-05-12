@@ -543,15 +543,6 @@
 			x: 4.0d
 			y: -8.0d
 		}
-		{
-			id: "2DD967186AF374D8"
-			tasks: [{
-				id: "1D046A6C4FBB2D7B"
-				type: "custom"
-			}]
-			x: 9.5d
-			y: -3.5d
-		}
 	]
 	subtitle: ["Read me!"]
 	title: "&fWelcome to Compression!"
