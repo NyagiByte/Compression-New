@@ -2,6 +2,7 @@ ServerEvents.recipes(e => {
 //------------------------------------------------------------------    
 //------------------------------------------------------------------
     //Potions are hardcoded, pack.mcmeta is unable to remove them
+            e.remove({ output: 'minecraft:chest', type: 'minecraft:crafting_shaped' })
             e.remove({output: 'minecraft:potion'});
     //Hiding processes from unimplemented mods
             e.remove({type: 'pneumaticcraft:amadron' }),

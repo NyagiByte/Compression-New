@@ -2751,45 +2751,6 @@
 			x: 2.0d
 			y: 33.0d
 		}
-		{
-			id: "04807CA10AFCF465"
-			tasks: [{
-				id: "43ED36CE724E9BDE"
-				type: "checkmark"
-			}]
-			x: 2.5d
-			y: 32.0d
-		}
-		{
-			icon: "nyagibits_bytes:used_crude_statics_test"
-			id: "313F68E1E329804D"
-			tasks: [{
-				id: "3EA04F75AA4841D6"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 31.0d
-		}
-		{
-			icon: "nyagibits_bytes:crude_statics_test"
-			id: "2CB109127EF45108"
-			tasks: [{
-				id: "7D9C0E6514ACF223"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: 31.0d
-		}
-		{
-			icon: "nyagibits_bytes:torn_wool_ball"
-			id: "7EFD3E2557368382"
-			tasks: [{
-				id: "2C53B48F91638AA8"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: 30.0d
-		}
 	]
 	title: " &6Tier 0"
 }

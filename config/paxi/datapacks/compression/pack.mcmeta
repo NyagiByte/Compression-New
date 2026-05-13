@@ -1055,6 +1055,8 @@
 		{"namespace": "quark", "path": "recipes/building/crafting/compressed/potato_crate.json"},
 		{"namespace": "quark", "path": "recipes/building/crafting/stonevariants/vanilla/polished_tuff.json"},
 		{"namespace": "quark", "path": "recipes/building/crafting/chests/mixed_chest.json"},
+		{"namespace": "quark", "path": "recipes/building/crafting/chests/mixed_chest.json"},
+		{"namespace": "quark", "path": "recipes/tweaks/crafting/utility/chests/mixed_chest_wood"},
 
 
 		{"namespace": "quark", "path": "recipes/building/crafting/furnaces/cobblestone_furnace.json"},
