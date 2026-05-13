@@ -2742,15 +2742,6 @@
 			x: 4.0d
 			y: 33.0d
 		}
-		{
-			id: "0469825002DD7DDC"
-			tasks: [{
-				id: "4614BEC31B17A4AC"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 33.0d
-		}
 	]
 	title: " &6Tier 0"
 }
