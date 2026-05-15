@@ -88,3 +88,4 @@ config/packetfixer.properties
 /xaero/world-map
 xaero/minimap/New World/config.txt
 /XaeroWaypoints_BACKUP240807
+xaero/minimap/Private World/dim%0/waypoints.txt

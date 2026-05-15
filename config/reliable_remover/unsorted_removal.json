@@ -469,7 +469,11 @@
             "ae2:wireless_terminal",
             "megacells:radioactive_cell_component",
             "nuclearcraft:du_storage_container",
-            "nuclearcraft:advanced_storage_container"
+            "nuclearcraft:advanced_storage_container",
+            "immersiveengineering:armor_steel_boots",
+            "immersiveengineering:armor_steel_helmet",
+            "immersiveengineering:armor_steel_leggings",
+            "immersiveengineering:armor_steel_chestplate"
         ]
     }
 ]
