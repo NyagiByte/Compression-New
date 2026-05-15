@@ -1,0 +1,17 @@
+filename = 'cerulean-forge-1.0.0-1.20.1.jar'
+name = 'Cerulean'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Cerulean Forge 1.0.0 for 1.20.1'
+
+[download]
+hash = '57697d040d21348173b4c06cb8fcb8536746525b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6489710
+project-id = 1204890

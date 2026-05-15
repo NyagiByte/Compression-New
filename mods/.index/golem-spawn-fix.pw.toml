@@ -1,0 +1,17 @@
+filename = 'golem_spawn_fix-1.0.2-forge-1.20.1.jar'
+name = 'Golem Spawn Fix'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Golem Spawn Fix 1.0.2'
+
+[download]
+hash = '795153ee2ec39f9f4ee36c61d09ed97d78ceea41'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6467849
+project-id = 1217787

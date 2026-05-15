@@ -1,9 +1,10 @@
 filename = 'Lychee-1.20.1-Forge-5.1.22.jar'
 name = 'Lychee (Neo/Forge)'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
 x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '[Forge 1.20.1] 5.1.22'
 
 [download]
 hash = '0628d3202c1f9d096a4f0bb3fa5beadfa89159a8'

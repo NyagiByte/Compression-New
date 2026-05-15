@@ -1,0 +1,17 @@
+filename = 'recipeessentials-1.20.1-4.0.jar'
+name = 'Recipe Essentials[Forge/Fabric]'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'recipeessentials-1.20.1-4.0.jar'
+
+[download]
+hash = '6e50995efefdef6f77f0289200a17ae4c18cde75'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6165709
+project-id = 907856

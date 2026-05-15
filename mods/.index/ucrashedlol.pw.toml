@@ -1,0 +1,17 @@
+filename = 'ucrashedlol-0.0.3+1.20.1.jar'
+name = 'ucrashedlol'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ucrashedlol-0.0.3+1.20.1.jar'
+
+[download]
+hash = '80e262d01ca62be964faffe1d5d4bde4404c87ab'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5311367
+project-id = 1012537

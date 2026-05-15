@@ -1,0 +1,17 @@
+filename = 'does_it_tick-forge-1.1.4-1.20.1.jar'
+name = 'Does It Tick?'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'DoesItTick Forge 1.1.4 for 1.20.1'
+
+[download]
+hash = '3149313d2d5d101ac70be5ddc7ddb2afcf54c3c0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6353652
+project-id = 543308

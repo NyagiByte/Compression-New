@@ -1,0 +1,17 @@
+filename = 'vintageimprovements-1.20.1-0.3.7.1.jar'
+name = 'Vintage Improvenents - SSW Edition'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'vintageimprovements-1.20.1-0.3.7.1.jar'
+
+[download]
+hash = 'a997014e6e53ce6fde544ab6ef1a520573b74f3a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7692119
+project-id = 1255448

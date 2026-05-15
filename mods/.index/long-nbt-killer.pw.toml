@@ -1,0 +1,17 @@
+filename = 'LongNbtKiller-Forge-1.20.1-1.0.0.jar'
+name = 'Long NBT Killer'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'LongNbtKiller-Forge-1.20.1-1.0.0.jar'
+
+[download]
+hash = 'f185e91d40a1c12d96c176cdf635532e9b066bb3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4956449
+project-id = 950085

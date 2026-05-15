@@ -1,0 +1,17 @@
+filename = 'abyssal_decor-_1.20.1_0.9.1.jar'
+name = 'Abyssal Decor'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'abyssal_decor_1.20.1_0.9.1.jar'
+
+[download]
+hash = '2b5b46e0dddf7badf24ae02bcac32ac31c65f71c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6766047
+project-id = 964853

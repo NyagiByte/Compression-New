@@ -1,0 +1,17 @@
+filename = 'SkeletonAIFix-v20.1.1-1.20.1-Forge.jar'
+name = 'Skeleton AI Fix'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[FORGE] [1.20.1] SkeletonAIFix-v20.1.1'
+
+[download]
+hash = '52bbfbb6fba6f2d591d0e130bf69df0fec02f78c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6740121
+project-id = 319351

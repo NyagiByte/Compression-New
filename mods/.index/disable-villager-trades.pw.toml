@@ -1,0 +1,17 @@
+filename = 'notradepls-1.0.0-1.20.1 Forge.jar'
+name = 'Disable Villager trades'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'notradepls-1.0.0-1.20.1 Forge.jar'
+
+[download]
+hash = '080616cec5e59ee5d8b88ea4b9ddcbbb20d3d742'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5033091
+project-id = 729170

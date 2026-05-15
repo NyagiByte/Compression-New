@@ -1,0 +1,17 @@
+filename = 'FastItemFrames-v20.1.5-1.20.1-Forge.jar'
+name = 'Fast Item Frames'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[FORGE] [1.20.1] FastItemFrames-v20.1.5'
+
+[download]
+hash = '5ab6e361d3a68159ac0d5d252c6558d355e564af'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6963016
+project-id = 1210171

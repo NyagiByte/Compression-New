@@ -1,0 +1,17 @@
+filename = 'stonezone-1.20-2.9.6.jar'
+name = 'Every Compat (Stone Zone)'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'stonezone-1.20-2.9.6.jar'
+
+[download]
+hash = 'b0050179c8ba34eeaa84de148db98096c15786c6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7081248
+project-id = 1154622

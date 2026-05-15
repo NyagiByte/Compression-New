@@ -1,0 +1,17 @@
+filename = 'subtleskybox-forge-0.1.1.jar'
+name = 'Subtle Skybox'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Subtle Skybox Forge 0.1.1'
+
+[download]
+hash = '6a4eaeccbebd75794e48797e3d73f8bdf5b1332f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6980613
+project-id = 1344151

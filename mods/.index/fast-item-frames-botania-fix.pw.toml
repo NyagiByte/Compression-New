@@ -1,0 +1,17 @@
+filename = 'fastbotaniafix-1.0.1.jar'
+name = 'Fast Item Frames Botania Fix'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'fastbotaniafix-1.0.1.jar'
+
+[download]
+hash = 'a06bfd604f6f5fa98016f0b46fd9647fbe312592'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7659359
+project-id = 1467836

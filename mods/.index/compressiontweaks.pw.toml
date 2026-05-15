@@ -1,0 +1,17 @@
+filename = 'compressiontweaks-1.20.1-2.0.1-all.jar'
+name = 'CompressionTweaks'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'compressiontweaks-1.20.1-2.0.1-all.jar'
+
+[download]
+hash = '1a408ecd0c2668260dfbf8bd6fbc2631aa0ef7ae'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8081576
+project-id = 999588

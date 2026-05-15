@@ -1,9 +1,10 @@
 filename = 'packages-1.20.1-forge-2025.12.23.jar'
 name = 'Packages'
-side = 'both'
+side = ''
 x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'packages-1.20.1-forge-2025.12.23.jar'
 
 [download]
 hash = 'a47533a026d76f8a36be187b92a7e3378433708a'

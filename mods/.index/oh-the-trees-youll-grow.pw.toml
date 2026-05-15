@@ -1,0 +1,17 @@
+filename = 'Oh-The-Trees-Youll-Grow-forge-1.20.1-1.4.2.jar'
+name = "Oh The Trees You'll Grow"
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = "Oh The Trees You'll Grow-Forge-1.20.1-1.4.2"
+
+[download]
+hash = '215d11414c4f9c425efd46b01c4dd1ff8698c217'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7096323
+project-id = 962544

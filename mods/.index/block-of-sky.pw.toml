@@ -1,0 +1,17 @@
+filename = 'blockofsky-neoforge-1.20.1-0.3.0.jar'
+name = 'Block of Sky'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'blockofsky-neoforge-1.20.1-0.3.0.jar'
+
+[download]
+hash = 'aa67a294c45231dd719255ae465b12437ea62dc3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4727499
+project-id = 757062

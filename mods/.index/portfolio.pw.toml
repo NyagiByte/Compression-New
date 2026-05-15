@@ -1,0 +1,17 @@
+filename = 'portfolio-1.20.1-1.5.0-forge.jar'
+name = 'Portfolio'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Portfolio 1.20.1-1.5.0-Forge'
+
+[download]
+hash = 'fd2278ecbd44978cc95dc37c4061d3d26c337f30'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7102154
+project-id = 851131

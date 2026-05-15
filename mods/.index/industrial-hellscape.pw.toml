@@ -1,9 +1,10 @@
 filename = 'industrialhellscape-0.3.5-1.20.1.jar'
 name = 'Industrial Hellscape'
-side = 'both'
+side = 'server'
 x-prismlauncher-loaders = [ 'forge' ]
 x-prismlauncher-mc-versions = [ '1.20.1' ]
 x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'industrialhellscape-0.3.5-1.20.1.jar'
 
 [download]
 hash = '306a9126d25c7bc665177ec86b63bbf0244bc5a0'
