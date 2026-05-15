@@ -1,4 +1,5 @@
 {
+	autofocus_id: "0049E87A6B59FE5A"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tools_of_industry"
@@ -17,6 +18,7 @@
 				""
 				"These boots also allow you to &bsink to the bottom of bodies of liquid&r, but without a &ddiving helmet&r and &dback tank&r this feature is more of a mafia benefit than a player benefit"
 			]
+			hide_until_deps_complete: true
 			id: "2169A5DFADF3C694"
 			rewards: [{
 				id: "33CC723F2F3A4098"
@@ -141,6 +143,7 @@
 				""
 				"When you &acomplete a craft&r you get the option to &6save said craft&r to a slot in the halo UI, allowing you to &dright click-craft instantly&r"
 			]
+			hide_until_deps_complete: true
 			id: "6B38747E1261448A"
 			rewards: [{
 				id: "1C92FBAAF2D2C811"
@@ -191,6 +194,7 @@
 				""
 				"Oh and you can craft it with a &dcorporea spark&r to upgrade the book to the &aAlfheim version&r since reading up on corporea might prove useful &7(and since we tier broke it to tier 0 when it is normally end game botania)&r"
 			]
+			hide_until_deps_complete: true
 			id: "09856F3153B884AB"
 			rewards: [{
 				id: "6D4F9EFF6FD2838D"
@@ -213,6 +217,7 @@
 				""
 				"It is worth noting that since Compression modifies recipes and progression paths quite a bit the &cinformation in the book may not be entirely accurate&r. If issues do crop up address it to the &d&nCompression team&r and &4not&r the IE/IP team as it is unlikely to be on their end"
 			]
+			hide_until_deps_complete: true
 			id: "110B66C3FF649B2A"
 			rewards: [{
 				id: "77442CF832F4BF09"
@@ -253,6 +258,7 @@
 				""
 				"&b[Rightclick]&r - Rotate various create blocks, especially useful for &agearbox orientation&r"
 			]
+			hide_until_deps_complete: true
 			id: "593F4B6288E939F1"
 			rewards: [{
 				id: "44519A3179B6DF6B"
@@ -310,6 +316,7 @@
 				""
 				"Don't ask how this works"
 			]
+			hide_until_deps_complete: true
 			id: "4252BCA134E2B9CD"
 			rewards: [{
 				id: "394CA2ED2AFE4658"
@@ -357,6 +364,7 @@
 				""
 				"The stone wand can place &a9 blocks&r at a time and has a &edurability of 131&r"
 			]
+			hide_until_deps_complete: true
 			id: "65D8FAD51F6EE4C6"
 			rewards: [{
 				id: "7D56219D4DF54B2F"
@@ -480,6 +488,7 @@
 				"0049E87A6B59FE5A"
 			]
 			description: ["This quest name makes zero sense if you haven't seen Soul Eater"]
+			hide_until_deps_complete: true
 			id: "28831D522C6F3026"
 			rewards: [{
 				id: "647244CA1B5A4BA3"
@@ -505,6 +514,7 @@
 				""
 				"The wrench has a &6ponder&r :) Enjoy!"
 			]
+			hide_until_deps_complete: true
 			id: "04B6D86B67F5DEBB"
 			rewards: [{
 				id: "1EF77FF368AC5A08"
@@ -544,6 +554,7 @@
 				""
 				"Might have an... interesting interaction with Botania's &bPetal Apothecary&r"
 			]
+			hide_until_deps_complete: true
 			id: "1A196A00B2031141"
 			rewards: [{
 				id: "5C3C4477E3CCE007"
@@ -741,6 +752,7 @@
 				""
 				"It is worth noting that &aDispensers&r are able to use the wand"
 			]
+			hide_until_deps_complete: true
 			id: "13496F0256112C9B"
 			rewards: [{
 				id: "338375A060D71C1F"
@@ -891,6 +903,7 @@
 				""
 				"&7Also I am aware you can craft this in Tier 0, some players might want to read on Certus Growing, enjoy your wrong-tiered berry&r"
 			]
+			hide_until_deps_complete: true
 			id: "353E8A9372BF983C"
 			rewards: [{
 				id: "26BCA7911E2F5A9F"
@@ -937,6 +950,7 @@
 				""
 				"&aDoesn't mean tools are gonna be a hassle&r, the next few quests will go over the changes made to early repairing and enchanting."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "ftbquests:custom_icon"

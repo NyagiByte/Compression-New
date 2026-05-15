@@ -1,5 +1,5 @@
 {
-	autofocus_id: "5829CD62BB33D143"
+	autofocus_id: "4B88B2632966F946"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "scale_tree_i"
@@ -39,6 +39,7 @@
 			]
 			description: ["This is the scaling tree for paper"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "minecraft:paper"
 			id: "71143467829FD119"
 			rewards: [{
@@ -97,6 +98,7 @@
 			]
 			description: ["This is the scaling tree for books"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "minecraft:book"
 			id: "58CE0C7BD7398413"
 			rewards: [{
@@ -164,6 +166,7 @@
 			]
 			description: ["The most basic of machine components, the start of the tree. Vanilla recipe yields"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			id: "464E07BF8ADBFB35"
 			rewards: [{
 				id: "28CD4EBA037DDE32"
@@ -211,6 +214,7 @@
 			]
 			description: ["This is the scaling tree for cured rubber"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "thermal:cured_rubber"
 			id: "33F886E51F20B0F5"
 			rewards: [{
@@ -334,6 +338,7 @@
 			]
 			description: ["This is the scaling tree for stainless steel"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:steel_stainless"
 			id: "387DFD801FA80B99"
 			rewards: [{
@@ -393,6 +398,7 @@
 			]
 			description: ["This is the scaling tree for ae2 processors"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "ae2:logic_processor"
 			id: "031EFEA90E87FC96"
 			rewards: [{
@@ -475,6 +481,7 @@
 			]
 			description: ["This is the scaling tree for quartz glass"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "ae2:quartz_glass"
 			id: "368547EA5877E132"
 			rewards: [{
@@ -542,6 +549,7 @@
 			]
 			description: ["This is the scaling tree for rose quartz"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "create:rose_quartz"
 			id: "1C8AA0B6AF089D28"
 			rewards: [{
@@ -569,6 +577,7 @@
 				"&eThe \"scaling\" with pure daisy conversion has to do with SPEED. More specifically using more constructed blocks to engage in the process that both take less time and yield more product"
 			]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "botania:pure_daisy"
 			id: "600D1BF0A4506C5F"
 			rewards: [{
@@ -773,6 +782,7 @@
 			]
 			description: ["This is the scaling tree for charcoal"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "minecraft:charcoal"
 			id: "7B696C8A5735DFAE"
 			rewards: [{
@@ -847,6 +857,7 @@
 			]
 			description: ["This is the scaling tree for glazed terracottas"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "minecraft:white_glazed_terracotta"
 			id: "35280773B6BDF401"
 			rewards: [{
@@ -947,6 +958,7 @@
 			]
 			description: ["This is the scaling tree for flux mixture"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:flux_mixture"
 			id: "62C78DBE446214A4"
 			rewards: [{
@@ -970,6 +982,7 @@
 			]
 			description: ["This is the scaling tree for low temperature solder"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:low_temperature_solder"
 			id: "0BF07A3A2129E4A1"
 			rewards: [{
@@ -993,6 +1006,7 @@
 			]
 			description: ["This is the scaling tree for ceramic"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:ceramic"
 			id: "4FDE3B132728A444"
 			rewards: [{
@@ -1060,6 +1074,7 @@
 			]
 			description: ["This is the scaling tree for industrial grade coke"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:industrial_grade_coke"
 			id: "056F9E4C1BDBC15C"
 			rewards: [{
@@ -1305,6 +1320,7 @@
 			]
 			description: ["This is the scaling tree for sterilized quartz glass"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:sterilized_quartz_glass"
 			id: "30B109F8DC8FC981"
 			rewards: [{
@@ -1382,6 +1398,7 @@
 			]
 			description: ["This is the scaling tree for petri dishes"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:petri_dish_empty"
 			id: "4E623870E1DDAFB7"
 			rewards: [{
@@ -1449,6 +1466,7 @@
 			]
 			description: ["This is the scaling tree for crude silicon boules"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:crude_silicon_boule"
 			id: "6407F47B14260E92"
 			rewards: [{
@@ -1501,6 +1519,7 @@
 			]
 			description: ["This is the scaling tree for polycrystalline silicon carbide"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:polycrystalline_silicon_carbide"
 			id: "551C5D4153F3D8D1"
 			rewards: [{
@@ -1572,6 +1591,7 @@
 			dependencies: ["4B88B2632966F946"]
 			description: ["This is the scaling tree for slag gravel"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "immersiveengineering:slag_gravel"
 			id: "6E25827A414FCAC6"
 			rewards: [{
@@ -1639,6 +1659,7 @@
 			]
 			description: ["This is the scaling tree for lead acid cells"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:lead_acid_cell"
 			id: "6A60597D0E27046C"
 			rewards: [{
@@ -1744,6 +1765,7 @@
 			]
 			description: ["This is the scaling tree for skystone shielding"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:skystone_shielding"
 			id: "27D593107293F670"
 			rewards: [{
@@ -1830,6 +1852,7 @@
 			]
 			description: ["This is the scaling tree for ink"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:ink"
 			id: "06A7C4F97B02E62B"
 			rewards: [{
@@ -1998,6 +2021,7 @@
 			]
 			description: ["This is the scaling tree for activated charcoal"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:activated_charcoal"
 			id: "4D3DF93F34A14E87"
 			rewards: [{
@@ -2065,6 +2089,7 @@
 			]
 			description: ["This is the scaling tree for chemically inert wood"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:chemically_inert_wood"
 			id: "15B68BB7170FFDFE"
 			rewards: [{
@@ -2110,6 +2135,7 @@
 			]
 			description: ["This is the scaling tree for botania elemental runes"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "botania:rune_fire"
 			id: "0F19705DACECC023"
 			rewards: [{
@@ -2180,6 +2206,7 @@
 			]
 			description: ["This is the scaling tree for fire extinguishers"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:fire_extinguisher"
 			id: "57F177720529C750"
 			rewards: [{
@@ -2323,6 +2350,7 @@
 			]
 			description: ["This is the scaling tree for vinegar"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:bottle_of_vinegar"
 			id: "61409154D028F9A4"
 			rewards: [{
@@ -2449,6 +2477,7 @@
 			]
 			description: ["This is the scaling tree for samples of chitin"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "chemlib:chitin"
 			id: "3530206414F3F62A"
 			rewards: [{
@@ -2599,6 +2628,7 @@
 			]
 			description: ["This is the scaling tree for mana-imbued glucose crystal"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:mana_imbued_glucose_crystal"
 			id: "1D21362DCA5080A2"
 			rewards: [{
@@ -2622,6 +2652,7 @@
 			]
 			description: ["This is the scaling tree for mana-imbued oobleck"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:mana_imbued_oobleck"
 			id: "703AFBD6C6C2718F"
 			rewards: [{
@@ -2720,6 +2751,7 @@
 			]
 			description: ["This is the scaling tree for low voltage capacitors "]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:low_voltage_capacitor"
 			id: "654419675F278563"
 			rewards: [{
@@ -2787,6 +2819,7 @@
 			]
 			description: ["This is the scaling tree for skystone encrusted boules"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:skystone_encrusted_boule"
 			id: "4FDB45C6E4D43A98"
 			rewards: [{
@@ -2854,6 +2887,7 @@
 			]
 			description: ["This is the scaling tree for samples of sulfuric acid &eand&r sulfur trioxide"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "chemlib:sulfur_trioxide"
 			id: "018C4CE17066E57D"
 			rewards: [{
@@ -2923,6 +2957,7 @@
 			]
 			description: ["This is the scaling tree for amorphous cellulose"]
 			hide_dependency_lines: true
+			hide_until_deps_complete: true
 			icon: "nyagibits_bytes:bucket_of_amorphous_cellulose"
 			id: "223044FE2BE7354C"
 			rewards: [{

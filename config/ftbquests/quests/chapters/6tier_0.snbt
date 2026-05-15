@@ -1,4 +1,5 @@
 {
+	autofocus_id: "12057422FF5BBB46"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "6tier_0"
@@ -102,6 +103,7 @@
 			dependencies: [
 				"7182388FCC361CB0"
 				"322E8B40B0197798"
+				"02B7D7FBFBAF0412"
 			]
 			description: [
 				"Waiting for sugarcane to grow early game can be rather annoying and soft lock progression on servers. So early game paper just needs bark now! &bI'd recommend doing this in batches of 63 at a time&r."
@@ -223,7 +225,7 @@
 			description: [
 				"A singular sand paper is able to yield about &e32&r polished stones. "
 				""
-				"I'd recommend making &ba stack or two&r of &dPolished Livisite&r at a time"
+				"I'd recommend making &ba stack or two&r of &dPolished Livingrock&r at a time"
 			]
 			icon: "botania:polished_livingrock"
 			id: "21EBC179B83DE39D"

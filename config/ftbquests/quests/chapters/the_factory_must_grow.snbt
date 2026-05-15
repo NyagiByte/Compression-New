@@ -1,4 +1,5 @@
 {
+	autofocus_id: "5F964897DC3F3EF8"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_factory_must_grow"
@@ -75,6 +76,7 @@
 				""
 				"Off this way to all the machinations that can move your &cfleshy vessel&r with a decent safety margin."
 			]
+			hide_until_deps_complete: true
 			icon: "pneumaticcraft:speed_upgrade"
 			id: "25761DABD5917644"
 			rewards: [{
@@ -101,6 +103,7 @@
 				"{@pagebreak}"
 				"Thankfully &dLogistics Management&r has your back with all the infrastructure needed to maintain less spaghetti than normal."
 			]
+			hide_until_deps_complete: true
 			icon: {
 				Count: 1
 				id: "pneumaticcraft:logistics_drone"
@@ -133,6 +136,7 @@
 				"{@pagebreak}"
 				"If you lawn base I will remove all of your bones."
 			]
+			hide_until_deps_complete: true
 			icon: "minecraft:scaffolding"
 			id: "6A7404C416453F72"
 			rewards: [{
@@ -162,6 +166,7 @@
 				""
 				"&cThe factory must grow. The factory shall assist you in growing it."
 			]
+			hide_until_deps_complete: true
 			icon: "create:builders_tea"
 			id: "5E780FBECE1F61E6"
 			rewards: [{
