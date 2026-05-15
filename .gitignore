@@ -89,3 +89,7 @@ config/packetfixer.properties
 xaero/minimap/New World/config.txt
 /XaeroWaypoints_BACKUP240807
 xaero/minimap/Private World/dim%0/waypoints.txt
+xaero/minimap/Private World/config.txt
+xaero/minimap/The Big Sort/config.txt
+xaero/minimap/The Big Sort/config.txt
+patchouli_data.json
