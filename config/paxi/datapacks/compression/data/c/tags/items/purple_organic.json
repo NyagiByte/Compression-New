@@ -1,0 +1,16 @@
+{
+    "replace": true,
+    "values": [
+        "botania:purple_petal",
+        "botania:purple_mushroom",
+        "biomeswevegone:allium_flower_bush",
+        "biomeswevegone:alpine_bellflower",
+        "biomeswevegone:iris",
+        "biomeswevegone:purple_sage",
+        "biomeswevegone:purple_tulip",
+        "biomeswevegone:purple_amaranth",
+        "biomeswevegone:crocus",
+        "biomeswevegone:tall_allium",
+        "abyssal_decor:aster"
+    ]
+  }

@@ -1,0 +1,28 @@
+{
+    "replace": true,
+    "values": [
+        "pneumaticcraft:creative_compressed_iron_block",
+        "nyagibits_bytes:ejecta",
+        "nyagibits_bytes:iridium_tektite_rock",
+        "nyagibits_bytes:lechatelierite",
+        "nyagibits_bytes:breccia",
+        "nyagibits_bytes:basalt_boninite_pseudo",
+        "nyagibits_bytes:basalt_tholeiitic_solid",
+        "nyagibits_bytes:carbometallic_rock",
+        "mekanism:portable_qio_dashboard",
+        "mekanism:supercharged_coil",
+        "mekanism:sps_port",
+        "mekanism:qio_redstone_adapter",
+        "mekanism:qio_importer",
+        "mekanism:qio_exporter",
+        "mekanism:qio_dashboard",
+        "mekanism:qio_drive_array",
+        "mekanism:antiprotonic_nucleosynthesizer",
+        "mekanism:sps_casing",
+        "mekanism:qio_drive_supermassive",
+        "create:creative_motor",
+        "create:creative_fluid_tank",
+        "create:creative_crate",
+        "create:creative_blaze_cake"
+    ]
+  }

@@ -1,0 +1,25 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:pink_tulip",
+        "minecraft:peony",
+        "minecraft:brain_coral",
+        "minecraft:brain_coral_fan",
+        "botania:pink_petal",
+        "botania:pink_mushroom",
+        "biomeswevegone:japanese_orchid",
+        "biomeswevegone:tall_pink_allium",
+        "biomeswevegone:osiria_rose",
+        "biomeswevegone:japanese_orchid",
+        "biomeswevegone:silver_vase_flower",
+        "biomeswevegone:daffodil",
+        "biomeswevegone:bistort",
+        "biomeswevegone:firecracker_flower_bush",
+        "biomeswevegone:peach_leather_flower",
+        "biomeswevegone:pink_allium",
+        "biomeswevegone:pink_allium_flower_bush",
+        "biomeswevegone:pink_anemone",
+        "biomeswevegone:pink_daffodil",
+        "biomeswevegone:tall_pink_allium"
+    ]
+  }

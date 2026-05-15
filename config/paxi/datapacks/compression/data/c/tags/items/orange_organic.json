@@ -1,0 +1,13 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:orange_tulip",
+        "botania:orange_petal",
+        "botania:orange_mushroom",
+        "biomeswevegone:orange_amaranth",
+        "biomeswevegone:orange_daisy",
+        "biomeswevegone:guzmania",
+        "biomeswevegone:incan_lily",
+        "biomeswevegone:california_poppy"
+    ]
+  }

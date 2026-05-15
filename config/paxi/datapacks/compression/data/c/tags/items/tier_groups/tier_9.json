@@ -1,0 +1,22 @@
+{
+    "replace": true,
+    "values": [
+        "botania:tiny_planet_block",
+        "botania:tiny_potato",
+        "botania:black_hole_talisman",
+        "botania:tiny_planet",
+        "minecraft:bedrock",
+        "minecraft:totem_of_undying",
+        "minecraft:disc_fragment_5",
+        "architects_palette:unobtanium",
+        "architects_palette:unobtanium_block",
+        "mekanism:robit",
+        "xkdeco:telescope",
+        "xkdeco:big_solar_system_model",
+        "xkdeco:solar_system_model",
+        "xkdeco:globe",
+        "xkdeco:wood_globe",
+        "bedrockminer:bedrock_chunk",
+        "handcrafted:evoker_trophy"
+    ]
+  }

@@ -1,0 +1,12 @@
+{
+    "replace": true,
+    "values": [
+        "nyagibits_bytes:raw_herkimer_diamond",
+        "nyagibits_bytes:raw_chalcedony",
+        "nyagibits_bytes:raw_rutilated_quartz",
+        "nyagibits_bytes:raw_rose_quartz",
+        "nyagibits_bytes:raw_prasiolite",
+        "nyagibits_bytes:raw_ametrine",
+        "nyagibits_bytes:raw_dendritic_agate"
+    ]
+  }
