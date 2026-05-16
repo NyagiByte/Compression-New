@@ -497,7 +497,7 @@
 				"{image:compression:textures/quests/corporea_emi.png width:185 height:100 align:center}"
 				""
 				"{@pagebreak}"
-				"Firstly you don't necessarily need to type in chat to request items. By &apinning an item to your bookmark&r &7(press [A] while hovering it)&r you can hover the bookmarked item and press c &7(by defauly)&r to request the item."
+				"Firstly you don't necessarily need to type in chat to request items. By &apinning an item to your bookmark&r &7(press [A] while hovering it)&r you can hover the bookmarked item and press c &7(by default)&r to request the item."
 				""
 				"{image:compression:textures/quests/add_bookmark_corp.png width:185 height:76 align:center}"
 				""
