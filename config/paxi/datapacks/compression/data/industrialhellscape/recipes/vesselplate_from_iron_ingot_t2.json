@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "industrialhellscape:inhell_haven_device"
+        },
+        {
+            "item": "nyagibits_bytes:steel_high_carbon_1080"
+        }
+    ],
+    "result": {
+        "count": 64,
+        "item": "industrialhellscape:riveted_vesselplate_panel"
+    }
+}

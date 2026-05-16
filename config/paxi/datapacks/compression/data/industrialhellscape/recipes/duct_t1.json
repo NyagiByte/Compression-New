@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"immersiveengineering:ingot_steel"},
+      "B": {"item":"industrialhellscape:inhell_haven_device"}
+    },
+    "pattern": [
+      "ABA"
+    ],
+    "result": {
+        "count": 32,
+        "item": "industrialhellscape:duct"
+    }
+  }

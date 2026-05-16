@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:iron_ingot"},
+      "B": {"item":"industrialhellscape:inhell_haven_device"}
+    },
+    "pattern": [
+      "ABA"
+    ],
+    "result": {
+        "count": 16,
+        "item": "industrialhellscape:duct"
+    }
+  }

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:stonecutter"},
+      "B": {"item":"create:shaft"},
+      "C": {"item":"minecraft:iron_ingot"},
+      "D": {"item":"minecraft:lever"},
+      "E": {"item":"quark:iron_button"}
+    },
+    "pattern": [
+      "CCA",
+      "DBB",
+      "DEC"
+    ],
+    "result": {
+        "item": "industrialhellscape:inhell_haven_device"
+    }
+  }

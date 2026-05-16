@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "industrialhellscape:inhell_haven_device"
+        },
+        {
+            "item": "botania:mana_glass"
+        }
+    ],
+    "result": {
+        "count": 64,
+        "item": "industrialhellscape:vesselglass"
+    }
+}
