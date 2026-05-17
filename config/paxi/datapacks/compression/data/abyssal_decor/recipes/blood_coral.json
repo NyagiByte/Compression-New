@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"tag":"forge:dead_coral"},
+    {"item":"minecraft:red_dye"}
+  ],
+  "result": {"item": "abyssal_decor:blood_coral_bud"}
+}
