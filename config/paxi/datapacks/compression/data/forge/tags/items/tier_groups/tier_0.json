@@ -18217,6 +18217,11 @@
         "stonezone:c/abyssal_decor/blood_coral_pillar",
         "stonezone:c/abyssal_decor/layered_blood_coral",
         "interactive_corporea:requesting_halo",
-        "interactive_corporea:item_quantization_device"
+        "interactive_corporea:item_quantization_device",
+        "botania:light_relay",
+        "botania:detector_light_relay",
+        "botania:fork_light_relay",
+        "botania:toggle_light_relay",
+        "botania:light_launcher"
     ]
   }
