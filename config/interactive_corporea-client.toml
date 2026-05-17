@@ -1,0 +1,14 @@
+
+[Render]
+	#Enable the animation of requesting halo item
+	itemRequestingHaloAnimation = true
+	#Enable animated GLSL shader backgrounds on the Requesting Halo. Disabling this also hides other players' shader backgrounds.
+	enableHaloShaders = true
+
+[Shaders]
+	#Enable [HaloShaderDebug] log output for shader compatibility troubleshooting
+	enableShaderDebugLogging = false
+	#Geometry quality for Requesting Halo shader backgrounds
+	#Allowed Values: LOW, MEDIUM, HIGH
+	haloShaderQuality = "MEDIUM"
+

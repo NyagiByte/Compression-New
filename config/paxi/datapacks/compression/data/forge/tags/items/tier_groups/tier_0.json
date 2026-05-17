@@ -18215,6 +18215,8 @@
         "stonezone:c/abyssal_decor/small_blood_coral_brick_slab",
         "stonezone:c/abyssal_decor/small_blood_coral_brick_wall",
         "stonezone:c/abyssal_decor/blood_coral_pillar",
-        "stonezone:c/abyssal_decor/layered_blood_coral"
+        "stonezone:c/abyssal_decor/layered_blood_coral",
+        "interactive_corporea:requesting_halo",
+        "interactive_corporea:item_quantization_device"
     ]
   }

@@ -1,0 +1,21 @@
+{
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {
+      "item": "botania:corporea_index"
+    },
+    {
+      "item": "botania:corporea_crystal_cube"
+    },
+    {
+      "item": "botania:corporea_funnel"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "interactive_corporea:requesting_halo"
+  },
+  "reagent": {
+    "tag": "botania:seed_apothecary_reagent"
+  }
+}

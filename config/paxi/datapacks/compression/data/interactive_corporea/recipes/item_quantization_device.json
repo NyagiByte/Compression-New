@@ -1,0 +1,24 @@
+{
+  "type": "botania:petal_apothecary",
+  "ingredients": [
+    {
+      "item": "botania:corporea_index"
+    },
+    {
+      "item": "botania:corporea_block"
+    },
+    {
+      "item": "botania:corporea_block"
+    },
+    {
+      "item": "botania:corporea_funnel"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "interactive_corporea:item_quantization_device"
+  },
+  "reagent": {
+    "tag": "botania:seed_apothecary_reagent"
+  }
+}

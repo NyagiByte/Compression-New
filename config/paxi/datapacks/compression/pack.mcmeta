@@ -1802,6 +1802,8 @@
 		{"namespace": "spelunkery", "path": "recipes/lapis_lazuli_shard.json"},
 		{"namespace": "spelunkery", "path": "recipes/lapis_from_shard.json"},
 
+		{"namespace": "spelunkery", "path": "recipes/rough_quartz_from_block.json"},
+
 		{"namespace": "spelunkery", "path": "recipes/rough_cinnabar_shard.json"},
 		{"namespace": "spelunkery", "path": "recipes/rough_cinnabar.json"},
 		{"namespace": "spelunkery", "path": "recipes/cinnabar_from_block.json"},
