@@ -4,5 +4,5 @@
 	#Range: 1 ~ 300
 	protectionDuration = 60
 	#Show messages to players when protection is active (default: true)
-	showMessages = true
+	showMessages = false
 
