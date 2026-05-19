@@ -536,7 +536,8 @@
             "minecraft:netherite_leggings",
             "minecraft:netherite_boots",
             "minecraft:turtle_helmet",
-            "minecraft:shield"
+            "minecraft:shield",
+            "aiotbotania:livingrock_shears"
         ]
     }
 ]
