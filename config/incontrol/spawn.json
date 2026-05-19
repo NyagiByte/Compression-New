@@ -1,6 +1,13 @@
 [
   {
-    "mob": ["minecraft:skeleton", "minecraft:stray"],
+    "mob": ["minecraft:skeleton", "minecraft:stray", "quark:forgotten"],
+    "when": "onjoin",
+    "spawntype": ["mob_summoned", "spawn_egg", "spawner"],
+    "result": "default"
+  },
+  {
+    "mob": ["minecraft:skeleton", "minecraft:stray", "quark:forgotten"],
+    "when": "onjoin",
     "spawner": false,
     "result": "deny"
   }
