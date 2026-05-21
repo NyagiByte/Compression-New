@@ -10,6 +10,22 @@
     ],
     "sequence": [
       {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "immersiveengineering:sheetmetal_iron"
+          },
+          {
+            "item": "nyagibits_bytes:acetylene_tank"
+          }  
+    ],
+        "results": [
+          {
+            "item": "immersiveengineering:sheetmetal_iron"
+          }
+        ]
+      },
+      {
         "type": "create:cutting",
         "ingredients": [
           {
@@ -21,22 +37,6 @@
           {
             "item": "immersiveengineering:sheetmetal_lead"
           }  
-        ]
-      },
-      {
-        "type": "create:deploying",
-        "ingredients": [
-          {
-            "item": "immersiveengineering:sheetmetal_lead"
-          },
-          {
-            "item": "nyagibits_bytes:acetylene_tank"
-          }  
-    ],
-        "results": [
-          {
-            "item": "immersiveengineering:sheetmetal_lead"
-          }
         ]
       }
     ],

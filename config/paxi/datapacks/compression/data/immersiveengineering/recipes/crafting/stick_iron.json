@@ -10,20 +10,6 @@
     ],
     "sequence": [
       {
-        "type": "create:cutting",
-        "ingredients": [
-          {
-            "item": "immersiveengineering:sheetmetal_iron"
-          }
-        ],
-        "processingTime": 60,
-        "results": [
-          {
-            "item": "immersiveengineering:sheetmetal_iron"
-          }  
-        ]
-      },
-      {
         "type": "create:deploying",
         "ingredients": [
           {
@@ -37,6 +23,20 @@
           {
             "item": "immersiveengineering:sheetmetal_iron"
           }
+        ]
+      },
+      {
+        "type": "create:cutting",
+        "ingredients": [
+          {
+            "item": "immersiveengineering:sheetmetal_iron"
+          }
+        ],
+        "processingTime": 60,
+        "results": [
+          {
+            "item": "immersiveengineering:sheetmetal_iron"
+          }  
         ]
       }
     ],

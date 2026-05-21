@@ -1,0 +1,12 @@
+{
+    "type": "pneumaticcraft:explosion_crafting",
+    "input": {
+      "item": "immersiveengineering:sheetmetal_iron"
+    },
+    "loss_rate": 10,
+    "results": [
+      {
+        "item": "immersiveengineering:stick_iron"
+      }
+    ]
+  }
