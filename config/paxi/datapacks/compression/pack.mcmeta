@@ -1905,6 +1905,14 @@
 
 		{"namespace": "industrialhellscape", "path": "recipes/vesselplate_from_iron_block.json"},
 
+		{"namespace": "industrialhellscape", "path": "recipes/hvac_smelt_recycle.json"},
+		{"namespace": "industrialhellscape", "path": "recipes/vesselplate_smelt_recycle.json"},
+		{"namespace": "industrialhellscape", "path": "recipes/strut_smelt_recycle.json"},
+
+		{"namespace": "industrialhellscape", "path": "recipes/hvac_blast_recycle.json"},
+		{"namespace": "industrialhellscape", "path": "recipes/vesselplate_blast_recycle.json"},
+		{"namespace": "industrialhellscape", "path": "recipes/strut_blast_recycle.json"},
+
 
 
 
