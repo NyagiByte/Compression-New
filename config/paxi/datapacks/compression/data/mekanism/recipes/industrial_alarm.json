@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"quark:red_framed_glass"},
+    "B": {"item":"immersiveengineering:plate_steel"},
+    "C": {"item":"botania:cacophonium_block"}
+  },
+  "pattern": [
+    "AAA",
+    "ACA",
+    "BBB"
+  ],
+  "result": {
+    "count": 16,
+    "item": "mekanism:industrial_alarm"
+  }
+}

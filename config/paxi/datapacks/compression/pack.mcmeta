@@ -29,6 +29,30 @@
 		{"namespace": "mekanism", "path": "recipes/transmitter/restrictive_transporter.json"},
 		{"namespace": "mekanism", "path": "recipes/transmitter/diversion_transporter.json"},
 		{"namespace": "mekanism", "path": "recipes/transmitter/thermodynamic_conductor/basic.json"},
+		{"namespace": "mekanism", "path": "recipes/geiger_counter.json"},
+		{"namespace": "mekanism", "path": "recipes/chemical_crystallizer.json"},
+		{"namespace": "mekanism", "path": "recipes/seismic_vibrator.json"},
+		{"namespace": "mekanism", "path": "recipes/nutritional_liquifier.json"},
+		{"namespace": "mekanism", "path": "recipes/antiprotonic_nucleosynthesizer.json"},
+		{"namespace": "mekanism", "path": "recipes/pigment_extractor.json"},
+		{"namespace": "mekanism", "path": "recipes/pigment_mixer.json"},
+		{"namespace": "mekanism", "path": "recipes/painting_machine.json"},
+		{"namespace": "mekanism", "path": "recipes/dynamic_valve.json"},
+		{"namespace": "mekanism", "path": "recipes/thermal_evaporation/valve.json"},
+		{"namespace": "mekanism", "path": "recipes/induction/port.json"},
+		{"namespace": "mekanism", "path": "recipes/boiler_valve.json"},
+		{"namespace": "mekanism", "path": "recipes/sps_port.json"},
+		{"namespace": "mekanism", "path": "recipes/dictionary.json"},
+		{"namespace": "mekanism", "path": "recipes/configuration_card.json"},
+		{"namespace": "mekanism", "path": "recipes/thermal_evaporation/controller.json"},
+		{"namespace": "mekanism", "path": "recipes/sps_casing.json"},
+		{"namespace": "mekanism", "path": "recipes/hazmat_mask.json"},
+		{"namespace": "mekanism", "path": "recipes/hazmat_gown.json"},
+		{"namespace": "mekanism", "path": "recipes/hazmat_pants.json"},
+		{"namespace": "mekanism", "path": "recipes/hazmat_boots.json"},
+
+
+
 
 		{"namespace": "mekanism", "path": "recipes/sawing/item_frame.json"},
 
