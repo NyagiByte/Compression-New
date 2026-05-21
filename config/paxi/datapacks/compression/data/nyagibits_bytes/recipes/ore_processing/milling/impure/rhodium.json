@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:rhodium_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.95,
+        "item": "chemlib:rhodium_dust"
+      },
+      {
+        "chance": 0.05,
+        "item": "thermal:slag"
+      }
+    ]
+  }

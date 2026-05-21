@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:molybdenum_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.8,
+        "item": "chemlib:molybdenum_dust"
+      },
+      {
+        "chance": 0.2,
+        "item": "thermal:slag"
+      }
+    ]
+  }

@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:neodymium_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.8,
+        "item": "chemlib:neodymium_dust"
+      },
+      {
+        "chance": 0.2,
+        "item": "thermal:slag"
+      }
+    ]
+  }

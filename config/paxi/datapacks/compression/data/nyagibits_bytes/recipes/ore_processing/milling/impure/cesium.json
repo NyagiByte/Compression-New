@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:cesium_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.4,
+        "item": "chemlib:cesium_dust"
+      },
+      {
+        "chance": 0.6,
+        "item": "chemlib:cesium_hydroxide_dust"
+      }
+    ]
+  }

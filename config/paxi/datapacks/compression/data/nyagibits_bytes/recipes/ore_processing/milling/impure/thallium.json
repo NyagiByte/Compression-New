@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:thallium_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.7,
+        "item": "chemlib:thallium_dust"
+      },
+      {
+        "chance": 0.3,
+        "item": "thermal:slag"
+      }
+    ]
+  }

@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:aluminum_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.95,
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "chance": 0.05,
+        "item": "chemlib:aluminum_oxide_dust"
+      }
+    ]
+  }

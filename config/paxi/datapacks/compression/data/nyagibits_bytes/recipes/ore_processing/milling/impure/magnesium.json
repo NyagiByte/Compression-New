@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:magnesium_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.7,
+        "item": "chemlib:magnesium_dust"
+      },
+      {
+        "chance": 0.3,
+        "item": "chemlib:magnesium_hydroxide_dust"
+      }
+    ]
+  }

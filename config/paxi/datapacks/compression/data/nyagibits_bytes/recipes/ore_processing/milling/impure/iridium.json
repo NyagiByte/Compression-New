@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:iridium_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.98,
+        "item": "chemlib:iridium_dust"
+      },
+      {
+        "chance": 0.02,
+        "item": "thermal:slag"
+      }
+    ]
+  }

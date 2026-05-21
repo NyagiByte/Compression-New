@@ -1,0 +1,23 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:sodium_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.5,
+        "item": "chemlib:sodium_dust"
+      },
+      {
+        "chance": 0.3,
+        "item": "chemlib:sodium_hydroxide_dust"
+      },
+      {
+        "chance": 0.2,
+        "item": "chemlib:sodium_oxide_dust"
+      }
+    ]
+  }

@@ -1,0 +1,25 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:vanadium_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.98,
+        "item": "chemlib:vanadium_dust"
+      },
+      {
+        "chance": 0.01,
+        "count": 1,
+        "item": "nyagibits_bytes:sample_vanadium_pentoxide"
+      },
+      {
+        "chance": 0.02,
+        "count": 1,
+        "item": "thermal:slag"
+      }
+    ]
+  }

@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:cadmium_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.95,
+        "item": "chemlib:cadmium_dust"
+      },
+      {
+        "chance": 0.05,
+        "item": "nyagibits_bytes:cadmium_oxide_dust"
+      }
+    ]
+  }

@@ -1,0 +1,23 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:strontium_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.7,
+        "item": "chemlib:strontium_dust"
+      },
+      {
+        "chance": 0.25,
+        "item": "chemlib:strontium_hydroxide_dust"
+      },
+      {
+        "chance": 0.05,
+        "item": "chemlib:strontium_oxide_dust"
+      }
+    ]
+  }

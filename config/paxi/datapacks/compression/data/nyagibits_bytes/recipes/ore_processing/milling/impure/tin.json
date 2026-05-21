@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:tin_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.9,
+        "item": "chemlib:tin_dust"
+      },
+      {
+        "chance": 0.1,
+        "item": "chemlib:tin_oxide_dust"
+      }
+    ]
+  }

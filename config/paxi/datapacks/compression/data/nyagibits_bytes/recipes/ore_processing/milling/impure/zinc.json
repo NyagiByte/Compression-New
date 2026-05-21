@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:zinc_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.8,
+        "item": "chemlib:zinc_dust"
+      },
+      {
+        "chance": 0.2,
+        "item": "chemlib:zinc_oxide_dust"
+      }
+    ]
+  }

@@ -1,0 +1,23 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:potassium_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.6,
+        "item": "chemlib:potassium_dust"
+      },
+      {
+        "chance": 0.3,
+        "item": "chemlib:potassium_hydroxide_dust"
+      },
+      {
+        "chance": 0.1,
+        "item": "chemlib:potassium_oxide_dust"
+      }
+    ]
+  }

@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:silver_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.9,
+        "item": "chemlib:silver_dust"
+      },
+      {
+        "chance": 0.1,
+        "item": "thermal:slag"
+      }
+    ]
+  }

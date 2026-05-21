@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.7,
+        "item": "chemlib:iron_dust"
+      },
+      {
+        "chance": 0.3,
+        "item": "chemlib:iron_oxide_dust"
+      }
+    ]
+  }

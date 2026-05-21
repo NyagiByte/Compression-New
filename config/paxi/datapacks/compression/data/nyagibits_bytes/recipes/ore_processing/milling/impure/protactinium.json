@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:protactinium_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.7,
+        "item": "chemlib:protactinium_dust"
+      },
+      {
+        "chance": 0.3,
+        "item": "thermal:slag"
+      }
+    ]
+  }

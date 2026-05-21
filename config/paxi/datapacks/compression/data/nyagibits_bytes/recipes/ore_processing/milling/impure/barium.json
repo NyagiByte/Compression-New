@@ -1,0 +1,23 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:barium_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.5,
+        "item": "chemlib:barium_dust"
+      },
+      {
+        "chance": 0.4,
+        "item": "chemlib:barium_hydroxide_dust"
+      },
+      {
+        "chance": 0.1,
+        "item": "chemlib:barium_oxide_dust"
+      }
+    ]
+  }

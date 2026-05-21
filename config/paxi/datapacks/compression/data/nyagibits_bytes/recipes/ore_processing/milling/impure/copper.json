@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "minecraft:copper_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.9,
+        "item": "chemlib:copper_dust"
+      },
+      {
+        "chance": 0.1,
+        "item": "chemlib:copper_i_oxide_dust"
+      }
+    ]
+  }

@@ -1,0 +1,19 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "chemlib:tantalum_ingot"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "chance": 0.9,
+        "item": "chemlib:tantalum_dust"
+      },
+      {
+        "chance": 0.1,
+        "item": "thermal:slag"
+      }
+    ]
+  }

@@ -1,0 +1,221 @@
+{
+	autofocus_id: "37FAE71D2630FECC"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "purification_station"
+	group: "65E17C337454D8E2"
+	icon: "nyagibits_bytes:pure_scandium_plate"
+	id: "106A0CBE4B00F6C6"
+	images: [{
+		height: 1.0d
+		image: "pneumaticcraft:item/sourdough_bread"
+		rotation: 0.0d
+		width: 1.0d
+		x: -3.0d
+		y: -4.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["472213B0CD3A8117"]
+			icon: "compactmachines:wall"
+			id: "37FAE71D2630FECC"
+			tasks: [{
+				id: "446F880A12B4C49B"
+				title: "Purification Guides"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37FAE71D2630FECC"]
+			id: "64EC08353DB644BE"
+			tasks: [{
+				id: "111B826E58F951E0"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Crude Milling"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64EC08353DB644BE"]
+			description: ["https://lizzievannfoundation.org/additive/anti-caking-agents/"]
+			icon: "compactmachines:wall"
+			id: "493F3FE469B383AE"
+			tasks: [{
+				id: "644370CC5552F87C"
+				title: "Specialized Anti-Caking Agents"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"493F3FE469B383AE"
+				"4ABA1A64E5BE1E94"
+			]
+			id: "07698FE8CF95C148"
+			tasks: [{
+				id: "5EC1F67A7F85CEF5"
+				item: "chemlib:calcium_carbonate"
+				type: "item"
+			}]
+			title: "E170"
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"07698FE8CF95C148"
+				"18ADFE4041E3A4C8"
+			]
+			id: "11399B69CA7813A8"
+			tasks: [{
+				id: "61458D6D10AB687C"
+				item: "nyagibits_bytes:mana_imbued_glucose_crystal"
+				type: "item"
+			}]
+			title: "E460"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"07698FE8CF95C148"
+				"5E2E89A3A7877383"
+			]
+			icon: "compactmachines:wall"
+			id: "0F3B23C241515145"
+			tasks: [{
+				id: "27B0C99A428E6AEA"
+				type: "checkmark"
+			}]
+			title: "E535, E536, E538"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0F3B23C241515145"]
+			icon: "compactmachines:wall"
+			id: "30C10CA6441FB15C"
+			tasks: [{
+				id: "35CFA6184BE9462B"
+				type: "checkmark"
+			}]
+			title: "E534"
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["11399B69CA7813A8"]
+			icon: "compactmachines:wall"
+			id: "007D9F5766180B46"
+			tasks: [{
+				id: "1881885CE1437B1C"
+				type: "checkmark"
+			}]
+			title: "E470a, E470b"
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["007D9F5766180B46"]
+			icon: "compactmachines:wall"
+			id: "738F5395B3E28DA7"
+			tasks: [{
+				id: "38600AE0BA5344E0"
+				type: "checkmark"
+			}]
+			title: "E1452"
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"64EC08353DB644BE"
+				"3B8EFB77D5F4D3B7"
+			]
+			id: "14D299330E05D3BE"
+			tasks: [
+				{
+					id: "6176D4BACDC72B67"
+					item: "nyagibits_bytes:sample_opa_1214"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "1F6B2FDEE75512E6"
+					item: "chemlib:iron_dust"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["41C1FC0D260D0E96"]
+			id: "5E2E89A3A7877383"
+			tasks: [{
+				id: "1E172F95E26D47C3"
+				item: "nyagibits_bytes:float_separated_iron_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["14D299330E05D3BE"]
+			id: "41C1FC0D260D0E96"
+			tasks: [{
+				id: "2EDD8173D637012B"
+				item: "nyagibits_bytes:bucket_of_froth_opa_iron"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["14D299330E05D3BE"]
+			id: "2B9755856E37B903"
+			tasks: [{
+				id: "2474D9DA354FF135"
+				item: "nyagibits_bytes:bucket_of_opa_iron"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5E2E89A3A7877383"
+				"0F3B23C241515145"
+			]
+			dependency_requirement: "one_completed"
+			id: "2E82E48765A04A51"
+			tasks: [{
+				id: "6BC9168C1A643A84"
+				item: "nyagibits_bytes:pure_iron_dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2E82E48765A04A51"]
+			id: "21DDFB7B6CFC9F38"
+			tasks: [{
+				id: "3F4DA3DFFEA882A1"
+				item: "nyagibits_bytes:pure_iron_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+	]
+	title: " &aPurification Station"
+}
