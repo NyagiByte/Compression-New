@@ -18221,6 +18221,7 @@
         "botania:detector_light_relay",
         "botania:fork_light_relay",
         "botania:toggle_light_relay",
-        "botania:light_launcher"
+        "botania:light_launcher",
+        "vintageimprovements:iron_spring"
     ]
   }
