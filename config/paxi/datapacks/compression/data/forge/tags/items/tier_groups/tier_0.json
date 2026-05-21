@@ -18222,6 +18222,7 @@
         "botania:fork_light_relay",
         "botania:toggle_light_relay",
         "botania:light_launcher",
-        "vintageimprovements:iron_spring"
+        "vintageimprovements:iron_spring",
+        "nyagibits_bytes:living_frame"
     ]
   }
