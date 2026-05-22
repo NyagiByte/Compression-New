@@ -19,24 +19,58 @@
 	quests: [
 		{
 			dependencies: ["472213B0CD3A8117"]
-			icon: "compactmachines:wall"
+			description: [
+				"So many &cimpure&r and &craw&r materials! This simply won't do for any &6high industry&r."
+				""
+				"Refining these crude natural products is vital for growing the factory."
+			]
+			icon: "botania:corporea_spark_creative"
 			id: "37FAE71D2630FECC"
+			rewards: [{
+				id: "4067CD9423380EBE"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			subtitle: "EMI Recipe tree exploder 9000"
 			tasks: [{
 				id: "446F880A12B4C49B"
-				title: "Purification Guides"
+				title: "Extra clean"
 				type: "checkmark"
 			}]
+			title: "Welcome to Purification Station"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["37FAE71D2630FECC"]
+			description: [
+				"Impure metals have an annoying trait of forming &coxides and hydroxides&r by simply existing. &l&o&eHow annoying!&r"
+				""
+				"Grinding up these ingots into powders will come at a &nloss&r since the rusted forms won't be useful for &apurification&r."
+				""
+				"Maybe some... &6advanced chemistry&r could recover these later."
+			]
+			hide_until_deps_complete: true
+			icon: "create:millstone"
 			id: "64EC08353DB644BE"
-			tasks: [{
-				id: "111B826E58F951E0"
-				item: "create:millstone"
+			rewards: [{
+				id: "07DBAE4DFF30CA5E"
+				item: "nyagibits_bytes:tier_one_strawberry"
 				type: "item"
 			}]
+			subtitle: "Crusty Metal"
+			tasks: [
+				{
+					id: "476F57D65EFDF396"
+					item: "chemlib:iron_dust"
+					type: "item"
+				}
+				{
+					id: "1B2C914D1F563603"
+					item: "chemlib:iron_oxide_dust"
+					type: "item"
+				}
+			]
 			title: "Crude Milling"
 			x: 0.0d
 			y: -1.5d
@@ -140,7 +174,31 @@
 				"64EC08353DB644BE"
 				"3B8EFB77D5F4D3B7"
 			]
+			description: [
+				"&c&l&oMechanic not implemented yet&r"
+				""
+				"Finally some delicious &6OPA-1214&r!"
+				""
+				"So uh... What now?"
+				"{@pagebreak}"
+				"By placing the OPA &ain-world&r and tossing in your impure metal, something magical happens."
+				""
+				"The OPA splits into 2 new fluids! A &6froth&r and a &ccontaminated OPA&r."
+				"{@pagebreak}"
+				"The &6froth&r contains trace elements plucked out of your impure metal dust."
+				""
+				"The &ccontaminated OPA&r contains your &bpurified bulk metal&r you tossed in. About &a90% of the OPA is also recovered&r in this step."
+				"{@pagebreak}"
+				"Later on special &danti-caking agents&r can be mixed into your metal dusts to refine &nmore&r of them at a time for the same volume of OPA consumed."
+			]
+			icon: "nyagibits_bytes:sample_opa_1214"
 			id: "14D299330E05D3BE"
+			rewards: [{
+				id: "082C37B7B824DA38"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			subtitle: "See we have the horror movie reference because this crafting chain induces nightmares"
 			tasks: [
 				{
 					id: "6176D4BACDC72B67"
@@ -153,61 +211,162 @@
 					item: "chemlib:iron_dust"
 					type: "item"
 				}
+				{
+					id: "1E5B35F3B408B455"
+					item: "compactmachines:wall"
+					type: "item"
+				}
 			]
+			title: "We All Float Down Here"
 			x: 1.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["41C1FC0D260D0E96"]
+			dependencies: [
+				"41C1FC0D260D0E96"
+				"2B9755856E37B903"
+			]
+			description: [
+				"To actually liberate your new purified iron you must &bcontrol the atmosphere&r it is under while you &croast the hell out of it&r."
+				""
+				"By flooding the surroundings with &dhydrogen&r gas you can reduce the iron hydroxide into pure metallic iron while making a good deal of steam."
+				""
+				"Some &eoverly expensive powder&r you have there."
+				"{@pagebreak}"
+				"Later on this recovery rate can be &dboosted&r by anti-caking agents."
+			]
+			icon: "nyagibits_bytes:float_separated_iron_dust"
 			id: "5E2E89A3A7877383"
-			tasks: [{
-				id: "1E172F95E26D47C3"
-				item: "nyagibits_bytes:float_separated_iron_dust"
+			rewards: [{
+				id: "40B69F03A2746653"
+				item: "nyagibits_bytes:tier_one_strawberry"
 				type: "item"
 			}]
+			subtitle: "Re-wet your un-wetted previously wetted dry"
+			tasks: [
+				{
+					id: "1E172F95E26D47C3"
+					item: "nyagibits_bytes:float_separated_iron_dust"
+					type: "item"
+				}
+				{
+					id: "35E63E2F4FC32108"
+					item: "chemlib:hydrogen"
+					type: "item"
+				}
+				{
+					id: "557AA9C0FC1D0571"
+					item: "vintageimprovements:vacuum_chamber"
+					type: "item"
+				}
+			]
+			title: "Pasty Iron"
 			x: 2.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["14D299330E05D3BE"]
+			description: [
+				"A &bdefoaming agent&r is needed to turn your &6froth&r into not froth and get those tasty trace elements left behind."
+				""
+				"&dParrafin wax&r is a relatively simple material able to break apart those slimy bubbles."
+			]
+			icon: "nyagibits_bytes:bucket_of_froth_opa_iron"
 			id: "41C1FC0D260D0E96"
-			tasks: [{
-				id: "2EDD8173D637012B"
-				item: "nyagibits_bytes:bucket_of_froth_opa_iron"
+			rewards: [{
+				id: "40DC7F3A8FE238C9"
+				item: "nyagibits_bytes:tier_one_strawberry"
 				type: "item"
 			}]
+			subtitle: "Unsoapification"
+			tasks: [
+				{
+					id: "2EDD8173D637012B"
+					item: "nyagibits_bytes:bucket_of_froth_opa_iron"
+					type: "item"
+				}
+				{
+					id: "15BFE655B7144493"
+					item: "immersivepetroleum:paraffin_wax"
+					type: "item"
+				}
+			]
+			title: "Slimy Bubbles"
 			x: 2.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["14D299330E05D3BE"]
+			description: [
+				"By flushing your solution with compounds designed to target &nspecific metals&r you can crash them out of the OPA solution, allowing for both &arecovery&r of the &6metal&r and recycling of the &dOPA&r."
+				""
+				"Naturally the crashed out metal is &n&cnot-quite-pure-yet&r, and will need &bone more step&r to split it from the reagent used to crash it out of the fluid."
+			]
+			icon: "nyagibits_bytes:bucket_of_opa_iron"
 			id: "2B9755856E37B903"
-			tasks: [{
-				id: "2474D9DA354FF135"
-				item: "nyagibits_bytes:bucket_of_opa_iron"
+			rewards: [{
+				id: "0001FFE58BBAA43B"
+				item: "nyagibits_bytes:tier_one_strawberry"
 				type: "item"
 			}]
+			subtitle: "Wet and Unwet"
+			tasks: [
+				{
+					id: "2474D9DA354FF135"
+					item: "nyagibits_bytes:bucket_of_opa_iron"
+					type: "item"
+				}
+				{
+					id: "6557E833A027BD6A"
+					item: "chemlib:sodium_hydroxide"
+					type: "item"
+				}
+			]
+			title: "Un-Contamination"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"5E2E89A3A7877383"
-				"0F3B23C241515145"
-			]
+			dependencies: ["5E2E89A3A7877383"]
 			dependency_requirement: "one_completed"
+			description: [
+				"Horray, purified metal! Now to cook it into an ingot and... Why is the &oingot&r a &6whole tier above&r?!"
+				""
+				"If you were to simply re-melt this, you'll get &ccontamination&r from the &eatmosphere&r, the &efuel&r, and the &econtainer&r in which the dust sits in. This will &o&l&4ruin&r all the purification you've done up to this point!"
+				""
+				"&l&o&eSo what was the point?&r"
+				"{@pagebreak}"
+				"What you have is functionally &batomized metal dust&r. Which is perfect to produce specialized steel blends. "
+				""
+				"&a1080 steel anyone&r?"
+			]
 			id: "2E82E48765A04A51"
+			rewards: [{
+				id: "27EC869CA5E209D1"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			subtitle: "Oh shit it's rusting again!"
 			tasks: [{
 				id: "6BC9168C1A643A84"
 				item: "nyagibits_bytes:pure_iron_dust"
 				type: "item"
 			}]
+			title: "Inhalation Hazard"
 			x: 2.0d
 			y: -7.0d
 		}
 		{
-			dependencies: ["2E82E48765A04A51"]
+			dependencies: [
+				"2E82E48765A04A51"
+				"2F65DDC0C4F6ABD1"
+			]
 			id: "21DDFB7B6CFC9F38"
+			rewards: [{
+				id: "5A2ABCF605B01A13"
+				item: "nyagibits_bytes:tier_two_strawberry"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3F4DA3DFFEA882A1"
 				item: "nyagibits_bytes:pure_iron_ingot"

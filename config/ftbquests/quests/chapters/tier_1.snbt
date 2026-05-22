@@ -823,7 +823,10 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["3B8EFB77D5F4D3B7"]
+			dependencies: [
+				"3B8EFB77D5F4D3B7"
+				"2E82E48765A04A51"
+			]
 			description: ["Steel is a wonderful material as the ratio between added elements can dramatically alter the properties of it. A few flavors of steel should be made to strengthen machines further "]
 			id: "5B109E7F50E8EBC2"
 			rewards: [{
