@@ -2,16 +2,16 @@
     "type": "create:mixing",
     "ingredients": [
       {
-        "item": "chemlib:iron_dust"
+        "item": "nyagibits_bytes:pure_iron_dust"
       },
       {
-        "item": "chemlib:iron_dust"
+        "item": "nyagibits_bytes:pure_iron_dust"
       },
       {
-        "item": "chemlib:iron_dust"
+        "item": "nyagibits_bytes:pure_iron_dust"
       },
       {
-        "item": "chemlib:iron_dust"
+        "item": "nyagibits_bytes:pure_iron_dust"
       },
       {
         "item": "chemlib:chromium"
