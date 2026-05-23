@@ -1,0 +1,12 @@
+{
+    "replace": true,
+    "values": [
+        "create:factory_gauge",
+        "extra_gauges:logic_gauge",
+        "extra_gauges:integer_gauge",
+        "extra_gauges:comparator_gauge",
+        "extra_gauges:counter_gauge",
+        "extra_gauges:passive_gauge",
+        "extra_gauges:string_gauge"
+    ]
+  }

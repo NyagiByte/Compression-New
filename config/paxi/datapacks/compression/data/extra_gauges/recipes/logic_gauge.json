@@ -1,0 +1,8 @@
+{
+    "type":"minecraft:stonecutting",
+    "ingredient":{
+        "tag": "forge:gauges"
+        },
+            "result": "extra_gauges:logic_gauge",
+            "count":1
+        }
