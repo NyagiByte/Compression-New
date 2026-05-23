@@ -537,7 +537,8 @@
             "minecraft:netherite_boots",
             "minecraft:turtle_helmet",
             "minecraft:shield",
-            "aiotbotania:livingrock_shears"
+            "aiotbotania:livingrock_shears",
+            "nuclearcraft:coal_dust"
         ]
     }
 ]
