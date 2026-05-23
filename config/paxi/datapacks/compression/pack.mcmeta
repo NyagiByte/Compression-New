@@ -1083,6 +1083,7 @@
 		{"namespace": "quark", "path": "recipes/tweaks/crafting/utility/chests/mixed_chest_wood"},
 		{"namespace": "quark", "path": "recipes/tweaks/crafting/utility/chests/mixed_chest_wood"},
 		{"namespace": "quark", "path": "recipes/tweaks/crafting/utility/bent/paper"},
+		{"namespace": "quark", "path": "recipes/tweaks/crafting/utility/bent/bread"},
 
 
 		{"namespace": "quark", "path": "recipes/building/crafting/furnaces/cobblestone_furnace.json"},
