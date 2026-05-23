@@ -538,7 +538,17 @@
             "minecraft:turtle_helmet",
             "minecraft:shield",
             "aiotbotania:livingrock_shears",
-            "nuclearcraft:coal_dust"
+            "nuclearcraft:coal_dust",
+            "nuclearcraft:diamond_dust",
+            "nuclearcraft:emerald_dust",
+            "nuclearcraft:quartz_dust",
+            "mekanism:dust_netherite",
+            "nuclearcraft:netherite_dust",
+            "nuclearcraft:lapis_dust",
+            "nuclearcraft:germanium_dust",
+            "nuclearcraft:obsidian_dust",
+            "nuclearcraft:fluorite_dust",
+            "nuclearcraft:graphite_dust"
         ]
     }
 ]
