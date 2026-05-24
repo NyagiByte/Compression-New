@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3BEACE9F3F1EC3AA"]
+			dependencies: ["1C225FA55CDFFC14"]
 			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
 			id: "13ABA16FBB63A831"
 			size: 2.0d
@@ -23,7 +23,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3BEACE9F3F1EC3AA"]
+			dependencies: ["4AEF41DA549839C8"]
+			description: ["Instruments specialized in radiation detection"]
 			id: "3490E3BE0AC60DF6"
 			tasks: [{
 				id: "7701B4F88C54678F"
@@ -31,20 +32,155 @@
 				type: "item"
 			}]
 			title: "Synchatron Radiation Detector"
-			x: -3.0d
-			y: 1.5d
+			x: -5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["3490E3BE0AC60DF6"]
+			description: ["Gravitational wave observatories"]
 			id: "47DC6CAD43AFB0EB"
 			tasks: [{
 				id: "32ABE940E3FB9001"
 				item: "compactmachines:wall"
 				type: "item"
 			}]
-			title: "Scanning the heavens"
+			title: "LIGO/VERGO"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13ABA16FBB63A831"]
+			description: ["This damn place loops in on itself. &cI&r need to learn more about the actual underlying structure if there is any hope of breaking through."]
+			icon: "nyagibits_bytes:flake"
+			id: "452107C0B1FFC999"
+			tasks: [{
+				id: "521E277BF145006D"
+				type: "checkmark"
+			}]
+			title: "Studying The Cage"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["452107C0B1FFC999"]
+			description: ["No choice but to amp up the factory more. Science is the only thing that matters here."]
+			icon: "compactmachines:wall"
+			id: "0214702CEB20020B"
+			tasks: [{
+				id: "4E2F4C9FD6B6932A"
+				type: "checkmark"
+			}]
+			title: "Astrophysicsish"
 			x: -3.5d
-			y: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0214702CEB20020B"
+				"4AEF41DA549839C8"
+			]
+			description: ["The celestial bodies seem to be within the hexagons.... Surely those &btwo&r were not stupid enough to give me such ample material right?...."]
+			icon: "botania:tiny_planet_block"
+			id: "5458EE5AAA498F80"
+			tasks: [{
+				id: "34D9F69EAE96DEBF"
+				type: "checkmark"
+			}]
+			title: "Planets and Stars?"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0214702CEB20020B"]
+			description: [
+				"&6Arecibo&r - &7Radio&r"
+				"&bALMA&r - &7Microwave&r"
+				"&aWebb&r - &7Infrared&r"
+				"&dNGR&r - &7Visible&r"
+				"&cEUVST&r - &7Ultraviolet&r"
+				"&fChandra&r - &7Xrays&r"
+				"&9FGST&r - &7Gammarays&r"
+			]
+			icon: "xkdeco:telescope"
+			id: "4AEF41DA549839C8"
+			tasks: [{
+				id: "05DF0D9ACF284C5A"
+				type: "checkmark"
+			}]
+			title: "Big Ass Telescopes"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5458EE5AAA498F80"]
+			description: ["[Private Dev Note]"]
+			icon: "create:cardboard"
+			id: "475C33429982B343"
+			tasks: [{
+				id: "2D3AC2BB803150AD"
+				type: "checkmark"
+			}]
+			title: "Wait..."
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4AEF41DA549839C8"
+				"47DC6CAD43AFB0EB"
+			]
+			description: ["Detonations done before &kthe loop point&r to scan reverberations for any hints"]
+			icon: "nuclearcraft:plutonium_rtg"
+			id: "5E9FDFCC7B1B985F"
+			tasks: [{
+				id: "605F43CE6A0008E4"
+				type: "checkmark"
+			}]
+			title: "Violating the Outer Space Treaty"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5E9FDFCC7B1B985F"]
+			description: ["World ending explosions in the upper atmosphere. Extreme pollution"]
+			icon: "compactmachines:wall"
+			id: "2E78DB96F929A4D7"
+			tasks: [{
+				id: "084336A05AE3F4D1"
+				type: "checkmark"
+			}]
+			title: "Escalating Thermonuclear Fireworks"
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2E78DB96F929A4D7"
+				"452107C0B1FFC999"
+			]
+			description: ["[Private Dev Note]"]
+			icon: "abyssal_decor:starlight"
+			id: "387A966943C84448"
+			tasks: [{
+				id: "0BB89B2F8EB56974"
+				type: "checkmark"
+			}]
+			title: "Heaven Meteor"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["387A966943C84448"]
+			description: ["[Private Dev Note]"]
+			icon: "yuushya:strawberry_milk"
+			id: "2BCDCF44DD6E2703"
+			tasks: [{
+				id: "7E3AF1337EC558DC"
+				type: "checkmark"
+			}]
+			title: "An Impossibly Long Straw"
+			x: -3.5d
+			y: 4.0d
 		}
 	]
 	subtitle: ["All things formed decay.."]

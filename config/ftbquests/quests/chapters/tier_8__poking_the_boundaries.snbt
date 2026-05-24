@@ -7,20 +7,148 @@
 	id: "4DFFC3C2635CAFBA"
 	order_index: 8
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["471FED5AA87D2F3B"]
-		description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
-		id: "5D6B37C16C80D0DB"
-		size: 2.0d
-		tasks: [{
-			id: "0DF8C76868E4EE83"
-			item: "nyagibits_bytes:flake"
-			type: "item"
-		}]
-		title: "Solidified Spacetime"
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["471FED5AA87D2F3B"]
+			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+			icon: "nyagibits_bytes:flake"
+			id: "5D6B37C16C80D0DB"
+			size: 2.0d
+			tasks: [{
+				id: "2CEB92588C66C16A"
+				type: "checkmark"
+			}]
+			title: "Solidified Spacetime"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D7CCE62DB65C5C8"]
+			description: ["[Private Dev Not]"]
+			icon: "ftbquests:book"
+			id: "0983E4716D144292"
+			tasks: [{
+				id: "4B1C6729CA24A4B2"
+				type: "checkmark"
+			}]
+			title: "Enough!"
+			x: -1.7142857142857153d
+			y: -4.017857142857139d
+		}
+		{
+			dependencies: ["5D6B37C16C80D0DB"]
+			description: ["Creating a tiny sun on this stuff gives me nothing but a &especk of dust&r?! Thats it. This &k&aquestbook&r has wasted enough of my time. &cI&r need clear answers."]
+			icon: "compactmachines:wall"
+			id: "0D89850995C81B70"
+			tasks: [{
+				id: "700CB38088DDDF71"
+				type: "checkmark"
+			}]
+			title: "A single mote of dust?!"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0D89850995C81B70"]
+			description: ["This puny scrap of flake. It will have to do. This shell is limiting &cme&r."]
+			icon: "compactmachines:wall"
+			id: "24757BEC8C779A03"
+			tasks: [{
+				id: "2BA12CFC6A2D3470"
+				type: "checkmark"
+			}]
+			title: "Soul Resonator"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["24757BEC8C779A03"]
+			description: ["&l&o&4HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH HATCH "]
+			icon: "biomancy:living_flesh"
+			id: "2060F36B11576B88"
+			tasks: [{
+				id: "1661F791F2F5C288"
+				type: "checkmark"
+			}]
+			title: "&ktearyourskinoff"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0D89850995C81B70"
+				"2060F36B11576B88"
+			]
+			description: ["You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think What I Think What You Think"]
+			icon: "supplementaries:checker_block"
+			id: "2D7CCE62DB65C5C8"
+			tasks: [{
+				id: "24F5FF86F24DBCEC"
+				type: "checkmark"
+			}]
+			title: "Donkey Space"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0983E4716D144292"
+				"2D7CCE62DB65C5C8"
+			]
+			description: ["[Private Dev Not]"]
+			icon: "compactmachines:wall"
+			id: "05A7B85D1D8716B7"
+			tasks: [{
+				id: "50B6F5EC14A8E06D"
+				type: "checkmark"
+			}]
+			title: "Mind Screw"
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["05A7B85D1D8716B7"]
+			description: ["[Private Dev Not]"]
+			icon: "compactmachines:wall"
+			id: "3E7B54FB7FEBE5C9"
+			tasks: [{
+				id: "0EB1E4A6D1C2C7CD"
+				type: "checkmark"
+			}]
+			title: "Clear Guidance"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3E7B54FB7FEBE5C9"
+				"0D89850995C81B70"
+			]
+			description: ["[Private Dev Not]"]
+			icon: "nyagibits_bytes:cosmic_irradiated_flake_fragment"
+			id: "7C09FBB9DD8443EF"
+			tasks: [{
+				id: "676B88220B603AE1"
+				type: "checkmark"
+			}]
+			title: "Tunned In"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C09FBB9DD8443EF"]
+			description: ["A loop of ever increasing esoteric science on the flake itself"]
+			icon: "compactmachines:wall"
+			id: "1C225FA55CDFFC14"
+			tasks: [{
+				id: "6353E289A900AE12"
+				type: "checkmark"
+			}]
+			title: "Ichorology"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
 	subtitle: ["&cI can hear it humming to me"]
 	title: " &6Tier 8&b - Poking the boundaries"
 }
