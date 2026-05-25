@@ -1,0 +1,38 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "immersivepetroleum:paraffin_wax"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:froth_opa_scandium_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 4,
+        "item": "chemlib:calcium_dust"
+      },
+      {
+        "count": 2,
+        "item": "chemlib:titanium_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:yttrium_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:cerium_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:niobium_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:tantalum_dust"
+      }
+    ]
+  }

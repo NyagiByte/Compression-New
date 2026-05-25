@@ -1,0 +1,38 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "immersivepetroleum:paraffin_wax"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:froth_opa_silver_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 3,
+        "item": "chemlib:sulfur_dust"
+      },
+      {
+        "count": 3,
+        "item": "chemlib:lead_dust"
+      },
+      {
+        "count": 2,
+        "item": "chemlib:arsenic_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:germanium_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:beryllium_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:selenium_dust"
+      }
+    ]
+  }

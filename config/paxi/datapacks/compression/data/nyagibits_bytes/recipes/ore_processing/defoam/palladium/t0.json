@@ -1,0 +1,30 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "immersivepetroleum:paraffin_wax"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:froth_opa_palladium_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 3,
+        "item": "chemlib:calcium_dust"
+      },
+      {
+        "count": 2,
+        "item": "nyagibits_bytes:synthetic_pyroxene"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:sulfur_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:titanium_dust"
+      }
+    ]
+  }

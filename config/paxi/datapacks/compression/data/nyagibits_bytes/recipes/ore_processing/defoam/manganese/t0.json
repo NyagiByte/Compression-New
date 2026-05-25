@@ -1,0 +1,34 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "immersivepetroleum:paraffin_wax"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:froth_opa_manganese_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 6,
+        "item": "chemlib:iron_dust"
+      },
+      {
+        "count": 3,
+        "item": "chemlib:zinc_dust"
+      },
+      {
+        "count": 2,
+        "item": "chemlib:niobium_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:thorium_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:uranium_dust"
+      }
+    ]
+  }

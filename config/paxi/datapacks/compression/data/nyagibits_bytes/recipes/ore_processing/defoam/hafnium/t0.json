@@ -1,0 +1,22 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "immersivepetroleum:paraffin_wax"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:froth_opa_hafnium_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 1,
+        "item": "chemlib:zirconium_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:titanium_dust"
+      }
+    ]
+  }

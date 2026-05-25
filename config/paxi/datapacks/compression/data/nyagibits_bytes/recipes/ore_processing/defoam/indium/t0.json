@@ -1,0 +1,26 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "immersivepetroleum:paraffin_wax"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:froth_opa_indium_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 4,
+        "item": "chemlib:sulfur_dust"
+      },
+      {
+        "count": 2,
+        "item": "chemlib:iron_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:zinc_dust"
+      }
+    ]
+  }

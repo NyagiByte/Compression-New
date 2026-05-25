@@ -1,0 +1,34 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "immersivepetroleum:paraffin_wax"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:froth_opa_yttrium_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 2,
+        "item": "chemlib:iron_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:beryllium_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:neodymium_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:lanthanum_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:cerium_dust"
+      }
+    ]
+  }

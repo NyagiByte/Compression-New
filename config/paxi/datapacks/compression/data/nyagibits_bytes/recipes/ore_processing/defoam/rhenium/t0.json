@@ -1,0 +1,26 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "immersivepetroleum:paraffin_wax"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:froth_opa_rhenium_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 1,
+        "item": "chemlib:molybdenum_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:silicon_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:aluminum_dust"
+      }
+    ]
+  }

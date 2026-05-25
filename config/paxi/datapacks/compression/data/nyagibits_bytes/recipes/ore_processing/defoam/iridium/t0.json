@@ -1,0 +1,34 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "immersivepetroleum:paraffin_wax"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:froth_opa_iridium_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 1,
+        "item": "chemlib:bismuth_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:tellurium_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:antimony_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:platinum_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:osmium_dust"
+      }
+    ]
+  }

@@ -1,0 +1,31 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "immersivepetroleum:paraffin_wax"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:froth_opa_rhodium_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 3,
+        "item": "chemlib:sulfur_dust"
+      },
+      {
+        "count": 2,
+        "item": "chemlib:lead_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:platinum_dust"
+      },
+      {
+        "count": 1,
+        "chance": 0.25,
+        "item": "chemlib:iridium_dust"
+      }
+    ]
+  }

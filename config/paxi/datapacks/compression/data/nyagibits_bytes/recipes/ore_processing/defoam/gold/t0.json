@@ -1,0 +1,38 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "immersivepetroleum:paraffin_wax"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:froth_opa_thallium_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 4,
+        "item": "chemlib:potassium_dust"
+      },
+      {
+        "count": 2,
+        "item": "chemlib:selenium_dust"
+      },
+      {
+        "count": 2,
+        "item": "chemlib:arsenic_dust"
+      },
+      {
+        "count": 2,
+        "item": "chemlib:antimony_dust"
+      },
+      {
+        "count": 2,
+        "item": "chemlib:lead_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:zinc_dust"
+      }
+    ]
+  }

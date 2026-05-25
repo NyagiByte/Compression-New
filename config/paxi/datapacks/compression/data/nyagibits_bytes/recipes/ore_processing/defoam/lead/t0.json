@@ -1,0 +1,26 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "immersivepetroleum:paraffin_wax"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:froth_opa_polonium_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 2,
+        "item": "chemlib:lead_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:bismuth_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:radium_dust"
+      }
+    ]
+  }

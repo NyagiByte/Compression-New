@@ -1,0 +1,34 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "immersivepetroleum:paraffin_wax"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:froth_opa_nickel_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 6,
+        "item": "chemlib:sulfur_dust"
+      },
+      {
+        "count": 3,
+        "item": "chemlib:iron_dust"
+      },
+      {
+        "count": 2,
+        "item": "chemlib:cobalt_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:gadolinium_dust"
+      },
+      {
+        "count": 1,
+        "item": "chemlib:ruthenium_dust"
+      }
+    ]
+  }
