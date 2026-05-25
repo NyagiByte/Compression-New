@@ -206,7 +206,7 @@
 					type: "item"
 				}
 				{
-					count: 8L
+					count: 24L
 					id: "1F6B2FDEE75512E6"
 					item: "chemlib:iron_dust"
 					type: "item"

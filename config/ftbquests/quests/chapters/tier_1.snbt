@@ -2718,7 +2718,7 @@
 					type: "item"
 				}
 			]
-			title: "Suspiciously Foreboding"
+			title: "&cSuspiciously Foreboding"
 			x: 1.0d
 			y: 1.5d
 		}
