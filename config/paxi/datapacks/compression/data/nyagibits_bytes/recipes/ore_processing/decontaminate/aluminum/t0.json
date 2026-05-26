@@ -1,0 +1,61 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "secondaryFluidInput": 0,
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:nitrogen_fluid",
+      "amount": 100
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_aluminum_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "nyagibits_bytes:activated_carbon"
+    },
+    {
+      "item": "nyagibits_bytes:activated_carbon"
+    },
+    {
+      "item": "nyagibits_bytes:activated_carbon"
+    },
+    {
+      "item": "nyagibits_bytes:activated_carbon"
+    },
+    {
+      "item": "nyagibits_bytes:activated_carbon"
+    },
+    {
+      "item": "nyagibits_bytes:activated_carbon"
+    },
+    {
+      "item": "nyagibits_bytes:activated_carbon"
+    },
+    {
+      "item": "nyagibits_bytes:activated_carbon"
+    },
+    {
+      "item": "nyagibits_bytes:electrolytic_core"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:carbon_dioxide_fluid",
+      "amount": 500
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_1214_fluid",
+      "amount": 500
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_aluminum_dust"
+    },
+    {
+      "chance": 0.99,
+      "item": "nyagibits_bytes:electrolytic_core"
+    }
+  ],
+  "processingTime": 200
+}

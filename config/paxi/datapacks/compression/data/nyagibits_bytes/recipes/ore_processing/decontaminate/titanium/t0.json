@@ -1,0 +1,34 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "secondaryFluidInput": 0,
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:chlorine_fluid",
+      "amount": 1400
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_titanium_fluid",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:carbon_monoxide_fluid",
+      "amount": 1200
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_1214_fluid",
+      "amount": 500
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "count": 10,
+      "item": "nyagibits_bytes:iron_iii_chloride_dust"
+    }
+  ],
+  "processingTime": 200
+}
