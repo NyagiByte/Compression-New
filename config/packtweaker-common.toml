@@ -8,4 +8,6 @@
 	"Enable Hunger" = false
 	#If hunger was disabled, this amount will be used as your hunger value.
 	"Constant Hunger Value" = 18
+	#If false, trading with villagers is disabled. The list of trades is unaffected, as is the rank of the villager. Wandering traders are unaffected, use gamerules to disable them.
+	"Enable Villager Trading" = false
 
