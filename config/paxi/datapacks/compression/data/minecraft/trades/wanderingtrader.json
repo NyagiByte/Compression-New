@@ -1,0 +1,274 @@
+{
+    "tiers": [
+        {
+            "groups": [
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "max_uses": 5,
+                            "trader_experience": 1,
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 64,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "nyagibits_bytes:scrap_electronic"
+                            },
+                            "result": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 12,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "immersiveengineering:circuit_board"
+                            }
+                        },
+                        {
+                            "max_uses": 5,
+                            "trader_experience": 1,
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 64,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "nyagibits_bytes:scrap_electronic"
+                            },
+                            "result": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 12,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "immersiveengineering:connector_lv"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "max_uses": 5,
+                            "trader_experience": 1,
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 64,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "nyagibits_bytes:scrap_metal"
+                            },
+                            "result": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 64,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "immersiveengineering:plate_steel"
+                            }
+                        },
+                        {
+                            "max_uses": 5,
+                            "trader_experience": 1,
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 64,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "nyagibits_bytes:scrap_metal"
+                            },
+                            "cost_b": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 64,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "nyagibits_bytes:scrap_metal"
+                            },
+                            "result": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 5,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "nyagibits_bytes:mix_steel_1080"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 1,
+                    "trades": [
+                        {
+                            "max_uses": 5,
+                            "trader_experience": 1,
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 64,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "nyagibits_bytes:scrap_hazardous"
+                            },
+                            "result": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 12,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "minecraft:tnt"
+                            }
+                        },
+                        {
+                            "max_uses": 5,
+                            "trader_experience": 1,
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 64,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "nyagibits_bytes:scrap_hazardous"
+                            },
+                            "result": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 32,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "quark:gunpowder_sack"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "num_to_select": 2,
+                    "trades": [
+                        {
+                            "max_uses": 5,
+                            "trader_experience": 1,
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 64,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "nyagibits_bytes:scrap_structural"
+                            },
+                            "result": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 64,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "immersiveengineering:steel_scaffolding_standard"
+                            }
+                        },
+                        {
+                            "max_uses": 5,
+                            "trader_experience": 1,
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 64,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "nyagibits_bytes:scrap_organic"
+                            },
+                            "result": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 3,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "botania:overgrowth_seed"
+                            }
+                        },
+                        {
+                            "max_uses": 5,
+                            "trader_experience": 1,
+                            "cost_a": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 64,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "nyagibits_bytes:scrap_waste"
+                            },
+                            "result": {
+                                "type": "minecraft:item",
+                                "functions": [
+                                    {
+                                        "add": "false",
+                                        "count": 12,
+                                        "function": "minecraft:set_count"
+                                    }
+                                ],
+                                "name": "immersiveengineering:plate_duroplast"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "total_exp_required": 0
+        }
+    ]
+}
