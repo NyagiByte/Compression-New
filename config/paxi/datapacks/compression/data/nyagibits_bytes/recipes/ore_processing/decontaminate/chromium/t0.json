@@ -1,0 +1,26 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "heated",
+  "secondaryFluidInput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:hydrogen_fluid",
+      "amount": 10000
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_chromium_fluid",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "nyagibits_bytes:opa_1214_fluid",
+      "amount": 500
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_chromium_dust"
+    }
+  ],
+  "processingTime": 200
+}

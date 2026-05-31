@@ -1,0 +1,38 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "heated",
+  "secondaryFluidInput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:hydrogen_sulfide_fluid",
+      "amount": 1000
+    },
+    {
+      "fluid": "chemlib:sulfuric_acid_fluid",
+      "amount": 1000
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_nickel_fluid",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "chemlib:copper_dust",
+      "count": 2
+    },
+    {
+      "item": "chemlib:copper_ii_sulfate_dust",
+      "count": 2
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_1214_fluid",
+      "amount": 500
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    }
+  ],
+  "processingTime": 200
+}

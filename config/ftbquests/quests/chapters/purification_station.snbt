@@ -317,8 +317,9 @@
 					type: "item"
 				}
 				{
-					id: "6557E833A027BD6A"
-					item: "chemlib:sodium_hydroxide"
+					count: 2L
+					id: "66EA05484CAC1D04"
+					item: "chemlib:sodium_hydroxide_dust"
 					type: "item"
 				}
 			]
@@ -374,6 +375,181 @@
 			}]
 			x: 3.0d
 			y: -8.5d
+		}
+		{
+			dependencies: ["14D299330E05D3BE"]
+			description: [
+				"Over on the &n&a→ right →&r you will see every &6OPA related fluid&r in regards to processing."
+				""
+				"There are &e&nno berries to claim&r. The quests only serve to untangle what is needed for which element."
+			]
+			hide_until_deps_complete: true
+			icon: "yuushya:paste"
+			id: "5EF8D24938FE593F"
+			rewards: [{
+				id: "5739866A19C9168C"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			subtitle: "99 tanks of fluid in the base 99 tanks of fluid..."
+			tasks: [{
+				id: "5D142DD1BBF6F722"
+				title: "Fluidmagedon"
+				type: "checkmark"
+			}]
+			title: "Flavors Of Sludge"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&b8x Activated Carbon"
+				"&dElectrolytic Core&r"
+				"&a100mb Nitrogen&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&e99% Electrolytic Core Recovery&r"
+				"&d18x Float-Seperated Aluminum&r"
+			]
+			icon: "chemlib:aluminum"
+			id: "479F8CF14E5D3C2F"
+			tasks: [
+				{
+					id: "480F77B080AF3443"
+					item: "nyagibits_bytes:electrolytic_core"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "15F444703FB6AF5B"
+					item: "nyagibits_bytes:activated_carbon"
+					type: "item"
+				}
+				{
+					id: "05D74A5B4DFF0CEC"
+					item: "chemlib:nitrogen_bucket"
+					type: "item"
+				}
+			]
+			title: "Cleaning Aluminum Opa"
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&a100mb Nitrogen&r"
+				"&a100mb Hydrofluoric Acid&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&c500mb Contaminated Water&r"
+				"&d18x Float-Seperated Scandium&r"
+			]
+			icon: "chemlib:scandium"
+			id: "4C8562F58F40BF56"
+			tasks: [
+				{
+					id: "14739591824A7CED"
+					item: "chemlib:nitrogen_bucket"
+					type: "item"
+				}
+				{
+					id: "222D45217943DB29"
+					item: "nuclearcraft:hydrofluoric_acid_bucket"
+					type: "item"
+				}
+			]
+			title: "Cleaning Scandium Opa"
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&a1400mb Chlorine&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&c1200mb Carbon Monoxide&r"
+				"&c10x Iron III Chloride&r"
+				"&d18x Float-Seperated Titanium&r"
+			]
+			icon: "chemlib:titanium"
+			id: "5D65FF1717F1DEC0"
+			tasks: [{
+				id: "668C662AF11EACAB"
+				item: "chemlib:chlorine_bucket"
+				type: "item"
+			}]
+			title: "Cleaning Titanium Opa"
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&b4x Salt&r"
+				"&b2x Sodium Carbonate&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&d18x Float-Seperated Vanadium&r"
+			]
+			icon: "chemlib:vanadium"
+			id: "5F6E2EBC007A1A15"
+			tasks: [
+				{
+					count: 4L
+					id: "4ADD275FC3113E6E"
+					item: "mekanism:salt"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7AE72E3F140ECB05"
+					item: "chemlib:sodium_carbonate_dust"
+					type: "item"
+				}
+			]
+			title: "Cleaning Vanadium Opa"
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "chemlib:chromium"
+			id: "0E073D8632AE5185"
+			tasks: [
+				{
+					count: 10L
+					id: "48003227F8488BF3"
+					item: "chemlib:hydrogen_bucket"
+					type: "item"
+				}
+				{
+					id: "3B58C1BD23D826BE"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			title: "Cleaning Chromium Opa"
+			x: 12.0d
+			y: -1.0d
 		}
 	]
 	title: " &aPurification Station"

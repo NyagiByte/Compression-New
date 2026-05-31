@@ -1,0 +1,34 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "heated",
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_manganese_fluid",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:hydrogen_fluid",
+      "amount": 400
+    },
+    {
+      "fluid": "nuclearcraft:low_pressure_steam",
+      "amount": 1000
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_1214_fluid",
+      "amount": 500
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    }
+  ],
+  "processingTime": 200
+}
