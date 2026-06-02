@@ -1,0 +1,34 @@
+{
+    "type":"immersiveengineering:blueprint",
+    "category":"alloy_powder",
+    
+    "inputs":[
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:billet_empty"},
+                "count":1},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:pure_iron_dust"},
+                "count":64},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:pure_iron_dust"},
+                "count":64},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:pure_iron_dust"},
+                "count":64},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:pure_iron_dust"},
+                "count":64},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:pure_iron_dust"},
+                "count":64}
+            ],
+    "result":{
+            "count": 1,
+            "item":"nyagibits_bytes:billet_iron_bulk"
+        }}

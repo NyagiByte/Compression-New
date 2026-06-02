@@ -7,5 +7,13 @@
     "block.nyagibits_bytes.steel_high_carbon_1080": "1080 High Carbon Steel Block",
     "block.nyagibits_bytes.steel_high_carbon_15n20": "₁₅N₂₀ High Carbon Steel Block",
     "block.nyagibits_bytes.steel_stainless": "PSiCrₓ₄ Stainless Steel Block",
-    "block.nyagibits_bytes.steel_damascus": "Damascus Steel Block"
+    "block.nyagibits_bytes.steel_damascus": "Damascus Steel Block",
+
+    "item.nyagibits_bytes.mix_steel_1080": "1080 Trace-Mix",
+    "item.nyagibits_bytes.mix_steel_15n20": "₁₅N₂₀ Trace-Mix",
+    "item.nyagibits_bytes.billet_15n20": "Bulk-Packed Mix ₁₅N₂₀ Billet",
+    "item.nyagibits_bytes.billet_blasted_15n20": "Blast-Smelted ₁₅N₂₀ Billet",
+    "item.nyagibits_bytes.mix_steel_stainless": "PSiCrₓ₄ Stainless Trace-Mix",
+    "item.nyagibits_bytes.billet_stainless": "Bulk-Packed Mix PSiCrₓ₄ Billet",
+    "item.nyagibits_bytes.billet_blasted_stainless": "Blast-Smelted PSiCrₓ₄ Billet"
 }

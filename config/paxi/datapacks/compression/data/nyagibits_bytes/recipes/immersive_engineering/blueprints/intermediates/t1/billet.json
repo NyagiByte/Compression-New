@@ -1,0 +1,22 @@
+{
+    "type":"immersiveengineering:blueprint",
+    "category":"intermediates",
+    
+    "inputs":[
+        {
+            "base_ingredient":{
+                "item":"immersiveengineering:steel_scaffolding_standard"},
+                "count":1},
+        {
+            "base_ingredient":{
+                "item":"immersiveengineering:sheetmetal_colored_black"},
+                "count":2},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:flux_mixture"},
+                "count":1}
+            ],
+    "result":{
+            "count": 2,
+            "item":"nyagibits_bytes:billet_empty"
+        }}
