@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"nyagibits_bytes:pure_iron_dust"},
+      "B": {"item":"nyagibits_bytes:blank_blueprint"}
+    },
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "result": {
+        "item":"immersiveengineering:blueprint",
+        "nbt":{"blueprint":"alloy_powder"}
+    }
+  }
