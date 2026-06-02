@@ -1,0 +1,55 @@
+{
+    "type": "create:mechanical_crafting",
+    "acceptMirrored": true,
+    "key": {
+      "A": {
+        "item": "nyagibits_bytes:lab_notebook_with_crude_acidics_data"
+      },
+      "B": {
+        "item": "ae2:flawed_budding_quartz"
+      },
+      "C": {
+        "item": "create:blaze_burner"
+      },
+      "D": {
+        "item": "nyagibits_bytes:lab_notebook_with_crude_material_properties_data"
+      },
+      "E": {
+        "item": "nyagibits_bytes:lab_notebook_with_crude_compression_data"
+      },
+      "F": {
+        "item": "create:repackager"
+      },
+      "G": {
+        "item": "create:package_frogport"
+      },
+      "H": {
+        "item": "create:factory_gauge"
+      },
+      "I": {
+        "item": "nyagibits_bytes:lab_notebook_with_crude_entropy_data"
+      },
+      "J": {
+        "item": "nyagibits_bytes:lab_notebook_with_crude_statics_data"
+      },
+      "K": {
+        "item": "create:stock_ticker"
+      },
+      "L": {
+        "item": "ae2:tiny_tnt"
+      },
+      "M": {
+        "item": "nyagibits_bytes:lab_notebook_with_crude_natural_arcana_data"
+      }
+    },
+    "pattern": [
+      "  A  ",
+      " BCD ",
+      "EFGHI",
+      " JKL ",
+      "  M  "
+    ],
+    "result": {
+      "item": "nyagibits_bytes:tequeno_t0"
+    }
+  }
