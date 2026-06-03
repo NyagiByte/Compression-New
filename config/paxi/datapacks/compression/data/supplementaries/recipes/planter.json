@@ -1,7 +1,7 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item":"minecraft:dirt"},
+      "A": {"item":"farmersdelight:rich_soil"},
       "B": {"item":"minecraft:bricks"}
     },
     "pattern": [

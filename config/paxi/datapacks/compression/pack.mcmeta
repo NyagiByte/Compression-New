@@ -1681,6 +1681,7 @@
 		{"namespace": "everycomp", "path": "recipes/hc/quark/blossom_fancy_bed.json"},
 
 		{"namespace": "supplementaries", "path": "recipes/soap_clean_minecraft_bed.json"},
+		{"namespace": "supplementaries", "path": "recipes/planter_rich.json"},
 
 
 		{"namespace": "ftbquests", "path": "recipes/loot_crate_opener.json"},

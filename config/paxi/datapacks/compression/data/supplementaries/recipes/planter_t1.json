@@ -1,12 +1,12 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item":"minecraft:dirt"},
+      "A": {"item":"farmersdelight:rich_soil"},
       "B": {"item":"nyagibits_bytes:ceramic"}
     },
     "pattern": [
-      "A",
-      "B"
+      "AAA",
+      " B "
     ],
     "result": {
       "count": 32,
