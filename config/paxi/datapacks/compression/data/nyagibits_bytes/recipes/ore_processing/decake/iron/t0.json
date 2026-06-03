@@ -1,0 +1,71 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "secondaryFluidInput": 0,
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:hydrogen_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_iron_dust"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "nuclearcraft:low_pressure_steam",
+      "amount": 1000
+    },
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_iron_dust"
+    }
+  ],
+  "processingTime": 200
+}

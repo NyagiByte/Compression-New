@@ -1,0 +1,112 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "ingredients": [
+    {
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_manganese_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_iron_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_iron_dust"
+    }
+  ],
+  "results": [
+    {
+      "item": "nyagibits_bytes:iron_iii_hydroxide_dust",
+      "count": 16
+    },
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_manganese_dust"
+    }
+  ],
+  "processingTime": 100
+}
