@@ -2724,6 +2724,14 @@
         "chemlib:mercury_sulfide_dust",
         "chemlib:lead_sulfide_dust",
         "chemlib:acetic_acid",
-        "chemlib:sodium_plate"
+        "chemlib:sodium_plate",
+        "nyagibits_bytes:billet_empty",
+        "nyagibits_bytes:billet_iron_bulk",
+        "nyagibits_bytes:billet_1080",
+        "nyagibits_bytes:billet_15n20",
+        "nyagibits_bytes:billet_stainless",
+        "nyagibits_bytes:billet_blasted_1080",
+        "nyagibits_bytes:billet_blasted_15n20",
+        "nyagibits_bytes:billet_blasted_stainless"
     ]
   }
