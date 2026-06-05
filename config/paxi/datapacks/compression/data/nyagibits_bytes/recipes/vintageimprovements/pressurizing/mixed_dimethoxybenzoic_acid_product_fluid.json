@@ -1,5 +1,6 @@
 {
 	"type":"vintageimprovements:pressurizing",
+	"secondaryFluidInput": 2,
 	"ingredients": [
 		{
 			"fluid": "nyagibits_bytes:mixed_pre_dimethoxybenzoic_acid_product_fluid",

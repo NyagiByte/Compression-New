@@ -1462,6 +1462,7 @@
 		{"namespace": "mythicbotany", "path": "recipes/central_rune_holder.json"},
 
 		{"namespace": "alchemistry", "path": "recipes/combiner.json"},
+		{"namespace": "alchemistry", "path": "recipes/atomizer/ethane.json"},
 
 		{"namespace": "chemlib", "path": "recipes/helium_lamp_block.json"},
 		{"namespace": "chemlib", "path": "recipes/neon_lamp_block.json"},

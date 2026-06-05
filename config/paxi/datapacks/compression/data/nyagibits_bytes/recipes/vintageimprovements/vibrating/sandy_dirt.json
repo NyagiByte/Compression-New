@@ -1,0 +1,19 @@
+{
+	"type":"vintageimprovements:vibrating",
+	"ingredients": [ 
+		{
+			"item": "biomeswevegone:sandy_dirt"
+		}
+	],
+	"results": [
+		{
+			"chance": 0.5,
+			"item": "minecraft:dirt"
+		},
+		{
+			"chance": 0.5,
+			"item": "minecraft:sand"
+		}
+	],
+	"processingTime": 20
+}

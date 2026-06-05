@@ -1,0 +1,26 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "botania:living_root"
+      },
+      {
+        "item": "botania:living_root"
+      },
+      {
+        "item": "botania:living_root"
+      },
+      {
+        "item": "botania:living_root"
+      },
+      {
+        "item": "farmersdelight:rich_soil"
+      }
+    ],
+    "results": [
+      {
+        "count": 1,
+        "item": "botania:root"
+      }
+    ]
+  }
