@@ -1,6 +1,7 @@
 {
   "type":"vintageimprovements:pressurizing",
   "secondaryFluidInput": 0,
+  "secondaryFluidOutput": 0,
   "ingredients": [
     {
       "fluid": "chemlib:nitrogen_fluid",

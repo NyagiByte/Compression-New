@@ -1,5 +1,6 @@
 {
-    "type": "create:mixing",
+  "type":"vintageimprovements:vacuumizing",
+  "secondaryFluidOutput": 2,
     "ingredients": [
       {
         "fluid": "nyagibits_bytes:lithium_aluminum_hydride_solution_fluid",
