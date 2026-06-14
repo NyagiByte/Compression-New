@@ -151,7 +151,7 @@
 				"372CCD587E760886"
 			]
 			description: [
-				"Tier 3's ore scaler will be based off the game &lOpus Magnus&r"
+				"Tier 3's ore scaler will be based off the game &lOpus Magnum&r"
 				""
 				"The Orechid will produce blocks similar to the &batoms&r in-game."
 				""
@@ -165,7 +165,7 @@
 				id: "2F1D8CD458256C87"
 				type: "checkmark"
 			}]
-			title: "Opus Magnus"
+			title: "Opus Magnum"
 			x: -1.0d
 			y: 2.0d
 		}
