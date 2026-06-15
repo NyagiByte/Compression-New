@@ -14,6 +14,9 @@
     {
       "fluid": "nyagibits_bytes:hcl_solution_fluid",
       "amount": 1000
+    },
+    {
+      "item": "nyagibits_bytes:chemical_grade_glassware"
     }
   ],
   "results": [
@@ -28,6 +31,9 @@
     {
       "fluid": "nyagibits_bytes:hcl_solution_fluid",
       "amount": 950
+    },
+    {
+      "item": "nyagibits_bytes:dirty_glassware"
     }
   ],
   "processingTime": 200

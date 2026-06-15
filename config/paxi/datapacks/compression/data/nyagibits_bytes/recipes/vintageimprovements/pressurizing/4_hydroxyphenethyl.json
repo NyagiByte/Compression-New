@@ -20,6 +20,9 @@
     },
     {
       "item": "nyagibits_bytes:sample_triphenylphosphene"
+    },
+    {
+      "item": "nyagibits_bytes:chemical_grade_glassware"
     }
   ],
   "results": [
@@ -37,6 +40,9 @@
     {
       "fluid": "nyagibits_bytes:dcm_fluid",
       "amount": 225
+    },
+    {
+      "item": "nyagibits_bytes:dirty_glassware"
     }
   ],
   "processingTime": 200

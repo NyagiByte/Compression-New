@@ -1,0 +1,21 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:slushy_ice"
+      },
+      {
+        "item": "nyagibits_bytes:slushy_ice"
+      },
+      {
+        "amount": 500,
+        "fluid": "chemlib:sulfuric_acid_fluid"
+      }
+    ],
+    "results": [
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:diluted_sulfuric_acid_fluid"
+      }
+    ]
+  }

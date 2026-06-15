@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"immersiveengineering:hemp_fiber"},
+      "B": {"item":"nyagibits_bytes:torn_wool_ball"},
+      "C": {"item":"minecraft:paper"},
+      "D": {"item":"minecraft:weeping_vines"}
+    },
+    "pattern": [
+      " AB",
+      "DCD",
+      "BA "
+    ],
+    "result": {
+        "count": 4,
+        "item": "nyagibits_bytes:woven_cloth"
+    }
+  }

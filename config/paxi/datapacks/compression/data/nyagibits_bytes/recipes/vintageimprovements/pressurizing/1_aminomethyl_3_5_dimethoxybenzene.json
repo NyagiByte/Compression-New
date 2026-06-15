@@ -20,6 +20,9 @@
     },
     {
       "item": "nuclearcraft:potassium_iodide_dust"
+    },
+    {
+      "item": "nyagibits_bytes:chemical_grade_glassware"
     }
   ],
   "results": [
@@ -42,6 +45,9 @@
     {
       "chance": 0.95,
       "item": "nuclearcraft:potassium_iodide_dust"
+    },
+    {
+      "item": "nyagibits_bytes:dirty_glassware"
     }
   ],
   "processingTime": 200

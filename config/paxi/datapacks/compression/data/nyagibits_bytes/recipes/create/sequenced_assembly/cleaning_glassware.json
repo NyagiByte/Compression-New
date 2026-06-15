@@ -1,0 +1,53 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "nyagibits_bytes:dirty_glassware"},
+    "loops": 1,
+    "results": [
+      {
+        "chance": 99,
+        "item": "nyagibits_bytes:chemical_grade_glassware"
+      },
+      {
+        "chance": 1,
+        "count": 8,
+        "item": "nyagibits_bytes:sterilized_quartz_glass"
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:dirty_glassware"
+          },
+          {
+            "amount": 10,
+            "fluid": "nyagibits_bytes:solution_piranha_fluid",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:dirty_glassware"
+          }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:dirty_glassware"
+          },
+          {
+            "item": "nyagibits_bytes:woven_cloth"
+          }  
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:dirty_glassware"
+        }
+        ]
+      }
+    ],
+    "transitionalItem": {"item": "nyagibits_bytes:dirty_glassware"}
+  }

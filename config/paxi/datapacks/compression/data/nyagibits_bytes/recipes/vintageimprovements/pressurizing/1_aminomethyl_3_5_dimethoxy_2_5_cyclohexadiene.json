@@ -16,6 +16,9 @@
     },
     {
       "item": "nyagibits_bytes:dry_ice_slab"
+    },
+    {
+      "item": "nyagibits_bytes:chemical_grade_glassware"
     }
   ],
   "results": [
@@ -34,6 +37,9 @@
     {
       "chance": 0.5,
       "item": "nyagibits_bytes:sample_lithium_amide"
+    },
+    {
+      "item": "nyagibits_bytes:dirty_glassware"
     }
   ],
   "processingTime": 200

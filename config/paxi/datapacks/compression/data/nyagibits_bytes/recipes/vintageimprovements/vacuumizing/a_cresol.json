@@ -9,6 +9,9 @@
       {
         "fluid": "nyagibits_bytes:2_5_dimethoxybenzoic_acid_solution_fluid",
         "amount": 1000
+      },
+      {
+        "item": "nyagibits_bytes:chemical_grade_glassware"
       }
     ],
     "results": [
@@ -23,6 +26,9 @@
       {
         "amount": 500,
         "fluid": "nuclearcraft:methanol"
+      },
+      {
+        "item": "nyagibits_bytes:dirty_glassware"
       }
     ]
   }
