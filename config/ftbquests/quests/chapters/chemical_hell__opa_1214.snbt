@@ -3182,17 +3182,43 @@
 			y: -19.0d
 		}
 		{
-			dependencies: ["3BEACE9F3F1EC3AA"]
+			dependencies: ["256F108BD683D592"]
 			dependency_requirement: "all_started"
+			description: [
+				"&l&cW&6e&el&6c&ao&bm&de &ct&6o &eh&ae&bl&dl&c!&r"
+				""
+				"Chemistry \\& You will feature &centire chapters&r for individual chemical crafting chains. "
+				""
+				"Enjoy!"
+			]
 			hide_until_deps_complete: true
+			icon: "botania:corporea_spark_creative"
 			id: "523720A4135CEAF8"
+			rewards: [{
+				id: "189D53D7CF806221"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			subtitle: "You don't get good chemistry until Tier 2 sorry!"
 			tasks: [{
 				id: "109C511E2EC13140"
-				title: "chemistry and you read check"
+				title: "Confirmation You Have Read The Blerb"
 				type: "checkmark"
 			}]
+			title: "What Fresh Hell Is This"
 			x: -8.0d
 			y: -23.5d
+		}
+		{
+			dependencies: ["4D368CEA652E28A0"]
+			id: "734B5932B30453F8"
+			tasks: [{
+				id: "21D14957466CA86B"
+				item: "nyagibits_bytes:chemical_grade_glassware"
+				type: "item"
+			}]
+			x: -18.14285714285714d
+			y: -14.428571428571423d
 		}
 	]
 	subtitle: ["Oh god what is this"]
