@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:warped_planks"},
+      "B": {"item":"minecraft:stick"}
+    },
+    "pattern": [
+      "ABA",
+      "BAB",
+      "ABA"
+    ],
+    "result": {
+        "count": 8,
+        "item": "bbb:warped_lattice"
+    }
+  }
