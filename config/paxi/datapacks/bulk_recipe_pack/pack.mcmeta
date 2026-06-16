@@ -593,6 +593,7 @@
 		{"namespace": "alchemistry", "path": "recipes/dissolver/ingots/electrum.json"},
 		{"namespace": "alchemistry", "path": "recipes/dissolver/ingots/silver.json"},
 		{"namespace": "alchemistry", "path": "recipes/dissolver/ingots/enderium.json"},
+		{"namespace": "alchemistry", "path": "recipes/dissolver/ingots/boron.json"},
 
 		{"namespace": "alchemistry", "path": "recipes/dissolver/gems/sulfur.json"},
 		{"namespace": "alchemistry", "path": "recipes/dissolver/gems/niter.json"},
@@ -649,6 +650,10 @@
 		{"namespace": "alchemistry", "path": "recipes/dissolver/storage_blocks/apatite.json"},
 		{"namespace": "alchemistry", "path": "recipes/dissolver/storage_blocks/charcoal.json"},
 		{"namespace": "alchemistry", "path": "recipes/dissolver/storage_blocks/cinnabar.json"},
+		{"namespace": "alchemistry", "path": "recipes/dissolver/storage_blocks/beetroot.json"},
+		{"namespace": "alchemistry", "path": "recipes/dissolver/storage_blocks/boron.json"},
+		{"namespace": "alchemistry", "path": "recipes/dissolver/storage_blocks/carrot.json"},
+		{"namespace": "alchemistry", "path": "recipes/dissolver/storage_blocks/apple.json"},
 
 		{"namespace": "alchemistry", "path": "recipes/dissolver/dyes/white.json"},
 		{"namespace": "alchemistry", "path": "recipes/dissolver/dyes/orange.json"},
