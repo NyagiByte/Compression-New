@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:stick"},
+      "B": {"item":"minecraft:dark_oak_slab"}
+    },
+    "pattern": [
+      "BBB",
+      "A A"
+    ],
+    "result": {
+        "count": 2,
+        "item": "handcrafted:dark_oak_table"
+    }
+  }
