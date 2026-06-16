@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:stick"},
+      "B": {"item":"minecraft:dark_oak_slab"}
+    },
+    "pattern": [
+      "ABA",
+      "A A",
+      "ABA"
+    ],
+    "result": {
+        "count": 4,
+        "item": "bbb:dark_oak_ladder"
+    }
+  }
