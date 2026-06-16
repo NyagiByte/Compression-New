@@ -1,4 +1,6 @@
 {
+    "block.thermal.charcoal_block": "Sooty Charcoal Block",
+
     "item.thermal.apatite": "Industrial Fluorohydroxylapatite",
     "item.thermal.apatite_dust": "Industrial Fluorohydroxylapatite Dust",
     "block.thermal.apatite_block": "Block of Industrial Fluorohydroxylapatite",

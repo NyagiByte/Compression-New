@@ -60,9 +60,22 @@
     "item.minecraft.gold_ingot": "Impure Gold Ingot",
     "item.minecraft.gold_nugget": "Impure Gold Nugget",
     "block.minecraft.gold_block": "Block of Impure Gold",
+
+    "item.minecraft.wheat_seeds": "Wild Strain Wheatgrass Seeds",
+    "item.minecraft.pumpkin_seeds": "Wild Strain Winter Squash Seeds",
+    "item.minecraft.melon_seeds": "Wild Strain Kordofan Melon Seeds",
+    "item.minecraft.beetroot_seeds": "Wild Strain Sea Beet Seeds",
+
+    "item.minecraft.wheat": "Raw Wheatgrass",
+    "block.minecraft.pumpkin": "Wild Strain Winter Squash",
+    "block.minecraft.carved_pumpkin": "Carved Winter Squash",
+    "block.minecraft.melon": "Wild Strain Kordofan Melon",
+    "item.minecraft.melon_slice": "Kordofan Melon Slice",
+    "item.minecraft.beetroot": "Sea Beet Taproot",
     
     "item.minecraft.leather": "Working Leather",
     "item.minecraft.gunpowder": "Low Grade Gunpowder",
+    "item.minecraft.charcoal": "Sooty Charcoal",
 
     "item.minecraft.water_bucket": "Raw Brackish Water Bucket",
     "item.minecraft.milk_bucket": "Raw Milk Bucket",
