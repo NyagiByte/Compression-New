@@ -3,7 +3,7 @@
     "key": {
       "A": {"item":"create:smart_fluid_pipe"},
       "B": {"item":"immersiveengineering:slab_sheetmetal_colored_blue"},
-      "C": {"item":"nyagibits_bytes:steel_damascus"},
+      "C": {"item":"immersiveengineering:ingot_steel"},
       "D": {"item":"immersiveengineering:fluid_placer"}
     },
     "pattern": [

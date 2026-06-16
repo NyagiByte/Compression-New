@@ -1,0 +1,10 @@
+{
+    "type":"compressiontweaks:smithing_enchant",
+    "blacklist":{"tag":"c:hidden_from_recipe_viewers"},
+    "addition":{"item":"immersiveengineering:toolupgrade_drill_waterproof"},
+    "enchantments":[
+        "create:capacity",
+        "create:capacity",
+        "create:capacity"
+        ]
+}
