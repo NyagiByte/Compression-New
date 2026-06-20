@@ -19,7 +19,7 @@
       "item": "nyagibits_bytes:sample_mononitrotoluene"
     },
     {
-      "item": "chemlib:zinc_dust"
+      "item": "nyagibits_bytes:pure_zinc_dust"
     },
     {
       "item": "nyagibits_bytes:chemical_grade_glassware"
@@ -32,7 +32,7 @@
     },
     {
       "fluid": "nyagibits_bytes:opa_1214_fluid",
-      "amount": 1000
+      "amount": 1500
     },
     {
       "item": "chemlib:zinc_dust"

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"minecraft:flint"},
+    "B": {"tag":"c:rods/wooden"},
+    "C": {"tag":"minecraft:leaves"}
+  },
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:arrow"
+  }
+}

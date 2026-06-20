@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {"item":"immersiveengineering:plate_steel"},
+    "B": {"tag":"c:rods/wooden"},
+    "C": {"item":"immersiveengineering:plate_duroplast"}
+  },
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "result": {
+    "count": 64,
+    "item": "minecraft:arrow"
+  }
+}

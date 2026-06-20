@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "cookingtime": 100,
+    "experience": 0.7,
+    "ingredient": {
+      "item": "nyagibits_bytes:pure_manganese_dust"
+    },
+    "result": "chemlib:manganese_ingot"
+  }
