@@ -1,0 +1,55 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "chemlib:sodium_bisulfate_dust"
+    },
+    {
+      "item": "chemlib:sodium_bisulfate_dust"
+    },
+    {
+      "item": "chemlib:sodium_bisulfate_dust"
+    },
+    {
+      "item": "chemlib:sodium_bisulfate_dust"
+    },
+    {
+      "item": "chemlib:sodium_bisulfate_dust"
+    },
+    {
+      "item": "chemlib:sodium_bisulfate_dust"
+    },
+    {
+      "item": "chemlib:sodium_bisulfate_dust"
+    },
+    {
+      "item": "chemlib:sodium_bisulfate_dust"
+    },
+    {
+      "item": "chemlib:sodium_bisulfate_dust"
+    },
+    {
+      "item": "chemlib:sodium_bisulfate_dust"
+    },
+    {
+      "item": "chemlib:sodium_bisulfate_dust"
+    },
+    {
+      "item": "chemlib:sodium_bisulfate_dust"
+    },
+    {
+      "item": "nyagibits_bytes:desiccation_powder"
+    }
+  ],
+  "results": [
+    {
+      "count": 12,
+      "item": "nyagibits_bytes:sodium_pyrosulfate_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    }
+  ],
+  "processingTime": 400
+}

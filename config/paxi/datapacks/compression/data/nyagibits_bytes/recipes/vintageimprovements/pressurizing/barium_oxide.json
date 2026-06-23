@@ -1,0 +1,21 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "heated",
+  "secondaryFluidInput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:oxygen_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "chemlib:barium_dust"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "chemlib:barium_oxide_dust"
+    }
+  ],
+  "processingTime": 200
+}

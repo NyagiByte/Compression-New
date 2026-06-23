@@ -1,0 +1,21 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "chemlib:sodium_sulfate_dust"
+      },
+      {
+        "item": "chemlib:barium_chloride_dust"
+      }
+    ],
+    "results": [
+      {
+        "count": 8,
+        "item": "chemlib:barium_sulfate"
+      },
+      {
+        "count": 2,
+        "item": "mekanism:salt"
+      }
+    ]
+  }

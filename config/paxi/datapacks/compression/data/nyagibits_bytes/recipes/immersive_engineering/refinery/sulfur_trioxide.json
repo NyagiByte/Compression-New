@@ -1,0 +1,14 @@
+{
+    "type":"immersiveengineering:refinery",
+    "energy":240,
+        "input0":{
+            "amount":25,
+            "tag":"forge:sulfur_dioxide"
+            },
+        "input1":{
+            "amount":25,
+            "tag":"forge:oxygen"
+            },
+                "result":{
+                    "amount":25,"fluid":"chemlib:sulfur_trioxide_fluid"
+                    }}

@@ -1,0 +1,25 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "mekanism:salt"
+      },
+      {
+        "item": "mekanism:salt"
+      },
+      {
+        "amount": 1000,
+        "fluid": "chemlib:sulfuric_acid_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 2,
+        "item": "chemlib:sodium_bisulfate_dust"
+      },
+      {
+        "amount": 1000,
+        "fluid": "chemlib:hydrochloric_acid_fluid"
+      }
+    ]
+  }

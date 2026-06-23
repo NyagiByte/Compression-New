@@ -1,0 +1,21 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+  "heatRequirement": "superheated",
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "item": "nyagibits_bytes:sodium_pyrosulfate_dust"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:sulfur_trioxide_fluid",
+      "amount": 500
+    },
+    {
+      "item": "chemlib:sodium_sulfate_dust"
+    }
+
+  ],
+  "processingTime": 400
+}

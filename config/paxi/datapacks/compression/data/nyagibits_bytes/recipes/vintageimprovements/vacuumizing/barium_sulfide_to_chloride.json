@@ -1,0 +1,22 @@
+{
+    "type": "vintageimprovements:vacuumizing",
+    "secondaryFluidOutput": 0,
+    "ingredients": [
+      {
+        "item": "chemlib:barium_sulfide_dust"
+      },
+      {
+        "amount": 1000,
+        "fluid": "chemlib:hydrochloric_acid_fluid"
+      }
+    ],
+    "results": [
+      {
+        "amount": 1000,
+        "fluid": "chemlib:hydrogen_sulfide_fluid"
+      },
+      {
+        "item": "chemlib:barium_chloride_dust"
+      }
+    ]
+  }

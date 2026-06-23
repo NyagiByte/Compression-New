@@ -1,0 +1,27 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+  "heatRequirement": "superheated",
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "item": "chemlib:sodium_sulfate_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:carbon_dioxide_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "nyagibits_bytes:sodium_sulfide_dust"
+    }
+
+  ],
+  "processingTime": 400
+}

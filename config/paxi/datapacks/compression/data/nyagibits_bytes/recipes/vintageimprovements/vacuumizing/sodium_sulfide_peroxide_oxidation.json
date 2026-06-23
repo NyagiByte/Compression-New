@@ -1,0 +1,26 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+  "heatRequirement": "superheated",
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "item": "nyagibits_bytes:sodium_sulfide_dust"
+    },
+    {
+      "fluid": "nyagibits_bytes:hydrogen_peroxide_075_fluid",
+      "amount": 2670
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:sulfur_dioxide_fluid",
+      "amount": 1000
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 4000
+    }
+
+  ],
+  "processingTime": 400
+}

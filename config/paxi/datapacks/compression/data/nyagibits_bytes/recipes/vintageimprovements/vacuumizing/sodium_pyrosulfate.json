@@ -1,0 +1,20 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+  "secondaryFluidOutput": 0,
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "item": "chemlib:sodium_bisulfate_dust"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "nuclearcraft:steam",
+      "amount": 500
+    },
+    {
+      "item": "nyagibits_bytes:sodium_pyrosulfate_dust"
+    }
+  ],
+  "processingTime": 400
+}
