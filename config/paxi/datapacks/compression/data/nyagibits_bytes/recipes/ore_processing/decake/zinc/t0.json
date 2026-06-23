@@ -1,0 +1,120 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:carbon_monoxide_fluid",
+      "amount": 18000
+    },
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_zinc_dust"
+    }
+  ],
+  "processingTime": 200
+}

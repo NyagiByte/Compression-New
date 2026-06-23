@@ -1,0 +1,31 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "secondaryFluidInput": 0,
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:oxygen_fluid",
+      "amount": 1500
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_zinc_fluid",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:sulfur_dioxide_fluid",
+      "amount": 1000
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_1214_fluid",
+      "amount": 500
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_zinc_dust"
+    }
+  ],
+  "processingTime": 200
+}
