@@ -1,0 +1,82 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+  "heatRequirement": "heated",
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "item": "nyagibits_bytes:float_separated_vanadium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_vanadium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_vanadium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_vanadium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_vanadium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_vanadium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_vanadium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_vanadium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_vanadium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_vanadium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_vanadium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_vanadium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_vanadium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_vanadium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_vanadium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_vanadium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:carbon_dioxide_fluid",
+      "amount": 1000
+    },
+    {
+      "count": 2,
+      "item": "chemlib:calcium_nugget"
+    },
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_vanadium_dust"
+    }
+  ],
+  "processingTime": 200
+}

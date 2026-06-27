@@ -1,0 +1,30 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:billet_blasted_15n20"
+      }
+    ],
+    "results": [
+      {
+        "count": 64,
+        "item": "nyagibits_bytes:steel_high_carbon_15n20"
+      },
+      {
+        "count": 64,
+        "item": "nyagibits_bytes:steel_high_carbon_15n20"
+      },
+      {
+        "count": 64,
+        "item": "nyagibits_bytes:steel_high_carbon_15n20"
+      },
+      {
+        "count": 64,
+        "item": "nyagibits_bytes:steel_high_carbon_15n20"
+      },
+      {
+        "count": 64,
+        "item": "nyagibits_bytes:steel_high_carbon_15n20"
+      }
+    ]
+  }

@@ -1,6 +1,7 @@
 {
   "type":"vintageimprovements:pressurizing",
   "heatRequirement": "heated",
+  "secondaryFluidOutput": 0,
   "ingredients": [
     {
       "item": "mekanism:salt"
@@ -26,6 +27,10 @@
     }
   ],
   "results": [
+    {
+      "fluid": "chemlib:chlorine_fluid",
+      "amount": 1000
+    },
     {
       "fluid": "nyagibits_bytes:opa_1214_fluid",
       "amount": 500

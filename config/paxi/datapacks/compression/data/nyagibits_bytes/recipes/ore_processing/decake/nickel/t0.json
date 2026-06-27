@@ -1,0 +1,66 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+  "heatRequirement": "heated",
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_nickel_dust"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:carbon_monoxide_fluid",
+      "amount": 3900
+    },
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_nickel_dust"
+    }
+  ],
+  "processingTime": 200
+}

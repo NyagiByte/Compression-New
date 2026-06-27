@@ -4,12 +4,12 @@
   "secondaryFluidInput": 0,
   "ingredients": [
     {
-      "fluid": "chemlib:hydrogen_sulfide_fluid",
+      "fluid": "chemlib:hydrogen_fluid",
       "amount": 1000
     },
     {
-      "fluid": "chemlib:sulfuric_acid_fluid",
-      "amount": 1000
+      "fluid": "chemlib:carbon_monoxide_fluid",
+      "amount": 4000
     },
     {
       "fluid": "nyagibits_bytes:opa_nickel_fluid",
@@ -18,12 +18,8 @@
   ],
   "results": [
     {
-      "item": "chemlib:copper_dust",
-      "count": 2
-    },
-    {
-      "item": "chemlib:copper_ii_sulfate_dust",
-      "count": 2
+      "fluid": "minecraft:water",
+      "amount": 1000
     },
     {
       "fluid": "nyagibits_bytes:opa_1214_fluid",

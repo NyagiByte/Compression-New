@@ -1,0 +1,22 @@
+{
+    "type":"immersiveengineering:blueprint",
+    "category":"alloy_powder",
+    
+    "inputs":[
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:billet_iron_bulk"},
+                "count":3},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:mix_steel_15n20"},
+                "count":64},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:mix_steel_15n20"},
+                "count":16}
+            ],
+    "result":{
+            "count": 3,
+            "item":"nyagibits_bytes:billet_15n20"
+        }}
