@@ -8,6 +8,8 @@
 	"Cloud in a Bottle Maximum Y-Level" = 196
 	#The capacity of the internal tanks for the Vintage Improvements compressor
 	"VI Compressor Fluid Capacity" = 10000
+	#The capacity of the internal tanks for the Vintage Improvements centrifuge
+	"VI Centrifuge Fluid Capacity" = 10000
 	#The amount of output slots in the Vintage Improvements vibrating table
 	"VI Vibrating Table Output Slots" = 20
 	#A list of EMI recipe IDs to be blacklisted. Should be used for hardcoded integrations.
