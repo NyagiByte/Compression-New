@@ -20,7 +20,7 @@
         "item": "nyagibits_bytes:mana_imbued_glucose_crystal"
       },
       {
-        "amount": 250,
+        "amount": 1000,
         "fluid": "nyagibits_bytes:malic_and_citric_acid_fluid",
         "nbt": {}
       },
