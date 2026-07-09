@@ -7,20 +7,177 @@
 	id: "7093D24DA2A2C946"
 	order_index: 10
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["2BCDCF44DD6E2703"]
-		description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
-		id: "25ACFB117AD34613"
-		size: 2.0d
-		tasks: [{
-			id: "083CD88CF4692367"
-			item: "ftbquests:missing_item"
-			type: "item"
-		}]
-		title: "&cThere Is Always A Way"
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["2BCDCF44DD6E2703"]
+			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+			icon: "nuclearcraft:fuel_xenorium_xen_298"
+			id: "25ACFB117AD34613"
+			size: 2.0d
+			tasks: [{
+				id: "7763095BE820C4BF"
+				type: "checkmark"
+			}]
+			title: "&cThere Is Always A Way"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25ACFB117AD34613"]
+			description: [
+				"In order to make any more headway methods of &atruly exotic material production&r must be sorted out."
+				""
+				"Mechanical pressure is not enough."
+				"Implosion pressure is not enough."
+				"Thermonuclear pressure is not enough."
+				""
+				"Only the hearts of worlds will do."
+			]
+			icon: "compactmachines:wall"
+			id: "78B469E961FA1847"
+			tasks: [{
+				id: "2F0C8D5DFCE487A9"
+				type: "checkmark"
+			}]
+			title: "Planetary Pressure"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78B469E961FA1847"]
+			icon: "chemlib:hydrogen"
+			id: "798266D25F204A2D"
+			tasks: [{
+				id: "6B887821EEE75303"
+				type: "checkmark"
+			}]
+			title: "Metallic Hydrogen"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["798266D25F204A2D"]
+			icon: "create_hypertube:hypertube_accelerator"
+			id: "3A17B2AAD453BC5F"
+			tasks: [{
+				id: "770EFD7DF53E3F32"
+				type: "checkmark"
+			}]
+			title: "Miniturized Accelerators"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["798266D25F204A2D"]
+			description: ["Quantum Computers"]
+			icon: "compactmachines:wall"
+			id: "63B1F1A065FF3C11"
+			tasks: [{
+				id: "4229762CD9065755"
+				type: "checkmark"
+			}]
+			title: "|↑>,|↓>"
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3A17B2AAD453BC5F"]
+			icon: "compactmachines:wall"
+			id: "6F662FC77E08F468"
+			tasks: [{
+				id: "7395DFBB197A0A65"
+				type: "checkmark"
+			}]
+			title: "Bose–Einstein Goop"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6F662FC77E08F468"
+				"63B1F1A065FF3C11"
+			]
+			icon: "chemlib:niobium"
+			id: "5886D92701808A10"
+			tasks: [{
+				id: "5D33D9BF0002D39F"
+				title: "Microkelvin Metal Bricks"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"5886D92701808A10"
+				"6F662FC77E08F468"
+			]
+			icon: "compactmachines:wall"
+			id: "3529527CBECCD60C"
+			tasks: [{
+				id: "20F699040779D1E9"
+				type: "checkmark"
+			}]
+			title: "The Graviton"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3529527CBECCD60C"]
+			icon: "nyagibits_bytes:flake"
+			id: "332D50851D0EF0CA"
+			tasks: [{
+				id: "7626861D4534134A"
+				type: "checkmark"
+			}]
+			title: "An X-Ray of Flake"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"332D50851D0EF0CA"
+				"3A17B2AAD453BC5F"
+				"30AA284C48E54901"
+			]
+			icon: "compactmachines:wall"
+			id: "0188D52BF5121413"
+			tasks: [{
+				id: "06ADAE4C3C2CC2A7"
+				type: "checkmark"
+			}]
+			title: "Ichor-Pincers"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3529527CBECCD60C"
+				"5886D92701808A10"
+			]
+			icon: "compactmachines:wall"
+			id: "30AA284C48E54901"
+			tasks: [{
+				id: "25C7A04524A5D4A3"
+				type: "checkmark"
+			}]
+			title: "The Collapsing Cage"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0188D52BF5121413"]
+			icon: "compactmachines:wall"
+			id: "3A70B63CFB81DD2A"
+			tasks: [{
+				id: "775F3BB340A0C113"
+				type: "checkmark"
+			}]
+			title: "An Elderly Muon"
+			x: 4.5d
+			y: -2.5d
+		}
+	]
 	subtitle: ["No Obligation to make sense, only consistent"]
 	title: " &6Tier 10&b - Beyond The Standard Model"
 }
