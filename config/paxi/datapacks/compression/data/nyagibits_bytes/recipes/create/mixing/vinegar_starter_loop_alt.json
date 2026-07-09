@@ -29,16 +29,8 @@
         "item": "supplementaries:sugar_cube"
       },
       {
-        "item": "nyagibits_bytes:bottle_of_malic_and_citric_acid"
-      },
-      {
-        "item": "nyagibits_bytes:bottle_of_malic_and_citric_acid"
-      },
-      {
-        "item": "nyagibits_bytes:bottle_of_malic_and_citric_acid"
-      },
-      {
-        "item": "nyagibits_bytes:bottle_of_malic_and_citric_acid"
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:malic_and_citric_acid_fluid"
       },
       {
         "amount": 500,
@@ -51,13 +43,8 @@
         "fluid": "nyagibits_bytes:vinegar_starter_fluid"
       },
       {
-        "item": "minecraft:glass_bottle",
-        "count": 4
-      },
-      {
         "item": "nyagibits_bytes:petri_dish_acetobacter",
         "chance": 0.95
       }
-      
     ]
   }
