@@ -1,0 +1,23 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "secondaryFluidInput": 0,
+  "ingredients": [
+    {
+      "fluidTag": "forge:milk",
+      "amount": 1000
+    },
+    {
+      "item": "create:filter"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "nyagibits_bytes:milk_screened_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "nyagibits_bytes:filter_saturated"
+    }
+  ],
+  "processingTime": 40
+}

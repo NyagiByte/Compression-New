@@ -1,0 +1,19 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:milk_skim_fluid"
+      },
+      {
+        "amount": 50,
+        "fluid": "chemlib:hydrochloric_acid_fluid"
+      }
+    ],
+    "results": [
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:rennet_clot_suspension_fluid"
+      }
+    ]
+  }

@@ -1,0 +1,28 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "fluid": "minecraft:water"
+      },
+      {
+        "item": "nyagibits_bytes:casein_precipitated"
+      },
+      {
+        "item": "chemlib:sodium_hydroxide"
+      }
+    ],
+    "results": [
+      {
+        "count": 3,
+        "item": "nyagibits_bytes:casein_high"
+      },
+      {
+        "item": "nyagibits_bytes:casein_low"
+      },
+      {
+        "item": "nyagibits_bytes:whey_powder"
+      }
+    ]
+  }

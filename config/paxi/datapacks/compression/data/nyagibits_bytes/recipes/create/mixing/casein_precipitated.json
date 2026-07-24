@@ -1,0 +1,19 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:rennet_clot_suspension_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 4,
+        "item": "nyagibits_bytes:casein_precipitated"
+      },
+      {
+        "item": "nyagibits_bytes:calcium_phosphate_dust"
+      }
+    ]
+  }

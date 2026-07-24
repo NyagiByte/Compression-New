@@ -1,0 +1,25 @@
+{
+  "type":"vintageimprovements:centrifugation",
+  "minimalRPM": 256,
+  "ingredients": [
+    {
+      "fluid": "nyagibits_bytes:milk_pasteurized_fluid",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "nyagibits_bytes:cream",
+      "count": 1
+    },
+    {
+      "fluid": "nyagibits_bytes:milk_skim_fluid",
+      "amount": 800
+    },
+    {
+      "fluid": "nyagibits_bytes:milk_lowfat_fluid",
+      "amount": 200
+    }
+  ],
+  "processingTime": 2000
+}

@@ -1,0 +1,203 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      },
+      {
+        "item": "quark:stick_block"
+      }
+    ],
+    "results": [
+      {
+        "count": 8,
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      }
+    ]
+  }

@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "nyagibits_bytes:petri_dish_empty"
+        },
+        {
+            "item": "nyagibits_bytes:agar_agar"
+        },
+        {
+            "item": "nyagibits_bytes:peptone"
+        },
+        {
+            "item": "nyagibits_bytes:mana_imbued_glucose_crystal"
+        },
+        {
+            "item": "minecraft:water_bucket"
+        }
+    ],
+    "result": {
+        "count": 8,
+        "item": "nyagibits_bytes:petri_dish_sabouraud"
+    }
+}

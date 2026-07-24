@@ -1,0 +1,211 @@
+{
+    "type": "vintageimprovements:pressurizing",
+	  "secondaryFluidInput": 0,
+    "ingredients": [
+      {
+        "amount": 500,
+        "fluid": "chemlib:ammonia_fluid"
+      },
+      {
+        "item": "nyagibits_bytes:petri_dish_mushrooms_vanilla"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      },
+      {
+        "item": "nyagibits_bytes:compacted_wood_pile"
+      }
+    ],
+    "results": [
+      {
+        "count": 64,
+        "item": "nyagibits_bytes:inoculated_wood_pile"
+      }
+    ]
+  }

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "nyagibits_bytes:petri_dish_sabouraud"
+        },
+        {
+            "item": "farmersdelight:brown_mushroom_colony"
+        },
+        {
+            "item": "farmersdelight:red_mushroom_colony"
+        }
+    ],
+    "result": {
+        "count": 4,
+        "item": "nyagibits_bytes:petri_dish_mushrooms_vanilla"
+    }
+}

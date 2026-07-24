@@ -1,0 +1,14 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:casein_high"
+      }
+    ],
+    "processingTime": 50,
+    "results": [
+      {
+        "item": "nyagibits_bytes:casein_powder"
+      }
+    ]
+  }

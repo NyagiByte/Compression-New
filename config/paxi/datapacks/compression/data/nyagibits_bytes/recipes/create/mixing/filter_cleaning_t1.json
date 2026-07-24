@@ -1,0 +1,48 @@
+{
+    "type": "create:mixing",
+    "heatRequirement": "heated",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "fluid": "minecraft:water"
+      },
+      {
+        "item": "nyagibits_bytes:filter_saturated"
+      },
+      {
+        "item": "nyagibits_bytes:filter_saturated"
+      },
+      {
+        "item": "nyagibits_bytes:filter_saturated"
+      },
+      {
+        "item": "nyagibits_bytes:filter_saturated"
+      },
+      {
+        "item": "nyagibits_bytes:filter_saturated"
+      },
+      {
+        "item": "nyagibits_bytes:filter_saturated"
+      },
+      {
+        "item": "nyagibits_bytes:filter_saturated"
+      },
+      {
+        "item": "nyagibits_bytes:filter_saturated"
+      },
+      {
+        "item": "supplementaries:soap"
+      }
+    ],
+    "results": [
+      {
+        "chance": 0.99,
+        "count": 8,
+        "item": "create:filter"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:contaminated_water_fluid"
+      }
+    ]
+  }
