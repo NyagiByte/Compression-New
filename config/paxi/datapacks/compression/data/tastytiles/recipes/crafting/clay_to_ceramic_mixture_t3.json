@@ -1,0 +1,41 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:cement_binder"
+      },
+      {
+        "item": "nyagibits_bytes:cement_binder"
+      },
+      {
+        "item": "nyagibits_bytes:cement_binder"
+      },
+      {
+        "item": "nyagibits_bytes:cement_binder"
+      },
+      {
+        "item": "chemlib:silicon_dust"
+      },
+      {
+        "item": "chemlib:aluminum_oxide"
+      },
+      {
+        "item": "nyagibits_bytes:raw_zirconia"
+      },
+      {
+        "item": "chemlib:beryllium_dust"
+      },
+      {
+        "item": "nuclearcraft:boron_nitride_dust"
+      }
+    ],
+    "results": [
+      {
+        "item": "thermal:rich_slag"
+      },
+      {
+        "count": 64,
+        "item": "tastytiles:ceramic_mixture"
+      }
+    ]
+  }

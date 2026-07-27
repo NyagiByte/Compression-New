@@ -1,0 +1,29 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:cement_binder"
+      },
+      {
+        "item": "nyagibits_bytes:cement_binder"
+      },
+      {
+        "item": "nyagibits_bytes:cement_binder"
+      },
+      {
+        "item": "nyagibits_bytes:cement_binder"
+      },
+      {
+        "item": "chemlib:silicon_dust"
+      },
+      {
+        "item": "chemlib:aluminum_oxide"
+      }
+    ],
+    "results": [
+      {
+        "count": 4,
+        "item": "tastytiles:ceramic_mixture"
+      }
+    ]
+  }

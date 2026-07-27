@@ -1,0 +1,32 @@
+{
+    "replace": true,
+    "values": [
+        "tastytiles:grid_red_tile",
+        "tastytiles:grid_red_tile_stairs",
+        "tastytiles:grid_red_tile_wall",
+        "tastytiles:grid_purple_tile",
+        "tastytiles:grid_purple_tile_stairs",
+        "tastytiles:grid_purple_tile_wall",
+        "tastytiles:grid_teal_tile",
+        "tastytiles:grid_teal_tile_stairs",
+        "tastytiles:grid_teal_tile_wall",
+        "tastytiles:grid_pool_tile",
+        "tastytiles:grid_pool_tile_stairs",
+        "tastytiles:grid_pool_tile_wall",
+        "tastytiles:grid_sage_tile",
+        "tastytiles:grid_sage_tile_stairs",
+        "tastytiles:grid_sage_tile_wall",
+        "tastytiles:grid_mixed_tile",
+        "tastytiles:grid_mixed_tile_stairs",
+        "tastytiles:grid_mixed_tile_wall",
+        "tastytiles:grid_white_tile",
+        "tastytiles:grid_white_tile_stairs",
+        "tastytiles:grid_white_tile_wall",
+        "tastytiles:grid_black_tile",
+        "tastytiles:grid_black_tile_stairs",
+        "tastytiles:grid_black_tile_wall",
+        "tastytiles:grid_sewer_tile",
+        "tastytiles:grid_sewer_tile_stairs",
+        "tastytiles:grid_sewer_tile_wall"
+    ]
+  }

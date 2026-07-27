@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "chemlib:aluminum_oxide"
+      },
+      {
+        "item": "chemlib:silicon_dust"
+      },
+      {
+        "item": "nyagibits_bytes:flux_mixture"
+      },
+      {
+        "amount": 1000,
+        "fluid": "minecraft:water"
+      }
+    ],
+    "results": [
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:ceramic_glaze_fluid"
+      }
+    ]
+  }

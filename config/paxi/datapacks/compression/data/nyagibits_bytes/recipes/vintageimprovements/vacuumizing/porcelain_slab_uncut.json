@@ -1,0 +1,209 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "item": "tastytiles:ceramic_mixture"
+    },
+    {
+      "amount": 50,
+      "fluid": "nyagibits_bytes:ceramic_glaze_fluid"
+    }
+  ],
+  "results": [
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:porcelain_slab_uncut"
+    }
+  ],
+  "processingTime": 400
+}

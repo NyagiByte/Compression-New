@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"nyagibits_bytes:porcelain_slab_small"},
+      "B": {"item":"nyagibits_bytes:porcelain_slab_med"},
+      "C": {"item":"natures_spirit:yellow_kaolin"}
+    },
+    "pattern": [
+      "CAC",
+      "ABA",
+      "CAC"
+    ],
+    "result": {
+        "count": 12,
+        "item": "tastytiles:ochre_pitter_tile"
+    }
+  }

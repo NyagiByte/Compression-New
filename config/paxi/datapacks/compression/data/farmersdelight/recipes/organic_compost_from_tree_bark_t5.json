@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "nyagibits_bytes:semi_organic_substrate"
+        },
+        {
+            "item": "farmersdelight:straw"
+        },
+        {
+            "item": "farmersdelight:straw"
+        },
+        {
+            "item": "nyagibits_bytes:petri_dish_mushrooms_vanilla"
+        },
+        {
+            "item": "chemlib:ammonium"
+        },
+        {
+            "item": "farmersdelight:tree_bark"
+        },
+        {
+            "item": "farmersdelight:tree_bark"
+        },
+        {
+            "item": "farmersdelight:tree_bark"
+        },
+        {
+            "item": "botania:living_root"
+        }
+    ],
+    "result": {
+        "count": 32,
+        "item": "farmersdelight:organic_compost"
+    }
+}

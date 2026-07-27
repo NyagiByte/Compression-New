@@ -1976,6 +1976,8 @@
 		{"namespace": "industrialhellscape", "path": "recipes/vesselplate_blast_recycle.json"},
 		{"namespace": "industrialhellscape", "path": "recipes/strut_blast_recycle.json"},
 
+		{"namespace": "tastytiles", "path": "recipes/ceramic_mixture_to_grid_purple_tiles.json"},
+
 
 
 

@@ -1,0 +1,35 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:cement_binder"
+      },
+      {
+        "item": "nyagibits_bytes:cement_binder"
+      },
+      {
+        "item": "nyagibits_bytes:cement_binder"
+      },
+      {
+        "item": "nyagibits_bytes:cement_binder"
+      },
+      {
+        "item": "chemlib:silicon_dust"
+      },
+      {
+        "item": "chemlib:aluminum_oxide"
+      },
+      {
+        "item": "nyagibits_bytes:raw_zirconia"
+      }
+    ],
+    "results": [
+      {
+        "item": "chemlib:silicon_dioxide"
+      },
+      {
+        "count": 16,
+        "item": "tastytiles:ceramic_mixture"
+      }
+    ]
+  }

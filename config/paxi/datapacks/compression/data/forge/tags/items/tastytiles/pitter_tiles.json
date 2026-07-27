@@ -1,0 +1,32 @@
+{
+    "replace": true,
+    "values": [
+        "tastytiles:brick_pitter_tile",
+        "tastytiles:brick_pitter_tile_stairs",
+        "tastytiles:brick_pitter_tile_wall",
+        "tastytiles:fire_pitter_tile",
+        "tastytiles:fire_pitter_tile_stairs",
+        "tastytiles:fire_pitter_tile_wall",
+        "tastytiles:ochre_pitter_tile",
+        "tastytiles:ochre_pitter_tile_stairs",
+        "tastytiles:ochre_pitter_tile_wall",
+        "tastytiles:earthy_pitter_tile",
+        "tastytiles:earthy_pitter_tile_stairs",
+        "tastytiles:earthy_pitter_tile_wall",
+        "tastytiles:pale_pitter_tile",
+        "tastytiles:pale_pitter_tile_stairs",
+        "tastytiles:pale_pitter_tile_wall",
+        "tastytiles:lush_pitter_tile",
+        "tastytiles:lush_pitter_tile_stairs",
+        "tastytiles:lush_pitter_tile_wall",
+        "tastytiles:deep_pitter_tile",
+        "tastytiles:deep_pitter_tile_stairs",
+        "tastytiles:deep_pitter_tile_wall",
+        "tastytiles:pitch_pitter_tile",
+        "tastytiles:pitch_pitter_tile_stairs",
+        "tastytiles:pitch_pitter_tile_wall",
+        "tastytiles:pink_pitter_tile",
+        "tastytiles:pink_pitter_tile_stairs",
+        "tastytiles:pink_pitter_tile_wall"
+    ]
+  }

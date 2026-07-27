@@ -1,0 +1,80 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "nyagibits_bytes:porcelain_slab_med"},
+    "loops": 1,
+    "results": [
+      {
+        "count": 2,
+        "item": "nyagibits_bytes:porcelain_slab_small"
+    }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:porcelain_slab_med"
+          },
+          {
+            "item": "nyagibits_bytes:smectite_clay"
+          }
+        ],
+        "results": [
+            {
+                "item": "nyagibits_bytes:porcelain_slab_med"
+            }
+        ]
+      },
+        {
+            "type": "create:filling",
+            "ingredients": [
+              {
+                "item": "nyagibits_bytes:porcelain_slab_med"
+              },
+              {
+                "amount": 50,
+                "fluid": "immersivepetroleum:lubricant",
+                "nbt": {}
+              }
+            ],
+            "results": [
+              {
+                "item": "nyagibits_bytes:porcelain_slab_med"
+              }
+            ]
+          },
+      {
+        "type": "create:cutting",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:porcelain_slab_med"
+          }
+        ],
+        "processingTime": 250,
+        "results": [
+          {
+            "item": "nyagibits_bytes:porcelain_slab_med"
+          }  
+        ]
+      },
+        {
+            "type": "create:filling",
+            "ingredients": [
+              {
+                "item": "nyagibits_bytes:porcelain_slab_med"
+              },
+              {
+                "amount": 250,
+                "fluid": "minecraft:water",
+                "nbt": {}
+              }
+            ],
+            "results": [
+              {
+                "item": "nyagibits_bytes:porcelain_slab_med"
+              }
+            ]
+          }
+    ],
+    "transitionalItem": {"item": "nyagibits_bytes:porcelain_slab_med"}
+  }

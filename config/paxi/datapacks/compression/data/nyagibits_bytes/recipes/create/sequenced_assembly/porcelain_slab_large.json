@@ -1,0 +1,80 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "nyagibits_bytes:porcelain_slab_uncut"},
+    "loops": 1,
+    "results": [
+      {
+        "count": 2,
+        "item": "nyagibits_bytes:porcelain_slab_large"
+    }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:porcelain_slab_uncut"
+          },
+          {
+            "item": "nyagibits_bytes:smectite_clay"
+          }
+        ],
+        "results": [
+            {
+                "item": "nyagibits_bytes:porcelain_slab_uncut"
+            }
+        ]
+      },
+        {
+            "type": "create:filling",
+            "ingredients": [
+              {
+                "item": "nyagibits_bytes:porcelain_slab_uncut"
+              },
+              {
+                "amount": 50,
+                "fluid": "immersivepetroleum:lubricant",
+                "nbt": {}
+              }
+            ],
+            "results": [
+              {
+                "item": "nyagibits_bytes:porcelain_slab_uncut"
+              }
+            ]
+          },
+      {
+        "type": "create:cutting",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:porcelain_slab_uncut"
+          }
+        ],
+        "processingTime": 250,
+        "results": [
+          {
+            "item": "nyagibits_bytes:porcelain_slab_uncut"
+          }  
+        ]
+      },
+        {
+            "type": "create:filling",
+            "ingredients": [
+              {
+                "item": "nyagibits_bytes:porcelain_slab_uncut"
+              },
+              {
+                "amount": 250,
+                "fluid": "minecraft:water",
+                "nbt": {}
+              }
+            ],
+            "results": [
+              {
+                "item": "nyagibits_bytes:porcelain_slab_uncut"
+              }
+            ]
+          }
+    ],
+    "transitionalItem": {"item": "nyagibits_bytes:porcelain_slab_uncut"}
+  }
