@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+      "item": "chemlib:iron_plate"
+    },
+    "result": "createdeco:decal_no_entry"
+  }
