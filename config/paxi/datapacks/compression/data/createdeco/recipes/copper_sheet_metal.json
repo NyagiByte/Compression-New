@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "chemlib:copper_plate"}
+    },
+    "pattern": [
+      "AA",
+      "AA"
+    ],
+    "result": {
+      "count": 4,
+      "item": "createdeco:copper_sheet_metal"
+    }
+  }

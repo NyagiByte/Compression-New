@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "chemlib:zinc_nugget"},
+      "B": {"item": "chemlib:zinc_plate"},
+      "C": {"item": "minecraft:glow_berries"}
+    },
+    "pattern": [
+      "A",
+      "C",
+      "B"
+    ],
+    "result": {
+      "count": 1,
+      "item": "createdeco:green_zinc_lamp"
+    }
+  }

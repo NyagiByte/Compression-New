@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "create:copper_nugget"},
+      "B": {"item": "chemlib:copper_plate"},
+      "C": {"item": "minecraft:torch"}
+    },
+    "pattern": [
+      "A",
+      "C",
+      "B"
+    ],
+    "result": {
+      "count": 1,
+      "item": "createdeco:yellow_copper_lamp"
+    }
+  }
