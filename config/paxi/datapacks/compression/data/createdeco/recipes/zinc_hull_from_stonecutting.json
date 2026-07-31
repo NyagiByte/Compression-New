@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "count": 1,
+    "ingredient": {
+      "item": "chemlib:zinc_metal_block"
+    },
+    "result": "createdeco:zinc_hull"
+  }
