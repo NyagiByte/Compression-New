@@ -221,7 +221,16 @@
             "mekanism:ultimate_universal_cable",
             "mekanism:elite_universal_cable",
             "mekanism:scuba_mask",
-            "mekanism:metallurgic_infuser"
+            "mekanism:metallurgic_infuser",
+            "mekanism:ingot_lead",
+            "mekanism:ingot_uranium",
+            "mekanism:ingot_bronze",
+            "mekanism:ingot_steel",
+            "vintageimprovements:vanadium_ingot",
+            "mekanism:ingot_osmium",
+            "mekanism:ingot_tin",
+            "mekanism:dust_steel",
+            "nuclearcraft:steel_dust"
         ]
     }
 ]
