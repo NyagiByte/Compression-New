@@ -2,14 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "A": {"item": "chemlib:copper_plate"},
-      "B": {"tag": "forge:string_group"}
+      "B": {"item": "createdeco:copper_bars"}
     },
     "pattern": [
+      " A ",
       "ABA",
-      "ABA"
+      " A "
     ],
     "result": {
       "count": 20,
-      "item": "createdeco:copper_mesh_fence"
+      "item": "createdeco:copper_catwalk"
     }
   }

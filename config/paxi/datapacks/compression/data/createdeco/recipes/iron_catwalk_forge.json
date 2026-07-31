@@ -2,14 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "A": {"item": "chemlib:iron_plate"},
-      "B": {"tag": "forge:string_group"}
+      "B": {"item": "minecraft:iron_bars"}
     },
     "pattern": [
+      " A ",
       "ABA",
-      "ABA"
+      " A "
     ],
     "result": {
       "count": 20,
-      "item": "createdeco:iron_mesh_fence"
+      "item": "createdeco:iron_catwalk"
     }
   }

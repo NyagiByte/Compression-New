@@ -2,14 +2,15 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "A": {"item": "chemlib:zinc_plate"},
-      "B": {"tag": "forge:string_group"}
+      "B": {"item": "createdeco:zinc_bars"}
     },
     "pattern": [
+      " A ",
       "ABA",
-      "ABA"
+      " A "
     ],
     "result": {
       "count": 20,
-      "item": "createdeco:zinc_mesh_fence"
+      "item": "createdeco:zinc_catwalk"
     }
   }

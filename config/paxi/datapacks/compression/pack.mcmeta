@@ -1343,6 +1343,20 @@
 		{"namespace": "createdeco", "path": "recipes/compacting/industrial_iron_ingot.json"},
 		{"namespace": "createdeco", "path": "recipes/compacting/industrial_iron_block.json"},
 
+		{"namespace": "createdeco", "path": "recipes/zinc_mesh_fence_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/zinc_catwalk_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/industrial_iron_catwalk_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/andesite_catwalk_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/brass_catwalk_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/iron_catwalk_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/copper_catwalk_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/copper_mesh_fence_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/brass_mesh_fence_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/iron_mesh_fence_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/industrial_iron_mesh_fence_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/andesite_mesh_fence_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/industrial_iron_mesh_fence.json"},
+
 		{"namespace": "tesseract", "path": "recipes/tesseract.json"},
 
 		{"namespace": "ae2", "path": "recipes/misc/vanilla_daylight_detector.json"},

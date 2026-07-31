@@ -1,8 +1,8 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item": "create:andesite_alloy"},
-      "B": {"item": "createdeco:andesite_bars"}
+      "A": {"item": "createdeco:industrial_iron_ingot"},
+      "B": {"item": "createdeco:industrial_iron_bars"}
     },
     "pattern": [
       " A ",
@@ -11,6 +11,6 @@
     ],
     "result": {
       "count": 20,
-      "item": "createdeco:andesite_catwalk"
+      "item": "createdeco:industrial_iron_catwalk"
     }
   }
