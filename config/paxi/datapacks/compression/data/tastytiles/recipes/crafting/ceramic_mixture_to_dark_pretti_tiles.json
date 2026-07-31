@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"nyagibits_bytes:porcelain_slab_large"},
+      "B": {"item":"abyssal_decor:deepbronze_block"}
+    },
+    "pattern": [
+      "AAA",
+      " B ",
+      "AAA"
+    ],
+    "result": {
+        "count": 32,
+        "item": "tastytiles:dark_pretti_tile"
+    }
+  }

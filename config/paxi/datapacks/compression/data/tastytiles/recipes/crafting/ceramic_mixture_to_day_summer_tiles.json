@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"nyagibits_bytes:porcelain_slab_large"},
+      "B": {"item":"minecraft:yellow_dye"},
+      "C": {"item":"minecraft:yellow_concrete_powder"},
+      "D": {"item":"minecraft:orange_dye"}
+    },
+    "pattern": [
+      "AAA",
+      "BCD",
+      "AAA"
+    ],
+    "result": {
+        "count": 32,
+        "item": "tastytiles:day_summer_tile"
+    }
+  }

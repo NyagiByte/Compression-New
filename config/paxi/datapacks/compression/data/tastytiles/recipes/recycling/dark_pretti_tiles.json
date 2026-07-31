@@ -1,0 +1,21 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "tastytiles:dark_pretti_tile"
+      }
+    ],
+    "processingTime": 10,
+    "results": [
+      {
+        "chance": 0.1,
+        "count": 1,
+        "item": "nyagibits_bytes:porcelain_slab_large"
+      },
+      {
+        "chance": 0.02,
+        "count": 1,
+        "item": "abyssal_decor:deepbronze_block"
+      }
+    ]
+  }
