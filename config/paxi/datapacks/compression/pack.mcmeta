@@ -1369,7 +1369,6 @@
 		{"namespace": "createdeco", "path": "recipes/copper_support_wedge.json"},
 		{"namespace": "createdeco", "path": "recipes/industrial_iron_support_wedge.json"},
 		{"namespace": "createdeco", "path": "recipes/zinc_support_wedge.json"},
-		{"namespace": "createdeco", "path": "recipes/zinc_sheet_metal_from_zinc_block_stonecutting.json"},
 
 		{"namespace": "tesseract", "path": "recipes/tesseract.json"},
 
