@@ -3282,6 +3282,20 @@
         "tastytiles:lavender_edge_tile",
         "tastytiles:lavender_edge_tile_slab",
         "tastytiles:lavender_edge_tile_stairs",
-        "tastytiles:lavender_edge_tile_wall"
+        "tastytiles:lavender_edge_tile_wall",
+        "nyagibits_bytes:dirty_glassware",
+        "nyagibits_bytes:cream",
+        "nyagibits_bytes:filter_saturated",
+        "nyagibits_bytes:casein_precipitated",
+        "nyagibits_bytes:casein_high",
+        "nyagibits_bytes:casein_low",
+        "nyagibits_bytes:casein_powder",
+        "nyagibits_bytes:whey_powder",
+        "nyagibits_bytes:peptone",
+        "nyagibits_bytes:porcelain_slab_uncut",
+        "nyagibits_bytes:porcelain_slab_small",
+        "nyagibits_bytes:porcelain_slab_med",
+        "nyagibits_bytes:porcelain_slab_large",
+        "nyagibits_bytes:petri_dish_sabouraud"
     ]
   }

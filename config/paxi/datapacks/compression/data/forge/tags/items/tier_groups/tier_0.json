@@ -18224,6 +18224,9 @@
         "botania:light_launcher",
         "vintageimprovements:iron_spring",
         "nyagibits_bytes:living_frame",
-        "nyagibits_bytes:tequeno_t0"
+        "nyagibits_bytes:tequeno_t0",
+        "nyagibits_bytes:compacted_wood_pile",
+        "nyagibits_bytes:inoculated_wood_pile",
+        "nyagibits_bytes:petri_dish_mushrooms_vanilla"
     ]
   }
