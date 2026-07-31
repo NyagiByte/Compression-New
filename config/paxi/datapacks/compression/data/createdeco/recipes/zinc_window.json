@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "chemlib:zinc_ingot"},
+      "B": {"item": "minecraft:glass"}
+    },
+    "pattern": [
+      " A ",
+      "ABA"
+    ],
+    "result": {
+      "count": 2,
+      "item": "createdeco:zinc_window"
+    }
+  }
