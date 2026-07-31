@@ -1,8 +1,8 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item": "create:andesite_alloy"},
-      "B": {"item": "createdeco:andesite_bars"}
+      "A": {"item": "chemlib:zinc_plate"},
+      "B": {"item": "createdeco:zinc_bars"}
     },
     "pattern": [
       "AAA",
@@ -11,6 +11,6 @@
     ],
     "result": {
       "count": 20,
-      "item": "createdeco:andesite_catwalk_railing"
+      "item": "createdeco:zinc_catwalk_railing"
     }
   }

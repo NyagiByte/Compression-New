@@ -1,8 +1,8 @@
 {
     "type": "minecraft:crafting_shaped",
     "key": {
-      "A": {"item": "create:andesite_alloy"},
-      "B": {"item": "createdeco:andesite_bars"}
+      "A": {"item": "create:brass_sheet"},
+      "B": {"item": "createdeco:brass_bars"}
     },
     "pattern": [
       "AAA",
@@ -11,6 +11,6 @@
     ],
     "result": {
       "count": 20,
-      "item": "createdeco:andesite_catwalk_railing"
+      "item": "createdeco:brass_catwalk_railing"
     }
   }
