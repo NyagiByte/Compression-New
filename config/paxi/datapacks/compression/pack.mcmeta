@@ -1369,6 +1369,12 @@
 		{"namespace": "createdeco", "path": "recipes/copper_support_wedge.json"},
 		{"namespace": "createdeco", "path": "recipes/industrial_iron_support_wedge.json"},
 		{"namespace": "createdeco", "path": "recipes/zinc_support_wedge.json"},
+		{"namespace": "createdeco", "path": "recipes/andesite_catwalk_stairs_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/brass_catwalk_stairs_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/iron_catwalk_stairs_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/copper_catwalk_stairs_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/industrial_iron_catwalk_stairs_from_stonecutting.json"},
+		{"namespace": "createdeco", "path": "recipes/zinc_catwalk_stairs_from_stonecutting.json"},
 
 		{"namespace": "tesseract", "path": "recipes/tesseract.json"},
 
