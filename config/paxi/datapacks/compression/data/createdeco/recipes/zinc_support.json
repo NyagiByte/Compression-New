@@ -4,9 +4,9 @@
       "A": {"item": "chemlib:zinc_ingot"}
     },
     "pattern": [
+      " A ",
       "A A",
-      "   ",
-      "A A"
+      " A "
     ],
     "result": {
       "count": 4,
