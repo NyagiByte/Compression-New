@@ -548,7 +548,10 @@
             "nuclearcraft:germanium_dust",
             "nuclearcraft:obsidian_dust",
             "nuclearcraft:fluorite_dust",
-            "nuclearcraft:graphite_dust"
+            "nuclearcraft:graphite_dust",
+            "create:copper_sheet",
+            "createdeco:zinc_sheet",
+            "create:zinc_ingot"
         ]
     }
 ]
