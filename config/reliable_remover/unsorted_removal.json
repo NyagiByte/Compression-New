@@ -551,7 +551,8 @@
             "nuclearcraft:graphite_dust",
             "create:copper_sheet",
             "createdeco:zinc_sheet",
-            "create:zinc_ingot"
+            "create:zinc_ingot",
+            "create:iron_sheet"
         ]
     }
 ]
