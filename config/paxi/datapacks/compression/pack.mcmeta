@@ -1376,6 +1376,23 @@
 		{"namespace": "createdeco", "path": "recipes/industrial_iron_catwalk_stairs_from_stonecutting.json"},
 		{"namespace": "createdeco", "path": "recipes/zinc_catwalk_stairs_from_stonecutting.json"},
 
+		{"namespace": "createdeco", "path": "recipes/white_shipping_container.json"},
+		{"namespace": "createdeco", "path": "recipes/orange_shipping_container.json"},
+		{"namespace": "createdeco", "path": "recipes/magenta_shipping_container.json"},
+		{"namespace": "createdeco", "path": "recipes/yellow_shipping_container.json"},
+		{"namespace": "createdeco", "path": "recipes/light_blue_shipping_container.json"},
+		{"namespace": "createdeco", "path": "recipes/lime_shipping_container.json"},
+		{"namespace": "createdeco", "path": "recipes/pink_shipping_container.json"},
+		{"namespace": "createdeco", "path": "recipes/gray_shipping_container.json"},
+		{"namespace": "createdeco", "path": "recipes/light_gray_shipping_container.json"},
+		{"namespace": "createdeco", "path": "recipes/purple_shipping_container.json"},
+		{"namespace": "createdeco", "path": "recipes/cyan_shipping_container.json"},
+		{"namespace": "createdeco", "path": "recipes/blue_shipping_container.json"},
+		{"namespace": "createdeco", "path": "recipes/brown_shipping_container.json"},
+		{"namespace": "createdeco", "path": "recipes/green_shipping_container.json"},
+		{"namespace": "createdeco", "path": "recipes/red_shipping_container.json"},
+		{"namespace": "createdeco", "path": "recipes/black_shipping_container.json"},
+
 		{"namespace": "tesseract", "path": "recipes/tesseract.json"},
 
 		{"namespace": "ae2", "path": "recipes/misc/vanilla_daylight_detector.json"},
