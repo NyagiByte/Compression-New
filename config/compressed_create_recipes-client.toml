@@ -2,4 +2,6 @@
 ["Compressed Create Recipes Config"]
 	#Whether to modify the JEI category for sequenced assembly to show random salvage. Does nothing if Create: Cyber Goggles is present
 	"Random Salvage Display" = true
+	#Whether to force animated textures to keep animating in ponders. Only affects singleplayer.
+	"Force Animated Textures in Ponders" = true
 

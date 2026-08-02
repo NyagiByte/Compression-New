@@ -4,4 +4,10 @@
 	"Red String Render Thickness" = 5
 	#Whether red string blocks should always render the string in ponders, regardless of what the player's holding.
 	"Always show red string in ponders" = true
+	#A multiplier on the size of the color indicator on sparks.
+	#Range: 0.1 ~ 10.0
+	"Spark Star Base Scale" = 1.5
+	#A multiplier on the size of the color indicator on sparks. This one is for ponders and ignores the base scale
+	#Range: 0.1 ~ 10.0
+	"Spark Star Ponder Scale" = 2.0
 
