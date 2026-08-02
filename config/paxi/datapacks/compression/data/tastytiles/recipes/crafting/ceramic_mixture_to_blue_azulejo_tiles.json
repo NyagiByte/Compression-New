@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"nyagibits_bytes:porcelain_slab_large"},
+      "B": {"item":"chemlib:cobalt_dust"}
+    },
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "result": {
+        "count": 48,
+        "item": "tastytiles:blue_azulejo_tile"
+    }
+  }

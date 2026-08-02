@@ -1,0 +1,16 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:porcelain_slab_med"
+      }
+    ],
+    "processingTime": 10,
+    "results": [
+      {
+        "chance": 0.125,
+        "count": 1,
+        "item": "nyagibits_bytes:porcelain_slab_uncut"
+      }
+    ]
+  }

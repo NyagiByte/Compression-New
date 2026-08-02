@@ -2,20 +2,20 @@
     "type": "create:crushing",
     "ingredients": [
       {
-        "tag": "tastytiles:dark_pretti_tiles"
+        "tag": "forge:tastytiles/crisp_tiles"
       }
     ],
     "processingTime": 10,
     "results": [
       {
-        "chance": 0.1,
+        "chance": 0.10,
         "count": 1,
-        "item": "nyagibits_bytes:porcelain_slab_large"
+        "item": "nyagibits_bytes:porcelain_slab_med"
       },
       {
-        "chance": 0.18,
+        "chance": 0.05,
         "count": 1,
-        "item": "abyssal_decor:deepbronze_ingot"
+        "item": "minecraft:white_dye"
       }
     ]
   }

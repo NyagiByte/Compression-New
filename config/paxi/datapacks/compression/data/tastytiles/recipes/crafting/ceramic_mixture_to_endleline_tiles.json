@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"nyagibits_bytes:porcelain_slab_large"},
+      "B": {"item":"minecraft:end_stone"},
+      "C": {"item":"minecraft:purpur_block"}
+    },
+    "pattern": [
+      "AAB",
+      "ACA",
+      "BAA"
+    ],
+    "result": {
+        "count": 32,
+        "item": "tastytiles:endleline_tile"
+    }
+  }

@@ -2,7 +2,7 @@
     "type": "create:crushing",
     "ingredients": [
       {
-        "item": "tastytiles:light_pretti_tile"
+        "tag": "tastytiles:light_pretti_tiles"
       }
     ],
     "processingTime": 10,
@@ -13,9 +13,9 @@
         "item": "nyagibits_bytes:porcelain_slab_large"
       },
       {
-        "chance": 0.02,
+        "chance": 0.18,
         "count": 1,
-        "item": "minecraft:copper_block"
+        "item": "minecraft:copper_ingot"
       }
     ]
   }

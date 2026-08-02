@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"nyagibits_bytes:porcelain_slab_med"},
+      "B": {"item":"minecraft:white_dye"},
+      "C": {"item":"minecraft:pink_dye"}
+    },
+    "pattern": [
+      "ABA",
+      "CAC",
+      "ABA"
+    ],
+    "result": {
+        "count": 24,
+        "item": "tastytiles:crisp_peach_tile"
+    }
+  }

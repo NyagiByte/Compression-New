@@ -2,6 +2,10 @@
     "replace": true,
     "values": [
         "tastytiles:day_summer_tile",
-        "tastytiles:eve_summer_tile"
+        "tastytiles:day_summer_tile_stairs",
+        "tastytiles:day_summer_tile_wall",
+        "tastytiles:eve_summer_tile",
+        "tastytiles:eve_summer_tile_stairs",
+        "tastytiles:eve_summer_tile_wall"
     ]
   }

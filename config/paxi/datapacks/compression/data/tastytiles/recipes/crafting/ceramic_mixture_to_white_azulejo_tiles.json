@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"nyagibits_bytes:porcelain_slab_large"},
+      "B": {"item":"natures_spirit:white_kaolin"}
+    },
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "result": {
+        "count": 48,
+        "item": "tastytiles:white_azulejo_tile"
+    }
+  }

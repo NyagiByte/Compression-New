@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "thermal:quartz_dust"
+        },
+        {
+            "item": "minecraft:clay_ball"
+        },
+        {
+            "item": "chemlib:aluminum_oxide"
+        },
+        {
+            "item": "chemlib:silicon_dust"
+        },
+        {
+            "item": "nyagibits_bytes:raw_zirconia"
+        }
+    ],
+    "result": {
+        "count": 4,
+        "item": "nyagibits_bytes:smectite_clay"
+    }
+}
