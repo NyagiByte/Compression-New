@@ -1196,9 +1196,9 @@ Ponder.registry((e) => {
         .scene("corporea_start", "Corporea Basics", "kubejs:botania_5x5", (scene, util) => {
             scene.showBasePlate();
             scene.idle(10)
-            const master = createSparkAt(scene, 2.5, 1.5, 2.5, true, false)
-            const notMaster = createSparkAt(scene, 2.5, 2.5, 2.5, false, false)
-            scene.text(160, "Due to technical limitations, corporea sparks will be represented by glazed terracotta, with master and non-master sparks being light blue and pink (bottom and top) respectively.")
+            const master = createSparkAt(scene, 2.5, 1.5, 2.5, true, 0, false)
+            const notMaster = createSparkAt(scene, 2.5, 2.5, 2.5, false, 0, false)
+            scene.text(150, "Corporea sparks are the nodes that connect inventories and devices in a corporea network as well as transmit the network itself.")
             scene.idle(160)
             scene.world.modifyEntity(master, discard)
             scene.world.modifyEntity(notMaster, discard)
@@ -1213,9 +1213,9 @@ Ponder.registry((e) => {
             scene.world.showSection([[1, 1, 2], [3, 1, 2]], Facing.down)
             scene.text(90, "...They must be placed on an inventory...")
             scene.idle(10)
-            const overChest = createSparkAt(scene, 1.5, 2.5, 2.5, false)
-            const overBarrel = createSparkAt(scene, 2.5, 2.5, 2.5, false)
-            const overVault = createSparkAt(scene, 3.5, 2.5, 2.5, false)
+            const overChest = createSparkAt(scene, 1.5, 2.5, 2.5, false, 0)
+            const overBarrel = createSparkAt(scene, 2.5, 2.5, 2.5, false, 0)
+            const overVault = createSparkAt(scene, 3.5, 2.5, 2.5, false, 0)
             scene.idle(70)
             scene.world.hideSection([[1, 1, 2], [3, 1, 2]], Facing.up)
             scene.world.modifyEntity(overChest, discard)
@@ -1228,9 +1228,9 @@ Ponder.registry((e) => {
             scene.world.showSection([[1, 1, 2], [3, 1, 2]], Facing.down)
             scene.text(90, "...Or on specialized corporea blocks.")
             scene.idle(10)
-            const overCube = createSparkAt(scene, 1.5, 2.5, 2.5, false)
-            const overBlock = createSparkAt(scene, 2.5, 2.5, 2.5, false)
-            const overFunnel = createSparkAt(scene, 3.5, 2.5, 2.5, false)
+            const overCube = createSparkAt(scene, 1.5, 2.5, 2.5, false, 0)
+            const overBlock = createSparkAt(scene, 2.5, 2.5, 2.5, false, 0)
+            const overFunnel = createSparkAt(scene, 3.5, 2.5, 2.5, false, 0)
             scene.idle(70)
             scene.world.hideSection([1, 1, 2], Facing.up)
             scene.world.hideSection([3, 1, 2], Facing.up)
@@ -1251,7 +1251,7 @@ Ponder.registry((e) => {
             scene.world.showSection([2, 1, 2], Facing.down)
             scene.text(120, "...A spark can also be picked up by right clicking on it with a wand while crouching.")
             scene.idle(10)
-            const wrenchedSpark = createSparkAt(scene, 2.5, 2.5, 2.5, false)
+            const wrenchedSpark = createSparkAt(scene, 2.5, 2.5, 2.5, false, 0)
             scene.idle(30)
             scene.showControls(40, [2.5, 3, 2.5], "down")
                 .rightClick()
@@ -1273,9 +1273,9 @@ Ponder.registry((e) => {
             scene.idle(5)
             scene.text(105, "Sparks within 8 blocks will connect to form a network...")
             scene.idle(10)
-            createSparkAt(scene, 1.5, 2.5, 2.5, false)
+            createSparkAt(scene, 1.5, 2.5, 2.5, false, 0)
             scene.idle(20)
-            createSparkAt(scene, 3.5, 2.5, 2.5, false)
+            createSparkAt(scene, 3.5, 2.5, 2.5, false, 0)
             scene.idle(20)
             for(let i = 0; i < 3; i++) {
                 scene.overlay.showLine(PonderPalette.WHITE, [1.5, 2.5, 2.5], [3.5, 2.5, 2.5], 10)
@@ -1294,7 +1294,7 @@ Ponder.registry((e) => {
             scene.world.setBlock([2, 1, 2], "botania:corporea_block", false)
             scene.world.showSection([2, 1, 2], Facing.down)
             scene.idle(10)
-            createSparkAt(scene, 2.5, 2.5, 2.5, true)
+            createSparkAt(scene, 2.5, 2.5, 2.5, true, 0)
             scene.idle(80)
             scene.text(80, "With a master spark in place, the network can now be used however you so choose!", [2.5, 2.5, 2.5]).placeNearTarget()
             scene.idle(85)
@@ -1322,22 +1322,25 @@ Ponder.registry((e) => {
             scene.world.setBlock([2, 1, 2], "botania:corporea_block", false)
             scene.idle(1)
             scene.world.showSection([2, 1, 2], Facing.down)
-            scene.text(80, "Sparks will start off with the default \"white\" network, represented here by wool...")
+            scene.text(110, "Sparks will start off with the default \"white\" network, indicated by the symbol orbiting the spark...")
             scene.idle(10)
-            const master1 = createSparkAt(scene, 2.5, 2.5, 2.5, true)
-            const whiteColor = colorSparkAt(scene, 2.5, 2.5, 2.5, "white")
-            scene.idle(75)
+            const master1 = createSparkAt(scene, 2.5, 2.5, 2.5, true, 0)
+            //const whiteColor = colorSparkAt(scene, 2.5, 2.5, 2.5, "white")
+            scene.idle(105)
             scene.text(100, "...But this can be changed by simply applying dye to the spark.")
             scene.idle(10)
             scene.showControls(40, [2.5, 3, 2.5], "down")
                 .rightClick()
                 .withItem("pink_dye")
             scene.idle(35)
-            scene.world.modifyEntity(whiteColor, discard)
-            const pinkColor = colorSparkAt(scene, 2.5, 2.5, 2.5, "pink", true)
+            //scene.world.modifyEntity(whiteColor, discard)
+            scene.world.modifyEntity(master1, spark =>{
+                spark.load("{network:6,master:1b,Pos:[2.5d,2.5d,2.5d]}")
+            })
+            //const pinkColor = colorSparkAt(scene, 2.5, 2.5, 2.5, "pink", true)
             scene.idle(65)
             scene.world.modifyEntity(master1, discard)
-            scene.world.modifyEntity(pinkColor, discard)
+            //scene.world.modifyEntity(pinkColor, discard)
             scene.world.hideSection([2, 1, 2], Facing.up)
             scene.idle(10)
             scene.world.setBlock([1, 1, 1], "botania:corporea_block", false)
@@ -1349,14 +1352,14 @@ Ponder.registry((e) => {
             scene.text(100, "Sparks on different colored networks will not connect with one another...")
                 .attachKeyFrame()
             scene.idle(10)
-            createSparkAt(scene, 1.5, 2.5, 1.5, false)
-            createSparkAt(scene, 3.5, 2.5, 1.5, false)
-            createSparkAt(scene, 1.5, 2.5, 3.5, false)
-            createSparkAt(scene, 3.5, 2.5, 3.5, false)
-            colorSparkAt(scene, 1.5, 2.5, 1.5, "white", false)
+            createSparkAt(scene, 1.5, 2.5, 1.5, false, 0)
+            createSparkAt(scene, 3.5, 2.5, 1.5, false, 2)
+            createSparkAt(scene, 1.5, 2.5, 3.5, false, 0)
+            createSparkAt(scene, 3.5, 2.5, 3.5, false, 2)
+            /*colorSparkAt(scene, 1.5, 2.5, 1.5, "white", false)
             colorSparkAt(scene, 3.5, 2.5, 1.5, "magenta", false)
             colorSparkAt(scene, 1.5, 2.5, 3.5, "white", false)
-            colorSparkAt(scene, 3.5, 2.5, 3.5, "magenta", false)
+            colorSparkAt(scene, 3.5, 2.5, 3.5, "magenta", false)*/
             scene.idle(20)
             for(let i = 0; i < 3; i++) {
                 scene.overlay.showLine(PonderPalette.RED, [1.5, 2.5, 1.5], [3.5, 2.5, 1.5], 10)
@@ -1387,7 +1390,7 @@ Ponder.registry((e) => {
             scene.idle(65)
             scene.text(80, "...They are a block that a spark can be placed on.")
             scene.idle(10)
-            createSparkAt(scene, 2.5, 2.5, 2.5, false, true)
+            createSparkAt(scene, 2.5, 2.5, 2.5, false, 0, true)
             scene.idle(70)
             scene.text(80, "They're useful as a way to place sparks without adding functional blocks to the network.")
             scene.idle(15)
@@ -1404,7 +1407,7 @@ Ponder.registry((e) => {
             scene.world.showSection([[3, 1, 3], [3, 2, 3]], Facing.down)
             scene.text(80, "Corporea funnels are the main way of retrieving items for automation with corporea.")
             scene.idle(10)
-            createSparkAt(scene, 3.5, 3.5, 3.5, true)
+            createSparkAt(scene, 3.5, 3.5, 3.5, true, 0)
             scene.idle(70)
             scene.text(120, "The type of item a funnel will request is based on the item in the item frame placed on the funnel, so this funnel would request cobblestone stairs.", [2.5, 3.2, 2]).placeNearTarget()
             var frame = itemFrame(scene, 3, 2, 2, "north", "minecraft:cobblestone_stairs", 0, true)
@@ -1458,9 +1461,9 @@ Ponder.registry((e) => {
             scene.world.showSection([5, 1, 3], Facing.down)
             scene.text(120, "Corporea interceptors are an extremely powerful tool for automation using corporea, allowing the network to react to requests that it can't fulfill.")
             scene.idle(10)
-            createSparkAt(scene, 3.5, 2.5, 3.5, true)
-            createSparkAt(scene, 5.5, 2.5, 3.5, false)
-            createSparkAt(scene, 1.5, 2.5, 3.5, false)
+            createSparkAt(scene, 3.5, 2.5, 3.5, true, 0)
+            createSparkAt(scene, 5.5, 2.5, 3.5, false, 0)
+            createSparkAt(scene, 1.5, 2.5, 3.5, false, 0)
             scene.idle(30)
             scene.world.setBlock([0, 1, 3], "minecraft:lever", false)
             scene.world.setBlock([4, 1, 3], "minecraft:lever", false)
@@ -1590,8 +1593,8 @@ Ponder.registry((e) => {
             scene.world.showSection([[1, 1, 2], [1, 2, 2]], Facing.down)
             scene.idle(10)
             scene.text(100, "Retainers are another essential tool for corporea automation, allowing for unfulfilled requests to be refired.")
-            const spark1 = createSparkAt(scene, 3.5, 2.5, 2.5, true)
-            const spark2 = createSparkAt(scene, 1.5, 3.5, 2.5, false)
+            const spark1 = createSparkAt(scene, 3.5, 2.5, 2.5, true, 0)
+            const spark2 = createSparkAt(scene, 1.5, 3.5, 2.5, false, 0)
             scene.world.setBlock([0, 2, 2], "minecraft:lever", false)
             scene.world.setBlock([2, 1, 1], "minecraft:lever", false)
             scene.world.modifyBlock([0, 2, 2], (lever) => lever.with("facing", "west").with("face", "wall").with("powered", "false"), false)
@@ -1667,7 +1670,7 @@ Ponder.registry((e) => {
             })
             scene.world.showSection([[1, 1, 1], [3, 1, 3]], Facing.down)
             scene.idle(10)
-            createSparkAt(scene, 3.5, 2.5, 2.5, true)
+            createSparkAt(scene, 3.5, 2.5, 2.5, true, 0)
             scene.idle(5)
             scene.addKeyframe()
             scene.idle(5)
@@ -1764,8 +1767,8 @@ Ponder.registry((e) => {
             scene.world.showSection([3, 1, 2], Facing.down)
             scene.world.showSection([1, 1, 2], Facing.down)
             scene.idle(10)
-            const spark1 = createSparkAt(scene, 3.5, 2.5, 2.5, false)
-            const spark2 = createSparkAt(scene, 1.5, 2.5, 2.5, true)
+            const spark1 = createSparkAt(scene, 3.5, 2.5, 2.5, false, 0)
+            const spark2 = createSparkAt(scene, 1.5, 2.5, 2.5, true, 0)
             scene.idle(10)
             scene.text(100, "The crystal cube is the main way for tracking an item's stock with corporea.", [0.7, 2.3, 2]).placeNearTarget()
             scene.idle(105)
@@ -1862,7 +1865,7 @@ Ponder.registry((e) => {
             })
             scene.world.showSection([[2, 1, 1], [2, 1, 3]], Facing.down)
             scene.idle(10)
-            createSparkAt(scene, 2.5, 2.5, 3.5, true)
+            createSparkAt(scene, 2.5, 2.5, 3.5, true, 0)
             scene.idle(10)
             scene.text(100, "Cubes have functionality with comparators, with the strength representing the current stock of the item...").attachKeyFrame()
             scene.idle(105)
@@ -1922,7 +1925,7 @@ Ponder.registry((e) => {
             scene.world.setBlock([2, 1, 2], "botania:corporea_index", false)
             scene.world.showSection([2, 1, 2], Facing.down)
             scene.idle(10)
-            createSparkAt(scene, 2.5, 2.5, 2.5, true)
+            createSparkAt(scene, 2.5, 2.5, 2.5, true, 0)
             scene.text(120, "The corporea index is the primary way to request items from the network, and is effectively the heart of your corporea network...")
             scene.idle(125)
             scene.text(80, "...It will intercept chat messages and interpret them to request items.")
@@ -1969,7 +1972,7 @@ Ponder.registry((e) => {
             scene.idle(105)
             scene.text(120, "...And asking for \"X stacks of (item)\" will request X times 64 of the item.")
             scene.idle(125)
-            scene.text(100, "There are also wildcards that can be used to be less spceific about what's being requested.")
+            scene.text(100, "There are also wildcards that can be used to be less specific about what's being requested.")
             scene.idle(105)
             scene.text(120, "More specific information regarding the intricacies of the index are found in the book.")
             scene.idle(50)
@@ -2568,8 +2571,25 @@ function manaBurst(scene, start, end, time, size){
  * @param {Number} z The z coordinate to place the "spark" at
  * @param {Boolean} isMaster Whether the corporea spark is a "master" spark, determines what to display it as
  * @param {false|undefined} particle Whether to skip causing particles when creating the "spark", must be a literal `false`
+ * @param {Number} channel The colour of the spark's channel
  * @returns The element link for the created spark
  */
+
+function createSparkAt(scene, x, y, z, isMaster,channel, particle) {
+    if(particle !== false) {
+        for(let i = 0; i < 5; i++) {
+            scene.particles.simple(1, "cloud", [x, y, z]).density(5).motion([Math.random()/5-0.1, Math.random()/5-0.1, Math.random()/5-0.1]).lifetime(10);
+        }
+    }
+    return scene.world.createEntity("botania:corporea_spark", [x, y, z], (o) => {
+        o.load(`{network:${channel},master:${isMaster? 1 : 0}b,Pos:[${x}d,${y}d,${z}d]}`)
+    })
+}
+
+
+
+
+/*
 function createSparkAt(scene, x, y, z, isMaster, particle) {
     var block = (isMaster ? "minecraft:light_blue_glazed_terracotta" : "minecraft:pink_glazed_terracotta")
     if(particle !== false) {
@@ -2581,8 +2601,8 @@ function createSparkAt(scene, x, y, z, isMaster, particle) {
         o.load(`{transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],scale:[0.5f,0.5f,0.5f],translation:[-0.25f,-0.25f,-0.25f]},block_state:{Name:"${block}"},Pos:[${x}d,${y}d,${z}d]}`)
     })
 }
-
-/**
+*/
+/** UNUSED
  * Colors the spark at the provided location, the coordinates should match was passed into `createSparkAt`
  * @param {PonderSceneBuilder} scene The scene builder to place the spark in
  * @param {Number} x The x coordinate of the "spark" to color

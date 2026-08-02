@@ -467,8 +467,8 @@ Ponder.registry((e) => {
 			})
 			scene.idle(10)
 			scene.idle(2147483647)
-        });t
+        });
 
 
 
-});t
+});
