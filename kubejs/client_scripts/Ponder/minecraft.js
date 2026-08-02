@@ -438,4 +438,37 @@ Ponder.registry((e) => {
 			}
 			scene.markAsFinished();
         });
-});
+
+
+
+	e.create("nyagibits_bytes:flake").scene("flake", "??????????????????", "kubejs:deepslate_9x9", (scene, util) => {
+			var wall = []
+			for (let i = 0;i<9;i++) for(let j = 1;j<9;j++) wall.push([i,j,0])
+			wall.sort(() => Math.random() - 0.5)
+			scene.setSceneOffsetY(-1.1)
+			scene.rotateCameraY(35)
+			scene.scaleSceneView(2)
+			scene.idle(20)
+            scene.world.setBlocks([0,1,0, 8,8,0], "nyagibits_bytes:flake", false);
+			let timer = 0
+			wall.forEach(pos => {
+				scene.world.showSection(pos, Facing.north)
+				timer = timer + 1
+				if (timer%3 == 0) scene.idle(1)
+			})
+			scene.world.setBlocks([0,1,2, 8,8,2], "minecraft:end_gateway", false);
+			scene.idle(30)
+			timer = 0
+			wall.forEach(pos => {
+				scene.world.hideSection(pos, Facing.south)
+				scene.world.showSection([pos[0], pos[1], 2], Facing.north)
+				timer = timer + 1
+				if (timer%2 == 0) scene.idle(1)
+			})
+			scene.idle(10)
+			scene.idle(2147483647)
+        });t
+
+
+
+});t
