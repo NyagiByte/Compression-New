@@ -14,7 +14,12 @@
 				"202FD86BCA12CFCD"
 				"4BF754A57EA40429"
 			]
-			description: ["The core of your base, channels are on btw"]
+			description: [
+				"The core of your base, channels are on btw. &6Obviously&r"
+				"{@pagebreak}"
+				""
+				"{image:nyagibits_bytes:item/q_p_objects/questbook/qo_t0_7063b8bce64899c9 width:100 height:100 align:center}"
+			]
 			icon: "ae2:controller"
 			id: "7063B8BCE64899C9"
 			rewards: [{
@@ -24,6 +29,7 @@
 			}]
 			shape: "hexagon"
 			size: 3.0d
+			subtitle: "&cUseful \\\"Tech\\\""
 			tasks: [{
 				id: "73D3F42F0A83A1BD"
 				item: "nyagibits_bytes:ae2_schematic"
@@ -147,6 +153,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "Yup, that's smashed alright"
 			tasks: [{
 				id: "310F49926462E83A"
 				item: "nyagibits_bytes:used_crude_compression_test"
