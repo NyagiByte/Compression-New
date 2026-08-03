@@ -619,11 +619,18 @@ Ponder.registry((e) => {
             });
 
 
-		e.create("minecraft:cauldron").scene("lava_farming", "Farming Lava with Dripstone", "kubejs:deepslate_7x7", (scene, util) => {
+		e.create("minecraft:cauldron").scene("lava_farming_cauldron", "Farming Lava with Dripstone", "kubejs:deepslate_7x7", (scene, util) => {
 			scene.showBasePlate()
 			dripstoneCauldronScene(scene)
 			scene.markAsFinished()
         });
+
+		e.create("minecraft:lava_bucket").scene("lava_farming_bucket", "Farming Lava with Dripstone", "kubejs:deepslate_7x7", (scene, util) => {
+			scene.showBasePlate()
+			dripstoneCauldronScene(scene)
+			scene.markAsFinished()
+        });
+
 
 //The scene for filling cauldrons with dripstone is going to be shown in both dripstone and cauldron ponders.
 //We can't "use the same scene" with ponderjs, so scene creation gets delegated here and called from both ponders.
