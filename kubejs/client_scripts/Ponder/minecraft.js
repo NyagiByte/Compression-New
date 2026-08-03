@@ -440,7 +440,7 @@ Ponder.registry((e) => {
         });
 
 
-
+		//heehoo
 	e.create("nyagibits_bytes:flake").scene("flake", "??????????????????", "kubejs:deepslate_9x9", (scene, util) => {
 			var wall = []
 			for (let i = 0;i<9;i++) for(let j = 1;j<9;j++) wall.push([i,j,0])
@@ -470,5 +470,265 @@ Ponder.registry((e) => {
         });
 
 
+	e.create("minecraft:pointed_dripstone").scene("dripstone_basics", "Stala(ct|gm)ites!", "kubejs:deepslate_5x5", (scene, util) => {
+			scene.showBasePlate()
+			scene.idle(10)
+			createDripstoneSpike(scene, 2,2, 1,1, true)
+			scene.world.showSection([1,1,1,3,5,3], Facing.down)
+			scene.idle(10)
+			scene.text(80, "Pointed dripstone can be placed and stacked up to form spikes.", [2.5,1.5,2.5]);
+			scene.idle(40)
+			createDripstoneSpike(scene, 2,2, 1,2, true)
+			scene.idle(15)
+			createDripstoneSpike(scene, 2,2, 1,3, true)
+			scene.idle(15)
+			createDripstoneSpike(scene, 2,2, 1,4, true)
+			scene.idle(15)
+			createDripstoneSpike(scene, 2,2, 1,5, true)
+			scene.idle(15)
+			scene.text(50, "Forming stalagmites...", [2.5,1.5,2.5]);
+			scene.idle(60)
+			scene.world.setBlocks([2,1,2 ,2,5,2], "minecraft:air", true)
+			scene.idle(10)
+			scene.world.setBlock([2,6,2], "minecraft:dripstone_block", false)
+			scene.world.showSection([2,6,2], Facing.down)
+			scene.idle(15)
+			createDripstoneSpike(scene, 2,2, 5,5, false)
+			scene.text(80, "Or stacked down to form stalactites!", [2.5,4.5,2.5]);
+			scene.idle(15)
+			createDripstoneSpike(scene, 2,2, 5,5, false)
+			scene.idle(15)
+			createDripstoneSpike(scene, 2,2, 4,5, false)
+			scene.idle(15)
+			createDripstoneSpike(scene, 2,2, 3,5, false)
+			scene.idle(15)
+			createDripstoneSpike(scene, 2,2, 2,5, false)
+			scene.idle(15)
+			createDripstoneSpike(scene, 2,2, 1,5, false)
+			scene.idle(15)
+			scene.addKeyframe()
+			scene.idle(10)
+			scene.text(80, "A stalactite losing support will fall and crash down.", [2.5,4.5,2.5]);
+			scene.idle(30)
+			scene.world.setBlock([2,6,2], "minecraft:air", true)
+			scene.world.setBlocks([2,1,2, 2,5,2], "minecraft:air", false)
+			let parts = []
+			parts.push(scene.world.createEntity("minecraft:falling_block", [2.5, 1, 2,5], b => {b.load(`{BlockState: {Name: "minecraft:pointed_dripstone", Properties: {vertical_direction: "down", thickness: "tip"}}, Pos: [2.5d, 1d, 2.5d]}`)}))
+			parts.push(scene.world.createEntity("minecraft:falling_block", [2.5, 2, 2,5], b => {b.load(`{BlockState: {Name: "minecraft:pointed_dripstone", Properties: {vertical_direction: "down", thickness: "frustum"}}, Pos: [2.5d, 2d, 2.5d]}`)}))
+			parts.push(scene.world.createEntity("minecraft:falling_block", [2.5, 3, 2,5], b => {b.load(`{BlockState: {Name: "minecraft:pointed_dripstone", Properties: {vertical_direction: "down", thickness: "middle"}}, Pos: [2.5d, 3d, 2.5d]}`)}))
+			parts.push(scene.world.createEntity("minecraft:falling_block", [2.5, 4, 2,5], b => {b.load(`{BlockState: {Name: "minecraft:pointed_dripstone", Properties: {vertical_direction: "down", thickness: "middle"}}, Pos: [2.5d, 4d, 2.5d]}`)}))
+			parts.push(scene.world.createEntity("minecraft:falling_block", [2.5, 5, 2,5], b => {b.load(`{BlockState: {Name: "minecraft:pointed_dripstone", Properties: {vertical_direction: "down", thickness: "base"}}, Pos: [2.5d, 5d, 2.5d]}`)}))
+
+			let items = []
+			for(let i = 0;i<5;i++){
+				scene.idle(3)
+				scene.world.modifyEntity(parts.shift(), discard)
+				items.push(scene.world.createItemEntity([2,5,1.1,2,5], [(Math.random()-0.5)/6,Math.random()/12, (Math.random()-0.5)/6], "minecraft:pointed_dripstone"))
+			}
+			scene.idle(40)
+			items.forEach(item => scene.world.modifyEntity(item, discard))
+			scene.idle(10)
+			scene.addKeyframe()
+			scene.idle(10)
+			let creeper = scene.world.createEntity("minecraft:creeper", [2.5, 1, 2.5])
+			for(let i = 0;i<100;i++){scene.particles.simple(1, "smoke", [2.5,1.75,2.5]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);}
+			scene.idle(10)
+			scene.text(80, "Falling stalactites can be easily weaponized...", [2.5,2,2.5]);
+			scene.idle(40)
+			let falling = scene.world.createEntity("minecraft:falling_block", [2.5, 15, 2,5], b => {b.load(`{BlockState: {Name: "minecraft:pointed_dripstone", Properties: {vertical_direction: "down", thickness: "tip"}}, Pos: [2.5d, 15d, 2.5d]}`)})
+			scene.idle(27)
+			scene.world.modifyEntity(creeper, discard)
+			for(let i = 0;i<100;i++){
+                scene.particles.simple(2, "biomancy:falling_blood", [2.5,1.75,2.5]).density(1).motion([Math.random()/5-0.1, Math.random()/5, Math.random()/5-0.1]);
+				scene.particles.simple(2, "biomancy:landing_blood", [2.5,1.75,2.5]).density(1).motion([Math.random()/5-0.1, Math.random()/5, Math.random()/5-0.1]);
+				scene.particles.item(2, "minecraft:creeper_spawn_egg", [2.5,1.75,2.5]).density(1).motion([Math.random()/5-0.1, Math.random()/5, Math.random()/5-0.1]);
+            }
+			scene.idle(3)
+			scene.world.modifyEntity(falling, discard)
+			scene.world.hideSection([2,1,2, 2,2,2], Facing.up)
+			scene.idle(30)
+			createDripstoneSpike(scene, 2,2, 1,2, true)
+			scene.world.showSection([2,1,2 , 2,2,2], Facing.west)
+			scene.idle(10)
+			scene.text(80, "..same goes for stalagmites!", [2.5,2,2.5]);
+			scene.idle(40)
+			let creeper2 = scene.world.createEntity("minecraft:creeper", [2.5, 15, 2.5])
+			for(let i = 0;i<14;i++){
+				scene.idle(1)
+				scene.world.modifyEntity(creeper2, c =>{
+					c.setPos(c.getX(), c.getY()-1, c.getZ())
+				})
+				
+			}
+			scene.world.modifyEntity(creeper2, discard)
+			for(let i = 0;i<100;i++){
+                scene.particles.simple(2, "biomancy:falling_blood", [2.5,2,2.5]).density(1).motion([Math.random()/5-0.1, Math.random()/5, Math.random()/5-0.1]);
+				scene.particles.simple(2, "biomancy:landing_blood", [2.5,2,2.5]).density(1).motion([Math.random()/5-0.1, Math.random()/5, Math.random()/5-0.1]);
+				scene.particles.item(2, "minecraft:creeper_spawn_egg", [2.5,2,2.5]).density(1).motion([Math.random()/5-0.1, Math.random()/5, Math.random()/5-0.1]);
+            }
+			scene.idle(50)
+			scene.markAsFinished()
+        })
+		.scene("dripstone_cauldron","Farming Lava with Dripstone", "kubejs:deepslate_7x7", (scene, util) => {
+                scene.showBasePlate();
+                dripstoneCauldronScene(scene)
+                scene.markAsFinished()
+            })
+		.scene("dripstone_farming","Growing More Dripstone", "kubejs:deepslate_5x5", (scene, util) => {
+                scene.showBasePlate();
+                scene.idle(10)
+				scene.world.setBlock([2,5,2], "minecraft:dripstone_block", false)
+				scene.world.showSection([2,5,2], Facing.down)
+				scene.idle(5)
+				scene.world.setBlocks([1,6,1 , 3,6,3], "create:framed_glass", false)
+				scene.world.setBlock([2,6,2], "minecraft:air", false)
+				scene.world.showSection([1,6,1 , 3,6,3], Facing.down)
+				scene.idle(10)
+				scene.world.setBlock([2,6,2], "minecraft:water", false)
+				scene.particles.simple(5, "splash", [2.5, 7, 2.5]).density(2);
+				scene.idle(10)
+				createDripstoneSpike(scene, 2,2,4,4,false)
+				scene.world.showSection([2,4,2], Facing.east)
+				scene.idle(10)
+				scene.text(100, "Placing pointed dripstone on a dripstone block with water above...", [2.5,5,2.5]);
+				scene.idle(110)
+				scene.addKeyframe()
+				//screw doing this with a for loop, it ain't cooperating.
+				scene.world.showSection([2,1,2,2,3,2], Facing.down)
+				scene.particles.simple(1, "falling_water", [2.5,4,2.5]).density(1)
+				scene.idle(20)
+				scene.particles.simple(1, "falling_water", [2.5,4,2.5]).density(1)
+				scene.idle(20)
+				createDripstoneSpike(scene,2,2,3,4,false)
+				scene.particles.simple(1, "falling_water", [2.5,3,2.5]).density(1)
+				scene.idle(20)
+				scene.particles.simple(1, "falling_water", [2.5,3,2.5]).density(1)
+				scene.idle(20)
+				createDripstoneSpike(scene,2,2,1,1,true)
+				scene.particles.simple(1, "falling_water", [2.5,3,2.5]).density(1)
+				scene.idle(20)
+				scene.particles.simple(1, "falling_water", [2.5,3,2.5]).density(1)
+				scene.idle(20)
+				createDripstoneSpike(scene,2,2,1,2,true)
+				scene.world.modifyBlock([2,2,2], (cur) => cur.with("vertical_direction", "up").with("thickness", "tip_merge"), false)
+				scene.world.modifyBlock([2,3,2], (cur) => cur.with("vertical_direction", "down").with("thickness", "tip_merge"), false)
+				scene.idle(20)
+				scene.text(70, "...will slowly grow more of it!", [2.5,2,2.5]);
+				scene.idle(80)
+                scene.markAsFinished()
+            });
+
+
+		e.create("minecraft:cauldron").scene("lava_farming", "Farming Lava with Dripstone", "kubejs:deepslate_7x7", (scene, util) => {
+			scene.showBasePlate()
+			dripstoneCauldronScene(scene)
+			scene.markAsFinished()
+        });
+
+//The scene for filling cauldrons with dripstone is going to be shown in both dripstone and cauldron ponders.
+//We can't "use the same scene" with ponderjs, so scene creation gets delegated here and called from both ponders.
+function dripstoneCauldronScene(scene){
+	scene.idle(10)
+	scene.world.setBlock([3,1,3], "minecraft:cauldron", false)
+	scene.world.showSection([3,1,3], Facing.down)
+	scene.idle(10)
+	scene.world.setBlock([3,3,3], "minecraft:cobbled_deepslate", false)
+	scene.world.showSection([3,3,3], Facing.down)
+	scene.idle(10)
+	createDripstoneSpike(scene, 3,3, 2,2, false)
+	scene.world.showSection([3,2,3], Facing.up)
+	scene.idle(10)
+	scene.world.showSection([3,4,3], Facing.down)
+	let walls = [[2,4,3],[3,4,2],[4,4,3],[3,4,4]]
+	walls.forEach(pos => {
+		scene.world.setBlock(pos, "create:framed_glass", false)
+		scene.world.showSection(pos, Facing.down)
+		scene.idle(2)
+	})
+	scene.idle(10)
+	scene.world.setBlock([3,4,3], "minecraft:lava", false)
+	scene.particles.simple(5, "lava", [3.5, 5, 3.5]).density(2);
+	scene.idle(10)
+	scene.text(100, "Placing dripstone like this will start dripping lava into the cauldron.", [2.5,3,2.5]);
+	for(let i = 0;i<5;i++){
+		scene.particles.simple(1, "falling_lava", [3.5,2.2,3.5]).density(1)
+		scene.idle(20)
+	}
+	scene.addKeyframe()
+	scene.idle(10)
+	scene.world.setBlock([3,1,3], "minecraft:lava_cauldron", false)
+	scene.particles.simple(5, "lava", [3.5, 2, 3.5]).density(2);
+	scene.idle(20)
+	scene.text(110, "After some time, the cauldron will fill up with lava, without consuming the source block!", [2.5,2,2.5]);
+	scene.idle(120)
+	scene.text(90, "The lava can be withdrawn with a bucket...", [2.5,2,2.5]);
+	scene.showControls(90, [3.5,2,3.5], "down")
+                .rightClick()
+        		.withItem("bucket")
+	scene.idle(90)
+	scene.world.setBlocks([4,1,0,4,1,3], "create:fluid_pipe", false)
+	scene.world.modifyBlocks([4,1,0, 4,1,3], p => {
+		return p.with("north", true)
+		.with("south", true)
+		.with("east", false)
+		.with("west", false)
+		.with("up", false)
+		.with("down", false)
+	}, false)
+	scene.world.modifyBlock([4,1,3], p => p.with("west", true).with("south", false), false)
+	scene.world.showSection([4,1,0,4,1,3], Facing.south)
+	scene.idle(10)
+	scene.text(80, "...or with Create's pipes and pumps.", [4.5,2,2.5]);
+	scene.idle(80)
+	scene.world.setBlock([3,1,3], "minecraft:cauldron", false)
+	scene.idle(10)
+	scene.addKeyframe()
+	scene.idle(10)
+	scene.world.setBlock([3,4,3], "minecraft:water", false)
+	scene.particles.simple(5, "splash", [2.5, 5, 2.5]).density(2);
+	scene.idle(10)
+	scene.text(150, "The same process can be performed with water, but the cauldron fills up gradually instead.", [2.5,4.5,2.5]);
+	for(let i = 1;i<=15;i++){ //Starting to think ponders don't like for loops.
+		scene.particles.simple(1, "falling_water", [3.5,2.2,3.5]).density(1)
+		if(i == 5){
+			scene.world.setBlock([3,1,3], "minecraft:water_cauldron", false)
+			scene.world.modifyBlock([3,1,3], c => c.with("level", "1"), false)
+		}
+		if(i == 10){
+			scene.world.modifyBlock([3,1,3], c => c.with("level", "2"), false)
+		}
+		if(i == 15){
+			scene.world.modifyBlock([3,1,3], c => c.with("level", "3"), false)
+		}
+		scene.idle(10)
+	}	
+}
+
+
+
+
+
+/** 
+ * Creates a dripstone spike
+ * @param {PonderSceneBuilder} scene The scene builder to place the spike in
+ * @param {Number} x The x coordinate of the spike
+ * @param {Number} z The z coordinate of the spike
+ * @param {Number} loY The lower y-coord of the spike
+ * @param {Number} hiY The higher y-coord of the spike
+ * @param {boolean|undefined} upwards Whether the spike points upwards. False/Default means a downwards spike
+ */
+function createDripstoneSpike(scene, x, z, loY, hiY, upwards){
+	let length = hiY-loY+1
+	let curY = upwards ? hiY : loY
+	for(let i = 0;i<length;i++){
+		let thick = "middle"
+		if(i == 0) thick = "tip"
+		if(i == 1) thick = "frustum"
+		if(i+1 == length && length > 2) thick = "base"
+		scene.world.setBlock([x,curY,z], "minecraft:pointed_dripstone", false)
+		scene.world.modifyBlock([x,curY,z], (cur) => cur.with("vertical_direction", upwards ? "up" : "down").with("thickness", thick), false)
+		curY = curY + (upwards ? -1 : 1)
+	}
+}
 
 });

@@ -39,7 +39,7 @@ Ponder.registry((e) => {
             scene.text(90, "Then, drop sugar into the yeast culture. NOT in the water.", [3.5,1.5,2.5]);
             scene.idle(40)
             var sugar = scene.world.createItemEntity([3.5, 3, 2.5], [0, 0.2, 0], "minecraft:sugar");
-            scene.idle(200)
+            scene.idle(150)
             scene.text(50, "......nothing?", [3.5,1.5,2.5]);
             scene.idle(60)
             scene.addKeyframe()
