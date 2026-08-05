@@ -1,0 +1,8 @@
+{
+  "id": "botania:alfsteel_AIOT",
+  "type": "emixx:group",
+  "contents": [
+    "aiotbotania:alfsteel_aiot"
+  ],
+  "enabled": true
+}

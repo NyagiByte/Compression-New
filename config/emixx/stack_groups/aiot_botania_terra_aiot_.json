@@ -1,0 +1,8 @@
+{
+  "id": "aiotbotania:terrasteel_AIOT",
+  "type": "emixx:group",
+  "contents": [
+    "aiotbotania:terra_aiot"
+  ],
+  "enabled": true
+}

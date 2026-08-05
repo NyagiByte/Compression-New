@@ -1,0 +1,17 @@
+{
+  "id": "immersiveengineering:immersive_engineering_aluminium_scaffolding",
+  "type": "emixx:group",
+  "contents": [
+    "immersiveengineering:metal_ladder_alu",
+    "immersiveengineering:alu_scaffolding_standard",
+    "immersiveengineering:slab_alu_scaffolding_standard",
+    "immersiveengineering:stairs_alu_scaffolding_standard",
+    "immersiveengineering:alu_scaffolding_grate_top",
+    "immersiveengineering:slab_alu_scaffolding_grate_top",
+    "immersiveengineering:stairs_alu_scaffolding_grate_top",
+    "immersiveengineering:alu_scaffolding_wooden_top",
+    "immersiveengineering:slab_alu_scaffolding_wooden_top",
+    "immersiveengineering:stairs_alu_scaffolding_wooden_top"
+  ],
+  "enabled": true
+}
