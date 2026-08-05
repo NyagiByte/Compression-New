@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:granite",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:granite",
+    "minecraft:granite_stairs",
+    "minecraft:granite_slab",
+    "quark:granite_vertical_slab",
+    "minecraft:granite_wall",
+    "minecraft:polished_granite",
+    "quark:granite_bricks",
+    "quark:chiseled_granite_bricks",
+    "quark:granite_pillar",
+    "quark:granite_bricks_wall",
+    "quark:granite_bricks_slab",
+    "quark:granite_bricks_vertical_slab",
+    "quark:granite_bricks_stairs",
+    "minecraft:polished_granite_stairs",
+    "minecraft:polished_granite_slab",
+    "quark:polished_granite_vertical_slab"
+  ],
+  "enabled": true
+}

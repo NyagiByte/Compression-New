@@ -1,0 +1,17 @@
+{
+  "id": "tastytiles:tastytiles_blue_azulejo_tiles",
+  "type": "emixx:group",
+  "contents": [
+    "#tastytiles:blue_azulejo_tiles",
+    "tastytiles:blue_azulejo_tile_slab",
+    "tastytiles:blue_azulejo_floral_tile_slab",
+    "tastytiles:blue_azulejo_refined_tile_slab",
+    "tastytiles:blue_azulejo_squared_tile_slab",
+    "tastytiles:blue_azulejo_fishy_tile_slab",
+    "tastytiles:blue_azulejo_shell_tile_slab",
+    "tastytiles:blue_azulejo_cross_tile_slab",
+    "tastytiles:blue_azulejo_diamond_tile_slab",
+    "tastytiles:blue_azulejo_lined_tile_slab"
+  ],
+  "enabled": true
+}

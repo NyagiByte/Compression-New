@@ -1,0 +1,16 @@
+{
+  "id": "architects_palette:architects_palette_calcite",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:calcite_bricks",
+    "architects_palette:calcite_brick_slab",
+    "architects_palette:calcite_brick_vertical_slab",
+    "architects_palette:calcite_brick_stairs",
+    "architects_palette:calcite_brick_wall",
+    "architects_palette:calcite_pillar",
+    "architects_palette:chiseled_calcite",
+    "architects_palette:heavy_calcite_bricks",
+    "architects_palette:calcite_lamp"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": "xkdeco:xkdeco_obsidian",
+  "type": "emixx:group",
+  "contents": [
+    "xkdeco:cut_obsidian",
+    "xkdeco:cut_obsidian_slab",
+    "xkdeco:cut_obsidian_pillar",
+    "xkdeco:cut_obsidian_bricks",
+    "xkdeco:cut_obsidian_brick_slab",
+    "xkdeco:cut_obsidian_brick_stairs",
+    "xkdeco:crying_obsidian_bricks",
+    "xkdeco:crying_obsidian_brick_slab",
+    "xkdeco:crying_obsidian_brick_stairs"
+  ],
+  "enabled": true
+}

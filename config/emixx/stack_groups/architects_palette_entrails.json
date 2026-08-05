@@ -1,0 +1,11 @@
+{
+  "id": "architects_palette:architects_palette_entrails",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:entrails",
+    "architects_palette:entrails_slab",
+    "architects_palette:entrails_vertical_slab",
+    "architects_palette:entrails_stairs"
+  ],
+  "enabled": true
+}

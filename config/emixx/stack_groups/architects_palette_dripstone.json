@@ -1,0 +1,16 @@
+{
+  "id": "architects_palette:architects_palette_dripstone",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:dripstone_bricks",
+    "architects_palette:dripstone_brick_slab",
+    "architects_palette:dripstone_brick_vertical_slab",
+    "architects_palette:dripstone_brick_stairs",
+    "architects_palette:dripstone_brick_wall",
+    "architects_palette:dripstone_pillar",
+    "architects_palette:chiseled_dripstone",
+    "architects_palette:heavy_dripstone_bricks",
+    "architects_palette:dripstone_lamp"
+  ],
+  "enabled": true
+}

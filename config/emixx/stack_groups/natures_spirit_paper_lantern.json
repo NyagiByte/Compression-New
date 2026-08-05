@@ -1,0 +1,23 @@
+{
+  "id": "natures_spirit:natures_spirit_paper_lantern",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:white_paper_lantern",
+    "natures_spirit:light_gray_paper_lantern",
+    "natures_spirit:gray_paper_lantern",
+    "natures_spirit:black_paper_lantern",
+    "natures_spirit:brown_paper_lantern",
+    "natures_spirit:red_paper_lantern",
+    "natures_spirit:orange_paper_lantern",
+    "natures_spirit:yellow_paper_lantern",
+    "natures_spirit:lime_paper_lantern",
+    "natures_spirit:green_paper_lantern",
+    "natures_spirit:cyan_paper_lantern",
+    "natures_spirit:light_blue_paper_lantern",
+    "natures_spirit:blue_paper_lantern",
+    "natures_spirit:purple_paper_lantern",
+    "natures_spirit:magenta_paper_lantern",
+    "natures_spirit:pink_paper_lantern"
+  ],
+  "enabled": true
+}

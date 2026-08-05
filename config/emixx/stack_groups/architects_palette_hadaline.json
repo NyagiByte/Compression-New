@@ -1,0 +1,18 @@
+{
+  "id": "architects_palette:architects_palette_hadaline",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:hadaline",
+    "architects_palette:hadaline_bricks",
+    "architects_palette:hadaline_brick_slab",
+    "architects_palette:hadaline_brick_vertical_slab",
+    "architects_palette:hadaline_tiles",
+    "architects_palette:hadaline_tile_slab",
+    "architects_palette:hadaline_tile_vertical_slab",
+    "architects_palette:chiseled_hadaline_bricks",
+    "architects_palette:hadaline_pillar",
+    "architects_palette:hadaline_lamp",
+    "architects_palette:hadaline_plating"
+  ],
+  "enabled": true
+}

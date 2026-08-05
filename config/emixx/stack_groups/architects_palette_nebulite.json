@@ -1,0 +1,16 @@
+{
+  "id": "architects_palette:architects_palette_nebulite",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:nebulite",
+    "architects_palette:nebulite_slab",
+    "architects_palette:nebulite_vertical_slab",
+    "architects_palette:nebulite_stairs",
+    "architects_palette:nebulite_wall",
+    "architects_palette:polished_nebulite",
+    "architects_palette:polished_nebulite_slab",
+    "architects_palette:polished_nebulite_vertical_slab",
+    "architects_palette:polished_nebulite_stairs"
+  ],
+  "enabled": true
+}

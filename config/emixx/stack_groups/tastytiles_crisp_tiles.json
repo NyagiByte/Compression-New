@@ -1,0 +1,31 @@
+{
+  "id": "tastytiles:tastytiles_crisp_tiles",
+  "type": "emixx:group",
+  "contents": [
+    "#tastytiles:crisp_apple_tiles",
+    "#tastytiles:crisp_orange_tiles",
+    "#tastytiles:crisp_lemon_tiles",
+    "#tastytiles:crisp_lime_tiles",
+    "#tastytiles:crisp_blueberry_tiles",
+    "#tastytiles:crisp_grape_tiles",
+    "#tastytiles:crisp_peach_tiles",
+    "#tastytiles:crisp_coconut_tiles",
+    "tastytiles:crisp_apple_tile_slab",
+    "tastytiles:crisp_ripe_apple_tile_slab",
+    "tastytiles:crisp_orange_tile_slab",
+    "tastytiles:crisp_ripe_orange_tile_slab",
+    "tastytiles:crisp_lemon_tile_slab",
+    "tastytiles:crisp_ripe_lemon_tile_slab",
+    "tastytiles:crisp_lime_tile_slab",
+    "tastytiles:crisp_ripe_lime_tile_slab",
+    "tastytiles:crisp_blueberry_tile_slab",
+    "tastytiles:crisp_ripe_blueberry_tile_slab",
+    "tastytiles:crisp_grape_tile_slab",
+    "tastytiles:crisp_ripe_grape_tile_slab",
+    "tastytiles:crisp_peach_tile_slab",
+    "tastytiles:crisp_ripe_peach_tile_slab",
+    "tastytiles:crisp_coconut_tile_slab",
+    "tastytiles:crisp_ripe_coconut_tile_slab"
+  ],
+  "enabled": true
+}

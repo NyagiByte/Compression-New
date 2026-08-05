@@ -1,0 +1,23 @@
+{
+  "id": "quark:quark_limestone",
+  "type": "emixx:group",
+  "contents": [
+    "quark:limestone",
+    "quark:polished_limestone",
+    "quark:limestone_bricks",
+    "quark:chiseled_limestone_bricks",
+    "quark:limestone_pillar",
+    "quark:limestone_bricks_wall",
+    "quark:limestone_bricks_slab",
+    "quark:limestone_bricks_vertical_slab",
+    "quark:limestone_bricks_stairs",
+    "quark:limestone_wall",
+    "quark:limestone_slab",
+    "quark:limestone_vertical_slab",
+    "quark:limestone_stairs",
+    "quark:polished_limestone_slab",
+    "quark:polished_limestone_vertical_slab",
+    "quark:polished_limestone_stairs"
+  ],
+  "enabled": true
+}

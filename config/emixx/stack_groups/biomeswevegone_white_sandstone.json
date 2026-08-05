@@ -1,0 +1,18 @@
+{
+  "id": "biomeswevegone:BWG_white_sandstone",
+  "type": "emixx:group",
+  "contents": [
+    "biomeswevegone:white_sand",
+    "biomeswevegone:white_sandstone",
+    "biomeswevegone:white_sandstone_stairs",
+    "biomeswevegone:white_sandstone_slab",
+    "biomeswevegone:white_sandstone_wall",
+    "biomeswevegone:chiseled_white_sandstone",
+    "biomeswevegone:smooth_white_sandstone",
+    "biomeswevegone:smooth_white_sandstone_stairs",
+    "biomeswevegone:smooth_white_sandstone_slab",
+    "biomeswevegone:cut_white_sandstone",
+    "biomeswevegone:cut_white_sandstone_slab"
+  ],
+  "enabled": true
+}

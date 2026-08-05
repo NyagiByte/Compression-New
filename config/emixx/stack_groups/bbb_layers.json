@@ -1,0 +1,9 @@
+{
+  "id": "bbb:layers",
+  "type": "emixx:group",
+  "contents": [
+    "#bbb:layers",
+    "bbb:moss_layer"
+  ],
+  "enabled": true
+}

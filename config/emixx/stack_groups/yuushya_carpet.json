@@ -1,0 +1,23 @@
+{
+  "id": "yuushya:yuushya_carpet",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:carpet_0",
+    "yuushya:carpet_1",
+    "yuushya:carpet_2",
+    "yuushya:carpet_3",
+    "yuushya:carpet_4",
+    "yuushya:carpet_5",
+    "yuushya:carpet_6",
+    "yuushya:carpet_7",
+    "yuushya:carpet_8",
+    "yuushya:carpet_9",
+    "yuushya:carpet_10",
+    "yuushya:carpet_11",
+    "yuushya:carpet_12",
+    "yuushya:carpet_13",
+    "yuushya:carpet_14",
+    "yuushya:carpet_15"
+  ],
+  "enabled": true
+}

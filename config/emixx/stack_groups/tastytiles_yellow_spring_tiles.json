@@ -1,0 +1,14 @@
+{
+  "id": "group:tastytiles_yellow_spring_tiles",
+  "type": "emixx:group",
+  "contents": [
+    "#tastytiles:yellow_spring_tiles",
+    "tastytiles:yellow_spring_tile_slab",
+    "tastytiles:yellow_vine_spring_tile_slab",
+    "tastytiles:yellow_sprout_spring_tile_slab",
+    "tastytiles:yellow_bloom_spring_tile_slab",
+    "tastytiles:yellow_corner_spring_tile_slab",
+    "tastytiles:yellow_flower_spring_tile_slab"
+  ],
+  "enabled": true
+}

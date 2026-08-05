@@ -1,0 +1,20 @@
+{
+  "id": "minecraft:red_sandstone",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:red_sandstone",
+    "minecraft:red_sandstone_stairs",
+    "minecraft:red_sandstone_slab",
+    "quark:red_sandstone_vertical_slab",
+    "minecraft:red_sandstone_wall",
+    "minecraft:chiseled_red_sandstone",
+    "minecraft:smooth_red_sandstone",
+    "minecraft:smooth_red_sandstone_stairs",
+    "minecraft:smooth_red_sandstone_slab",
+    "quark:smooth_red_sandstone_vertical_slab",
+    "minecraft:cut_red_sandstone",
+    "minecraft:cut_red_sandstone_slab",
+    "quark:cut_red_sandstone_vertical_slab"
+  ],
+  "enabled": true
+}

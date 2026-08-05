@@ -1,0 +1,16 @@
+{
+  "id": "xkdeco:xkdeco_porcelain",
+  "type": "emixx:group",
+  "contents": [
+    "xkdeco:white_porcelain",
+    "xkdeco:white_porcelain_tall",
+    "xkdeco:white_porcelain_small",
+    "xkdeco:bluewhite_porcelain",
+    "xkdeco:bluewhite_porcelain_tall",
+    "xkdeco:bluewhite_porcelain_small",
+    "xkdeco:celadon_porcelain",
+    "xkdeco:celadon_porcelain_tall",
+    "xkdeco:celadon_porcelain_small"
+  ],
+  "enabled": true
+}

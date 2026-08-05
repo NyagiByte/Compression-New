@@ -1,0 +1,11 @@
+{
+  "id": "hearthandhome:hearth_and_home_calcite",
+  "type": "emixx:group",
+  "contents": [
+    "hearth_and_home:polished_calcite",
+    "hearth_and_home:polished_calcite_stairs",
+    "hearth_and_home:polished_calcite_slab",
+    "hearth_and_home:chiseled_calcite"
+  ],
+  "enabled": true
+}

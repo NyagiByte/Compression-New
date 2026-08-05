@@ -1,0 +1,6 @@
+{
+  "type": "emixx:tag",
+  "id": "create:create_seats",
+  "tag": "create:seats",
+  "enabled": true
+}

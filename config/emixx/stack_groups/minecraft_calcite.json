@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:calcite",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:calcite",
+    "quark:polished_calcite",
+    "quark:calcite_bricks",
+    "quark:chiseled_calcite_bricks",
+    "quark:calcite_pillar",
+    "quark:calcite_bricks_wall",
+    "quark:calcite_bricks_slab",
+    "quark:calcite_bricks_vertical_slab",
+    "quark:calcite_bricks_stairs",
+    "quark:calcite_wall",
+    "quark:calcite_slab",
+    "quark:calcite_vertical_slab",
+    "quark:calcite_stairs",
+    "quark:polished_calcite_slab",
+    "quark:polished_calcite_vertical_slab",
+    "quark:polished_calcite_stairs"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "supplementaries:supplementaries_bunting",
+  "type": "emixx:group",
+  "contents": [
+    "supplementaries:bunting"
+  ],
+  "enabled": true
+}

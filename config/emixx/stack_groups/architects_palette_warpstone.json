@@ -1,0 +1,12 @@
+{
+  "id": "architects_palette:architects_palette_warpstone",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:warpstone",
+    "architects_palette:warpstone_slab",
+    "architects_palette:warpstone_vertical_slab",
+    "architects_palette:warpstone_stairs",
+    "architects_palette:warpstone_wall"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "minecraft:oak_wood",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:oak_log",
+    "quark:hollow_oak_log",
+    "minecraft:oak_wood",
+    "minecraft:stripped_oak_log",
+    "minecraft:stripped_oak_wood",
+    "minecraft:oak_planks",
+    "quark:vertical_oak_planks",
+    "minecraft:oak_stairs",
+    "minecraft:oak_slab",
+    "quark:oak_vertical_slab",
+    "quark:oak_post",
+    "quark:stripped_oak_post",
+    "minecraft:oak_fence",
+    "minecraft:oak_fence_gate",
+    "minecraft:oak_door",
+    "minecraft:oak_trapdoor",
+    "minecraft:oak_pressure_plate",
+    "minecraft:oak_button"
+  ],
+  "enabled": true
+}

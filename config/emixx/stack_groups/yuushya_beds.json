@@ -1,0 +1,32 @@
+{
+  "id": "yuushya:yuushya_beds",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:bed_frame_0",
+    "yuushya:bed_frame_1",
+    "yuushya:bed_frame_2",
+    "yuushya:bed_frame_3",
+    "yuushya:inner_bed_0",
+    "yuushya:inner_bed_1",
+    "yuushya:inner_bed_2",
+    "yuushya:inner_bed_3",
+    "yuushya:inner_bed_4",
+    "yuushya:inner_bed_5",
+    "yuushya:inner_bed_6",
+    "yuushya:inner_bed_7",
+    "yuushya:inner_bed_8",
+    "yuushya:inner_bed_9",
+    "yuushya:inner_bed_10",
+    "yuushya:inner_bed_11",
+    "yuushya:inner_bed_12",
+    "yuushya:inner_bed_13",
+    "yuushya:inner_bed_14",
+    "yuushya:inner_bed_15",
+    "yuushya:inner_bed_16",
+    "yuushya:inner_bed_17",
+    "yuushya:inner_bed_18",
+    "yuushya:inner_bed_19",
+    "yuushya:inner_bed_20"
+  ],
+  "enabled": true
+}

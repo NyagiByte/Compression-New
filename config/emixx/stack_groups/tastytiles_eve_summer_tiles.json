@@ -1,0 +1,15 @@
+{
+  "id": "tastytiles:tastytiles_eve_summer_tiles",
+  "type": "emixx:group",
+  "contents": [
+    "#tastytiles:eve_summer_tiles",
+    "tastytiles:eve_summer_tile_slab",
+    "tastytiles:eve_bloom_summer_tile_slab",
+    "tastytiles:eve_cross_summer_tile_slab",
+    "tastytiles:eve_flower_summer_tile_slab",
+    "tastytiles:eve_lined_summer_tile_slab",
+    "tastytiles:eve_ridge_summer_tile_slab",
+    "tastytiles:eve_sprout_summer_tile_slab"
+  ],
+  "enabled": true
+}

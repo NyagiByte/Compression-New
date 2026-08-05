@@ -1,0 +1,18 @@
+{
+  "id": "architects_palette:architects_palette_esoterrack",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:esoterrack",
+    "architects_palette:esoterrack_slab",
+    "architects_palette:esoterrack_vertical_slab",
+    "architects_palette:esoterrack_stairs",
+    "architects_palette:esoterrack_wall",
+    "architects_palette:esoterrack_bricks",
+    "architects_palette:esoterrack_brick_slab",
+    "architects_palette:esoterrack_brick_vertical_slab",
+    "architects_palette:esoterrack_brick_stairs",
+    "architects_palette:esoterrack_brick_wall",
+    "architects_palette:esoterrack_pillar"
+  ],
+  "enabled": true
+}

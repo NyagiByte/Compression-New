@@ -1,0 +1,11 @@
+{
+  "id": "supplementaries:supplementaries_stone_tiles",
+  "type": "emixx:group",
+  "contents": [
+    "supplementaries:stone_tile",
+    "supplementaries:stone_tile_stairs",
+    "supplementaries:stone_tile_slab",
+    "supplementaries:stone_tile_wall"
+  ],
+  "enabled": true
+}

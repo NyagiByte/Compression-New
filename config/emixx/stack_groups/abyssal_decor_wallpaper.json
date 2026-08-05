@@ -1,0 +1,23 @@
+{
+  "id": "abyssal_decor:abyssal_decor_wallpaper",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:white_wallpaper",
+    "abyssal_decor:light_gray_wallpaper",
+    "abyssal_decor:gray_wallpaper",
+    "abyssal_decor:black_wallpaper",
+    "abyssal_decor:brown_wallpaper",
+    "abyssal_decor:red_wallpaper",
+    "abyssal_decor:orange_wallpaper",
+    "abyssal_decor:yellow_wallpaper",
+    "abyssal_decor:lime_wallpaper",
+    "abyssal_decor:green_wallpaper",
+    "abyssal_decor:wallpaper_cyan",
+    "abyssal_decor:wallpaper_light_blue",
+    "abyssal_decor:wallpaper_blue",
+    "abyssal_decor:wallpaper_purple",
+    "abyssal_decor:wallpaper_magenta",
+    "abyssal_decor:pink_wallpaper"
+  ],
+  "enabled": true
+}

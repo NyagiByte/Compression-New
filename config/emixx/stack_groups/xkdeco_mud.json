@@ -1,0 +1,21 @@
+{
+  "id": "xkdeco:xkdeco_mud",
+  "type": "emixx:group",
+  "contents": [
+    "xkdeco:mud_wall_block",
+    "xkdeco:mud_wall_slab",
+    "xkdeco:mud_wall_stairs",
+    "xkdeco:framed_mud_wall_block",
+    "xkdeco:lined_mud_wall_block",
+    "xkdeco:lined_mud_wall_slab",
+    "xkdeco:lined_mud_wall_stairs",
+    "xkdeco:crossed_mud_wall_slab",
+    "xkdeco:crossed_mud_wall_stairs",
+    "xkdeco:dirty_mud_wall_block",
+    "xkdeco:dirty_mud_wall_slab",
+    "xkdeco:mud_wall_wall",
+    "xkdeco:dirty_mud_wall_stairs",
+    "xkdeco:dirty_mud_wall_wall"
+  ],
+  "enabled": true
+}

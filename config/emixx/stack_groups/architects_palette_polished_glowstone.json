@@ -1,0 +1,13 @@
+{
+  "id": "architects_palette:architects_palette_polished_glowstone",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:polished_glowstone",
+    "architects_palette:polished_glowstone_slab",
+    "architects_palette:polished_glowstone_vertical_slab",
+    "architects_palette:polished_glowstone_wall",
+    "architects_palette:polished_glowstone_nub",
+    "architects_palette:runic_glowstone"
+  ],
+  "enabled": true
+}

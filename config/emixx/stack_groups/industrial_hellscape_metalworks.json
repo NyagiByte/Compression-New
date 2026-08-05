@@ -1,0 +1,8 @@
+{
+  "id": "industrial_hellscape:industrial_hellscape_metalworks",
+  "type": "emixx:group",
+  "contents": [
+    "#industrialhellscape:metalworks_items"
+  ],
+  "enabled": true
+}

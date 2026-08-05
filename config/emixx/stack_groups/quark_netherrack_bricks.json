@@ -1,0 +1,12 @@
+{
+  "id": "quark:quark_netherrack_bricks",
+  "type": "emixx:group",
+  "contents": [
+    "quark:netherrack_bricks",
+    "quark:netherrack_bricks_stairs",
+    "quark:netherrack_bricks_slab",
+    "quark:netherrack_bricks_vertical_slab",
+    "quark:netherrack_bricks_wall"
+  ],
+  "enabled": true
+}

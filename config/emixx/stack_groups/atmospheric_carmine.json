@@ -1,0 +1,17 @@
+{
+  "id": "atmospheric:atmospheric_carmine",
+  "type": "emixx:group",
+  "contents": [
+    "atmospheric:carmine_block",
+    "atmospheric:carmine_shingles",
+    "atmospheric:carmine_shingle_stairs",
+    "atmospheric:carmine_shingle_slab",
+    "atmospheric:carmine_shingle_wall",
+    "atmospheric:chiseled_carmine_shingles",
+    "atmospheric:carmine_pavement",
+    "atmospheric:carmine_pavement_stairs",
+    "atmospheric:carmine_pavement_slab",
+    "atmospheric:carmine_pavement_wall"
+  ],
+  "enabled": true
+}

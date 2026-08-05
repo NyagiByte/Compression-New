@@ -1,0 +1,25 @@
+{
+  "id": "create:create_deepslate",
+  "type": "emixx:group",
+  "contents": [
+    "create:cut_deepslate",
+    "create:cut_deepslate_stairs",
+    "create:cut_deepslate_slab",
+    "create:cut_deepslate_wall",
+    "create:polished_cut_deepslate",
+    "create:polished_cut_deepslate_stairs",
+    "create:polished_cut_deepslate_slab",
+    "create:polished_cut_deepslate_wall",
+    "create:cut_deepslate_bricks",
+    "create:cut_deepslate_brick_stairs",
+    "create:cut_deepslate_brick_slab",
+    "create:cut_deepslate_brick_wall",
+    "create:small_deepslate_bricks",
+    "create:small_deepslate_brick_stairs",
+    "create:small_deepslate_brick_slab",
+    "create:small_deepslate_brick_wall",
+    "create:layered_deepslate",
+    "create:deepslate_pillar"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "architects_palette:architects_palette_cerebral",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:cerebral_block",
+    "architects_palette:cerebral_slab",
+    "architects_palette:cerebral_vertical_slab",
+    "architects_palette:cerebral_stairs",
+    "architects_palette:cerebral_wall",
+    "architects_palette:cerebral_pillar",
+    "architects_palette:cerebral_tiles",
+    "architects_palette:cerebral_tile_slab",
+    "architects_palette:cerebral_tile_vertical_slab",
+    "architects_palette:cerebral_tile_stairs",
+    "architects_palette:cerebral_tile_wall"
+  ],
+  "enabled": true
+}

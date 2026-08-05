@@ -1,0 +1,23 @@
+{
+  "id": "quark:quark_myalite",
+  "type": "emixx:group",
+  "contents": [
+    "quark:myalite",
+    "quark:polished_myalite",
+    "quark:myalite_bricks",
+    "quark:chiseled_myalite_bricks",
+    "quark:myalite_pillar",
+    "quark:myalite_bricks_wall",
+    "quark:myalite_bricks_slab",
+    "quark:myalite_bricks_vertical_slab",
+    "quark:myalite_bricks_stairs",
+    "quark:myalite_wall",
+    "quark:myalite_slab",
+    "quark:myalite_vertical_slab",
+    "quark:myalite_stairs",
+    "quark:polished_myalite_slab",
+    "quark:polished_myalite_vertical_slab",
+    "quark:polished_myalite_stairs"
+  ],
+  "enabled": true
+}

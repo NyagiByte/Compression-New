@@ -1,0 +1,21 @@
+{
+  "id": "abyssal_decor:abyssal_decor_pearly_wood",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:white_wood_wood",
+    "abyssal_decor:white_wood_log",
+    "abyssal_decor:white_wood_planks",
+    "abyssal_decor:white_wood_stairs",
+    "abyssal_decor:white_wood_slab",
+    "abyssal_decor:white_wood_button",
+    "abyssal_decor:white_wood_trim",
+    "abyssal_decor:white_wood_door",
+    "abyssal_decor:white_wood_trapdoor",
+    "abyssal_decor:white_wood_pressure_plate",
+    "abyssal_decor:white_wood_fence",
+    "abyssal_decor:white_wood_fence_gate",
+    "abyssal_decor:whitewood_picket_fence",
+    "abyssal_decor:white_wood_planter"
+  ],
+  "enabled": true
+}

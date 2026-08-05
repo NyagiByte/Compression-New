@@ -1,0 +1,25 @@
+{
+  "id": "minecraft:cherry_wood",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:cherry_log",
+    "quark:hollow_cherry_log",
+    "minecraft:cherry_wood",
+    "minecraft:stripped_cherry_log",
+    "minecraft:stripped_cherry_wood",
+    "minecraft:cherry_planks",
+    "quark:vertical_cherry_planks",
+    "minecraft:cherry_stairs",
+    "minecraft:cherry_slab",
+    "quark:cherry_vertical_slab",
+    "quark:cherry_post",
+    "quark:stripped_cherry_post",
+    "minecraft:cherry_fence",
+    "minecraft:cherry_fence_gate",
+    "minecraft:cherry_door",
+    "minecraft:cherry_trapdoor",
+    "minecraft:cherry_pressure_plate",
+    "minecraft:cherry_button"
+  ],
+  "enabled": true
+}

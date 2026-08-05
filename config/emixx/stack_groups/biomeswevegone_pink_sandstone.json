@@ -1,0 +1,18 @@
+{
+  "id": "biomeswevegone:BWG_pink_sandstone",
+  "type": "emixx:group",
+  "contents": [
+    "biomeswevegone:pink_sand",
+    "biomeswevegone:pink_sandstone",
+    "biomeswevegone:pink_sandstone_stairs",
+    "biomeswevegone:pink_sandstone_slab",
+    "biomeswevegone:pink_sandstone_wall",
+    "biomeswevegone:chiseled_pink_sandstone",
+    "biomeswevegone:smooth_pink_sandstone",
+    "biomeswevegone:smooth_pink_sandstone_stairs",
+    "biomeswevegone:smooth_pink_sandstone_slab",
+    "biomeswevegone:cut_pink_sandstone",
+    "biomeswevegone:cut_pink_sandstone_slab"
+  ],
+  "enabled": true
+}

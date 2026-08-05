@@ -1,0 +1,16 @@
+{
+  "id": "xkdeco:xkdeco_inca",
+  "type": "emixx:group",
+  "contents": [
+    "xkdeco:inca_stone",
+    "xkdeco:inca_stone_slab",
+    "xkdeco:inca_stone_stairs",
+    "xkdeco:inca_stonebricks",
+    "xkdeco:inca_stonebrick_slab",
+    "xkdeco:inca_stonebrick_stairs",
+    "xkdeco:inca_bricks",
+    "xkdeco:inca_brick_slab",
+    "xkdeco:inca_brick_stairs"
+  ],
+  "enabled": true
+}

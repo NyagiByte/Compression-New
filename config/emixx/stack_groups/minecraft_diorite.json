@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:diorite",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:diorite",
+    "minecraft:diorite_stairs",
+    "minecraft:diorite_slab",
+    "quark:diorite_vertical_slab",
+    "minecraft:diorite_wall",
+    "minecraft:polished_diorite",
+    "quark:diorite_bricks",
+    "quark:chiseled_diorite_bricks",
+    "quark:diorite_pillar",
+    "quark:diorite_bricks_wall",
+    "quark:diorite_bricks_slab",
+    "quark:diorite_bricks_vertical_slab",
+    "quark:diorite_bricks_stairs",
+    "minecraft:polished_diorite_stairs",
+    "minecraft:polished_diorite_slab",
+    "quark:polished_diorite_vertical_slab"
+  ],
+  "enabled": true
+}

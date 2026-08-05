@@ -1,0 +1,31 @@
+{
+  "id": "abyssal_decor:abyssal_decor_pinchbeck",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:raw_seabrass_block",
+    "abyssal_decor:seabrass_block",
+    "abyssal_decor:riveted_seabrass",
+    "abyssal_decor:seabrass_trim",
+    "abyssal_decor:seabrass_pillar",
+    "abyssal_decor:large_seabrass_pipe",
+    "abyssal_decor:small_seabrass_pipes",
+    "abyssal_decor:seabrass_tiles",
+    "abyssal_decor:seabrass_lamp_off",
+    "abyssal_decor:seabrass_plating",
+    "abyssal_decor:seabrass_stairs",
+    "abyssal_decor:seabrass_slab",
+    "abyssal_decor:rivited_seabrass_slab",
+    "abyssal_decor:seabrass_wall",
+    "abyssal_decor:seabrass_button",
+    "abyssal_decor:seabrass_pressure_plate",
+    "abyssal_decor:seabrass_chain",
+    "abyssal_decor:seabrass_trapdoor",
+    "abyssal_decor:seabrass_sconce",
+    "abyssal_decor:seabrass_bars",
+    "abyssal_decor:ornate_seabrass_bars",
+    "abyssal_decor:small_brass_bars",
+    "abyssal_decor:small_brass_bars_corner",
+    "abyssal_decor:seabrass_door"
+  ],
+  "enabled": true
+}

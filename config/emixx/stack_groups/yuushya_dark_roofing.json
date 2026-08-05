@@ -1,0 +1,21 @@
+{
+  "id": "yuushya:yuushya_dark_roofing",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:roof_0",
+    "yuushya:roof_ridge_0",
+    "yuushya:roof_corner_0_outer",
+    "yuushya:roof_corner_0_inner",
+    "yuushya:dark_tile_lower",
+    "yuushya:dark_tile_upper",
+    "yuushya:dark_tile_ridge_upper",
+    "yuushya:dark_tile_ridge_lower",
+    "yuushya:dark_tile_with_ridge_upper",
+    "yuushya:dark_tile_with_ridge_lower",
+    "yuushya:dark_tile_outer_corner_upper",
+    "yuushya:dark_tile_inner_corner_upper",
+    "yuushya:dark_tile_outer_corner_lower",
+    "yuushya:dark_tile_inner_corner_lower"
+  ],
+  "enabled": true
+}

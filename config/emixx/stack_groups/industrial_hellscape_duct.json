@@ -1,0 +1,11 @@
+{
+  "id": "industrial_hellscape:industrial_hellscape_duct",
+  "type": "emixx:group",
+  "contents": [
+    "industrialhellscape:duct",
+    "industrialhellscape:rusty_duct",
+    "industrialhellscape:duct_vent",
+    "industrialhellscape:rusty_duct_vent"
+  ],
+  "enabled": true
+}

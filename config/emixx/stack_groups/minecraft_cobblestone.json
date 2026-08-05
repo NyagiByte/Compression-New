@@ -1,0 +1,14 @@
+{
+  "id": "minecraft:cobblestone",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:cobblestone",
+    "minecraft:cobblestone_stairs",
+    "minecraft:cobblestone_slab",
+    "quark:cobblestone_vertical_slab",
+    "minecraft:cobblestone_pressure_plate",
+    "minecraft:cobblestone_button",
+    "minecraft:cobblestone_wall"
+  ],
+  "enabled": true
+}

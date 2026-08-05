@@ -1,0 +1,11 @@
+{
+  "id": "supplementaries:supplementaries_ash_bricks",
+  "type": "emixx:group",
+  "contents": [
+    "supplementaries:ash_bricks",
+    "supplementaries:ash_bricks_stairs",
+    "supplementaries:ash_bricks_slab",
+    "supplementaries:ash_bricks_wall"
+  ],
+  "enabled": true
+}

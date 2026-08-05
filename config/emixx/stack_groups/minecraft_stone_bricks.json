@@ -1,0 +1,14 @@
+{
+  "id": "minecraft:stone_bricks",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:stone_bricks",
+    "minecraft:cracked_stone_bricks",
+    "minecraft:stone_brick_stairs",
+    "minecraft:stone_brick_slab",
+    "quark:stone_brick_vertical_slab",
+    "minecraft:stone_brick_wall",
+    "minecraft:chiseled_stone_bricks"
+  ],
+  "enabled": true
+}

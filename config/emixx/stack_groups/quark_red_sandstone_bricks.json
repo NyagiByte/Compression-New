@@ -1,0 +1,12 @@
+{
+  "id": "quark:quark_red_sandstone_bricks",
+  "type": "emixx:group",
+  "contents": [
+    "quark:red_sandstone_bricks",
+    "quark:red_sandstone_bricks_stairs",
+    "quark:red_sandstone_bricks_slab",
+    "quark:red_sandstone_bricks_vertical_slab",
+    "quark:red_sandstone_bricks_wall"
+  ],
+  "enabled": true
+}

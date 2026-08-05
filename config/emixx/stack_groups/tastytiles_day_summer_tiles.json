@@ -1,0 +1,15 @@
+{
+  "id": "tastytiles:tastytiles_day_summer_tiles",
+  "type": "emixx:group",
+  "contents": [
+    "#tastytiles:day_summer_tiles",
+    "tastytiles:day_summer_tile_slab",
+    "tastytiles:day_bloom_summer_tile_slab",
+    "tastytiles:day_cross_summer_tile_slab",
+    "tastytiles:day_flower_summer_tile_slab",
+    "tastytiles:day_lined_summer_tile_slab",
+    "tastytiles:day_ridge_summer_tile_slab",
+    "tastytiles:day_sprout_summer_tile_slab"
+  ],
+  "enabled": true
+}

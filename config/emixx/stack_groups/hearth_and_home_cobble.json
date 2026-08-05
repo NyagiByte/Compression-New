@@ -1,0 +1,11 @@
+{
+  "id": "hearthandhome:hearth_and_home_cobblestone_bricks",
+  "type": "emixx:group",
+  "contents": [
+    "hearth_and_home:cobblestone_bricks",
+    "hearth_and_home:cobblestone_brick_stairs",
+    "hearth_and_home:cobblestone_brick_slab",
+    "hearth_and_home:cobblestone_brick_wall"
+  ],
+  "enabled": true
+}

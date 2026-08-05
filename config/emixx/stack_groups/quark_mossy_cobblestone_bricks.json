@@ -1,0 +1,12 @@
+{
+  "id": "quark:quark_mossy_cobblestone_bricks",
+  "type": "emixx:group",
+  "contents": [
+    "quark:mossy_cobblestone_bricks",
+    "quark:mossy_cobblestone_bricks_stairs",
+    "quark:mossy_cobblestone_bricks_slab",
+    "quark:mossy_cobblestone_bricks_vertical_slab",
+    "quark:mossy_cobblestone_bricks_wall"
+  ],
+  "enabled": true
+}

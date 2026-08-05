@@ -1,0 +1,17 @@
+{
+  "id": "architects_palette:architects_palette_railing",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:oak_railing",
+    "architects_palette:birch_railing",
+    "architects_palette:spruce_railing",
+    "architects_palette:jungle_railing",
+    "architects_palette:dark_oak_railing",
+    "architects_palette:acacia_railing",
+    "architects_palette:crimson_railing",
+    "architects_palette:warped_railing",
+    "architects_palette:mangrove_railing",
+    "architects_palette:twisted_railing"
+  ],
+  "enabled": true
+}

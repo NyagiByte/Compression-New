@@ -1,0 +1,13 @@
+{
+  "id": "minecraft:stone",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:stone",
+    "minecraft:stone_stairs",
+    "minecraft:stone_slab",
+    "quark:stone_vertical_slab",
+    "minecraft:stone_pressure_plate",
+    "minecraft:stone_button"
+  ],
+  "enabled": true
+}

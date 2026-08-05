@@ -1,0 +1,21 @@
+{
+  "id": "abyssal_decor:abyssal_decor_pearly_glass",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:pearly_glass_block",
+    "abyssal_decor:pearly_glass_block_sunny",
+    "abyssal_decor:pearly_glass_block_azure",
+    "abyssal_decor:pearly_glass_block_verdant",
+    "abyssal_decor:pearly_glass_block_whitewood",
+    "abyssal_decor:pearly_glass_block_blackwood",
+    "abyssal_decor:pearly_glass_block_iron",
+    "abyssal_decor:pearly_glass_pane",
+    "abyssal_decor:pearly_glass_pane_sunny",
+    "abyssal_decor:pearly_glass_pane_azure",
+    "abyssal_decor:pearly_glass_pane_verdant",
+    "abyssal_decor:pearly_glass_pane_whitewood",
+    "abyssal_decor:pearly_glass_pane_blackwood",
+    "abyssal_decor:pearly_glass_pane_iron"
+  ],
+  "enabled": true
+}

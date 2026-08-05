@@ -1,0 +1,30 @@
+{
+  "id": "abyssal_decor:abyssal_decor_blood_coral",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:blood_coral_bud",
+    "abyssal_decor:polished_blood_coral",
+    "abyssal_decor:smooth_blood_coral",
+    "abyssal_decor:blood_coral_bricks",
+    "abyssal_decor:rough_blood_coral",
+    "abyssal_decor:blood_coral_pillar",
+    "abyssal_decor:gilded_blood_coral_pillar",
+    "abyssal_decor:blood_lantern",
+    "abyssal_decor:blood_coral_sconce",
+    "abyssal_decor:blood_coral_door",
+    "abyssal_decor:blood_coral_trapdoor",
+    "abyssal_decor:blood_coral_bars_solo",
+    "abyssal_decor:polished_blood_coral_slab",
+    "abyssal_decor:polished_blood_coral_stairs",
+    "abyssal_decor:polished_blood_coral_wall",
+    "abyssal_decor:smooth_blood_coral_slab",
+    "abyssal_decor:smooth_blood_coral_stairs",
+    "abyssal_decor:smooth_blood_coral_wall",
+    "abyssal_decor:blood_coral_brick_slab",
+    "abyssal_decor:blood_coral_brick_stairs",
+    "abyssal_decor:blood_coral_brick_wall",
+    "abyssal_decor:small_blood_coral_bars",
+    "abyssal_decor:small_blood_coral_bars_corner"
+  ],
+  "enabled": true
+}

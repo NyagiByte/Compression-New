@@ -1,0 +1,17 @@
+{
+  "id": "quark:quark_permafrost",
+  "type": "emixx:group",
+  "contents": [
+    "quark:permafrost",
+    "quark:permafrost_wall",
+    "quark:permafrost_slab",
+    "quark:permafrost_vertical_slab",
+    "quark:permafrost_stairs",
+    "quark:permafrost_bricks",
+    "quark:permafrost_bricks_wall",
+    "quark:permafrost_bricks_slab",
+    "quark:permafrost_bricks_vertical_slab",
+    "quark:permafrost_bricks_stairs"
+  ],
+  "enabled": true
+}

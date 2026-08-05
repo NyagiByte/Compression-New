@@ -1,0 +1,23 @@
+{
+  "id": "abyssal_decor:abyssal_decor_mold_stained_wood",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:blackwood_wood",
+    "abyssal_decor:blackwood_log",
+    "abyssal_decor:stripped_blackwood_log",
+    "abyssal_decor:blackwood_trim",
+    "abyssal_decor:blackwood_planks",
+    "abyssal_decor:blackwood_stairs",
+    "abyssal_decor:blackwood_slab",
+    "abyssal_decor:blackwood_shingles",
+    "abyssal_decor:blackwood_shingle_stairs",
+    "abyssal_decor:blackwood_shingle_slab",
+    "abyssal_decor:blackwood_button",
+    "abyssal_decor:blackwood_door",
+    "abyssal_decor:blackwood_trapdoor",
+    "abyssal_decor:blackwood_fence",
+    "abyssal_decor:blackwood_fence_gate",
+    "abyssal_decor:blackwood_pressure_plate"
+  ],
+  "enabled": true
+}

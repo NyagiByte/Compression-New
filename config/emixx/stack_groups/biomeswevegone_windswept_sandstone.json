@@ -1,0 +1,19 @@
+{
+  "id": "biomeswevegone:BWG_windswept_sandstone",
+  "type": "emixx:group",
+  "contents": [
+    "biomeswevegone:windswept_sand",
+    "biomeswevegone:windswept_sandstone",
+    "biomeswevegone:windswept_sandstone_stairs",
+    "biomeswevegone:windswept_sandstone_slab",
+    "biomeswevegone:windswept_sandstone_wall",
+    "biomeswevegone:chiseled_windswept_sandstone",
+    "biomeswevegone:smooth_windswept_sandstone",
+    "biomeswevegone:smooth_windswept_sandstone_stairs",
+    "biomeswevegone:smooth_windswept_sandstone_slab",
+    "biomeswevegone:cut_windswept_sandstone",
+    "biomeswevegone:cut_windswept_sandstone_slab",
+    "biomeswevegone:windswept_sandstone_pillar"
+  ],
+  "enabled": true
+}

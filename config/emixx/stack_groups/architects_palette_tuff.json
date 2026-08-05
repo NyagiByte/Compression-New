@@ -1,0 +1,16 @@
+{
+  "id": "architects_palette:architects_palette_tuff",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:tuff_bricks",
+    "architects_palette:tuff_brick_slab",
+    "architects_palette:tuff_brick_vertical_slab",
+    "architects_palette:tuff_brick_stairs",
+    "architects_palette:tuff_brick_wall",
+    "architects_palette:tuff_pillar",
+    "architects_palette:chiseled_tuff",
+    "architects_palette:heavy_tuff_bricks",
+    "architects_palette:tuff_lamp"
+  ],
+  "enabled": true
+}

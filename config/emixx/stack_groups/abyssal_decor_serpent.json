@@ -1,0 +1,22 @@
+{
+  "id": "abyssal_decor:abyssal_decor_serpent",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:flaky_scales",
+    "abyssal_decor:slump_light",
+    "abyssal_decor:shortgills",
+    "abyssal_decor:serpent_scales",
+    "abyssal_decor:serpent_scale_slab",
+    "abyssal_decor:serpent_skin",
+    "abyssal_decor:damaged_serpent_scales",
+    "abyssal_decor:damaged_serpent_scale_slab",
+    "abyssal_decor:damaged_serpent_skin",
+    "abyssal_decor:serpent_flesh",
+    "abyssal_decor:serpent_flesh_slab",
+    "abyssal_decor:ribbed_veins",
+    "abyssal_decor:serpent_eye",
+    "abyssal_decor:serpent_small_eyes",
+    "abyssal_decor:netted_eye"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "yuushya:yuushya_blue_roofing",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:roof_1",
+    "yuushya:roof_ridge_1",
+    "yuushya:roof_corner_1_outer",
+    "yuushya:roof_corner_1_inner",
+    "yuushya:blue_tile_lower",
+    "yuushya:blue_tile_upper",
+    "yuushya:blue_tile_ridge_upper",
+    "yuushya:blue_tile_ridge_lower",
+    "yuushya:blue_tile_with_ridge_upper",
+    "yuushya:blue_tile_with_ridge_lower",
+    "yuushya:blue_tile_outer_corner_upper",
+    "yuushya:blue_tile_inner_corner_upper",
+    "yuushya:blue_tile_outer_corner_lower",
+    "yuushya:blue_tile_inner_corner_lower"
+  ],
+  "enabled": true
+}

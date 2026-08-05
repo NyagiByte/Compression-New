@@ -1,0 +1,12 @@
+{
+  "id": "minecraft:bricks",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:bricks",
+    "minecraft:brick_stairs",
+    "minecraft:brick_slab",
+    "quark:brick_vertical_slab",
+    "minecraft:brick_wall"
+  ],
+  "enabled": true
+}

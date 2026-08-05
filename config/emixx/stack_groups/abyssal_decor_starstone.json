@@ -1,0 +1,21 @@
+{
+  "id": "abyssal_decor:abyssal_decor_starstone",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:starstone",
+    "abyssal_decor:smooth_starstone",
+    "abyssal_decor:gilded_starstone",
+    "abyssal_decor:starstone_pillar",
+    "abyssal_decor:polished_starstone",
+    "abyssal_decor:polished_starstone_stairs",
+    "abyssal_decor:polished_starstone_slab",
+    "abyssal_decor:polished_starstone_wall",
+    "abyssal_decor:chiseled_starstone",
+    "abyssal_decor:starstone_tiles",
+    "abyssal_decor:lapis_pillar",
+    "abyssal_decor:gilded_lapis_pillar",
+    "abyssal_decor:starglass_block",
+    "abyssal_decor:starglass_pane"
+  ],
+  "enabled": true
+}

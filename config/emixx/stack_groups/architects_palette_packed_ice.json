@@ -1,0 +1,14 @@
+{
+  "id": "architects_palette:architects_palette_packed_ice",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:polished_packed_ice",
+    "architects_palette:polished_packed_ice_slab",
+    "architects_palette:polished_packed_ice_vertical_slab",
+    "architects_palette:polished_packed_ice_stairs",
+    "architects_palette:chiseled_packed_ice",
+    "architects_palette:packed_ice_pillar",
+    "architects_palette:polished_packed_ice_wall"
+  ],
+  "enabled": true
+}

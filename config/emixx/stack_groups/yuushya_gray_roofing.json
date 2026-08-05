@@ -1,0 +1,17 @@
+{
+  "id": "yuushya:yuushya_gray_roofing",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:gray_tile_lower",
+    "yuushya:gray_tile_upper",
+    "yuushya:gray_tile_ridge_upper",
+    "yuushya:gray_tile_ridge_lower",
+    "yuushya:gray_tile_with_ridge_upper",
+    "yuushya:gray_tile_with_ridge_lower",
+    "yuushya:gray_tile_outer_corner_upper",
+    "yuushya:gray_tile_inner_corner_upper",
+    "yuushya:gray_tile_outer_corner_lower",
+    "yuushya:gray_tile_inner_corner_lower"
+  ],
+  "enabled": true
+}

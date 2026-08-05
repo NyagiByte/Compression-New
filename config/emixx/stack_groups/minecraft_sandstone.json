@@ -1,0 +1,25 @@
+{
+  "id": "minecraft:sandstone",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:sandstone",
+    "minecraft:sandstone_stairs",
+    "minecraft:sandstone_slab",
+    "quark:sandstone_vertical_slab",
+    "minecraft:sandstone_wall",
+    "minecraft:chiseled_sandstone",
+    "minecraft:smooth_sandstone",
+    "minecraft:smooth_sandstone_stairs",
+    "minecraft:smooth_sandstone_slab",
+    "quark:smooth_sandstone_vertical_slab",
+    "minecraft:cut_sandstone",
+    "minecraft:cut_sandstone_slab",
+    "quark:cut_sandstone_vertical_slab",
+    "quark:sandstone_bricks",
+    "quark:sandstone_bricks_stairs",
+    "quark:sandstone_bricks_slab",
+    "quark:sandstone_bricks_vertical_slab",
+    "quark:sandstone_bricks_wall"
+  ],
+  "enabled": true
+}

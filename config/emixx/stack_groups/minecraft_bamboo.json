@@ -1,0 +1,26 @@
+{
+  "id": "minecraft:minecraft_bamboo",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:bamboo_block",
+    "minecraft:stripped_bamboo_block",
+    "minecraft:bamboo_planks",
+    "quark:vertical_bamboo_planks",
+    "minecraft:bamboo_mosaic",
+    "minecraft:bamboo_stairs",
+    "minecraft:bamboo_mosaic_stairs",
+    "quark:bamboo_vertical_slab",
+    "minecraft:bamboo_mosaic_slab",
+    "quark:bamboo_mosaic_vertical_slab",
+    "quark:bamboo_post",
+    "quark:stripped_bamboo_post",
+    "minecraft:bamboo_fence",
+    "minecraft:bamboo_fence_gate",
+    "minecraft:bamboo_door",
+    "minecraft:bamboo_trapdoor",
+    "minecraft:bamboo_pressure_plate",
+    "minecraft:bamboo_button",
+    "minecraft:bamboo_slab"
+  ],
+  "enabled": true
+}

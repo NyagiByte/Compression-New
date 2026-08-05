@@ -1,0 +1,10 @@
+{
+  "id": "hearthandhome:hearth_and_home_thatch",
+  "type": "emixx:group",
+  "contents": [
+    "hearth_and_home:thatch",
+    "hearth_and_home:thatch_slab",
+    "hearth_and_home:thatch_stairs"
+  ],
+  "enabled": true
+}
