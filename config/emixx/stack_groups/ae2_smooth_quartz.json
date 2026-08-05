@@ -1,0 +1,11 @@
+{
+  "id": "ae2:AE2_smooth_quartz",
+  "type": "emixx:group",
+  "contents": [
+    "ae2:smooth_quartz_block",
+    "ae2:smooth_quartz_stairs",
+    "ae2:smooth_quartz_wall",
+    "ae2:smooth_quartz_slab"
+  ],
+  "enabled": true
+}

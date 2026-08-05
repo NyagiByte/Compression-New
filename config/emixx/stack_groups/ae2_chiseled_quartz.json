@@ -1,0 +1,11 @@
+{
+  "id": "ae2:AE2_chiseled_quartz",
+  "type": "emixx:group",
+  "contents": [
+    "ae2:chiseled_quartz_block",
+    "ae2:chiseled_quartz_stairs",
+    "ae2:chiseled_quartz_wall",
+    "ae2:chiseled_quartz_slab"
+  ],
+  "enabled": true
+}
