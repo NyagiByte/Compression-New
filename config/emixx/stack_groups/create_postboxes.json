@@ -1,0 +1,6 @@
+{
+  "type": "emixx:tag",
+  "id": "create:create_postboxes",
+  "tag": "create:postboxes",
+  "enabled": true
+}

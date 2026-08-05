@@ -15,7 +15,19 @@
     "abyssal_decor:white_wood_fence",
     "abyssal_decor:white_wood_fence_gate",
     "abyssal_decor:whitewood_picket_fence",
-    "abyssal_decor:white_wood_planter"
+    "abyssal_decor:white_wood_planter",
+    "everycomp:hnhome/abyssal_decor/white_wood_parquet",
+    "everycomp:q/abyssal_decor/white_wood_post",
+    "everycomp:q/abyssal_decor/vertical_white_wood_planks",
+    "everycomp:q/abyssal_decor/white_wood_chest",
+    "everycomp:q/abyssal_decor/white_wood_trapped_chest",
+    "everycomp:ap/abyssal_decor/white_wood_railing",
+    "everycomp:ap/abyssal_decor/white_wood_boards",
+    "everycomp:ap/abyssal_decor/white_wood_board_slab",
+    "everycomp:ap/abyssal_decor/white_wood_board_stairs",
+    "everycomp:ap/abyssal_decor/white_wood_board_wall",
+    "everycomp:c/abyssal_decor/white_wood_window",
+    "everycomp:c/abyssal_decor/white_wood_window_pane"
   ],
   "enabled": true
 }

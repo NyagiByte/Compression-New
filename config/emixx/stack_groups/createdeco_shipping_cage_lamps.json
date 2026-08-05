@@ -1,0 +1,31 @@
+{
+  "id": "createdeco:createdeco_cage_lamps",
+  "type": "emixx:group",
+  "contents": [
+    "createdeco:yellow_andesite_lamp",
+    "createdeco:red_andesite_lamp",
+    "createdeco:green_andesite_lamp",
+    "createdeco:blue_andesite_lamp",
+    "createdeco:yellow_brass_lamp",
+    "createdeco:red_brass_lamp",
+    "createdeco:green_brass_lamp",
+    "createdeco:blue_brass_lamp",
+    "createdeco:yellow_iron_lamp",
+    "createdeco:red_iron_lamp",
+    "createdeco:green_iron_lamp",
+    "createdeco:blue_iron_lamp",
+    "createdeco:yellow_copper_lamp",
+    "createdeco:red_copper_lamp",
+    "createdeco:green_copper_lamp",
+    "createdeco:blue_copper_lamp",
+    "createdeco:yellow_industrial_iron_lamp",
+    "createdeco:red_industrial_iron_lamp",
+    "createdeco:green_industrial_iron_lamp",
+    "createdeco:blue_industrial_iron_lamp",
+    "createdeco:yellow_zinc_lamp",
+    "createdeco:red_zinc_lamp",
+    "createdeco:green_zinc_lamp",
+    "createdeco:blue_zinc_lamp"
+  ],
+  "enabled": true
+}

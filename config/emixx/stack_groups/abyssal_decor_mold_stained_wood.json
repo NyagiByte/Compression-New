@@ -17,7 +17,24 @@
     "abyssal_decor:blackwood_trapdoor",
     "abyssal_decor:blackwood_fence",
     "abyssal_decor:blackwood_fence_gate",
-    "abyssal_decor:blackwood_pressure_plate"
+    "abyssal_decor:blackwood_pressure_plate",
+    "everycomp:hnhome/abyssal_decor/blackwood_parquet",
+    "everycomp:q/abyssal_decor/blackwood_post",
+    "everycomp:q/abyssal_decor/vertical_blackwood_planks",
+    "everycomp:q/abyssal_decor/hollow_blackwood_log",
+    "everycomp:q/abyssal_decor/blackwood_chest",
+    "everycomp:q/abyssal_decor/blackwood_trapped_chest",
+    "everycomp:ap/abyssal_decor/blackwood_railing",
+    "everycomp:ap/abyssal_decor/blackwood_boards",
+    "everycomp:ap/abyssal_decor/blackwood_board_slab",
+    "everycomp:ap/abyssal_decor/blackwood_board_stairs",
+    "everycomp:ap/abyssal_decor/blackwood_board_wall",
+    "everycomp:bbb/abyssal_decor/blackwood_beam",
+    "everycomp:bbb/abyssal_decor/blackwood_beam_stairs",
+    "everycomp:bbb/abyssal_decor/blackwood_beam_slab",
+    "everycomp:bbb/abyssal_decor/blackwood_wall",
+    "everycomp:c/abyssal_decor/blackwood_window",
+    "everycomp:c/abyssal_decor/blackwood_window_pane"
   ],
   "enabled": true
 }
