@@ -1,0 +1,12 @@
+{
+  "id": "abyssal_decor:abyssal_decor_velvet",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:velvet",
+    "abyssal_decor:gilded_velvet",
+    "abyssal_decor:velvet_carpet",
+    "abyssal_decor:gilded_velvet_carpet",
+    "abyssal_decor:velvet_curtain"
+  ],
+  "enabled": true
+}

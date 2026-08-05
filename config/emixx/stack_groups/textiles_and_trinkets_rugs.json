@@ -1,0 +1,16 @@
+{
+  "id": "textiles_and_trinkets:textiles_and_trinkets_rugs",
+  "type": "emixx:group",
+  "contents": [
+    "textiles_and_trinkets:small_cyan_rug",
+    "textiles_and_trinkets:small_green_rug",
+    "textiles_and_trinkets:small_red_rug",
+    "textiles_and_trinkets:medium_teal_rug",
+    "textiles_and_trinkets:medium_red_rug",
+    "textiles_and_trinkets:medium_starlit_rug",
+    "textiles_and_trinkets:large_abstract_rug_1",
+    "textiles_and_trinkets:large_verdant_rug",
+    "textiles_and_trinkets:large_starlit_rug"
+  ],
+  "enabled": true
+}

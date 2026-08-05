@@ -1,0 +1,11 @@
+{
+  "id": "abyssal_decor:abyssal_decor_crystalized_glowstone",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:crystalized_glowstone",
+    "abyssal_decor:crystalized_glowstone_pane",
+    "abyssal_decor:framed_crystalized_glowstone",
+    "abyssal_decor:framed_crystalized_glowstone_pane"
+  ],
+  "enabled": true
+}

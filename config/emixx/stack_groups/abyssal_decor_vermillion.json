@@ -1,0 +1,11 @@
+{
+  "id": "abyssal_decor:abyssal_decor_vermillion",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:vermillion_block",
+    "abyssal_decor:vermillion_pane",
+    "abyssal_decor:framed_vermillion_block",
+    "abyssal_decor:framed_vermillion_pane"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,22 @@
+{
+  "id": "textiles_and_trinkets:textiles_and_trinkets_sol_stone",
+  "type": "emixx:group",
+  "contents": [
+    "textiles_and_trinkets:sol_stone",
+    "textiles_and_trinkets:raw_sol_stone",
+    "textiles_and_trinkets:sol_stone_tiles",
+    "textiles_and_trinkets:sol_stone_pillar",
+    "textiles_and_trinkets:polished_sol_stone",
+    "textiles_and_trinkets:polished_sol_stone_stairs",
+    "textiles_and_trinkets:polished_sol_stone_slab",
+    "textiles_and_trinkets:polished_sol_stone_wall",
+    "textiles_and_trinkets:cobbled_sol_stone",
+    "textiles_and_trinkets:cobbled_sol_stone_stairs",
+    "textiles_and_trinkets:cobbled_sol_stone_slab",
+    "textiles_and_trinkets:cobbled_sol_stone_wall",
+    "textiles_and_trinkets:sol_stone_small_tiles",
+    "textiles_and_trinkets:sol_stone_small_tiles_stairs",
+    "textiles_and_trinkets:sol_stone_small_tiles_slab"
+  ],
+  "enabled": true
+}
