@@ -95,3 +95,7 @@ xaero/minimap/The Big Sort/config.txt
 patchouli_data.json
 /mods
 config/emi.css
+/config/fabric
+/config/ironchests
+config/oculus.properties
+config/packetfixer.properties
