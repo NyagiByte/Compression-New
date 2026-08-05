@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Xenon",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:xenon",
+    "chemlib:xenon_bucket"
+  ],
+  "enabled": true
+}

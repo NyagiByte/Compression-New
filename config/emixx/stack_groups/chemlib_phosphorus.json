@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Phosphorus",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:phosphorus",
+    "chemlib:phosphorus_dust"
+  ],
+  "enabled": true
+}

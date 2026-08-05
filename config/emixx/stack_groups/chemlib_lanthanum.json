@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Lanthanum",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:lanthanum",
+    "chemlib:lanthanum_dust",
+    "chemlib:lanthanum_nugget",
+    "chemlib:lanthanum_ingot",
+    "chemlib:lanthanum_plate",
+    "chemlib:lanthanum_metal_block"
+  ],
+  "enabled": true
+}

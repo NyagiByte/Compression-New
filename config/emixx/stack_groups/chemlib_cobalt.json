@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Cobalt",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:cobalt",
+    "chemlib:cobalt_dust",
+    "chemlib:cobalt_nugget",
+    "chemlib:cobalt_ingot",
+    "chemlib:cobalt_plate",
+    "chemlib:cobalt_metal_block"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Lead",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:lead",
+    "chemlib:lead_dust",
+    "chemlib:lead_nugget",
+    "chemlib:lead_ingot",
+    "chemlib:lead_plate",
+    "chemlib:lead_metal_block"
+  ],
+  "enabled": true
+}

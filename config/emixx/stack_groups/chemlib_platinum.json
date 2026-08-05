@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Platinum",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:platinum",
+    "chemlib:platinum_dust",
+    "chemlib:platinum_nugget",
+    "chemlib:platinum_ingot",
+    "chemlib:platinum_plate",
+    "chemlib:platinum_metal_block"
+  ],
+  "enabled": true
+}

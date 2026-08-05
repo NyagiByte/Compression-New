@@ -1,0 +1,10 @@
+{
+  "id": "chemlib:Elemental_Iron",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:iron",
+    "chemlib:iron_dust",
+    "chemlib:iron_plate"
+  ],
+  "enabled": true
+}

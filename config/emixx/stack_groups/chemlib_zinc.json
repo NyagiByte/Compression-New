@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Zinc",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:zinc",
+    "chemlib:zinc_dust",
+    "chemlib:zinc_nugget",
+    "chemlib:zinc_ingot",
+    "chemlib:zinc_plate",
+    "chemlib:zinc_metal_block"
+  ],
+  "enabled": true
+}

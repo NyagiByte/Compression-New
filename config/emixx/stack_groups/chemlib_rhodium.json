@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Rhodium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:rhodium",
+    "chemlib:rhodium_dust",
+    "chemlib:rhodium_nugget",
+    "chemlib:rhodium_ingot",
+    "chemlib:rhodium_plate",
+    "chemlib:rhodium_metal_block"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Radium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:radium",
+    "chemlib:radium_dust",
+    "chemlib:radium_nugget",
+    "chemlib:radium_ingot",
+    "chemlib:radium_plate",
+    "chemlib:radium_metal_block"
+  ],
+  "enabled": true
+}

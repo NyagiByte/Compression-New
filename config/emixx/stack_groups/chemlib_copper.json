@@ -1,0 +1,10 @@
+{
+  "id": "chemlib:Elemental_Copper",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:copper",
+    "chemlib:copper_dust",
+    "chemlib:copper_plate"
+  ],
+  "enabled": true
+}

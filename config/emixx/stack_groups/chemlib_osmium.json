@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Osmium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:osmium",
+    "chemlib:osmium_dust",
+    "chemlib:osmium_nugget",
+    "chemlib:osmium_ingot",
+    "chemlib:osmium_plate",
+    "chemlib:osmium_metal_block"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Chlorine",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:chlorine",
+    "chemlib:chlorine_bucket"
+  ],
+  "enabled": true
+}

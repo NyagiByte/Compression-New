@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Niobium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:niobium",
+    "chemlib:niobium_dust",
+    "chemlib:niobium_nugget",
+    "chemlib:niobium_ingot",
+    "chemlib:niobium_plate",
+    "chemlib:niobium_metal_block"
+  ],
+  "enabled": true
+}

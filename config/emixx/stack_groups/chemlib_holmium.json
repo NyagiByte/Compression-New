@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Holmium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:holmium",
+    "chemlib:holmium_dust",
+    "chemlib:holmium_nugget",
+    "chemlib:holmium_ingot",
+    "chemlib:holmium_plate",
+    "chemlib:holmium_metal_block"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Selenium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:selenium",
+    "chemlib:selenium_dust"
+  ],
+  "enabled": true
+}

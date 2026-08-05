@@ -1,0 +1,10 @@
+{
+  "id": "chemlib:Elemental_Gold",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:gold",
+    "chemlib:gold_dust",
+    "chemlib:gold_plate"
+  ],
+  "enabled": true
+}

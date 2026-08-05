@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Molybdenum",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:molybdenum",
+    "chemlib:molybdenum_dust",
+    "chemlib:molybdenum_nugget",
+    "chemlib:molybdenum_ingot",
+    "chemlib:molybdenum_plate",
+    "chemlib:molybdenum_metal_block"
+  ],
+  "enabled": true
+}

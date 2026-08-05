@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Gadolinium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:gadolinium",
+    "chemlib:gadolinium_dust",
+    "chemlib:gadolinium_nugget",
+    "chemlib:gadolinium_ingot",
+    "chemlib:gadolinium_plate",
+    "chemlib:gadolinium_metal_block"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Polonium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:polonium",
+    "chemlib:polonium_dust",
+    "chemlib:polonium_nugget",
+    "chemlib:polonium_ingot",
+    "chemlib:polonium_plate",
+    "chemlib:polonium_metal_block"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Manganese",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:manganese",
+    "chemlib:manganese_dust",
+    "chemlib:manganese_nugget",
+    "chemlib:manganese_ingot",
+    "chemlib:manganese_plate",
+    "chemlib:manganese_metal_block"
+  ],
+  "enabled": true
+}

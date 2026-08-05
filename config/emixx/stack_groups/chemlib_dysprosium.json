@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Dysprosium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:dysprosium",
+    "chemlib:dysprosium_dust",
+    "chemlib:dysprosium_nugget",
+    "chemlib:dysprosium_ingot",
+    "chemlib:dysprosium_plate",
+    "chemlib:dysprosium_metal_block"
+  ],
+  "enabled": true
+}

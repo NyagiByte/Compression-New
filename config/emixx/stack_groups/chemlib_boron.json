@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Boron",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:boron",
+    "chemlib:boron_dust"
+  ],
+  "enabled": true
+}

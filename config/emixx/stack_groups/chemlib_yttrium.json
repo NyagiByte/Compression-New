@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Yttrium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:yttrium",
+    "chemlib:yttrium_dust",
+    "chemlib:yttrium_nugget",
+    "chemlib:yttrium_ingot",
+    "chemlib:yttrium_plate",
+    "chemlib:yttrium_metal_block"
+  ],
+  "enabled": true
+}

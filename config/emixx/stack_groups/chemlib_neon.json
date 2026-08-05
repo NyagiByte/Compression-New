@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Neon",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:neon",
+    "chemlib:neon_bucket"
+  ],
+  "enabled": true
+}

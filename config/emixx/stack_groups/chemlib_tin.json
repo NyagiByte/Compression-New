@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Tin",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:tin",
+    "chemlib:tin_dust",
+    "chemlib:tin_nugget",
+    "chemlib:tin_ingot",
+    "chemlib:tin_plate",
+    "chemlib:tin_metal_block"
+  ],
+  "enabled": true
+}

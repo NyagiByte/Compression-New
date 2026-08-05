@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Actinium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:actinium",
+    "chemlib:actinium_dust",
+    "chemlib:actinium_nugget",
+    "chemlib:actinium_ingot",
+    "chemlib:actinium_plate",
+    "chemlib:actinium_metal_block"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Cadmium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:cadmium",
+    "chemlib:cadmium_dust",
+    "chemlib:cadmium_nugget",
+    "chemlib:cadmium_ingot",
+    "chemlib:cadmium_plate",
+    "chemlib:cadmium_metal_block"
+  ],
+  "enabled": true
+}

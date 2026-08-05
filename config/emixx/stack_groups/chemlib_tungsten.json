@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Tungsten",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:tungsten",
+    "chemlib:tungsten_dust",
+    "chemlib:tungsten_nugget",
+    "chemlib:tungsten_ingot",
+    "chemlib:tungsten_plate",
+    "chemlib:tungsten_metal_block"
+  ],
+  "enabled": true
+}

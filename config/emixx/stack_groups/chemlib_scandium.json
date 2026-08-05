@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Scandium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:scandium",
+    "chemlib:scandium_dust",
+    "chemlib:scandium_nugget",
+    "chemlib:scandium_ingot",
+    "chemlib:scandium_plate",
+    "chemlib:scandium_metal_block"
+  ],
+  "enabled": true
+}

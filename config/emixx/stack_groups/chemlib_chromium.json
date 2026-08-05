@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Chromium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:chromium",
+    "chemlib:chromium_dust",
+    "chemlib:chromium_nugget",
+    "chemlib:chromium_ingot",
+    "chemlib:chromium_plate",
+    "chemlib:chromium_metal_block"
+  ],
+  "enabled": true
+}

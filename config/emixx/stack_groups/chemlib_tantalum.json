@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Tantalum",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:tantalum",
+    "chemlib:tantalum_dust",
+    "chemlib:tantalum_nugget",
+    "chemlib:tantalum_ingot",
+    "chemlib:tantalum_plate",
+    "chemlib:tantalum_metal_block"
+  ],
+  "enabled": true
+}

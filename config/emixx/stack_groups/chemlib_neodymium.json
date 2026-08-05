@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Neodymium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:neodymium",
+    "chemlib:neodymium_dust",
+    "chemlib:neodymium_nugget",
+    "chemlib:neodymium_ingot",
+    "chemlib:neodymium_plate",
+    "chemlib:neodymium_metal_block"
+  ],
+  "enabled": true
+}

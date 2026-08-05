@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Indium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:indium",
+    "chemlib:indium_dust",
+    "chemlib:indium_nugget",
+    "chemlib:indium_ingot",
+    "chemlib:indium_plate",
+    "chemlib:indium_metal_block"
+  ],
+  "enabled": true
+}

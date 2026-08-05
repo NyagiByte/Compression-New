@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Palladium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:palladium",
+    "chemlib:palladium_dust",
+    "chemlib:palladium_nugget",
+    "chemlib:palladium_ingot",
+    "chemlib:palladium_plate",
+    "chemlib:palladium_metal_block"
+  ],
+  "enabled": true
+}

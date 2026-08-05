@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Thulium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:thulium",
+    "chemlib:thulium_dust",
+    "chemlib:thulium_nugget",
+    "chemlib:thulium_ingot",
+    "chemlib:thulium_plate",
+    "chemlib:thulium_metal_block"
+  ],
+  "enabled": true
+}

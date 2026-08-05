@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Barium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:barium",
+    "chemlib:barium_dust",
+    "chemlib:barium_nugget",
+    "chemlib:barium_ingot",
+    "chemlib:barium_plate",
+    "chemlib:barium_metal_block"
+  ],
+  "enabled": true
+}

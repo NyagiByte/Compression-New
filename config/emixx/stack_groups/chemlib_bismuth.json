@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Bismuth",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:bismuth",
+    "chemlib:bismuth_dust",
+    "chemlib:bismuth_nugget",
+    "chemlib:bismuth_ingot",
+    "chemlib:bismuth_plate",
+    "chemlib:bismuth_metal_block"
+  ],
+  "enabled": true
+}

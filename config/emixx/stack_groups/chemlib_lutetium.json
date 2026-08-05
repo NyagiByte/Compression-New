@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Lutetium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:lutetium",
+    "chemlib:lutetium_dust",
+    "chemlib:lutetium_nugget",
+    "chemlib:lutetium_ingot",
+    "chemlib:lutetium_plate",
+    "chemlib:lutetium_metal_block"
+  ],
+  "enabled": true
+}

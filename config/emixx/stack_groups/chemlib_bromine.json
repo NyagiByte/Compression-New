@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Bromine",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:bromine",
+    "chemlib:bromine_bucket"
+  ],
+  "enabled": true
+}

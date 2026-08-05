@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Beryllium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:beryllium",
+    "chemlib:beryllium_dust",
+    "chemlib:beryllium_nugget",
+    "chemlib:beryllium_ingot",
+    "chemlib:beryllium_plate",
+    "chemlib:beryllium_metal_block"
+  ],
+  "enabled": true
+}

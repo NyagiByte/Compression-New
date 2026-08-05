@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Strontium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:strontium",
+    "chemlib:strontium_dust",
+    "chemlib:strontium_nugget",
+    "chemlib:strontium_ingot",
+    "chemlib:strontium_plate",
+    "chemlib:strontium_metal_block"
+  ],
+  "enabled": true
+}

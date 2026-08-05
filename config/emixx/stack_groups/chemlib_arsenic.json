@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Arsenic",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:arsenic",
+    "chemlib:arsenic_dust"
+  ],
+  "enabled": true
+}

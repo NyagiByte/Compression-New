@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Potassium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:potassium",
+    "chemlib:potassium_dust",
+    "chemlib:potassium_nugget",
+    "chemlib:potassium_ingot",
+    "chemlib:potassium_plate",
+    "chemlib:potassium_metal_block"
+  ],
+  "enabled": true
+}

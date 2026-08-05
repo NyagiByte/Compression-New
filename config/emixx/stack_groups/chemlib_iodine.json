@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Iodine",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:iodine",
+    "chemlib:iodine_dust"
+  ],
+  "enabled": true
+}

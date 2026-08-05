@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Uranium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:uranium",
+    "chemlib:uranium_dust",
+    "chemlib:uranium_nugget",
+    "chemlib:uranium_ingot",
+    "chemlib:uranium_plate",
+    "chemlib:uranium_metal_block"
+  ],
+  "enabled": true
+}

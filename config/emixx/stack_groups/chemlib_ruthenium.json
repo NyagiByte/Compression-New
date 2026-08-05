@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Ruthenium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:ruthenium",
+    "chemlib:ruthenium_dust",
+    "chemlib:ruthenium_nugget",
+    "chemlib:ruthenium_ingot",
+    "chemlib:ruthenium_plate",
+    "chemlib:ruthenium_metal_block"
+  ],
+  "enabled": true
+}

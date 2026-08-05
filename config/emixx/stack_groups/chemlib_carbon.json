@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Carbon",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:carbon",
+    "chemlib:carbon_dust"
+  ],
+  "enabled": true
+}

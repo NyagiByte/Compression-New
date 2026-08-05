@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Praseodymium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:praseodymium",
+    "chemlib:praseodymium_dust",
+    "chemlib:praseodymium_nugget",
+    "chemlib:praseodymium_ingot",
+    "chemlib:praseodymium_plate",
+    "chemlib:praseodymium_metal_block"
+  ],
+  "enabled": true
+}

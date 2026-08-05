@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Sodium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:sodium",
+    "chemlib:sodium_dust",
+    "chemlib:sodium_nugget",
+    "chemlib:sodium_ingot",
+    "chemlib:sodium_plate",
+    "chemlib:sodium_metal_block"
+  ],
+  "enabled": true
+}

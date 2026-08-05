@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Europium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:europium",
+    "chemlib:europium_dust",
+    "chemlib:europium_nugget",
+    "chemlib:europium_ingot",
+    "chemlib:europium_plate",
+    "chemlib:europium_metal_block"
+  ],
+  "enabled": true
+}

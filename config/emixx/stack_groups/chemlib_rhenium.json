@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Rhenium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:rhenium",
+    "chemlib:rhenium_dust",
+    "chemlib:rhenium_nugget",
+    "chemlib:rhenium_ingot",
+    "chemlib:rhenium_plate",
+    "chemlib:rhenium_metal_block"
+  ],
+  "enabled": true
+}

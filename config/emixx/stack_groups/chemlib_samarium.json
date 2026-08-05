@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Samarium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:samarium",
+    "chemlib:samarium_dust",
+    "chemlib:samarium_nugget",
+    "chemlib:samarium_ingot",
+    "chemlib:samarium_plate",
+    "chemlib:samarium_metal_block"
+  ],
+  "enabled": true
+}

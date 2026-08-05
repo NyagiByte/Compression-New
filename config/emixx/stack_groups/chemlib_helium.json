@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Helium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:helium",
+    "chemlib:helium_bucket"
+  ],
+  "enabled": true
+}

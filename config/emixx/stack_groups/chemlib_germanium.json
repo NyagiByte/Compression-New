@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Germanium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:germanium",
+    "chemlib:germanium_dust"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Magnesium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:magnesium",
+    "chemlib:magnesium_dust",
+    "chemlib:magnesium_nugget",
+    "chemlib:magnesium_ingot",
+    "chemlib:magnesium_plate",
+    "chemlib:magnesium_metal_block"
+  ],
+  "enabled": true
+}

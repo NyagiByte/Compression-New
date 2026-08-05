@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Aluminum",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:aluminum",
+    "chemlib:aluminum_dust",
+    "chemlib:aluminum_nugget",
+    "chemlib:aluminum_ingot",
+    "chemlib:aluminum_plate",
+    "chemlib:aluminum_metal_block"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Radon",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:radon",
+    "chemlib:radon_bucket"
+  ],
+  "enabled": true
+}

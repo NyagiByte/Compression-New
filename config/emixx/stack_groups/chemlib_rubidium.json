@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Rubidium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:rubidium",
+    "chemlib:rubidium_dust",
+    "chemlib:rubidium_nugget",
+    "chemlib:rubidium_ingot",
+    "chemlib:rubidium_plate",
+    "chemlib:rubidium_metal_block"
+  ],
+  "enabled": true
+}

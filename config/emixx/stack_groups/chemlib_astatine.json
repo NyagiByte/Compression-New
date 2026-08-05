@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Astatine",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:astatine",
+    "chemlib:astatine_dust"
+  ],
+  "enabled": true
+}

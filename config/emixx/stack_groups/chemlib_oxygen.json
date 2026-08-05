@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Oxygen",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:oxygen",
+    "chemlib:oxygen_bucket"
+  ],
+  "enabled": true
+}

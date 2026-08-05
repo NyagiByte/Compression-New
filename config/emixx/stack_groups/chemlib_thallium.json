@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Thallium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:thallium",
+    "chemlib:thallium_dust",
+    "chemlib:thallium_nugget",
+    "chemlib:thallium_ingot",
+    "chemlib:thallium_plate",
+    "chemlib:thallium_metal_block"
+  ],
+  "enabled": true
+}

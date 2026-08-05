@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Tellurium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:tellurium",
+    "chemlib:tellurium_dust"
+  ],
+  "enabled": true
+}

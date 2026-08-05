@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Hafnium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:hafnium",
+    "chemlib:hafnium_dust",
+    "chemlib:hafnium_nugget",
+    "chemlib:hafnium_ingot",
+    "chemlib:hafnium_plate",
+    "chemlib:hafnium_metal_block"
+  ],
+  "enabled": true
+}

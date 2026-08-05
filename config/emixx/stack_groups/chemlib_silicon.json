@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Silicon",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:silicon",
+    "chemlib:silicon_dust"
+  ],
+  "enabled": true
+}

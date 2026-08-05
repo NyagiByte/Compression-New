@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Ytterbium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:ytterbium",
+    "chemlib:ytterbium_dust",
+    "chemlib:ytterbium_nugget",
+    "chemlib:ytterbium_ingot",
+    "chemlib:ytterbium_plate",
+    "chemlib:ytterbium_metal_block"
+  ],
+  "enabled": true
+}

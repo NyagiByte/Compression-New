@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Vanadium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:vanadium",
+    "chemlib:vanadium_dust",
+    "chemlib:vanadium_nugget",
+    "chemlib:vanadium_ingot",
+    "chemlib:vanadium_plate",
+    "chemlib:vanadium_metal_block"
+  ],
+  "enabled": true
+}

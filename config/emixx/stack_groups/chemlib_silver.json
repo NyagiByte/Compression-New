@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Silver",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:silver",
+    "chemlib:silver_dust",
+    "chemlib:silver_nugget",
+    "chemlib:silver_ingot",
+    "chemlib:silver_plate",
+    "chemlib:silver_metal_block"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Krypton",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:krypton",
+    "chemlib:krypton_bucket"
+  ],
+  "enabled": true
+}

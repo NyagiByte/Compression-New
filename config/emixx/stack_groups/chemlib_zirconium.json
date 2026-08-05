@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Zirconium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:zirconium",
+    "chemlib:zirconium_dust",
+    "chemlib:zirconium_nugget",
+    "chemlib:zirconium_ingot",
+    "chemlib:zirconium_plate",
+    "chemlib:zirconium_metal_block"
+  ],
+  "enabled": true
+}

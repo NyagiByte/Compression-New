@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Argon",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:argon",
+    "chemlib:argon_bucket"
+  ],
+  "enabled": true
+}

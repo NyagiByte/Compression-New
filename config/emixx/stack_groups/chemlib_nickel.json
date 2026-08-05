@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Nickel",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:nickel",
+    "chemlib:nickel_dust",
+    "chemlib:nickel_nugget",
+    "chemlib:nickel_ingot",
+    "chemlib:nickel_plate",
+    "chemlib:nickel_metal_block"
+  ],
+  "enabled": true
+}

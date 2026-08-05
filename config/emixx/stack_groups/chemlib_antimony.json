@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Antimony",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:antimony",
+    "chemlib:antimony_dust"
+  ],
+  "enabled": true
+}

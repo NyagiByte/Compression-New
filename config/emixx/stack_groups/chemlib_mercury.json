@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Mercury",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:mercury",
+    "chemlib:mercury_bucket"
+  ],
+  "enabled": true
+}

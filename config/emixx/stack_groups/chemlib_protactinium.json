@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Protactinium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:protactinium",
+    "chemlib:protactinium_dust",
+    "chemlib:protactinium_nugget",
+    "chemlib:protactinium_ingot",
+    "chemlib:protactinium_plate",
+    "chemlib:protactinium_metal_block"
+  ],
+  "enabled": true
+}

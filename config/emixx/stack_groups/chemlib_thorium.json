@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Thorium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:thorium",
+    "chemlib:thorium_dust",
+    "chemlib:thorium_nugget",
+    "chemlib:thorium_ingot",
+    "chemlib:thorium_plate",
+    "chemlib:thorium_metal_block"
+  ],
+  "enabled": true
+}

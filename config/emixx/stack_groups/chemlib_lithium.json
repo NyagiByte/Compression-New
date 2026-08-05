@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Lithium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:lithium",
+    "chemlib:lithium_dust",
+    "chemlib:lithium_nugget",
+    "chemlib:lithium_ingot",
+    "chemlib:lithium_plate",
+    "chemlib:lithium_metal_block"
+  ],
+  "enabled": true
+}

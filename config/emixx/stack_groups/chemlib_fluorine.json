@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Fluorine",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:fluorine",
+    "chemlib:fluorine_bucket"
+  ],
+  "enabled": true
+}

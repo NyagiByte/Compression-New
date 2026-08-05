@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Erbium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:erbium",
+    "chemlib:erbium_dust",
+    "chemlib:erbium_nugget",
+    "chemlib:erbium_ingot",
+    "chemlib:erbium_plate",
+    "chemlib:erbium_metal_block"
+  ],
+  "enabled": true
+}

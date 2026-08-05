@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Hydrogen",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:hydrogen",
+    "chemlib:hydrogen_bucket"
+  ],
+  "enabled": true
+}

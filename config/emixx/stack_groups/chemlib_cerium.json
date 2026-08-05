@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Cerium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:cerium",
+    "chemlib:cerium_dust",
+    "chemlib:cerium_nugget",
+    "chemlib:cerium_ingot",
+    "chemlib:cerium_plate",
+    "chemlib:cerium_metal_block"
+  ],
+  "enabled": true
+}

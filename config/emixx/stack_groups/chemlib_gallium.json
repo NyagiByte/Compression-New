@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Gallium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:gallium",
+    "chemlib:gallium_dust",
+    "chemlib:gallium_nugget",
+    "chemlib:gallium_ingot",
+    "chemlib:gallium_plate",
+    "chemlib:gallium_metal_block"
+  ],
+  "enabled": true
+}

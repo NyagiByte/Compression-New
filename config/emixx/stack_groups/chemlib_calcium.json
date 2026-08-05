@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Calcium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:calcium",
+    "chemlib:calcium_dust",
+    "chemlib:calcium_nugget",
+    "chemlib:calcium_ingot",
+    "chemlib:calcium_plate",
+    "chemlib:calcium_metal_block"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Sulfur",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:sulfur",
+    "chemlib:sulfur_dust"
+  ],
+  "enabled": true
+}

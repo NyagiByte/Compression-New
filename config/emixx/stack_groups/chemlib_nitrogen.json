@@ -1,0 +1,9 @@
+{
+  "id": "chemlib:Elemental_Nitrogen",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:nitrogen",
+    "chemlib:nitrogen_bucket"
+  ],
+  "enabled": true
+}

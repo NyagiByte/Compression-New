@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Cesium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:cesium",
+    "chemlib:cesium_dust",
+    "chemlib:cesium_nugget",
+    "chemlib:cesium_ingot",
+    "chemlib:cesium_plate",
+    "chemlib:cesium_metal_block"
+  ],
+  "enabled": true
+}

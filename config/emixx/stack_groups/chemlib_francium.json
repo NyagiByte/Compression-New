@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Francium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:francium",
+    "chemlib:francium_dust",
+    "chemlib:francium_nugget",
+    "chemlib:francium_ingot",
+    "chemlib:francium_plate",
+    "chemlib:francium_metal_block"
+  ],
+  "enabled": true
+}

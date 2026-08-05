@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Terbium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:terbium",
+    "chemlib:terbium_dust",
+    "chemlib:terbium_nugget",
+    "chemlib:terbium_ingot",
+    "chemlib:terbium_plate",
+    "chemlib:terbium_metal_block"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Iridium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:iridium",
+    "chemlib:iridium_dust",
+    "chemlib:iridium_nugget",
+    "chemlib:iridium_ingot",
+    "chemlib:iridium_plate",
+    "chemlib:iridium_metal_block"
+  ],
+  "enabled": true
+}

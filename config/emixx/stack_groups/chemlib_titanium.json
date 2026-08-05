@@ -1,0 +1,13 @@
+{
+  "id": "chemlib:Elemental_Titanium",
+  "type": "emixx:group",
+  "contents": [
+    "chemlib:titanium",
+    "chemlib:titanium_dust",
+    "chemlib:titanium_nugget",
+    "chemlib:titanium_ingot",
+    "chemlib:titanium_plate",
+    "chemlib:titanium_metal_block"
+  ],
+  "enabled": true
+}
