@@ -1,0 +1,8 @@
+{
+  "id": "quark:quark_ancient_tomes",
+  "type": "emixx:group",
+  "contents": [
+    "quark:ancient_tome"
+  ],
+  "enabled": true
+}
