@@ -1,0 +1,25 @@
+{
+  "id": "botania:botania_pavement",
+  "type": "emixx:group",
+  "contents": [
+    "botania:white_pavement",
+    "botania:white_pavement_stairs",
+    "botania:white_pavement_slab",
+    "botania:black_pavement",
+    "botania:black_pavement_slab",
+    "botania:black_pavement_stairs",
+    "botania:blue_pavement",
+    "botania:blue_pavement_stairs",
+    "botania:blue_pavement_slab",
+    "botania:yellow_pavement",
+    "botania:yellow_pavement_stairs",
+    "botania:yellow_pavement_slab",
+    "botania:red_pavement",
+    "botania:red_pavement_stairs",
+    "botania:red_pavement_slab",
+    "botania:green_pavement",
+    "botania:green_pavement_stairs",
+    "botania:green_pavement_slab"
+  ],
+  "enabled": true
+}

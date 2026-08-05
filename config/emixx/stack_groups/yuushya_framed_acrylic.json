@@ -1,0 +1,21 @@
+{
+  "id": "yuushya:yuushya_framed_acrylic",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:black_framed_acrylic",
+    "yuushya:black_framed_acrylic_alt",
+    "yuushya:light_blue_framed_acrylic",
+    "yuushya:light_blue_framed_acrylic_alt",
+    "yuushya:lime_framed_acrylic",
+    "yuushya:lime_framed_acrylic_alt",
+    "yuushya:red_framed_acrylic",
+    "yuushya:red_framed_acrylic_alt",
+    "yuushya:yellow_framed_acrylic",
+    "yuushya:yellow_framed_acrylic_alt",
+    "yuushya:blue_framed_acrylic",
+    "yuushya:blue_framed_acrylic_alt",
+    "yuushya:purple_framed_acrylic",
+    "yuushya:purple_framed_acrylic_alt"
+  ],
+  "enabled": true
+}

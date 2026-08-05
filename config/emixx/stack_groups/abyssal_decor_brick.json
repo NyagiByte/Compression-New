@@ -1,0 +1,17 @@
+{
+  "id": "abyssal_decor:abyssal_decor_brick",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:cracked_bricks",
+    "abyssal_decor:chiseled_brick",
+    "abyssal_decor:brick_mosaic",
+    "abyssal_decor:brick_cap",
+    "abyssal_decor:brick_cornerstone",
+    "abyssal_decor:brick_pillar",
+    "abyssal_decor:brick_trapdoor",
+    "abyssal_decor:brick_shingles",
+    "abyssal_decor:brick_shingle_stairs",
+    "abyssal_decor:brick_shingle_slab"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,32 @@
+{
+  "id": "yuushya:yuushya_goods_shelf",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:empty_goods_shelf_double",
+    "yuushya:empty_goods_shelf",
+    "yuushya:empty_goods_shelf_hook",
+    "yuushya:empty_goods_shelf_hook_base",
+    "yuushya:goods_shelf_books",
+    "yuushya:goods_shelf_candy",
+    "yuushya:goods_shelf_chopping_board",
+    "yuushya:goods_shelf_frying_pan",
+    "yuushya:goods_shelf_glass",
+    "yuushya:goods_shelf_boxes",
+    "yuushya:goods_shelf_mini_boxes",
+    "yuushya:goods_shelf_magazine",
+    "yuushya:goods_shelf_milk",
+    "yuushya:goods_shelf_soft_drink",
+    "yuushya:goods_shelf_small_soft_drink",
+    "yuushya:goods_shelf_wine",
+    "yuushya:goods_shelf_shampoo",
+    "yuushya:goods_shelf_paste",
+    "yuushya:goods_shelf_jam",
+    "yuushya:goods_shelf_mug",
+    "yuushya:goods_shelf_plate",
+    "yuushya:goods_shelf_potatochip",
+    "yuushya:goods_shelf_snack",
+    "yuushya:magazine_shelf",
+    "yuushya:large_magazine_shelf"
+  ],
+  "enabled": true
+}

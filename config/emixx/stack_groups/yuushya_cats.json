@@ -1,0 +1,16 @@
+{
+  "id": "yuushya:yuushya_cats",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:british_shorthair",
+    "yuushya:orange_cat",
+    "yuushya:white_cat",
+    "yuushya:black_cat",
+    "yuushya:ragdoll",
+    "yuushya:calico",
+    "yuushya:jellie",
+    "yuushya:siamese",
+    "yuushya:tabby"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,23 @@
+{
+  "id": "yuushya:yuushya_acrylic",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:black_acrylic",
+    "yuushya:blue_acrylic",
+    "yuushya:brown_acrylic",
+    "yuushya:cyan_acrylic",
+    "yuushya:gray_acrylic",
+    "yuushya:green_acrylic",
+    "yuushya:light_blue_acrylic",
+    "yuushya:light_gray_acrylic",
+    "yuushya:lime_acrylic",
+    "yuushya:magenta_acrylic",
+    "yuushya:orange_acrylic",
+    "yuushya:pink_acrylic",
+    "yuushya:purple_acrylic",
+    "yuushya:red_acrylic",
+    "yuushya:white_acrylic",
+    "yuushya:yellow_acrylic"
+  ],
+  "enabled": true
+}

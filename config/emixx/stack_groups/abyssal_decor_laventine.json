@@ -1,0 +1,11 @@
+{
+  "id": "abyssal_decor:abyssal_decor_laventine",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:laventine",
+    "abyssal_decor:gilded_laventine_pillar",
+    "abyssal_decor:laventine_glass",
+    "abyssal_decor:laventine_glass_pane_top"
+  ],
+  "enabled": true
+}

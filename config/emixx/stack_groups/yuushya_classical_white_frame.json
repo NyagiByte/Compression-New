@@ -1,0 +1,17 @@
+{
+  "id": "yuushya:yuushya_classical_white_frame",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:classical_white_window_sideway_frame",
+    "yuushya:elaborate_white_window_sideway_frame",
+    "yuushya:classical_white_window_bottom",
+    "yuushya:classical_white_window_top",
+    "yuushya:classical_white_window_top_round",
+    "yuushya:classical_half_round_windows_frame_top_left",
+    "yuushya:classical_half_round_windows_frame_top_right",
+    "yuushya:classical_white_window_top_round_alt",
+    "yuushya:classical_white_trim",
+    "yuushya:classical_white_door_top"
+  ],
+  "enabled": true
+}

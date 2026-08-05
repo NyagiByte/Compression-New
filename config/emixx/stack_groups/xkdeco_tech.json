@@ -1,5 +1,5 @@
 {
-  "id": "xkdeco:xkdeco_mud",
+  "id": "xkdeco:xkdeco_tech",
   "type": "emixx:group",
   "contents": [
     "xkdeco:tech_item_display",
@@ -24,7 +24,9 @@
     "xkdeco:hologram_dna",
     "xkdeco:hologram_pictures",
     "xkdeco:hologram_message",
-    "xkdeco:hologram_xekr_logo"
+    "xkdeco:hologram_xekr_logo",
+    "xkdeco:item_projector",
+    "xkdeco:tech_screen"
   ],
   "enabled": true
 }

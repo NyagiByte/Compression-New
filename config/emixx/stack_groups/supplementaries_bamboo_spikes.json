@@ -1,0 +1,9 @@
+{
+  "id": "supplementaries:supplementaries_bamboo_spikes",
+  "type": "emixx:group",
+  "contents": [
+    "supplementaries:bamboo_spikes",
+    "supplementaries:bamboo_spikes_tipped"
+  ],
+  "enabled": true
+}

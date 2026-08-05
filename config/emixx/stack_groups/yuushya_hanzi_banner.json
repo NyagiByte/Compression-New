@@ -1,0 +1,23 @@
+{
+  "id": "yuushya:yuushya_hanzi_banner",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:hanzi_banner_0",
+    "yuushya:hanzi_banner_1",
+    "yuushya:hanzi_banner_2",
+    "yuushya:hanzi_banner_3",
+    "yuushya:hanzi_banner_4",
+    "yuushya:hanzi_banner_5",
+    "yuushya:hanzi_banner_6",
+    "yuushya:hanzi_banner_7",
+    "yuushya:hanzi_banner_8",
+    "yuushya:hanzi_banner_9",
+    "yuushya:hanzi_banner_10",
+    "yuushya:hanzi_banner_11",
+    "yuushya:hanzi_banner_12",
+    "yuushya:hanzi_banner_13",
+    "yuushya:hanzi_banner_14",
+    "yuushya:hanzi_banner_15"
+  ],
+  "enabled": true
+}

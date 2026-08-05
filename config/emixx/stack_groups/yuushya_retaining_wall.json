@@ -1,0 +1,19 @@
+{
+  "id": "yuushya:yuushya_retaining_wall",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:retaining_wall",
+    "yuushya:retaining_wall_top",
+    "yuushya:retaining_wall_corner",
+    "yuushya:retaining_wall_top_corner",
+    "yuushya:half_carved_retaining_wall_0",
+    "yuushya:half_carved_retaining_wall_1",
+    "yuushya:half_hollow_retaining_wall_0",
+    "yuushya:half_hollow_retaining_wall_1",
+    "yuushya:half_carved_retaining_wall_top_0",
+    "yuushya:half_carved_retaining_wall_top_1",
+    "yuushya:half_hollow_retaining_wall_top_0",
+    "yuushya:half_hollow_retaining_wall_top_1"
+  ],
+  "enabled": true
+}

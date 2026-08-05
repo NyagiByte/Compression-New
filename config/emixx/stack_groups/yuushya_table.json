@@ -1,0 +1,18 @@
+{
+  "id": "yuushya:yuushya_table",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:raw_acacia_table",
+    "yuushya:raw_birch_table",
+    "yuushya:raw_dark_oak_table",
+    "yuushya:raw_jungle_table",
+    "yuushya:raw_oak_table",
+    "yuushya:raw_spruce_table",
+    "yuushya:raw_crimson_table",
+    "yuushya:raw_warped_table",
+    "yuushya:raw_mangrove_table",
+    "yuushya:raw_bamboo_table",
+    "yuushya:raw_cherry_table"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,11 @@
+{
+  "id": "abyssal_decor:abyssal_decor_rockwater",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:rockwater_block",
+    "abyssal_decor:polished_rockwater",
+    "abyssal_decor:rockwater_glass",
+    "abyssal_decor:rockwater_glass_pane"
+  ],
+  "enabled": true
+}

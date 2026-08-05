@@ -1,0 +1,28 @@
+{
+  "id": "yuushya:yuushya_mounted_clothes",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:mounted_clothes_0",
+    "yuushya:mounted_clothes_1",
+    "yuushya:mounted_clothes_2",
+    "yuushya:mounted_clothes_3",
+    "yuushya:mounted_clothes_4",
+    "yuushya:mounted_clothes_5",
+    "yuushya:mounted_clothes_6",
+    "yuushya:mounted_clothes_7",
+    "yuushya:mounted_clothes_8",
+    "yuushya:mounted_clothes_9",
+    "yuushya:mounted_clothes_10",
+    "yuushya:mounted_clothes_11",
+    "yuushya:mounted_clothes_12",
+    "yuushya:mounted_clothes_13",
+    "yuushya:mounted_clothes_14",
+    "yuushya:mounted_clothes_15",
+    "yuushya:mounted_clothes_16",
+    "yuushya:mounted_cloth_0",
+    "yuushya:mounted_cloth_1",
+    "yuushya:mounted_cloth_2",
+    "yuushya:mounted_cloth_3"
+  ],
+  "enabled": true
+}

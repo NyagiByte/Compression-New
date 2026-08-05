@@ -1,0 +1,29 @@
+{
+  "id": "yuushya:yuushya_wood_blindwall",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:a_acacia_blindwall",
+    "yuushya:a_birch_blindwall",
+    "yuushya:a_dark_oak_blindwall",
+    "yuushya:a_jungle_blindwall",
+    "yuushya:a_oak_blindwall",
+    "yuushya:a_spruce_blindwall",
+    "yuushya:a_crimson_blindwall",
+    "yuushya:a_warped_blindwall",
+    "yuushya:a_mangrove_blindwall",
+    "yuushya:a_bamboo_blindwall",
+    "yuushya:a_cherry_blindwall",
+    "yuushya:b_acacia_blindwall",
+    "yuushya:b_birch_blindwall",
+    "yuushya:b_dark_oak_blindwall",
+    "yuushya:b_jungle_blindwall",
+    "yuushya:b_oak_blindwall",
+    "yuushya:b_spruce_blindwall",
+    "yuushya:b_crimson_blindwall",
+    "yuushya:b_warped_blindwall",
+    "yuushya:b_mangrove_blindwall",
+    "yuushya:b_bamboo_blindwall",
+    "yuushya:b_cherry_blindwall"
+  ],
+  "enabled": true
+}

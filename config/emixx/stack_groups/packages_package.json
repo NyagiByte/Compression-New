@@ -1,0 +1,8 @@
+{
+  "id": "packages:package",
+  "type": "emixx:group",
+  "contents": [
+    "packages:package"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "yuushya:yuushya_rain_shed",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:rain_shed_0",
+    "yuushya:rain_shed_1",
+    "yuushya:rain_shed_2",
+    "yuushya:rain_shed_3",
+    "yuushya:rain_shed_4",
+    "yuushya:rain_shed_5",
+    "yuushya:rain_shed_6",
+    "yuushya:lengthened_rain_shed_0",
+    "yuushya:lengthened_rain_shed_1",
+    "yuushya:lengthened_rain_shed_2",
+    "yuushya:lengthened_rain_shed_3",
+    "yuushya:lengthened_rain_shed_6",
+    "yuushya:lengthened_rain_shed_7",
+    "yuushya:lengthened_rain_shed_8"
+  ],
+  "enabled": true
+}

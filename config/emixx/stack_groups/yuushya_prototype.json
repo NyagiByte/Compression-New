@@ -1,0 +1,21 @@
+{
+  "id": "yuushya:yuushya_prototype",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:window_blueprint",
+    "yuushya:block_blueprint",
+    "yuushya:wood_blueprint",
+    "yuushya:stone_blueprint",
+    "yuushya:fabric_blueprint",
+    "yuushya:catering_blueprint",
+    "yuushya:living_being_blueprint",
+    "yuushya:store_blueprint",
+    "yuushya:sign_blueprint",
+    "yuushya:furniture_blueprint",
+    "yuushya:lighting_blueprint",
+    "yuushya:facility_blueprint",
+    "yuushya:traffic_blueprint",
+    "yuushya:extra_shapes_blueprint"
+  ],
+  "enabled": true
+}

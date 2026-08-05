@@ -1,0 +1,19 @@
+{
+  "id": "yuushya:yuushya_drawer",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:raw_acacia_drawer",
+    "yuushya:raw_birch_drawer",
+    "yuushya:raw_dark_oak_drawer",
+    "yuushya:raw_jungle_drawer",
+    "yuushya:raw_oak_drawer",
+    "yuushya:raw_spruce_drawer",
+    "yuushya:raw_crimson_drawer",
+    "yuushya:raw_warped_drawer",
+    "yuushya:raw_mangrove_drawer",
+    "yuushya:raw_bamboo_drawer",
+    "yuushya:raw_cherry_drawer",
+    "yuushya:raw_dark_oak_vertical_drawer"
+  ],
+  "enabled": true
+}

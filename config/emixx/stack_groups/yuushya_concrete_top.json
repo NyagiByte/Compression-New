@@ -1,0 +1,23 @@
+{
+  "id": "yuushya:yuushya_concrete_top",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:black_concrete_top",
+    "yuushya:blue_concrete_top",
+    "yuushya:brown_concrete_top",
+    "yuushya:cyan_concrete_top",
+    "yuushya:gray_concrete_top",
+    "yuushya:green_concrete_top",
+    "yuushya:light_blue_concrete_top",
+    "yuushya:light_gray_concrete_top",
+    "yuushya:lime_concrete_top",
+    "yuushya:magenta_concrete_top",
+    "yuushya:orange_concrete_top",
+    "yuushya:pink_concrete_top",
+    "yuushya:purple_concrete_top",
+    "yuushya:red_concrete_top",
+    "yuushya:white_concrete_top",
+    "yuushya:yellow_concrete_top"
+  ],
+  "enabled": true
+}
