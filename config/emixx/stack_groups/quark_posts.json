@@ -1,0 +1,6 @@
+{
+  "type": "emixx:tag",
+  "id": "quark:quark_posts",
+  "tag": "quark:posts",
+  "enabled": false
+}

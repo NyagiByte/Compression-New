@@ -1,0 +1,25 @@
+{
+  "id": "tastytiles:tastytiles_grid_tiles",
+  "type": "emixx:group",
+  "contents": [
+    "#tastytiles:grid_red_tiles",
+    "#tastytiles:grid_purple_tiles",
+    "#tastytiles:grid_teal_tiles",
+    "#tastytiles:grid_pool_tiles",
+    "#tastytiles:grid_sage_tiles",
+    "#tastytiles:grid_mixed_tiles",
+    "#tastytiles:grid_white_tiles",
+    "#tastytiles:grid_black_tiles",
+    "#tastytiles:grid_sewer_tiles",
+    "tastytiles:grid_red_tile_slab",
+    "tastytiles:grid_purple_tile_slab",
+    "tastytiles:grid_teal_tile_slab",
+    "tastytiles:grid_pool_tile_slab",
+    "tastytiles:grid_sage_tile_slab",
+    "tastytiles:grid_mixed_tile_slab",
+    "tastytiles:grid_white_tile_slab",
+    "tastytiles:grid_black_tile_slab",
+    "tastytiles:grid_sewer_tile_slab"
+  ],
+  "enabled": true
+}

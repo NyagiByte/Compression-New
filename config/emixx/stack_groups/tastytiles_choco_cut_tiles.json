@@ -1,0 +1,21 @@
+{
+  "id": "tastytiles:tastytiles_choco_cut_tiles",
+  "type": "emixx:group",
+  "contents": [
+    "#tastytiles:choco_cut_tiles",
+    "#tastytiles:choco_cut_split_tiles",
+    "#tastytiles:choco_cut_diamond_tiles",
+    "#tastytiles:choco_cut_heart_tiles",
+    "#tastytiles:choco_cut_circle_tiles",
+    "#tastytiles:choco_cut_triangle_tiles",
+    "#tastytiles:choco_cut_square_tiles",
+    "tastytiles:choco_cut_tile_slab",
+    "tastytiles:choco_cut_split_tile_slab",
+    "tastytiles:choco_cut_diamond_tile_slab",
+    "tastytiles:choco_cut_heart_tile_slab",
+    "tastytiles:choco_cut_circle_tile_slab",
+    "tastytiles:choco_cut_triangle_tile_slab",
+    "tastytiles:choco_cut_square_tile_slab"
+  ],
+  "enabled": true
+}

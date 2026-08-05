@@ -1,0 +1,20 @@
+{
+  "id": "tastytiles:tastytiles_endleline_tiles",
+  "type": "emixx:group",
+  "contents": [
+    "#tastytiles:endleline_tiles",
+    "tastytiles:endleline_tile_slab",
+    "tastytiles:endleline_centra_tile_slab",
+    "tastytiles:endleline_figure_tile_slab",
+    "tastytiles:endleline_floward_tile_slab",
+    "tastytiles:endleline_inward_tile_slab",
+    "tastytiles:endleline_rect_tile_slab",
+    "tastytiles:endleline_seeping_tile_slab",
+    "tastytiles:endleline_swirl_tile_slab",
+    "tastytiles:endleline_tower_tile_slab",
+    "tastytiles:endleline_turn_tile_slab",
+    "tastytiles:endleline_zing_tile_slab",
+    "tastytiles:endleline_zune_tile_slab"
+  ],
+  "enabled": true
+}

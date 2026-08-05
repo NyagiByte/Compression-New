@@ -1,0 +1,11 @@
+{
+  "id": "biomeswevegone:BWG_palo_verde_wood",
+  "type": "emixx:group",
+  "contents": [
+    "biomeswevegone:palo_verde_log",
+    "biomeswevegone:palo_verde_wood",
+    "biomeswevegone:stripped_palo_verde_log",
+    "biomeswevegone:stripped_palo_verde_wood"
+  ],
+  "enabled": true
+}

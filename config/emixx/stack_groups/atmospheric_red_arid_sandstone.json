@@ -1,0 +1,17 @@
+{
+  "id": "atmospheric:atmospheric_red_arid_sandstone",
+  "type": "emixx:group",
+  "contents": [
+    "atmospheric:red_arid_sandstone",
+    "atmospheric:red_arid_sandstone_stairs",
+    "atmospheric:red_arid_sandstone_slab",
+    "atmospheric:red_arid_sandstone_wall",
+    "atmospheric:chiseled_red_arid_sandstone",
+    "atmospheric:smooth_red_arid_sandstone",
+    "atmospheric:smooth_red_arid_sandstone_stairs",
+    "atmospheric:smooth_red_arid_sandstone_slab",
+    "atmospheric:cut_red_arid_sandstone",
+    "atmospheric:cut_red_arid_sandstone_slab"
+  ],
+  "enabled": true
+}

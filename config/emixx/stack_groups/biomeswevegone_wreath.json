@@ -1,0 +1,14 @@
+{
+  "id": "biomeswevegone:BWG_wreath",
+  "type": "emixx:group",
+  "contents": [
+    "biomeswevegone:wreath",
+    "biomeswevegone:holly_wreath",
+    "biomeswevegone:mushroom_wreath",
+    "biomeswevegone:oddion_wreath",
+    "biomeswevegone:petal_wreath",
+    "biomeswevegone:rosy_wreath",
+    "biomeswevegone:winter_rosy_wreath"
+  ],
+  "enabled": true
+}

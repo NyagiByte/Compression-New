@@ -1,0 +1,10 @@
+{
+  "id": "natures_spirit:natures_spirit_kaolin",
+  "type": "emixx:group",
+  "contents": [
+    "#natures_spirit:kaolin",
+    "#natures_spirit:kaolin_slabs",
+    "#natures_spirit:kaolin_stairs"
+  ],
+  "enabled": true
+}

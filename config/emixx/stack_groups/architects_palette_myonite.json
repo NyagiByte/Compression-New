@@ -1,0 +1,22 @@
+{
+  "id": "architects_palette:architects_palette_myonite",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:myonite",
+    "architects_palette:myonite_vertical_slab",
+    "architects_palette:myonite_bricks",
+    "architects_palette:myonite_brick_vertical_slab",
+    "architects_palette:mushy_myonite_bricks",
+    "architects_palette:mushy_myonite_brick_vertical_slab",
+    "architects_palette:myonite_slab",
+    "architects_palette:myonite_stairs",
+    "architects_palette:myonite_brick_slab",
+    "architects_palette:myonite_brick_stairs",
+    "architects_palette:mushy_myonite_brick_slab",
+    "architects_palette:mushy_myonite_brick_stairs",
+    "architects_palette:myonite_wall",
+    "architects_palette:myonite_brick_wall",
+    "architects_palette:mushy_myonite_brick_wall"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": "xkdeco:xkdeco_blackstone",
+  "type": "emixx:group",
+  "contents": [
+    "xkdeco:blackstone_pillar",
+    "xkdeco:blackstone_pavement",
+    "xkdeco:blackstone_pavement_slab",
+    "xkdeco:gilded_blackstone_bricks",
+    "xkdeco:gilded_blackstone_brick_slab",
+    "xkdeco:gilded_blackstone_brick_stairs",
+    "xkdeco:gilded_blackstone_brick_pillar",
+    "xkdeco:chiseled_gilded_blackstone",
+    "xkdeco:luxury_gilded_blackstone"
+  ],
+  "enabled": true
+}

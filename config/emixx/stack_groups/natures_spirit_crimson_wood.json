@@ -1,0 +1,25 @@
+{
+  "id": "natures_spirit:natures_spirit_crimson_wood",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:crimson_stem",
+    "quark:hollow_crimson_stem",
+    "minecraft:crimson_hyphae",
+    "minecraft:stripped_crimson_stem",
+    "minecraft:stripped_crimson_hyphae",
+    "minecraft:crimson_planks",
+    "quark:vertical_crimson_planks",
+    "minecraft:crimson_stairs",
+    "minecraft:crimson_slab",
+    "quark:crimson_vertical_slab",
+    "quark:crimson_post",
+    "quark:stripped_crimson_post",
+    "minecraft:crimson_fence",
+    "minecraft:crimson_fence_gate",
+    "minecraft:crimson_door",
+    "minecraft:crimson_trapdoor",
+    "minecraft:crimson_pressure_plate",
+    "minecraft:crimson_button"
+  ],
+  "enabled": true
+}

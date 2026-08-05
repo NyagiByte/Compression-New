@@ -1,0 +1,14 @@
+{
+  "id": "atmospheric:atmospheric_dolerite",
+  "type": "emixx:group",
+  "contents": [
+    "atmospheric:dolerite",
+    "atmospheric:dolerite_stairs",
+    "atmospheric:dolerite_slab",
+    "atmospheric:dolerite_wall",
+    "atmospheric:polished_dolerite",
+    "atmospheric:polished_dolerite_stairs",
+    "atmospheric:polished_dolerite_slab"
+  ],
+  "enabled": true
+}

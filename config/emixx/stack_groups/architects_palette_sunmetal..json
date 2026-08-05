@@ -1,0 +1,15 @@
+{
+  "id": "architects_palette:architects_palette_sunmetal",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:sunmetal_block",
+    "architects_palette:sunmetal_vertical_slab",
+    "architects_palette:sunmetal_nub",
+    "architects_palette:chiseled_sunmetal_block",
+    "architects_palette:sunmetal_pillar",
+    "architects_palette:sunmetal_bars",
+    "architects_palette:sunmetal_slab",
+    "architects_palette:sunmetal_stairs"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,11 @@
+{
+  "id": "abyssal_decor:abyssal_decor_effervescence",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:effervescent_pillar",
+    "abyssal_decor:polished_effervescence",
+    "abyssal_decor:effervescent_tiles",
+    "abyssal_decor:effervescence"
+  ],
+  "enabled": true
+}

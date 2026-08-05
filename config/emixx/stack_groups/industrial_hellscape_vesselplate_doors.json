@@ -1,0 +1,11 @@
+{
+  "id": "industrial_hellscape:industrial_hellscape_vesselplate_doors",
+  "type": "emixx:group",
+  "contents": [
+    "industrialhellscape:vesselplate_door",
+    "industrialhellscape:vesselplate_trapdoor",
+    "industrialhellscape:gray_vesselplate_door",
+    "industrialhellscape:gray_vesselplate_trapdoor"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,16 @@
+{
+  "id": "minecraft:packed_mud",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:packed_mud",
+    "minecraft:mud_bricks",
+    "minecraft:mud_brick_stairs",
+    "quark:carved_mud_bricks",
+    "quark:mud_pillar",
+    "quark:mud_brick_lattice",
+    "minecraft:mud_brick_slab",
+    "quark:mud_brick_vertical_slab",
+    "minecraft:mud_brick_wall"
+  ],
+  "enabled": true
+}

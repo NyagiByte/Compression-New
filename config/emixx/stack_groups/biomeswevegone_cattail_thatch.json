@@ -1,0 +1,11 @@
+{
+  "id": "biomeswevegone:BWG_cattail_thatch",
+  "type": "emixx:group",
+  "contents": [
+    "biomeswevegone:cattail_thatch",
+    "biomeswevegone:cattail_thatch_slab",
+    "biomeswevegone:cattail_thatch_stairs",
+    "biomeswevegone:cattail_thatch_carpet"
+  ],
+  "enabled": true
+}

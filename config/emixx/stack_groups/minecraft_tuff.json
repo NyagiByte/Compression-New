@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:tuff",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:tuff",
+    "quark:polished_tuff",
+    "quark:tuff_bricks",
+    "quark:chiseled_tuff_bricks",
+    "quark:tuff_pillar",
+    "quark:tuff_bricks_wall",
+    "quark:tuff_bricks_slab",
+    "quark:tuff_bricks_vertical_slab",
+    "quark:tuff_bricks_stairs",
+    "quark:tuff_wall",
+    "quark:tuff_slab",
+    "quark:tuff_vertical_slab",
+    "quark:tuff_stairs",
+    "quark:polished_tuff_slab",
+    "quark:polished_tuff_vertical_slab",
+    "quark:polished_tuff_stairs"
+  ],
+  "enabled": true
+}

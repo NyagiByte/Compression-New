@@ -1,0 +1,17 @@
+{
+  "id": "tastytiles:tastytiles_warm_tiles",
+  "type": "emixx:group",
+  "contents": [
+    "#tastytiles:warm_tiles",
+    "tastytiles:warm_tile_slab",
+    "tastytiles:warm_pattern_tile_slab",
+    "tastytiles:warm_knit_tile_slab",
+    "tastytiles:warm_cross_tile_slab",
+    "tastytiles:warm_checker_tile_slab",
+    "tastytiles:warm_step_tile_slab",
+    "tastytiles:warm_criss_tile_slab",
+    "tastytiles:warm_flake_tile_slab",
+    "tastytiles:warm_edge_tile_slab"
+  ],
+  "enabled": true
+}

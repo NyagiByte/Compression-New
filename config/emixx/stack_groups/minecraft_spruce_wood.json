@@ -1,0 +1,25 @@
+{
+  "id": "minecraft:spruce_wood",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:spruce_log",
+    "quark:hollow_spruce_log",
+    "minecraft:spruce_wood",
+    "minecraft:stripped_spruce_log",
+    "minecraft:stripped_spruce_wood",
+    "minecraft:spruce_planks",
+    "quark:vertical_spruce_planks",
+    "minecraft:spruce_stairs",
+    "minecraft:spruce_slab",
+    "quark:spruce_vertical_slab",
+    "quark:spruce_post",
+    "quark:stripped_spruce_post",
+    "minecraft:spruce_fence",
+    "minecraft:spruce_fence_gate",
+    "minecraft:spruce_door",
+    "minecraft:spruce_trapdoor",
+    "minecraft:spruce_pressure_plate",
+    "minecraft:spruce_button"
+  ],
+  "enabled": true
+}

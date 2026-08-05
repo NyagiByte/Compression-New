@@ -1,0 +1,18 @@
+{
+  "id": "abyssal_decor:abyssal_decor_dull_iron",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:dull_iron_bars",
+    "abyssal_decor:small_dull_bars_corner",
+    "abyssal_decor:small_dull_iron_bars",
+    "abyssal_decor:dull_iron_sconce",
+    "abyssal_decor:ornate_dull_iron_bars",
+    "abyssal_decor:dull_iron_bar_door",
+    "abyssal_decor:dull_iron_bar_trapdoor",
+    "abyssal_decor:iron_ball_item",
+    "abyssal_decor:dull_iron_post",
+    "abyssal_decor:dull_iron_door",
+    "abyssal_decor:dull_iron_trapdoor"
+  ],
+  "enabled": true
+}

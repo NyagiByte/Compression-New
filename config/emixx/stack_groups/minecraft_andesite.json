@@ -1,0 +1,23 @@
+{
+  "id": "minecraft:andesite",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:andesite",
+    "minecraft:andesite_stairs",
+    "minecraft:andesite_slab",
+    "quark:andesite_vertical_slab",
+    "minecraft:andesite_wall",
+    "minecraft:polished_andesite",
+    "quark:andesite_bricks",
+    "quark:chiseled_andesite_bricks",
+    "quark:andesite_pillar",
+    "quark:andesite_bricks_wall",
+    "quark:andesite_bricks_slab",
+    "quark:andesite_bricks_vertical_slab",
+    "quark:andesite_bricks_stairs",
+    "minecraft:polished_andesite_stairs",
+    "minecraft:polished_andesite_slab",
+    "quark:polished_andesite_vertical_slab"
+  ],
+  "enabled": true
+}

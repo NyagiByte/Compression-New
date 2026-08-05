@@ -1,0 +1,16 @@
+{
+  "id": "tastytiles:tastytiles_sandy_tiles",
+  "type": "emixx:group",
+  "contents": [
+    "#tastytiles:sandy_tiles",
+    "tastytiles:sandy_tile_slab",
+    "tastytiles:sandy_moroccan_tile_slab",
+    "tastytiles:sandy_squared_tile_slab",
+    "tastytiles:sandy_ring_tile_slab",
+    "tastytiles:sandy_lined_tile_slab",
+    "tastytiles:sandy_strike_tile_slab",
+    "tastytiles:sandy_wave_tile_slab",
+    "tastytiles:sandy_shell_tile_slab"
+  ],
+  "enabled": true
+}

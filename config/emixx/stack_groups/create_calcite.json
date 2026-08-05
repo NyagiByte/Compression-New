@@ -1,0 +1,25 @@
+{
+  "id": "create:create_calcite",
+  "type": "emixx:group",
+  "contents": [
+    "create:cut_calcite",
+    "create:cut_calcite_stairs",
+    "create:cut_calcite_slab",
+    "create:cut_calcite_wall",
+    "create:polished_cut_calcite",
+    "create:polished_cut_calcite_stairs",
+    "create:polished_cut_calcite_slab",
+    "create:polished_cut_calcite_wall",
+    "create:cut_calcite_bricks",
+    "create:cut_calcite_brick_stairs",
+    "create:cut_calcite_brick_slab",
+    "create:cut_calcite_brick_wall",
+    "create:small_calcite_bricks",
+    "create:small_calcite_brick_stairs",
+    "create:small_calcite_brick_slab",
+    "create:small_calcite_brick_wall",
+    "create:layered_calcite",
+    "create:calcite_pillar"
+  ],
+  "enabled": true
+}

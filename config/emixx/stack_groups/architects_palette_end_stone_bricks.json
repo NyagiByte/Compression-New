@@ -1,0 +1,12 @@
+{
+  "id": "architects_palette:architects_palette_end_stone_bricks",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:choral_end_stone_bricks",
+    "architects_palette:cracked_end_stone_bricks",
+    "architects_palette:chiseled_end_stone_bricks",
+    "architects_palette:heavy_end_stone_bricks",
+    "architects_palette:heavy_cracked_end_stone_bricks"
+  ],
+  "enabled": true
+}

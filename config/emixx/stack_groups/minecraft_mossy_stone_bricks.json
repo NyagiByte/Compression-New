@@ -1,0 +1,12 @@
+{
+  "id": "minecraft:mossy_stone_bricks",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:mossy_stone_bricks",
+    "minecraft:mossy_stone_brick_stairs",
+    "minecraft:mossy_stone_brick_slab",
+    "quark:mossy_stone_brick_vertical_slab",
+    "minecraft:mossy_stone_brick_wall"
+  ],
+  "enabled": true
+}

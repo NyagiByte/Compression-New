@@ -1,0 +1,14 @@
+{
+  "id": "industrial_hellscape:industrial_hellscape_desk",
+  "type": "emixx:group",
+  "contents": [
+    "industrialhellscape:desk",
+    "industrialhellscape:desk_drawer",
+    "industrialhellscape:metal_desk",
+    "industrialhellscape:metal_desk_drawer",
+    "industrialhellscape:metal_desk_drawer_2",
+    "industrialhellscape:office_desk",
+    "industrialhellscape:office_desk_drawer"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "create:create_tuff",
+  "type": "emixx:group",
+  "contents": [
+    "create:cut_tuff",
+    "create:cut_tuff_stairs",
+    "create:cut_tuff_slab",
+    "create:cut_tuff_wall",
+    "create:polished_cut_tuff",
+    "create:polished_cut_tuff_stairs",
+    "create:polished_cut_tuff_slab",
+    "create:polished_cut_tuff_wall",
+    "create:cut_tuff_bricks",
+    "create:cut_tuff_brick_stairs",
+    "create:cut_tuff_brick_slab",
+    "create:cut_tuff_brick_wall",
+    "create:small_tuff_bricks",
+    "create:small_tuff_brick_stairs",
+    "create:small_tuff_brick_slab",
+    "create:small_tuff_brick_wall",
+    "create:layered_tuff",
+    "create:tuff_pillar"
+  ],
+  "enabled": true
+}

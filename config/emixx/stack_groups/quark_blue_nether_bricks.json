@@ -1,0 +1,12 @@
+{
+  "id": "quark:quark_blue_nether_bricks",
+  "type": "emixx:group",
+  "contents": [
+    "quark:blue_nether_bricks",
+    "quark:blue_nether_bricks_stairs",
+    "quark:blue_nether_bricks_slab",
+    "quark:blue_nether_bricks_vertical_slab",
+    "quark:blue_nether_bricks_wall"
+  ],
+  "enabled": true
+}

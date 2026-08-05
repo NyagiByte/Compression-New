@@ -1,0 +1,13 @@
+{
+  "id": "abyssal_decor:abyssal_decor_victorian_green",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:rough_jade",
+    "abyssal_decor:polished_jade",
+    "abyssal_decor:jade_bricks",
+    "abyssal_decor:jade_pillar",
+    "abyssal_decor:gilded_jade_pillar",
+    "abyssal_decor:jade_lantern_off"
+  ],
+  "enabled": true
+}

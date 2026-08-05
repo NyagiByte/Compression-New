@@ -1,0 +1,10 @@
+{
+  "id": "natures_spirit:natures_spirit_chalk",
+  "type": "emixx:group",
+  "contents": [
+    "#natures_spirit:chalk",
+    "#natures_spirit:chalk_slabs",
+    "#natures_spirit:chalk_stairs"
+  ],
+  "enabled": true
+}

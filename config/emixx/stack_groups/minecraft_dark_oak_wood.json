@@ -1,0 +1,25 @@
+{
+  "id": "minecraft:dark_oak_wood",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:dark_oak_log",
+    "quark:hollow_dark_oak_log",
+    "minecraft:dark_oak_wood",
+    "minecraft:stripped_dark_oak_log",
+    "minecraft:stripped_dark_oak_wood",
+    "minecraft:dark_oak_planks",
+    "quark:vertical_dark_oak_planks",
+    "minecraft:dark_oak_stairs",
+    "minecraft:dark_oak_slab",
+    "quark:dark_oak_vertical_slab",
+    "quark:dark_oak_post",
+    "quark:stripped_dark_oak_post",
+    "minecraft:dark_oak_fence",
+    "minecraft:dark_oak_fence_gate",
+    "minecraft:dark_oak_door",
+    "minecraft:dark_oak_trapdoor",
+    "minecraft:dark_oak_pressure_plate",
+    "minecraft:dark_oak_button"
+  ],
+  "enabled": true
+}

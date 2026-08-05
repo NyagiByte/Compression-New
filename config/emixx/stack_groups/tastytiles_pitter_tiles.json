@@ -1,0 +1,25 @@
+{
+  "id": "tastytiles:tastytiles_pitter_tiles",
+  "type": "emixx:group",
+  "contents": [
+    "#tastytiles:brick_pitter_tiles",
+    "#tastytiles:fire_pitter_tiles",
+    "#tastytiles:ochre_pitter_tiles",
+    "#tastytiles:earthy_pitter_tiles",
+    "#tastytiles:pale_pitter_tiles",
+    "#tastytiles:lush_pitter_tiles",
+    "#tastytiles:deep_pitter_tiles",
+    "#tastytiles:pitch_pitter_tiles",
+    "#tastytiles:pink_pitter_tiles",
+    "tastytiles:brick_pitter_tile_slab",
+    "tastytiles:fire_pitter_tile_slab",
+    "tastytiles:ochre_pitter_tile_slab",
+    "tastytiles:earthy_pitter_tile_slab",
+    "tastytiles:pale_pitter_tile_slab",
+    "tastytiles:lush_pitter_tile_slab",
+    "tastytiles:deep_pitter_tile_slab",
+    "tastytiles:pitch_pitter_tile_slab",
+    "tastytiles:pink_pitter_tile_slab"
+  ],
+  "enabled": true
+}

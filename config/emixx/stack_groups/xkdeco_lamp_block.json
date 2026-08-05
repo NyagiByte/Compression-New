@@ -1,0 +1,16 @@
+{
+  "id": "xkdeco:xkdeco_lamp_block",
+  "type": "emixx:group",
+  "contents": [
+    "xkdeco:factory_lamp_block",
+    "xkdeco:factory_lamp_slab",
+    "xkdeco:factory_lamp_stairs",
+    "xkdeco:tech_lamp_block",
+    "xkdeco:tech_lamp_slab",
+    "xkdeco:tech_lamp_stairs",
+    "xkdeco:translucent_lamp_block",
+    "xkdeco:translucent_lamp_slab",
+    "xkdeco:translucent_lamp_stairs"
+  ],
+  "enabled": true
+}

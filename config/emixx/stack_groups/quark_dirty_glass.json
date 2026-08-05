@@ -1,0 +1,9 @@
+{
+  "id": "quark:quark_dirty_glass",
+  "type": "emixx:group",
+  "contents": [
+    "quark:dirty_glass",
+    "quark:dirty_glass_pane"
+  ],
+  "enabled": true
+}

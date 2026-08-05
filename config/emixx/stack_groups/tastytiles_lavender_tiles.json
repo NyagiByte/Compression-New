@@ -1,0 +1,17 @@
+{
+  "id": "tastytiles:tastytiles_lavender_tiles",
+  "type": "emixx:group",
+  "contents": [
+    "#tastytiles:lavender_tiles",
+    "tastytiles:lavender_tile_slab",
+    "tastytiles:lavender_pattern_tile_slab",
+    "tastytiles:lavender_knit_tile_slab",
+    "tastytiles:lavender_cross_tile_slab",
+    "tastytiles:lavender_checker_tile_slab",
+    "tastytiles:lavender_step_tile_slab",
+    "tastytiles:lavender_criss_tile_slab",
+    "tastytiles:lavender_flake_tile_slab",
+    "tastytiles:lavender_edge_tile_slab"
+  ],
+  "enabled": true
+}

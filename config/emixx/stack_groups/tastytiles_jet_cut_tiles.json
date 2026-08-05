@@ -1,0 +1,21 @@
+{
+  "id": "tastytiles:tastytiles_jet_cut_tiles",
+  "type": "emixx:group",
+  "contents": [
+    "#tastytiles:jet_cut_tiles",
+    "#tastytiles:jet_cut_split_tiles",
+    "#tastytiles:jet_cut_diamond_tiles",
+    "#tastytiles:jet_cut_heart_tiles",
+    "#tastytiles:jet_cut_circle_tiles",
+    "#tastytiles:jet_cut_triangle_tiles",
+    "#tastytiles:jet_cut_square_tiles",
+    "tastytiles:jet_cut_tile_slab",
+    "tastytiles:jet_cut_split_tile_slab",
+    "tastytiles:jet_cut_diamond_tile_slab",
+    "tastytiles:jet_cut_heart_tile_slab",
+    "tastytiles:jet_cut_circle_tile_slab",
+    "tastytiles:jet_cut_triangle_tile_slab",
+    "tastytiles:jet_cut_square_tile_slab"
+  ],
+  "enabled": true
+}

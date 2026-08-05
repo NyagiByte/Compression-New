@@ -1,0 +1,28 @@
+{
+  "id": "abyssal_decor:abyssal_black_pearl",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:gilded_black_pearl",
+    "abyssal_decor:gilded_black_pearl_door",
+    "abyssal_decor:gilded_black_pearl_trapdoor",
+    "abyssal_decor:block_of_black_pearl",
+    "abyssal_decor:cut_black_pearl_block",
+    "abyssal_decor:chiseled_black_pearl",
+    "abyssal_decor:black_pearl_pillar",
+    "abyssal_decor:black_pearl_stairs",
+    "abyssal_decor:black_pearl_slab",
+    "abyssal_decor:black_pearl_wall",
+    "abyssal_decor:smooth_black_pearl_block",
+    "abyssal_decor:smooth_black_pearl_stairs",
+    "abyssal_decor:smooth_black_pearl_slab",
+    "abyssal_decor:smooth_black_pearl_wall",
+    "abyssal_decor:black_pearl_bricks",
+    "abyssal_decor:black_pearl_brick_slab",
+    "abyssal_decor:black_pearl_brick_stairs",
+    "abyssal_decor:black_pearl_brick_wall",
+    "abyssal_decor:black_pearl_bars_solo",
+    "abyssal_decor:small_black_pearl_bars",
+    "abyssal_decor:small_black_pearl_bars_corner"
+  ],
+  "enabled": true
+}

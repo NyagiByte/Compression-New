@@ -1,0 +1,19 @@
+{
+  "id": "spelunkery:spelunkery_nephrite",
+  "type": "emixx:group",
+  "contents": [
+    "spelunkery:nephrite",
+    "spelunkery:nephrite_stairs",
+    "spelunkery:nephrite_slab",
+    "spelunkery:nephrite_wall",
+    "spelunkery:polished_nephrite",
+    "spelunkery:polished_nephrite_stairs",
+    "spelunkery:polished_nephrite_slab",
+    "spelunkery:polished_nephrite_wall",
+    "spelunkery:polished_nephrite_bricks",
+    "spelunkery:polished_nephrite_brick_stairs",
+    "spelunkery:polished_nephrite_brick_slab",
+    "spelunkery:polished_nephrite_brick_wall"
+  ],
+  "enabled": true
+}

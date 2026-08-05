@@ -1,0 +1,12 @@
+{
+  "id": "architects_palette:architects_palette_tread_plate",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:tread_plate",
+    "architects_palette:tread_plate_slab",
+    "architects_palette:tread_plate_vertical_slab",
+    "architects_palette:tread_plate_stairs",
+    "architects_palette:tread_plate_wall"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,11 @@
+{
+  "id": "industrial_hellscape:industrial_hellscape_vesselglass",
+  "type": "emixx:group",
+  "contents": [
+    "industrialhellscape:reinforced_vesselglass",
+    "industrialhellscape:vesselglass",
+    "industrialhellscape:gray_reinforced_vesselglass",
+    "industrialhellscape:gray_vesselglass"
+  ],
+  "enabled": true
+}

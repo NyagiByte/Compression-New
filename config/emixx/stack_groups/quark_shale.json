@@ -1,0 +1,23 @@
+{
+  "id": "quark:quark_shale",
+  "type": "emixx:group",
+  "contents": [
+    "quark:shale",
+    "quark:polished_shale",
+    "quark:shale_bricks",
+    "quark:chiseled_shale_bricks",
+    "quark:shale_pillar",
+    "quark:shale_bricks_wall",
+    "quark:shale_bricks_slab",
+    "quark:shale_bricks_vertical_slab",
+    "quark:shale_bricks_stairs",
+    "quark:shale_wall",
+    "quark:shale_slab",
+    "quark:shale_vertical_slab",
+    "quark:shale_stairs",
+    "quark:polished_shale_slab",
+    "quark:polished_shale_vertical_slab",
+    "quark:polished_shale_stairs"
+  ],
+  "enabled": true
+}

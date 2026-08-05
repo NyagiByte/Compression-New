@@ -1,0 +1,13 @@
+{
+  "id": "supplementaries:supplementaries_wattle_and_daub",
+  "type": "emixx:group",
+  "contents": [
+    "#supplementaries:wattle_and_daub",
+    "suppsquared:daub_frame_stairs",
+    "suppsquared:daub_frame_slab",
+    "supplementaries:daub",
+    "suppsquared:daub_stairs",
+    "suppsquared:daub_slab"
+  ],
+  "enabled": true
+}

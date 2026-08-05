@@ -1,0 +1,12 @@
+{
+  "id": "minecraft:mossy_cobblestone",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:mossy_cobblestone",
+    "minecraft:mossy_cobblestone_stairs",
+    "minecraft:mossy_cobblestone_slab",
+    "quark:mossy_cobblestone_vertical_slab",
+    "minecraft:mossy_cobblestone_wall"
+  ],
+  "enabled": true
+}

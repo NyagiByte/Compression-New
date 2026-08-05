@@ -1,0 +1,18 @@
+{
+  "id": "biomeswevegone:BWG_purple_sandstone",
+  "type": "emixx:group",
+  "contents": [
+    "biomeswevegone:purple_sand",
+    "biomeswevegone:purple_sandstone",
+    "biomeswevegone:purple_sandstone_stairs",
+    "biomeswevegone:purple_sandstone_slab",
+    "biomeswevegone:purple_sandstone_wall",
+    "biomeswevegone:chiseled_purple_sandstone",
+    "biomeswevegone:smooth_purple_sandstone",
+    "biomeswevegone:smooth_purple_sandstone_stairs",
+    "biomeswevegone:smooth_purple_sandstone_slab",
+    "biomeswevegone:cut_purple_sandstone",
+    "biomeswevegone:cut_purple_sandstone_slab"
+  ],
+  "enabled": true
+}

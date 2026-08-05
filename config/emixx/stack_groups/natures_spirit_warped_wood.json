@@ -1,0 +1,25 @@
+{
+  "id": "natures_spirit:natures_spirit_warped_wood",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:warped_stem",
+    "quark:hollow_warped_stem",
+    "minecraft:warped_hyphae",
+    "minecraft:stripped_warped_stem",
+    "minecraft:stripped_warped_hyphae",
+    "minecraft:warped_planks",
+    "quark:vertical_warped_planks",
+    "minecraft:warped_stairs",
+    "minecraft:warped_slab",
+    "quark:warped_vertical_slab",
+    "quark:warped_post",
+    "quark:stripped_warped_post",
+    "minecraft:warped_fence",
+    "minecraft:warped_fence_gate",
+    "minecraft:warped_door",
+    "minecraft:warped_trapdoor",
+    "minecraft:warped_pressure_plate",
+    "minecraft:warped_button"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "id": "industrial_hellscape:industrial_hellscape_grate",
+  "type": "emixx:group",
+  "contents": [
+    "industrialhellscape:grate",
+    "industrialhellscape:see-through_grate",
+    "industrialhellscape:rusty_grate",
+    "industrialhellscape:rusty_see-through_grate",
+    "industrialhellscape:gray_grate",
+    "industrialhellscape:gray_see-through_grate"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,12 @@
+{
+  "id": "xkdeco:xkdeco_glass",
+  "type": "emixx:group",
+  "contents": [
+    "xkdeco:glass_tiles",
+    "xkdeco:glass_tile_slab",
+    "xkdeco:glass_tile_stairs",
+    "xkdeco:glass_trapdoor",
+    "xkdeco:glass_door"
+  ],
+  "enabled": true
+}

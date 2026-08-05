@@ -1,0 +1,9 @@
+{
+  "id": "atmospheric:atmospheric_arid_glass",
+  "type": "emixx:group",
+  "contents": [
+    "atmospheric:arid_glass",
+    "atmospheric:arid_glass_pane"
+  ],
+  "enabled": true
+}

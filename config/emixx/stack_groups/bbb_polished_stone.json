@@ -1,0 +1,10 @@
+{
+  "id": "bbb:polished_stone",
+  "type": "emixx:group",
+  "contents": [
+    "bbb:polished_stone",
+    "bbb:polished_stone_stairs",
+    "bbb:polished_stone_slab"
+  ],
+  "enabled": true
+}

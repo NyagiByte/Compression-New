@@ -1,0 +1,15 @@
+{
+  "id": "xkdeco:xkdeco_brick",
+  "type": "emixx:group",
+  "contents": [
+    "xkdeco:cyan_bricks",
+    "xkdeco:cyan_brick_slab",
+    "xkdeco:cyan_brick_stairs",
+    "xkdeco:black_bricks",
+    "xkdeco:black_brick_slab",
+    "xkdeco:black_brick_stairs",
+    "xkdeco:cyan_brick_wall",
+    "xkdeco:black_brick_wall"
+  ],
+  "enabled": true
+}

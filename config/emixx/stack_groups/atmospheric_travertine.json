@@ -1,0 +1,31 @@
+{
+  "id": "atmospheric:atmospheric_travertine",
+  "type": "emixx:group",
+  "contents": [
+    "atmospheric:ivory_travertine",
+    "atmospheric:chiseled_ivory_travertine",
+    "atmospheric:cut_ivory_travertine",
+    "atmospheric:ivory_travertine_stairs",
+    "atmospheric:ivory_travertine_slab",
+    "atmospheric:ivory_travertine_wall",
+    "atmospheric:peach_travertine",
+    "atmospheric:chiseled_peach_travertine",
+    "atmospheric:cut_peach_travertine",
+    "atmospheric:peach_travertine_slab",
+    "atmospheric:peach_travertine_wall",
+    "atmospheric:persimmon_travertine",
+    "atmospheric:chiseled_persimmon_travertine",
+    "atmospheric:cut_persimmon_travertine",
+    "atmospheric:persimmon_travertine_stairs",
+    "atmospheric:persimmon_travertine_slab",
+    "atmospheric:persimmon_travertine_wall",
+    "atmospheric:saffron_travertine",
+    "atmospheric:chiseled_saffron_travertine",
+    "atmospheric:cut_saffron_travertine",
+    "atmospheric:saffron_travertine_stairs",
+    "atmospheric:saffron_travertine_slab",
+    "atmospheric:saffron_travertine_wall",
+    "atmospheric:peach_travertine_stairs"
+  ],
+  "enabled": true
+}

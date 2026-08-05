@@ -1,0 +1,12 @@
+{
+  "id": "architects_palette:architects_palette_craterstone",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:craterstone",
+    "architects_palette:craterstone_slab",
+    "architects_palette:craterstone_vertical_slab",
+    "architects_palette:craterstone_stairs",
+    "architects_palette:craterstone_wall"
+  ],
+  "enabled": true
+}

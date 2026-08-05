@@ -1,0 +1,16 @@
+{
+  "id": "xkdeco:xkdeco_miniature",
+  "type": "emixx:group",
+  "contents": [
+    "xkdeco:miniature_tree",
+    "xkdeco:miniature_cherry",
+    "xkdeco:miniature_ginkgo",
+    "xkdeco:miniature_maple",
+    "xkdeco:miniature_bamboo",
+    "xkdeco:miniature_coral",
+    "xkdeco:miniature_red_coral",
+    "xkdeco:miniature_mount",
+    "xkdeco:miniature_succulents"
+  ],
+  "enabled": true
+}

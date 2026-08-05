@@ -1,0 +1,21 @@
+{
+  "id": "architects_palette:architects_palette_moonshale",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:moonshale",
+    "architects_palette:moonshale_slab",
+    "architects_palette:moonshale_vertical_slab",
+    "architects_palette:moonshale_stairs",
+    "architects_palette:moonshale_wall",
+    "architects_palette:chiseled_moonshale",
+    "architects_palette:moonshale_bricks",
+    "architects_palette:moonshale_brick_slab",
+    "architects_palette:moonshale_brick_vertical_slab",
+    "architects_palette:moonshale_brick_stairs",
+    "architects_palette:moonshale_brick_wall",
+    "architects_palette:cracked_moonshale_bricks",
+    "architects_palette:moonshale_flagstone",
+    "architects_palette:bordered_moonshale"
+  ],
+  "enabled": true
+}

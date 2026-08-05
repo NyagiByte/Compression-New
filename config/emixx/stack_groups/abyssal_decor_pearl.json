@@ -1,0 +1,32 @@
+{
+  "id": "abyssal_decor:abyssal_decor_pearl",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:block_of_pearl",
+    "abyssal_decor:cut_pearl_block",
+    "abyssal_decor:chiseled_pearl",
+    "abyssal_decor:white_pearl_pillar",
+    "abyssal_decor:pearl_slab",
+    "abyssal_decor:pearl_stairs",
+    "abyssal_decor:pearl_wall",
+    "abyssal_decor:pearl_bricks",
+    "abyssal_decor:pearl_brick_slab",
+    "abyssal_decor:pearl_brick_stairs",
+    "abyssal_decor:pearl_brick_wall",
+    "abyssal_decor:smooth_pearl_block",
+    "abyssal_decor:smooth_pearl_slab",
+    "abyssal_decor:smooth_pearl_stairs",
+    "abyssal_decor:smooth_pearl_wall",
+    "abyssal_decor:white_pearl_bar_door",
+    "abyssal_decor:white_pearl_bar_trapdoor",
+    "abyssal_decor:pearly_bars_solo",
+    "abyssal_decor:small_pearl_bars",
+    "abyssal_decor:small_pearl_bars_corner",
+    "abyssal_decor:vertical_pearl_bars",
+    "abyssal_decor:white_pearl_tiles",
+    "abyssal_decor:cracked_pearly_tiles",
+    "abyssal_decor:mixed_pearl_tiles",
+    "abyssal_decor:starry_pearl_tiles"
+  ],
+  "enabled": true
+}

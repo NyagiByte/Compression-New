@@ -1,0 +1,14 @@
+{
+  "id": "tastytiles:tastytiles_light_pretti_tiles",
+  "type": "emixx:group",
+  "contents": [
+    "#tastytiles:light_pretti_tiles",
+    "tastytiles:light_pretti_tile_slab",
+    "tastytiles:light_full_pretti_tile_slab",
+    "tastytiles:light_posy_pretti_tile_slab",
+    "tastytiles:light_ring_pretti_tile_slab",
+    "tastytiles:light_rosy_pretti_tile_slab",
+    "tastytiles:light_squared_pretti_tile_slab"
+  ],
+  "enabled": true
+}

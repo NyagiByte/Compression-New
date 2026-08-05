@@ -1,0 +1,17 @@
+{
+  "id": "group:white_azulejo_tiles",
+  "type": "emixx:group",
+  "contents": [
+    "#tastytiles:white_azulejo_tiles",
+    "tastytiles:white_azulejo_tile_slab",
+    "tastytiles:white_azulejo_floral_tile_slab",
+    "tastytiles:white_azulejo_refined_tile_slab",
+    "tastytiles:white_azulejo_squared_tile_slab",
+    "tastytiles:white_azulejo_fishy_tile_slab",
+    "tastytiles:white_azulejo_shell_tile_slab",
+    "tastytiles:white_azulejo_cross_tile_slab",
+    "tastytiles:white_azulejo_diamond_tile_slab",
+    "tastytiles:white_azulejo_lined_tile_slab"
+  ],
+  "enabled": true
+}

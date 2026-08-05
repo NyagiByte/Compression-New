@@ -1,0 +1,23 @@
+{
+  "id": "quark:quark_jasper",
+  "type": "emixx:group",
+  "contents": [
+    "quark:jasper",
+    "quark:polished_jasper",
+    "quark:jasper_bricks",
+    "quark:chiseled_jasper_bricks",
+    "quark:jasper_pillar",
+    "quark:jasper_bricks_wall",
+    "quark:jasper_bricks_slab",
+    "quark:jasper_bricks_vertical_slab",
+    "quark:jasper_bricks_stairs",
+    "quark:jasper_wall",
+    "quark:jasper_slab",
+    "quark:jasper_vertical_slab",
+    "quark:jasper_stairs",
+    "quark:polished_jasper_slab",
+    "quark:polished_jasper_vertical_slab",
+    "quark:polished_jasper_stairs"
+  ],
+  "enabled": true
+}

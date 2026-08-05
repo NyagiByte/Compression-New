@@ -1,0 +1,20 @@
+{
+  "id": "industrial_hellscape:industrial_hellscape_pipeworks",
+  "type": "emixx:group",
+  "contents": [
+    "industrialhellscape:pipeworks",
+    "industrialhellscape:copper_pipe_conduit",
+    "industrialhellscape:copper_pipe_conduit_planar_corner",
+    "industrialhellscape:copper_pipe_conduit_inner_corner",
+    "industrialhellscape:copper_pipe_conduit_outer_corner",
+    "industrialhellscape:brass_pipe_conduit",
+    "industrialhellscape:brass_pipe_conduit_planar_corner",
+    "industrialhellscape:brass_pipe_conduit_inner_corner",
+    "industrialhellscape:brass_pipe_conduit_outer_corner",
+    "industrialhellscape:gray_pipe_conduit",
+    "industrialhellscape:gray_pipe_conduit_planar_corner",
+    "industrialhellscape:gray_pipe_conduit_inner_corner",
+    "industrialhellscape:gray_pipe_conduit_outer_corner"
+  ],
+  "enabled": true
+}

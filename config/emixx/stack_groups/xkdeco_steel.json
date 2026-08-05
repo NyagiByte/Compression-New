@@ -1,0 +1,31 @@
+{
+  "id": "xkdeco:xkdeco_steel",
+  "type": "emixx:group",
+  "contents": [
+    "xkdeco:steel_block",
+    "xkdeco:smooth_steel_block",
+    "xkdeco:steel_pillar",
+    "xkdeco:steel_trapdoor",
+    "xkdeco:steel_floor",
+    "xkdeco:steel_floor_slab",
+    "xkdeco:steel_floor_stairs",
+    "xkdeco:chiseled_steel_block",
+    "xkdeco:hollow_steel_block",
+    "xkdeco:hollow_steel_trapdoor",
+    "xkdeco:steel_safety_ladder",
+    "xkdeco:steel_ladder",
+    "xkdeco:framed_steel_block",
+    "xkdeco:steel_tiles",
+    "xkdeco:steel_tile_slab",
+    "xkdeco:steel_tile_stairs",
+    "xkdeco:hollow_steel_bars",
+    "xkdeco:steel_windmill",
+    "xkdeco:hollow_steel_beam",
+    "xkdeco:hollow_steel_half_beam",
+    "xkdeco:hollow_steel_beam_oblique",
+    "xkdeco:hollow_steel_beam_oblique_slow",
+    "xkdeco:hollow_steel_beam_oblique_steep",
+    "xkdeco:steel_filings"
+  ],
+  "enabled": true
+}

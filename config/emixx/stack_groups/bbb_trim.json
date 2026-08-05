@@ -1,0 +1,18 @@
+{
+  "id": "bbb:trim",
+  "type": "emixx:group",
+  "contents": [
+    "bbb:oak_trim",
+    "bbb:spruce_trim",
+    "bbb:birch_trim",
+    "bbb:jungle_trim",
+    "bbb:acacia_trim",
+    "bbb:dark_oak_trim",
+    "bbb:crimson_trim",
+    "bbb:warped_trim",
+    "bbb:mangrove_trim",
+    "bbb:bamboo_trim",
+    "bbb:cherry_trim"
+  ],
+  "enabled": true
+}

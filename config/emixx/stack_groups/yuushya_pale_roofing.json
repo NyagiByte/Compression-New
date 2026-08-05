@@ -1,0 +1,21 @@
+{
+  "id": "yuushya:yuushya_pale_roofing",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:roof_3",
+    "yuushya:roof_ridge_3",
+    "yuushya:roof_corner_3_outer",
+    "yuushya:roof_corner_3_inner",
+    "yuushya:pale_tile_lower",
+    "yuushya:pale_tile_upper",
+    "yuushya:pale_tile_ridge_upper",
+    "yuushya:pale_tile_ridge_lower",
+    "yuushya:pale_tile_with_ridge_upper",
+    "yuushya:pale_tile_with_ridge_lower",
+    "yuushya:pale_tile_outer_corner_upper",
+    "yuushya:pale_tile_inner_corner_upper",
+    "yuushya:pale_tile_outer_corner_lower",
+    "yuushya:pale_tile_inner_corner_lower"
+  ],
+  "enabled": true
+}

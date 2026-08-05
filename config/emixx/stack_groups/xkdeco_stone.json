@@ -1,0 +1,26 @@
+{
+  "id": "xkdeco:xkdeco_stone",
+  "type": "emixx:group",
+  "contents": [
+    "xkdeco:stone_brick_pillar",
+    "xkdeco:stone_brick_pavement",
+    "xkdeco:stone_brick_pavement_slab",
+    "xkdeco:dark_stone_handrail_head",
+    "xkdeco:dark_stone_handrail",
+    "xkdeco:dark_stone_handrail_lion_statue",
+    "xkdeco:dark_stone_handrail_end",
+    "xkdeco:dark_stone_handrail_oblique",
+    "xkdeco:dark_stone_handrail_oblique_steep",
+    "xkdeco:light_stone_handrail_head",
+    "xkdeco:light_stone_handrail",
+    "xkdeco:light_stone_handrail_lion_statue",
+    "xkdeco:light_stone_handrail_end",
+    "xkdeco:light_stone_handrail_oblique",
+    "xkdeco:light_stone_handrail_oblique_steep",
+    "xkdeco:stone_lamp",
+    "xkdeco:blackstone_lamp",
+    "xkdeco:stone_water_bowl",
+    "xkdeco:stone_water_tank"
+  ],
+  "enabled": true
+}

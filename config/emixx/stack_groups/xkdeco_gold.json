@@ -1,0 +1,16 @@
+{
+  "id": "xkdeco:xkdeco_gold",
+  "type": "emixx:group",
+  "contents": [
+    "xkdeco:cut_gold_block",
+    "xkdeco:cut_gold_block_slab",
+    "xkdeco:cut_gold_block_stairs",
+    "xkdeco:gold_bricks",
+    "xkdeco:gold_brick_slab",
+    "xkdeco:gold_brick_stairs",
+    "xkdeco:gold_pillar",
+    "xkdeco:chiseled_gold_block",
+    "xkdeco:painted_gold_block"
+  ],
+  "enabled": true
+}

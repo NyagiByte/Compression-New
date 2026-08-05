@@ -1,0 +1,8 @@
+{
+  "id": "forge:dead_coral",
+  "type": "emixx:group",
+  "contents": [
+    "#forge:dead_coral"
+  ],
+  "enabled": true
+}

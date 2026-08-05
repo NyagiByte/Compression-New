@@ -1,0 +1,16 @@
+{
+  "id": "xkdeco:xkdeco_red_sandstone",
+  "type": "emixx:group",
+  "contents": [
+    "xkdeco:red_sandstone_pillar",
+    "xkdeco:polished_red_sandstone",
+    "xkdeco:polished_red_sandstone_slab",
+    "xkdeco:red_sandstone_bricks",
+    "xkdeco:red_sandstone_brick_slab",
+    "xkdeco:red_sandstone_brick_stairs",
+    "xkdeco:red_sandstone_small_bricks",
+    "xkdeco:red_sandstone_small_brick_slab",
+    "xkdeco:red_sandstone_small_brick_stairs"
+  ],
+  "enabled": true
+}
