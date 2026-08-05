@@ -1,0 +1,23 @@
+{
+  "id": "yuushya:yuushya_decorative_wool",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:decorative_black_wool",
+    "yuushya:decorative_blue_wool",
+    "yuushya:decorative_brown_wool",
+    "yuushya:decorative_cyan_wool",
+    "yuushya:decorative_gray_wool",
+    "yuushya:decorative_green_wool",
+    "yuushya:decorative_light_blue_wool",
+    "yuushya:decorative_light_gray_wool",
+    "yuushya:decorative_lime_wool",
+    "yuushya:decorative_magenta_wool",
+    "yuushya:decorative_orange_wool",
+    "yuushya:decorative_pink_wool",
+    "yuushya:decorative_purple_wool",
+    "yuushya:decorative_red_wool",
+    "yuushya:decorative_white_wool",
+    "yuushya:decorative_yellow_wool"
+  ],
+  "enabled": true
+}

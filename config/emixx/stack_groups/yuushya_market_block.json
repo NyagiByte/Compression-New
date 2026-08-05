@@ -1,0 +1,14 @@
+{
+  "id": "yuushya:yuushya_market_block",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:market_block_blue",
+    "yuushya:market_block_brown",
+    "yuushya:market_block_green",
+    "yuushya:market_block_light_gray",
+    "yuushya:market_block_mixed",
+    "yuushya:market_block_purple",
+    "yuushya:market_block_red"
+  ],
+  "enabled": true
+}
