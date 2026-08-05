@@ -1,0 +1,18 @@
+
+#AE2 Time Skip settings
+[General]
+	#Skip time when items are deposited into the ME network
+	enable_on_deposit = true
+	#Skip time when items are withdrawn from the ME network
+	enable_on_withdraw = true
+	#Time skip per tick: factor * ln(items_changed + 1)^0.58 ticks
+	#Range: 0.0 ~ 100.0
+	network_time_factor = 0.09
+	#Number of ticks over which to spread each time skip
+	#Range: 1 ~ 1200
+	smooth_window = 20
+	#Players without this advancement half time skipping (namespace:path)
+	gate_advancement = "ae2:main/network1"
+	#Exempt operators from time skipping
+	exempt_ops = false
+
