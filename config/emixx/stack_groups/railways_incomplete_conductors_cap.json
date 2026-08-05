@@ -1,0 +1,23 @@
+{
+  "id": "railways:railways_incomplete_conductors_cap",
+  "type": "emixx:group",
+  "contents": [
+    "railways:white_incomplete_conductor_cap",
+    "railways:orange_incomplete_conductor_cap",
+    "railways:magenta_incomplete_conductor_cap",
+    "railways:light_blue_incomplete_conductor_cap",
+    "railways:yellow_incomplete_conductor_cap",
+    "railways:lime_incomplete_conductor_cap",
+    "railways:pink_incomplete_conductor_cap",
+    "railways:gray_incomplete_conductor_cap",
+    "railways:light_gray_incomplete_conductor_cap",
+    "railways:cyan_incomplete_conductor_cap",
+    "railways:purple_incomplete_conductor_cap",
+    "railways:blue_incomplete_conductor_cap",
+    "railways:brown_incomplete_conductor_cap",
+    "railways:green_incomplete_conductor_cap",
+    "railways:red_incomplete_conductor_cap",
+    "railways:black_incomplete_conductor_cap"
+  ],
+  "enabled": true
+}
