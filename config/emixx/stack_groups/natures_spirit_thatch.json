@@ -1,0 +1,19 @@
+{
+  "id": "natures_spirit:natures_spirit_thatch",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:xeric_thatch",
+    "natures_spirit:xeric_thatch_stairs",
+    "natures_spirit:xeric_thatch_slab",
+    "natures_spirit:xeric_thatch_carpet",
+    "natures_spirit:coconut_thatch",
+    "natures_spirit:coconut_thatch_stairs",
+    "natures_spirit:coconut_thatch_slab",
+    "natures_spirit:coconut_thatch_carpet",
+    "natures_spirit:evergreen_thatch",
+    "natures_spirit:evergreen_thatch_stairs",
+    "natures_spirit:evergreen_thatch_slab",
+    "natures_spirit:evergreen_thatch_carpet"
+  ],
+  "enabled": true
+}

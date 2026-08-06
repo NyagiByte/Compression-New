@@ -1,0 +1,12 @@
+{
+  "id": "quark:quark_iron_bricks",
+  "type": "emixx:group",
+  "contents": [
+    "quark:raw_iron_bricks",
+    "quark:raw_iron_bricks_stairs",
+    "quark:raw_iron_bricks_slab",
+    "quark:raw_iron_bricks_vertical_slab",
+    "quark:raw_iron_bricks_wall"
+  ],
+  "enabled": true
+}

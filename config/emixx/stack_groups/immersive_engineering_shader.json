@@ -1,0 +1,8 @@
+{
+  "id": "immersiveengineering:immersive_engineering_shader",
+  "type": "emixx:group",
+  "contents": [
+    "immersiveengineering:shader"
+  ],
+  "enabled": true
+}

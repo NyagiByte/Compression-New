@@ -1,0 +1,21 @@
+{
+  "id": "immersiveengineering:immersive_engineering_treated_wood",
+  "type": "emixx:group",
+  "contents": [
+    "immersiveengineering:stick_treated",
+    "immersiveengineering:treated_wallmount",
+    "immersiveengineering:treated_fence",
+    "immersiveengineering:treated_scaffold",
+    "immersiveengineering:treated_post",
+    "immersiveengineering:treated_wood_horizontal",
+    "immersiveengineering:slab_treated_wood_horizontal",
+    "immersiveengineering:stairs_treated_wood_horizontal",
+    "immersiveengineering:treated_wood_vertical",
+    "immersiveengineering:slab_treated_wood_vertical",
+    "immersiveengineering:stairs_treated_wood_vertical",
+    "immersiveengineering:treated_wood_packaged",
+    "immersiveengineering:slab_treated_wood_packaged",
+    "immersiveengineering:stairs_treated_wood_packaged"
+  ],
+  "enabled": true
+}

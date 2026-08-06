@@ -1,0 +1,12 @@
+{
+  "id": "quark:quark_gold_bricks",
+  "type": "emixx:group",
+  "contents": [
+    "quark:raw_gold_bricks",
+    "quark:raw_gold_bricks_stairs",
+    "quark:raw_gold_bricks_slab",
+    "quark:raw_gold_bricks_vertical_slab",
+    "quark:raw_gold_bricks_wall"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ores:copper_ore",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:copper_ore",
+    "minecraft:deepslate_copper_ore",
+    "minecraft:raw_copper_block",
+    "minecraft:raw_copper",
+    "nyagibits_bytes:conglomerate_copper_ore",
+    "nyagibits_bytes:dense_conglomerate_copper_ore",
+    "nyagibits_bytes:hyper_conglomerate_copper_ore",
+    "nyagibits_bytes:tectonic_conglomerate_copper_ore",
+    "nyagibits_bytes:core_conglomerate_copper_ore",
+    "nyagibits_bytes:raw_tetrahedrite",
+    "nyagibits_bytes:sintered_tetrahedrite",
+    "nyagibits_bytes:raw_chalcopyrite",
+    "nyagibits_bytes:sintered_chalcopyrite",
+    "nyagibits_bytes:raw_malachite",
+    "nyagibits_bytes:sintered_malachite",
+    "nyagibits_bytes:raw_azurite",
+    "nyagibits_bytes:sintered_azurite",
+    "nyagibits_bytes:raw_enargite",
+    "nyagibits_bytes:sintered_enargite",
+    "nyagibits_bytes:raw_tennanite",
+    "nyagibits_bytes:sintered_tennanite",
+    "nyagibits_bytes:raw_chrysocolla",
+    "nyagibits_bytes:sintered_chrysocolla",
+    "nyagibits_bytes:raw_dioptase",
+    "nyagibits_bytes:sintered_dioptase"
+  ],
+  "enabled": true
+}
