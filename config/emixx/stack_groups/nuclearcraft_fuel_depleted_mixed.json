@@ -1,0 +1,27 @@
+{
+  "id": "nuclearcraft:Depleted_Mixed_Fuel",
+  "type": "emixx:group",
+  "contents": [
+    "nuclearcraft:depleted_fuel_mixed_mix_241",
+    "nuclearcraft:depleted_fuel_mixed_mix_239",
+    "nuclearcraft:depleted_fuel_mixed_mix_241_za",
+    "nuclearcraft:depleted_fuel_mixed_mix_239_ox",
+    "nuclearcraft:depleted_fuel_mixed_mix_241_ni",
+    "nuclearcraft:depleted_fuel_mixed_mix_241_ox",
+    "nuclearcraft:depleted_fuel_mixed_mix_239_ni",
+    "nuclearcraft:depleted_fuel_mixed_mix_241_tr",
+    "nuclearcraft:depleted_fuel_mixed_mix_239_tr",
+    "nuclearcraft:depleted_fuel_mixed_mix_239_za",
+    "nuclearcraft:depleted_fuel_mixed_mix_241_bucket",
+    "nuclearcraft:depleted_fuel_mixed_mix_239_bucket",
+    "nuclearcraft:depleted_fuel_mixed_mix_241_za_bucket",
+    "nuclearcraft:depleted_fuel_mixed_mix_239_ox_bucket",
+    "nuclearcraft:depleted_fuel_mixed_mix_241_ni_bucket",
+    "nuclearcraft:depleted_fuel_mixed_mix_241_ox_bucket",
+    "nuclearcraft:depleted_fuel_mixed_mix_239_ni_bucket",
+    "nuclearcraft:depleted_fuel_mixed_mix_241_tr_bucket",
+    "nuclearcraft:depleted_fuel_mixed_mix_239_tr_bucket",
+    "nuclearcraft:depleted_fuel_mixed_mix_239_za_bucket"
+  ],
+  "enabled": true
+}

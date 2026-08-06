@@ -1,0 +1,27 @@
+{
+  "id": "nuclearcraft:Low_Energy_Californium_Fuel",
+  "type": "emixx:group",
+  "contents": [
+    "nuclearcraft:fuel_californium_lecf_249_za", 
+    "nuclearcraft:fuel_californium_lecf_251_tr", 
+    "nuclearcraft:fuel_californium_lecf_249_ox", 
+    "nuclearcraft:fuel_californium_lecf_251_za", 
+    "nuclearcraft:fuel_californium_lecf_249", 
+    "nuclearcraft:fuel_californium_lecf_251_ox", 
+    "nuclearcraft:fuel_californium_lecf_249_ni", 
+    "nuclearcraft:fuel_californium_lecf_251", 
+    "nuclearcraft:fuel_californium_lecf_249_tr", 
+    "nuclearcraft:fuel_californium_lecf_251_ni",
+    "nuclearcraft:fuel_californium_lecf_249_za_bucket", 
+    "nuclearcraft:fuel_californium_lecf_251_tr_bucket", 
+    "nuclearcraft:fuel_californium_lecf_249_ox_bucket", 
+    "nuclearcraft:fuel_californium_lecf_251_za_bucket", 
+    "nuclearcraft:fuel_californium_lecf_249_bucket", 
+    "nuclearcraft:fuel_californium_lecf_251_ox_bucket", 
+    "nuclearcraft:fuel_californium_lecf_249_ni_bucket", 
+    "nuclearcraft:fuel_californium_lecf_251_bucket", 
+    "nuclearcraft:fuel_californium_lecf_249_tr_bucket", 
+    "nuclearcraft:fuel_californium_lecf_251_ni_bucket"
+  ],
+  "enabled": true
+}

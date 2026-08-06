@@ -1,0 +1,17 @@
+{
+  "id": "nuclearcraft:Depleted_Low_Energy_Americium_Fuel",
+  "type": "emixx:group",
+  "contents": [
+    "nuclearcraft:depleted_fuel_americium_lea_242_tr",
+    "nuclearcraft:depleted_fuel_americium_lea_242_ni",
+    "nuclearcraft:depleted_fuel_americium_lea_242",
+    "nuclearcraft:depleted_fuel_americium_lea_242_ox",
+    "nuclearcraft:depleted_fuel_americium_lea_242_za",
+    "nuclearcraft:depleted_fuel_americium_lea_242_tr_bucket",
+    "nuclearcraft:depleted_fuel_americium_lea_242_ni_bucket",
+    "nuclearcraft:depleted_fuel_americium_lea_242_bucket",
+    "nuclearcraft:depleted_fuel_americium_lea_242_ox_bucket",
+    "nuclearcraft:depleted_fuel_americium_lea_242_za_bucket"
+  ],
+  "enabled": true
+}

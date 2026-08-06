@@ -1,0 +1,17 @@
+{
+  "id": "nuclearcraft:High_Energy_Americium_Fuel",
+  "type": "emixx:group",
+  "contents": [
+    "nuclearcraft:fuel_americium_hea_242_tr",
+    "nuclearcraft:fuel_americium_hea_242_ni",
+    "nuclearcraft:fuel_americium_hea_242",
+    "nuclearcraft:fuel_americium_hea_242_ox",
+    "nuclearcraft:fuel_americium_hea_242_za",
+    "nuclearcraft:fuel_americium_hea_242_tr_bucket",
+    "nuclearcraft:fuel_americium_hea_242_ni_bucket",
+    "nuclearcraft:fuel_americium_hea_242_bucket",
+    "nuclearcraft:fuel_americium_hea_242_ox_bucket",
+    "nuclearcraft:fuel_americium_hea_242_za_bucket"
+  ],
+  "enabled": true
+}

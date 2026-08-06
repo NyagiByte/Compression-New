@@ -1,0 +1,27 @@
+{
+  "id": "nuclearcraft:High_Energy_Plutonium_Fuel",
+  "type": "emixx:group",
+  "contents": [
+    "nuclearcraft:fuel_plutonium_hep_241",
+    "nuclearcraft:fuel_plutonium_hep_241_ox",
+    "nuclearcraft:fuel_plutonium_hep_239_ni",
+    "nuclearcraft:fuel_plutonium_hep_239_ox",
+    "nuclearcraft:fuel_plutonium_hep_239",
+    "nuclearcraft:fuel_plutonium_hep_241_za",
+    "nuclearcraft:fuel_plutonium_hep_239_za",
+    "nuclearcraft:fuel_plutonium_hep_241_tr",
+    "nuclearcraft:fuel_plutonium_hep_241_ni",
+    "nuclearcraft:fuel_plutonium_hep_239_tr",
+    "nuclearcraft:fuel_plutonium_hep_241_bucket",
+    "nuclearcraft:fuel_plutonium_hep_241_ox_bucket",
+    "nuclearcraft:fuel_plutonium_hep_239_ni_bucket",
+    "nuclearcraft:fuel_plutonium_hep_239_ox_bucket",
+    "nuclearcraft:fuel_plutonium_hep_239_bucket",
+    "nuclearcraft:fuel_plutonium_hep_241_za_bucket",
+    "nuclearcraft:fuel_plutonium_hep_239_za_bucket",
+    "nuclearcraft:fuel_plutonium_hep_241_tr_bucket",
+    "nuclearcraft:fuel_plutonium_hep_241_ni_bucket",
+    "nuclearcraft:fuel_plutonium_hep_239_tr_bucket"
+  ],
+  "enabled": true
+}

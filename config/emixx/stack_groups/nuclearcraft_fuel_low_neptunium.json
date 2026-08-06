@@ -1,0 +1,17 @@
+{
+  "id": "nuclearcraft:Low_Energy_Neptunium_Fuel",
+  "type": "emixx:group",
+  "contents": [
+    "nuclearcraft:fuel_neptunium_len_236",
+    "nuclearcraft:fuel_neptunium_len_236_ox",
+    "nuclearcraft:fuel_neptunium_len_236_ni",
+    "nuclearcraft:fuel_neptunium_len_236_tr",
+    "nuclearcraft:fuel_neptunium_len_236_za",
+    "nuclearcraft:fuel_neptunium_len_236_bucket",
+    "nuclearcraft:fuel_neptunium_len_236_ox_bucket",
+    "nuclearcraft:fuel_neptunium_len_236_ni_bucket",
+    "nuclearcraft:fuel_neptunium_len_236_tr_bucket",
+    "nuclearcraft:fuel_neptunium_len_236_za_bucket"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "nuclearcraft:Depleted_Xenorium_Fuel",
+  "type": "emixx:group",
+  "contents": [
+    "nuclearcraft:depleted_fuel_xenorium_xen_298",
+    "nuclearcraft:depleted_fuel_xenorium_xen_298_bucket"
+  ],
+  "enabled": true
+}

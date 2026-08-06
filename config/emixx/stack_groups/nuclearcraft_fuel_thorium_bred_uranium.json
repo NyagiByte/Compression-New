@@ -1,0 +1,17 @@
+{
+  "id": "nuclearcraft:Thorium_Bred_Uranium_Fuel",
+  "type": "emixx:group",
+  "contents": [
+    "nuclearcraft:fuel_thorium_tbu_tr",
+    "nuclearcraft:fuel_thorium_tbu_ni",
+    "nuclearcraft:fuel_thorium_tbu",
+    "nuclearcraft:fuel_thorium_tbu_ox",
+    "nuclearcraft:fuel_thorium_tbu_za",
+    "nuclearcraft:fuel_thorium_tbu_tr_bucket",
+    "nuclearcraft:fuel_thorium_tbu_ni_bucket",
+    "nuclearcraft:fuel_thorium_tbu_bucket",
+    "nuclearcraft:fuel_thorium_tbu_ox_bucket",
+    "nuclearcraft:fuel_thorium_tbu_za_bucket"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,27 @@
+{
+  "id": "nuclearcraft:Depleted_Low_Energy_Plutonium_Fuel",
+  "type": "emixx:group",
+  "contents": [
+    "nuclearcraft:depleted_fuel_plutonium_lep_241",
+    "nuclearcraft:depleted_fuel_plutonium_lep_241_ox",
+    "nuclearcraft:depleted_fuel_plutonium_lep_239_ni",
+    "nuclearcraft:depleted_fuel_plutonium_lep_239_ox",
+    "nuclearcraft:depleted_fuel_plutonium_lep_239",
+    "nuclearcraft:depleted_fuel_plutonium_lep_241_za",
+    "nuclearcraft:depleted_fuel_plutonium_lep_239_za",
+    "nuclearcraft:depleted_fuel_plutonium_lep_241_tr",
+    "nuclearcraft:depleted_fuel_plutonium_lep_241_ni",
+    "nuclearcraft:depleted_fuel_plutonium_lep_239_tr",
+    "nuclearcraft:depleted_fuel_plutonium_lep_241_bucket",
+    "nuclearcraft:depleted_fuel_plutonium_lep_241_ox_bucket",
+    "nuclearcraft:depleted_fuel_plutonium_lep_239_ni_bucket",
+    "nuclearcraft:depleted_fuel_plutonium_lep_239_ox_bucket",
+    "nuclearcraft:depleted_fuel_plutonium_lep_239_bucket",
+    "nuclearcraft:depleted_fuel_plutonium_lep_241_za_bucket",
+    "nuclearcraft:depleted_fuel_plutonium_lep_239_za_bucket",
+    "nuclearcraft:depleted_fuel_plutonium_lep_241_tr_bucket",
+    "nuclearcraft:depleted_fuel_plutonium_lep_241_ni_bucket",
+    "nuclearcraft:depleted_fuel_plutonium_lep_239_tr_bucket"
+  ],
+  "enabled": true
+}

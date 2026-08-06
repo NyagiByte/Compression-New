@@ -1,0 +1,27 @@
+{
+  "id": "nuclearcraft:Depleted_Low_Energy_Californium_Fuel",
+  "type": "emixx:group",
+  "contents": [
+    "nuclearcraft:depleted_fuel_californium_lecf_249_za", 
+    "nuclearcraft:depleted_fuel_californium_lecf_251_tr", 
+    "nuclearcraft:depleted_fuel_californium_lecf_249_ox", 
+    "nuclearcraft:depleted_fuel_californium_lecf_251_za", 
+    "nuclearcraft:depleted_fuel_californium_lecf_249", 
+    "nuclearcraft:depleted_fuel_californium_lecf_251_ox", 
+    "nuclearcraft:depleted_fuel_californium_lecf_249_ni", 
+    "nuclearcraft:depleted_fuel_californium_lecf_251", 
+    "nuclearcraft:depleted_fuel_californium_lecf_249_tr", 
+    "nuclearcraft:depleted_fuel_californium_lecf_251_ni",
+    "nuclearcraft:depleted_fuel_californium_lecf_249_za_bucket", 
+    "nuclearcraft:depleted_fuel_californium_lecf_251_tr_bucket", 
+    "nuclearcraft:depleted_fuel_californium_lecf_249_ox_bucket", 
+    "nuclearcraft:depleted_fuel_californium_lecf_251_za_bucket", 
+    "nuclearcraft:depleted_fuel_californium_lecf_249_bucket", 
+    "nuclearcraft:depleted_fuel_californium_lecf_251_ox_bucket", 
+    "nuclearcraft:depleted_fuel_californium_lecf_249_ni_bucket", 
+    "nuclearcraft:depleted_fuel_californium_lecf_251_bucket", 
+    "nuclearcraft:depleted_fuel_californium_lecf_249_tr_bucket", 
+    "nuclearcraft:depleted_fuel_californium_lecf_251_ni_bucket"
+  ],
+  "enabled": true
+}

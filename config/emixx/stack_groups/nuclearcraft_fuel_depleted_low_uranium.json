@@ -1,0 +1,27 @@
+{
+  "id": "nuclearcraft:Depleted_Low_Energy_Uranium_Fuel",
+  "type": "emixx:group",
+  "contents": [
+    "nuclearcraft:depleted_fuel_uranium_leu_235",
+    "nuclearcraft:depleted_fuel_uranium_leu_233_za",
+    "nuclearcraft:depleted_fuel_uranium_leu_235_ox",
+    "nuclearcraft:depleted_fuel_uranium_leu_233",
+    "nuclearcraft:depleted_fuel_uranium_leu_233_tr",
+    "nuclearcraft:depleted_fuel_uranium_leu_235_za",
+    "nuclearcraft:depleted_fuel_uranium_leu_235_tr",
+    "nuclearcraft:depleted_fuel_uranium_leu_233_ni",
+    "nuclearcraft:depleted_fuel_uranium_leu_235_ni",
+    "nuclearcraft:depleted_fuel_uranium_leu_233_ox",
+    "nuclearcraft:depleted_fuel_uranium_leu_235_bucket",
+    "nuclearcraft:depleted_fuel_uranium_leu_233_za_bucket",
+    "nuclearcraft:depleted_fuel_uranium_leu_235_ox_bucket",
+    "nuclearcraft:depleted_fuel_uranium_leu_233_bucket",
+    "nuclearcraft:depleted_fuel_uranium_leu_233_tr_bucket",
+    "nuclearcraft:depleted_fuel_uranium_leu_235_za_bucket",
+    "nuclearcraft:depleted_fuel_uranium_leu_235_tr_bucket",
+    "nuclearcraft:depleted_fuel_uranium_leu_233_ni_bucket",
+    "nuclearcraft:depleted_fuel_uranium_leu_235_ni_bucket",
+    "nuclearcraft:depleted_fuel_uranium_leu_233_ox_bucket"
+  ],
+  "enabled": true
+}

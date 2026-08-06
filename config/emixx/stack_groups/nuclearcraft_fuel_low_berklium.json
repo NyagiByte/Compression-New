@@ -1,0 +1,17 @@
+{
+  "id": "nuclearcraft:Low_Energy_Berklium_Fuel",
+  "type": "emixx:group",
+  "contents": [
+    "nuclearcraft:fuel_berkelium_leb_248_za",
+    "nuclearcraft:fuel_berkelium_leb_248_tr",
+    "nuclearcraft:fuel_berkelium_leb_248_ni",
+    "nuclearcraft:fuel_berkelium_leb_248_ox",
+    "nuclearcraft:fuel_berkelium_leb_248",
+    "nuclearcraft:fuel_berkelium_leb_248_za_bucket",
+    "nuclearcraft:fuel_berkelium_leb_248_tr_bucket",
+    "nuclearcraft:fuel_berkelium_leb_248_ni_bucket",
+    "nuclearcraft:fuel_berkelium_leb_248_ox_bucket",
+    "nuclearcraft:fuel_berkelium_leb_248_bucket"
+  ],
+  "enabled": true
+}

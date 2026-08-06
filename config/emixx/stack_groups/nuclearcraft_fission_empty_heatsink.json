@@ -1,0 +1,9 @@
+{
+  "id": "nuclearcraft:Fission_Active_Heat_Sink",
+  "type": "emixx:group",
+  "contents": [
+    "nuclearcraft:empty_active_heat_sink",
+    "nuclearcraft:empty_heat_sink"
+  ],
+  "enabled": true
+}
