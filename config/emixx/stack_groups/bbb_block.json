@@ -1,5 +1,5 @@
 {
-  "id": "bbb:block",
+  "id": "bbb:BBB_block",
   "type": "emixx:group",
   "contents": [
     "bbb:stone_block",

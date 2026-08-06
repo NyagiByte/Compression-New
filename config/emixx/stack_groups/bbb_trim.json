@@ -1,5 +1,5 @@
 {
-  "id": "bbb:trim",
+  "id": "bbb:BBB_trim",
   "type": "emixx:group",
   "contents": [
     "bbb:oak_trim",

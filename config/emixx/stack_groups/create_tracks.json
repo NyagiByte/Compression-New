@@ -1,5 +1,5 @@
 {
-  "id": "create:tracks",
+  "id": "create:create_tracks",
   "type": "emixx:group",
   "contents": [
     "#create:tracks",
