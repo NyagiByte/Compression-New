@@ -1,0 +1,19 @@
+{
+  "id": "textiles_and_trinkets:textiles_and_trinkets_whispering_wood",
+  "type": "emixx:group",
+  "contents": [
+    "textiles_and_trinkets:whispering_leaves",
+    "textiles_and_trinkets:whispering_leaf_tufts",
+    "textiles_and_trinkets:whispering_wood",
+    "textiles_and_trinkets:whispering_logs",
+    "textiles_and_trinkets:whispering_wood_wall",
+    "textiles_and_trinkets:stripped_whispering_wood",
+    "textiles_and_trinkets:stripped_whispering_log",
+    "textiles_and_trinkets:stripped_whispering_wood_wall",
+    "textiles_and_trinkets:whispering_planks",
+    "textiles_and_trinkets:whispering_stairs",
+    "textiles_and_trinkets:whispering_slabs",
+    "textiles_and_trinkets:whispering_fence"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,8 @@
+{
+  "id": "botania:botania_brew_vial",
+  "type": "emixx:group",
+  "contents": [
+    "botania:brew_vial"
+  ],
+  "enabled": true
+}

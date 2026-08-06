@@ -1,0 +1,12 @@
+{
+  "id": "textiles_and_trinkets:textiles_and_trinkets_ferrymans_lantern",
+  "type": "emixx:group",
+  "contents": [
+    "textiles_and_trinkets:ferrymans_lantern_red",
+    "textiles_and_trinkets:ferrymans_lantern_orange",
+    "textiles_and_trinkets:ferrymans_lantern_green",
+    "textiles_and_trinkets:ferrymans_lantern_blue",
+    "textiles_and_trinkets:ferrymans_lantern_purple"
+  ],
+  "enabled": true
+}
