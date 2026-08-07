@@ -1,0 +1,11 @@
+{
+  "id": "ores:emerald",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:emerald_ore",
+    "minecraft:deepslate_emerald_ore",
+    "minecraft:emerald",
+    "minecraft:emerald_block"
+  ],
+  "enabled": true
+}

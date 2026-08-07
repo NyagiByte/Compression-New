@@ -1,0 +1,11 @@
+{
+  "id": "ores:diamond",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:diamond_ore",
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:diamond",
+    "minecraft:diamond_block"
+  ],
+  "enabled": true
+}

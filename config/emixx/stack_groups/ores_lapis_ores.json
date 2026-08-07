@@ -1,0 +1,11 @@
+{
+  "id": "ores:lapis_lazuli",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:lapis_ore",
+    "minecraft:deepslate_lapis_ore",
+    "minecraft:lapis_lazuli",
+    "minecraft:lapis_block"
+  ],
+  "enabled": true
+}
