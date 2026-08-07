@@ -1,5 +1,5 @@
 {
-  "id": "ores:iron_ore",
+  "id": "ores:iron",
   "type": "emixx:group",
   "contents": [
     "minecraft:raw_iron",

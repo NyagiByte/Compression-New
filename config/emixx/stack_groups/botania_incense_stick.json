@@ -1,0 +1,8 @@
+{
+  "id": "botania:botania_incense_stick",
+  "type": "emixx:group",
+  "contents": [
+    "botania:incense_stick"
+  ],
+  "enabled": true
+}

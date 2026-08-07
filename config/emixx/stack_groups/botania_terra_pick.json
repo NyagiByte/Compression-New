@@ -1,0 +1,8 @@
+{
+  "id": "botania:botania_terra_shatterer",
+  "type": "emixx:group",
+  "contents": [
+    "botania:terra_pick"
+  ],
+  "enabled": true
+}
