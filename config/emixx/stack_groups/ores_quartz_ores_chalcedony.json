@@ -1,0 +1,9 @@
+{
+  "id": "ores:quartz_ore_chalcedony",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_chalcedony",
+    "nyagibits_bytes:polished_chalcedony"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ores:quartz_ore_meteoric_certus",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_meteoric_certus",
+    "nyagibits_bytes:polished_meteoric_certus"
+  ],
+  "enabled": true
+}

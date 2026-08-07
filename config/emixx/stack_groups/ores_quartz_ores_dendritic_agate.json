@@ -1,0 +1,9 @@
+{
+  "id": "ores:quartz_ore_dendritic_agate",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_dendritic_agate",
+    "nyagibits_bytes:polished_dendritic_agate"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ores:quartz_ore_rose",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_rose_quartz",
+    "nyagibits_bytes:polished_rose_quartz"
+  ],
+  "enabled": true
+}

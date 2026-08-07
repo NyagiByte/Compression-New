@@ -1,0 +1,9 @@
+{
+  "id": "ores:quartz_ore_herkimer_diamond",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_herkimer_diamond",
+    "nyagibits_bytes:polished_herkimer_diamond"
+  ],
+  "enabled": true
+}

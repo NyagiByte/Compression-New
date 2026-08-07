@@ -1,0 +1,9 @@
+{
+  "id": "ores:quartz_ore_ametrine",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_ametrine",
+    "nyagibits_bytes:polished_ametrine"
+  ],
+  "enabled": true
+}

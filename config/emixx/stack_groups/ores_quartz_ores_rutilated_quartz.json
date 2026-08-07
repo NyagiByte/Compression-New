@@ -1,0 +1,9 @@
+{
+  "id": "ores:quartz_ore_rutilated",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_rutilated_quartz",
+    "nyagibits_bytes:polished_rutilated_quartz"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ores:quartz_ore_prasiolite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_prasiolite",
+    "nyagibits_bytes:polished_prasiolite"
+  ],
+  "enabled": true
+}

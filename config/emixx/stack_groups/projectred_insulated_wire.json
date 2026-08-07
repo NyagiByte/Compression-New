@@ -16,7 +16,7 @@
     "projectred_transmission:blue_insulated_wire",
     "projectred_transmission:brown_insulated_wire",
     "projectred_transmission:green_insulated_wire",
-    "2x projectred_transmission:black_insulated_wire",
+    "projectred_transmission:black_insulated_wire",
     "projectred_transmission:red_insulated_wire"
   ],
   "enabled": true
