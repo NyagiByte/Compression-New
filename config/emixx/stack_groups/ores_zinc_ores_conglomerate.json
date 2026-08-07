@@ -1,0 +1,12 @@
+{
+  "id": "ores:conglomerate_zinc_ore",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:conglomerate_zinc_ore",
+    "nyagibits_bytes:dense_conglomerate_zinc_ore",
+    "nyagibits_bytes:hyper_conglomerate_zinc_ore",
+    "nyagibits_bytes:tectonic_conglomerate_zinc_ore",
+    "nyagibits_bytes:core_conglomerate_zinc_ore"
+  ],
+  "enabled": true
+}

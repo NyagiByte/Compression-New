@@ -1,0 +1,12 @@
+{
+  "id": "ores:conglomerate_gemstones_ore",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:conglomerate_gemstones_ore",
+    "nyagibits_bytes:dense_conglomerate_gemstones_ore",
+    "nyagibits_bytes:hyper_conglomerate_gemstones_ore",
+    "nyagibits_bytes:tectonic_conglomerate_gemstones_ore",
+    "nyagibits_bytes:core_conglomerate_gemstones_ore"
+  ],
+  "enabled": true
+}

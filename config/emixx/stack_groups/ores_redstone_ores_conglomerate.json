@@ -1,0 +1,12 @@
+{
+  "id": "ores:conglomerate_redstone_ore",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:conglomerate_redstone_ore",
+    "nyagibits_bytes:dense_conglomerate_redstone_ore",
+    "nyagibits_bytes:hyper_conglomerate_redstone_ore",
+    "nyagibits_bytes:tectonic_conglomerate_redstone_ore",
+    "nyagibits_bytes:core_conglomerate_redstone_ore"
+  ],
+  "enabled": true
+}

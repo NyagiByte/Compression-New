@@ -1,0 +1,12 @@
+{
+  "id": "ores:conglomerate_quartz_ore",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:conglomerate_quartz_ore",
+    "nyagibits_bytes:dense_conglomerate_quartz_ore",
+    "nyagibits_bytes:hyper_conglomerate_quartz_ore",
+    "nyagibits_bytes:tectonic_conglomerate_quartz_ore",
+    "nyagibits_bytes:core_conglomerate_quartz_ore"
+  ],
+  "enabled": true
+}
