@@ -1,0 +1,9 @@
+{
+  "id": "ores:zinc_ore_wurtzite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_wurtzite",
+    "nyagibits_bytes:sintered_wurtzite"
+  ],
+  "enabled": true
+}

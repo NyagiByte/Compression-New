@@ -1,0 +1,9 @@
+{
+  "id": "ores:zinc_ore_hemimorphite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_hemimorphite",
+    "nyagibits_bytes:sintered_hemimorphite"
+  ],
+  "enabled": true
+}

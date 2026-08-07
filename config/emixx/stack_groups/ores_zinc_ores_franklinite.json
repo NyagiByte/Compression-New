@@ -1,0 +1,9 @@
+{
+  "id": "ores:zinc_ore_franklinite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_franklinite",
+    "nyagibits_bytes:sintered_franklinite"
+  ],
+  "enabled": true
+}

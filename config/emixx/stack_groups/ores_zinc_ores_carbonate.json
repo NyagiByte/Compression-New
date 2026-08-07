@@ -1,0 +1,9 @@
+{
+  "id": "ores:zinc_ore_carbonate",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_zinc_carbonate",
+    "nyagibits_bytes:sintered_zinc_carbonate"
+  ],
+  "enabled": true
+}

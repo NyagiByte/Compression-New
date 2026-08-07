@@ -1,0 +1,9 @@
+{
+  "id": "ores:zinc_ore_smithsonite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_smithsonite",
+    "nyagibits_bytes:sintered_smithsonite"
+  ],
+  "enabled": true
+}

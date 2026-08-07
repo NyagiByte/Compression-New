@@ -1,0 +1,9 @@
+{
+  "id": "ores:zinc_ore_sphalerite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_sphalerite",
+    "nyagibits_bytes:sintered_sphalerite"
+  ],
+  "enabled": true
+}

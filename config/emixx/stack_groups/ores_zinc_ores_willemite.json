@@ -1,0 +1,9 @@
+{
+  "id": "ores:zinc_ore_willemite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_willemite",
+    "nyagibits_bytes:sintered_willemite"
+  ],
+  "enabled": true
+}

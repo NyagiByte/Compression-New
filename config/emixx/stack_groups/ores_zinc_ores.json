@@ -1,0 +1,11 @@
+{
+  "id": "ores:zinc",
+  "type": "emixx:group",
+  "contents": [
+    "create:zinc_ore",
+    "create:deepslate_zinc_ore",
+    "create:raw_zinc_block",
+    "create:raw_zinc"
+  ],
+  "enabled": true
+}

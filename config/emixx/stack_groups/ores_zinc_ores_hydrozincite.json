@@ -1,0 +1,9 @@
+{
+  "id": "ores:zinc_ore_hydrozincite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_hydrozincite",
+    "nyagibits_bytes:sintered_hydrozincite"
+  ],
+  "enabled": true
+}

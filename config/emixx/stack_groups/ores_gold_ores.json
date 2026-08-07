@@ -1,0 +1,11 @@
+{
+  "id": "ores:gold",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:gold_ore",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:raw_gold_block",
+    "minecraft:raw_gold"
+  ],
+  "enabled": true
+}
