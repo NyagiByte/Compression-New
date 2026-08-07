@@ -1,0 +1,14 @@
+{
+    "type": "immersiveengineering:coke_oven",
+        "fluid": {
+            "amount":800,
+            "fluid":"nyagibits_bytes:raw_wood_vinegar_fluid"
+        },
+                "input": {
+                    "item":"nyagibits_bytes:compacted_wood_pile"},
+                        "result": {
+                            "count": 8,
+                            "item":"architects_palette:charcoal_block"},
+        "time": 100
+}
+         

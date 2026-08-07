@@ -1,0 +1,303 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_chromium_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:carbon_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      }
+    ],
+    "results": [
+      {
+        "count": 12,
+        "item": "nyagibits_bytes:pure_chromium_dust"
+      },
+      {
+        "count": 19,
+        "item": "chemlib:aluminum_oxide_dust"
+      }
+    ]
+  }

@@ -1,0 +1,30 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:billet_blasted_stainless"
+      }
+    ],
+    "results": [
+      {
+        "count": 64,
+        "item": "nyagibits_bytes:steel_stainless"
+      },
+      {
+        "count": 64,
+        "item": "nyagibits_bytes:steel_stainless"
+      },
+      {
+        "count": 64,
+        "item": "nyagibits_bytes:steel_stainless"
+      },
+      {
+        "count": 64,
+        "item": "nyagibits_bytes:steel_stainless"
+      },
+      {
+        "count": 64,
+        "item": "nyagibits_bytes:steel_stainless"
+      }
+    ]
+  }

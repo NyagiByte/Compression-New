@@ -1,0 +1,71 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+  "heatRequirement": "heated",
+  "secondaryFluidInput": 0,
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:oxygen_fluid",
+      "amount": 1750
+    },
+    {
+      "fluid": "chemlib:sulfuric_acid_fluid",
+      "amount": 1000
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_chromium_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "chemlib:sodium_carbonate_dust"
+    },
+    {
+      "item": "chemlib:sodium_carbonate_dust"
+    },
+    {
+      "item": "chemlib:sodium_carbonate_dust"
+    },
+    {
+      "item": "chemlib:sodium_carbonate_dust"
+    },
+    {
+      "item": "chemlib:sodium_carbonate_dust"
+    },
+    {
+      "item": "chemlib:sodium_carbonate_dust"
+    },
+    {
+      "item": "chemlib:sodium_carbonate_dust"
+    },
+    {
+      "item": "chemlib:sodium_carbonate_dust"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:carbon_dioxide_fluid",
+      "amount": 2000
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_1214_fluid",
+      "amount": 500
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_chromium_dust"
+    },
+    {
+      "count": 4,
+      "item": "chemlib:iron_oxide_dust"
+    },
+    {
+      "count": 1,
+      "item": "chemlib:sodium_sulfate_dust"
+    }
+  ],
+  "processingTime": 200
+}
