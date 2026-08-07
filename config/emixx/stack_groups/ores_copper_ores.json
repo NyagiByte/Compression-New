@@ -1,0 +1,11 @@
+{
+  "id": "ores:copper",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:copper_ore",
+    "minecraft:deepslate_copper_ore",
+    "minecraft:raw_copper_block",
+    "minecraft:raw_copper"
+  ],
+  "enabled": true
+}

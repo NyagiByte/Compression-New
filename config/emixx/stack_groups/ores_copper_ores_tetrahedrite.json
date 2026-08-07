@@ -1,0 +1,9 @@
+{
+  "id": "ores:copper_ore_tetrahedrite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_tetrahedrite",
+    "nyagibits_bytes:sintered_tetrahedrite"
+  ],
+  "enabled": true
+}

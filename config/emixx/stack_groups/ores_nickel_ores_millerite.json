@@ -1,0 +1,9 @@
+{
+  "id": "ores:nickel_ore_millerite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_millerite",
+    "nyagibits_bytes:sintered_millerite"
+  ],
+  "enabled": true
+}

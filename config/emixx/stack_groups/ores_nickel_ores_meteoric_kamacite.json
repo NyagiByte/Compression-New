@@ -1,0 +1,9 @@
+{
+  "id": "ores:nickel_ore_meteoric_kamacite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_meteoric_kamacite",
+    "nyagibits_bytes:sintered_meteoric_kamacite"
+  ],
+  "enabled": true
+}

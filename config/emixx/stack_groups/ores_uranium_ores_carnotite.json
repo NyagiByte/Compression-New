@@ -1,0 +1,9 @@
+{
+  "id": "ores:uranium_ore_carnotite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_carnotite",
+    "nyagibits_bytes:sintered_carnotite"
+  ],
+  "enabled": true
+}

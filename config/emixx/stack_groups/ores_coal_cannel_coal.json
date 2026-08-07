@@ -1,0 +1,9 @@
+{
+  "id": "ores:coal_ore_cannel",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_cannel_coal",
+    "nyagibits_bytes:de_mineralized_cannel_coal"
+  ],
+  "enabled": true
+}

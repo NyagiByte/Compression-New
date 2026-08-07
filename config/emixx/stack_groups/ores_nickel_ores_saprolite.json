@@ -1,0 +1,9 @@
+{
+  "id": "ores:nickel_ores_saprolite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_saprolite",
+    "nyagibits_bytes:sintered_saprolite"
+  ],
+  "enabled": true
+}

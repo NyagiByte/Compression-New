@@ -1,0 +1,9 @@
+{
+  "id": "ores:iron_ore_limonite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_limonite",
+    "nyagibits_bytes:sintered_limonite"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ores:tin_ore_franckeite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_franckeite",
+    "nyagibits_bytes:sintered_franckeite"
+  ],
+  "enabled": true
+}

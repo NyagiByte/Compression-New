@@ -1,0 +1,9 @@
+{
+  "id": "ores:bauxite_ore_native_aluminum",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_native_aluminum",
+    "nyagibits_bytes:sintered_native_aluminum"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ores:nickel_ore_sulfide_flow",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_hardened_sulfide_flow",
+    "nyagibits_bytes:de_mineralized_hardened_sulfide_flow"
+  ],
+  "enabled": true
+}

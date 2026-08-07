@@ -1,0 +1,10 @@
+{
+  "id": "ores:uranium",
+  "type": "emixx:group",
+  "contents": [
+    "nuclearcraft:uranium_ore",
+    "nuclearcraft:uranium_deepslate_ore",
+    "nuclearcraft:uranium_chunk"
+  ],
+  "enabled": true
+}

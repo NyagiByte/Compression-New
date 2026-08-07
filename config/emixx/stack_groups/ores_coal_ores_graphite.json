@@ -1,0 +1,9 @@
+{
+  "id": "ores:coal_ore_graphite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_graphite",
+    "nyagibits_bytes:polished_graphite"
+  ],
+  "enabled": true
+}

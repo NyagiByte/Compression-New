@@ -1,0 +1,9 @@
+{
+  "id": "ores:nickel_ore_pentlandite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_pentlandite",
+    "nyagibits_bytes:sintered_pentlandite"
+  ],
+  "enabled": true
+}

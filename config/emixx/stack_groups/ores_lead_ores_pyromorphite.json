@@ -1,0 +1,9 @@
+{
+  "id": "ores:lead_ore_pyromorphite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_pyromorphite",
+    "nyagibits_bytes:sintered_pyromorphite"
+  ],
+  "enabled": true
+}

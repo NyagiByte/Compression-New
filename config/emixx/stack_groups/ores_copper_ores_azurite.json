@@ -1,0 +1,9 @@
+{
+  "id": "ores:copper_ore_azurite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_azurite",
+    "nyagibits_bytes:sintered_azurite"
+  ],
+  "enabled": true
+}

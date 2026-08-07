@@ -1,0 +1,9 @@
+{
+  "id": "ores:tin_ore_orthoclase",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_orthoclase",
+    "nyagibits_bytes:sintered_orthoclase"
+  ],
+  "enabled": true
+}

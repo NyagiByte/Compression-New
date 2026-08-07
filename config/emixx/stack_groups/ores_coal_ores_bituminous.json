@@ -1,0 +1,9 @@
+{
+  "id": "ores:coal_ore_bituminous",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_bituminous",
+    "nyagibits_bytes:de_mineralized_bituminous"
+  ],
+  "enabled": true
+}

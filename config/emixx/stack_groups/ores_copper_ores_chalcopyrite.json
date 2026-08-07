@@ -1,0 +1,9 @@
+{
+  "id": "ores:copper_ore_chalcopyrite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_chalcopyrite",
+    "nyagibits_bytes:sintered_chalcopyrite"
+  ],
+  "enabled": true
+}

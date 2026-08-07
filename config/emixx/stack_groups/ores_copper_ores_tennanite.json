@@ -1,0 +1,9 @@
+{
+  "id": "ores:copper_ore_tennanite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_tennanite",
+    "nyagibits_bytes:sintered_tennanite"
+  ],
+  "enabled": true
+}

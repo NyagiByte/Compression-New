@@ -1,0 +1,9 @@
+{
+  "id": "ores:coal_ore_jet_lignite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_jet",
+    "nyagibits_bytes:de_mineralized_jet"
+  ],
+  "enabled": true
+}

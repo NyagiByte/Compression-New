@@ -1,0 +1,9 @@
+{
+  "id": "ores:uranium_ore_pitchblende",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_pitchblende",
+    "nyagibits_bytes:sintered_pitchblende"
+  ],
+  "enabled": true
+}

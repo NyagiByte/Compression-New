@@ -1,0 +1,9 @@
+{
+  "id": "ores:bauxite_ore_cryolite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_cryolite",
+    "nyagibits_bytes:sintered_cryolite"
+  ],
+  "enabled": true
+}

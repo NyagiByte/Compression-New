@@ -1,0 +1,9 @@
+{
+  "id": "ores:coal_ore_lignite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_lignite",
+    "nyagibits_bytes:de_mineralized_lignite"
+  ],
+  "enabled": true
+}

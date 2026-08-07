@@ -1,0 +1,9 @@
+{
+  "id": "ores:coal_ore_anthracite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_anthracite",
+    "nyagibits_bytes:de_mineralized_anthracite"
+  ],
+  "enabled": true
+}

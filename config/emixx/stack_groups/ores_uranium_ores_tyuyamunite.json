@@ -1,0 +1,9 @@
+{
+  "id": "ores:uranium_ore_tyuyamunite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_tyuyamunite",
+    "nyagibits_bytes:sintered_tyuyamunite"
+  ],
+  "enabled": true
+}

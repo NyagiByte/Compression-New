@@ -1,0 +1,9 @@
+{
+  "id": "ores:bauxite_ore_feldspar",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_feldspar",
+    "nyagibits_bytes:sintered_feldspar"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ores:copper_ore_dioptase",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_dioptase",
+    "nyagibits_bytes:sintered_dioptase"
+  ],
+  "enabled": true
+}

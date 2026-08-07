@@ -1,0 +1,11 @@
+{
+  "id": "ores:lead",
+  "type": "emixx:group",
+  "contents": [
+    "thermal:lead_ore",
+    "thermal:deepslate_lead_ore",
+    "thermal:raw_lead_block",
+    "thermal:raw_lead"
+  ],
+  "enabled": true
+}

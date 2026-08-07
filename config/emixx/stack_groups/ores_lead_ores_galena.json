@@ -1,0 +1,9 @@
+{
+  "id": "ores:lead_ore_galena",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_galena",
+    "nyagibits_bytes:sintered_galena"
+  ],
+  "enabled": true
+}

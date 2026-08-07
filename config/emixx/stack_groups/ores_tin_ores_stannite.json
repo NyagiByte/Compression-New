@@ -1,0 +1,9 @@
+{
+  "id": "ores:tin_ore_stannite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_stannite",
+    "nyagibits_bytes:sintered_stannite"
+  ],
+  "enabled": true
+}

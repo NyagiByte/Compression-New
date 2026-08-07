@@ -1,0 +1,9 @@
+{
+  "id": "ores:iron_ore_meteoric",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_meteoric_iron",
+    "nyagibits_bytes:sintered_meteoric_iron"
+  ],
+  "enabled": true
+}

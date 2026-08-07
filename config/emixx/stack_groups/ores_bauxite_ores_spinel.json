@@ -1,0 +1,9 @@
+{
+  "id": "ores:bauxite_ore_spinel",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_spinel",
+    "nyagibits_bytes:polished_spinel"
+  ],
+  "enabled": true
+}

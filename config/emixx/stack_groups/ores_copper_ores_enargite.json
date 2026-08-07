@@ -1,0 +1,9 @@
+{
+  "id": "ores:copper_ore_enargite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_enargite",
+    "nyagibits_bytes:sintered_enargite"
+  ],
+  "enabled": true
+}

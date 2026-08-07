@@ -1,0 +1,12 @@
+{
+  "id": "ores:conglomerate_nickel_ore",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:conglomerate_nickel_ore",
+    "nyagibits_bytes:dense_conglomerate_nickel_ore",
+    "nyagibits_bytes:hyper_conglomerate_nickel_ore",
+    "nyagibits_bytes:tectonic_conglomerate_nickel_ore",
+    "nyagibits_bytes:core_conglomerate_nickel_ore"
+  ],
+  "enabled": true
+}

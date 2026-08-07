@@ -1,0 +1,11 @@
+{
+  "id": "ores:bauxite",
+  "type": "emixx:group",
+  "contents": [
+    "immersiveengineering:ore_aluminum",
+    "immersiveengineering:deepslate_ore_aluminum",
+    "immersiveengineering:raw_block_aluminum",
+    "immersiveengineering:raw_aluminum"
+  ],
+  "enabled": true
+}

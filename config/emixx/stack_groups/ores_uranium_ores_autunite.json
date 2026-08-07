@@ -1,0 +1,9 @@
+{
+  "id": "ores:uranium_ore_autunite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_autunite",
+    "nyagibits_bytes:sintered_autunite"
+  ],
+  "enabled": true
+}

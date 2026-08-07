@@ -1,0 +1,9 @@
+{
+  "id": "ores:nickel_ore_meteoric_taenite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_meteoric_taenite",
+    "nyagibits_bytes:sintered_meteoric_taenite"
+  ],
+  "enabled": true
+}

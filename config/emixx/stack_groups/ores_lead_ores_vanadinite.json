@@ -1,0 +1,9 @@
+{
+  "id": "ores:lead_ore_vanadinite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_vanadinite",
+    "nyagibits_bytes:sintered_vanadinite"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,11 @@
+{
+  "id": "ores:nickel",
+  "type": "emixx:group",
+  "contents": [
+    "thermal:nickel_ore",
+    "thermal:deepslate_nickel_ore",
+    "thermal:raw_nickel",
+    "thermal:raw_nickel_block"
+  ],
+  "enabled": true
+}

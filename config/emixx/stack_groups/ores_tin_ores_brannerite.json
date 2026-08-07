@@ -1,0 +1,9 @@
+{
+  "id": "ores:tin_ore_brannerite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_brannerite",
+    "nyagibits_bytes:sintered_brannerite"
+  ],
+  "enabled": true
+}

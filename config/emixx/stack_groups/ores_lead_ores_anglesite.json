@@ -1,0 +1,9 @@
+{
+  "id": "ores:lead_ore_anglesite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_anglesite",
+    "nyagibits_bytes:sintered_anglesite"
+  ],
+  "enabled": true
+}

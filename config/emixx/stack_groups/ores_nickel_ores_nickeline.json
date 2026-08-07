@@ -1,0 +1,9 @@
+{
+  "id": "ores:nickel_ore_nickeline",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_nickeline",
+    "nyagibits_bytes:sintered_nickeline"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ores:conglomerate_bauxite_ore",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:conglomerate_bauxite_ore",
+    "nyagibits_bytes:dense_conglomerate_bauxite_ore",
+    "nyagibits_bytes:hyper_conglomerate_bauxite_ore",
+    "nyagibits_bytes:tectonic_conglomerate_bauxite_ore",
+    "nyagibits_bytes:core_conglomerate_bauxite_ore"
+  ],
+  "enabled": true
+}

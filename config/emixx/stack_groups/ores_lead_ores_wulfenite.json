@@ -1,0 +1,9 @@
+{
+  "id": "ores:lead_ore_wulfenite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_wulfenite",
+    "nyagibits_bytes:sintered_wulfenite"
+  ],
+  "enabled": true
+}

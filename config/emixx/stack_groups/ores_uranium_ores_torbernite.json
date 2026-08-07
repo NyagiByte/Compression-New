@@ -1,0 +1,9 @@
+{
+  "id": "ores:uranium_ore_torbernite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_torbernite",
+    "nyagibits_bytes:sintered_torbernite"
+  ],
+  "enabled": true
+}

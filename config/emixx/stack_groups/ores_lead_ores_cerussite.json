@@ -1,0 +1,9 @@
+{
+  "id": "ores:lead_ore_cerussite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_cerussite",
+    "nyagibits_bytes:sintered_cerussite"
+  ],
+  "enabled": true
+}

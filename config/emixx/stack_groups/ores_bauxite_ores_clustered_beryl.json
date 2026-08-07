@@ -1,0 +1,9 @@
+{
+  "id": "ores:bauxite_ore_clustered_beryl",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_clustered_beryl",
+    "nyagibits_bytes:polished_clustered_beryl"
+  ],
+  "enabled": true
+}

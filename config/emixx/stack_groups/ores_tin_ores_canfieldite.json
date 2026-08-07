@@ -1,0 +1,9 @@
+{
+  "id": "ores:tin_ore_canfieldite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_canfieldite",
+    "nyagibits_bytes:sintered_canfieldite"
+  ],
+  "enabled": true
+}

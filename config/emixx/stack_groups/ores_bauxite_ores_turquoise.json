@@ -1,0 +1,9 @@
+{
+  "id": "ores:bauxite_ore_turquoise",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_turquoise",
+    "nyagibits_bytes:polished_turquoise"
+  ],
+  "enabled": true
+}

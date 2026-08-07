@@ -1,0 +1,9 @@
+{
+  "id": "ores:nickel_ore_garnierite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_garnierite",
+    "nyagibits_bytes:sintered_garnierite"
+  ],
+  "enabled": true
+}

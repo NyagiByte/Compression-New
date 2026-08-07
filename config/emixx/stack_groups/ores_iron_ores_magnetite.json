@@ -1,0 +1,9 @@
+{
+  "id": "ores:iron_ore_magnetite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_magnetite",
+    "nyagibits_bytes:sintered_magnetite"
+  ],
+  "enabled": true
+}

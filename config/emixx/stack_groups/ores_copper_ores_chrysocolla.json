@@ -1,0 +1,9 @@
+{
+  "id": "ores:copper_ore_chrysocolla",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_chrysocolla",
+    "nyagibits_bytes:sintered_chrysocolla"
+  ],
+  "enabled": true
+}

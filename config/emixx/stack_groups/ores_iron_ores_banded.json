@@ -1,0 +1,9 @@
+{
+  "id": "ores:iron_ore_banded",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_banded_iron",
+    "nyagibits_bytes:sintered_banded_iron"
+  ],
+  "enabled": true
+}

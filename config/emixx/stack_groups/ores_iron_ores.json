@@ -1,0 +1,11 @@
+{
+  "id": "ores:iron_ore",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:raw_iron",
+    "minecraft:raw_iron_block",
+    "minecraft:iron_ore",
+    "minecraft:deepslate_iron_ore"
+  ],
+  "enabled": true
+}

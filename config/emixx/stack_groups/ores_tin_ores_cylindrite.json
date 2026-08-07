@@ -1,0 +1,9 @@
+{
+  "id": "ores:tin_ore_cylindrite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_cylindrite",
+    "nyagibits_bytes:sintered_cylindrite"
+  ],
+  "enabled": true
+}

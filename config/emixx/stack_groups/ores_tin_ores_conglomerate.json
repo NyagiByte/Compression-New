@@ -1,0 +1,12 @@
+{
+  "id": "ores:conglomerate_tin_ore",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:conglomerate_tin_ore",
+    "nyagibits_bytes:dense_conglomerate_tin_ore",
+    "nyagibits_bytes:hyper_conglomerate_tin_ore",
+    "nyagibits_bytes:tectonic_conglomerate_tin_ore",
+    "nyagibits_bytes:core_conglomerate_tin_ore"
+  ],
+  "enabled": true
+}

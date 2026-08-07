@@ -1,0 +1,9 @@
+{
+  "id": "ores:uranium_ore_thorianite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_thorianite",
+    "nyagibits_bytes:sintered_thorianite"
+  ],
+  "enabled": true
+}

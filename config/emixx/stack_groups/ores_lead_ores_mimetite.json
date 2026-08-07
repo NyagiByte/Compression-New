@@ -1,0 +1,9 @@
+{
+  "id": "ores:lead_ore_mimetite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_mimetite",
+    "nyagibits_bytes:sintered_mimetite"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ores:iron_ore_bog",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_bog_iron",
+    "nyagibits_bytes:biologically_activated_bog_iron"
+  ],
+  "enabled": true
+}

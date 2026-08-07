@@ -1,0 +1,9 @@
+{
+  "id": "ores:iron_ore_pyrite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_pyrite",
+    "nyagibits_bytes:sintered_pyrite"
+  ],
+  "enabled": true
+}

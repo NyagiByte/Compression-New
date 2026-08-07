@@ -1,0 +1,10 @@
+{
+  "id": "ores:tin",
+  "type": "emixx:group",
+  "contents": [
+    "thermal:tin_ore",
+    "thermal:raw_tin",
+    "thermal:raw_tin_block"
+  ],
+  "enabled": true
+}

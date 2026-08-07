@@ -1,0 +1,9 @@
+{
+  "id": "ores:tin_ore_cassiterite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_cassiterite",
+    "nyagibits_bytes:sintered_cassiterite"
+  ],
+  "enabled": true
+}

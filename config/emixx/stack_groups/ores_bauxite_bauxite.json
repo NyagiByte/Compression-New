@@ -1,0 +1,9 @@
+{
+  "id": "ores:bauxite_ore",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_bauxite",
+    "nyagibits_bytes:sintered_bauxite"
+  ],
+  "enabled": true
+}

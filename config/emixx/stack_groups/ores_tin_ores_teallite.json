@@ -1,0 +1,9 @@
+{
+  "id": "ores:tin_ore_teallite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_teallite",
+    "nyagibits_bytes:sintered_teallite"
+  ],
+  "enabled": true
+}

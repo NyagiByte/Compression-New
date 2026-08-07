@@ -1,0 +1,9 @@
+{
+  "id": "ores:iron_ore_siderite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_siderite",
+    "nyagibits_bytes:sintered_siderite"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ores:coal_ore_peat",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_peat",
+    "nyagibits_bytes:biologically_activated_peat"
+  ],
+  "enabled": true
+}
