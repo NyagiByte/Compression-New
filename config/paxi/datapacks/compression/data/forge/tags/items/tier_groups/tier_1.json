@@ -3282,6 +3282,21 @@
         "nyagibits_bytes:porcelain_slab_small",
         "nyagibits_bytes:porcelain_slab_med",
         "nyagibits_bytes:porcelain_slab_large",
-        "nyagibits_bytes:petri_dish_sabouraud"
+        "nyagibits_bytes:petri_dish_sabouraud",
+        "nyagibits_bytes:mini_frasch_apparatus",
+        "nyagibits_bytes:sulfur_pellets_unsifted",
+        "nyagibits_bytes:sulfur_pellets_uniform",
+        "nyagibits_bytes:sulfur_pellets_misshapen",
+        "nyagibits_bytes:filter_metal_mesh",
+        "nyagibits_bytes:filter_metal_mesh_jammed",
+        "nyagibits_bytes:sulfur_roll",
+        "nyagibits_bytes:bucket_of_sulfur_molten",
+        "nyagibits_bytes:bucket_of_sulfur_molten_screened",
+        "nyagibits_bytes:bucket_of_sulfur_molten_uniform",
+        "nyagibits_bytes:bucket_of_sulfur_volatile_organics",
+        "nyagibits_bytes:sample_sodium_sulfide",
+        "nyagibits_bytes:sodium_sulfide_dust",
+        "nyagibits_bytes:sample_sodium_pyrosulfate",
+        "nyagibits_bytes:sodium_pyrosulfate_dust"
     ]
   }
