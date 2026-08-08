@@ -1,0 +1,9 @@
+{
+  "id": "ores:redstone_ore_cinnabar",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_cinnabar",
+    "nyagibits_bytes:polished_cinnabar"
+  ],
+  "enabled": true
+}
