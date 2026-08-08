@@ -1,0 +1,14 @@
+{
+	"type":"vintageimprovements:coiling",
+	"ingredients": [ {
+      "item": "nyagibits_bytes:sulfur_pellets_uniform"
+    }
+  ],
+	"results": [
+		{
+			"item": "nyagibits_bytes:sulfur_roll",
+			"count": 1
+		}
+	],
+  "processingTime": 60
+}

@@ -1,0 +1,33 @@
+{
+    "type":"immersiveengineering:blueprint",
+    "category":"magitech",
+    
+    "inputs":[
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:block_of_stainless_steel"},
+                "count":1},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:acetylene_tank"},
+                "count":1},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:fasteners"},
+                "count":8},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:small_pipe_steel"},
+                "count":16},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:rolled_mild_steel"},
+                "count":8},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:metamorphic_alloy"},
+                "count":2}
+            ],
+    "result":{
+            "item":"nyagibits_bytes:mini_frasch_apparatus"
+        }}

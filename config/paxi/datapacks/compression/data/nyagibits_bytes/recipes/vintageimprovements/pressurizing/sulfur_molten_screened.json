@@ -1,0 +1,30 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "ingredients": [
+    {
+      "fluid": "nyagibits_bytes:sulfur_molten_fluid",
+      "amount": 10000
+    },
+    {
+      "item": "nyagibits_bytes:filter_metal_mesh"
+    },
+    {
+      "item": "nyagibits_bytes:filter_metal_mesh"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "nyagibits_bytes:sulfur_molten_screened_fluid",
+      "amount": 10000
+    },
+    {
+      "count": 2,
+      "item": "nyagibits_bytes:filter_metal_mesh_jammed"
+    },
+    {
+      "count": 1,
+      "item": "nyagibits_bytes:dust_lithic_tailings_generic"
+    }
+  ],
+  "processingTime": 200
+}

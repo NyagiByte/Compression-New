@@ -1,0 +1,88 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "secondaryFluidInput": 0,
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 1000
+    },
+    {
+      "item": "nyagibits_bytes:mini_frasch_apparatus"
+    },
+    {
+      "item": "nyagibits_bytes:sulfur_pellets_misshapen"
+    },
+    {
+      "item": "nyagibits_bytes:sulfur_pellets_misshapen"
+    },
+    {
+      "item": "nyagibits_bytes:sulfur_pellets_misshapen"
+    },
+    {
+      "item": "nyagibits_bytes:sulfur_pellets_misshapen"
+    },
+    {
+      "item": "nyagibits_bytes:sulfur_pellets_misshapen"
+    },
+    {
+      "item": "nyagibits_bytes:sulfur_pellets_misshapen"
+    },
+    {
+      "item": "nyagibits_bytes:sulfur_pellets_misshapen"
+    },
+    {
+      "item": "nyagibits_bytes:sulfur_pellets_misshapen"
+    },
+    {
+      "item": "nyagibits_bytes:sulfur_pellets_misshapen"
+    },
+    {
+      "item": "nyagibits_bytes:sulfur_pellets_misshapen"
+    },
+    {
+      "item": "nyagibits_bytes:sulfur_pellets_misshapen"
+    },
+    {
+      "item": "nyagibits_bytes:sulfur_pellets_misshapen"
+    },
+    {
+      "item": "nyagibits_bytes:sulfur_pellets_misshapen"
+    },
+    {
+      "item": "nyagibits_bytes:sulfur_pellets_misshapen"
+    },
+    {
+      "item": "nyagibits_bytes:sulfur_pellets_misshapen"
+    },
+    {
+      "item": "nyagibits_bytes:sulfur_pellets_misshapen"
+    },
+    {
+      "item": "quark:bottled_cloud"
+    },
+    {
+      "item": "quark:bottled_cloud"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "nuclearcraft:low_pressure_steam",
+      "amount": 1000
+    },
+    {
+      "fluid": "nyagibits_bytes:sulfur_molten_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "nyagibits_bytes:mini_frasch_apparatus",
+      "chance": 0.75
+    },
+    {
+      "count": 2,
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "processingTime": 200
+}

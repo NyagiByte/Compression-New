@@ -1,0 +1,19 @@
+{
+	"type":"vintageimprovements:vibrating",
+	"ingredients": [ 
+		{
+			"item": "nyagibits_bytes:sulfur_pellets_unsifted"
+		}
+	],
+	"results": [
+		{
+			"chance": 0.75,
+			"item": "nyagibits_bytes:sulfur_pellets_uniform"
+		},
+		{
+			"chance": 0.25,
+			"item": "nyagibits_bytes:sulfur_pellets_misshapen"
+		}
+	],
+	"processingTime": 20
+}

@@ -1,0 +1,24 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "secondaryFluidInput": 0,
+  "ingredients": [
+    {
+      "fluid": "nyagibits_bytes:sulfur_molten_uniform_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "create:nozzle"
+    }
+  ],
+  "results": [
+    {
+      "count": 8,
+      "item": "nyagibits_bytes:sulfur_pellets_unsifted"
+    },
+    {
+      "item": "create:nozzle",
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 200
+}

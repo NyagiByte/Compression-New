@@ -1,0 +1,18 @@
+{
+    "type":"immersiveengineering:blueprint",
+    "category":"intermediates",
+    
+    "inputs":[
+        {
+            "base_ingredient":{
+                "item":"create:filter"},
+                "count":64},
+        {
+            "base_ingredient":{
+                "item":"immersiveengineering:steel_scaffolding_standard"},
+                "count":1}
+            ],
+    "result":{
+            "count": 16,
+            "item":"nyagibits_bytes:filter_metal_mesh"
+        }}

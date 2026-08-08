@@ -1,0 +1,26 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "ingredients": [
+    {
+      "fluid": "nyagibits_bytes:sulfur_molten_fluid",
+      "amount": 10000
+    },
+    {
+      "item": "nyagibits_bytes:filter_metal_mesh_jammed"
+    },
+    {
+      "item": "nyagibits_bytes:filter_metal_mesh_jammed"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "nyagibits_bytes:sulfur_molten_fluid",
+      "amount": 10000
+    },
+    {
+      "count": 2,
+      "item": "nyagibits_bytes:filter_metal_mesh_jammed"
+    }
+  ],
+  "processingTime": 200
+}

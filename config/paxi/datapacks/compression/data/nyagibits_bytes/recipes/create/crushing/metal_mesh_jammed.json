@@ -1,0 +1,15 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:filter_metal_mesh_jammed"
+      }
+    ],
+    "processingTime": 10,
+    "results": [
+      {
+        "count": 1,
+        "item": "immersiveengineering:dust_steel"
+      }
+    ]
+  }

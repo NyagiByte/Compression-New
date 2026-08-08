@@ -1,0 +1,215 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+  "secondaryFluidOutput": 0,
+    "ingredients": [
+      {
+        "fluid": "nyagibits_bytes:sulfur_molten_screened_fluid",
+        "amount": 1000
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      },
+      {
+        "item": "nyagibits_bytes:activated_carbon"
+      }
+    ],
+    "results": [
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:sulfur_volatile_organics_fluid"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:sulfur_molten_uniform_fluid"
+      },
+      {
+        "item": "chemlib:tellurium"
+      }
+    ]
+  }
