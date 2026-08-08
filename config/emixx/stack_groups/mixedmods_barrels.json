@@ -1,0 +1,15 @@
+{
+  "id": "mixedmods:barrel",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:barrel",
+    "ironchests:gold_barrel",
+    "ironchests:diamond_barrel",
+    "ironchests:copper_barrel",
+    "ironchests:crystal_barrel",
+    "ironchests:obsidian_barrel",
+    "ironchests:netherite_barrel",
+    "ironchests:iron_barrel"
+  ],
+  "enabled": true
+}

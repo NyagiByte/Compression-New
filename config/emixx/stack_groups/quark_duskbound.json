@@ -1,0 +1,12 @@
+{
+  "id": "quark:quark_duskbound",
+  "type": "emixx:group",
+  "contents": [
+    "quark:duskbound_block",
+    "quark:duskbound_lantern",
+    "quark:duskbound_block_slab",
+    "quark:duskbound_block_vertical_slab",
+    "quark:duskbound_block_stairs"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "id": "minecraft:purpur",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:purpur_block",
+    "endergetic:cracked_purpur_block",
+    "minecraft:purpur_pillar",
+    "minecraft:purpur_stairs",
+    "minecraft:purpur_slab",
+    "quark:purpur_vertical_slab"
+  ],
+  "enabled": true
+}

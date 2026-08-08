@@ -1,0 +1,11 @@
+{
+  "id": "architects_palette:architects_palette_bread_block",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:bread_block",
+    "architects_palette:bread_slab",
+    "architects_palette:bread_nub",
+    "architects_palette:crustless_bread_block"
+  ],
+  "enabled": true
+}

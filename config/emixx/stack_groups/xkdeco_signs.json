@@ -1,0 +1,18 @@
+{
+  "id": "xkdeco:xkdeco_signs",
+  "type": "emixx:group",
+  "contents": [
+    "xkdeco:sign_entrance",
+    "xkdeco:sign_exit",
+    "xkdeco:sign_left",
+    "xkdeco:sign_right",
+    "xkdeco:small_sign_left",
+    "xkdeco:small_sign_right",
+    "xkdeco:small_sign_ground",
+    "xkdeco:emergency_exit_left",
+    "xkdeco:emergency_exit_right",
+    "xkdeco:emergency_exit",
+    "xkdeco:emergency_exit_ground"
+  ],
+  "enabled": true
+}

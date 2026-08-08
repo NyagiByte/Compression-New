@@ -1,0 +1,11 @@
+{
+  "id": "architects_palette:architects_palette_hazard",
+  "type": "emixx:group",
+  "contents": [
+    "architects_palette:hazard_block",
+    "architects_palette:hazard_slab",
+    "architects_palette:hazard_vertical_slab",
+    "architects_palette:hazard_wall"
+  ],
+  "enabled": true
+}

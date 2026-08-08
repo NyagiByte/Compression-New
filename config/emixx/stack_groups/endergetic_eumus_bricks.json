@@ -1,0 +1,14 @@
+{
+  "id": "endergetic:endergetic_eumus_bricks",
+  "type": "emixx:group",
+  "contents": [
+    "endergetic:eumus",
+    "endergetic:eumus_bricks",
+    "endergetic:cracked_eumus_bricks",
+    "endergetic:eumus_brick_stairs",
+    "endergetic:eumus_brick_slab",
+    "endergetic:eumus_brick_wall",
+    "endergetic:chiseled_eumus_bricks"
+  ],
+  "enabled": true
+}

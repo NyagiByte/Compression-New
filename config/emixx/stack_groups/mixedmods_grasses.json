@@ -1,0 +1,25 @@
+{
+  "id": "mixedmods:grasses",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:grass",
+    "natures_spirit:beach_grass",
+    "natures_spirit:scorched_grass",
+    "natures_spirit:sedge_grass",
+    "natures_spirit:oat_grass",
+    "natures_spirit:melic_grass",
+    "natures_spirit:frigid_grass",
+    "minecraft:tall_grass",
+    "natures_spirit:tall_frigid_grass",
+    "natures_spirit:tall_scorched_grass",
+    "natures_spirit:tall_beach_grass",
+    "natures_spirit:tall_sedge_grass",
+    "natures_spirit:tall_oat_grass",
+    "natures_spirit:tall_melic_grass",
+    "biomeswevegone:tall_prairie_grass",
+    "biomeswevegone:prairie_grass",
+    "biomeswevegone:tall_beach_grass",
+    "biomeswevegone:beach_grass"
+  ],
+  "enabled": true
+}
