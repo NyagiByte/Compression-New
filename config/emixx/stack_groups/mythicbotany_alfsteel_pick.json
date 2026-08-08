@@ -1,0 +1,8 @@
+{
+  "id": "mythicbotany:mythicbotany_alf_shatterer",
+  "type": "emixx:group",
+  "contents": [
+    "mythicbotany:alfsteel_pick"
+  ],
+  "enabled": true
+}
