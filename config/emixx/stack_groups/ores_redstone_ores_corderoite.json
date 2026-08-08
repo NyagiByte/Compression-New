@@ -1,0 +1,9 @@
+{
+  "id": "ores:redstone_ore_corderoite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_corderoite",
+    "nyagibits_bytes:sintered_corderoite"
+  ],
+  "enabled": true
+}

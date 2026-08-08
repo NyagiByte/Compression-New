@@ -1,0 +1,9 @@
+{
+  "id": "ores:redstone_ore_montroydite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_montroydite",
+    "nyagibits_bytes:sintered_montroydite"
+  ],
+  "enabled": true
+}

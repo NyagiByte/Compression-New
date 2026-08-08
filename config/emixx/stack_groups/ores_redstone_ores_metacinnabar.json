@@ -1,0 +1,9 @@
+{
+  "id": "ores:redstone_ore_metacinnabar",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_metacinnabar",
+    "nyagibits_bytes:sintered_metacinnabar"
+  ],
+  "enabled": true
+}

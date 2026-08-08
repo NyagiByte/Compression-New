@@ -1,0 +1,9 @@
+{
+  "id": "ores:redstone_ore_mercury_spherules",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_native_mercury_spherules",
+    "nyagibits_bytes:sintered_native_mercury_spherules"
+  ],
+  "enabled": true
+}

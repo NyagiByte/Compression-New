@@ -1,0 +1,9 @@
+{
+  "id": "ores:redstone_ore_granulated_obsidian",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_granulated_obsidian",
+    "nyagibits_bytes:de_mineralized_granulated_obsidian"
+  ],
+  "enabled": true
+}

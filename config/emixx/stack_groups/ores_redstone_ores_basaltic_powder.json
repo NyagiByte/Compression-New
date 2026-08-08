@@ -1,0 +1,9 @@
+{
+  "id": "ores:redstone_ore_basaltic_powder",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_basaltic_powder",
+    "nyagibits_bytes:de_mineralized_basaltic_powder"
+  ],
+  "enabled": true
+}

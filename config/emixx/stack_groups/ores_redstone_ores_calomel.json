@@ -1,0 +1,9 @@
+{
+  "id": "ores:redstone_ore_calomel",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_calomel",
+    "nyagibits_bytes:polished_calomel"
+  ],
+  "enabled": true
+}
