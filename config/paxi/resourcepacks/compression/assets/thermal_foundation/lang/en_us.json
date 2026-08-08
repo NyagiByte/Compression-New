@@ -52,5 +52,7 @@
 
     "block.thermal.rubberwood_log": "Raw Rubberwood Log",
     "block.thermal.rubberwood_wood": "Full-Sided Rubberwood Log",
-    "block.thermal.stripped_rubberwood_wood": "Stripped Full-Sided Rubberwood Log"
+    "block.thermal.stripped_rubberwood_wood": "Stripped Full-Sided Rubberwood Log",
+
+    "block.thermal.cinnabar_block": "Beveled Cinnabar Block"
 }

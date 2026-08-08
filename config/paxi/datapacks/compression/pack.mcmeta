@@ -136,6 +136,8 @@
 
 		{"namespace": "thermal", "path": "recipes/machines/furnace/furnace_rotten_flesh_to_leather.json"},
 
+		{"namespace": "thermal", "path": "recipes/storage/cinnabar_block"},
+
 		{"namespace": "architects_palette", "path": "recipes/charcoal_block.json"},
 		{"namespace": "architects_palette", "path": "recipes/tuff_bricks.json"},
 
