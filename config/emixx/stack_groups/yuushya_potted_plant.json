@@ -1,0 +1,33 @@
+{
+  "id": "yuushya:yuushya_potted_plant",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:potted_bamboo",
+    "yuushya:potted_flower_basket",
+    "yuushya:potted_sapling",
+    "yuushya:potted_jungle_sprout",
+    "yuushya:potted_tall_oak",
+    "yuushya:potted_tall_maple",
+    "yuushya:potted_tall_sakura",
+    "yuushya:potted_cornflower",
+    "yuushya:potted_cactus",
+    "yuushya:potted_oak_sprout",
+    "yuushya:potted_sakura_sprout",
+    "yuushya:potted_maple_sprout",
+    "yuushya:potted_azure_bluet",
+    "yuushya:potted_evergreen",
+    "yuushya:potted_sprout",
+    "yuushya:potted_sunflower",
+    "yuushya:potted_allium",
+    "yuushya:potted_bush",
+    "yuushya:potted_fern",
+    "yuushya:potted_white_tulip",
+    "yuushya:potted_red_tulip",
+    "yuushya:potted_pink_tulip",
+    "yuushya:potted_blue_orchid",
+    "yuushya:potted_orange_tulip",
+    "yuushya:potted_yuuca",
+    "yuushya:potted_lycoris"
+  ],
+  "enabled": true
+}

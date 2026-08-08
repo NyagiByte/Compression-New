@@ -1,0 +1,11 @@
+{
+  "id": "yuushya:yuushya_pale_bricks",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:pale_bricks_0",
+    "yuushya:pale_bricks_1",
+    "yuushya:pale_bricks_2",
+    "yuushya:pale_bricks_3"
+  ],
+  "enabled": true
+}

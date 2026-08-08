@@ -1,0 +1,12 @@
+{
+  "id": "yuushya:yuushya_curtain",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:white_curtain",
+    "yuushya:red_curtain",
+    "yuushya:blue_curtain",
+    "yuushya:yellow_curtain",
+    "yuushya:cyan_curtain"
+  ],
+  "enabled": true
+}

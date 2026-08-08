@@ -1,0 +1,13 @@
+{
+  "id": "yuushya:yuushya_fan",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:fan_head",
+    "yuushya:fan",
+    "yuushya:fan_",
+    "yuushya:floor_fan",
+    "yuushya:floor_fan_",
+    "yuushya:ceiling_fan"
+  ],
+  "enabled": true
+}

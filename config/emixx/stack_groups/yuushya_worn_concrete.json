@@ -1,0 +1,13 @@
+{
+  "id": "yuushya:yuushya_worn_concrete",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:light_gray_worn_concrete",
+    "yuushya:white_worn_concrete",
+    "yuushya:cream_worn_concrete",
+    "yuushya:mink_worn_concrete",
+    "yuushya:yellow_worn_concrete",
+    "yuushya:orange_worn_concrete"
+  ],
+  "enabled": true
+}

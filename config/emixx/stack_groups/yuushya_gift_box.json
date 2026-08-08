@@ -1,0 +1,22 @@
+{
+  "id": "yuushya:yuushya_gift_box",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:painter_gift_box",
+    "yuushya:idol_gift_box",
+    "yuushya:plain_gift_box",
+    "yuushya:food_gift_box",
+    "yuushya:electrician_gift_box",
+    "yuushya:businessman_gift_box",
+    "yuushya:gardener_gift_box",
+    "yuushya:carver_gift_box",
+    "yuushya:carpenter_gift_box",
+    "yuushya:cook_gift_box",
+    "yuushya:cat_lover_gift_box",
+    "yuushya:white_bow_gift_box",
+    "yuushya:black_bow_gift_box",
+    "yuushya:white_bow_small_gift_box",
+    "yuushya:black_bow_small_gift_box"
+  ],
+  "enabled": true
+}

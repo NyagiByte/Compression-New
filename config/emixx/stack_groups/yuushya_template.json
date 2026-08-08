@@ -71,7 +71,8 @@
     "yuushya:bottle_container",
     "yuushya:board",
     "yuushya:bicycle",
-    "yuushya:mounted_fern_pot"
+    "yuushya:mounted_fern_pot",
+    "yuushya:venetian_blinds"
   ],
   "enabled": true
 }

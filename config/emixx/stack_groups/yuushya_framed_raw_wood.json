@@ -1,0 +1,18 @@
+{
+  "id": "yuushya:yuushya_framed_raw_wood",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:acacia_framed_raw_wood_a",
+    "yuushya:birch_framed_raw_wood_a",
+    "yuushya:dark_oak_framed_raw_wood_a",
+    "yuushya:jungle_framed_raw_wood_a",
+    "yuushya:oak_framed_raw_wood_a",
+    "yuushya:acacia_framed_raw_wood_b",
+    "yuushya:birch_framed_raw_wood_b",
+    "yuushya:dark_oak_framed_raw_wood_b",
+    "yuushya:jungle_framed_raw_wood_b",
+    "yuushya:oak_framed_raw_wood_b",
+    "yuushya:raw_acacia_wood"
+  ],
+  "enabled": true
+}

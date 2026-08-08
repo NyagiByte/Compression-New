@@ -1,0 +1,21 @@
+{
+  "id": "yuushya:yuushya_iron_fence",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:iron_fence",
+    "yuushya:black_iron_fence",
+    "yuushya:tall_iron_fence_middle_support",
+    "yuushya:tall_iron_fence_middle",
+    "yuushya:tall_iron_fence_left",
+    "yuushya:tall_iron_fence_right",
+    "yuushya:tall_iron_fence_stairs",
+    "yuushya:tall_iron_fence_stairs_sym",
+    "yuushya:black_tall_iron_fence_middle_support",
+    "yuushya:black_tall_iron_fence_middle",
+    "yuushya:black_tall_iron_fence_left",
+    "yuushya:black_tall_iron_fence_right",
+    "yuushya:black_tall_iron_fence_stairs",
+    "yuushya:black_tall_iron_fence_stairs_sym"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "id": "yuushya:yuushya_soot_pipe",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:soot_pipe",
+    "yuushya:soot_pipe_horizontal",
+    "yuushya:soot_pipe_bottom",
+    "yuushya:soot_pipe_top",
+    "yuushya:soot_pipe_top_corner",
+    "yuushya:soot_pipe_exhaust"
+  ],
+  "enabled": true
+}

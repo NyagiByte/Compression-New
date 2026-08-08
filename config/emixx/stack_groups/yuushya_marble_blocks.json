@@ -1,0 +1,16 @@
+{
+  "id": "yuushya:yuushya_marble_blocks",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:embbed_marble_bricks",
+    "yuushya:smooth_marble",
+    "yuushya:marble_bricks_0",
+    "yuushya:marble_bricks_1",
+    "yuushya:marble",
+    "yuushya:marble_cobblestone",
+    "yuushya:chiseled_vertical_marble",
+    "yuushya:chiseled_marble",
+    "yuushya:chiseled_marble_alt"
+  ],
+  "enabled": true
+}

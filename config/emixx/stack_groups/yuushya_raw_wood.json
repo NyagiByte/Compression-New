@@ -1,0 +1,18 @@
+{
+  "id": "yuushya:yuushya_raw_wood",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:raw_acacia_wood",
+    "yuushya:raw_birch_wood",
+    "yuushya:raw_dark_oak_wood",
+    "yuushya:raw_jungle_wood",
+    "yuushya:raw_oak_wood",
+    "yuushya:raw_spruce_wood",
+    "yuushya:raw_crimson_wood",
+    "yuushya:raw_warped_wood",
+    "yuushya:raw_mangrove_wood",
+    "yuushya:raw_bamboo",
+    "yuushya:raw_cherry_wood"
+  ],
+  "enabled": true
+}

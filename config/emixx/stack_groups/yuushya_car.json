@@ -1,0 +1,17 @@
+{
+  "id": "yuushya:yuushya_car",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:car_yellow_part_a",
+    "yuushya:car_red_part_a",
+    "yuushya:car_white_part_a",
+    "yuushya:car_dark_part_a",
+    "yuushya:car_blue_part_a",
+    "yuushya:car_yellow_part_b",
+    "yuushya:car_red_part_b",
+    "yuushya:car_white_part_b",
+    "yuushya:car_dark_part_b",
+    "yuushya:car_blue_part_b"
+  ],
+  "enabled": true
+}

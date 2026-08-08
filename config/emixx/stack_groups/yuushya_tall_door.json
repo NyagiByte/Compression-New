@@ -1,0 +1,13 @@
+{
+  "id": "yuushya:yuushya_tall_door",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:oak_tall_door",
+    "yuushya:acacia_tall_door",
+    "yuushya:jungle_tall_door",
+    "yuushya:birch_tall_door",
+    "yuushya:dark_oak_tall_door",
+    "yuushya:iron_tall_door"
+  ],
+  "enabled": true
+}

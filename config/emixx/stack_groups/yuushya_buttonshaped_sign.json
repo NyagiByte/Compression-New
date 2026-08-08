@@ -1,0 +1,19 @@
+{
+  "id": "yuushya:yuushya_button_shaped_sign",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:button_sign_like",
+    "yuushya:button_sign_star",
+    "yuushya:button_sign_coin",
+    "yuushya:button_sign_love",
+    "yuushya:button_sign_share",
+    "yuushya:button_sign_play",
+    "yuushya:button_sign_dislike",
+    "yuushya:button_sign_question",
+    "yuushya:button_sign_true",
+    "yuushya:button_sign_false",
+    "yuushya:button_sign_notice",
+    "yuushya:button_sign_bookmark"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "yuushya:yuushya_painting",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:flower_painting",
+    "yuushya:painting_0",
+    "yuushya:painting_1",
+    "yuushya:painting_2",
+    "yuushya:painting_3",
+    "yuushya:painting_4",
+    "yuushya:painting_5",
+    "yuushya:painting_6",
+    "yuushya:painting_7",
+    "yuushya:painting_8",
+    "yuushya:painting_9",
+    "yuushya:painting_10",
+    "yuushya:painting_11"
+  ],
+  "enabled": true
+}

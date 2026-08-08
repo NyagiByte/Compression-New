@@ -1,0 +1,13 @@
+{
+  "id": "yuushya:yuushya_vine",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:small_vine",
+    "yuushya:vine",
+    "yuushya:top_vine",
+    "yuushya:large_vine",
+    "yuushya:ceiling_vine_flowering",
+    "yuushya:ceiling_vine"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,13 @@
+{
+  "id": "yuushya:yuushya_framed_planks",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:acacia_framed_planks",
+    "yuushya:birch_framed_planks",
+    "yuushya:dark_oak_framed_planks",
+    "yuushya:jungle_framed_planks",
+    "yuushya:oak_framed_planks",
+    "yuushya:acacia_framed_raw_wood_a"
+  ],
+  "enabled": true
+}

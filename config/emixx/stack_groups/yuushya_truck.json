@@ -1,0 +1,22 @@
+{
+  "id": "yuushya:yuushya_truck",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:truck_wheel",
+    "yuushya:truck_wheel_",
+    "yuushya:truck_wheels",
+    "yuushya:truck_chassis_basic",
+    "yuushya:truck_chassis_outer",
+    "yuushya:truck_chassis_wheel",
+    "yuushya:truck_chassis_front",
+    "yuushya:truck_chassis_end",
+    "yuushya:truck_head_yellow",
+    "yuushya:truck_head_red",
+    "yuushya:truck_head_white",
+    "yuushya:truck_head_dark",
+    "yuushya:truck_head_blue",
+    "yuushya:normal_truck",
+    "yuushya:dining_truck"
+  ],
+  "enabled": true
+}

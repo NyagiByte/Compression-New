@@ -1,0 +1,13 @@
+{
+  "id": "abyssal_decor:abyssal_decor_cinnamon_shingles",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:cinnamon_shingles",
+    "abyssal_decor:cinnamon_shingle_slab",
+    "abyssal_decor:cinnamon_shingle_stairs",
+    "abyssal_decor:mossy_cinnamon_shingles",
+    "abyssal_decor:mossy_cinnamon_shingle_slab",
+    "abyssal_decor:mossy_cinnamon_shingle_stairs"
+  ],
+  "enabled": true
+}

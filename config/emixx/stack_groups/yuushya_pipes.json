@@ -1,0 +1,16 @@
+{
+  "id": "yuushya:yuushya_pipe",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:pipe_vertical",
+    "yuushya:pipe_horizontal",
+    "yuushya:mounted_pipe_vertical",
+    "yuushya:mounted_pipe_horizontal",
+    "yuushya:pipe_corner_bottom_left",
+    "yuushya:pipe_corner_bottom_right",
+    "yuushya:pipe_corner_top_left",
+    "yuushya:pipe_corner_top_right",
+    "yuushya:pipe_hub"
+  ],
+  "enabled": true
+}

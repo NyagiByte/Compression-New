@@ -1,0 +1,17 @@
+{
+  "id": "yuushya:yuushya_hangar",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:hanger_rod",
+    "yuushya:hanger_rod_rail",
+    "yuushya:hanged_cloth",
+    "yuushya:hanged_clothes",
+    "yuushya:clothes_showcase",
+    "yuushya:hanging_clothes_staff",
+    "yuushya:hanged_things",
+    "yuushya:hanged_things_",
+    "yuushya:hanger_rod_anchor",
+    "yuushya:ceiling_hanger_rod_anchor"
+  ],
+  "enabled": true
+}

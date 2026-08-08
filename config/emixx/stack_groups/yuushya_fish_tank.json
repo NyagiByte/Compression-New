@@ -1,0 +1,13 @@
+{
+  "id": "yuushya:yuushya_fish_tank",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:fish_tank_a_bottom",
+    "yuushya:fish_tank_a_middle",
+    "yuushya:fish_tank_a_top",
+    "yuushya:fish_tank_b_bottom",
+    "yuushya:fish_tank_b_middle",
+    "yuushya:fish_tank_b_top"
+  ],
+  "enabled": true
+}
