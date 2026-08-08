@@ -1,0 +1,15 @@
+{
+  "id": "iron_chests:icon_chests_upgrade",
+  "type": "emixx:group",
+  "contents": [
+    "ironchests:blank_chest_upgrade",
+    "ironchests:gold_chest_upgrade",
+    "ironchests:copper_chest_upgrade",
+    "ironchests:netherite_chest_upgrade",
+    "ironchests:crystal_chest_upgrade",
+    "ironchests:obsidian_chest_upgrade",
+    "ironchests:diamond_chest_upgrade",
+    "ironchests:iron_chest_upgrade"
+  ],
+  "enabled": true
+}
