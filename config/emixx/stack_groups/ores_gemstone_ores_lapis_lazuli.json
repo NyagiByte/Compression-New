@@ -1,0 +1,9 @@
+{
+  "id": "ores:gemstone_ore_lapis_lazuli",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_lapis_lazuli",
+    "nyagibits_bytes:polished_lapis_lazuli"
+  ],
+  "enabled": true
+}

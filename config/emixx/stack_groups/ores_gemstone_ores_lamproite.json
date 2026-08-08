@@ -1,0 +1,9 @@
+{
+  "id": "ores:gemstone_ore_lamproite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_lamproite",
+    "nyagibits_bytes:polished_lamproite"
+  ],
+  "enabled": true
+}

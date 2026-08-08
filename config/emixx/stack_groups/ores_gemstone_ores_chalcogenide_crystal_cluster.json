@@ -1,0 +1,9 @@
+{
+  "id": "ores:gemstone_ore_chalcogenide_crystal_cluster",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_chalcogenide_crystal_cluster",
+    "nyagibits_bytes:sintered_chalcogenide_crystal_cluster"
+  ],
+  "enabled": true
+}

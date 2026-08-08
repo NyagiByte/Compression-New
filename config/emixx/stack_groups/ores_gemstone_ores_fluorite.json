@@ -1,0 +1,9 @@
+{
+  "id": "ores:gemstone_ore_fluorite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_fluorite",
+    "nyagibits_bytes:polished_fluorite"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ores:gemstone_ore_kimberlite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_kimberlite",
+    "nyagibits_bytes:polished_kimberlite"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ores:gemstone_ore_lazurite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_lazurite",
+    "nyagibits_bytes:polished_lazurite"
+  ],
+  "enabled": true
+}
