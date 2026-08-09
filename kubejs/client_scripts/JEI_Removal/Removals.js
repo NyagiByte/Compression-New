@@ -1,6 +1,8 @@
 JEIEvents.hideItems(event => {
   //I know loops exist, just making this look similar to the pack.mcmeta
   event.hide([
+    //Questbook/Ponder Objects
+    'nyagibits_bytes:qo_t0_7063b8bce64899c9',
     //Minecraft
     'minecraft:wooden_pickaxe',
     'minecraft:wooden_sword',
