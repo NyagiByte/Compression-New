@@ -1,0 +1,9 @@
+{
+  "id": "ores:migmamite_ore_borax",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_borax",
+    "nyagibits_bytes:de_mineralized_borax"
+  ],
+  "enabled": true
+}

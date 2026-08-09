@@ -1,0 +1,9 @@
+{
+  "id": "ores:migmamite_ore_chalk",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_chalk",
+    "nyagibits_bytes:de_mineralized_chalk"
+  ],
+  "enabled": true
+}

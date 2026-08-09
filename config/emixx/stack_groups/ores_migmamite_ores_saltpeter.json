@@ -1,0 +1,9 @@
+{
+  "id": "ores:migmamite_ore_saltpeter",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_saltpeter",
+    "nyagibits_bytes:de_mineralized_saltpeter"
+  ],
+  "enabled": true
+}

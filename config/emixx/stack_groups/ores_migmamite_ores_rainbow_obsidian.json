@@ -1,0 +1,9 @@
+{
+  "id": "ores:migmamite_ore_rainbow_obsidian",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_rainbow_obsidian",
+    "nyagibits_bytes:de_mineralized_rainbow_obsidian"
+  ],
+  "enabled": true
+}

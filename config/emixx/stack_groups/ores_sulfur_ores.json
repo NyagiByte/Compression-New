@@ -1,0 +1,11 @@
+{
+  "id": "ores:sulfur",
+  "type": "emixx:group",
+  "contents": [
+    "thermal:sulfur_ore",
+    "thermal:deepslate_sulfur_ore",
+    "thermal:sulfur_block",
+    "thermal:sulfur"
+  ],
+  "enabled": true
+}

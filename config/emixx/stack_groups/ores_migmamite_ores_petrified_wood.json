@@ -1,0 +1,9 @@
+{
+  "id": "ores:migmamite_ore_petrified_wood",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_petrified_wood",
+    "nyagibits_bytes:biologically_activated_petrified_wood"
+  ],
+  "enabled": true
+}

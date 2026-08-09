@@ -1,0 +1,9 @@
+{
+  "id": "ores:migmamite_ore_compacted_limestone",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_compacted_limestone",
+    "nyagibits_bytes:de_mineralized_compacted_limestone"
+  ],
+  "enabled": true
+}

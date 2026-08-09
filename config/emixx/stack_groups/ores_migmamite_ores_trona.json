@@ -1,0 +1,9 @@
+{
+  "id": "ores:migmamite_ore_trona",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_trona",
+    "nyagibits_bytes:de_mineralized_trona"
+  ],
+  "enabled": true
+}

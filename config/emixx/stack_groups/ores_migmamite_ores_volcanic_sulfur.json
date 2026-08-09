@@ -1,0 +1,9 @@
+{
+  "id": "ores:migmamite_ore_volcanic_sulfur",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_volcanic_sulfur",
+    "nyagibits_bytes:de_mineralized_volcanic_sulfur"
+  ],
+  "enabled": true
+}
