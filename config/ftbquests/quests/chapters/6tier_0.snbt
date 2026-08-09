@@ -2109,12 +2109,20 @@
 		}
 		{
 			dependencies: ["38D12B5F0800566A"]
+			description: ["&l&o&cUnder Construction"]
 			icon: "create:mechanical_crafter"
 			id: "21209E96C5A2C04B"
-			tasks: [{
-				id: "5A4896C469CA579F"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "5A4896C469CA579F"
+					type: "checkmark"
+				}
+				{
+					id: "7A43EDBE920AF0EB"
+					item: "compactmachines:wall"
+					type: "item"
+				}
+			]
 			title: "Automatic Assembly"
 			x: -0.5d
 			y: 23.5d
@@ -2295,25 +2303,41 @@
 				"21209E96C5A2C04B"
 				"38D12B5F0800566A"
 			]
+			description: ["&l&o&cUnder Construction"]
 			icon: "create:belt_connector"
 			id: "3631B3D7904473FD"
-			tasks: [{
-				id: "61DDD6E2BCDDC8EE"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "61DDD6E2BCDDC8EE"
+					type: "checkmark"
+				}
+				{
+					id: "3B632168EE0767B1"
+					item: "compactmachines:wall"
+					type: "item"
+				}
+			]
 			title: "About Sequenced Assemblies"
 			x: 0.0d
 			y: 24.5d
 		}
 		{
 			dependencies: ["38D12B5F0800566A"]
+			description: ["&l&o&cUnder Construction"]
 			hide_until_deps_complete: true
 			icon: "create:cardboard"
 			id: "5106D178346697BD"
-			tasks: [{
-				id: "72FC98D18568AADF"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "72FC98D18568AADF"
+					type: "checkmark"
+				}
+				{
+					id: "42E3A90DF3F62449"
+					item: "compactmachines:wall"
+					type: "item"
+				}
+			]
 			title: "Factory Rebuild Planning"
 			x: 3.0d
 			y: 24.0d
