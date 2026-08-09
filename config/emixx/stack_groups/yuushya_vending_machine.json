@@ -1,0 +1,13 @@
+{
+  "id": "yuushya:yuushya_vending_machine",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:vending_machine_blue_v",
+    "yuushya:vending_machine_blue_h",
+    "yuushya:vending_machine_red_v",
+    "yuushya:vending_machine_red_h",
+    "yuushya:vending_machine_gray_v",
+    "yuushya:vending_machine_gray_h"
+  ],
+  "enabled": true
+}

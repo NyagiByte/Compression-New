@@ -1,0 +1,17 @@
+{
+  "id": "yuushya:yuushya_fancy_table",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:acacia_table",
+    "yuushya:birch_table",
+    "yuushya:dark_oak_table",
+    "yuushya:jungle_table",
+    "yuushya:oak_table",
+    "yuushya:hay_table",
+    "yuushya:oak_foldable_table",
+    "yuushya:acacia_foldable_table",
+    "yuushya:stone_table",
+    "yuushya:marble_table"
+  ],
+  "enabled": true
+}

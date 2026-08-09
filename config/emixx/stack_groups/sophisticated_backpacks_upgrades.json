@@ -1,0 +1,32 @@
+{
+  "id": "sophisticatedbackpacks:sophisticated_backpacks_upgrade",
+  "type": "emixx:group",
+  "contents": [
+    "sophisticatedbackpacks:advanced_pickup_upgrade",
+    "sophisticatedbackpacks:advanced_filter_upgrade",
+    "sophisticatedbackpacks:advanced_magnet_upgrade",
+    "sophisticatedbackpacks:advanced_feeding_upgrade",
+    "sophisticatedbackpacks:advanced_compacting_upgrade",
+    "sophisticatedbackpacks:advanced_void_upgrade",
+    "sophisticatedbackpacks:advanced_restock_upgrade",
+    "sophisticatedbackpacks:advanced_deposit_upgrade",
+    "sophisticatedbackpacks:advanced_refill_upgrade",
+    "sophisticatedbackpacks:inception_upgrade",
+    "sophisticatedbackpacks:everlasting_upgrade",
+    "sophisticatedbackpacks:crafting_upgrade",
+    "sophisticatedbackpacks:stonecutter_upgrade",
+    "sophisticatedbackpacks:stack_upgrade_tier_4",
+    "sophisticatedbackpacks:advanced_jukebox_upgrade",
+    "sophisticatedbackpacks:advanced_tool_swapper_upgrade",
+    "sophisticatedbackpacks:tank_upgrade",
+    "sophisticatedbackpacks:battery_upgrade",
+    "sophisticatedbackpacks:advanced_pump_upgrade",
+    "sophisticatedbackpacks:xp_pump_upgrade",
+    "sophisticatedbackpacks:anvil_upgrade",
+    "sophisticatedbackpacks:smithing_upgrade",
+    "sophisticatedbackpacks:infinity_upgrade",
+    "sophisticatedbackpacks:advanced_alchemy_upgrade",
+    "sophisticatedbackpacks:upgrade_base"
+  ],
+  "enabled": true
+}
