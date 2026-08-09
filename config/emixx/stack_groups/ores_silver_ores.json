@@ -1,0 +1,10 @@
+{
+  "id": "ores:silver",
+  "type": "emixx:group",
+  "contents": [
+    "thermal:silver_ore",
+    "thermal:raw_silver_block",
+    "thermal:raw_silver"
+  ],
+  "enabled": true
+}

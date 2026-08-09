@@ -1,0 +1,8 @@
+{
+  "id": "biomancy:biomancy_potion_serum",
+  "type": "emixx:group",
+  "contents": [
+    "#biomancy:potion_serum"
+  ],
+  "enabled": true
+}

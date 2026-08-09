@@ -1,0 +1,9 @@
+{
+  "id": "ores:electrum_ore_polybasite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_polybasite",
+    "nyagibits_bytes:sintered_polybasite"
+  ],
+  "enabled": true
+}

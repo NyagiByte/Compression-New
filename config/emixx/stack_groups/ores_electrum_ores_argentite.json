@@ -1,0 +1,9 @@
+{
+  "id": "ores:electrum_ore_argentite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_argentite",
+    "nyagibits_bytes:sintered_argentite"
+  ],
+  "enabled": true
+}

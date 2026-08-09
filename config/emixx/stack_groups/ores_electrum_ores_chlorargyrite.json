@@ -1,0 +1,9 @@
+{
+  "id": "ores:electrum_ore_chlorargyrite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_chlorargyrite",
+    "nyagibits_bytes:sintered_chlorargyrite"
+  ],
+  "enabled": true
+}

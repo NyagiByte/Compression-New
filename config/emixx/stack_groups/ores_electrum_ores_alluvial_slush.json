@@ -1,0 +1,9 @@
+{
+  "id": "ores:electrum_ore_alluvial_slush",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:alluvial_slush",
+    "nyagibits_bytes:sintered_alluvial_slush"
+  ],
+  "enabled": true
+}

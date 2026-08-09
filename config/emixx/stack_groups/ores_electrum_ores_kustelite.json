@@ -1,0 +1,9 @@
+{
+  "id": "ores:electrum_ore_kustelite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_kustelite_electrum",
+    "nyagibits_bytes:sintered_kustelite_electrum"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "ores:electrum_ore_proustite",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_proustite",
+    "nyagibits_bytes:sintered_proustite"
+  ],
+  "enabled": true
+}

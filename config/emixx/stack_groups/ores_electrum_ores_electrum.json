@@ -1,0 +1,9 @@
+{
+  "id": "ores:electrum_ore",
+  "type": "emixx:group",
+  "contents": [
+    "nyagibits_bytes:raw_electrum",
+    "nyagibits_bytes:sintered_electrum"
+  ],
+  "enabled": true
+}
