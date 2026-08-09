@@ -1,0 +1,28 @@
+{
+  "id": "biomancy:biomancy_primal_flesh",
+  "type": "emixx:group",
+  "contents": [
+    "biomancy:primal_flesh",
+    "biomancy:primal_flesh_slab",
+    "biomancy:primal_flesh_stairs",
+    "biomancy:primal_flesh_wall",
+    "biomancy:smooth_primal_flesh",
+    "biomancy:smooth_primal_flesh_slab",
+    "biomancy:smooth_primal_flesh_stairs",
+    "biomancy:smooth_primal_flesh_wall",
+    "biomancy:fibrous_primal_flesh",
+    "biomancy:fibrous_primal_flesh_slab",
+    "biomancy:fibrous_primal_flesh_stairs",
+    "biomancy:fibrous_primal_flesh_wall",
+    "biomancy:porous_primal_flesh",
+    "biomancy:porous_primal_flesh_slab",
+    "biomancy:porous_primal_flesh_stairs",
+    "biomancy:porous_primal_flesh_wall",
+    "biomancy:malignant_flesh",
+    "biomancy:malignant_flesh_slab",
+    "biomancy:malignant_flesh_stairs",
+    "biomancy:malignant_flesh_wall",
+    "biomancy:malignant_flesh_veins"
+  ],
+  "enabled": true
+}
