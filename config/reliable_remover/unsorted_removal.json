@@ -553,7 +553,8 @@
             "create:copper_sheet",
             "createdeco:zinc_sheet",
             "create:zinc_ingot",
-            "create:iron_sheet"
+            "create:iron_sheet",
+            "immersiveengineering:potion_bucket"
         ]
     }
 ]
