@@ -15,7 +15,7 @@
 			"5FD4E5F7C28806E5"
 			"177A2060FFFA6932"
 		]
-		description: ["8 20 20 16 19 25 15 21 20 21 2 5 22 17 5 13 14 2 13 7 13 "]
+		description: ["022 017 05 013 014 0c 02 0g 013 07 013"]
 		hide_until_deps_complete: true
 		hide_until_deps_visible: true
 		icon: "nyagibits_bytes:flake"
@@ -25,6 +25,7 @@
 			item: "nyagibits_bytes:tier_zero_strawberry"
 			type: "item"
 		}]
+		subtitle: "Purpose"
 		tasks: [{
 			id: "3C48A3A788B73A29"
 			title: "Where am I?"
