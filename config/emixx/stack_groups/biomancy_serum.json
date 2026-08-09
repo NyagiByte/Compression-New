@@ -1,0 +1,14 @@
+{
+  "id": "biomancy:biomancy_serum",
+  "type": "emixx:group",
+  "contents": [
+    "biomancy:potion_serum",
+    "biomancy:rejuvenation_serum",
+    "biomancy:ageing_serum",
+    "biomancy:enlargement_serum",
+    "biomancy:shrinking_serum",
+    "biomancy:cleansing_serum",
+    "biomancy:frenzy_serum"
+  ],
+  "enabled": true
+}
