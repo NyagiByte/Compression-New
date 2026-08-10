@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:varnished_planks"
+    },
+    "result": "xkdeco:varnished_trapdoor",
+    "count": 1
+}

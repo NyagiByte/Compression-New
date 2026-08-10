@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:yellow_roof"
+    },
+    "result": "xkdeco:yellow_roof_deco",
+    "count": 1
+}

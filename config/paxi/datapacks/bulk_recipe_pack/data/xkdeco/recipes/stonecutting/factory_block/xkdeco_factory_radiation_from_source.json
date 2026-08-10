@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:xkdeco:factory_radiation"
+    },
+    "result": "xkdeco:factory_radiation",
+    "count": 9
+}

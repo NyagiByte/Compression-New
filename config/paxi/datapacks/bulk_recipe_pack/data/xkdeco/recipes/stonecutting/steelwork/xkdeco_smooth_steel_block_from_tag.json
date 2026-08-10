@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:steelwork"
+    },
+    "result": "xkdeco:smooth_steel_block",
+    "count": 1
+}

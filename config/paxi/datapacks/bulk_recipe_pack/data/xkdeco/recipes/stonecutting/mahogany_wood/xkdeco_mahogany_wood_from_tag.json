@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:mahogany_wood"
+    },
+    "result": "xkdeco:mahogany_wood",
+    "count": 1
+}

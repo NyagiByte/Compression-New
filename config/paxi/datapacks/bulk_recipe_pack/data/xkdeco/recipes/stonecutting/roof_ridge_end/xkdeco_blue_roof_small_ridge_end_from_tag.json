@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:roof_ridge_end"
+    },
+    "result": "xkdeco:blue_roof_small_ridge_end",
+    "count": 1
+}

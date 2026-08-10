@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:inca"
+    },
+    "result": "xkdeco:inca_brick_stairs",
+    "count": 1
+}

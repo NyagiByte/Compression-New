@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:greek"
+    },
+    "result": "xkdeco:greek_ionic_column_head_corner",
+    "count": 1
+}

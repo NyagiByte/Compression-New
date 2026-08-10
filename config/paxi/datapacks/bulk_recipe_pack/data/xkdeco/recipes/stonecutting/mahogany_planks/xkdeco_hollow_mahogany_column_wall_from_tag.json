@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:mahogany_planks"
+    },
+    "result": "xkdeco:hollow_mahogany_column_wall",
+    "count": 1
+}

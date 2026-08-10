@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:hologram"
+    },
+    "result": "xkdeco:hologram_dna",
+    "count": 1
+}

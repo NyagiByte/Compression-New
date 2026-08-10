@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:mud_wall"
+    },
+    "result": "xkdeco:dirty_mud_wall_wall",
+    "count": 1
+}

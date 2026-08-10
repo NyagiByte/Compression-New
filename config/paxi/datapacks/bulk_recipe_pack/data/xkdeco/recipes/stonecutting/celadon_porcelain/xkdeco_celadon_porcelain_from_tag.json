@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:celadon_porcelain"
+    },
+    "result": "xkdeco:celadon_porcelain",
+    "count": 1
+}

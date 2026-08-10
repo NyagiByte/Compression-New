@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:screen"
+    },
+    "result": "xkdeco:screen_diagram",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:aztec"
+    },
+    "result": "xkdeco:aztec_chiseled_stonebricks",
+    "count": 1
+}

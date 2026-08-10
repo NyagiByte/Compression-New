@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:maya"
+    },
+    "result": "xkdeco:maya_single_screw_thread_stone",
+    "count": 1
+}

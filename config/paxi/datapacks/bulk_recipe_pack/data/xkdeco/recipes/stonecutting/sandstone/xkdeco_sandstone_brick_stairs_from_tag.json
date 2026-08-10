@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:sandstone"
+    },
+    "result": "xkdeco:sandstone_brick_stairs",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:egyptian"
+    },
+    "result": "xkdeco:egyptian_moulding",
+    "count": 1
+}

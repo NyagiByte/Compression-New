@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "xkdeco:steel_block"
+    },
+    "result": "xkdeco:air_duct",
+    "count": 4
+}

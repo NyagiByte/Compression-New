@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "xkdeco:steel_block"
+    },
+    "result": "xkdeco:chiseled_steel_block",
+    "count": 4
+}

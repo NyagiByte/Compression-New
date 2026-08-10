@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:xkdeco:factory_block_rusting"
+    },
+    "result": "xkdeco:factory_block_rusting",
+    "count": 9
+}

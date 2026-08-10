@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:steelwork"
+    },
+    "result": "xkdeco:air_duct",
+    "count": 1
+}

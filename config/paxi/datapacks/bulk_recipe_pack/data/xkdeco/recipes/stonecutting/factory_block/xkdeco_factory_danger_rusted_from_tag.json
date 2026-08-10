@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:factory_block"
+    },
+    "result": "xkdeco:factory_danger_rusted",
+    "count": 1
+}

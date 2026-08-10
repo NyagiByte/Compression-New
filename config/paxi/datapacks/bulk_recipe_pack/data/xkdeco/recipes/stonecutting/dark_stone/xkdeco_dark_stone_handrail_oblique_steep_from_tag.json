@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:dark_stone"
+    },
+    "result": "xkdeco:dark_stone_handrail_oblique_steep",
+    "count": 1
+}

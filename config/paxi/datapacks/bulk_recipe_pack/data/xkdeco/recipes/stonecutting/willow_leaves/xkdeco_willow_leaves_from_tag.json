@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:willow_leaves"
+    },
+    "result": "xkdeco:willow_leaves",
+    "count": 1
+}

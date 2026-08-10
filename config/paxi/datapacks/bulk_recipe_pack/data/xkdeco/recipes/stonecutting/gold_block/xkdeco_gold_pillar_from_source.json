@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:xkdeco:gold_pillar"
+    },
+    "result": "xkdeco:gold_pillar",
+    "count": 4
+}

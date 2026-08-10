@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:deepslate"
+    },
+    "result": "xkdeco:deepslate_pavement",
+    "count": 1
+}

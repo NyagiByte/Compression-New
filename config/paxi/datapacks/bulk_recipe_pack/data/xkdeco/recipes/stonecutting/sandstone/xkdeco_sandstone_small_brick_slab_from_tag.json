@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:sandstone"
+    },
+    "result": "xkdeco:sandstone_small_brick_slab",
+    "count": 2
+}

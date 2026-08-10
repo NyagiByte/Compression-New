@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:steelwork"
+    },
+    "result": "xkdeco:steel_floor",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:factory_lamp_block"
+    },
+    "result": "xkdeco:factory_lamp_slab",
+    "count": 2
+}

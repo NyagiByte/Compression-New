@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:item_display"
+    },
+    "result": "xkdeco:plain_item_display",
+    "count": 1
+}

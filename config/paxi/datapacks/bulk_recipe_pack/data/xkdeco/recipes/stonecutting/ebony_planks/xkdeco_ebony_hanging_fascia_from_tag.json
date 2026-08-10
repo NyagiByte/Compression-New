@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:ebony_planks"
+    },
+    "result": "xkdeco:ebony_hanging_fascia",
+    "count": 1
+}

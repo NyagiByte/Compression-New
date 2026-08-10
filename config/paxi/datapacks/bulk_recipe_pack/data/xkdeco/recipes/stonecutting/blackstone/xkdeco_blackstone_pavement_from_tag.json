@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:blackstone"
+    },
+    "result": "xkdeco:blackstone_pavement",
+    "count": 1
+}

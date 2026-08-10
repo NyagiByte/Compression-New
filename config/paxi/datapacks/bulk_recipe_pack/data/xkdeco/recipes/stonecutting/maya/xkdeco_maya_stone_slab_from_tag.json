@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:maya"
+    },
+    "result": "xkdeco:maya_stone_slab",
+    "count": 2
+}

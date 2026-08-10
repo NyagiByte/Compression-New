@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:xkdeco:factory_biohazard"
+    },
+    "result": "xkdeco:factory_biohazard",
+    "count": 9
+}

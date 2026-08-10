@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:aztec"
+    },
+    "result": "xkdeco:aztec_sculpture_stone",
+    "count": 1
+}

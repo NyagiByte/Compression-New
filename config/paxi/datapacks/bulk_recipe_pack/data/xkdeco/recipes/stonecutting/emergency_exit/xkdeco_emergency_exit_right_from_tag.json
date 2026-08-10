@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:emergency_exit"
+    },
+    "result": "xkdeco:emergency_exit_right",
+    "count": 1
+}

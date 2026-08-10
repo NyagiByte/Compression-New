@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:gilded_blackstone"
+    },
+    "result": "xkdeco:gilded_blackstone_bricks",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:steelwork"
+    },
+    "result": "xkdeco:hollow_steel_beam_oblique_steep",
+    "count": 1
+}

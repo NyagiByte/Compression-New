@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "minecraft:xkdeco:factory_trapdoor_rusted"
+    },
+    "result": "xkdeco:factory_trapdoor_rusted",
+    "count": 9
+}

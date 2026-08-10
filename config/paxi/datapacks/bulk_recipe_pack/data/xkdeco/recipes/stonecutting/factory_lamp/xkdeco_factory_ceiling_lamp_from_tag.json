@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:factory_lamp"
+    },
+    "result": "xkdeco:factory_ceiling_lamp",
+    "count": 1
+}

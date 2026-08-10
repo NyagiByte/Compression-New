@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:bluewhite_porcelain"
+    },
+    "result": "xkdeco:bluewhite_porcelain_tall",
+    "count": 1
+}

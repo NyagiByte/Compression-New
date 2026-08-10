@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:white_porcelain"
+    },
+    "result": "xkdeco:white_porcelain_small",
+    "count": 1
+}

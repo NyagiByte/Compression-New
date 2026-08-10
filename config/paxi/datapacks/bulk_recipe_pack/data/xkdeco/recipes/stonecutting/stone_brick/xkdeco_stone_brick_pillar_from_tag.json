@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:stone_brick"
+    },
+    "result": "xkdeco:stone_brick_pillar",
+    "count": 1
+}

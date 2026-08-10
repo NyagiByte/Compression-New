@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:block_display"
+    },
+    "result": "xkdeco:mechanical_block_display",
+    "count": 1
+}

@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "tag": "xkdeco:light_stone"
+    },
+    "result": "minecraft:polished_diorite",
+    "count": 1
+}
