@@ -28,7 +28,7 @@ The quest book is divided into three main sections.
 - Automation and you!: Tutorial quests for the more complex automations. Includes a Proficiency tab, acting as a trophy tab and a proof of automation check.
 
 ### Quest Rewards
-Each tier's quests offer special berries as a reward. Collecting all the berries for a tier, will reward you with a Golden Berry that can be displayed as a trophy.  
+Each tier's quests offer special berries as a reward. Collecting all the berries for a tier and making sure a particularly hefty cat is fed, will reward you with a Golden Berry that can be displayed as a trophy.  
 <sub><sub>Warning: These berries are not for human (or god) consumption. Consuming one can lead to severe side effects, such as internal organ compression or [REDACTED].</sub></sub>
 
 ### Custom Ponders
@@ -42,6 +42,9 @@ The ore line is also subjected to an extreme degree of recipe scaling. Each tier
 
 ## Currently: Tier 0 is available to play. Tier 1 is actively being worked on.
 ### [Compression on Curseforge](https://www.curseforge.com/minecraft/modpacks/compression)
+### [Compression Discord](https://discord.gg/compression)
+### [Compression Changelogs](https://github.com/NyagiByte/Compression-New/tree/main/changelogs)
+
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="/readme-src/eye.png">
