@@ -59,7 +59,13 @@
     "stonezone:rcd/pneumaticcraft/reinforced_stone_waves_connecting",
     "stonezone:rcd/pneumaticcraft/reinforced_stone_tiles",
     "stonezone:rcd/pneumaticcraft/reinforced_stone_tiles_connecting",
-    "stonezone:rcd/pneumaticcraft/reinforced_stone_slated"
+    "stonezone:rcd/pneumaticcraft/reinforced_stone_slated",
+    "stonezone:hc/pneumaticcraft/reinforced_stone_pillar_trim",
+    "stonezone:hc/pneumaticcraft/reinforced_stone_corner_trim",
+    "stonezone:bbb/pneumaticcraft/reinforced_stone_column",
+    "stonezone:bbb/pneumaticcraft/reinforced_stone_fence",
+    "stonezone:bbb/pneumaticcraft/reinforced_stone_layer",
+    "stonezone:bbb/pneumaticcraft/reinforced_stone_moulding"
   ],
   "enabled": true
 }

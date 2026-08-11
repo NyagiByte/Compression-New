@@ -1,0 +1,13 @@
+{
+  "id": "yuushya:yuushya_air_conditioning",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:air_conditioner_floor",
+    "yuushya:air_conditioner_sym",
+    "yuushya:air_conditioner",
+    "yuushya:meshed_air_conditioning_condenser",
+    "yuushya:rusty_air_conditioning_condenser",
+    "yuushya:air_conditioning_condenser"
+  ],
+  "enabled": true
+}

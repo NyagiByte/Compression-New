@@ -1,0 +1,12 @@
+{
+  "id": "yuushya:yuushya_package",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:package_0",
+    "yuushya:package_1",
+    "yuushya:big_package",
+    "yuushya:unboxed_package",
+    "yuushya:uncovered_package"
+  ],
+  "enabled": true
+}

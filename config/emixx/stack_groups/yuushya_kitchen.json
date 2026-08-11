@@ -1,0 +1,32 @@
+{
+  "id": "yuushya:yuushya_kitchen",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:microwaver",
+    "yuushya:blender",
+    "yuushya:knife_rest",
+    "yuushya:mortar_and_pestle",
+    "yuushya:wooden_mortar_and_pestle",
+    "yuushya:pressure_cooker",
+    "yuushya:casserole_0",
+    "yuushya:casserole_1",
+    "yuushya:steel_pot",
+    "yuushya:frying_pan",
+    "yuushya:gas_stove",
+    "yuushya:gas_stove_block",
+    "yuushya:plate_shelf",
+    "yuushya:small_chopping_board",
+    "yuushya:chopping_board",
+    "yuushya:kitchen_stuff_0",
+    "yuushya:hood",
+    "yuushya:call_bell",
+    "yuushya:refrigerator",
+    "yuushya:decorated_refrigerator",
+    "yuushya:freezer",
+    "yuushya:freezer_",
+    "yuushya:beverage_drawer",
+    "yuushya:beverage_drawer_sym",
+    "yuushya:kettle"
+  ],
+  "enabled": true
+}

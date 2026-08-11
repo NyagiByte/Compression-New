@@ -1,0 +1,21 @@
+{
+  "id": "natures_spirit:natures_spirit_shrubbery",
+  "type": "emixx:group",
+  "contents": [
+    "natures_spirit:green_bearberries",
+    "natures_spirit:red_bearberries",
+    "natures_spirit:purple_bearberries",
+    "natures_spirit:green_bitter_sprouts",
+    "natures_spirit:red_bitter_sprouts",
+    "natures_spirit:purple_bitter_sprouts",
+    "natures_spirit:ornate_succulent",
+    "natures_spirit:drowsy_succulent",
+    "natures_spirit:aureate_succulent",
+    "natures_spirit:sage_succulent",
+    "natures_spirit:foamy_succulent",
+    "natures_spirit:imperial_succulent",
+    "natures_spirit:regal_succulent",
+    "natures_spirit:azolla"
+  ],
+  "enabled": true
+}

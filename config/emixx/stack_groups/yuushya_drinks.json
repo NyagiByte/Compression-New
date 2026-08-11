@@ -1,0 +1,33 @@
+{
+  "id": "yuushya:yuushya_drinks",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:soda",
+    "yuushya:soda_",
+    "yuushya:different_soda",
+    "yuushya:small_soda",
+    "yuushya:coconut",
+    "yuushya:bottle",
+    "yuushya:bottles",
+    "yuushya:sorted_bottle",
+    "yuushya:mug",
+    "yuushya:sorted_mug",
+    "yuushya:apple",
+    "yuushya:macchiato",
+    "yuushya:milk",
+    "yuushya:sorted_milk",
+    "yuushya:glasses",
+    "yuushya:paper_cup",
+    "yuushya:piled_paper_cups",
+    "yuushya:large_water_bottle",
+    "yuushya:water_dispenser",
+    "yuushya:small_coffee",
+    "yuushya:cold_juice_dispenser",
+    "yuushya:coffee_machine",
+    "yuushya:milk_tea",
+    "yuushya:chocolate_milk",
+    "yuushya:strawberry_milk",
+    "yuushya:sea_salt_tea"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,29 @@
+{
+  "id": "yuushya:yuushya_light",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:medieval_lamp",
+    "yuushya:modern_lamp_0",
+    "yuushya:modern_lamp_1",
+    "yuushya:modern_lamp_2",
+    "yuushya:modern_lamp_ceiling",
+    "yuushya:round_ceiling_lamp",
+    "yuushya:fluorescent_lamp",
+    "yuushya:gothic_ceiling_lamp",
+    "yuushya:incandescent_lamp",
+    "yuushya:luorescent_lamp",
+    "yuushya:desk_lamp_0",
+    "yuushya:desk_lamp_1",
+    "yuushya:desk_lamp_2",
+    "yuushya:street_light",
+    "yuushya:medieval_street_light",
+    "yuushya:medieval_street_light_base",
+    "yuushya:medieval_street_light_post",
+    "yuushya:medieval_street_light_pole",
+    "yuushya:strip_light",
+    "yuushya:work_light",
+    "yuushya:tall_work_light",
+    "yuushya:incandescent_bulb"
+  ],
+  "enabled": true
+}

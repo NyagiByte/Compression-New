@@ -27,7 +27,19 @@
     "yuushya:potted_blue_orchid",
     "yuushya:potted_orange_tulip",
     "yuushya:potted_yuuca",
-    "yuushya:potted_lycoris"
+    "yuushya:potted_lycoris",
+    "yuushya:hanging_sakura_sprout",
+    "yuushya:hanging_maple_sprout",
+    "yuushya:hanging_gold_tulip",
+    "yuushya:hanging_white_tulip",
+    "yuushya:hanging_blue_tulip",
+    "yuushya:hanging_red_tulip",
+    "yuushya:hanging_pink_tulip",
+    "yuushya:mounted_fern",
+    "yuushya:mounted_bush",
+    "yuushya:mounted_oak_sprout",
+    "yuushya:mounted_sakura_sprout",
+    "yuushya:mounted_maple_sprout"
   ],
   "enabled": true
 }

@@ -26,7 +26,10 @@
     "yuushya:goods_shelf_potatochip",
     "yuushya:goods_shelf_snack",
     "yuushya:magazine_shelf",
-    "yuushya:large_magazine_shelf"
+    "yuushya:large_magazine_shelf",
+    "yuushya:hanging_goods",
+    "yuushya:hanging_goods_snack",
+    "yuushya:hanging_goods_candy"
   ],
   "enabled": true
 }

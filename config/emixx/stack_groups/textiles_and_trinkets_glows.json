@@ -1,0 +1,18 @@
+{
+  "id": "textiles_and_trinkets:textiles_and_trinkets_glows",
+  "type": "emixx:group",
+  "contents": [
+    "textiles_and_trinkets:red_glow",
+    "textiles_and_trinkets:orangeglow",
+    "textiles_and_trinkets:greenglow",
+    "textiles_and_trinkets:blueglow",
+    "textiles_and_trinkets:purpleglow",
+    "textiles_and_trinkets:whiteglow",
+    "textiles_and_trinkets:shadow_fade",
+    "textiles_and_trinkets:digital_warning_red",
+    "textiles_and_trinkets:digital_warning_yellow",
+    "textiles_and_trinkets:digital_text_noentry",
+    "textiles_and_trinkets:digital_text_caution"
+  ],
+  "enabled": true
+}

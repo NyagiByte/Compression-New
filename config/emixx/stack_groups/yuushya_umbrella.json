@@ -1,0 +1,10 @@
+{
+  "id": "yuushya:yuushya_umbrella",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:umbrella_red",
+    "yuushya:umbrella_blue",
+    "yuushya:umbrella_orange"
+  ],
+  "enabled": true
+}

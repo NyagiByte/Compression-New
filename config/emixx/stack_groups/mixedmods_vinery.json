@@ -1,0 +1,20 @@
+{
+  "id": "mixedmods:vinery",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:weeping_vines",
+    "minecraft:twisting_vines",
+    "minecraft:vine",
+    "atmospheric:passion_vine",
+    "natures_spirit:willow_vines",
+    "natures_spirit:white_wisteria_vines",
+    "natures_spirit:blue_wisteria_vines",
+    "natures_spirit:pink_wisteria_vines",
+    "natures_spirit:purple_wisteria_vines",
+    "atmospheric:passion_vine_bundle",
+    "atmospheric:passion_vine_coil",
+    "abyssal_decor:wall_vines",
+    "biomeswevegone:skyris_vine"
+  ],
+  "enabled": true
+}

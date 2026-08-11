@@ -1,0 +1,27 @@
+{
+  "id": "yuushya:yuushya_electronics",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:old_tv",
+    "yuushya:tv_online",
+    "yuushya:mounted_tv_online",
+    "yuushya:tv",
+    "yuushya:mounted_tv",
+    "yuushya:ps4",
+    "yuushya:switch",
+    "yuushya:switch_",
+    "yuushya:classic_terminal",
+    "yuushya:boom_box",
+    "yuushya:electric_piano",
+    "yuushya:vinyl_record_player",
+    "yuushya:pc_case",
+    "yuushya:laptop",
+    "yuushya:printer",
+    "yuushya:mini_printer",
+    "yuushya:telephone_0",
+    "yuushya:monitor",
+    "yuushya:monitor_with_tablet",
+    "yuushya:monitor_with_keyboard_and_mouse"
+  ],
+  "enabled": true
+}

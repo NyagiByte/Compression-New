@@ -1,0 +1,19 @@
+{
+  "id": "mixedmods:ladders",
+  "type": "emixx:group",
+  "contents": [
+    "#bbb:ladders",
+    "#quark:ladders",
+    "create:andesite_ladder",
+    "create:brass_ladder",
+    "create:copper_ladder",
+    "createdeco:iron_ladder",
+    "createdeco:industrial_iron_ladder",
+    "createdeco:zinc_ladder",
+    "spelunkery:rope_ladder",
+    "biomancy:flesh_ladder",
+    "copycats:copycat_ladder",
+    "immersiveengineering:metal_ladder_none"
+  ],
+  "enabled": true
+}
