@@ -1,0 +1,13 @@
+{
+  "id": "botania:botania_mana_quartz",
+  "type": "emixx:group",
+  "contents": [
+    "botania:mana_quartz",
+    "botania:mana_quartz_pillar",
+    "botania:chiseled_mana_quartz",
+    "botania:mana_quartz_slab",
+    "botania:mana_quartz_stairs",
+    "botania:quartz_mana"
+  ],
+  "enabled": true
+}

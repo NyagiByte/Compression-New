@@ -1,0 +1,13 @@
+{
+  "id": "botania:botania_elven_quartz",
+  "type": "emixx:group",
+  "contents": [
+    "botania:elf_quartz",
+    "botania:elf_quartz_pillar",
+    "botania:chiseled_elf_quartz",
+    "botania:elf_quartz_slab",
+    "botania:elf_quartz_stairs",
+    "botania:quartz_elven"
+  ],
+  "enabled": true
+}

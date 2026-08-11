@@ -1,0 +1,13 @@
+{
+  "id": "botania:botania_smokey_quartz",
+  "type": "emixx:group",
+  "contents": [
+    "botania:dark_quartz",
+    "botania:dark_quartz_pillar",
+    "botania:chiseled_dark_quartz",
+    "botania:dark_quartz_slab",
+    "botania:dark_quartz_stairs",
+    "botania:quartz_dark"
+  ],
+  "enabled": true
+}

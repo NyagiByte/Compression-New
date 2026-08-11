@@ -1,0 +1,13 @@
+{
+  "id": "botania:botania_lavender_quartz",
+  "type": "emixx:group",
+  "contents": [
+    "botania:lavender_quartz",
+    "botania:lavender_quartz_pillar",
+    "botania:chiseled_lavender_quartz",
+    "botania:lavender_quartz_slab",
+    "botania:lavender_quartz_stairs",
+    "botania:quartz_lavender"
+  ],
+  "enabled": true
+}

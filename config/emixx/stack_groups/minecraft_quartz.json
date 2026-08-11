@@ -2,6 +2,8 @@
   "id": "minecraft:quartz",
   "type": "emixx:group",
   "contents": [
+    "minecraft:nether_quartz_ore",
+    "minecraft:quartz",
     "minecraft:quartz_block",
     "minecraft:quartz_stairs",
     "minecraft:quartz_slab",

@@ -1,0 +1,13 @@
+{
+  "id": "botania:botania_sunny_quartz",
+  "type": "emixx:group",
+  "contents": [
+    "botania:sunny_quartz",
+    "botania:sunny_quartz_pillar",
+    "botania:chiseled_sunny_quartz",
+    "botania:sunny_quartz_slab",
+    "botania:sunny_quartz_stairs",
+    "botania:quartz_sunny"
+  ],
+  "enabled": true
+}

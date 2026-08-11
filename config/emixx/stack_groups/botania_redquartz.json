@@ -1,0 +1,13 @@
+{
+  "id": "botania:botania_redquartz",
+  "type": "emixx:group",
+  "contents": [
+    "botania:red_quartz",
+    "botania:red_quartz_pillar",
+    "botania:chiseled_red_quartz",
+    "botania:red_quartz_slab",
+    "botania:red_quartz_stairs",
+    "botania:quartz_red"
+  ],
+  "enabled": true
+}
