@@ -117,5 +117,22 @@
     "block.abyssal_decor.pearly_glass_block_whitewood": "Pearly Pearlyglass Block",
     "block.abyssal_decor.pearly_glass_pane_whitewood": "Pearly Pearlyglass Pane",
     "block.abyssal_decor.whitewood_picket_fence": "Pearly Picket Fence",
-    "block.abyssal_decor.white_wood_planter": "Pearly Planter"
+    "block.abyssal_decor.white_wood_planter": "Pearly Planter",
+    "block.everycomp.hnhome.abyssal_decor.white_wood_parquet": "Pearly Parquet",
+    "block.everycomp.q.abyssal_decor.stripped_white_wood_post": "Pearly Post",
+    "block.everycomp.q.abyssal_decor.vertical_white_wood_planks": "Vertical Pearly Planks",
+    "block.everycomp.q.abyssal_decor.hollow_white_wood_log": "Hollow Pearly Log",
+    "block.everycomp.q.abyssal_decor.white_wood_chest": "Pearly Chest",
+    "block.everycomp.q.abyssal_decor.white_wood_trapped_chest": "Pearly Trapped Chest",
+    "block.everycomp.ap.abyssal_decor.white_wood_railing": "Pearly Railing",
+    "block.everycomp.ap.abyssal_decor.white_wood_boards": "Pearly Boards",
+    "block.everycomp.ap.abyssal_decor.white_wood_board_slab": "Pearly Board Slab",
+    "block.everycomp.ap.abyssal_decor.white_wood_board_stairs": "Pearly Board Stairs",
+    "block.everycomp.ap.abyssal_decor.white_wood_board_wall": "Pearly Board Wall",
+    "block.everycomp.bbb.abyssal_decor.white_wood_beam": "Pearly Beam",
+    "block.everycomp.bbb.abyssal_decor.white_wood_beam_stairs": "Pearly Beam Stairs",
+    "block.everycomp.bbb.abyssal_decor.white_wood_beam_slab": "Pearly Beam Slab",
+    "block.everycomp.bbb.abyssal_decor.white_wood_wall": "Pearly Wall",
+    "block.everycomp.c.abyssal_decor.white_wood_window": "Pearly Window",
+    "block.everycomp.c.abyssal_decor.white_wood_window_pane": "Pearly Window Pane"
 }
