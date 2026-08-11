@@ -1,8 +1,15 @@
 {
-  "id": "packages:package",
+  "id": "pneumaticcraft:pneumaticcraft_reinforced_stone",
   "type": "emixx:group",
   "contents": [
-    "packages:package"
+    "pneumaticcraft:reinforced_brick_pillar",
+    "pneumaticcraft:reinforced_brick_slab",
+    "pneumaticcraft:reinforced_brick_stairs",
+    "pneumaticcraft:reinforced_brick_tile",
+    "pneumaticcraft:reinforced_brick_wall",
+    "pneumaticcraft:reinforced_bricks",
+    "pneumaticcraft:reinforced_stone",
+    "pneumaticcraft:reinforced_stone_slab"
   ],
   "enabled": true
 }
