@@ -1,0 +1,13 @@
+{
+  "id": "createdeco:createdeco_sheet_metal",
+  "type": "emixx:group",
+  "contents": [
+    "createdeco:andesite_sheet_metal",
+    "createdeco:brass_sheet_metal",
+    "createdeco:iron_sheet_metal",
+    "createdeco:copper_sheet_metal",
+    "createdeco:industrial_iron_sheet_metal",
+    "createdeco:zinc_sheet_metal"
+  ],
+  "enabled": true
+}

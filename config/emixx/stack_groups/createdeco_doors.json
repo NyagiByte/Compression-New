@@ -1,0 +1,22 @@
+{
+  "id": "createdeco:createdeco_doors",
+  "type": "emixx:group",
+  "contents": [
+    "createdeco:andesite_door",
+    "createdeco:locked_andesite_door",
+    "createdeco:andesite_trapdoor",
+    "createdeco:brass_door",
+    "createdeco:locked_brass_door",
+    "createdeco:brass_trapdoor",
+    "createdeco:copper_door",
+    "createdeco:locked_copper_door",
+    "createdeco:copper_trapdoor",
+    "createdeco:industrial_iron_door",
+    "createdeco:locked_industrial_iron_door",
+    "createdeco:industrial_iron_trapdoor",
+    "createdeco:zinc_door",
+    "createdeco:locked_zinc_door",
+    "createdeco:zinc_trapdoor"
+  ],
+  "enabled": true
+}
