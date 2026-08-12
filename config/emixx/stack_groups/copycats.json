@@ -41,7 +41,12 @@
     "copycats:copycat_fluid_pipe",
     "copycats:copycat_shaft",
     "copycats:copycat_cogwheel",
-    "copycats:copycat_large_cogwheel"
+    "copycats:copycat_large_cogwheel",
+    "copycats:copycat_door",
+    "copycats:copycat_sliding_door",
+    "copycats:copycat_folding_door",
+    "copycats:copycat_wooden_pressure_plate",
+    "copycats:copycat_stone_pressure_plate"
   ],
   "enabled": true
 }

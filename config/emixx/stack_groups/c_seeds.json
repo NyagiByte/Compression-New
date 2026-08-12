@@ -1,0 +1,11 @@
+{
+  "id": "c:seeds",
+  "type": "emixx:group",
+  "contents": [
+    "#c:seeds",
+    "minecraft:torchflower_seeds",
+    "nyagibits_bytes:canola_seeds"
+  ],
+  "enabled": true
+  
+}

@@ -22,7 +22,9 @@
     "minecraft:warped_fungus",
     "minecraft:crimson_fungus",
     "quark:glow_shroom",
-    "quark:glow_shroom_ring"
+    "quark:glow_shroom_ring",
+    "biomeswevegone:wood_blewit",
+    "spelunkery:phosphor_fungus"
   ],
   "enabled": true
 }

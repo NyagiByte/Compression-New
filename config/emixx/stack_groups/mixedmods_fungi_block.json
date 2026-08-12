@@ -17,7 +17,13 @@
     "biomeswevegone:weeping_milkcap_mushroom_block",
     "biomeswevegone:wood_blewit_mushroom_block",
     "biomeswevegone:white_mushroom_stem",
-    "biomeswevegone:brown_mushroom_stem"
+    "biomeswevegone:brown_mushroom_stem",
+    "spelunkery:conk_fungus_block",
+    "spelunkery:portabella_block",
+    "spelunkery:phosphor_fungus_block",
+    "spelunkery:mushgloom_block",
+    "spelunkery:milly_bubcap_block",
+    "natures_spirit:gray_polypore_block"
   ],
   "enabled": true
 }

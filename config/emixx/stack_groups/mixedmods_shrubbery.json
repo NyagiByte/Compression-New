@@ -16,7 +16,16 @@
     "natures_spirit:imperial_succulent",
     "natures_spirit:regal_succulent",
     "atmospheric:agave",
-    "minecraft:dead_bush"
+    "minecraft:dead_bush",
+    "farmersdelight:sandy_shrub",
+    "biomeswevegone:shrub",
+    "biomeswevegone:hydrangea_bush",
+    "biomeswevegone:firecracker_flower_bush",
+    "biomeswevegone:flowering_jacaranda_bush",
+    "biomeswevegone:jacaranda_bush",
+    "biomeswevegone:flowering_indigo_jacaranda_bush",
+    "biomeswevegone:indigo_jacaranda_bush",
+    "biomeswevegone:hydrangea_hedge"
   ],
   "enabled": true
 }
