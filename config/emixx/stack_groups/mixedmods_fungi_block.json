@@ -1,0 +1,23 @@
+{
+  "id": "mixedmods:fungi_block",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:mushroom_stem",
+    "spelunkery:cave_mushroom_stem",
+    "minecraft:brown_mushroom_block",
+    "minecraft:red_mushroom_block",
+    "spelunkery:inkcap_mushroom_block",
+    "spelunkery:white_inkcap_mushroom_block",
+    "natures_spirit:shiitake_mushroom_block",
+    "minecraft:shroomlight",
+    "spelunkery:phosphor_shroomlight",
+    "quark:glow_shroom_block",
+    "quark:glow_shroom_stem",
+    "biomeswevegone:green_mushroom_block",
+    "biomeswevegone:weeping_milkcap_mushroom_block",
+    "biomeswevegone:wood_blewit_mushroom_block",
+    "biomeswevegone:white_mushroom_stem",
+    "biomeswevegone:brown_mushroom_stem"
+  ],
+  "enabled": true
+}

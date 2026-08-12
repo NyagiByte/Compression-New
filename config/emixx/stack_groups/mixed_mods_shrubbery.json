@@ -1,5 +1,5 @@
 {
-  "id": "natures_spirit:natures_spirit_shrubbery",
+  "id": "mixedmods:shrubbery",
   "type": "emixx:group",
   "contents": [
     "natures_spirit:green_bearberries",
@@ -15,7 +15,8 @@
     "natures_spirit:foamy_succulent",
     "natures_spirit:imperial_succulent",
     "natures_spirit:regal_succulent",
-    "natures_spirit:azolla"
+    "atmospheric:agave",
+    "minecraft:dead_bush"
   ],
   "enabled": true
 }

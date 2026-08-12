@@ -19,7 +19,9 @@
     "biomeswevegone:tall_prairie_grass",
     "biomeswevegone:prairie_grass",
     "biomeswevegone:tall_beach_grass",
-    "biomeswevegone:beach_grass"
+    "biomeswevegone:beach_grass",
+    "atmospheric:arid_sprouts",
+    "atmospheric:golden_growths"
   ],
   "enabled": true
 }

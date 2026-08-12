@@ -1,0 +1,28 @@
+{
+  "id": "mixedmods:fungi",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "spelunkery:button_mushroom",
+    "spelunkery:inkcap_mushroom",
+    "spelunkery:white_inkcap_mushroom",
+    "spelunkery:mushgloom",
+    "natures_spirit:shiitake_mushroom",
+    "biomeswevegone:green_mushroom",
+    "farmersdelight:brown_mushroom_colony",
+    "farmersdelight:red_mushroom_colony",
+    "spelunkery:milly_bubcap",
+    "biomeswevegone:weeping_milkcap",
+    "biomeswevegone:shelf_fungi",
+    "spelunkery:crimini",
+    "spelunkery:portabella",
+    "spelunkery:conk_fungus",
+    "natures_spirit:gray_polypore",
+    "minecraft:warped_fungus",
+    "minecraft:crimson_fungus",
+    "quark:glow_shroom",
+    "quark:glow_shroom_ring"
+  ],
+  "enabled": true
+}
