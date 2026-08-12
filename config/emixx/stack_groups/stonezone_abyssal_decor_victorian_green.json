@@ -60,7 +60,12 @@
     "stonezone:rcd/abyssal_decor/jade_waves_connecting",
     "stonezone:rcd/abyssal_decor/jade_tiles",
     "stonezone:rcd/abyssal_decor/jade_tiles_connecting",
-    "stonezone:rcd/abyssal_decor/jade_slated"
+    "stonezone:rcd/abyssal_decor/jade_slated",
+    "stonezone:hc/abyssal_decor/jade_pillar_trim",
+    "stonezone:hc/abyssal_decor/jade_corner_trim",
+    "stonezone:bbb/abyssal_decor/jade_column",
+    "stonezone:bbb/abyssal_decor/jade_fence",
+    "stonezone:bbb/abyssal_decor/jade_moulding"
   ],
   "enabled": true
 }

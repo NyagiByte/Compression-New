@@ -1,0 +1,13 @@
+{
+  "id": "yuushya:yuushya_recycle_bin",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:recycle_bin_0",
+    "yuushya:recycle_bin_1",
+    "yuushya:recycle_bin_2",
+    "yuushya:recycle_bin_3",
+    "yuushya:recycle_bin_4",
+    "yuushya:recycle_bin_5"
+  ],
+  "enabled": true
+}

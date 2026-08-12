@@ -1,0 +1,12 @@
+{
+  "id": "textiles_and_trinkets:textiles_and_trinkets_essence_lantern",
+  "type": "emixx:group",
+  "contents": [
+    "textiles_and_trinkets:hanging_red_essence_lantern",
+    "textiles_and_trinkets:hanging_orange_essence_lantern",
+    "textiles_and_trinkets:hanging_green_essence_lantern",
+    "textiles_and_trinkets:hanging_blue_essence_lantern",
+    "textiles_and_trinkets:hanging_purple_essence_lantern"
+  ],
+  "enabled": true
+}

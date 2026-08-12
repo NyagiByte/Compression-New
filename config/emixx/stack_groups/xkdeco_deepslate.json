@@ -1,0 +1,13 @@
+{
+  "id": "xkdeco:xkdeco_deepslate",
+  "type": "emixx:group",
+  "contents": [
+    "xkdeco:deepslate_pillar",
+    "xkdeco:deepslate_pavement",
+    "xkdeco:deepslate_pavement_slab",
+    "xkdeco:mossy_deepslate_bricks",
+    "xkdeco:mossy_deepslate_brick_slab",
+    "xkdeco:mossy_deepslate_brick_stairs"
+  ],
+  "enabled": true
+}

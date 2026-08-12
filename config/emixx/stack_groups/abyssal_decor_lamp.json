@@ -1,0 +1,19 @@
+{
+  "id": "abyssal_decor:abyssal_decor_lamp",
+  "type": "emixx:group",
+  "contents": [
+    "abyssal_decor:wall_bulb_lamp",
+    "abyssal_decor:bulb_lamp_floor",
+    "abyssal_decor:tube_lamp",
+    "abyssal_decor:iron_lamp_item",
+    "abyssal_decor:flower_lamp",
+    "abyssal_decor:frosted_ceiling_lamp",
+    "abyssal_decor:quartz_lamp_item",
+    "abyssal_decor:bulkhead_lamp",
+    "abyssal_decor:jade_lamp_item",
+    "abyssal_decor:seaglass_lamp",
+    "abyssal_decor:blaze_lamp_on",
+    "abyssal_decor:rainbow_1"
+  ],
+  "enabled": true
+}

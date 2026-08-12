@@ -31,7 +31,10 @@
     "yuushya:road_marking_arrow_forward",
     "yuushya:road_marking_arrow_left",
     "yuushya:road_marking_arrow_right",
-    "yuushya:road_marking_arrow_backward"
+    "yuushya:road_marking_arrow_backward",
+    "yuushya:drain",
+    "yuushya:drainage_channel",
+    "yuushya:drainage_channel_"
   ],
   "enabled": true
 }

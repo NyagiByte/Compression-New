@@ -1,0 +1,12 @@
+{
+  "id": "textiles_and_trinkets:textiles_and_trinkets_eternal_flame",
+  "type": "emixx:group",
+  "contents": [
+    "textiles_and_trinkets:eternal_flame_red",
+    "textiles_and_trinkets:eternal_flame_purple",
+    "textiles_and_trinkets:eternal_flame_blue",
+    "textiles_and_trinkets:eternal_flame_green",
+    "textiles_and_trinkets:eternal_flame"
+  ],
+  "enabled": true
+}

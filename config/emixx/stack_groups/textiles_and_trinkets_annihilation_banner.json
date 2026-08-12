@@ -1,0 +1,11 @@
+{
+  "id": "textiles_and_trinkets:textiles_and_trinkets_annihilation_banner",
+  "type": "emixx:group",
+  "contents": [
+    "textiles_and_trinkets:annihilation_banner_1x_6",
+    "textiles_and_trinkets:annihilation_banner_untattered_1x_6",
+    "textiles_and_trinkets:annihilation_banner_1x_3_tattered",
+    "textiles_and_trinkets:annihilation_banner_untattered_1x3"
+  ],
+  "enabled": true
+}

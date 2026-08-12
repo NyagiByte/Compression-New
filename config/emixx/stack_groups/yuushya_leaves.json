@@ -16,7 +16,10 @@
     "yuushya:thick_fallen_leaves",
     "yuushya:stairs_lesser_fallen_leaves",
     "yuushya:stairs_average_fallen_leaves",
-    "yuushya:stairs_thick_fallen_leaves"
+    "yuushya:stairs_thick_fallen_leaves",
+    "yuushya:big_sakura",
+    "yuushya:average_sakura",
+    "yuushya:cluster_sakura"
   ],
   "enabled": true
 }

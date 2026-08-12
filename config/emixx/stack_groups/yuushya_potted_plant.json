@@ -39,7 +39,9 @@
     "yuushya:mounted_bush",
     "yuushya:mounted_oak_sprout",
     "yuushya:mounted_sakura_sprout",
-    "yuushya:mounted_maple_sprout"
+    "yuushya:mounted_maple_sprout",
+    "yuushya:hanging_azure_bluet",
+    "yuushya:hanging_oak_sprout"
   ],
   "enabled": true
 }

@@ -1,0 +1,11 @@
+{
+  "id": "textiles_and_trinkets:textiles_and_trinkets_dull_planks",
+  "type": "emixx:group",
+  "contents": [
+    "textiles_and_trinkets:dull_planks",
+    "textiles_and_trinkets:dull_plank_stairs",
+    "textiles_and_trinkets:dull_plank_slabs",
+    "textiles_and_trinkets:dull_plank_fence"
+  ],
+  "enabled": true
+}
