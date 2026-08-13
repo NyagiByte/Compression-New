@@ -138,12 +138,14 @@
 		#Set the attack damage of a tool or weapon. May not work on modded tools, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:netherite_sword" = 12
 		[items.tools.attack_damage]
-			test = 0.0
+			"create:wrench" = 4.0
+			"immersiveengineering:hammer" = 4.0
 
 		#Set the attack speed of a tool or weapon. May not work on modded tools, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:netherite_pickaxe" = 2.5
 		[items.tools.attack_speed]
-			test = 0.0
+			"create:wrench" = 1.6
+			"immersiveengineering:hammer" = 1.6
 
 #Set the values for enchantments.
 [enchantments]
