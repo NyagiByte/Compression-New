@@ -1,0 +1,23 @@
+{
+  "id": "yuushya:yuushya_flower",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:allium",
+    "yuushya:poppy",
+    "yuushya:orchid",
+    "yuushya:dandelion",
+    "yuushya:oxeye_daisy",
+    "yuushya:lily_of_the_valley",
+    "yuushya:azure_bluet",
+    "yuushya:blooming_evergreen",
+    "yuushya:gold_tulip",
+    "yuushya:pink_tulip",
+    "yuushya:red_tulip",
+    "yuushya:white_tulip",
+    "yuushya:tall_orchid",
+    "yuushya:tall_lilac",
+    "yuushya:wisteria",
+    "yuushya:wisteria"
+  ],
+  "enabled": true
+}

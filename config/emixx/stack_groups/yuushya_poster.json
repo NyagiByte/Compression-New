@@ -1,0 +1,12 @@
+{
+  "id": "yuushya:yuushya_poster",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:small_poster_0",
+    "yuushya:small_poster_1",
+    "yuushya:big_poster",
+    "yuushya:high_poster",
+    "yuushya:long_poster"
+  ],
+  "enabled": true
+}

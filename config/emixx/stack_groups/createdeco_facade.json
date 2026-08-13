@@ -1,0 +1,13 @@
+{
+  "id": "createdeco:createdeco_facade",
+  "type": "emixx:group",
+  "contents": [
+    "createdeco:andesite_facade",
+    "createdeco:brass_facade",
+    "createdeco:iron_facade",
+    "createdeco:copper_facade",
+    "createdeco:industrial_iron_facade",
+    "createdeco:zinc_facade"
+  ],
+  "enabled": true
+}

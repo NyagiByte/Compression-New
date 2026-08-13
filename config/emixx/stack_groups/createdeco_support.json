@@ -1,0 +1,13 @@
+{
+  "id": "createdeco:createdeco_support",
+  "type": "emixx:group",
+  "contents": [
+    "createdeco:andesite_support",
+    "createdeco:brass_support",
+    "createdeco:iron_support",
+    "createdeco:copper_support",
+    "createdeco:industrial_iron_support",
+    "createdeco:zinc_support"
+  ],
+  "enabled": true
+}

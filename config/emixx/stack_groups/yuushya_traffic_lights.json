@@ -1,0 +1,12 @@
+{
+  "id": "yuushya:yuushya_traffic_lights",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:traffic_lights_0",
+    "yuushya:traffic_lights_1",
+    "yuushya:traffic_lights_2",
+    "yuushya:traffic_lights_3",
+    "yuushya:traffic_lights_4"
+  ],
+  "enabled": true
+}

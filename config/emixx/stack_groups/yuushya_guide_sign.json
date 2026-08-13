@@ -1,0 +1,13 @@
+{
+  "id": "yuushya:yuushya_guide_sign",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:exit_sign",
+    "yuushya:exit_sign_sym",
+    "yuushya:exit_sign_middle",
+    "yuushya:public_toilet_sign",
+    "yuushya:public_toilet_sign_man",
+    "yuushya:public_toilet_sign_woman"
+  ],
+  "enabled": true
+}

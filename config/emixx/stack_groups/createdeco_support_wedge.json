@@ -1,0 +1,13 @@
+{
+  "id": "createdeco:createdeco_support_wedge",
+  "type": "emixx:group",
+  "contents": [
+    "createdeco:andesite_support_wedge",
+    "createdeco:brass_support_wedge",
+    "createdeco:iron_support_wedge",
+    "createdeco:copper_support_wedge",
+    "createdeco:industrial_iron_support_wedge",
+    "createdeco:zinc_support_wedge"
+  ],
+  "enabled": true
+}
