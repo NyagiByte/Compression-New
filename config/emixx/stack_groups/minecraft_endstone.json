@@ -9,7 +9,8 @@
     "minecraft:end_stone_brick_slab",
     "quark:end_stone_brick_vertical_slab",
     "minecraft:end_stone_brick_wall",
-    "endergetic:chiseled_end_stone_bricks"
+    "endergetic:chiseled_end_stone_bricks",
+    "xkdeco:end_stone_slab"
   ],
   "enabled": true
 }

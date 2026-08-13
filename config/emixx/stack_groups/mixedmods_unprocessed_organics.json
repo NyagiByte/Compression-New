@@ -12,7 +12,10 @@
     "minecraft:sugar_cane",
     "spelunkery:tangle_roots_block",
     "spelunkery:tangle_roots",
-    "atmospheric:dragon_roots"
+    "atmospheric:dragon_roots",
+    "farmersdelight:straw",
+    "farmersdelight:tree_bark",
+    "farmersdelight:straw_bale"
   ],
   "enabled": true
 }

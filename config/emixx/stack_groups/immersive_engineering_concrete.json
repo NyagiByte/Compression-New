@@ -1,0 +1,25 @@
+{
+  "id": "immersiveengineering:immersive_engineering_concrete",
+  "type": "emixx:group",
+  "contents": [
+    "immersiveengineering:concrete",
+    "immersiveengineering:concrete_brick",
+    "immersiveengineering:concrete_brick_cracked",
+    "immersiveengineering:concrete_chiseled",
+    "immersiveengineering:concrete_pillar",
+    "immersiveengineering:concrete_tile",
+    "immersiveengineering:concrete_leaded",
+    "immersiveengineering:concrete_sheet",
+    "immersiveengineering:concrete_quarter",
+    "immersiveengineering:concrete_three_quarter",
+    "immersiveengineering:slab_concrete",
+    "immersiveengineering:slab_concrete_brick",
+    "immersiveengineering:slab_concrete_tile",
+    "immersiveengineering:slab_concrete_leaded",
+    "immersiveengineering:stairs_concrete",
+    "immersiveengineering:stairs_concrete_brick",
+    "immersiveengineering:stairs_concrete_tile",
+    "immersiveengineering:stairs_concrete_leaded"
+  ],
+  "enabled": true
+}
