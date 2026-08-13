@@ -1,0 +1,10 @@
+{
+  "id": "botania:botania_endoflame",
+  "type": "emixx:group",
+  "contents": [
+    "botania:endoflame",
+    "botania:floating_endoflame",
+    "nyagibits_bytes:endoflame_mush"
+  ],
+  "enabled": true
+}

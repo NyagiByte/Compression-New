@@ -1,0 +1,11 @@
+{
+  "id": "botania:botania_solegnolia",
+  "type": "emixx:group",
+  "contents": [
+    "botania:solegnolia",
+    "botania:solegnolia_chibi",
+    "botania:floating_solegnolia",
+    "botania:floating_solegnolia_chibi"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_vinculotus",
+  "type": "emixx:group",
+  "contents": [
+    "botania:vinculotus",
+    "botania:floating_vinculotus"
+  ],
+  "enabled": true
+}

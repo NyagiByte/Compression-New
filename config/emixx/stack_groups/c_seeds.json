@@ -4,7 +4,8 @@
   "contents": [
     "#c:seeds",
     "minecraft:torchflower_seeds",
-    "nyagibits_bytes:canola_seeds"
+    "nyagibits_bytes:canola_seeds",
+    "minecraft:pitcher_pod"
   ],
   "enabled": true
   

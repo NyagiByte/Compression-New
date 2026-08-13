@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_jaded_amaranthus",
+  "type": "emixx:group",
+  "contents": [
+    "botania:jaded_amaranthus",
+    "botania:floating_jaded_amaranthus"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,10 @@
+{
+  "id": "botania:botania_munchdew",
+  "type": "emixx:group",
+  "contents": [
+    "botania:munchdew",
+    "botania:floating_munchdew",
+    "nyagibits_bytes:munchdew_mush"
+  ],
+  "enabled": true
+}

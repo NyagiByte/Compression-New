@@ -1,0 +1,18 @@
+{
+  "id": "mixedmods:egg",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:frogspawn",
+    "minecraft:turtle_egg",
+    "minecraft:sniffer_egg",
+    "minecraft:dragon_egg",
+    "minecraft:egg",
+    "quark:egg_parrot_red_blue",
+    "quark:egg_parrot_blue",
+    "quark:egg_parrot_green",
+    "quark:egg_parrot_yellow_blue",
+    "quark:egg_parrot_gray",
+    "biomancy:acidic_egg"
+  ],
+  "enabled": true
+}

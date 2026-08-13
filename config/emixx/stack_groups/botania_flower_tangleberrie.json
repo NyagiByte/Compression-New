@@ -1,0 +1,11 @@
+{
+  "id": "botania:botania_tangleberrie",
+  "type": "emixx:group",
+  "contents": [
+    "botania:tangleberrie",
+    "botania:tangleberrie_chibi",
+    "botania:floating_tangleberrie",
+    "botania:floating_tangleberrie_chibi"
+  ],
+  "enabled": true
+}

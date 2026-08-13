@@ -1,0 +1,11 @@
+{
+  "id": "botania:botania_entropinnyum",
+  "type": "emixx:group",
+  "contents": [
+    "botania:entropinnyum",
+    "botania:floating_entropinnyum",
+    "nyagibits_bytes:entropinnyum_mush",
+    "nyagibits_bytes:deactivated_entropic_mush"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_shulk_me_not",
+  "type": "emixx:group",
+  "contents": [
+    "botania:shulk_me_not",
+    "botania:floating_shulk_me_not"
+  ],
+  "enabled": true
+}

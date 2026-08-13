@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_dandelifeon",
+  "type": "emixx:group",
+  "contents": [
+    "botania:dandelifeon",
+    "botania:floating_dandelifeon"
+  ],
+  "enabled": true
+}

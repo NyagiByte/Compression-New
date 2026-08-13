@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_rafflowsia",
+  "type": "emixx:group",
+  "contents": [
+    "botania:rafflowsia",
+    "botania:floating_rafflowsia"
+  ],
+  "enabled": true
+}

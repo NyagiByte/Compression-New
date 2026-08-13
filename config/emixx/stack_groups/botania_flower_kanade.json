@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_kanade",
+  "type": "emixx:group",
+  "contents": [
+    "botania:fallen_kanade",
+    "botania:floating_fallen_kanade"
+  ],
+  "enabled": true
+}

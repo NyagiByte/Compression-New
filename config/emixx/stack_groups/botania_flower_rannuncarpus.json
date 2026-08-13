@@ -1,0 +1,11 @@
+{
+  "id": "botania:botania_rannuncarpus",
+  "type": "emixx:group",
+  "contents": [
+    "botania:rannuncarpus",
+    "botania:rannuncarpus_chibi",
+    "botania:floating_rannuncarpus",
+    "botania:floating_rannuncarpus_chibi"
+  ],
+  "enabled": true
+}

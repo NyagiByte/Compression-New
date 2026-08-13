@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_medumone",
+  "type": "emixx:group",
+  "contents": [
+    "botania:medumone",
+    "botania:floating_medumone"
+  ],
+  "enabled": true
+}

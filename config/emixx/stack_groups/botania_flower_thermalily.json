@@ -1,0 +1,10 @@
+{
+  "id": "botania:botania_thermalily",
+  "type": "emixx:group",
+  "contents": [
+    "botania:thermalily",
+    "botania:floating_thermalily",
+    "nyagibits_bytes:thermalily_mush"
+  ],
+  "enabled": true
+}

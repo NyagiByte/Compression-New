@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_dreadthorn",
+  "type": "emixx:group",
+  "contents": [
+    "botania:dreadthorn",
+    "botania:floating_dreadthorn"
+  ],
+  "enabled": true
+}

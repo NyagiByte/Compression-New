@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_tigerseye",
+  "type": "emixx:group",
+  "contents": [
+    "botania:tigerseye",
+    "botania:floating_tigerseye"
+  ],
+  "enabled": true
+}

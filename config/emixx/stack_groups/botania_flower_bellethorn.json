@@ -1,0 +1,11 @@
+{
+  "id": "botania:botania_bellethorn",
+  "type": "emixx:group",
+  "contents": [
+    "botania:bellethorn",
+    "botania:bellethorn_chibi",
+    "botania:floating_bellethorn",
+    "botania:floating_bellethorn_chibi"
+  ],
+  "enabled": true
+}

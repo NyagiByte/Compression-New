@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_pollidisiac",
+  "type": "emixx:group",
+  "contents": [
+    "botania:pollidisiac",
+    "botania:floating_pollidisiac"
+  ],
+  "enabled": true
+}

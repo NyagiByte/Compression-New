@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_hyacidus",
+  "type": "emixx:group",
+  "contents": [
+    "botania:hyacidus",
+    "botania:floating_hyacidus"
+  ],
+  "enabled": true
+}

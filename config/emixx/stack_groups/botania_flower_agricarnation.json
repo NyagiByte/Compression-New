@@ -1,0 +1,11 @@
+{
+  "id": "botania:botania_agricarnation",
+  "type": "emixx:group",
+  "contents": [
+    "botania:agricarnation",
+    "botania:agricarnation_chibi",
+    "botania:floating_agricarnation",
+    "botania:floating_agricarnation_chibi"
+  ],
+  "enabled": true
+}

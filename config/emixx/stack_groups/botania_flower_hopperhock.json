@@ -1,0 +1,11 @@
+{
+  "id": "botania:botania_hopperhock",
+  "type": "emixx:group",
+  "contents": [
+    "botania:hopperhock",
+    "botania:hopperhock_chibi",
+    "botania:floating_hopperhock",
+    "botania:floating_hopperhock_chibi"
+  ],
+  "enabled": true
+}

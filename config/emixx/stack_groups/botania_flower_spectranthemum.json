@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_spectranthemum",
+  "type": "emixx:group",
+  "contents": [
+    "botania:spectranthemum",
+    "botania:floating_spectranthemum"
+  ],
+  "enabled": true
+}

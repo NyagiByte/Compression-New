@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_labellia",
+  "type": "emixx:group",
+  "contents": [
+    "botania:labellia",
+    "botania:floating_labellia"
+  ],
+  "enabled": true
+}

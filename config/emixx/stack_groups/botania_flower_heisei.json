@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_heisei",
+  "type": "emixx:group",
+  "contents": [
+    "botania:heisei_dream",
+    "botania:floating_heisei_dream"
+  ],
+  "enabled": true
+}

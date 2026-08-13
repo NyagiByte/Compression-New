@@ -1,0 +1,11 @@
+{
+  "id": "botania:botania_hydroangeas",
+  "type": "emixx:group",
+  "contents": [
+    "botania:hydroangeas_motif",
+    "botania:hydroangeas",
+    "botania:floating_hydroangeas",
+    "nyagibits_bytes:hydroangeas_mush"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "minecraft:quartz_decor",
+  "type": "emixx:group",
+  "contents": [
+    "minecraft:quartz_stairs",
+    "minecraft:quartz_slab",
+    "quark:quartz_vertical_slab",
+    "minecraft:chiseled_quartz_block",
+    "minecraft:quartz_bricks",
+    "minecraft:quartz_pillar",
+    "minecraft:smooth_quartz",
+    "minecraft:smooth_quartz_stairs",
+    "minecraft:smooth_quartz_slab",
+    "quark:smooth_quartz_vertical_slab",
+    "xkdeco:quartz_wall"
+  ],
+  "enabled": true
+}

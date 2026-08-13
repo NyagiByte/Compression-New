@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_spectrolus",
+  "type": "emixx:group",
+  "contents": [
+    "botania:spectrolus",
+    "botania:floating_spectrolus"
+  ],
+  "enabled": true
+}

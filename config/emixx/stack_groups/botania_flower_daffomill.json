@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_daffomill",
+  "type": "emixx:group",
+  "contents": [
+    "botania:daffomill",
+    "botania:floating_daffomill"
+  ],
+  "enabled": true
+}

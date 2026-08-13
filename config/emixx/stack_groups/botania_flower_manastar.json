@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_manastar",
+  "type": "emixx:group",
+  "contents": [
+    "botania:manastar",
+    "botania:floating_manastar"
+  ],
+  "enabled": true
+}

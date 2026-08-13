@@ -1,0 +1,11 @@
+{
+  "id": "botania:botania_marimorphosis",
+  "type": "emixx:group",
+  "contents": [
+    "botania:marimorphosis",
+    "botania:marimorphosis_chibi",
+    "botania:floating_marimorphosis",
+    "botania:floating_marimorphosis_chibi"
+  ],
+  "enabled": true
+}

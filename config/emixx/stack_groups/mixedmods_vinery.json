@@ -14,7 +14,9 @@
     "atmospheric:passion_vine_bundle",
     "atmospheric:passion_vine_coil",
     "abyssal_decor:wall_vines",
-    "biomeswevegone:skyris_vine"
+    "biomeswevegone:skyris_vine",
+    "minecraft:glow_lichen",
+    "biomeswevegone:poison_ivy"
   ],
   "enabled": true
 }

@@ -1,0 +1,11 @@
+{
+  "id": "botania:botania_clayconia",
+  "type": "emixx:group",
+  "contents": [
+    "botania:clayconia",
+    "botania:clayconia_chibi",
+    "botania:floating_clayconia",
+    "botania:floating_clayconia_chibi"
+  ],
+  "enabled": true
+}

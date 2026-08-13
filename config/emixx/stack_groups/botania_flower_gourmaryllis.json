@@ -1,0 +1,10 @@
+{
+  "id": "botania:botania_gourmaryllis",
+  "type": "emixx:group",
+  "contents": [
+    "botania:gourmaryllis",
+    "botania:floating_gourmaryllis",
+    "nyagibits_bytes:gourmaryllis_mush"
+  ],
+  "enabled": true
+}

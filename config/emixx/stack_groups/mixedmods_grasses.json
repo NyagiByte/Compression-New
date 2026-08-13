@@ -21,7 +21,8 @@
     "biomeswevegone:tall_beach_grass",
     "biomeswevegone:beach_grass",
     "atmospheric:arid_sprouts",
-    "atmospheric:golden_growths"
+    "atmospheric:golden_growths",
+    "minecraft:seagrass"
   ],
   "enabled": true
 }

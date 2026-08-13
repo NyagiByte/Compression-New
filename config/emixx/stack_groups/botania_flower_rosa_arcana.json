@@ -1,0 +1,10 @@
+{
+  "id": "botania:botania_rosa_arcana",
+  "type": "emixx:group",
+  "contents": [
+    "botania:rosa_arcana",
+    "botania:floating_rosa_arcana",
+    "nyagibits_bytes:rosa_arcana_mush"
+  ],
+  "enabled": true
+}

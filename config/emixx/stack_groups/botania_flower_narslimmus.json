@@ -1,0 +1,10 @@
+{
+  "id": "botania:botania_narslimmus",
+  "type": "emixx:group",
+  "contents": [
+    "botania:narslimmus",
+    "botania:floating_narslimmus",
+    "nyagibits_bytes:narslimmus_mush"
+  ],
+  "enabled": true
+}

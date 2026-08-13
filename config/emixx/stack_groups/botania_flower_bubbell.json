@@ -1,0 +1,11 @@
+{
+  "id": "botania:botania_bubbell",
+  "type": "emixx:group",
+  "contents": [
+    "botania:bubbell",
+    "botania:bubbell_chibi",
+    "botania:floating_bubbell",
+    "botania:floating_bubbell_chibi"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_kekimurus",
+  "type": "emixx:group",
+  "contents": [
+    "botania:kekimurus",
+    "botania:floating_kekimurus"
+  ],
+  "enabled": true
+}

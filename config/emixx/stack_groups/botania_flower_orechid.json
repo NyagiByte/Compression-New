@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_orechid",
+  "type": "emixx:group",
+  "contents": [
+    "botania:orechid",
+    "botania:floating_orechid"
+  ],
+  "enabled": true
+}

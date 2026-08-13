@@ -1,0 +1,11 @@
+{
+  "id": "botania:botania_jiyuulia",
+  "type": "emixx:group",
+  "contents": [
+    "botania:jiyuulia",
+    "botania:jiyuulia_chibi",
+    "botania:floating_jiyuulia",
+    "botania:floating_jiyuulia_chibi"
+  ],
+  "enabled": true
+}

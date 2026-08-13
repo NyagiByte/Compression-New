@@ -1,0 +1,9 @@
+{
+  "id": "botania:botania_bergamute",
+  "type": "emixx:group",
+  "contents": [
+    "botania:bergamute",
+    "botania:floating_bergamute"
+  ],
+  "enabled": true
+}
