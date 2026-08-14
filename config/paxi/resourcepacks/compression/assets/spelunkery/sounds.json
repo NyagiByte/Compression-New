@@ -1,0 +1,99 @@
+{
+  "portal_fluid_bucket_empty": {
+    "subtitle": "subtitles.item.bucket.empty",
+    "sounds": [
+      "spelunkery:item/bucket/empty_dimensional_tears_0",
+      "spelunkery:item/bucket/empty_dimensional_tears_1",
+      "spelunkery:item/bucket/empty_dimensional_tears_2"
+    ]
+  },
+  "portal_fluid_bucket_fill": {
+    "subtitle": "subtitles.item.bucket.fill",
+    "sounds": [
+      "spelunkery:item/bucket/fill_dimensional_tears_0",
+      "spelunkery:item/bucket/fill_dimensional_tears_1",
+      "spelunkery:item/bucket/fill_dimensional_tears_2"
+    ]
+  },
+  "portal_fluid_bottle_empty": {
+    "subtitle": "subtitles.item.bottle.empty",
+    "sounds": [
+      "spelunkery:item/bottle/empty_dimensional_tears_0",
+      "spelunkery:item/bottle/empty_dimensional_tears_1"
+    ]
+  },
+  "portal_fluid_bottle_fill": {
+    "subtitle": "subtitles.item.bottle.fill",
+    "sounds": [
+      "spelunkery:item/bottle/fill_dimensional_tears_0",
+      "spelunkery:item/bottle/fill_dimensional_tears_1"
+    ]
+  },
+  "portal_fluid_submerge": {
+    "subtitle": "subtitles.block.portal_fluid.submerge",
+    "sounds": [
+      "spelunkery:block/portal_fluid/submerge"
+    ]
+  },
+  "portal_fluid_teleport": {
+    "subtitle": "subtitles.block.portal_fluid.teleport",
+    "sounds": [
+        {
+            "name": "spelunkery:block/portal_fluid/teleport",
+            "volume": 0.3
+        }
+      
+    ]
+  },
+  "portal_fluid_ambient": {
+    "subtitle": "subtitles.block.portal_fluid.ambient",
+    "sounds": [
+      "spelunkery:block/portal_fluid/ambient_0",
+      "spelunkery:block/portal_fluid/ambient_1"
+    ]
+  },
+  "boat_paddle_portal_fluid": {
+    "subtitle": "subtitles.entity.boat.paddle_water",
+    "sounds": [
+      "spelunkery:block/portal_fluid/paddle_portal_fluid_0",
+      "spelunkery:block/portal_fluid/paddle_portal_fluid_1",
+      "spelunkery:block/portal_fluid/paddle_portal_fluid_2",
+      "spelunkery:block/portal_fluid/paddle_portal_fluid_3"
+    ]
+  },
+  "bonk": {
+    "subtitle": "subtitles.item.pebble.bonk",
+    "sounds": [
+      "spelunkery:item/pebble/bonk"
+    ]
+  },
+  "knob": {
+    "subtitle": "subtitles.item.pebble.knob",
+    "sounds": [
+      "spelunkery:item/pebble/knob"
+    ]
+  },
+  "spring_water_ambient": {
+    "subtitle": "subtitles.block.spring_water.ambient",
+    "sounds": [
+      "spelunkery:block/spring_water/ambient1"
+    ]
+  },
+  "spring_water_pop": {
+    "subtitle": "subtitles.block.spring_water.pop",
+    "sounds": [
+      "spelunkery:block/spring_water/bubble1"
+    ]
+  },
+  "jangle": {
+    "subtitle": "subtitles.entity.jangle",
+    "sounds": [
+      "spelunkery:entity/jangle0",
+      "spelunkery:entity/jangle1",
+      "spelunkery:entity/jangle2",
+      "spelunkery:entity/jangle3",
+      "spelunkery:entity/jangle4",
+      "spelunkery:entity/jangle5"
+    ]
+  }
+}
