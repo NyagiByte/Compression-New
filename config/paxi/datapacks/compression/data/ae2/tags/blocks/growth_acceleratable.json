@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "nyagibits_bytes:impure_2_5_dimethoxy_1_4_benzenedicarboxylic_acid_block",
+        "nyagibits_bytes:impure_2_5_dimethoxybenzoic_acid_block",
+        "farmersdelight:organic_compost",
+        "farmersdelight:rich_soil",
+        "farmersdelight:rich_soil_farmland",
+        "supplementaries:planter",
+        "minecraft:pointed_dripstone",
+        "immersiveengineering:slag_gravel"
+    ]
+  }
