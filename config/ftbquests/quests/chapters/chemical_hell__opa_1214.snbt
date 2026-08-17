@@ -98,8 +98,8 @@
 			hide_dependency_lines: true
 			id: "766D9EEA47D7BA1E"
 			tasks: [{
-				id: "150BE0158C8F12DF"
-				item: "immersivepetroleum:benzene_bucket"
+				id: "744CC8326944FA53"
+				item: "nyagibits_bytes:bucket_of_benzene"
 				type: "item"
 			}]
 			x: 16.5d
