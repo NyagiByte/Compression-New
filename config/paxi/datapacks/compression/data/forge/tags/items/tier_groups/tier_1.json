@@ -3344,6 +3344,11 @@
         "tastytiles:endleline_zune_tile",
         "tastytiles:endleline_zune_tile_slab",
         "tastytiles:endleline_zune_tile_stairs",
-        "tastytiles:endleline_zune_tile_wall"
+        "tastytiles:endleline_zune_tile_wall",
+        "minecraft:prismarine_brick_slab",
+        "quark:dark_prismarine_vertical_slab",
+        "quark:prismarine_brick_vertical_slab",
+        "quark:prismarine_vertical_slab",
+        "xkdeco:mimic/minecraft/prismarine_wall"
     ]
   }
