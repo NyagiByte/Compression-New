@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "key": {
       "A": {"item":"nyagibits_bytes:porcelain_slab_small"},
-      "B": {"item":"minecraft:green_dye"}
+      "B": {"item":"minecraft:white_dye"}
     },
     "pattern": [
       "ABA",
@@ -11,6 +11,6 @@
     ],
     "result": {
         "count": 8,
-        "item": "tastytiles:grid_sage_tile"
+        "item": "tastytiles:grid_white_tile"
     }
   }
