@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "quark:stick_block"
+    }
+  ],
+  "result": {
+    "count": 64,
+    "item": "minecraft:stick"
+  }
+}
