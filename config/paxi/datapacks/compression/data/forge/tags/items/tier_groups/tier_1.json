@@ -3349,6 +3349,13 @@
         "quark:dark_prismarine_vertical_slab",
         "quark:prismarine_brick_vertical_slab",
         "quark:prismarine_vertical_slab",
-        "xkdeco:mimic/minecraft/prismarine_wall"
+        "xkdeco:mimic/minecraft/prismarine_wall",
+        "nyagibits_bytes:bucket_of_solution_piranha",
+        "nyagibits_bytes:dust_lithic_tailings_generic",
+        "nyagibits_bytes:bucket_of_milk_screened",
+        "nyagibits_bytes:bucket_of_milk_pasteurized",
+        "nyagibits_bytes:bucket_of_milk_skim",
+        "nyagibits_bytes:bucket_of_milk_lowfat",
+        "nyagibits_bytes:bucket_of_rennet_clot_suspension"
     ]
   }
