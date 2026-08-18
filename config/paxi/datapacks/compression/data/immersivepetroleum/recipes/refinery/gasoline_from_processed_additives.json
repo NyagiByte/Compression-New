@@ -7,10 +7,10 @@
   },
   "input1": {
     "amount": 3,
-    "tag": "forge:gasoline_additives_raw"
+    "tag": "forge:gasoline_additives_processed"
   },
   "result": {
-    "amount": 10,
+    "amount": 15,
     "fluid": "immersivepetroleum:gasoline"
   }
 }
