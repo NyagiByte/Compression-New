@@ -10,7 +10,7 @@
       },
       {
         "amount": 250,
-        "fluid": "immersivepetroleum:gasoline_additives"
+        "fluid": "nyagibits_bytes:gasoline_additives_raw_fluid"
       }
     ],
     "results": [
