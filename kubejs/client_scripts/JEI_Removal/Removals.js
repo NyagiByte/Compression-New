@@ -671,11 +671,11 @@ JEIEvents.hideItems(event => {
     'spelunkery:tuff_diamond_ore',
     'spelunkery:deepslate_diamond_ore',
 
-   // 'spelunkery:andesite_zinc_ore',
-   // 'spelunkery:diorite_zinc_ore',
-   // 'spelunkery:granite_zinc_ore',
-   // 'spelunkery:tuff_zinc_ore',
-   // 'spelunkery:deepslate_zinc_ore',
+    'spelunkery:andesite_zinc_ore',
+    'spelunkery:diorite_zinc_ore',
+    'spelunkery:granite_zinc_ore',
+    'spelunkery:tuff_zinc_ore',
+    'spelunkery:deepslate_zinc_ore',
 
     'spelunkery:andesite_lapis_ore',
     'spelunkery:diorite_lapis_ore',
