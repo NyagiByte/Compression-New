@@ -1,0 +1,14 @@
+{
+  "id": "yuushya:yuushya_friends",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:pictor",
+    "yuushya:bismuth_crystal",
+    "yuushya:wriggle_nightbug",
+    "yuushya:shameimaru_aya",
+    "yuushya:hakurei_reimu",
+    "yuushya:horaisan_kaguya",
+    "yuushya:fujiwara_no_mokou"
+  ],
+  "enabled": true
+}
