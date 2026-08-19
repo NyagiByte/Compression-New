@@ -948,7 +948,7 @@
 		{"namespace": "immersiveengineering", "path": "recipes/arcfurnace/raw_ore_gold.json"},
 		{"namespace": "immersiveengineering", "path": "recipes/arcfurnace/ore_gold.json"},
 		{"namespace": "immersiveengineering", "path": "recipes/arcfurnace/dust_gold.json"},
-		{"namespace": "immersiveengineering", "path": "recipes/arcfurnace/raw_block_iron.json"},
+		{"namespace": "immersiveengineering", "path": "recipes/arcfurnace/raw_block_iron.json"},cryptic_redstone_ore
 		{"namespace": "immersiveengineering", "path": "recipes/arcfurnace/raw_ore_iron.json"},
 		{"namespace": "immersiveengineering", "path": "recipes/arcfurnace/ore_iron.json"},
 		{"namespace": "immersiveengineering", "path": "recipes/arcfurnace/dust_iron.json"},
@@ -1287,12 +1287,9 @@
 		{"namespace": "create", "path": "recipes/crushing/compat/thermal/cinnabar_ore.json"},
 		{"namespace": "create", "path": "recipes/crushing/compat/thermal/sulfur_ore.json"},
 
-		{"namespace": "create", "path": "recipes/compat/biomeswevegone/crushing/blue_nether_quartz_ore.json"},
-		{"namespace": "create", "path": "recipes/compat/biomeswevegone/crushing/brimstone_nether_quartz_ore.json"},
 		{"namespace": "create", "path": "recipes/compat/biomeswevegone/crushing/blue_nether_gold_ore.json"},
 		{"namespace": "create", "path": "recipes/compat/biomeswevegone/crushing/brimstone_nether_gold_ore.json"},
 		{"namespace": "create", "path": "recipes/compat/biomeswevegone/crushing/ametrine_ore.json"},
-		{"namespace": "create", "path": "recipes/compat/biomeswevegone/crushing/cryptic_redstone_ore.json"},
 		{"namespace": "create", "path": "recipes/compat/biomeswevegone/crushing/emeraldite_ore.json"},
 		{"namespace": "create", "path": "recipes/compat/biomeswevegone/crushing/anthracite_ore.json"},
 		{"namespace": "create", "path": "recipes/compat/biomeswevegone/crushing/pervaded_netherrack.json"},
