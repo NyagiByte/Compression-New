@@ -10,7 +10,9 @@
     "yuushya:calico",
     "yuushya:jellie",
     "yuushya:siamese",
-    "yuushya:tabby"
+    "yuushya:tabby",
+    "yuushya:sleeping_orange_cat",
+    "yuushya:sleeping_ragdoll"
   ],
   "enabled": true
 }

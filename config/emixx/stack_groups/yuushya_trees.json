@@ -1,5 +1,5 @@
 {
-  "id": "yuushya:yuushya_generator_trees",
+  "id": "yuushya:yuushya_trees",
   "type": "emixx:group",
   "contents": [
     "yuushya:oak_tree",
@@ -35,7 +35,34 @@
     "yuushya:fancy_sakura_0",
     "yuushya:fancy_sakura_1",
     "yuushya:fancy_sakura_2",
-    "yuushya:fancy_sakura_3"
+    "yuushya:fancy_sakura_3",
+    "yuushya:trunk_0",
+    "yuushya:trunk_1",
+    "yuushya:trunk_2",
+    "yuushya:branch_0",
+    "yuushya:branch_1",
+    "yuushya:branch_2",
+    "yuushya:big_oak_leaves",
+    "yuushya:big_maple_leaves",
+    "yuushya:average_oak_leaves",
+    "yuushya:average_white_blooming_leaves",
+    "yuushya:average_gold_blooming_leaves",
+    "yuushya:average_pink_blooming_leaves",
+    "yuushya:average_maple_leaves",
+    "yuushya:cluster_oak_leaves",
+    "yuushya:cluster_maple_leaves",
+    "yuushya:lesser_fallen_leaves",
+    "yuushya:average_fallen_leaves",
+    "yuushya:thick_fallen_leaves",
+    "yuushya:stairs_lesser_fallen_leaves",
+    "yuushya:stairs_average_fallen_leaves",
+    "yuushya:stairs_thick_fallen_leaves",
+    "yuushya:big_sakura",
+    "yuushya:average_sakura",
+    "yuushya:cluster_sakura",
+    "yuushya:falling_maple_spawner",
+    "yuushya:falling_oak_spawner",
+    "yuushya:falling_sakura_spawner"
   ],
   "enabled": true
 }

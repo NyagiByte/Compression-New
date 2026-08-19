@@ -1,0 +1,12 @@
+{
+  "id": "yuushya:yuushya_bugs",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:butterfly",
+    "yuushya:butterfly_red",
+    "yuushya:butterfly_blue",
+    "yuushya:butterfly_magenta",
+    "yuushya:fireflies"
+  ],
+  "enabled": true
+}

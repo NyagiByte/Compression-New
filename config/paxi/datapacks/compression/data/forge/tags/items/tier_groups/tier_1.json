@@ -3356,6 +3356,19 @@
         "nyagibits_bytes:bucket_of_milk_pasteurized",
         "nyagibits_bytes:bucket_of_milk_skim",
         "nyagibits_bytes:bucket_of_milk_lowfat",
-        "nyagibits_bytes:bucket_of_rennet_clot_suspension"
+        "nyagibits_bytes:bucket_of_rennet_clot_suspension",
+        "nyagibits_bytes:sample_organic_tailings_generic",
+        "nyagibits_bytes:sample_organic_tailings_light",
+        "nyagibits_bytes:sample_organic_tailings_heavy",
+        "nyagibits_bytes:sample_lithic_tailings_generic",
+        "nyagibits_bytes:sample_lithic_tailings_light",
+        "nyagibits_bytes:sample_lithic_tailings_heavy",
+        "nyagibits_bytes:dust_lithic_tailings_heavy",
+        "nyagibits_bytes:dust_lithic_tailings_light",
+        "nyagibits_bytes:sample_unidentified_solid_metallic_tailings_generic",
+        "nyagibits_bytes:dust_unidentified_solid_metallic_tailings_generic",
+        "nyagibits_bytes:dust_unidentified_solid_metallic_tailings_generic",
+        "nyagibits_bytes:sample_unidentified_dissolved_metallic_tailings_generic",
+        "nyagibits_bytes:tert_butyl_alcohol_dust"
     ]
   }

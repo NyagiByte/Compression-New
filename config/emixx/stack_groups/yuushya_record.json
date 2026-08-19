@@ -1,0 +1,15 @@
+{
+  "id": "yuushya:yuushya_record",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:pictor",
+    "yuushya:bismuth_crystal",
+    "yuushya:tri_legged_chair",
+    "yuushya:vinyl_record_player",
+    "yuushya:vinyl_record_white",
+    "yuushya:vinyl_record_cyan",
+    "yuushya:vinyl_record_yellow",
+    "yuushya:vinyl_record_red"
+  ],
+  "enabled": true
+}

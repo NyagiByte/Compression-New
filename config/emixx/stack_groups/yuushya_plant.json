@@ -1,5 +1,5 @@
 {
-  "id": "yuushya:yuushya_flower",
+  "id": "yuushya:yuushya_plants",
   "type": "emixx:group",
   "contents": [
     "yuushya:allium",
@@ -17,7 +17,13 @@
     "yuushya:tall_orchid",
     "yuushya:tall_lilac",
     "yuushya:wisteria",
-    "yuushya:wisteria"
+    "yuushya:wisteria",
+    "yuushya:grown_wheat",
+    "yuushya:evergreen",
+    "yuushya:fern",
+    "yuushya:lower_grass",
+    "yuushya:tall_grass",
+    "yuushya:symbol_of_love"
   ],
   "enabled": true
 }
