@@ -1,0 +1,20 @@
+{
+    "type": "create:mechanical_crafting",
+    "acceptMirrored": true,
+    "key": {
+      "A": {
+        "item": "create:blaze_cake"
+      },
+      "B": {
+        "item": "nyagibits_bytes:crude_entropy_test"
+      }
+    },
+    "pattern": [
+      "A",
+      "B",
+      "A"
+    ],
+    "result": {
+      "item": "nyagibits_bytes:tres_blazes_cake"
+    }
+  }
