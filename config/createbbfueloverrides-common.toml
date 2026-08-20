@@ -1,0 +1,3 @@
+#disable fuels from items with fuel values and fuel tags
+removeDefaultFuels = false
+
