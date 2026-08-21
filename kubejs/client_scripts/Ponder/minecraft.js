@@ -1,3 +1,6 @@
+const MC = Java.loadClass("net.minecraft.client.Minecraft")
+
+
 Ponder.tags((e) => {
 	e.createTag("compression:minecraft", "minecraft:crafting_table", "Minecraft Basics.", "The Basics of Basics!", [
 		"minecraft:cobblestone",
@@ -441,31 +444,81 @@ Ponder.registry((e) => {
 
 
 		//heehoo
-	e.create("nyagibits_bytes:flake").scene("flake", "??????????????????", "kubejs:deepslate_9x9", (scene, util) => {
-			var wall = []
-			for (let i = 0;i<9;i++) for(let j = 1;j<9;j++) wall.push([i,j,0])
-			wall.sort(() => Math.random() - 0.5)
-			scene.setSceneOffsetY(-1.1)
+	e.create("nyagibits_bytes:flake").scene("flake", "??????????????????", "kubejs:wall", (scene, util) => {
+			let gateways = []
+			for(let x = 0;x<75;x++){
+				for(let y = 1;y<75;y++)
+				gateways.push([x,y,0])
+			}
+			gateways.sort(() => Math.random() - 0.5)
+			//scene.world.setBlocks([0,1,0,98,98,0], "minecraft:smooth_stone", false)
+			scene.setSceneOffsetY(-5)
 			scene.rotateCameraY(35)
-			scene.scaleSceneView(2)
-			scene.idle(20)
-            scene.world.setBlocks([0,1,0, 8,8,0], "nyagibits_bytes:flake", false);
+
+			let scale = MC.getInstance().getWindow().getGuiScale() //THIS works? What.
+			scene.scaleSceneView(2 / scale) 
+			//scene.scaleSceneView(1.25)
+			scene.idle(40)
+            
 			let timer = 0
-			wall.forEach(pos => {
-				scene.world.showSection(pos, Facing.north)
+			gateways.forEach(pos => {
+				scene.world.showSection(pos, Facing.south)
 				timer = timer + 1
-				if (timer%3 == 0) scene.idle(1)
+				if (timer%200 == 0) scene.idle(1)
 			})
-			scene.world.setBlocks([0,1,2, 8,8,2], "minecraft:end_gateway", false);
+			
 			scene.idle(30)
-			timer = 0
-			wall.forEach(pos => {
-				scene.world.hideSection(pos, Facing.south)
-				scene.world.showSection([pos[0], pos[1], 2], Facing.north)
-				timer = timer + 1
-				if (timer%2 == 0) scene.idle(1)
+
+			const r = "minecraft:red_concrete"
+			const g = "minecraft:lime_concrete"
+			const b = "minecraft:blue_concrete"
+			const c = "minecraft:cyan_concrete"
+			const m = "minecraft:magenta_concrete"
+			const y = "minecraft:yellow_concrete"
+			const v = "minecraft:black_concrete"
+
+			let bg = []
+			for(let x = 33;x<42;x++){
+				bg.push([x,31,0])
+				bg.push([x,32,0])
+				bg.push([x,33,0])
+			}
+			bg.sort(() => Math.random() - 0.5)
+
+			bg.forEach(pos => {
+				scene.world.setBlock(pos, v, false)
+				scene.idle(1)
 			})
-			scene.idle(10)
+			scene.idle(50)
+
+			let grid = [] //what, trying to look here to get more hints? Lol. Lmao.
+			grid[0] = [v,v,g,m,v,v,c,v,v,c,y,v,v,y,c,c,c,v,v,v,g,m,v,v,c,v,v,c,y,v,v,y,c,c,c,v]
+			grid[1] = [v,v,v,c,m,v,v,v,v,r,v,v,m,v,c,m,v,v,v,v,v,c,m,v,v,v,v,r,v,v,m,v,c,m,v,v]
+			grid[2] = [r,v,v,v,v,c,v,v,v,g,m,v,v,v,v,v,v,v,r,v,v,v,v,c,v,v,v,g,m,v,v,v,v,v,v,v]
+			grid[3] = [v,y,b,v,v,y,c,m,v,v,y,c,v,y,b,v,v,y,c,m,v,v,y,c,v,y,b,v,v,y,c,m,v,v,y,c]
+			grid[4] = [v,m,v,m,v,v,m,v,y,r,v,v,v,m,v,m,v,v,m,v,y,r,v,v,v,m,v,m,v,v,m,v,y,r,v,v]
+			grid[5] = [b,v,v,m,v,v,v,v,v,m,v,v,b,v,v,m,v,v,v,v,v,m,v,v,b,v,v,m,v,v,v,v,v,m,v,v]
+			grid[6] = [c,y,c,v,v,m,c,y,v,v,v,y,c,y,c,v,v,m,c,y,v,v,v,y,c,y,c,v,v,m,c,y,v,v,v,y]
+			grid[7] = [m,y,v,v,m,v,m,v,v,m,r,v,m,y,v,v,m,v,m,v,v,m,r,v,m,y,v,v,m,v,m,v,v,m,r,v]
+			grid[8] = [m,v,v,v,m,c,m,m,v,v,b,c,m,v,v,v,m,c,m,m,v,v,b,c,m,v,v,v,m,c,m,m,v,v,b,c]
+
+
+
+			for(let i = 0;i<240;i++){
+				
+				for(let x = 0;x<9;x++){
+					scene.world.setBlock([41-x,33,0], grid[x][(i%12)*3], false)
+					scene.world.setBlock([41-x,32,0], grid[x][(i%12)*3+1], false)
+					scene.world.setBlock([41-x,31,0], grid[x][(i%12)*3+2], false)
+				}
+				scene.idle(2)
+			}
+			scene.world.setBlocks([33,31,0,41,33,0], v, false)
+			scene.idle(30)
+			bg.forEach(pos => {
+				scene.world.setBlock(pos, "minecraft:end_gateway", false)
+				scene.idle(1)
+			})
 			scene.idle(2147483647)
         });
 
@@ -616,7 +669,36 @@ Ponder.registry((e) => {
 				scene.text(70, "...will slowly grow more of it!", [2.5,2,2.5]);
 				scene.idle(80)
                 scene.markAsFinished()
-            });
+            })
+			.scene("mud_drying", "Drying Mud with Dripstone", "kubejs:deepslate_5x5", (scene, util) => {
+				scene.showBasePlate()
+				scene.idle(10)
+				scene.world.setBlock([2,3,2], "minecraft:stone_bricks", false)
+				scene.world.showSection([2,3,2], Facing.east)
+				scene.idle(10)
+				scene.world.setBlock([2,4,2], "minecraft:mud", false)
+				scene.world.showSection([2,4,2], Facing.down)
+				scene.text(120, "Mud can be slowly dried by placing it on a block that has dripstone hanging underneath.", [2.5,4,2.5]);
+				scene.idle(20)
+				createDripstoneSpike(scene,2,2,2,2,false)
+				scene.world.showSection([2,2,2], Facing.up)
+				scene.idle(20)
+				scene.addKeyframe()
+				scene.particles.simple(1, "falling_water", [2.5,2,2.5]).density(1)
+				scene.idle(30)
+				scene.particles.simple(1, "falling_water", [2.5,2,2.5]).density(1)
+				scene.idle(30)
+				scene.particles.simple(1, "falling_water", [2.5,2,2.5]).density(1)
+				scene.idle(30)
+				scene.particles.simple(1, "falling_water", [2.5,2,2.5]).density(1)
+				scene.world.setBlock([2,4,2], "minecraft:clay", false)
+				scene.idle(50)
+				scene.addKeyframe()
+				scene.idle(10)
+				scene.text(100, "Doing so will turn it into clay!", [2.5,4,2.5]);
+				scene.idle(100)
+				scene.markAsFinished()
+			});
 
 
 		e.create("minecraft:cauldron").scene("lava_farming_cauldron", "Farming Lava with Dripstone", "kubejs:deepslate_7x7", (scene, util) => {
