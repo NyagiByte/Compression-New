@@ -2408,13 +2408,15 @@
 			description: [
 				"A culture of Acetobacter will let you make Vinegar starter."
 				""
-				"Feed the vinegar starter to get more, then split some of it off and cook it to kill the bacteria inside and get vinegar, which you can then bottle up."
+				"After capturing the initial culrute, use it to prepare a batch of starter, then cook said starter with water to kill off the bacteria to get the vinegar."
+				""
+				"The Acetobacter is returned...most of the time. But a re-capture can be guaranteed by using a bit of existing starter."
 				""
 				"&cMaking the initial starter is not easy! Do not use it all up!"
 				""
-				"&b8 Bottles of Vinegar per craft*"
+				"&b12* Bottles of Vinegar per craft"
 				""
-				"&7*(A craft means using the net gain of vinegar starter to make vinegar)"
+				"&7*(Actual yield is slightly lower as some starter should be fed back into Acetobacter production)"
 			]
 			icon: "nyagibits_bytes:petri_dish_acetobacter"
 			id: "170BE4DB9EBBA2E6"
@@ -2449,11 +2451,11 @@
 			description: [
 				"Using processed munchdew mush instead of sugar cubes (and adding a lot more yeast culture) gives way more vinegar starter per batch."
 				""
-				"In fact, after removing the portion to cycle back in, you get 8 times as much!"
 				""
-				"&b64 Bottles of Vinegar per craft*"
 				""
-				"&7*(A craft means using the net gain of vinegar starter to make vinegar)"
+				"&b80* Bottles of Vinegar per batch"
+				""
+				"&7*(Actual yield may be slightly lower due to needing to loop some)"
 			]
 			id: "0FBF65F88D63B7A8"
 			rewards: [{
