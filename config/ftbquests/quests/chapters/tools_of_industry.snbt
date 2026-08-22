@@ -257,6 +257,8 @@
 				""
 				""
 				"&b[Rightclick]&r - Rotate various create blocks, especially useful for &agearbox orientation&r"
+				""
+				"&eIn a pinch, it can serve as a weapon. It comes with extra knockback! &6Bonk!"
 			]
 			hide_until_deps_complete: true
 			id: "593F4B6288E939F1"
@@ -362,7 +364,7 @@
 			description: [
 				"A &bStone Wand&r!"
 				""
-				"The stone wand can place &a9 blocks&r at a time and has a &edurability of 131&r"
+				"The stone wand can place &a27 blocks&r at a time and has a &edurability of 1024&r"
 			]
 			hide_until_deps_complete: true
 			id: "65D8FAD51F6EE4C6"
@@ -395,7 +397,7 @@
 			description: [
 				"An &bIron Wand&r!"
 				""
-				"The iron wand can place &a27 blocks&r at a time and has a &edurability of 250&r"
+				"The iron wand can place &a128 blocks&r at a time and has a &edurability of 8192&r"
 			]
 			id: "1D6933CE4A08E94A"
 			rewards: [{
@@ -427,7 +429,7 @@
 			description: [
 				"A &bDiamond Wand&r!"
 				""
-				"The diamond wand can place &a128 blocks&r at a time and has a &edurability of 1561&r"
+				"The diamond wand can place &a512 blocks&r at a time and has a &edurability of 65536&r"
 			]
 			id: "37A3FF5A19605671"
 			rewards: [{
@@ -511,6 +513,8 @@
 			]
 			description: [
 				"The &bEngineer's Hammer&r is your &a\"wrench\"&r for Immersive Engineering \\& Immersive Petroleum"
+				""
+				"&eIn a pinch, it can serve as a weapon. It comes with extra knockback! &6Bonk!"
 				""
 				"The wrench has a &6ponder&r :) Enjoy!"
 			]
