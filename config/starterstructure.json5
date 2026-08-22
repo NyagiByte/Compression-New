@@ -2,7 +2,7 @@
 	// Whether a schematic that's located in './config/starterstructure/schematics/...' should be generated.
 	"shouldGenerateStructure": true,
 	// Usually player spawn points are in a randomized area. With this enabled, players will always spawn at the set coordinates (at the nearest air pocket).
-	"forceExactSpawn": true,
+	"forceExactSpawn": false,
 	// Prevents structures from being placed on top of trees. Any leaf and log blocks will be ignored during placement.
 	"ignoreTreesDuringStructurePlacement": false,
 	// Some schematic files might contain jigsaw or structure blocks. These are by default ignored during structure generation.
