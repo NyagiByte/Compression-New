@@ -1,5 +1,5 @@
 {
-    "name": "compstruct:boulders",
+    "name": "compstruct:obelisk",
     "fallback": "minecraft:empty",
     "elements": [
         {

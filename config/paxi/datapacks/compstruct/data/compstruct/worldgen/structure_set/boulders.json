@@ -58,7 +58,7 @@
         }
     ],
     "placement": {
-        "type": "minecraft:random_spread",
+        "type": "hexed_structures:center",
         "spacing": 10,
         "separation": 6,
         "salt": 14347342873

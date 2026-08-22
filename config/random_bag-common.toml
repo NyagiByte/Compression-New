@@ -1,0 +1,11 @@
+
+[random_bag]
+	##
+	# A list of structure pool resource locations the selection algorithm should apply to (with optional wildcard patterns). 
+	# E.g. 'minecraft:trail_ruins*', 'minecraft:village/desert/*', mydatapack:mystructurepool'.
+	"Allowed structure pools" = ["compstruct:*_boulder"]
+	##
+	# A list of multipliers that specifies how often the bag should contain all templates of each structure type. 
+	# May allow for more variation.
+	"Bag Size Multiplier" = [1]
+
