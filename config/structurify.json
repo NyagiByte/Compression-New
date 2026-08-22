@@ -1,13 +1,19 @@
 {
   "config_version": "2.0.34",
-  "config_datetime": "2026-08-22_16-03-23",
+  "config_datetime": "2026-08-22_17-01-57",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": true,
     "enable_global_spacing_and_separation_modifier": false,
     "global_spacing_and_separation_modifier": 1.0
   },
-  "structure_namespaces": [],
+  "structure_namespaces": [
+    {
+      "name": "supplementaries",
+      "is_disabled": false,
+      "exclude_from_overlap_prevention": true
+    }
+  ],
   "structures": [
     {
       "name": "minecraft:ancient_city",
@@ -613,6 +619,10 @@
     },
     {
       "name": "spelunkery:cinnabar_wire",
+      "exclude_from_overlap_prevention": true
+    },
+    {
+      "name": "supplementaries:way_sign",
       "exclude_from_overlap_prevention": true
     }
   ],
