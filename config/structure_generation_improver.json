@@ -2301,7 +2301,8 @@
     "minecraft:woodland_mansion/wall_corner",
     "minecraft:woodland_mansion/wall_flat",
     "minecraft:woodland_mansion/wall_window",
-    "yuushya:yellow_blooming_oak_tree"
+    "yuushya:yellow_blooming_oak_tree",
+    "ae2:meteorite"
   ],
   "comment_foundation_blacklist": "Supports: full id, namespace.*, *, #namespace:tag",
   "Foundation blacklist": [
