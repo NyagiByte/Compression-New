@@ -1,7 +1,7 @@
 {
   "comment_structure_height": "Allowed structure height range for processing.",
   "Min structure height": 0,
-  "Max structure height": 512,
+  "Max structure height": 885,
   "comment_shell": "Shell settings format: \"modid:structure_file\": { radius, verticalOffset, exponentialSpeed }",
   "Shell settings": {},
   "comment_structure_blacklist": "Supports: full id, namespace.*, *, #namespace:tag",
