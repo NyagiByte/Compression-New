@@ -3363,7 +3363,7 @@
 				id: "6D04C266BECCFABF"
 				item: {
 					Count: 1
-					id: "botania:terra_pick"
+					id: "aiotbotania:terra_aiot"
 					tag: {
 						Damage: 0
 						mana: 9999
@@ -3389,7 +3389,7 @@
 				id: "6D9799AB05139B78"
 				item: {
 					Count: 1
-					id: "botania:elementium_pickaxe"
+					id: "aiotbotania:elementium_aiot"
 					tag: {
 						Damage: 0
 					}
@@ -3419,7 +3419,7 @@
 				id: "1968977F5C0F05BC"
 				item: {
 					Count: 1
-					id: "botania:manasteel_pick"
+					id: "aiotbotania:manasteel_aiot"
 					tag: {
 						Damage: 0
 					}
@@ -3444,7 +3444,7 @@
 				id: "69B99C179CAF94E4"
 				item: {
 					Count: 1
-					id: "mythicbotany:alfsteel_pick"
+					id: "aiotbotania:alfsteel_aiot"
 					tag: {
 						Damage: 0
 						mana: 9999
