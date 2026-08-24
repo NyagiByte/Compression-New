@@ -1,0 +1,20 @@
+{
+    "type": "compressiontweaks:opa_info",
+    "impure": {"item": "chemlib:zinc_dust","count": 24},
+    "opa": {"fluid": "nyagibits_bytes:opa_1214_fluid", "amount": 1000},
+    "contaminated_opa": {"fluid": "nyagibits_bytes:opa_zinc_fluid", "amount": 1000},
+    "opa_froth": {"fluid": "nyagibits_bytes:froth_opa_zinc_fluid", "amount": 1000},
+
+    "primary_outputs": [
+        {"item": "nyagibits_bytes:pure_zinc_dust"},
+        {"item": "chemlib:manganese_dust"},
+        {"item": "chemlib:germanium_dust"},
+        {"item": "chemlib:indium_dust"},
+        {"item": "chemlib:gallium_dust"}
+    ],
+    "secondary_outputs": [
+        {"item": "chemlib:lead_dust"},
+        {"item": "chemlib:sulfur_dust"},
+        {"item": "chemlib:cadmium_dust"}
+    ]
+}
