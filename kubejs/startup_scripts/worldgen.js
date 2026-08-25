@@ -17,6 +17,8 @@ WorldgenEvents.remove(event => {
         "minecraft:deepslate_lapis_ore",
         "minecraft:deepslate_copper_ore",
         "minecraft:deepslate_emerald_ore",
+        "minecraft:nether_gold_ore",
+        "minecraft:nether_quartz_ore",
         "thermal:tin_ore",
         "thermal:apatite_ore",
         "thermal:sulfur_ore",
