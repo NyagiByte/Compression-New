@@ -1,0 +1,39 @@
+[
+  {
+    "inputs": [
+      "minecraft:water",
+      "minecraft:lava",
+      "minecraft:stone",
+      "minecraft:deepslate",
+      "minecraft:diorite",
+      "minecraft:granite"
+    ],
+    "output": "minecraft:air",
+    "biomes": [
+      "compressiontweaks:void_biome"
+    ],
+    "min_y": "-30",
+    "max_y": "64",
+    "player_blocks": false,
+    "keep_nbt": false,
+    "retrogen": false
+  },
+  {
+    "inputs": [
+      "minecraft:water"
+    ],
+    "output": "minecraft:lava",
+    "biomes": [
+      "compressiontweaks:nether_wastes",
+      "compressiontweaks:soulsand_valley",
+      "compressiontweaks:basalt_deltas",
+      "compressiontweaks:warped_forest",
+      "compressiontweaks:crimson_forest"
+    ],
+    "min_y": "-30",
+    "max_y": "64",
+    "player_blocks": false,
+    "keep_nbt": false,
+    "retrogen": false
+  }
+]
