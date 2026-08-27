@@ -1895,6 +1895,10 @@
 		{"namespace": "immersivepetroleum", "path": "recipes/crusher/petcoke.json"},
 		{"namespace": "immersivepetroleum", "path": "recipes/squeezer/graphite_dust.json"},
 
+		{"namespace": "immersiveengineering", "path": "recipes/crusher/sandstone.json"},
+		{"namespace": "immersiveengineering", "path": "recipes/crusher/red_sandstone.json"},
+		{"namespace": "immersiveengineering", "path": "recipes/fertilizer/saltpeter.json"},
+
 		{"namespace": "spelunkery", "path": "recipes/lodestone.json"},
 		{"namespace": "spelunkery", "path": "recipes/diamond_grindstone.json"},
 		{"namespace": "spelunkery", "path": "recipes/item_magnet.json"},
@@ -2279,7 +2283,26 @@
 		{"namespace": "immersiveengineering", "path": "recipes/sawmill/bookshelf.json"},
 		{"namespace": "immersiveengineering", "path": "recipes/sawmill/bamboo_block.json"},
 		{"namespace": "immersiveengineering", "path": "recipes/sawmill/oak_slab.json"},
-		{"namespace": "immersiveengineering", "path": "recipes/sawmill/treated_wood_vertical_slab.json"}
+		{"namespace": "immersiveengineering", "path": "recipes/sawmill/treated_wood_vertical_slab.json"},
+
+		{"namespace": "spelunkery", "path": "loot_tables/blocks/tuff_silver_ore.json"},
+		{"namespace": "spelunkery", "path": "loot_tables/blocks/andesite_silver_ore.json"},
+		{"namespace": "spelunkery", "path": "loot_tables/blocks/tuff_jade_ore.json"},
+		{"namespace": "spelunkery", "path": "loot_tables/blocks/granite_zinc_ore.json"},
+		{"namespace": "spelunkery", "path": "loot_tables/blocks/granite_jade_ore.json"},
+		{"namespace": "spelunkery", "path": "loot_tables/blocks/andesite_zinc_ore.json"},
+		{"namespace": "spelunkery", "path": "loot_tables/blocks/tuff_zinc_ore.json"},
+		{"namespace": "spelunkery", "path": "loot_tables/blocks/diorite_silver_ore.json"},
+		{"namespace": "spelunkery", "path": "loot_tables/blocks/diorite_jade_ore.json"},
+		{"namespace": "spelunkery", "path": "loot_tables/blocks/granite_silver_ore.json"},
+		{"namespace": "spelunkery", "path": "loot_tables/blocks/andesite_jade_ore.json"},
+		{"namespace": "spelunkery", "path": "loot_tables/blocks/diorite_lead_ore.json"},
+		{"namespace": "spelunkery", "path": "loot_tables/blocks/andesite_lead_ore.json"},
+		{"namespace": "spelunkery", "path": "loot_tables/blocks/diorite_zinc_ore.json"},
+		{"namespace": "spelunkery", "path": "loot_tables/blocks/tuff_lead_ore.json"},
+		{"namespace": "spelunkery", "path": "loot_tables/blocks/granite_lead_ore.json"},
+
+		{"namespace": "megacells", "path": "loot_tables/blocks/mega_emc_interface.json"}
 	]}
 	
 }
