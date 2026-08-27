@@ -1,0 +1,19 @@
+{
+    "type": "compressiontweaks:opa_info",
+    "impure": {"item": "chemlib:chromium_dust","count": 24},
+    "opa": {"fluid": "nyagibits_bytes:opa_1214_fluid", "amount": 1000},
+    "contaminated_opa": {"fluid": "nyagibits_bytes:opa_chromium_fluid", "amount": 1000},
+    "opa_froth": {"fluid": "nyagibits_bytes:froth_opa_chromium_fluid", "amount": 1000},
+
+    "primary_outputs": [
+        {"item": "nyagibits_bytes:pure_chromium_dust"},
+        {"item": "nyagibits_bytes:float_separated_chromium_dust"}
+
+    ],
+    "secondary_outputs": [
+        {"item": "chemlib:iron_dust"},
+        {"item": "chemlib:aluminum_dust"},
+        {"item": "chemlib:silicon_dust"},
+        {"item": "chemlib:magnesium_dust"}
+    ]
+}

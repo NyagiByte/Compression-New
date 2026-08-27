@@ -1,0 +1,19 @@
+{
+    "type": "compressiontweaks:opa_info",
+    "impure": {"item": "chemlib:nickel_dust","count": 24},
+    "opa": {"fluid": "nyagibits_bytes:opa_1214_fluid", "amount": 1000},
+    "contaminated_opa": {"fluid": "nyagibits_bytes:opa_nickel_fluid", "amount": 1000},
+    "opa_froth": {"fluid": "nyagibits_bytes:froth_opa_nickel_fluid", "amount": 1000},
+
+    "primary_outputs": [
+        {"item": "nyagibits_bytes:pure_nickel_dust"},
+        {"item": "nyagibits_bytes:float_separated_nickel_dust"},
+        {"item": "chemlib:cobalt_dust"},
+        {"item": "chemlib:gadolinium_dust"},
+        {"item": "chemlib:ruthenium_dust"}
+    ],
+    "secondary_outputs": [
+        {"item": "chemlib:iron_dust"},
+        {"item": "chemlib:sulfur_dust"}
+    ]
+}

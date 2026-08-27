@@ -1,0 +1,20 @@
+{
+    "type": "compressiontweaks:opa_info",
+    "impure": {"item": "chemlib:manganese_dust","count": 24},
+    "opa": {"fluid": "nyagibits_bytes:opa_1214_fluid", "amount": 1000},
+    "contaminated_opa": {"fluid": "nyagibits_bytes:opa_manganese_fluid", "amount": 1000},
+    "opa_froth": {"fluid": "nyagibits_bytes:froth_opa_manganese_fluid", "amount": 1000},
+
+    "primary_outputs": [
+        {"item": "nyagibits_bytes:pure_manganese_dust"},
+        {"item": "nyagibits_bytes:float_separated_manganese_dust"},
+        {"item": "chemlib:niobium_dust"},
+        {"item": "chemlib:thorium_dust"},
+        {"item": "chemlib:uranium_dust"}
+    ],
+    "secondary_outputs": [
+        {"item": "chemlib:iron_dust"},
+        {"item": "chemlib:zinc_dust"},
+        {"item": "nyagibits_bytes:iron_iii_hydroxide_dust"}
+    ]
+}
