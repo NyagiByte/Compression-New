@@ -3,6 +3,9 @@
     "item.vc_gliders.reinforced_paper_netherite": "Stearic Acid Treated Lamellar Membrane",
     "item.vc_gliders.paraglider_netherite": "Lamellar Paraglider",
 
-    "item.vc_gliders.copper_upgrade": "Electrostatic Grounding Upgrade",
-    "item.vc_gliders.nether_upgrade": "Structural Upgrade"
+    "item.vc_gliders.copper_upgrade": "§eElectrostatic Grounding Upgrade",
+    "item.vc_gliders.nether_upgrade": "§bManasteel Structural Upgrade",
+    "tooltip.vc_gliders.copper_upgrade": "§eElectrostatic Grounding Upgrade",
+    "tooltip.vc_gliders.nether_upgrade": "§bManasteel Structural Upgrade",
+    "tooltip.vc_gliders.broken": "§cRepair with Lamellar Membrane"
 }

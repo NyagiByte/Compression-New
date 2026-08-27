@@ -14,4 +14,6 @@
 	"VI Vibrating Table Output Slots" = 20
 	#A list of EMI recipe IDs to be blacklisted. Should be used for hardcoded integrations.
 	"EMI Recipe Blacklist" = []
+	#How much mana should a glider with the manasteel upgrade (reskinned nether upgrade) draw to repair a previously lost point of durability. Manasteel armor is 140.
+	"Glider Damage Repair Cost" = 500
 

@@ -1,13 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "A": {"item":"immersiveengineering:plate_steel"},
-    "B": {"item":"vintageimprovements:steel_rod"}
+    "S": {"item":"botania:mana_string"},
+    "I": {"item":"botania:manasteel_ingot"},
+    "C": {"item":"botania:manaweave_cloth"}
   },
   "pattern": [
-    " A ",
-    "A A",
-    " B "
+    "SIS",
+    "ICI",
+    "C C"
   ],
   "result": {
     "count": 1,
