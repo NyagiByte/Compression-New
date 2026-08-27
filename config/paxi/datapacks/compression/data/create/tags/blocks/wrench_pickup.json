@@ -15,7 +15,7 @@
     "supplementaries:redstone_illuminator",
     "supplementaries:lock_block",
     "supplementaries:bellows",
-    "supplememtaries:clock_block",
+    "supplementaries:clock_block",
     "supplementaries:crystal_display",
     "supplementaries:sconce_lever",
     "supplementaries:crank",
@@ -23,7 +23,7 @@
     "quark:obsidian_pressure_plate",
     "quark:ender_watcher",
     "quark:redstone_randomizer",
-    "quark:ender_eye_block",
+    "botania:ender_eye_block",
     "#quark:crystal_lamp",
     "pneumaticcraft:omnidirectional_hopper",
     "pneumaticcraft:liquid_hopper"

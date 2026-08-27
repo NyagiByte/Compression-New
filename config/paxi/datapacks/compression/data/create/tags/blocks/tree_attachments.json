@@ -6,21 +6,7 @@
       "minecraft:moss_carpet",
       "minecraft:shroomlight",
       "minecraft:vine",
-      "biomeswevegone:purple_shroomlight",
-      "biomeswevegone:imparius_mushroom_branch",
-      "biomeswevegone:bulbis_shell",
-      "biomeswevegone:purple_bulbis_shell",
-      "biomeswevegone:hanging_sythian_roots",
-      "biomeswevegone:imparius_mushroom_block",
-      "biomeswevegone:fungal_imparius_filament_block",
-      "biomeswevegone:fungal_imparius_block",
-      "biomeswevegone:imparius_vine",
-      "biomeswevegone:imparius_vine_plant",
       "biomeswevegone:witch_hazel_branch",
-      "biomeswevegone:witch_hazel_blossom",
-      "biomeswevegone:embur_gel_branch",
-      "biomeswevegone:embur_gel_block",
-      "biomeswevegone:pollen_block",
-      "biomeswevegone:arisian_bloom_branch"
+      "biomeswevegone:witch_hazel_blossom"
     ]
   }
