@@ -3368,6 +3368,7 @@
         "nyagibits_bytes:dust_unidentified_solid_metallic_tailings_generic",
         "nyagibits_bytes:dust_unidentified_solid_metallic_tailings_generic",
         "nyagibits_bytes:sample_unidentified_dissolved_metallic_tailings_generic",
-        "nyagibits_bytes:tert_butyl_alcohol_dust"
+        "nyagibits_bytes:tert_butyl_alcohol_dust",
+        "nuclearcraft:methanol_bucket"
     ]
   }
