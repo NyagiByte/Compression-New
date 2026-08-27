@@ -2302,7 +2302,12 @@
 		{"namespace": "spelunkery", "path": "loot_tables/blocks/tuff_lead_ore.json"},
 		{"namespace": "spelunkery", "path": "loot_tables/blocks/granite_lead_ore.json"},
 
-		{"namespace": "megacells", "path": "loot_tables/blocks/mega_emc_interface.json"}
+		{"namespace": "megacells", "path": "loot_tables/blocks/mega_emc_interface.json"},
+
+		{"namespace": "mekanism", "path": "recipes/infusion_conversion/carbon/from_enriched.json"},
+		{"namespace": "mekanism", "path": "recipes/infusion_conversion/tin/from_enriched.json"},
+		{"namespace": "mekanism", "path": "recipes/infusion_conversion/redstone/from_enriched.json"},
+		{"namespace": "mekanism", "path": "recipes/infusion_conversion/diamond/from_enriched.json"}
 	]}
 	
 }
