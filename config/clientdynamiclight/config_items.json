@@ -175,12 +175,36 @@
       "id": "quark:glowberry_sack"
     },
     {
+      "light": 12,
+      "id": "minecraft:ochre_froglight"
+    },
+    {
+      "light": 12,
+      "id": "minecraft:verdant_froglight"
+    },
+    {
+      "light": 12,
+      "id": "minecraft:pearlescent_froglight"
+    },
+    {
+      "light": 12,
+      "id": "minecraft:shroomlight"
+    },
+    {
+      "light": 8,
+      "id": "spelunkery:phosphor_shroomlight"
+    },
+    {
       "light": 15,
       "id": "mekanism:block_refined_glowstone"
     },
     {
       "light": 8,
       "id": "minecraft:redstone_torch"
+    },
+    {
+      "light": 8,
+      "id": "create:blaze_burner"
     },
     {
       "light": 12,
@@ -229,6 +253,10 @@
     {
       "light": 8,
       "id": "minecraft:blaze_rod"
+    },
+    {
+      "light": 14,
+      "id": "botania:blaze_block"
     },
     {
       "light": 12,
@@ -305,6 +333,22 @@
     {
       "light": 12,
       "id": "architects_palette:polished_glowstone"
+    },
+    {
+      "light": 12,
+      "id": "abyssal_decor:crystalized_glowstone"
+    },
+    {
+      "light": 12,
+      "id": "abyssal_decor:crystalized_glowstone_pane"
+    },
+    {
+      "light": 12,
+      "id": "abyssal_decor:framed_crystalized_glowstone"
+    },
+    {
+      "light": 12,
+      "id": "abyssal_decor:framed_crystalized_glowstone_pane"
     },
     {
       "light": 12,
