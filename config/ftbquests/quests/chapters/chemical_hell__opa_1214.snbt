@@ -1144,8 +1144,8 @@
 			hide_dependency_lines: true
 			id: "6E9F10EBF88FC6A7"
 			tasks: [{
-				id: "6DC42EB8AC124173"
-				item: "immersivepetroleum:propylene_bucket"
+				id: "0F375CB2730B8116"
+				item: "nyagibits_bytes:bucket_of_propylene"
 				type: "item"
 			}]
 			x: -2.5d
