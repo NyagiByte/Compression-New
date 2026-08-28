@@ -7,7 +7,7 @@
 	#If true, commands will only run if the game is fully restarted
 	OnFullRestart = false
 	#list of all the commands to run, in order
-	Commands = ["kill @e[type=item]"]
+	Commands = ["function compression:worldstart_wipe_items", "schedule function compression:worldstart_wipe_items 1s"]
 
 [2]
 	#this new set of commands uses different settings from the other 2 and will run second
@@ -15,7 +15,7 @@
 	DedicatedMode = false
 	OnFullRestart = false
 	#command "wsc null" does not do anything
-	Commands = ["kill @e[type=item]"]
+	Commands = ["wsc null"]
 
 [3]
 	#this new set of commands uses different settings from the other 2 and will run third, you cannot add new ones after this for now, this is badly programmed I know I'll make it more consistent one day

@@ -1,0 +1,2 @@
+execute as @e[type=item] unless entity @s[nbt={Item:{id:"nyagibits_bytes:inert_god_heart"}}] unless entity @s[nbt={Item:{id:"ftbquests:book"}}] unless entity @s[nbt={Item:{id:"minecraft:respawn_anchor"}}] unless entity @s[nbt={Item:{id:"minecraft:glowstone"}}] unless entity @s[nbt={Item:{id:"botania:flower_bag"}}] run kill @s
+kill @e[type=falling_block]
