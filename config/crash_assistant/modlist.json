@@ -194,11 +194,6 @@
     "modId": "cb_multipart",
     "version": "3.3.0.146"
   },
-  "cerulean-forge-1.0.0-1.20.1.jar": {
-    "jarName": "cerulean-forge-1.0.0-1.20.1.jar",
-    "modId": "cerulean",
-    "version": "1.0.0"
-  },
   "chemlib-1.20.1-2.0.19.jar": {
     "jarName": "chemlib-1.20.1-2.0.19.jar",
     "modId": "chemlib",
@@ -1030,11 +1025,6 @@
     "modId": "skinlayers3d",
     "version": "1.9.2"
   },
-  "smarterfarmers-1.20-2.1.2.jar": {
-    "jarName": "smarterfarmers-1.20-2.1.2.jar",
-    "modId": "smarterfarmers",
-    "version": "1.20-2.1.2"
-  },
   "smoothchunk-1.20.1-4.1.jar": {
     "jarName": "smoothchunk-1.20.1-4.1.jar",
     "modId": "smoothchunk",
@@ -1179,11 +1169,6 @@
     "jarName": "wither_spawn_fix-1.0.0.jar",
     "modId": "wither_spawn_fix",
     "version": "1.0.0"
-  },
-  "xenon-0.3.31+mc1.20.1.jar": {
-    "jarName": "xenon-0.3.31+mc1.20.1.jar",
-    "modId": "xenon",
-    "version": "0.3.31"
   },
   "xlpackets-1.18.2-2.1.jar": {
     "jarName": "xlpackets-1.18.2-2.1.jar",
