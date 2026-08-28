@@ -1,0 +1,166 @@
+{
+  "enabled": true,
+  "enableInNether": false,
+  "enableInEnd": false,
+  "enableDroppedItems": true,
+  "enableWieldedItems": true,
+  "enableWearingItems": false,
+  "items": [
+    {
+      "light": 14,
+      "id": "minecraft:torch"
+    },
+    {
+      "light": 15,
+      "id": "minecraft:lava_bucket"
+    },
+    {
+      "light": 6,
+      "id": "minecraft:glowstone_dust"
+    },
+    {
+      "light": 12,
+      "id": "minecraft:glowstone"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_brick_pattern"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_brick_pattern_connecting"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_brick_paving"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_brick_paving_connecting"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_bricks"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_bricks_connecting"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_crushed"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_crushed_connecting"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_large_tiles"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_large_tiles_connecting"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_rotated_bricks"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_rotated_bricks_connecting"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_small_tiles"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_small_tiles_connecting"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_smooth"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_smooth_connecting"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_tiles"
+    },
+    {
+      "light": 12,
+      "id": "rechiseled:glowstone_tiles_connecting"
+    },
+    {
+      "light": 6,
+      "id": "minecraft:glow_berries"
+    },
+    {
+      "light": 8,
+      "id": "minecraft:glow_lichen"
+    },
+    {
+      "light": 8,
+      "id": "quark:glow_lichen_growth"
+    },
+    {
+      "light": 10,
+      "id": "quark:glowberry_sack"
+    },
+    {
+      "light": 15,
+      "id": "mekanism:block_refined_glowstone"
+    },
+    {
+      "light": 8,
+      "id": "minecraft:redstone_torch"
+    },
+    {
+      "light": 12,
+      "id": "minecraft:nether_star"
+    },
+    {
+      "light": 15,
+      "id": "minecraft:jack_o_lantern"
+    },
+    {
+      "light": 12,
+      "id": "minecraft:blaze_powder"
+    },
+    {
+      "light": 6,
+      "id": "minecraft:glowstone_dust"
+    },
+    {
+      "light": 12,
+      "id": "architects_palette:polished_glowstone"
+    },
+    {
+      "light": 12,
+      "id": "architects_palette:polished_glowstone_slab"
+    },
+    {
+      "light": 12,
+      "id": "architects_palette:polished_glowstone_vertical_slab"
+    },
+    {
+      "light": 12,
+      "id": "architects_palette:polished_glowstone_wall"
+    },
+    {
+      "light": 12,
+      "id": "architects_palette:polished_glowstone_nub"
+    },
+    {
+      "light": 12,
+      "id": "architects_palette:runic_glowstone"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:glowstick"
+    }
+  ]
+}

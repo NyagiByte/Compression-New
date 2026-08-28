@@ -1,0 +1,19 @@
+{
+  "enabled": true,
+  "enableInNether": true,
+  "enableInEnd": true,
+  "burningDefault": 14,
+  "entities": [
+    {
+      "light": 12,
+      "burningOnly": false,
+      "id": "minecraft:magma_cube"
+    },
+    {
+      "light": 15,
+      "burningOnly": false,
+      "special": "creeper_charged",
+      "id": "minecraft:creeper"
+    }
+  ]
+}
