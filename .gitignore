@@ -40,6 +40,5 @@ config/fml.toml
 /xaero/world-map
 /XaeroWaypoints_BACKUP*
 /xaero/minimap
-/mods
 /config/fabric
 /config/ironchests
