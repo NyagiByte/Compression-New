@@ -82,6 +82,7 @@
 		"aiotbotania:elementium_aiot" = 16384
 		"aiotbotania:terrasteel_aiot" = 65536
 		"aiotbotania:alfsteel_aiot" = 262144
+		"packages:sticky_syrup" = 512
 
 	#Set the max stack size of an item. Only values between 2 and 64 are supported. Items that have durability cannot have this value altered. Example (without the leading #):
 	#"minecraft:ender_pearl" = 64
