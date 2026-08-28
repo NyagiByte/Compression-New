@@ -11,6 +11,66 @@
       "id": "minecraft:torch"
     },
     {
+      "light": 12,
+      "id": "minecraft:soul_torch"
+    },
+    {
+      "light": 14,
+      "id": "endergetic:ender_torch"
+    },
+    {
+      "light": 15,
+      "id": "torchmaster:megatorch"
+    },
+    {
+      "light": 12,
+      "id": "architects_palette:algal_lamp"
+    },
+    {
+      "light": 14,
+      "id": "architects_palette:nether_brass_lantern"
+    },
+    {
+      "light": 6,
+      "id": "minecraft:glow_ink_sac"
+    },
+    {
+      "light": 14,
+      "id": "supplementaries:sconce"
+    },
+    {
+      "light": 14,
+      "id": "supplementaries:sconce_ender"
+    },
+    {
+      "light": 14,
+      "id": "supplementaries:sconce_nether_brass"
+    },
+    {
+      "light": 14,
+      "id": "supplementaries:sconce_lever"
+    },
+    {
+      "light": 12,
+      "id": "supplementaries:sconce_soul"
+    },
+    {
+      "light": 14,
+      "id": "minecraft:lantern"
+    },
+    {
+      "light": 14,
+      "id": "minecraft:soul_lantern"
+    },
+    {
+      "light": 14,
+      "id": "endergetic:ender_lantern"
+    },
+    {
+      "light": 14,
+      "id": "immersiveengineering:lantern"
+    },
+    {
       "light": 15,
       "id": "minecraft:lava_bucket"
     },
@@ -21,6 +81,10 @@
     {
       "light": 12,
       "id": "minecraft:glowstone"
+    },
+    {
+      "light": 4,
+      "id": "minecraft:magma_block"
     },
     {
       "light": 12,
@@ -127,8 +191,112 @@
       "id": "minecraft:jack_o_lantern"
     },
     {
+      "light": 15,
+      "id": "minecraft:sea_lantern"
+    },
+    {
+      "light": 15,
+      "id": "quark:blaze_lantern"
+    },
+    {
       "light": 12,
+      "id": "quark:stone_lamp"
+    },
+    {
+      "light": 12,
+      "id": "quark:stone_brick_lamp"
+    },
+    {
+      "light": 4,
+      "id": "architects_palette:molten_nether_bricks"
+    },
+    {
+      "light": 10,
+      "id": "architects_palette:heliodor_rod"
+    },
+    {
+      "light": 10,
+      "id": "architects_palette:ekanite_rod"
+    },
+    {
+      "light": 10,
+      "id": "architects_palette:monazite_rod"
+    },
+    {
+      "light": 8,
       "id": "minecraft:blaze_powder"
+    },
+    {
+      "light": 8,
+      "id": "minecraft:blaze_rod"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:paper_lantern"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:white_paper_lantern"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:light_gray_paper_lantern"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:gray_paper_lantern"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:black_paper_lantern"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:brown_paper_lantern"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:red_paper_lantern"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:orange_paper_lantern"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:yellow_paper_lantern"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:lime_paper_lantern"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:green_paper_lantern"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:cyan_paper_lantern"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:light_blue_paper_lantern"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:blue_paper_lantern"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:purple_paper_lantern"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:magenta_paper_lantern"
+    },
+    {
+      "light": 12,
+      "id": "natures_spirit:pink_paper_lantern"
     },
     {
       "light": 6,
@@ -161,6 +329,70 @@
     {
       "light": 12,
       "id": "spelunkery:glowstick"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:white_glowstick"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:light_gray_glowstick"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:gray_glowstick"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:black_glowstick"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:brown_glowstick"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:red_glowstick"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:orange_glowstick"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:yellow_glowstick"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:lime_glowstick"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:green_glowstick"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:cyan_glowstick"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:light_blue_glowstick"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:blue_glowstick"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:purple_glowstick"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:magenta_glowstick"
+    },
+    {
+      "light": 12,
+      "id": "spelunkery:pink_glowstick"
     }
   ]
 }

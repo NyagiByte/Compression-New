@@ -5,9 +5,19 @@
   "burningDefault": 14,
   "entities": [
     {
-      "light": 12,
+      "light": 6,
       "burningOnly": false,
       "id": "minecraft:magma_cube"
+    },
+    {
+      "light": 8,
+      "burningOnly": false,
+      "id": "minecraft:glow_squid"
+    },
+    {
+      "light": 12,
+      "burningOnly": false,
+      "id": "minecraft:blaze"
     },
     {
       "light": 15,
