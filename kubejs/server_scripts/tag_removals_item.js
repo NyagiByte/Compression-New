@@ -47,6 +47,31 @@ ServerEvents.tags('item', event => {
   event.remove('forge:zinc_ores', 'spelunkery:andesite_zinc_ore')
   event.remove('forge:zinc_ores', 'spelunkery:tuff_zinc_ore')
 
+  event.remove('forge:weapon/tools/melee', 'minecraft:mace')
+  event.remove('forge:tools/mace', 'minecraft:mace')
+  event.remove('forge:foods', 'minecraft:ominous_bottle')
+  event.remove('forge:discs/music', 'minecraft:music_disc_creator')
+  event.remove('forge:discs/music', 'minecraft:music_disc_creator_music_box')
+
+  event.remove('xkdeco:red_roof', 'xkdeco:red_roof_small_flat_end')
+  event.remove('xkdeco:red_roof', 'xkdeco:red_roof_small_ridge_end')
+  event.remove('xkdeco:blue_roof', 'xkdeco:blue_roof_small_flat_end')
+  event.remove('xkdeco:blue_roof', 'xkdeco:blue_roof_small_ridge_end')
+  event.remove('xkdeco:cyan_roof', 'xkdeco:cyan_roof_deco_oblique')
+  event.remove('xkdeco:cyan_roof', 'xkdeco:cyan_roof_ridge_end')
+  event.remove('xkdeco:cyan_roof', 'xkdeco:cyan_roof_small_flat_end')
+  event.remove('xkdeco:cyan_roof', 'xkdeco:cyan_roof_small_ridge_end')
+  event.remove('xkdeco:green_roof', 'xkdeco:green_roof_small_flat_end')
+  event.remove('xkdeco:green_roof', 'xkdeco:green_roof_small_ridge_end')
+  event.remove('xkdeco:yellow_roof', 'xkdeco:yellow_roof_deco_oblique')
+  event.remove('xkdeco:yellow_roof', 'xkdeco:yellow_roof_ridge_end')
+  event.remove('xkdeco:yellow_roof', 'xkdeco:yellow_roof_small_flat_end')
+  event.remove('xkdeco:yellow_roof', 'xkdeco:yellow_roof_small_ridge_end')
+  event.remove('xkdeco:black_roof', 'xkdeco:black_roof_deco_oblique')
+  event.remove('xkdeco:black_roof', 'xkdeco:black_roof_ridge_end')
+  event.remove('xkdeco:black_roof', 'xkdeco:black_roof_small_flat_end')
+  event.remove('xkdeco:black_roof', 'xkdeco:black_roof_small_ridge_end')
+
   // Get tag and remove all entries from it
   event.removeAll('spelunkery:jade_ores')
 
