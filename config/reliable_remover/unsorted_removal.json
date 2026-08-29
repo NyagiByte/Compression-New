@@ -554,7 +554,8 @@
             "createdeco:zinc_sheet",
             "create:zinc_ingot",
             "create:iron_sheet",
-            "immersiveengineering:potion_bucket"
+            "immersiveengineering:potion_bucket",
+            "nuclearcraft:pasteurized_milk_bucket"
         ]
     }
 ]
