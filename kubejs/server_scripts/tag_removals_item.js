@@ -74,5 +74,6 @@ ServerEvents.tags('item', event => {
 
   // Get tag and remove all entries from it
   event.removeAll('spelunkery:jade_ores')
+  event.removeAll('xkdeco:roof_ridge_end')
 
 })
