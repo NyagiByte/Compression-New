@@ -52,6 +52,7 @@ ServerEvents.tags('item', event => {
   event.remove('forge:foods', 'minecraft:ominous_bottle')
   event.remove('forge:discs/music', 'minecraft:music_disc_creator')
   event.remove('forge:discs/music', 'minecraft:music_disc_creator_music_box')
+  event.remove('forge:rods/breeze', 'minecraft:breeze_rod')
 
   event.remove('xkdeco:red_roof', 'xkdeco:red_roof_small_flat_end')
   event.remove('xkdeco:red_roof', 'xkdeco:red_roof_small_ridge_end')
