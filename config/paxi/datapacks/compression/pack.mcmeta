@@ -478,6 +478,7 @@
 		{"namespace": "immersiveengineering", "path": "recipes/crafting/hammercrushing_lead.json"},
 		{"namespace": "immersiveengineering", "path": "recipes/crafting/raw_hammercrushing_uranium.json"},
 		{"namespace": "immersiveengineering", "path": "recipes/crafting/hammercrushing_uranium.json"},
+		{"namespace": "immersiveengineering", "path": "recipes/smelting/lead_red.json"},
 
 		{"namespace": "vintageimprovements", "path": "recipes/pressing/aluminum_ingot.json"},
 		{"namespace": "vintageimprovements", "path": "recipes/pressing/lead_ingot.json"},

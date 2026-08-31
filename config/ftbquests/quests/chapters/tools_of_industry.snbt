@@ -1218,6 +1218,98 @@
 			x: -1.0d
 			y: 8.5d
 		}
+		{
+			dependencies: ["733244871BA6D327"]
+			description: [
+				"Strapping this extra air tank onto the backtank will &adouble&r its capacity."
+				""
+				"An upgraded backtank holds &a30 minutes&r of air, &eup from 15."
+				""
+				"Note that for some reason, this auxilliary tank &ccannot be removed&r by any means except &eabrasive force&r, which &ccompletely destroys it.&r"
+				"&8Don't ask why it turns into xp orbs."
+			]
+			id: "67FC2B14414CB910"
+			rewards: [{
+				id: "35C23DD5CF92E2DE"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "57DD8544851AAE4A"
+				item: "immersiveengineering:toolupgrade_drill_waterproof"
+				type: "item"
+			}]
+			title: "Under Pressure"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3F6F5D84A67971D4"]
+			description: [
+				"You might have found out that &ewarning&r about &blightning storms&r was &cnot&r a joke. "
+				"In fact, you might have found out that even regular rain is &cnot safe&r."
+				""
+				"A glider that gets struck down &cbecomes unusable&r and must be repaired at an anvil with another &dTreated Lamellar Membrane&r"
+				""
+				"The &eElectrostatic Grounding Upgrade&r can be applied to a glider, also at an anvil, and it turns &blightning&r from a &eforce of destruction&r, to &apotentially a little booster&r."
+				""
+				"&4It does not protect the user.&r"
+			]
+			icon: {
+				Count: 1
+				id: "vc_gliders:paraglider_netherite"
+				tag: {
+					Damage: 0
+					broken: 1b
+				}
+			}
+			id: "4ED5EEAEEF8BEDBB"
+			rewards: [{
+				id: "370C98B6CDA92798"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "005DBF38338A5A29"
+				item: "vc_gliders:copper_upgrade"
+				type: "item"
+			}]
+			title: "You've been...Thunderstruck!"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3F6F5D84A67971D4"]
+			description: [
+				"The &bManasteel Structural Upgrade&r can be used to replace the frame of a glider. It is applied at an &6anvil&r."
+				""
+				"While it &edoesn't&r improve durability, it allows damage to the glider to be &arepaired&r by using &bmana&r from carried &bmana tablets&r."
+				""
+				"Note that it &ccannot&r repair the &cmassive damage&r caused by an &bunshielded lightning strike&r."
+			]
+			icon: {
+				Count: 1
+				id: "vc_gliders:paraglider_netherite"
+				tag: {
+					Damage: 0
+					nether_upgrade: 1b
+				}
+			}
+			id: "50742F3BA5747F2E"
+			rewards: [{
+				id: "74A32B683374B95C"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36720D073A3417F4"
+				item: "vc_gliders:nether_upgrade"
+				type: "item"
+			}]
+			title: "I Mean, If The Elytra Can Do It..."
+			x: -2.0d
+			y: -2.0d
+		}
 	]
 	subtitle: [" &fTools, Trinkets, and Whatchamacallits"]
 	title: " &fTools Of Industry"
