@@ -26,6 +26,9 @@
     "botania:ender_eye_block",
     "#quark:crystal_lamp",
     "pneumaticcraft:omnidirectional_hopper",
-    "pneumaticcraft:liquid_hopper"
+    "pneumaticcraft:liquid_hopper",
+    "nyagibits_bytes:steel_casing",
+    "nyagibits_bytes:mana_infused_casing",
+    "nyagibits_bytes:waterproof_casing"
   ]
 }
