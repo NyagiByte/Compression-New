@@ -1,11 +1,21 @@
 Ponder.tags((e) => {
 	e.createTag("compression:ae2", "ae2:controller", "Applied Energistics", "The Heart of the Factory", [
-		"ae2:growth_accelerator"
+		"ae2:growth_accelerator",
+        "ae2:controller"
 	]);
 });
 
 
 Ponder.registry((e) => {
+
+    e.create("ae2:controller")
+        .scene("me_controller", "The Heart of the Network", "kubejs:sky_stone_9x9", (scene, util) => {
+            scene.showBasePlate()
+            scene.idle(10)
+            scene.world.setBlocks([3,1,4, 5,1,4], "ae2:controller", false)
+            scene.world.showSection([3,1,4,5,1,4], Facing.down)
+        })
+
 
     e.create("ae2:growth_accelerator")
         .scene("growth_accelerator_basics", "We can go faster.", "kubejs:sky_stone_7x7", (scene, util) => {
@@ -19,7 +29,7 @@ Ponder.registry((e) => {
             scene.idle(85)
             scene.addKeyframe()
             scene.idle(5)
-            scene.text(70, "To use it, it must be powered by a ME network.", [3.5,2,3.5]);
+            scene.text(70, "To use it, it must be powered by an ME network.", [3.5,2,3.5]);
             scene.world.setBlock([6,1,3], "ae2:creative_energy_cell", false)
             scene.world.showSection([6,1,3], Facing.down)
             scene.idle(15)
@@ -103,7 +113,7 @@ Ponder.registry((e) => {
             scene.world.modifyBlock([2,1,3], w => w.with("age", "6"), false); scene.idle(10)
             scene.world.modifyBlock([2,1,3], w => w.with("age", "7"), false); scene.idle(10)
             scene.idle(20)
-            scene.text(100, "...any many other plants too", [3.5,1,2.5]);
+            scene.text(100, "...and many other plants too", [3.5,1,2.5]);
             scene.idle(20)
             scene.world.setBlock([3,1,2], "minecraft:bamboo_sapling", false)
             scene.idle(20)
