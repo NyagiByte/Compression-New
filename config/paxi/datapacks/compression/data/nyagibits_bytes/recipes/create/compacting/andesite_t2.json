@@ -24,12 +24,12 @@
     ],
     "results": [
       {
-        "count": 32,
-        "item": "minecraft:andesite"
-      },
-      {
         "count": 4,
         "item": "chemlib:silicon_dust"
+      },
+      {
+        "count": 32,
+        "item": "minecraft:andesite"
       }
     ]
   }
