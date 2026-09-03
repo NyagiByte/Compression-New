@@ -18,4 +18,7 @@
 	#The delay in ticks before an item created from radiant conversion can be picked up. Set to 0 to allow instant pickup. Very high values are not recommended. (Default: 10)
 	#Range: > 0
 	"Radiant Pickup Delay" = 10
+	#The actual amount of internal tanks on a basin. Note: it's <amount> inputs and <amount> outputs (Default: 2)
+	#Range: > 1
+	"Basin Tanks" = 5
 
