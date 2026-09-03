@@ -1197,6 +1197,27 @@
 			endleline_turn_tile = true
 			endleline_zing_tile = true
 			endleline_zune_tile = true
+			glist_tile = true
+			glist_fanciful_tile = true
+			glist_fan_tile = true
+			glist_floral_tile = true
+			glist_star_tile = true
+			glist_link_tile = true
+			glist_scratch_tile = true
+			glist_neutral_tile = true
+			glist_neutral_fanciful_tile = true
+			glist_neutral_fan_tile = true
+			glist_neutral_floral_tile = true
+			glist_neutral_star_tile = true
+			glist_neutral_link_tile = true
+			glist_neutral_scratch_tile = true
+			glist_cold_tile = true
+			glist_cold_fanciful_tile = true
+			glist_cold_fan_tile = true
+			glist_cold_floral_tile = true
+			glist_cold_star_tile = true
+			glist_cold_link_tile = true
+			glist_cold_scratch_tile = true
 
 	[types.wood_type]
 
