@@ -1,0 +1,33 @@
+{
+    "type":"immersiveengineering:blueprint",
+    "category":"magitech",
+    
+    "inputs":[
+        {
+            "base_ingredient":{
+                "item":"immersiveengineering:toolupgrade_chemthrower_focus"},
+                "count":1},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:small_pipe_steel"},
+                "count":8},
+        {
+            "base_ingredient":{
+                "item":"vintageimprovements:vacuum_chamber"},
+                "count":1},
+        {
+            "base_ingredient":{
+                "item":"mekanism:advanced_fluid_tank"},
+                "count":1},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:block_of_stainless_steel"},
+                "count":1},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:waterproofing_kit"},
+                "count":1}
+            ],
+    "result":{
+            "item":"nyagibits_bytes:miniaturized_high_pressure_system"
+        }}

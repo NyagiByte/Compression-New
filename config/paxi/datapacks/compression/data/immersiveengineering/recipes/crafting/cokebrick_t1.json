@@ -1,0 +1,128 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:ceramic"
+      },
+      {
+        "item": "nyagibits_bytes:ceramic"
+      },
+      {
+        "item": "nyagibits_bytes:ceramic"
+      },
+      {
+        "item": "nyagibits_bytes:ceramic"
+      },
+      {
+        "item": "nyagibits_bytes:ceramic"
+      },
+      {
+        "item": "nyagibits_bytes:ceramic"
+      },
+      {
+        "item": "nyagibits_bytes:ceramic"
+      },
+      {
+        "item": "nyagibits_bytes:ceramic"
+      },
+      {
+        "item": "nyagibits_bytes:ceramic"
+      },
+      {
+        "item": "nyagibits_bytes:ceramic"
+      },
+      {
+        "item": "nyagibits_bytes:ceramic"
+      },
+      {
+        "item": "nyagibits_bytes:ceramic"
+      },
+      {
+        "item": "nyagibits_bytes:ceramic"
+      },
+      {
+        "item": "nyagibits_bytes:ceramic"
+      },
+      {
+        "item": "nyagibits_bytes:ceramic"
+      },
+      {
+        "item": "nyagibits_bytes:ceramic"
+      },
+      {
+        "item": "nyagibits_bytes:basic_composite_plate"
+      },
+      {
+        "item": "nyagibits_bytes:basic_composite_plate"
+      },
+      {
+        "item": "nyagibits_bytes:basic_composite_plate"
+      },
+      {
+        "item": "nyagibits_bytes:basic_composite_plate"
+      },
+      {
+        "item": "nyagibits_bytes:basic_composite_plate"
+      },
+      {
+        "item": "nyagibits_bytes:basic_composite_plate"
+      },
+      {
+        "item": "nyagibits_bytes:basic_composite_plate"
+      },
+      {
+        "item": "nyagibits_bytes:basic_composite_plate"
+      },
+      {
+        "item": "nyagibits_bytes:basic_composite_plate"
+      },
+      {
+        "item": "nyagibits_bytes:basic_composite_plate"
+      },
+      {
+        "item": "nyagibits_bytes:basic_composite_plate"
+      },
+      {
+        "item": "nyagibits_bytes:basic_composite_plate"
+      },
+      {
+        "item": "nyagibits_bytes:basic_composite_plate"
+      },
+      {
+        "item": "nyagibits_bytes:basic_composite_plate"
+      },
+      {
+        "item": "nyagibits_bytes:basic_composite_plate"
+      },
+      {
+        "item": "nyagibits_bytes:basic_composite_plate"
+      },
+      {
+        "item": "nyagibits_bytes:immersive_engineering_schematic"
+      },
+      {
+        "item": "minecraft:blast_furnace"
+      },
+      {
+        "item": "ae2:sky_stone_tank"
+      },
+      {
+        "item": "nyagibits_bytes:porous_insulating_firebrick"
+      },
+      {
+        "item": "nyagibits_bytes:porous_insulating_firebrick"
+      },
+      {
+        "item": "nyagibits_bytes:porous_insulating_firebrick"
+      },
+      {
+        "item": "nyagibits_bytes:porous_insulating_firebrick"
+      }
+    ],
+    "results": [
+      {
+        "count": 54,
+        "item": "immersiveengineering:cokebrick"
+      }
+    ]
+  }

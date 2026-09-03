@@ -1,0 +1,45 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "heated",
+  "secondaryFluidInput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:carbon_dioxide_fluid",
+      "amount": 1000
+    },
+    {
+      "tag": "forge:heavy_oil_prereqs"
+    },
+    {
+      "tag": "forge:heavy_oil_prereqs"
+    },
+    {
+      "tag": "forge:heavy_oil_prereqs"
+    },
+    {
+      "tag": "forge:heavy_oil_prereqs"
+    }
+  ],
+  "results": [
+    {
+      "item": "nyagibits_bytes:residual_solids_raw"
+    },
+    {
+      "amount": 250,
+      "fluid": "nyagibits_bytes:heavy_crude_oil_fluid"
+    },
+    {
+      "amount": 250,
+      "fluid": "nyagibits_bytes:gas_oil_fraction_fluid"
+    },
+    {
+      "amount": 100,
+      "fluid": "nyagibits_bytes:light_oil_fluid"
+    },
+    {
+      "amount": 75,
+      "fluid": "nyagibits_bytes:pre_reflux_fraction_fluid"
+    }
+  ],
+  "processingTime": 200
+}

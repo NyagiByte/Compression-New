@@ -1,0 +1,41 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "fluid": "nyagibits_bytes:pre_reflux_fraction_fluid",
+      "amount": 350
+    },
+    {
+      "item": "nyagibits_bytes:coke_residue"
+    },
+    {
+      "item": "nyagibits_bytes:coke_residue"
+    },
+    {
+      "item": "nyagibits_bytes:coke_residue"
+    },
+    {
+      "item": "nyagibits_bytes:coke_residue"
+    }
+  ],
+  "results": [
+    {
+      "amount": 100,
+      "fluid": "immersivepetroleum:naphtha"
+    },
+    {
+      "amount": 500,
+      "fluid": "nyagibits_bytes:hydrocarbon_rich_offgas_fluid"
+    },
+    {
+      "amount": 500,
+      "fluid": "nyagibits_bytes:sour_water_fluid"
+    },
+    {
+      "amount": 50,
+      "fluid": "nyagibits_bytes:light_oil_fluid"
+    }
+  ],
+  "processingTime": 200
+}

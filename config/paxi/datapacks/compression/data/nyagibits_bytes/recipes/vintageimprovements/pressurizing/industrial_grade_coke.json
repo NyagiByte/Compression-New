@@ -1,0 +1,49 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "ingredients": [
+    {
+      "item": "nyagibits_bytes:coke_wet"
+    },
+    {
+      "item": "nyagibits_bytes:coke_wet"
+    },
+    {
+      "item": "nyagibits_bytes:coke_wet"
+    },
+    {
+      "item": "nyagibits_bytes:coke_wet"
+    },
+    {
+      "item": "nyagibits_bytes:coke_wet"
+    },
+    {
+      "item": "nyagibits_bytes:coke_wet"
+    },
+    {
+      "item": "nyagibits_bytes:coke_wet"
+    },
+    {
+      "item": "nyagibits_bytes:coke_wet"
+    },
+    {
+      "item": "nyagibits_bytes:desiccation_powder"
+    },
+    {
+      "item": "nyagibits_bytes:filter_metal_mesh"
+    }
+  ],
+  "results": [
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:industrial_grade_coke"
+    },
+    {
+      "count": 4,
+      "item": "nyagibits_bytes:coke_residue"
+    },
+    {
+      "item": "nyagibits_bytes:filter_metal_mesh_jammed"
+    }
+  ],
+  "processingTime": 200
+}

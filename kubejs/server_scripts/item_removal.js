@@ -215,7 +215,6 @@ ServerEvents.recipes(e => {
         e.remove({output: 'immersiveengineering:homing'});
         e.remove({output: 'immersiveengineering:wolfpack'});
         e.remove({output: 'immersiveengineering:jerrycan'});
-        e.remove({output: 'immersiveengineering:graphite_electrode'});
         e.remove({output: 'immersiveengineering:fluorescent_tube'});
         e.remove({output: 'immersiveengineering:powerpack'});
         e.remove({output: 'immersiveengineering:shield'});

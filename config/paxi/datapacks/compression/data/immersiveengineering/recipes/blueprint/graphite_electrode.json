@@ -1,0 +1,19 @@
+{
+    "type":"immersiveengineering:blueprint",
+    "category":"intermediates_t1",
+        "inputs":[{
+            "base_ingredient":{
+                "item":"nyagibits_bytes:coke_anode_grade"
+                },"count":16},{
+            "base_ingredient":{
+                "item":"natures_spirit:kaolin"
+                },"count":4},{
+            "base_ingredient":{
+                "item":"nyagibits_bytes:bucket_of_hydrocarbon_tar"
+                },"count":1}],
+                
+                "result":{
+                    "count":1,
+                    "item":"immersiveengineering:graphite_electrode"
+                    }
+                }

@@ -1,0 +1,29 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "heated",
+  "secondaryFluidInput": 0,
+  "ingredients": [
+    {
+      "fluid": "nuclearcraft:low_pressure_steam",
+      "amount": 2000
+    },
+    {
+      "fluid": "nyagibits_bytes:heavy_crude_oil_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "nyagibits_bytes:miniaturized_high_pressure_system"
+    }
+  ],
+  "results": [
+    {
+      "count": 8,
+      "item": "nyagibits_bytes:coke_wet"
+    },
+    {
+      "chance": 0.95,
+      "item": "nyagibits_bytes:miniaturized_high_pressure_system"
+    }
+  ],
+  "processingTime": 200
+}

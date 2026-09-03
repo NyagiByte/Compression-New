@@ -1,0 +1,30 @@
+{
+	"type":"vintageimprovements:vacuumizing",
+  "secondaryFluidOutput": 0,
+    "heatRequirement": "superheated",
+	"ingredients": [
+		{
+			"item": "nyagibits_bytes:anode_baking_rack"
+		},
+		{
+			"item": "create:limestone"
+		},
+		{
+			"tag": "forge:valid_anode_raw"
+		}
+	],
+	"results": [
+		{
+			"fluid": "chemlib:carbon_dioxide_fluid",
+			"amount": 500
+		},
+		{
+			"item": "nyagibits_bytes:coke_anode_grade"
+		},
+		{
+			"chance": 0.95,
+			"item": "nyagibits_bytes:anode_baking_rack"
+		}
+	],
+	"processingTime": 200
+}

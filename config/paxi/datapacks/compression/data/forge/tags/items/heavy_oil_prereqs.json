@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "values": [
+        "nyagibits_bytes:raw_kerogen",
+        "nyagibits_bytes:raw_oil_sands"
+    ]
+  }

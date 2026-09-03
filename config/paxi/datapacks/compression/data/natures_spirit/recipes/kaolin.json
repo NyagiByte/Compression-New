@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "chemlib:kaolinite"
+        },
+        {
+            "item": "chemlib:kaolinite"
+        },
+        {
+            "item": "chemlib:kaolinite"
+        },
+        {
+            "item": "chemlib:kaolinite"
+        },
+        {
+            "item": "chemlib:kaolinite"
+        },
+        {
+            "item": "chemlib:kaolinite"
+        },
+        {
+            "item": "chemlib:kaolinite"
+        },
+        {
+            "item": "chemlib:kaolinite"
+        },
+        {
+            "item": "minecraft:clay"
+        }
+    ],
+    "result": {
+        "item": "natures_spirit:kaolin"
+    }
+}
