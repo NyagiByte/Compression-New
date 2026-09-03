@@ -118,7 +118,8 @@
     "everycomp:q/atmospheric/laurel_hedge",
     "everycomp:q/atmospheric/dry_laurel_hedge",
     "everycomp:q/atmospheric/kousa_hedge",
-    "everycomp:q/atmospheric/grimwood_hedge"
+    "everycomp:q/atmospheric/grimwood_hedge",
+    "everycomp:q/echovoids/nillow_hedge"
   ],
   "enabled": true
 }

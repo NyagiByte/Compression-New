@@ -862,6 +862,9 @@
         "megacells:bulk_item_cell",
         "megacells:mega_chemical_cell_housing",
         "echovoids:watchling_spawn_egg",
-        "echovoids:acidling_spawn_egg"
+        "echovoids:acidling_spawn_egg",
+        "echovoids:gum",
+        "echovoids:squarrry_gum",
+        "echovoids:neon_gum"
     ]
   }

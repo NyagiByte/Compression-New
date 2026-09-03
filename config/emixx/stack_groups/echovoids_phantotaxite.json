@@ -17,7 +17,19 @@
     "echovoids:phantotaxite_trapdoor",
     "echovoids:phantotaxite_pressure_plate",
     "echovoids:phantotaxite_button",
-    "echovoids:stump"
+    "echovoids:stump",
+    "everycomp:hnhome/echovoids/phantotaxite_parquet",
+    "everycomp:q/echovoids/vertical_phantotaxite_planks",
+    "everycomp:q/echovoids/phantotaxite_chest",
+    "everycomp:q/echovoids/phantotaxite_trapped_chest",
+    "everycomp:ap/echovoids/phantotaxite_railing",
+    "everycomp:ap/echovoids/phantotaxite_boards",
+    "everycomp:ap/echovoids/phantotaxite_board_slab",
+    "everycomp:ap/echovoids/phantotaxite_board_stairs",
+    "everycomp:ap/echovoids/phantotaxite_board_wall",
+    "everycomp:bbb/echovoids/phantotaxite_trim",
+    "everycomp:c/echovoids/phantotaxite_window",
+    "everycomp:c/echovoids/phantotaxite_window_pane"
   ],
   "enabled": true
 }

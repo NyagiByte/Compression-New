@@ -126,7 +126,9 @@
     "everycomp:q/atmospheric/dry_laurel_leaf_carpet",
     "everycomp:q/atmospheric/kousa_leaf_carpet",
     "everycomp:q/atmospheric/currant_leaf_carpet",
-    "everycomp:q/atmospheric/grimwood_leaf_carpet"
+    "everycomp:q/atmospheric/grimwood_leaf_carpet",
+    "everycomp:q/echovoids/nillow_leaf_carpet",
+    "everycomp:q/echovoids/chorus_petal_leaf_carpet"
   ],
   "enabled": true
 }

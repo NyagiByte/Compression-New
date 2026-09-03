@@ -16,7 +16,26 @@
     "echovoids:magnachorus_door",
     "echovoids:mgnachorus_trapdoor",
     "echovoids:magnachorus_pressure_plate",
-    "echovoids:magnachorus_button"
+    "echovoids:magnachorus_button",
+    "everycomp:hnhome/echovoids/magnachorus_parquet",
+    "everycomp:q/echovoids/magnachorus_post",
+    "everycomp:q/echovoids/stripped_magnachorus_post",
+    "everycomp:q/echovoids/vertical_magnachorus_planks",
+    "everycomp:q/echovoids/hollow_magnachorus_log",
+    "everycomp:q/echovoids/magnachorus_chest",
+    "everycomp:q/echovoids/magnachorus_trapped_chest",
+    "everycomp:ap/echovoids/magnachorus_railing",
+    "everycomp:ap/echovoids/magnachorus_boards",
+    "everycomp:ap/echovoids/magnachorus_board_slab",
+    "everycomp:ap/echovoids/magnachorus_board_stairs",
+    "everycomp:ap/echovoids/magnachorus_board_wall",
+    "everycomp:bbb/echovoids/magnachorus_trim",
+    "everycomp:bbb/echovoids/magnachorus_beam",
+    "everycomp:bbb/echovoids/magnachorus_beam_stairs",
+    "everycomp:bbb/echovoids/magnachorus_beam_slab",
+    "everycomp:bbb/echovoids/magnachorus_wall",
+    "everycomp:c/echovoids/magnachorus_window",
+    "everycomp:c/echovoids/magnachorus_window_pane"
   ],
   "enabled": true
 }

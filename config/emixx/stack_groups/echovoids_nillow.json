@@ -16,7 +16,26 @@
     "echovoids:nillow_door",
     "echovoids:nillow_trapdoor",
     "echovoids:nillow_pressure_plate",
-    "echovoids:nillow_button"
+    "echovoids:nillow_button",
+    "everycomp:hnhome/echovoids/nillow_parquet",
+    "everycomp:q/echovoids/nillow_post",
+    "everycomp:q/echovoids/stripped_nillow_post",
+    "everycomp:q/echovoids/vertical_nillow_planks",
+    "everycomp:q/echovoids/hollow_nillow_log",
+    "everycomp:q/echovoids/nillow_chest",
+    "everycomp:q/echovoids/nillow_trapped_chest",
+    "everycomp:ap/echovoids/nillow_railing",
+    "everycomp:ap/echovoids/nillow_boards",
+    "everycomp:ap/echovoids/nillow_board_slab",
+    "everycomp:ap/echovoids/nillow_board_stairs",
+    "everycomp:ap/echovoids/nillow_board_wall",
+    "everycomp:bbb/echovoids/nillow_trim",
+    "everycomp:bbb/echovoids/nillow_beam",
+    "everycomp:bbb/echovoids/nillow_beam_stairs",
+    "everycomp:bbb/echovoids/nillow_beam_slab",
+    "everycomp:bbb/echovoids/nillow_wall",
+    "everycomp:c/echovoids/nillow_window",
+    "everycomp:c/echovoids/nillow_window_pane"
   ],
   "enabled": true
 }
