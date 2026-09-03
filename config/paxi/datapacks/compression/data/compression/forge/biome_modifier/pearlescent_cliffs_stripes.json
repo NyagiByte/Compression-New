@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "compressiontweaks:pearlescent_cliffs",
+  "features": [
+    "compression:pearlescent_cliffs/pearlescent_cliffs_veins_white",
+    "compression:pearlescent_cliffs/pearlescent_cliffs_veins_endstone"
+  ],
+  "step": "underground_ores"
+}

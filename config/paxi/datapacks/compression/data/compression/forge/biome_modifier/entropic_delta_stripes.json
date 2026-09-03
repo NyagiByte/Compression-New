@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": "compressiontweaks:entropic_delta",
+  "features": [
+    "compression:entropic_delta/entropic_delta_veins_blackmold",
+    "compression:entropic_delta/entropic_delta_veins_squarry",
+    "compression:entropic_delta/entropic_delta_veins_corroded"
+  ],
+  "step": "underground_ores"
+}

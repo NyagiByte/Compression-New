@@ -1,0 +1,20 @@
+{
+  "id": "echovoids:echovoids_obsidian",
+  "type": "emixx:group",
+  "contents": [
+    "echovoids:obsidian_sand",
+    "echovoids:obsidian_glass",
+    "echovoids:polished_obsidian",
+    "echovoids:polished_obsidian_stairs",
+    "echovoids:polished_obsidian_slab",
+    "echovoids:polished_obsidian_wall",
+    "echovoids:polished_obsidian_tiles",
+    "echovoids:polished_obsidian_tile_stairs",
+    "echovoids:polished_obsidian_tile_slab",
+    "echovoids:polished_obsidian_tile_wall",
+    "echovoids:cracked_polished_obsidian_tiles",
+    "echovoids:obsidian_pillar",
+    "echovoids:chiseled_obsidian"
+  ],
+  "enabled": true
+}

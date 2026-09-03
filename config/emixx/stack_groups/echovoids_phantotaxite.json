@@ -1,0 +1,23 @@
+{
+  "id": "echovoids:echovoids_phantotaxite",
+  "type": "emixx:group",
+  "contents": [
+    "echovoids:stump_block",
+    "echovoids:stump_block_eyes",
+    "echovoids:phantotaxite_hyphae",
+    "echovoids:phantotaxite_eyes_hyphae",
+    "echovoids:stripped_phantotaxite",
+    "echovoids:stripped_phantotaxite_hyphae",
+    "echovoids:phantotaxite_planks",
+    "echovoids:phantotaxite_stairs",
+    "echovoids:phantotaxite_slab",
+    "echovoids:phantotaxite_fence",
+    "echovoids:phantotaxite_fence_gate",
+    "echovoids:phantotaxite_door",
+    "echovoids:phantotaxite_trapdoor",
+    "echovoids:phantotaxite_pressure_plate",
+    "echovoids:phantotaxite_button",
+    "echovoids:stump"
+  ],
+  "enabled": true
+}

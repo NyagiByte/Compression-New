@@ -860,6 +860,8 @@
         "megacells:portable_fluid_cell_1m",
         "megacells:portable_chemical_cell_1m",
         "megacells:bulk_item_cell",
-        "megacells:mega_chemical_cell_housing"
+        "megacells:mega_chemical_cell_housing",
+        "echovoids:watchling_spawn_egg",
+        "echovoids:acidling_spawn_egg"
     ]
   }

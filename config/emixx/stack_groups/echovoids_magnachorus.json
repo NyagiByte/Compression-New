@@ -1,0 +1,22 @@
+{
+  "id": "echovoids:echovoids_magnachorus",
+  "type": "emixx:group",
+  "contents": [
+    "echovoids:magnachorus_log",
+    "echovoids:blooming_magnachorus_log",
+    "echovoids:magnachorus_wood",
+    "echovoids:blooming_magnachorus_wood",
+    "echovoids:stripped_magnachorus_log",
+    "echovoids:stripped_magnachorus_wood",
+    "echovoids:magnachorus_planks",
+    "echovoids:magnachorus_stairs",
+    "echovoids:magnachorus_slab",
+    "echovoids:magnachorus_fence",
+    "echovoids:magnachorus_fence_gate",
+    "echovoids:magnachorus_door",
+    "echovoids:mgnachorus_trapdoor",
+    "echovoids:magnachorus_pressure_plate",
+    "echovoids:magnachorus_button"
+  ],
+  "enabled": true
+}

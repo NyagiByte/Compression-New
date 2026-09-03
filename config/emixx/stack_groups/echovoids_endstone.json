@@ -1,0 +1,25 @@
+{
+  "id": "echovoids:echovoids_end_stone",
+  "type": "emixx:group",
+  "contents": [
+    "echovoids:smooth_endstone",
+    "echovoids:end_stone_stairs",
+    "echovoids:end_stone_slab",
+    "echovoids:end_stone_wall",
+    "echovoids:end_stone_pillar",
+    "echovoids:end_stone_lattice",
+    "echovoids:polished_end_stone",
+    "echovoids:polished_end_stone_stairs",
+    "echovoids:polished_end_stone_slab",
+    "echovoids:polished_end_stone_wall",
+    "echovoids:smooth_end_stone_real",
+    "echovoids:smooth_end_stone_stairs",
+    "echovoids:smooth_end_stone_slab",
+    "echovoids:smooth_end_stone_wall",
+    "echovoids:blonde_end_stone_bricks",
+    "echovoids:blonde_end_stone_brick_stairs",
+    "echovoids:blonde_end_stone_brick_slab",
+    "echovoids:blonde_end_stone_brick_wall"
+  ],
+  "enabled": true
+}

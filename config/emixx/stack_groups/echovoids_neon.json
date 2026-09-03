@@ -1,0 +1,25 @@
+{
+  "id": "echovoids:echovoids_neon",
+  "type": "emixx:group",
+  "contents": [
+    "echovoids:white_block_of_neon",
+    "echovoids:light_gray_block_of_neon",
+    "echovoids:gray_block_of_neon",
+    "echovoids:black_block_of_neon",
+    "echovoids:brown_block_of_neon",
+    "echovoids:red_block_of_neon",
+    "echovoids:orange_block_of_neon",
+    "echovoids:yellow_block_of_neon",
+    "echovoids:lime_block_of_neon",
+    "echovoids:green_block_of_neon",
+    "echovoids:cyan_block_of_neon",
+    "echovoids:light_blue_block_of_neon",
+    "echovoids:blue_block_of_neon",
+    "echovoids:purple_block_of_neon",
+    "echovoids:magenta_block_of_neon",
+    "echovoids:pink_block_of_neon",
+    "echovoids:void_block_of_neon",
+    "echovoids:mythril_block_of_neon"
+  ],
+  "enabled": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "echovoids:echovoids_polished_pearlescent_rod",
+  "type": "emixx:group",
+  "contents": [
+    "echovoids:orange_end_rod",
+    "echovoids:red_end_rod",
+    "echovoids:pink_end_rod",
+    "echovoids:brown_end_rod",
+    "echovoids:black_end_rod",
+    "echovoids:gray_end_rod",
+    "echovoids:light_gray_end_rod",
+    "echovoids:white_end_rod",
+    "echovoids:pearl_rod",
+    "echovoids:yellow_end_rod",
+    "echovoids:lime_end_rod",
+    "echovoids:green_end_rod",
+    "echovoids:cyan_end_rod",
+    "echovoids:light_blue_end_rod",
+    "echovoids:blue_end_rod",
+    "echovoids:purple_end_rod",
+    "echovoids:magenta_end_rod",
+    "echovoids:mythril_end_rod"
+  ],
+  "enabled": true
+}

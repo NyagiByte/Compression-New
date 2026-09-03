@@ -1,0 +1,25 @@
+{
+  "id": "echovoids:echovoids_neon_rod",
+  "type": "emixx:group",
+  "contents": [
+    "echovoids:white_neon_tube",
+    "echovoids:light_gray_neon_tube",
+    "echovoids:gray_neon_tube",
+    "echovoids:black_neon_tube",
+    "echovoids:brown_neon_tube",
+    "echovoids:red_neon_tube",
+    "echovoids:orange_neon_tube",
+    "echovoids:yellow_neon_tube",
+    "echovoids:lime_neon_tube",
+    "echovoids:green_neon_tube",
+    "echovoids:cyan_neon_tube",
+    "echovoids:light_blue_neon_tube",
+    "echovoids:blue_neon_tube",
+    "echovoids:purple_neon_tube",
+    "echovoids:magenta_neon_tube",
+    "echovoids:pink_neon_tube",
+    "echovoids:void_neon_tube",
+    "echovoids:mythril_neon_tube"
+  ],
+  "enabled": true
+}

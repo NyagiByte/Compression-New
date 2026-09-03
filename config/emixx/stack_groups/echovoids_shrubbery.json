@@ -1,0 +1,26 @@
+{
+  "id": "echovoids:echovoids_shrubbery",
+  "type": "emixx:group",
+  "contents": [
+    "echovoids:endstone_grass",
+    "echovoids:endstone_grass_glowing",
+    "echovoids:endgrassplant",
+    "echovoids:tall_endgrassplant",
+    "echovoids:phycus_top",
+    "echovoids:end_vine",
+    "echovoids:tall_blue_flower",
+    "echovoids:blue_flower",
+    "echovoids:white_grass",
+    "echovoids:glowglove_bud",
+    "echovoids:hanging_rods_end",
+    "echovoids:chorus_petal_vine",
+    "echovoids:small_acid_anemony",
+    "echovoids:acid_anemony",
+    "echovoids:moldsprout",
+    "echovoids:tallmoldsprout",
+    "echovoids:limbs",
+    "echovoids:entropite_sprouts",
+    "echovoids:corroded_entropite_sprouts"
+  ],
+  "enabled": true
+}

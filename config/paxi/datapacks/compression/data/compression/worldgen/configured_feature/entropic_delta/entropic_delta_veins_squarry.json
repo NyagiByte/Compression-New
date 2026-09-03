@@ -1,0 +1,39 @@
+{
+  "type": "spelunkery:block_stripe",
+  "config": {
+    "first_target": "minecraft:end_stone",
+    "first_target_placer": [
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "echovoids:undead_chorus_flower_block"
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "echovoids:blackmold"
+          }
+        },
+        "stone_pattern": {
+          "noise_seed": 21,
+          "primary_min": -0.05,
+          "primary_max": 0.05,
+          "secondary_min": 0.1,
+          "secondary_max": 0.3,
+          "vertical_scale": 1
+        }
+      }
+    ],
+    "use_second_target": false,
+    "second_target": "#spelunkery:deepslate_target",
+    "second_target_placer": [],
+    "use_biome_filter": true,
+    "biomes": "compressiontweaks:entropic_delta",
+    "blank_patch_chance": 0,
+    "use_height_filter": true,
+    "surface_offset": 0,
+    "bottom_offset": 30
+  }
+}

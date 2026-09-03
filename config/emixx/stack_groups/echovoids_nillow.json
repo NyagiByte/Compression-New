@@ -1,0 +1,22 @@
+{
+  "id": "echovoids:echovoids_nillow",
+  "type": "emixx:group",
+  "contents": [
+    "echovoids:nillow_log",
+    "echovoids:flowering_yellow_log",
+    "echovoids:nillow_wood",
+    "echovoids:flowering_nillow_wood",
+    "echovoids:stripped_nillow_log",
+    "echovoids:stripped_nillow_wood",
+    "echovoids:nillow_planks",
+    "echovoids:nillow_stairs",
+    "echovoids:nillow_slab",
+    "echovoids:nillow_fence",
+    "echovoids:nillow_fence_gate",
+    "echovoids:nillow_door",
+    "echovoids:nillow_trapdoor",
+    "echovoids:nillow_pressure_plate",
+    "echovoids:nillow_button"
+  ],
+  "enabled": true
+}

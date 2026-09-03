@@ -1,0 +1,23 @@
+{
+  "id": "echovoids:echovoids_corroded_entropite",
+  "type": "emixx:group",
+  "contents": [
+    "echovoids:corroded_entropitc_end_stone",
+    "echovoids:corroded_entropite",
+    "echovoids:corroded_entropite_stairs",
+    "echovoids:corroded_entropite_slab",
+    "echovoids:corroded_entropite_wall",
+    "echovoids:corroded_entropite_pillar",
+    "echovoids:polished_corroded_entropite",
+    "echovoids:polished_corroded_entropite_stairs",
+    "echovoids:polished_corroded_entropite_slab",
+    "echovoids:polished_corroded_entropite_plate",
+    "echovoids:polished_corroded_entropite_button",
+    "echovoids:polished_corroded_entropite_wall",
+    "echovoids:corroded_entropite_bricks",
+    "echovoids:corroded_entropite_brick_stairs",
+    "echovoids:corroded_entropite_brick_slab",
+    "echovoids:corroded_entropite_brick_wall"
+  ],
+  "enabled": true
+}

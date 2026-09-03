@@ -556,7 +556,13 @@
             "create:iron_sheet",
             "immersiveengineering:potion_bucket",
             "nuclearcraft:pasteurized_milk_bucket",
-            "nuclearcraft:tin_ore"
+            "nuclearcraft:tin_ore",
+            "echovoids:gravity_helmet",
+            "echovoids:gravity_chestplate",
+            "echovoids:gravity_leggings",
+            "echovoids:gravity_boots",
+            "echovoids:needle_sword",
+            "echovoids:dash_item"
         ]
     }
 ]

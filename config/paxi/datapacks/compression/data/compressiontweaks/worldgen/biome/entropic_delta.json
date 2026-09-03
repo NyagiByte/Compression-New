@@ -1,0 +1,68 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 0,
+    "fog_color": 10518688,
+    "water_color": 0,
+    "water_fog_color": 0,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "echovoids:gray_lake",
+      "echovoids:entr_rock",
+      "echovoids:entr_soil",
+      "echovoids:gray_delta",
+      "echovoids:gray_stumps",
+      "echovoids:endstone_only_sprout",
+      "echovoids:entropite_sprout"
+    ],
+    [
+      "echovoids:mold",
+      "echovoids:black_entropite",
+      "echovoids:void_basalt",
+      "echovoids:void_tree",
+      "echovoids:void_crystals",
+      "echovoids:tangle",
+      "echovoids:limbs",
+      "echovoids:ground_limbs"
+    ],
+    [],
+    [],
+    [
+      "echovoids:less_chorus",
+      "echovoids:undead_chorus"
+    ]
+  ]
+}
