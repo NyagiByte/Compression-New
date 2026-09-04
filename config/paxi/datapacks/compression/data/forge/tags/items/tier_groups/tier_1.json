@@ -4659,6 +4659,13 @@
         "stonezone:c/natures_spirit/small_kaolin_brick_slab",
         "stonezone:c/natures_spirit/small_kaolin_brick_wall",
         "stonezone:c/natures_spirit/kaolin_pillar",
-        "stonezone:c/natures_spirit/layered_kaolin"
+        "stonezone:c/natures_spirit/layered_kaolin",
+        "nyagibits_bytes:coke_anode_grade",
+        "nyagibits_bytes:anode_baking_rack",
+        "nyagibits_bytes:coke_wet",
+        "nyagibits_bytes:coke_residue",
+        "nyagibits_bytes:miniaturized_high_pressure_system",
+        "nyagibits_bytes:porous_insulating_firebrick",
+        "nyagibits_bytes:residual_solids_raw"
     ]
   }

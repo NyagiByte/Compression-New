@@ -437,6 +437,346 @@
     {
       "light": 12,
       "id": "spelunkery:pink_glowstick"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_fanciful_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_fanciful_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_fanciful_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_fanciful_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_fan_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_fan_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_fan_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_fan_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_floral_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_floral_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_floral_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_floral_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_star_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_star_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_star_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_star_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_link_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_link_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_link_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_link_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_scratch_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_scratch_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_scratch_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_scratch_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_fanciful_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_fanciful_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_fanciful_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_fanciful_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_fan_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_fan_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_fan_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_fan_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_floral_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_floral_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_floral_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_floral_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_star_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_star_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_star_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_star_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_link_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_link_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_link_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_link_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_scratch_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_scratch_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_scratch_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_neutral_scratch_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_fanciful_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_fanciful_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_fanciful_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_fanciful_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_fan_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_fan_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_fan_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_fan_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_floral_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_floral_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_floral_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_floral_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_star_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_star_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_star_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_star_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_link_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_link_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_link_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_link_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_scratch_tile"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_scratch_tile_slab"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_scratch_tile_stairs"
+    },
+    {
+      "light": 15,
+      "id": "tastytiles:glist_cold_scratch_tile_wall"
+    },
+    {
+      "light": 15,
+      "id": "echovoids:end_lamp"
     }
   ]
 }
