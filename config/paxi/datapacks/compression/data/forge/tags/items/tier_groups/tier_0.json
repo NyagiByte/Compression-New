@@ -17307,6 +17307,22 @@
         "everycomp:bbb/echovoids/magnachorus_ladder",
         "everycomp:bbb/echovoids/phantotaxite_ladder",
         "extra_gauges:integer_selector",
-        "extra_gauges:display_collector"
+        "extra_gauges:display_collector",
+        "echovoids:corroded_entropitc_end_stone",
+        "echovoids:corroded_entropite",
+        "echovoids:corroded_entropite_stairs",
+        "echovoids:corroded_entropite_slab",
+        "echovoids:corroded_entropite_wall",
+        "echovoids:corroded_entropite_pillar",
+        "echovoids:polished_corroded_entropite",
+        "echovoids:polished_corroded_entropite_stairs",
+        "echovoids:polished_corroded_entropite_slab",
+        "echovoids:polished_corroded_entropite_plate",
+        "echovoids:polished_corroded_entropite_button",
+        "echovoids:polished_corroded_entropite_wall",
+        "echovoids:corroded_entropite_bricks",
+        "echovoids:corroded_entropite_brick_stairs",
+        "echovoids:corroded_entropite_brick_slab",
+        "echovoids:corroded_entropite_brick_wall"
     ]
   }

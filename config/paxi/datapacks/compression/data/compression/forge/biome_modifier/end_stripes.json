@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "compressiontweaks:end",
+  "features": [
+    "compression:end/end_veins_corroded"
+  ],
+  "step": "underground_ores"
+}
