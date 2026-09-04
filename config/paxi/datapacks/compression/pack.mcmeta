@@ -2035,6 +2035,7 @@
 		{"namespace": "tastytiles", "path": "crafting/ceramic_mixture_to_choco_cut_tiles.json"},
 
 		{"namespace": "echovoids", "path": "recipes/obsidian_sand_r.json"},
+		{"namespace": "echovoids", "path": "recipes/end_rod.json"},
 
 
 
