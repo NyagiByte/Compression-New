@@ -9,6 +9,26 @@
     "modId": "abyssal_decor",
     "version": "1.0.0"
   },
+  "ae2timeskip-1.1-1.20.1.jar": {
+    "jarName": "ae2timeskip-1.1-1.20.1.jar",
+    "modId": "ae2timeskip",
+    "version": "1.1.1-1.20.1"
+  },
+  "almanac-1.20.x-forge-1.0.2.jar": {
+    "jarName": "almanac-1.20.x-forge-1.0.2.jar",
+    "modId": "almanac",
+    "version": "1.0.2"
+  },
+  "atmospheric-1.20.1-6.1.1.jar": {
+    "jarName": "atmospheric-1.20.1-6.1.1.jar",
+    "modId": "atmospheric",
+    "version": "6.1.1"
+  },
+  "AwesomeSheepSwell-forge-1.3.2+mc1.20.4.jar": {
+    "jarName": "AwesomeSheepSwell-forge-1.3.2+mc1.20.4.jar",
+    "modId": "awesomesheepswell",
+    "version": "1.3.2+mc1.20.4"
+  },
   "aiotbotania-1.20.1-4.0.6.jar": {
     "jarName": "aiotbotania-1.20.1-4.0.6.jar",
     "modId": "aiotbotania",
