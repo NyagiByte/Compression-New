@@ -18,6 +18,9 @@
         "ftbquests:book",
         "ftbquests:detector",
         "ftbquests:screen_7",
-        "ftbquests:task_screen_configurator"
+        "ftbquests:task_screen_configurator",
+        "echovoids:void_block",
+        "echovoids:void_crystal_top",
+        "echovoids:void_fluid_bucket"
     ]
   }

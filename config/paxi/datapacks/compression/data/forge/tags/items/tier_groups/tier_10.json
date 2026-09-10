@@ -2,6 +2,12 @@
     "replace": true,
     "values": [
         "nuclearcraft:glueballs",
-        "nuclearcraft:decay_hastener"
+        "nuclearcraft:decay_hastener",
+        "echovoids:quantum_tunnel",
+        "echovoids:quantum_block_on",
+        "echovoids:activtor_block",
+        "echovoids:activating_block_off",
+        "echovoids:activtor_block_b",
+        "echovoids:activating_block_off_b"
     ]
   }

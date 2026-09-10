@@ -1,0 +1,14 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "echovoids:gravity_helmet",
+            "echovoids:gravity_chestplate",
+            "echovoids:gravity_leggings",
+            "echovoids:gravity_boots",
+            "echovoids:needle_sword",
+            "echovoids:dash_item",
+            "echovoids:gravity_upgrade_template"
+        ]
+    }
+]

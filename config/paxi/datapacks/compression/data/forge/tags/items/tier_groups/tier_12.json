@@ -9,6 +9,12 @@
         "nuclearcraft:black_hole",
         "nuclearcraft:neutronium_frame",
         "nuclearcraft:photon_concentrator",
-        "nuclearcraft:expl"
+        "nuclearcraft:expl",
+        "echovoids:string_plant",
+        "echovoids:hanging_strings_end",
+        "echovoids:gravity_string_block",
+        "echovoids:bell",
+        "echovoids:antigrav_core",
+        "echovoids:gravity_fabric"
     ]
   }

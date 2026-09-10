@@ -7,5 +7,30 @@
     "block.echovoids.stump_block_eyes": "Raw Watchful Phantotaxite Hyphae",
     "block.echovoids.phantotaxite_eyes_hyphae": "Full-Sided Watchful Phantotaxite Hyphae",
     "block.echovoids.stripped_phantotaxite_hyphae": "Stripped Full-Sided Phantotaxite Hyphae",
-    "block.echovoids.stump": "Raw Phantotaxite Stump"
+    "block.echovoids.stump": "Raw Phantotaxite Stump",
+
+    "block.echovoids.nillow_log": "Raw Nillow Pedicel",
+    "block.echovoids.flowering_yellow_log": "Raw Blooming Nillow Pedicel",
+    "block.echovoids.nillow_wood": "Full-Sided Nillow Pedicel",
+    "block.echovoids.flowering_nillow_wood": "Full-Sided Blooming Nillow Pedicel",
+    "block.echovoids.stripped_nillow_wood": "Stripped Full-Sided Nillow Pedicel",
+
+    "block.echovoids.anemony_stalk": "Raw Anenone Luciferase Stalk",
+    "block.echovoids.giant_anemony": "Raw Anenone Luciferase Bulb",
+    "block.echovoids.block_of_neon": "Agaricomycetes Anenone Luciferase",
+
+    "block.echovoids.magnachorus_log": "Raw Magnachorus Pendicel",
+    "block.echovoids.blooming_magnachorus_log": "Raw Blooming Magnachorus Pendicel",
+    "block.echovoids.magnachorus_wood": "Full-Sided Magnachorus Pendicel",
+    "block.echovoids.blooming_magnachorus_wood": "Full-Sided Blooming Magnachorus Pendicel",
+    "block.echovoids.stripped_magnachorus_wood": "Stripped Full-Sided Magnachorus Pendicel",
+
+    "block.echovoids.altered_entropite": "Raw Pearlescence",
+    "block.echovoids.stemmed_altered_entropite": "Raw Stemmed Pearlescence",
+
+    "block.echovoids.membrane": "Block of Phantom Membrane",
+
+    "block.echovoids.ligh_bridge_projector": "Light Bridge Projector",
+
+    "item.echovoids.neon_blob": "Luciferase Blob"
 }
