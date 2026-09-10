@@ -79,6 +79,13 @@
         "biomeswevegone:white_mangrove_marshes",
         "biomeswevegone:zelkova_forest",
         "biomeswevegone:basalt_barrera",
-        "biomeswevegone:allium_shrubland"
+        "biomeswevegone:allium_shrubland",
+        "biomeswevegone:crimson_tundra",
+        "natures_spirit:lavender_fields",
+        "natures_spirit:carnation_fields",
+        "natures_spirit:oak_savanna",
+        "natures_spirit:white_cliffs",
+        "natures_spirit:arid_savanna",
+        "atmospheric:dunes"
     ]
 }
