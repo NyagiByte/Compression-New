@@ -3421,11 +3421,6 @@
 					type: "item"
 				}
 				{
-					id: "425D690B628D4961"
-					item: "ae2:security_station"
-					type: "item"
-				}
-				{
 					id: "6B7777F527779B8C"
 					item: "ae2:biometric_card"
 					type: "item"
