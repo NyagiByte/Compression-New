@@ -19,4 +19,7 @@ ServerEvents.tags('block', event => {
   event.remove('minecraft:needs_iron_tool', 'spelunkery:andesite_zinc_ore')
   event.remove('minecraft:needs_iron_tool', 'spelunkery:tuff_zinc_ore')
 
+  event.remove('minecraft:logs', 'echovoids:stump_block')
+  event.remove('minecraft:logs', 'echovoids:stump_block_eyes')
+
 })

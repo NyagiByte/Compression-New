@@ -1,0 +1,13 @@
+{
+    "type": "immersiveengineering:coke_oven",
+        "fluid": {
+            "amount":10,
+            "fluid":"echovoids:liquid_entropite"
+        },
+                "input": {
+                    "tag":"forge:phantotaxite"},
+                        "result": {
+                            "count": 1,
+                            "item":"supplementaries:ash"},
+        "time": 100
+}

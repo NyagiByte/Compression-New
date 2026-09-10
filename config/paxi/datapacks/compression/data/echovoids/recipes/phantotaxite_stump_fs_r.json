@@ -1,0 +1,11 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "block",
+    "block": "echovoids:phantotaxite_eyes_hyphae"
+  },
+  "time": 3,
+  "output": {
+    "name": "echovoids:stump"
+  }
+}

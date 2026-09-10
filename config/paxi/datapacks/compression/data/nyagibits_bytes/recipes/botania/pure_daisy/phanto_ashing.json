@@ -1,0 +1,11 @@
+{
+  "type": "botania:pure_daisy",
+  "input": {
+    "type": "block",
+    "block": "echovoids:stump_block"
+  },
+  "time": 1,
+  "output": {
+    "name": "supplementaries:ash"
+  }
+}
