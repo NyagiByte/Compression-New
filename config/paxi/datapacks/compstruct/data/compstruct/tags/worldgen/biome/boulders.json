@@ -95,6 +95,23 @@
         "natures_spirit:sleeted_slopes",
         "natures_spirit:snowcapped_red_peaks",
         "natures_spirit:marsh",
-        "natures_spirit:xeric_plains"
+        "natures_spirit:xeric_plains",
+        "natures_spirit:windswept_sugi_forest",
+        "natures_spirit:dusty_slopes",
+        "natures_spirit:wooded_drylands",
+        "natures_spirit:floral_ridges",
+        "natures_spirit:blooming_dunes",
+        "natures_spirit:blooming_highlands",
+        "natures_spirit:blooming_sugi_forest",
+        "natures_spirit:fir_forest",
+        "natures_spirit:prairie",
+        "natures_spirit:stratified_desert",
+        "natures_spirit:snowy_fir_forest",
+        "natures_spirit:sparse_tropical_woods",
+        "natures_spirit:wisteria_forest",
+        "natures_spirit:woody_highlands",
+        "natures_spirit:boreal_taiga",
+        "natures_spirit:red_peaks",
+        "natures_spirit:heather_fields"
     ]
 }

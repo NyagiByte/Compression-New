@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:river",
+  "features": [
+    "compression:river/river_veins_mud"
+  ],
+  "step": "underground_ores"
+}
