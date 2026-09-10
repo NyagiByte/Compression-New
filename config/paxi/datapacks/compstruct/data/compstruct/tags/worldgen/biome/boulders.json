@@ -79,6 +79,22 @@
         "biomeswevegone:white_mangrove_marshes",
         "biomeswevegone:zelkova_forest",
         "biomeswevegone:basalt_barrera",
-        "biomeswevegone:allium_shrubland"
+        "biomeswevegone:allium_shrubland",
+        "biomeswevegone:crimson_tundra",
+        "natures_spirit:lavender_fields",
+        "natures_spirit:carnation_fields",
+        "natures_spirit:oak_savanna",
+        "natures_spirit:white_cliffs",
+        "natures_spirit:arid_savanna",
+        "natures_spirit:drylands",
+        "natures_spirit:alpine_clearings",
+        "natures_spirit:arid_highlands",
+        "natures_spirit:chaparral",
+        "natures_spirit:flowering_shrubland",
+        "natures_spirit:golden_wilds",
+        "natures_spirit:sleeted_slopes",
+        "natures_spirit:snowcapped_red_peaks",
+        "natures_spirit:marsh",
+        "natures_spirit:xeric_plains"
     ]
 }
