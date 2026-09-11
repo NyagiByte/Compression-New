@@ -12,6 +12,7 @@
       "sky_color": 0,
       "water_color": 131331,
       "water_fog_color": 0,
+      "grass_color": 16768959,
       "ambient_sound": "minecraft:ambient.warped_forest.loop"
     },
     "features": [
