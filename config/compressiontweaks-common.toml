@@ -16,10 +16,4 @@
 	"EMI Recipe Blacklist" = []
 	#How much mana should a glider with the manasteel upgrade (reskinned nether upgrade) draw to repair a previously lost point of durability. Manasteel armor is 140.
 	"Glider Damage Repair Cost" = 500
-	#The primary pool of biomes. These generate wherever is not coast or ocean
-	"Primary Biome Pool" = "{\"entries\": [\"minecraft:plains\"]}"
-	#A secondary pool of biomes. These generate in coastal areas and will be partly submerged
-	"Coastal Biome Pool" = "{\"entries\": [\"minecraft:beach\"]}"
-	#The primary pool of biomes. These generate in ocean areas and should only be water biomes
-	"Ocean Biome Pool" = "{\"entries\": [\"minecraft:ocean\"]}"
 

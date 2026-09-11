@@ -44,3 +44,4 @@ config/fml.toml
 /config/fabric
 /config/ironchests
 config/fabric/indigo-renderer.properties
+icon.png
