@@ -126,6 +126,20 @@
         "natures_spirit:shrubland",
         "natures_spirit:sugi_forest",
         "natures_spirit:tropical_woods",
-        "natures_spirit:tundra"
+        "natures_spirit:tundra",
+        "atmospheric:aspen_parkland",
+        "atmospheric:dunes",
+        "atmospheric:flourishing_dunes",
+        "atmospheric:kousa_jungle",
+        "atmospheric:laurel_forest",
+        "atmospheric:petrified_dunes",
+        "atmospheric:rainforest",
+        "atmospheric:rocky_dunes",
+        "atmospheric:scrubland",
+        "atmospheric:snowy_scrubland",
+        "atmospheric:sparse_rainforest",
+        "atmospheric:sparse_rainforest_basin",
+        "atmospheric:spiny_thicket",
+        "atmospheric:hot_springs"
     ]
 }
