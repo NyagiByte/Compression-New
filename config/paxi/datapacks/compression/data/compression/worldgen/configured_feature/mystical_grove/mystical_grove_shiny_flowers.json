@@ -1,0 +1,139 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries":[
+              {
+                "data": {
+                  "Name": "botania:white_shiny_flower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "botania:light_gray_shiny_flower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "botania:gray_shiny_flower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "botania:black_shiny_flower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "botania:brown_shiny_flower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "botania:red_shiny_flower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "botania:orange_shiny_flower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "botania:yellow_shiny_flower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "botania:lime_shiny_flower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "botania:green_shiny_flower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "botania:cyan_shiny_flower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "botania:light_blue_shiny_flower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "botania:blue_shiny_flower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "botania:purple_shiny_flower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "botania:magenta_shiny_flower"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "botania:pink_shiny_flower"
+                },
+                "weight": 1
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "botania:infused_grass",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "tries": 96,
+    "xz_spread": 10,
+    "y_spread": 5
+  }
+}

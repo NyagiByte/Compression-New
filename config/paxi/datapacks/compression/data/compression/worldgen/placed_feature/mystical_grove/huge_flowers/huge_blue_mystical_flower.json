@@ -1,0 +1,17 @@
+{
+  "feature": "compression:mystical_grove/huge_flowers/huge_blue_mystical_flower",
+  "placement": [
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": "botania:infused_grass",
+        "offset": [
+          0,
+          -1,
+          0
+        ]
+      }
+    }
+  ]
+}

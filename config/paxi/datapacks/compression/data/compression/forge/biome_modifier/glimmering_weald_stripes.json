@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": "compressiontweaks:glimmering_weald",
+  "features": [
+    "compression:glimmering_weald/glimmering_weald_deepslate_stripes",
+    "compression:glimmering_weald/glimmering_weald_deepslate_stripes_alt"
+  ],
+  "step": "underground_ores"
+}

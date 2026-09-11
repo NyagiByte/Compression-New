@@ -32,6 +32,7 @@ config/xenon-options.json
 config/emi.css
 /config/worldedit
 /config/NoChatReports
+/config/spark
 fabricloader.log
 impossible_data/what_is_this_folder.txt
 spiffy_instance_data/death_point.json
@@ -42,3 +43,4 @@ config/fml.toml
 /xaero/minimap
 /config/fabric
 /config/ironchests
+config/fabric/indigo-renderer.properties

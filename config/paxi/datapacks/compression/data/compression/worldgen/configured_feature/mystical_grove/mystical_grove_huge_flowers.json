@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+        "compression:mystical_grove/huge_flowers/huge_white_mystical_flower",
+        "compression:mystical_grove/huge_flowers/huge_light_gray_mystical_flower",
+        "compression:mystical_grove/huge_flowers/huge_gray_mystical_flower",
+        "compression:mystical_grove/huge_flowers/huge_black_mystical_flower",
+        "compression:mystical_grove/huge_flowers/huge_brown_mystical_flower",
+        "compression:mystical_grove/huge_flowers/huge_red_mystical_flower",
+        "compression:mystical_grove/huge_flowers/huge_orange_mystical_flower",
+        "compression:mystical_grove/huge_flowers/huge_yellow_mystical_flower",
+        "compression:mystical_grove/huge_flowers/huge_lime_mystical_flower",
+        "compression:mystical_grove/huge_flowers/huge_green_mystical_flower",
+        "compression:mystical_grove/huge_flowers/huge_cyan_mystical_flower",
+        "compression:mystical_grove/huge_flowers/huge_light_blue_mystical_flower",
+        "compression:mystical_grove/huge_flowers/huge_blue_mystical_flower",
+        "compression:mystical_grove/huge_flowers/huge_purple_mystical_flower",
+        "compression:mystical_grove/huge_flowers/huge_magenta_mystical_flower",
+        "compression:mystical_grove/huge_flowers/huge_pink_mystical_flower"      
+    ]
+  }
+}

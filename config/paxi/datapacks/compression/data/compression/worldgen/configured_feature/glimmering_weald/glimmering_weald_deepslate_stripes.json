@@ -1,31 +1,28 @@
 {
   "type": "spelunkery:block_stripe",
   "config": {
-    "first_target": "#spelunkery:blonde_grove_stripe_target",
+    "first_target": "minecraft:deepslate",
     "first_target_placer": [
       {
         "primary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "spelunkery:rough_cinnabar_block"
+            "Name": "minecraft:cobbled_deepslate"
           }
         },
         "secondary_stone_type": {
           "type": "minecraft:simple_state_provider",
           "state": {
-            "Name": "quark:yellow_corundum",
-            "Properties": {
-              "illuminated": "true"
-            }
+            "Name": "minecraft:basalt"
           }
         },
         "stone_pattern": {
-          "noise_seed": 21,
-          "primary_min": -0.05,
-          "primary_max": 0.05,
-          "secondary_min": -0.1,
-          "secondary_max": 0.1,
-          "vertical_scale": 1
+          "noise_seed": 42,
+          "primary_min": 0.02,
+          "primary_max": 0.1,
+          "secondary_min": 0.1,
+          "secondary_max": 0.2,
+          "vertical_scale": 0.5
         }
       }
     ],
@@ -33,7 +30,7 @@
     "second_target": "#spelunkery:deepslate_target",
     "second_target_placer": [],
     "use_biome_filter": true,
-    "biomes": "compressiontweaks:blonde_grove",
+    "biomes": "compressiontweaks:glimmering_weald",
     "blank_patch_chance": 0,
     "use_height_filter": true,
     "surface_offset": 0,

@@ -24,6 +24,8 @@
                 "size": 40,
                 "preset": "overworld",
                 "land_biomes": {
+                    "compressiontweaks:mystical_grove": 5,
+                    "compressiontweaks:glimmering_weald": 1,
                     "minecraft:plains": 1,
                     "minecraft:forest": 1,
                     "minecraft:taiga": 1,
