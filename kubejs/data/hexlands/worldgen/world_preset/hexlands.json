@@ -182,7 +182,8 @@
                     "atmospheric:snowy_scrubland": 1,
                     "atmospheric:spiny_thicket": 1,
                     "atmospheric:laurel_forest": 1,
-                    "atmospheric:grimwoods": 1
+                    "atmospheric:grimwoods": 1,
+                    "atmospheric:hot_springs": 1
                 },
                 "coast_biomes": {
                     "minecraft:beach": 1,
