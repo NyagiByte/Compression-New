@@ -3420,11 +3420,6 @@
 					item: "ae2:wireless_booster"
 					type: "item"
 				}
-				{
-					id: "6B7777F527779B8C"
-					item: "ae2:biometric_card"
-					type: "item"
-				}
 			]
 			title: "Energy Bill Increaser"
 			x: 3.5d
