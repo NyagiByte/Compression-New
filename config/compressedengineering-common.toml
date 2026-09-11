@@ -10,4 +10,5 @@
 	"Arc Furnace Electrode Automation" = true
 	#Enable bypassing some restrictions in order to allow having more than one stack of an input in blueprint recipes. This config is here as a failsafe should something break.
 	"Enable Oversized Blueprint Crafting Recipes" = true
-
+	#Disable the automatically created recycling recipes for the arc furnace.
+	"Wipe Arc Furnace Recycling Recipes" = true
