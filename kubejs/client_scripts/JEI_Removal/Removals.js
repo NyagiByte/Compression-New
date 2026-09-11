@@ -524,11 +524,6 @@ JEIEvents.hideItems(event => {
     'nuclearcraft:tough_pants',
     'nuclearcraft:spaxelhoe_tough',
     'nuclearcraft:sulfuric_acid_bucket',
-    //CBMicroblock
-    'cb_microblock:stone_rod',
-    'cb_microblock:stone_saw',
-    'cb_microblock:iron_saw',
-    'cb_microblock:microblock', //Recipe left in (less clutter)
     //Vertical Slabs
     '#v_slab_compat:vertical_slabs', 
     //Immersive Aircraft   

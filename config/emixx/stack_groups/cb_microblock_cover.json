@@ -1,0 +1,8 @@
+{
+  "id": "abyssal_decor:cb_microblock_covers",
+  "type": "emixx:group",
+  "contents": [
+    "cb_microblock:microblock"
+  ],
+  "enabled": true
+}
