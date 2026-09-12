@@ -1,6 +1,6 @@
 # So you have chosen ~~death~~ contributing to Compression
 
-You may fork the repository if you do not have commit access and replicate the steps on your fork. 
+
 
 1. [Get Started](#how-to-get-started)
 2. [Git usage](#git-usage)
@@ -11,6 +11,15 @@ You may fork the repository if you do not have commit access and replicate the s
 Learn Git 101!
 
 Then, either use a git UI client or the CLI:  
+
+## Repo Access
+You may fork the repository if you do not have commit access and replicate the steps on your fork. 
+
+If you do not have access to pull the submodule, then you can still somewhat use the repo by
+1. follow below instructions for setting up the launcher but dont delete the mods folder
+1. Clone the main repo without submodule
+1. Checkout the latest release tag `git checkout tags/2.4.1.r`
+1. Add "mods/*" to the .gitignore file
 
 ## Git UI Client
 
@@ -208,7 +217,7 @@ or
 git stash -u && git stash drop
 ```
 
-**Both will delete any changes you made.**
+**Both will delete any changes you made since the last commit.**
 
 If you already committed a bad thing, the *easiest* solution is probably:
 1. Copy the files with changes you actually want to keep to another location
