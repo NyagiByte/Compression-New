@@ -2036,35 +2036,22 @@
 
 		{"namespace": "echovoids", "path": "recipes/obsidian_sand_r.json"},
 		{"namespace": "echovoids", "path": "recipes/end_rod.json"},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		{"namespace": "echovoids", "path": "loot_tables/blocks/yellow_wood.json"},
+		{"namespace": "echovoids", "path": "loot_tables/blocks/yellow_trapdoor.json"},
+		{"namespace": "echovoids", "path": "loot_tables/blocks/yellow_stairs.json"},
+		{"namespace": "echovoids", "path": "loot_tables/blocks/yellow_slab.json"},
+		{"namespace": "echovoids", "path": "loot_tables/blocks/yellow_pressure_plate.json"},
+		{"namespace": "echovoids", "path": "loot_tables/blocks/yellow_planks.json"},
+		{"namespace": "echovoids", "path": "loot_tables/blocks/yellow_log.json"},
+		{"namespace": "echovoids", "path": "loot_tables/blocks/yellow_fence_gate.json"},
+		{"namespace": "echovoids", "path": "loot_tables/blocks/yellow_fence.json"},
+		{"namespace": "echovoids", "path": "loot_tables/blocks/yellow_door.json"},
+		{"namespace": "echovoids", "path": "loot_tables/blocks/yellow_button.json"},
+		{"namespace": "echovoids", "path": "loot_tables/blocks/limbsdense.json"},
+		{"namespace": "echovoids", "path": "loot_tables/blocks/chorus_brick.json"},
+		{"namespace": "echovoids", "path": "loot_tables/blocks/chorus_tile.json"},
+		{"namespace": "echovoids", "path": "loot_tables/blocks/chorus_log.json"},
+		{"namespace": "echovoids", "path": "loot_tables/blocks/staticblondesapling.json"},
 
 
 
