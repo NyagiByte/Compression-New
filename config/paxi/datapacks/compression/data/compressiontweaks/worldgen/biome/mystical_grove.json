@@ -24,7 +24,13 @@
     "sky_color": 4254199,
     "water_color": 12715519,
     "water_fog_color": 3539028,
-    "grass_color": 27000
+    "grass_color": 27000,
+    "particle": {
+      "options": {
+        "type": "minecraft:cherry_leaves"
+      },
+      "probability": 0.001
+    }
   },
   "features": [
     [],
