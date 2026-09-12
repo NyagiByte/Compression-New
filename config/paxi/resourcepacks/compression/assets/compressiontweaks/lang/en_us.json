@@ -21,5 +21,18 @@
   "compressiontweaks.jei.opa.opa/molybdenum": "Molybdenum",
   "compressiontweaks.jei.opa.opa/nickel": "Nickel",
   "compressiontweaks.jei.opa.opa/vanadium": "Vanadium",
-  "compressiontweaks.jei.opa.opa/zinc": "Zinc"
+  "compressiontweaks.jei.opa.opa/zinc": "Zinc",
+
+  "biome.compressiontweaks.void_biome": "Void",
+  "biome.compressiontweaks.crimson_forest": "Crimson Forest",
+  "biome.compressiontweaks.warped_forest": "Warped Forest",
+  "biome.compressiontweaks.nether_wastes": "Nether Wastes",
+  "biome.compressiontweaks.basalt_deltas": "Basalt Deltas",
+  "biome.compressiontweaks.end": "End Highlands",
+  "biome.compressiontweaks.pearlescent_cliffs": "Pearlescent Cliffs",
+  "biome.compressiontweaks.blonde_grove": "Blonde Grove",
+  "biome.compressiontweaks.entropic_delta": "Entropic Delta",
+  "biome.compressiontweaks.mystical_grove": "Mystical Grove",
+  "biome.compressiontweaks.glimmering_weald": "Glimmering Weald",
+  "biome.compressiontweaks.sculk_lands": "Sculk Lands"
 }
