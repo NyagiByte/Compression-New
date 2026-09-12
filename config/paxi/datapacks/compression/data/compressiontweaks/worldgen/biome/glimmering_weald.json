@@ -17,10 +17,17 @@
       "max_delay": 24000,
       "replace_current_music": false
     },
-    "sky_color": 7907327,
-    "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "sky_color": 7311758,
+    "fog_color": 16446142,
+    "water_color": 14282990,
+    "water_fog_color": 329011,
+    "grass_color": 8618883,
+    "particle": {
+      "options": {
+        "type": "minecraft:spore_blossom_air"
+      },
+      "probability": 10
+    }
   },
   "carvers": {
     "air": [
