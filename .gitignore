@@ -45,3 +45,5 @@ config/fml.toml
 /config/ironchests
 config/fabric/indigo-renderer.properties
 icon.png
+# ATLauncher stuff so git stash -u && git drop does not delete
+instance.*
