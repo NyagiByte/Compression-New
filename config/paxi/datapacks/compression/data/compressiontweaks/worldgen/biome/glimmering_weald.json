@@ -77,7 +77,8 @@
     [
       "minecraft:glow_lichen",
       "compression:glimmering_weald/small_glow_shrooms",
-      "compression:glimmering_weald/glimmering_weald_vegetation"
+      "compression:glimmering_weald/glimmering_weald_vegetation",
+      "compression:glimmering_weald/glimmering_weald_underwater_vegetation"
     ],
     [
       "minecraft:freeze_top_layer"
