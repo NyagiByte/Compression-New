@@ -12,13 +12,25 @@
                 "data": {
                   "Name": "quark:glow_shroom"
                 },
-                "weight": 60
+                "weight": 30
               },
               {
                 "data": {
                   "Name": "quark:glow_lichen_growth"
                 },
-                "weight": 40
+                "weight": 30
+              },
+              {
+                "data": {
+                  "Name": "spelunkery:mushgloom"
+                },
+                "weight": 20
+              },
+              {
+                "data": {
+                  "Name": "spelunkery:phosphor_fungus"
+                },
+                "weight": 20
               }
             ]
           }

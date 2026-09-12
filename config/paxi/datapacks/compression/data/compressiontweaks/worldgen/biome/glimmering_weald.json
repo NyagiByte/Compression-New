@@ -69,6 +69,7 @@
     [
       "quark:glow_shrooms",
       "quark:glow_shrooms_extra"
+      
     ],
     [
       "spring_water",
@@ -76,7 +77,9 @@
     ],
     [
       "minecraft:glow_lichen",
+      "compression:glimmering_weald/glimmering_weald_phosphor_shrooms",
       "compression:glimmering_weald/small_glow_shrooms",
+      "compression:glimmering_weald/small_mushglooms",
       "compression:glimmering_weald/glimmering_weald_vegetation",
       "compression:glimmering_weald/glimmering_weald_underwater_vegetation"
     ],

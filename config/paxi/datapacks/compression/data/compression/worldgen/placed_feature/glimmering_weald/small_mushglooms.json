@@ -1,5 +1,5 @@
 {
-  "feature": "compression:glimmering_weald/small_glow_shroom",
+  "feature": "compression:glimmering_weald/small_mushgloom",
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",
@@ -9,11 +9,7 @@
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:matching_blocks",
-        "blocks": [
-                    "minecraft:deepslate",
-                    "minecraft:cobbled_deepslate",
-                    "minecraft:basalt"
-                ],
+        "blocks": "minecraft:deepslate",
         "offset": [
           0,
           -1,

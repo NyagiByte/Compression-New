@@ -1,9 +1,9 @@
 {
-  "feature": "compression:glimmering_weald/small_glow_shroom",
+  "feature": "compression:glimmering_weald/glimmering_weald_phosphor_shrooms",
   "placement": [
     {
       "type": "minecraft:count_on_every_layer",
-      "count": 5
+      "count": 1
     },
     {
       "type": "minecraft:block_predicate_filter",
