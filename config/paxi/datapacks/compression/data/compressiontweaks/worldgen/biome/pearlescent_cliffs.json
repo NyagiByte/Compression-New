@@ -61,7 +61,7 @@
       "creature": [
         {
           "type": "minecraft:allay",
-          "maxCount": 4,
+          "maxCount": 2,
           "minCount": 1,
           "weight": 10
         }
