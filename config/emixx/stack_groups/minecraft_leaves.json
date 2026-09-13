@@ -1,0 +1,11 @@
+{
+  "id": "minecraft:leaves",
+  "type": "emixx:group",
+  "contents": [
+    "#minecraft:leaves",
+    "echovoids:chorus_petal_leaves",
+    "abyssal_decor:wisteria_leaves_elder",
+    "echovoids:nillow_leaves"
+  ],
+  "enabled": true
+}
