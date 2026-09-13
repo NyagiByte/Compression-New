@@ -16,4 +16,6 @@
 	"EMI Recipe Blacklist" = []
 	#How much mana should a glider with the manasteel upgrade (reskinned nether upgrade) draw to repair a previously lost point of durability. Manasteel armor is 140.
 	"Glider Damage Repair Cost" = 500
+	#Disable switching existing worlds to the new biome generation introduced in Compression 2.5.0.r. We do not recommend doing this, the cutoff is worth the new generation
+	"Disable New Biome System" = false
 

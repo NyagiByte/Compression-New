@@ -57,3 +57,4 @@ config/fabric/indigo-renderer.properties
 config/ironchests/defaults.properties
 config/xaero/
 impossible_data/asm_debug/
+config/globalgamerules-common.toml

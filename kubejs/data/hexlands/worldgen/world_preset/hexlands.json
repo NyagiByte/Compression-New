@@ -23,6 +23,7 @@
                 "type": "compressiontweaks:random",
                 "size": 40,
                 "preset": "overworld",
+                "crater_biome": "compressiontweaks:impact_site",
                 "land_biomes": {
                     "atmospheric:aspen_parkland": 10,
                     "atmospheric:dunes": 10,
