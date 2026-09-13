@@ -77,20 +77,19 @@
   "spawners": {
     "ambient": [],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:strider",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 60
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [
       {
         "type": "minecraft:enderman",
         "maxCount": 4,
         "minCount": 4,
+        "weight": 1
+      },
+      {
+        "type": "minecraft:strider",
+        "maxCount": 1,
+        "minCount": 1,
         "weight": 1
       }
     ],

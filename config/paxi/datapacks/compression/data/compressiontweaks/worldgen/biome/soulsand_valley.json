@@ -31,7 +31,7 @@
     "sky_color": 8783401,
     "water_color": 16751963,
     "water_fog_color": 4325376,
-    "grass_color": 6827292
+    "grass_color": 8002314
   },
   "features": [
     [],
@@ -87,20 +87,13 @@
   "spawners": {
     "ambient": [],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:strider",
-        "maxCount": 2,
-        "minCount": 1,
-        "weight": 60
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [
       {
-        "type": "minecraft:skeleton",
+        "type": "minecraft:wither_skeleton",
         "maxCount": 5,
-        "minCount": 5,
+        "minCount": 3,
         "weight": 20
       },
       {

@@ -1,12 +1,12 @@
 [
   {
-    "mob": ["minecraft:skeleton", "minecraft:stray", "quark:forgotten"],
+    "mob": ["minecraft:skeleton", "minecraft:stray", "quark:forgotten", "minecraft:wither"],
     "when": "onjoin",
     "spawntype": ["mob_summoned", "spawn_egg", "spawner"],
     "result": "default"
   },
   {
-    "mob": ["minecraft:skeleton", "minecraft:stray", "quark:forgotten"],
+    "mob": ["minecraft:skeleton", "minecraft:stray", "quark:forgotten", "minecraft:wither"],
     "when": "onjoin",
     "spawner": false,
     "result": "deny"
