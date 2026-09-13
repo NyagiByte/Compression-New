@@ -1,0 +1,886 @@
+
+#Master switch for every patch in this mod. Useful for A/B testing.
+[general]
+	enabled = true
+
+#Curios API patches.
+[curios]
+	#Skip the per-tick curios handler for entity types that have no curio slots at all.
+	skipSlotlessEntities = true
+	#Skip the client-side curios tick for non-player entities.
+	skipClientTickOnNonPlayers = true
+	#Never attach the Curios render layer to non-player entity renderers.
+	skipNonPlayerRenderLayer = true
+	#Cache the per-entity curio slot lookup on the entity itself.
+	cacheEntitySlotLookup = true
+	#Answer 'this entity is not wearing that item' from a per-tick set instead of a full curios inventory walk.
+	fastEquippedItemMiss = true
+	#Answer ICuriosItemHandler#findFirstCurio(Item) from the same per-tick set instead of walking every slot handler.
+	fastFindFirstMiss = true
+	#Hand out one reusable unmodifiable view of an entity's curio slot map instead of wrapping the map again on every single call.
+	reuseCurioMapView = true
+
+#Artifacts patches.
+[artifacts]
+	#Skip the client-side Artifacts living tick for non-player entities.
+	skipClientTickOnNonPlayers = true
+	#Skip the kitty slippers curios scan when the entity has no last-hurt-by mob.
+	fastPathKittySlippers = true
+	#Skip the charm of sinking curios scan when the umbrella glide check cannot pass anyway.
+	fastPathUmbrella = true
+
+#Caelus patches.
+[caelus]
+	#Skip the flight attribute lookup for non-player entities that are not already fall-flying.
+	skipGroundedNonPlayers = true
+
+#Block Swap patches.
+[blockswap]
+	#Filter the retro-gen chunk sweep through each section's block state palette.
+	paletteFilteredRetroGen = true
+
+#Just Dire Things patches.
+[justdirethings]
+	#Read the item entity's block state through getChunkNow instead of the loading getChunk.
+	avoidChunkTickets = true
+	#Stop the area preview renderer copying every block entity of all 169 nearby chunks into a fresh list every frame, and skip the whole 169 chunk sweep for the rest of a tick once that tick's first frame found no area affecting block at all. A preview switched on part way through a tick shows up on the next one.
+	leanAreaPreviewScan = true
+
+#Goety's Delight patches.
+[goetydelight]
+	#Run the cherry blossom cake entity sweep once every N server ticks instead of every tick.
+	#Range: 1 ~ 100
+	cakeScanInterval = 4
+	#Skip the per-frame walk over every entity in the level while no entity carries a visual effect. The walk re-arms as soon as one is added or synced.
+	skipIdleVisualEffects = true
+	#Test the log tag against the item itself instead of building a throwaway ItemStack for every item in the registry on every boat plate result lookup.
+	leanLogScan = true
+	#Keep the boat plate log list instead of rescanning the whole item registry on every result lookup. Rebuilt whenever tags reload.
+	cacheLogItems = true
+
+#Better Combat patches.
+[bettercombat]
+	#Cache WeaponRegistry#getAttributes per item. Stock does a registry reverse lookup plus a map get on every Player#getItemBySlot call, twice.
+	cacheWeaponAttributes = true
+
+#CoFH Core patches.
+[cofh]
+	#Remember which entity classes have a translucent renderer so the per-frame entity walk skips the renderer lookup for the rest.
+	cacheTranslucentRenderers = true
+
+#Create patches.
+[create]
+	#Read each block position at most once per big outline pick. Stock tests a 3x3x3 neighbourhood at every raycast step, so neighbouring steps re-read the same positions.
+	dedupeBigOutlineProbes = true
+	#Shortest gap, in milliseconds, between Create's big outline raycasts. Create casts a fresh ray from your eye to your reach limit on every frame drawn, so above a hundred frames a second it casts far more often than the outline can visibly change. Skipped frames keep the previous target, which also feeds block breaking and placing, so a value here is how stale that target may get. Vanilla only recalculates it every 50. 0 casts on every frame.
+	#Range: 0 ~ 50
+	bigOutlinePickInterval = 5
+
+#XaeroLib patches.
+[xaerolib]
+	#Resolve the active config profile once per client tick instead of on every single config read.
+	cacheConfigProfile = true
+	#Answer the server-enforcement check once per client tick. Stock runs a second full config read inside every config read.
+	cacheEnforcementCheck = true
+
+#Xaero's World Map patches.
+[xaeroworldmap]
+	#Milliseconds between the map limiter's free VRAM query, which stock fires a blocking glGetIntegerv for on every single frame. 0 restores the stock every frame behaviour. Client.
+	#Range: 0 ~ 60000
+	vramPollInterval = 500
+	#Wait out the world map screen's frame budget by parking instead of spinning. While the map screen is open Xaero busy loops on System.nanoTime until 1.6ms of the frame has passed, which burns a whole core for most of every map frame. Pacing is unchanged, the thread just idles instead.
+	idleMapFrameWait = true
+	#Microseconds of the world map frame budget still spent spinning, so the wait ends on time even though the operating system wakes a parked thread late. Raise it if the map screen feels choppier than before, lower it to give the core back sooner.
+	#Range: 0 ~ 1600
+	mapFrameSpinTail = 200
+
+#GeckoLib patches.
+[geckolib]
+	#Reuse the scratch vectors GeckoLib allocates while writing model geometry.
+	reuseRenderVectors = true
+	#Memoise BakedGeoModel#getBone(String) per baked model.
+	cacheBoneLookup = true
+
+#Saint's Dragons patches.
+[saintsdragons]
+	#Enable matrix tracking on a dragon's bones once per model instead of every pass.
+	skipRedundantBoneTracking = true
+	#Look for screen shaking dragons once per tick instead of once per frame.
+	cacheShakeScan = true
+
+#ImmediatelyFast patches.
+[immediatelyfast]
+	#Find a render layer's buffer with one map lookup instead of a contains check plus a get.
+	singleBufferLookup = true
+	#End only the render layers that were actually drawn into instead of walking every fixed buffer on each flush.
+	skipIdleLayers = true
+
+#ModernFix patches.
+[modernfix]
+	#Work out which creative tabs JEI covers by indexing its item list once, instead of asking every tab whether it holds every item. Stock compares each item against each tab, and each comparison hashes the item's NBT, so the first creative search freezes for as long as it takes. Client.
+	fastRepresentedTabs = true
+
+#FancyMenu patches.
+[fancymenu]
+	#Seconds between seamless world loading screenshots. FancyMenu reads back the whole framebuffer each time, which stalls the render thread. Stock behaviour is 1.
+	#Range: 1 ~ 600
+	seamlessCaptureInterval = 30
+	#Skip FancyMenu's ThreadLocal render scale write when the value is unchanged. Stock writes it on every PoseStack push, pop and scale.
+	skipRedundantScaleWrites = true
+	#Hold FancyMenu's render scale, translation and rotation in plain fields for the render thread instead of in ThreadLocals. Stock reads or writes three ThreadLocals on every PoseStack push, pop, scale, translate and mulPose, which the profiler puts at 2.6 percent of the client thread. Other threads keep the stock ThreadLocal. Client.
+	pinRenderStateToRenderThread = true
+	#Remember which screen identifier belongs to which screen instead of working it out again on every render call. FancyMenu asks four times a frame, and answering walks a hash map, scans its whole universal identifier table for a matching value, and calls Class.forName. The cache is dropped whenever FancyMenu reloads or a new universal identifier is registered. Client.
+	cacheScreenIdentifiers = true
+
+#Entity Model Features patches.
+[emf]
+	#Stop the anger time map growing one entry per neutral mob ever rendered.
+	dropZeroAngerEntries = true
+
+#Entity Texture Features patches.
+[etf]
+	#Answer ResourceLocation#isValidPath at HEAD when the path is valid.
+	fastValidPath = true
+
+#Oculus / Iris shadow pass patches.
+[oculus]
+	#Skip sign text while rendering the shadow map.
+	skipSignTextInShadowPass = true
+	#Report items as having no enchantment glint while rendering the shadow map.
+	skipGlintInShadowPass = true
+	#Skip entity name tags while rendering the shadow map.
+	skipNameTagsInShadowPass = true
+	#Skip banner pattern layers while rendering the shadow map, keeping the base cloth.
+	skipBannerPatternsInShadowPass = true
+	#Use the vanilla entity buffer source while no shader pack is loaded. Oculus installs its batched entity renderer on every level render whether or not shaders are on, and that renderer rebuilds a translucency graph per frame. With shaders off the profiler puts it at 1.6 percent of the render thread for no visual difference. Turning a shader pack on restores the batched path. Client.
+	skipBatchingWithoutShaders = true
+
+#Armour model patches.
+[armor]
+	#Reuse the baked model parts an armour item builds for itself instead of baking them again on every call. Eighty six armour items in this pack build a whole model from scratch each time the game asks what model they use, and asking happens several times a frame per worn piece. With asynchronous model loading installed each of those bakes parks the render thread until a worker finishes. The reuse is limited to models built inside an armour model lookup and is dropped on a resource reload. Client.
+	cacheArmorModelBakes = true
+	#Remember the edge list of a block outline shape instead of walking the shape again every frame. The walk is the same work for the same block and the game repeats it once per frame for whatever you are looking at, which at a few hundred frames a second is a few hundred identical walks a second. The drawing itself is unchanged. Client.
+	cacheOutlineEdges = true
+
+#Lootr patches.
+[lootr]
+	#Skip Lootr's per-server-tick container conversion pass while its queues are empty.
+	skipIdleTileTicker = true
+	#Maximum container conversion candidates Lootr may examine per server tick.
+	#Range: 0 ~ 65536
+	tileTickerBudget = 512
+
+#Nature's Aura patches.
+[naturesaura]
+	#Keep each chunk's Nature's Aura capability handle instead of walking the capability dispatcher once per loaded chunk per second.
+	fastAuraChunkSweep = true
+
+#Xaero's Minimap patches.
+[xaerominimap]
+	#Maximum times per second the minimap redraws its map contents. Anything below the client frame rate leaves a visibly stale minimap, so this is off by default. 0 restores the stock every frame behaviour. Client.
+	#Range: 0 ~ 260
+	renderFpsCap = 0
+
+#Xaero's + Waystones compatibility patches.
+[w2w2]
+	#Collapse the waypoint file writes this mod does when waystone data arrives.
+	deferWaypointSave = true
+
+#Oh The Biomes We've Gone patches.
+[biomeswevegone]
+	#Skip the Crag Gardens and Basalt Barrera terrain passes in chunks that contain neither biome. Both passes run on every chunk generated in every dimension and build four noise generators, two weighted state providers and 512 biome lookups before they ever check whether the biome is present.
+	skipForeignChunkTerrain = true
+
+#Biolith patches.
+[biolith]
+	#Re-tag the biome source with its dimension after another mod swaps it. MCreator biome mods replace the overworld MultiNoiseBiomeSource on ServerAboutToStart, and the replacement never passes through LevelStem, so Biolith loses track of which dimension it is and silently stops applying every biome replacement and sub-biome it was asked for.
+	restampSwappedBiomeSource = true
+	#Hand Biolith the registries at the start of WorldStem instead of the end. BCLib asks every vanilla biome source for its biome list from inside that constructor, which is before Biolith has a registry to look biomes up in, and Biolith throws.
+	earlyRegistryCapture = true
+	#Return Biolith's cached biome list without entering its lock. Biolith synchronizes on the biome source on every single biome lookup, and world generation runs those lookups on several threads at once.
+	reuseBiomeEntries = true
+
+#TerraBlender patches.
+[terrablender]
+	#Cache TerraBlender's per-block namespace lookup for the duration of a biome.
+	cacheNamespaceRule = true
+
+#Terramity patches.
+[terramity]
+	#Bail out of Terramity's held item animation handler before it copies your hands.
+	skipItemAnimationCopies = true
+	#Skip Terramity's entity animation handler for entities that are not Terramity's.
+	skipForeignEntityAnimations = true
+	#Reuse the answer when a Terramity procedure raytraces the same ray twice in a row.
+	memoizeProcedureRaycasts = true
+	#Skip the four Terramity accessory tick procedures on the client, where they do nothing.
+	skipClientCurioScans = true
+	#Bail out of Terramity's armour animation handler before it re-reads your equipment.
+	skipArmorAnimationScan = true
+	#Keep Terramity's screen shaders to your own player and to shaders Terramity loaded.
+	fixPhasingShaderStomp = true
+
+#Armageddon patches.
+[armageddon]
+	#Skip Armageddon's entity animation handler for entities that are not Armageddon's.
+	skipForeignEntityAnimations = true
+	#Stop Armageddon's progression gate from re-parsing the same identifiers every tick.
+	cacheProgressionIds = true
+
+#Born in Chaos patches.
+[borninchaos]
+	#Bail out of Born in Chaos' held item animation handler before it copies your hands.
+	skipItemAnimationCopies = true
+	#Skip Born in Chaos' entity animation handler for entities that are not its own.
+	skipForeignEntityAnimations = true
+	#Stop 83 Born in Chaos mobs from resizing themselves once per tick for no reason.
+	skipRedundantDimensionRefresh = true
+	#Narrow the four Born in Chaos minion claim scans to the mod's own entities.
+	narrowMinionScans = true
+
+#Critters n' Crawlers patches.
+[cnc]
+	#Skip the twenty seven 'have you met this animal yet' player tick handlers on the client. Each one scans a four block box for its own mob and walks your whole inventory before it looks at the flag it is trying to set, and the client copy of that flag is overwritten by the server sync anyway.
+	skipClientEncounterScans = true
+	#Only let those twenty seven handlers run every this many ticks on the server. Stock runs all of them every tick for every player forever, including long after every animal has been met. A toast can appear up to interval minus one ticks later than stock. Set to 1 for stock behaviour.
+	#Range: 1 ~ 40
+	encounterScanInterval = 5
+	#Skip the mod's twenty eight way instanceof chain for entities that are not its own.
+	skipForeignEntityAnimations = true
+	#Stop the mod's twenty eight mobs from resizing themselves once per tick for no reason. Their hitbox only ever changes with baby state, which the game already refreshes on its own.
+	skipRedundantDimensionRefresh = true
+	#Only run the caribou trample check while a caribou is actually loaded. Stock builds a box, an entity scan, a comparator and a sorted stream for every living entity in the world every tick, whether or not the mod's caribou exists.
+	gateCaribouDashScan = true
+	#Look for a nearby wechuge once per client tick instead of four times per rendered frame. The fog colour and fog distance handlers each run two entity scans every frame just to ask whether one is close by.
+	cacheWechugeFogScan = true
+	#Only let the sasquatch decide whether to wear its hidden texture every this many ticks. Stock runs two sixteen block player scans per sasquatch per tick to make that call. Set to 1 for stock behaviour.
+	#Range: 1 ~ 40
+	sasquatchTextureScanInterval = 4
+	#Skip the sasquatch wood knock handler on the client, where its two hundred and sixteen block reads per sasquatch per tick can only end in a sound the client never plays.
+	skipClientWoodKnockScan = true
+	#Keep the Sobbing screen shader to your own player and to shaders Critters n' Crawlers loaded. Stock reacts to every player it ticks and tears down whatever post effect happens to be running, whether or not the mod put it there.
+	fixSobbingShaderStomp = true
+
+#Critters and Companions patches.
+[crittersandcompanions]
+	#Only run the red panda flee scan while a red panda is actually loaded. Critters and Companions bolts a priority minus one avoid goal onto bees, endermen, iron golems, llamas, polar bears, spiders, vexes and wolves, and the goal selector asks that goal whether it wants to start every other tick, which is a thirty three by eight by thirty three entity scan plus a fresh box and list per mob forever. Result is identical because a world with no red panda in it cannot contain the red panda the scan is looking for.
+	gateRedPandaAvoidGoal = true
+	#Only look for the three nearby koi fish that grant Luck every this many ticks. Stock runs a twenty block wide koi scan for every player every server tick, and the Luck it hands out already lasts two hundred and ten ticks, so the effect timer just ticks down a little between refreshes. Set to 1 for stock behaviour.
+	#Range: 1 ~ 40
+	koiLuckScanInterval = 10
+	#Work out which pearl necklace you are wearing once per player per tick instead of once per question. The lookup builds six chained streams over your thirty six inventory slots plus every curios slot, and every drowned and guardian that considers you as a target asks it again, so a dozen of them was a dozen full walks. A necklace swapped mid tick reads stale until the next tick.
+	memoNecklaceLookup = true
+	#Return from the silk leash renderer before it opens an iterator over an empty leash list. Critters and Companions calls it at the end of every living entity render and every geckolib entity render, so on a modded pack that is one throwaway iterator per visible mob per frame.
+	skipEmptyLeashRender = true
+	#Only let an empty handed otter or leaf insect look for dropped food every this many ticks. Each one runs a twenty four block wide item entity scan every tick while it has nothing in hand. A critter can notice a dropped item up to interval minus one ticks later than stock, and a critter that already found food keeps scanning every tick so its goal does not stop early. Set to 1 for stock behaviour.
+	#Range: 1 ~ 20
+	critterItemScanInterval = 4
+	#Read a critter behaviour straight out of its map instead of wrapping it in two Optionals, and skip the behaviour walk entirely when a mob has none. Critters and Companions attaches a behaviour map to every entity in the game and walks it from Mob tick, Mob aiStep and LivingEntity travel, and its models ask for a behaviour by class every frame. Result is identical.
+	fastBehaviourLookup = true
+
+#Cucumber Library patches.
+[cucumber]
+	#Look for a player within sixty four blocks before serialising a block entity, not after. Cucumber's dispatch helper writes the whole tile, inventory NBT and all, into a fresh update packet and only then asks whether anyone is close enough to receive it, and every Mystical Agriculture machine calls it at the end of every tick it changed, which for a running machine is every tick. Also swaps the Math.hypot distance test for the squared distance. Result is identical.
+	leanTileDispatch = true
+	#Ask whether an item has any tags instead of building the full lists, when you are not holding CTRL. With advanced tooltips on, stock collects every block tag, every item tag and every fluid tag, running a fluid handler capability lookup and a sorted distinct pass over them, once per hovered item per frame, and then throws all of it away to print 'Hold CTRL for tags'. Result is identical.
+	leanTagTooltip = true
+
+#Dynamic Trees patches.
+[dynamictrees]
+	#Read each block once while Dynamic Trees decides whether a leaf can go somewhere. Stock reads the target block three times and the block under it twice for a single yes or no, and the light check under it allocates a fresh position for the block below plus one per smother layer above. This check runs six times per leaf per ageing pass, and a tree generated by world gen ages its whole leaf cluster three times, so it is the single hottest thing the mod does while chunks are being built. The smother scan also stops at the first gap instead of always walking all four layers. Result is identical.
+	leanLeafPlacement = true
+	#Reuse one position object and one cell array while Dynamic Trees works out a leaf's hydration from its six neighbours. Stock allocates a six wide cell array plus a fresh BlockPos per side every time, and this runs for every leaf on every hydration update, every leaf ageing pass and every leaf it tries to grow, on both the world gen threads and the server thread. Result is identical.
+	leanLeafHydration = true
+	#Hand out a prebuilt collision shape for thick trunks instead of building a new one per query. Any branch wider than a full block skips Dynamic Trees' own shape cache and builds a fresh AABB and VoxelShape every single time the game asks for its collision box, which is once per axis per entity per tick for anything walking near a big trunk. There are only sixteen possible widths so they are all built once at load. Result is identical.
+	cacheThickTrunkShape = true
+
+#Mystical Agriculture patches.
+[mysticalagriculture]
+	#Read augments off a tinkerable with interned slot keys and a remembered id lookup. Stock builds the string 'Augment-' plus the slot number twice per slot, parses a fresh ResourceLocation for every augment it finds and allocates five lists for one set of armour, and it does that from inventoryTick on all twelve essence tools, from onArmorTick on all four armour pieces and from the armour augment tick handler, on both sides. Result is identical.
+	leanAugmentLookup = true
+	#Walk the augment ability cache with a plain loop and only build the player key once something is actually cached. Stock concatenates the player name and side into a fresh string and runs a stream, a filter, a map and a collector over the whole cache for every player every tick on both sides, even when nobody in the world has an augment equipped. Result is identical.
+	leanAbilityCache = true
+	#Skip the Soul Extractor's recipe lookup while its input slot is empty. Every other machine in the mod checks its input first, this one does not, so an idle extractor runs a full linear scan of every soul extraction recipe every tick and allocates an inventory wrapper for each one. An empty input cannot match any recipe, so the result is identical.
+	skipIdleSoulExtractor = true
+	#Remember a crop's translation key instead of rebuilding it with String.format on every name lookup. The mystical seed and essence items, roughly a hundred of them, resolve their name and their description id through it, so it runs once per hovered item per frame and again whenever a recipe viewer indexes or searches names. Result is identical.
+	memoCropNameKey = true
+
+#Skarrier Mobs patches.
+[skarriermobs]
+	#Skip Skarrier Mobs' 17 way instanceof chain for entities that are not its own.
+	skipForeignEntityAnimations = true
+	#Stop the daylight burn handler from rebuilding its entity tag key for every living entity every tick.
+	leanDaylightBurnScan = true
+	#Stop the Resisteel tool handler from rebuilding its item tag key for every living entity every tick.
+	leanResisteelToolScan = true
+	#Stop the Resisteel sword handler from firing a MobEffectEvent.Remove at every living entity every tick.
+	leanResisteelSwordScan = true
+	#Stop the Resisteel set handler from writing five NBT values into every living entity every tick.
+	leanResisteelSetTracking = true
+	#Replace fourteen sorted region scans that only ask whether a mob's own target is close by with one box test.
+	leanTargetProximityScans = true
+	#Narrow the rest of the mob region scans to the players, owners, monsters or flore heads their loop bodies actually use.
+	narrowRegionScans = true
+
+#Industrial Foregoing patches.
+[industrialforegoing]
+	#Stop the Stasis Chamber tick filter from reading, and thereby creating, a ForgeData compound on every mob in the world.
+	skipStasisTagChurn = true
+
+#Enigmatic Addons patches.
+[enigmaticaddons]
+	#Stop the addon event handler and the Annihilating Sword, Violence Scroll and Extradimensional Scepter tick handlers from reading, and thereby creating, a ForgeData compound on every entity in the world. Also removes the UUID parse and ImmutableMultimap build the sword did for every living entity every tick.
+	skipUnsetPersistentData = true
+	#Skip the Frost Protection armour scan on entities that have no freeze ticks. The addon looks the enchantment up twice for every living entity every tick, once in its own living tick handler and once through the canFreeze injector that its LivingEntity tick handler calls before checking whether the entity is freezing at all, and the second one drags two Curios inventory walks along with it. Both call sites do nothing at zero freeze ticks.
+	skipIdleFrostScan = true
+
+#Enigmatic Delicacy patches.
+[enigmaticdelicacy]
+	#Stop the Slicing enchantment tick handler from reading, and thereby creating, a ForgeData compound on every entity on both sides every tick.
+	skipUnsetPersistentData = true
+
+#Enigmatic Legacy patches.
+[enigmaticlegacy]
+	#How often the Heart of the Guardian runs its monster scan, in ticks. The item scans every hostile in a forty eight block cube every tick for every copy in an inventory, before it checks whether the wearer is cursed or whether the active ability is off cooldown, and then line of sight traces from every guardian it finds. One is the vanilla rate.
+	#Range: 1 ~ 40
+	guardianHeartScanInterval = 4
+	#Ask the Cursed Ring anger scan for the piglins and neutral mobs its loop can actually anger instead of every living entity in a forty eight block cube. The loop computes an armour and invisibility visibility fraction for every entity it is handed and then discards everything that is not a piglin or a neutral mob. Result is identical.
+	narrowCursedRingAngerScan = true
+	#Drop removed entities from the angered guardian map when a new one is added. Enigmatic Legacy keeps every guardian that has ever targeted a Heart of the Guardian bearer in a strong keyed multimap and only clears it when a world is loaded, so a session at a guardian farm retains every dead guardian.
+	pruneAngeredGuardians = true
+
+#Traveloptics patches.
+[traveloptics]
+	#Check for the Spider Aspect effect before walking every living entity's curios inventory every tick.
+	leanClimbCurioScan = true
+	#Check that the entity is a spell casting mob before reading its effect map in the Blackout and Casting handlers.
+	leanCastEffectChecks = true
+
+#Celestial Enchantments patches.
+[celestialenchantments]
+	#Skip the seven map, two array clone enchantment scan for living entities that have nothing enchanted equipped.
+	skipUnenchantedTick = true
+	#Skip the per slot enchantment map allocation for equipment slots that hold nothing enchanted.
+	leanSlotEnchScan = true
+
+#Unique Accessories patches.
+[uniqueaccessories]
+	#Answer the Waist Warmer curios lookup from the shared per tick curio presence cache instead of walking the inventory for every living entity every tick.
+	leanWaistWarmerScan = true
+	#Stop the Suspicious Mushroom and Rose of Temptation handlers from attaching an empty ForgeData tag to every entity in the world.
+	skipUnsetPersistentData = true
+
+#Blood Magic patches.
+[bloodmagic]
+	#Stop rebuilding the whole ARC recipe list on every tick of every ARC.
+	cacheArcRecipeList = true
+	#Give the ARC's furnace mode the recipe cache vanilla furnaces already have.
+	cacheArcFurnaceRecipe = true
+	#Give the item routing network's connectivity search a visited set that is actually a set.
+	fastRoutingConnectivity = true
+
+#Animus patches.
+[animus]
+	#Stop rebuilding the equivalency sigil's block outline every single frame.
+	cacheEquivalencyPreview = true
+
+#Patchouli patches.
+[patchouli]
+	#Answer 'is this item one of the guide books' from a per item cache.
+	cacheBookItemLookup = true
+
+#Structurify patches.
+[structurify]
+	#Resolve Structurify's per structure set config lookup in one hash lookup.
+	fastStructureSetLookup = true
+	#Skip Structurify's structure check bookkeeping when none of its checks are enabled.
+	skipDisabledStructureChecks = true
+	#Replace Structurify's terrain height cache with a primitive keyed one.
+	leanHeightCache = true
+	#Collect overlap check section keys without boxing them.
+	leanOverlapSections = true
+	#Stop rebuilding a structure set's entry list on every read.
+	cacheStructureSetEntries = true
+	#Restore vanilla's plain getStartForStructure while Structurify's checks are idle.
+	skipStartCheckWrap = true
+
+#Bosses' Rises patches.
+[bossesrise]
+	#Only collect Bosses' Rises entities in its per player cinematic scan.
+	narrowCinematicScan = true
+	#Walk only Bosses' Rises entities in the per frame boss VFX pass instead of every entity in the level.
+	leanVfxScan = true
+
+#Marium's Soulslike Weaponry patches.
+[soulsweapons]
+	#Read the mod's despawn timer without writing to every entity that does not have one.
+	leanDespawnTimer = true
+
+#Kind of Nice Weapon patches.
+[konweapon]
+	#Bail out of the held item animation handler before it copies your hands.
+	skipItemAnimationCopies = true
+
+#Immersive Aircraft patches.
+[immersiveaircraft]
+	#Batch the aircraft HUD instead of flushing the GUI buffer after every primitive.
+	batchOverlay = true
+
+#FTB Chunks patches.
+[ftbchunks]
+	#Stop building the minimap texture when the minimap is not being shown.
+	skipHiddenMinimapWork = true
+	#Copy a map region's five images straight into their pixel arrays instead of making 1.3 million per pixel setRGB calls on the calling thread.
+	fastRegionWrite = true
+	#Reuse the region and its image across the 225 chunk tiles of one minimap rebuild instead of taking the shared map lock for every tile.
+	memoMinimapRegions = true
+
+#Regions Unexplored patches.
+[regionsunexplored]
+	#Remember what the furnace fuel handler decided for an item instead of walking its 1100 branch block comparison chain again.
+	cacheFurnaceBurnTimes = true
+
+#Gnetum patches.
+[gnetum]
+	#Resolve an event handler's mod id with one map lookup instead of a containsKey followed by a get.
+	singleModIdLookup = true
+	#Answer gnetum's per element caching question once per tick instead of once per element per frame. Each ask is a set lookup plus a guava cache lookup and there are dozens of elements.
+	memoCacheSettings = true
+
+#Ending Library patches.
+[endinglibrary]
+	#Skip building the capability name fallback on every camera capability lookup when the registered capability is already resolved.
+	leanCameraCapLookup = true
+
+#Punchy patches.
+[punchy]
+	#Remember which resource paths no pack contains, so a repeated miss stops rescanning every loaded pack.
+	cacheResourceStackMisses = true
+
+#L2 Hostility patches.
+[l2hostility]
+	#Stop re-asking entities that cannot have traits for their trait capability.
+	skipTraitlessCapLookup = true
+
+#Ice and Fire patches.
+[iceandfire]
+	#Keep Ice and Fire's EntityData capability handle on the entity instead of in a boxed map.
+	fastEntityDataLookup = true
+	#Stop rebuilding the pathfinding debug render context on every render stage.
+	skipPathDebugRender = true
+	#Test dragon armour with the four slot ordinals instead of two built strings.
+	skipEmptyArmorLayer = true
+	#Key the dragon layered-texture cache on a packed int instead of a built string.
+	cacheDragonTexture = true
+	#Return early from the dragon banner and rider layers when they would draw nothing.
+	skipEmptyDragonLayers = true
+	#Trim the per-tick work of dragon, sea serpent and death worm body parts.
+	leanMultipartTick = true
+	#Vertical half-extent, in blocks, of the dragon target search box. -1 keeps stock.
+	#Range: -1 ~ 2048
+	dragonTargetSearchHeight = 32
+
+#Ice and Fire dragon dens as structures. Ported from IAF Dragon Fix (MIT).
+[iafdragonfix]
+	#Generate dragon roosts and caves as structures instead of as decoration features.
+	structureDens = true
+	#Minimum distance in blocks from world spawn before a dragon roost will generate.
+	#Range: 0 ~ 100000
+	roostSpawnDistance = 800
+	#Minimum distance in blocks from world spawn before a dragon cave will generate.
+	#Range: 0 ~ 100000
+	caveSpawnDistance = 800
+
+#Mowzie's Mobs patches.
+[mowziesmobs]
+	#Keep Mowzie's Mobs' four capability handles on the entity instead of re-resolving them.
+	fastCapabilityLookup = true
+	#Stop Mowzie's Mobs attaching its capabilities to every entity twice.
+	dedupeCapabilityAttach = true
+	#Reuse the camera shake entity scan within a client tick instead of once per frame.
+	cacheCameraShakeScan = true
+	#Ticks between boss music state packets. 1 keeps stock behaviour.
+	#Range: 1 ~ 100
+	bossMusicPacketInterval = 5
+	#Drop the throwaway Optional from Mowzie's per-frame bone lookups.
+	leanBoneLookup = true
+	#Compute the dynamic chain's render matrix once per chain instead of once per bone.
+	hoistChainRenderMatrix = true
+	#Maximum physics substeps per frame for dynamic chains. 0 disables the clamp.
+	#Range: 0 ~ 64
+	dynamicChainSubstepCap = 4
+	#Stop every Umvuthana follower re-scanning a 64x64x64 region for its leader every tick.
+	cacheUmvuthanaLeader = true
+	#Reuse one vector pair per cube in Mowzie's llibrary model renderer instead of allocating 30 per cube per frame.
+	leanModelBoxVectors = true
+	#Skip the Elokosa transformation layer's full model re-render while it is fully transparent.
+	skipBlankElokosaTransform = true
+	#Test the bone name before pushing a matrix in the Umvuthana and Umvuthi render layers.
+	leanLayerBoneScan = true
+	#Build the sunstrike, solar beam and solar flare render types once instead of once per entity per frame.
+	cacheEffectRenderTypes = true
+
+#Pick Up Notifier patches.
+[pickupnotifier]
+	#Draw fully opaque pick-up sprites straight to the screen instead of routing every one through a window sized off-screen render target and a full screen blit.
+	skipOpaqueSpriteBuffer = true
+
+#Placebo patches.
+[placebo]
+	#Skip the HashMap, event object and event bus dispatch Placebo builds on every single ItemStack enchantment level lookup while nothing is listening to GetEnchantmentLevelEvent.
+	skipEmptyEnchantmentEvent = true
+
+#Photon patches.
+[photon]
+	#Emit billboard particle vertices from reusable scratch vectors instead of allocating around ten JOML objects per particle per frame.
+	leanParticleQuads = true
+	#Reuse the particle's block position for the per tick light lookup while it stays inside the same block.
+	leanParticleLight = true
+	#Build trail ribbons from float locals instead of allocating about ten vectors per trail segment per frame.
+	leanTrailVertices = true
+	#Drop the emptied block effect cache entry instead of leaving one map entry and one empty list per block position for the rest of the session.
+	dropEmptyEffectCacheEntries = true
+
+#Integrated API patches.
+[integratedapi]
+	#Return early from the enhanced terrain adaptation pass when there is none in range.
+	skipEmptyBeardifier = true
+
+#Echelon patches.
+[echelon]
+	#Stop recomputing an MD5 for every tier attribute modifier.
+	cacheTierAttributeUuids = true
+
+#Elysium API patches.
+[elysiumapi]
+	#Answer a repeated climate sample for the same position from a one entry cache.
+	memoClimateSample = true
+	#Skip Elysium API's duplicate biome resolution entirely when no biome replacer exists.
+	skipUnusedBiomeReplacerLookup = true
+
+#Enigmatic Dice patches.
+[enigmaticdice]
+	#Answer the isWearing checks for the Moai Charm, Ring of Agility and Divine Shield from the per-tick curio set.
+	fastCurioMiss = true
+
+#Balm patches.
+[balm]
+	#Stop rebuilding a block state's toString on every quad request.
+	memoDynamicModelKeys = true
+
+#Moonlight Lib patches.
+[moonlight]
+	#Skip Moonlight's custom map marker refresh on maps that have no markers.
+	skipEmptyMapMarkerScan = true
+
+#Pehkui patches.
+[pehkui]
+	#Stop allocating two throwaway lambdas per scale type per entity per tick.
+	leanScaleTick = true
+	#Remember which scale type a typed scale modifier points at instead of calling its supplier again on every single scale read. WARNING: a mod that swaps the type a modifier resolves to at runtime will be pinned to the first answer.
+	memoModifierType = true
+	#Work out an entity's interaction box scales once a tick instead of twice for every entity walked by every AABB query. A scale set part way through a tick is seen on the next one.
+	memoInteractionBoxScales = true
+	#Let Pehkui keep its already existing per tick scale cache on the client too. Pehkui only fills that cache on the server, so every client side scale read walks the whole modifier chain again. WARNING: if a mod changes an entity's scale without going through Pehkui's own setters, the visual size can lag by one tick. Turn this off if you see entities stuck at the wrong size.
+	cacheClientScales = true
+
+#Relics patches.
+[relics]
+	#Cap the homing speed of the Holy Locket death and life essences. Their arc step scales with both the distance to the target and their own age, so an essence that misses for long enough accelerates without bound until its query box overflows the entity section index and crashes the game.
+	clampEssenceSpeed = true
+	#Upper bound in blocks per tick for that cap. The step is also never allowed to exceed the remaining distance to the target, so the essence stops overshooting and converges instead.
+	#Range: 0.5 ~ 64.0
+	essenceMaxSpeed = 4.0
+
+#More Relics patches.
+[morerelics]
+	#Build the combined curio inventory once per equipped relic scan instead of twice for every single slot. More Relics calls getEquippedCurios() inside both the loop condition and the loop body, so a thirty slot player allocates sixty throwaway inventory wrappers per relic overlay per frame.
+	hoistEquippedCurios = true
+
+#Terra Curio patches.
+[terracurio]
+	#Answer Terra Curio's 'is this accessory equipped' questions from the shared per-tick curio presence set instead of walking every curio slot handler again. CuriosUtils#noSameCurio runs once per living entity per tick out of LivingEntity#getFrictionInfluencedSpeed, and about ten more times per damage event, and almost every one of those is a miss.
+	cachedCurioLookup = true
+	#Read Terra Curio's custom attribute remap table from a plain map instead of the synchronised Hashtable it lives in. The table is filled once during setup and never written again, but ModAttributes#hasCustomAttribute is called for every living entity every tick on both the client and the server thread, so every one of those calls takes a monitor on the same shared object.
+	leanAttributeMap = true
+	#Skip Terra Curio's aggro retarget pass while no online player carries a non zero aggro value. The handler runs on every LivingChangeTargetEvent, and each run streams every player in the dimension with a distance and canAttack check, even though the result can only differ from vanilla when some player has actually modified aggro. The player scan is cached once per dimension per tick.
+	skipIdleAggroScan = true
+	#Only write Terra Curio's onPosIsIce flag when it actually changes. Ice Skates, Frostspark Boots and Terraspark Boots rewrite the flag onto the stack every single tick, which marks the stack dirty, so Curios resyncs the accessory to the client and reapplies its attribute modifiers every tick for as long as the boots are worn.
+	skipUnchangedIceFlag = true
+
+#Cosmetic Armor Reworked patches.
+[cosmeticarmor]
+	#Keep each player's armour restore queue on the player instead of in a weak keyed Guava cache. The cache is looked up twice per rendered player per frame plus twice more for the held item and the arm, and every lookup pays a hash and a segment read.
+	perPlayerRestoreQueue = true
+
+#More Hitboxes patches.
+[morehitboxes]
+	#Skip More Hitboxes' multipart pass over the result of every entity box query when the result holds no multipart. The pass allocates a hash set and re-tests the predicate for each hit, and almost every query returns none.
+	skipAbsentMultiPartFilter = true
+
+#Tons Of Enchants patches.
+[tonsofenchants]
+	#Stop every player broadcasting a pointless attribute sync packet every tick.
+	skipAbsentAttributeRemoval = true
+	#Skip the Frostbite entity scan on the client, where it cannot do anything.
+	frostbiteSkipClient = true
+	#Look the attribute up once instead of three times.
+	leanAttributeLookup = true
+	#Run each of the seventeen PlayerTickEvent listeners once a tick instead of twice.
+	singlePhasePlayerTick = true
+
+#Subtle Effects patches.
+[subtleeffects]
+	#Test the firefly light condition before the biome lookup instead of after it.
+	fireflyDarknessGate = true
+	#Stop scanning biome particle positions that no setting can spawn at.
+	capBiomeParticleScan = true
+	#Drain the ticker removal queue in one pass instead of one ArrayList#remove each.
+	leanTickerRemoval = true
+	#Skip the geyser scan on blocks no geyser type can spawn on.
+	geyserBlockPreFilter = true
+
+#Ars Energistique patches.
+[arseng]
+	#Stop registering a capability listener that can never be observed.
+	skipDeadRelayListeners = true
+	#Stop attaching the SOURCE_TILE wrapper to block entities that cannot back it.
+	gateGenericInvWrapper = true
+
+#Perception patches.
+[perception]
+	#Stop allocating a throwaway trail config for every entity and every particle.
+	shareDefaultTrailData = true
+
+#Quark patches.
+[quark]
+	#Stop attaching a persistent data compound to every animal in the world.
+	skipPigLitterTagChurn = true
+
+#Zeta patches. Zeta is Quark's module and event framework.
+[zeta]
+	#Stop allocating an iterator for every block every structure places.
+	leanStructureReplacement = true
+	#Build one Zeta event wrapper per dispatch instead of one per listener.
+	shareEventWrappers = true
+
+#Dungeon Crawl patches.
+[dungeoncrawl]
+	#Stop asking for a block entity after placing a block that cannot have one.
+	skipBlockEntityProbe = true
+
+#Goety patches.
+[goety]
+	#Reuse the LazyOptional Goety's capability providers build.
+	cacheCapabilityOptional = true
+	#Stop building the throwaway capability fallback on every query.
+	skipCapabilityFallback = true
+	#Memoise the constant attribute modifiers Goety rebuilds every tick.
+	memoAttributeModifiers = true
+	#Answer SEHelper#isAlly without resolving anything when the player has no allies.
+	fastEmptyAllyCheck = true
+	#Answer CuriosFinder#findCurio(LivingEntity, Item) misses from the per-tick curio set.
+	fastCurioItemMiss = true
+	#Skip the boss music target lookup for entities that have no boss music. Client.
+	skipBossMusicTargetLookup = true
+	#Run the fog listener's Wight#findWight scan once per tick instead of once per posted RenderFog event. Client.
+	cacheFogWightScan = true
+	#Answer repeated CuriosFinder#findCurio(LivingEntity, Predicate) lookups from a per-tick per-entity memo.
+	memoCurioFilter = true
+	#Run the camera shake entity scan once per tick instead of once per frame. Client.
+	cacheShakeScan = true
+
+#L_Ender's Cataclysm patches.
+[cataclysm]
+	#Run the camera shake entity scan once per tick instead of once per frame. Client.
+	cacheShakeScan = true
+
+#Dodo's Mobs patches.
+[dodosmobs]
+	#Run the camera shake entity scan once per tick instead of once per frame. Client.
+	cacheShakeScan = true
+
+#EEEAB's Mobs patches.
+[eeeabsmobs]
+	#Run the camera shake entity scan once per tick instead of once per frame. Client.
+	cacheShakeScan = true
+
+#From The Shadows patches.
+[fromtheshadows]
+	#Run the camera shake entity scan once per tick instead of once per frame. Client.
+	cacheShakeScan = true
+
+#GTBCS Spell Lib patches.
+[gtbcs]
+	#Run both camera shake entity scans once per tick instead of once per frame. Client.
+	cacheShakeScan = true
+
+#Legendary Monsters patches.
+[legendarymonsters]
+	#Run the camera shake and dynamic zoom entity scans once per tick instead of once per frame. Client.
+	cacheShakeScan = true
+
+#Myths and Legends patches.
+[mythsandlegends]
+	#Run the boss scan behind the fog and fog colour listeners once per tick instead of once per posted event. Client.
+	cacheFogBossScan = true
+	#Run the screen shake entity scan once per tick instead of once per frame. Client.
+	cacheShakeScan = true
+
+#AmbientSounds patches.
+[ambientsounds]
+	#Work out whether a biome matches a region's biome patterns once instead of running the regex every client tick. Client.
+	memoBiomeMatch = true
+
+#Ars Nouveau patches.
+[arsnouveau]
+	#Ticks between refreshes of the offscreen sky texture, which costs a second full sky, cloud and weather pass plus a fog event post every frame. 1 refreshes once a tick, 0 restores the stock every frame behaviour. Client.
+	#Range: 0 ~ 200
+	skyTextureInterval = 1
+
+#Goety Revelation patches.
+[goetyrevelation]
+	#Answer ATAHelper#hasHalo and #hasBrokenHalo from the per-tick curio set.
+	cacheHaloLookup = true
+
+#RevelationFix patches. RevelationFix ships jar-in-jar inside Goety Revelation.
+[revelationfix]
+	#Skip the walk-on-fluid probe for entities that can never walk on fluid.
+	skipMobFluidStandScan = true
+	#Stop posting RevelationFix's hurt-by-target events for mobs that ignore them.
+	skipNonSpiderHurtByTargetEvents = true
+
+#Macabre patches.
+[macabre]
+	#Skip Macabre's entity animation handler for entities that are not Macabre's.
+	skipForeignEntityAnimations = true
+	#Bail out of Macabre's held item animation handler before it copies your hands.
+	skipItemAnimationCopies = true
+	#Send Macabre's variable sync packets once per tick instead of once per assignment.
+	coalesceVariableSync = true
+
+#Alex's Mobs patches.
+[alexsmobs]
+	#Stop attaching the snow leopard and tiger avoidance goals to every creeper.
+	skipCreeperAvoidGoals = true
+	#How often a vanilla spider may scan for Alex's Mobs flies, in goal evaluations.
+	#Range: 1 ~ 200
+	spiderFlyScanInterval = 10
+	#Release the level keyed maps Alex's Mobs never clears, when a server stops.
+	releaseLevelMaps = true
+
+#Alex's Caves patches.
+[alexscaves]
+	#Stop recomputing Alex's Caves' cave biome placement 96 times per column.
+	memoRareBiomeQuads = true
+	#Answer Alex's Caves' duplicate climate sample from a one entry cache.
+	memoClimateSample = true
+	#Look for screen shaking mobs once per tick instead of once per frame.
+	cacheShakeScan = true
+
+#Ad Astra patches.
+[adastra]
+	#Memoise Ad Astra's per-dimension gravity and temperature constants.
+	memoPlanetDefaults = true
+
+#Supplementaries patches.
+[supplementaries]
+	#Skip the enderman skull's 64 block look ray when no player is aiming anywhere near it.
+	leanEndermanSkullWatch = true
+	#Only run Supplementaries' antique ink chunk sync for signs instead of every block entity in every chunk sent.
+	skipNonSignCapSync = true
+	#Cache the tinted map block lookup instead of walking five tags per map pixel per tick.
+	memoMapTintLookup = true
+
+#Amendments patches.
+[amendments]
+	#Stop wall lanterns broadcasting a sway packet every tick for entities that are not moving.
+	skipIdleSwaySync = true
+
+#Create: Copycats+ patches.
+[copycats]
+	#Remember each block state's occlusion answer instead of re-running Copycats+' holder and instanceof checks on every canOcclude call.
+	memoStateOcclusion = true
+	#Skip the config lookup, registry lookup and string building Copycats+ runs for every block entity and structure block that is not a copycat.
+	fastMigrationChecks = true
+	#Read the two Copycats+ client model settings at most once per second instead of twice per copycat model query.
+	cachedModelConfig = true
+	#Replace the lambda and platform lookups Copycats+ runs on every Create block entity update with one cached class check.
+	leanVirtualWorldCheck = true
+
+#Vanilla patches. These are the only patches here that are not aimed at a specific mod.
+[vanilla]
+	#Maximum times a dropped item stack's model is drawn.
+	#Range: 0 ~ 5
+	itemEntityRenderCap = 1
+	#Resolve a rendered string's font set once instead of once per glyph.
+	memoGlyphFontSet = true
+	#Makes /locate a lot faster, especially for rare structures.
+	fasterStructureLocation = true
+	#Stops boats breaking into planks when you ride them off a drop.
+	fixBoatFallDamage = false
+	#Drops from broken blocks land dead centre instead of scattering.
+	predictableItemDrops = false
+	#Stop the entity tracker allocating a SectionPos for every tracked entity every tick.
+	leanTrackerSectionPos = true
+	#Do the suffocation check with a loop instead of a Java stream.
+	leanSuffocationScan = true
+	#Stop the container sync allocating a memoizing supplier for every slot every tick.
+	leanMenuBroadcast = true
+	#Stop the entity tracker allocating a movement vector for entities that did not move.
+	leanTrackerDelta = true
+	#Answer repeated biome lookups on the render thread from a small per tick cache. Fog and sky colour sample 27 biomes per call, several times a frame.
+	cacheBiomeQuartLookups = true
+	#Work out what fluid the camera is in once per camera position instead of once per caller.
+	memoCameraFluid = true
+	#Work out the sky colour once per camera position per frame. Fog setup, the sky renderer and shader uniform packs each ask for it separately and every call samples 27 biomes.
+	memoSkyColour = true
+	#Blend biome colours from a cached, incrementally summed grid instead of resampling the biome under every block in the blend square. Vanilla resamples the full square for every block, which is up to 225 biome lookups per block at the default blend radius. Output is identical.
+	fastBiomeBlend = true
+	#Multiplier for the four thresholds the server uses to reject a movement packet: the 100 and 300 blocks per tick squared speed caps in handleMovePlayer, the 100 in handleMoveVehicle, and the 0.0625 desync tolerance in both. At the default of 100 a player may cover 100 blocks in a tick and land 2.5 blocks away from where the server simulated them before anything is rejected, which is what stops elytra, mounts, teleports and scaled entities getting rubberbanded on a loaded server. The block clipping checks are untouched, so a client still cannot walk into a wall. Set to 1 for vanilla behaviour.
+	#Range: 1.0 ~ 1.0E9
+	movementCheckSlack = 100.0
+	#Stop the server kicking a player with "Flying is not enabled on this server" after 80 ticks of unsupported hovering. The check only ever arms when allow-flight is false in server.properties, which cannot be changed without a restart, and it fires on anything that keeps you off the ground without the fly ability: elytra stalls, jetpacks, grappling hooks, scaled entities, riding a laggy vehicle. Nothing else in the game reads that setting, so turning this on leaves no other behaviour changed, and it skips a block scan on every accepted movement packet.
+	disableFlyingKick = true
+	#Every five seconds, drop dead player copies that another mod left registered as chunk loaders. Such ghosts keep hundreds of chunks loaded and spawning mobs at wherever they died until restart.
+	purgeGhostPlayers = true
+	#Remember which bone of a model a given name belongs to instead of walking the whole model tree again for every bone of every keyframe animation. Vanilla answers that question with a recursive stream over every part of the model, once per animated bone per entity per frame, and every walk allocates a few objects per part it visits. Result is identical.
+	cacheModelPartLookups = true
+	#Run keyframe animations with plain loops. Vanilla allocates two capturing lambdas per animated bone and one more per animation channel, every entity every frame, which is a large part of the garbage the render thread produces. Output is identical, but a mod injecting into the middle of KeyframeAnimations.animate will not run while this is on.
+	leanKeyframeAnimation = true
+
+#Create: Solar patches.
+[createsolar]
+	#Look up Create's goggles check once instead of once per frame. Create: Solar reflects for a method that this Create version does not have, so every single frame it builds and throws a NoSuchMethodException, fills in its stack trace and gives up. The overlay it was going to draw is dead either way, this just stops it costing anything.
+	memoGogglesLookup = true
+
+#MCreator mod patches.
+[mcreator]
+	#Hand MCreator mods one shared empty player variables object instead of allocating a throwaway on every single variable read. Procedures that read variables per tick or per frame can otherwise churn hundreds of megabytes of garbage. This rewrites the mods' classes as they load, so a change here only takes effect from the next launch.
+	shareDefaultPlayerVariables = true
+
+#Distant Horizons patches.
+[distanthorizons]
+	#Drop Distant Horizons' biome wrapper caches when it unloads its world. Those caches are static, are never cleared, and are keyed on the biome registry objects the server hands out on join, so every world you leave keeps its whole biome registry alive for the rest of the session. It also means the LOD tint colours after a world change are still resolved against the previous world's biomes.
+	clearBiomeCachesOnUnload = true
+	#Remember the last biome colour while Distant Horizons blends the biome tint of an LOD block. At the default blend radius of three the blend samples forty nine neighbours per tinted block and looks each one's colour up through three concurrent hash maps, and neighbouring blocks are almost always in the same biome. Result is identical.
+	memoBiomeBlendColors = true
+	#Remember the last biome while Distant Horizons converts a chunk column into an LOD. Biomes are stored per four blocks but the converter asks for one per block going down the whole column, so three out of four lookups repeat the previous answer. Result is identical.
+	cacheChunkBiomeLookup = true
+
+#Summonity patches.
+[summonity]
+	#Remember each player's owned minion list for the rest of the tick. MinionHelper#getOwnedMinions is a 256 block wide entity scan plus a sort, and almost every minion asks for it every tick to work out its formation slot, on top of the per player tick handlers, so ten minions were ten to fifteen of those scans a tick. The list is dropped the moment any minion joins or leaves the level, so summoning, dismissing and slot counting inside the same tick still see the real state.
+	cacheOwnedMinionScans = true
+	#Only let an idle minion scan for a new enemy every this many ticks, staggered per minion. Every minion without a target scans a minion range wide box of mobs every tick and streams for the closest one. A minion can react up to interval minus one ticks later than stock. Set to 1 for stock behaviour.
+	#Range: 1 ~ 20
+	idleTargetScanInterval = 4
+	#Keep the Stardust Dragon's list of body parts for five ticks instead of running a 128 block wide entity scan once or twice per tick per dragon head. The list is refreshed whenever a part spawns or goes away, and rescanned on the same five tick cadence the dragon already uses to repair its body chain.
+	cacheDragonParts = true
+	#Answer the Soloist's Seal, Polychromic Necklace and Conductive Battery 'is it equipped' checks from the shared per tick curio presence set when the answer is no. The seal and necklace checks run for every player every tick and the battery check on every minion hit, and each one walked every curio slot and built a list. A curio swapped without firing CurioChangeEvent reads stale for the rest of that tick.
+	fastCurioMiss = true
+	#Only send the summon slot sync packet when the used slot count actually changed. Stock sends it to every player four times a second forever.
+	skipUnchangedSlotSync = true
+	#Remember the Copper Drone's two attribute modifier ids instead of rebuilding them from an MD5 of the entity uuid twice per drone per tick.
+	memoDroneModifierIds = true
+

@@ -1219,6 +1219,36 @@
 			glist_cold_link_tile = true
 			glist_cold_scratch_tile = true
 
+		[types.cut_block_type.echovoids]
+			nillow = true
+			mythril_tile = true
+			blonde_end_stone_brick = true
+			pearl_lamp_light_gray = true
+			pearl_lamp_gray = true
+			pearl_lamp_black = true
+			pearl_lamp_brown = true
+			pearl_lamp_red = true
+			pearl_lamp_orange = true
+			pearl_lamp_yellow = true
+			pearl_lamp_lime = true
+			pearl_lamp_green = true
+			pearl_lamp_light_blue = true
+			pearl_lamp_cyan = true
+			pearl_lamp_blue = true
+			pearl_lamp_purple = true
+			pearl_lamp_magenta = true
+			pearl_lamp_pink = true
+			pearl_lamp = true
+			corroded_entropite = true
+			polished_corroded_entropite = true
+			corroded_entropite_brick = true
+			polished_end_stone = true
+			magnachorus = true
+			polished_obsidian = true
+			polished_obsidian_tile = true
+			end_stone = true
+			phantotaxite = true
+
 	[types.wood_type]
 
 		[types.wood_type.quark]
@@ -1302,6 +1332,11 @@
 			laurel = true
 			kousa = true
 			grimwood = true
+
+		[types.wood_type.echovoids]
+			nillow = true
+			magnachorus = true
+			phantotaxite = true
 
 	[types.leaves_type]
 
@@ -1440,6 +1475,10 @@
 			kousa = true
 			currant = true
 			grimwood = true
+
+		[types.leaves_type.echovoids]
+			nillow = true
+			chorus_petal = true
 
 	[types.cake]
 

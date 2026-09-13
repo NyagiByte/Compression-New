@@ -48,3 +48,12 @@ icon.png
 # ATLauncher stuff so git stash -u && git drop does not delete
 instance.*
 icon.png
+config/embeddium-fingerprint.json
+config/embeddium-options.json
+config/fml.toml
+config/oculus.properties
+config/packetfixer.properties
+config/fabric/indigo-renderer.properties
+config/ironchests/defaults.properties
+config/xaero/
+impossible_data/asm_debug/

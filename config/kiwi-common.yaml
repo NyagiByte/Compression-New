@@ -5,4 +5,5 @@ vars:
 kSwitch:
   creativeOnly: false
 customization:
-  disableStonecuttingNamespaces: ["*"]
+  disableStonecuttingNamespaces:
+  - '*'
