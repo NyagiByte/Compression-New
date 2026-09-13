@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "compressiontweaks:soulsand_valley",
+  "features": [
+    "compression:soulsand_valley/soulsand_valley_veins_soulsand"
+  ],
+  "step": "underground_ores"
+}
