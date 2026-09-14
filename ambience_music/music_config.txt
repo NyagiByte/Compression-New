@@ -18,6 +18,7 @@ playlist default_day = [
 ];
 
 playlist default_night = [
+    "proton_decay.ogg",
     "lastmoonlaststars.mp3",
     "metamorphoses.mp3",
     "mobius.mp3",

@@ -26,7 +26,7 @@ variable {
 
 variable {
   name = letter_3
-  value = 0
+  value = 2
   reset_on_launch = false
 }
 
@@ -44,8 +44,14 @@ variable {
 
 variable {
   name = letter_5
-  value = 0
+  value = 26
   reset_on_launch = false
+}
+
+variable {
+  name = credits
+  value = false
+  reset_on_launch = true
 }
 
 variable {
