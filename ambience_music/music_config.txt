@@ -41,7 +41,7 @@ playlist crater = [
 // Schedule
 begin
     when ( @credits )   use_vanilla_player;  // Use normal music player. Will select credits music.
-
+    when ( @main_menu ) use_vanilla_player;
     when ( @in_game ) 
     begin
     //there is a variable to detect hardcore. i need to check some licensing.
