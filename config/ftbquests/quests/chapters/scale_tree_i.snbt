@@ -3108,6 +3108,48 @@
 			x: -5.5d
 			y: -3.5d
 		}
+		{
+			dependencies: ["4716EA96FF568B68"]
+			description: [
+				"Still, far, far away from what this is supposed to require..."
+				""
+				"By adding some silicon dioxide of marginally higher purity, the process can be improved, yielding twice the somehow usable boules."
+				""
+				"&b2 Crude Silicon Boules"
+			]
+			id: "78CF9DF8B1846A16"
+			rewards: [{
+				id: "1EE6D59AF426034C"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68A6FDCFF8764004"
+				item: "chemlib:silicon_dioxide"
+				type: "item"
+			}]
+			title: "Industrial Adulteration"
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0D62B2C09E734557"]
+			description: [
+				"Tall Oil is a byproduct of cellulose processing."
+				"By moving the process to a pressurized setup, it can supplement half the material in ink production, making twice the ink for the same amount of the other materials!"
+				""
+				"&b24 Ink per craft"
+			]
+			id: "3E8FE2A98BCAAD70"
+			tasks: [{
+				id: "508FF19C4C9CD68F"
+				item: "nyagibits_bytes:bucket_of_tall_oil"
+				type: "item"
+			}]
+			title: "How is the oil tall, it's a liquid-"
+			x: -0.5d
+			y: -10.5d
+		}
 	]
 	subtitle: ["I NEED MORE STUFF"]
 	title: " &aScale Tree I"
