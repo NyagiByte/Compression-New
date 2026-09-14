@@ -1447,6 +1447,7 @@
         "echovoids:purple_end_rod",
         "echovoids:magenta_end_rod",
         "echovoids:mythril_end_rod",
-        "echovoids:membrane"
+        "echovoids:membrane",
+        "immersiveengineering:lightning_rod"
     ]
   }
