@@ -869,6 +869,7 @@
         "megacells:portable_fluid_cell_16m",
         "megacells:portable_fluid_cell_4m",
         "megacells:portable_chemical_cell_16m",
-        "megacells:portable_chemical_cell_4m"
+        "megacells:portable_chemical_cell_4m",
+        "nuclearcraft:wasteland_earth"
     ]
   }

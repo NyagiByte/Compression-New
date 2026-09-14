@@ -4667,6 +4667,13 @@
         "nyagibits_bytes:coke_residue",
         "nyagibits_bytes:miniaturized_high_pressure_system",
         "nyagibits_bytes:porous_insulating_firebrick",
-        "nyagibits_bytes:residual_solids_raw"
+        "nyagibits_bytes:residual_solids_raw",
+        "nyagibits_bytes:bucket_of_gas_oil_fraction",
+        "nyagibits_bytes:bucket_of_light_oil",
+        "nyagibits_bytes:bucket_of_pre_reflux_fraction",
+        "nyagibits_bytes:bucket_of_hydrocarbon_rich_offgas",
+        "nyagibits_bytes:bucket_of_sour_water",
+        "nyagibits_bytes:bucket_of_ceramic_glaze",
+        "nyagibits_bytes:sample_solution_piranha"
     ]
   }
