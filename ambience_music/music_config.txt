@@ -1,0 +1,59 @@
+// ----------------------------------------
+// Time and place
+
+playlist default_day = [
+    "alonelyspeckinthegreatenvelopingcosmicdark.mp3",
+    "bluesunrise.mp3",
+    "edditsinthespacetimecontinuum.mp3",
+    "gentlewinds.mp3",
+    "heavenexistsandisfullofpoorpeople.mp3",
+    "hydra.mp3",
+    "innocence.mp3",
+    "pandorasbox.mp3",
+    "silicontransmitterdecay.mp3",
+    "thankyouforgivingsomuch.mp3",
+    "thegloriousexperienceofdyingpeacefully.mp3",
+    "west.mp3",
+    "wheredoyouhideinthebrightlight.mp3"
+];
+
+playlist default_night = [
+    "lastmoonlaststars.mp3",
+    "metamorphoses.mp3",
+    "mobius.mp3",
+    "relic12.mp3",
+    "relic2.mp3",
+    "relic4_1.mp3",
+    "relic4_2.mp3",
+    "relic6.mp3",
+    "relic9.mp3",
+    "silicontransmitterruin.mp3",
+    "tobeahuman.mp3"
+];
+
+
+playlist crater = [
+    "crater.ogg"<loop>
+];
+
+
+// ----------------------------------------
+// Schedule
+begin
+    when ( @credits )   use_vanilla_player;  // Use normal music player. Will select credits music.
+
+    when ( @in_game ) 
+    begin
+    //there is a variable to detect hardcore. i need to check some licensing.
+        // when ( @dead ) play instant dead;
+                    
+    //Could be interesting
+        // when ( any structure in $structures has structure ~~ "stronghold" end )
+        //    play stronghold;
+        
+        when ($biome ~~ "compressiontweaks:impact_site") play crater;
+
+        when ( @day ) play default_day;
+        when ( @night ) play default_night;
+    end
+end
