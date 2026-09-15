@@ -1,15 +1,17 @@
 {
     "replace": true,
     "values": [
-        "minecraft:dandelion",
-        "minecraft:sunflower",
-        "minecraft:horn_coral",
-        "minecraft:horn_coral_fan",
-        "botania:yellow_petal",
-        "botania:yellow_mushroom",
-        "biomeswevegone:lollipop_flower",
-        "biomeswevegone:yellow_daffodil",
-        "biomeswevegone:yellow_tulip",
+        "minecraft:dandelion", 
+        "natures_spirit:yellow_wildflower", 
+        "minecraft:horn_coral", 
+        "minecraft:horn_coral_fan", 
+        "atmospheric:yellow_blossoms", 
+        "botania:yellow_petal", 
+        "botania:yellow_mushroom", 
+        "biomeswevegone:firecracker_flower_bush", 
+        "biomeswevegone:lollipop_flower", 
+        "biomeswevegone:yellow_daffodil", 
+        "biomeswevegone:yellow_tulip", 
         "abyssal_decor:daffodil"
     ]
   }

@@ -1,15 +1,23 @@
 {
     "replace": true,
     "values": [
-        "minecraft:bone_meal",
-        "minecraft:lily_of_the_valley",
-        "botania:white_petal",
-        "botania:white_mushroom",
-        "biomeswevegone:white_anemone",
-        "biomeswevegone:white_sage",
-        "biomeswevegone:winter_rose",
-        "biomeswevegone:snowdrops",
-        "biomeswevegone:angelica",
+        "spelunkery:white_inkcap_mushroom", 
+        "minecraft:lily_of_the_valley", 
+        "natures_spirit:white_heather", 
+        "natures_spirit:gardenia", 
+        "natures_spirit:helvola_flower", 
+        "minecraft:bone_meal", 
+        "botania:white_petal", 
+        "botania:white_mushroom", 
+        "biomeswevegone:tall_white_allium", 
+        "biomeswevegone:angelica", 
+        "biomeswevegone:bistort", 
+        "biomeswevegone:snowdrops", 
+        "biomeswevegone:white_allium", 
+        "biomeswevegone:white_allium_flower_bush", 
+        "biomeswevegone:white_anemone", 
+        "biomeswevegone:white_sage", 
+        "biomeswevegone:winter_rose", 
         "abyssal_decor:bark_orchid"
     ]
   }

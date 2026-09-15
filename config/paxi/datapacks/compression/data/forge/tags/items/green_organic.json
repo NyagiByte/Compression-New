@@ -1,12 +1,16 @@
 {
     "replace": true,
     "values": [
-        "minecraft:cactus",
-        "botania:green_petal",
-        "botania:green_mushroom",
-        "biomeswevegone:golden_spined_cactus",
-        "biomeswevegone:horseweed",
-        "biomeswevegone:mini_cactus",
-        "biomeswevegone:prickly_pear_cactus"
+        "natures_spirit:sage_succulent", 
+        "botania:green_petal", 
+        "botania:green_mushroom", 
+        "minecraft:cactus", 
+        "minecraft:large_fern", 
+        "minecraft:fern", 
+        "biomeswevegone:golden_spined_cactus", 
+        "biomeswevegone:horseweed", 
+        "biomeswevegone:mini_cactus", 
+        "biomeswevegone:prickly_pear_cactus", 
+        "biomeswevegone:winter_succulent"
     ]
   }

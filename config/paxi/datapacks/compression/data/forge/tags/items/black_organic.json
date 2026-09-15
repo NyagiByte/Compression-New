@@ -1,11 +1,14 @@
 {
     "replace": true,
     "values": [
-        "minecraft:wither_rose",
-        "minecraft:charcoal",
-        "botania:black_petal",
-        "botania:black_mushroom",
-        "biomeswevegone:black_rose",
+        "spelunkery:inkcap_mushroom", 
+        "natures_spirit:black_iris", 
+        "minecraft:wither_rose", 
+        "minecraft:charcoal", 
+        "botania:black_petal", 
+        "botania:black_mushroom", 
+        "minecraft:ink_sac", 
+        "biomeswevegone:black_rose", 
         "architects_palette:withered_bone"
     ]
   }

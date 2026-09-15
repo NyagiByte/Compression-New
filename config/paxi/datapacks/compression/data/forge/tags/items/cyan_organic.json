@@ -1,12 +1,16 @@
 {
     "replace": true,
     "values": [
-        "botania:cyan_petal",
-        "botania:cyan_mushroom",
-        "biomeswevegone:cyan_amaranth",
-        "biomeswevegone:cyan_rose",
-        "biomeswevegone:cyan_tulip",
-        "biomeswevegone:foxglove",
-        "abyssal_decor:fever_blossom"
+        "minecraft:pitcher_plant", 
+        "botania:cyan_petal", 
+        "botania:cyan_mushroom", 
+        "thermal:apatite", 
+        "biomeswevegone:cyan_amaranth", 
+        "biomeswevegone:cyan_rose", 
+        "biomeswevegone:cyan_tulip", 
+        "biomeswevegone:winter_cyclamen", 
+        "biomeswevegone:foxglove", 
+        "abyssal_decor:fever_blossom", 
+        "atmospheric:agave"
     ]
   }

@@ -1,11 +1,12 @@
 {
     "replace": true,
     "values": [
-        "minecraft:azure_bluet",
-        "minecraft:white_tulip",
-        "minecraft:oxeye_daisy",
-        "botania:light_gray_petal",
-        "botania:light_gray_mushroom",
-        "biomeswevegone:richea"
+        "minecraft:azure_bluet", 
+        "minecraft:white_tulip", 
+        "minecraft:oxeye_daisy", 
+        "atmospheric:yucca_flower",
+        "atmospheric:tall_yucca_flower",
+        "botania:light_gray_petal", 
+        "botania:light_gray_mushroom"
     ]
   }

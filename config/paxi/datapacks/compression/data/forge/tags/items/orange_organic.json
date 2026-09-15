@@ -1,13 +1,18 @@
 {
     "replace": true,
     "values": [
-        "minecraft:orange_tulip",
-        "botania:orange_petal",
-        "botania:orange_mushroom",
-        "biomeswevegone:orange_amaranth",
-        "biomeswevegone:orange_daisy",
-        "biomeswevegone:guzmania",
-        "biomeswevegone:incan_lily",
-        "biomeswevegone:california_poppy"
+        "minecraft:orange_tulip", 
+        "natures_spirit:marigold", 
+        "natures_spirit:tiger_lily", 
+        "atmospheric:hot_monkey_brush", 
+        "minecraft:torchflower", 
+        "atmospheric:barrel_cactus", 
+        "natures_spirit:begonia", 
+        "botania:orange_petal", 
+        "botania:orange_mushroom", 
+        "biomeswevegone:california_poppy", 
+        "biomeswevegone:guzmania", 
+        "biomeswevegone:orange_amaranth", 
+        "biomeswevegone:orange_daisy"
     ]
   }

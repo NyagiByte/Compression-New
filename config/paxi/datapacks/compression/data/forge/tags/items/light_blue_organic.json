@@ -1,9 +1,11 @@
 {
     "replace": true,
     "values": [
-        "minecraft:blue_orchid",
-        "botania:light_blue_petal",
-        "botania:light_blue_mushroom",
+        "minecraft:blue_orchid", 
+        "natures_spirit:blue_iris", 
+        "natures_spirit:foamy_succulent", 
+        "botania:light_blue_petal", 
+        "botania:light_blue_mushroom", 
         "biomeswevegone:winter_scilla"
     ]
   }

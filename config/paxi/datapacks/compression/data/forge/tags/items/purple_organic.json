@@ -1,16 +1,23 @@
 {
     "replace": true,
     "values": [
-        "botania:purple_petal",
-        "botania:purple_mushroom",
-        "biomeswevegone:allium_flower_bush",
-        "biomeswevegone:alpine_bellflower",
-        "biomeswevegone:iris",
-        "biomeswevegone:purple_sage",
-        "biomeswevegone:purple_tulip",
-        "biomeswevegone:purple_amaranth",
-        "biomeswevegone:crocus",
-        "biomeswevegone:tall_allium",
+        "natures_spirit:purple_wildflower", 
+        "natures_spirit:purple_heather", 
+        "natures_spirit:lavender", 
+        "natures_spirit:foxglove", 
+        "natures_spirit:imperial_succulent", 
+        "atmospheric:water_hyacinth", 
+        "atmospheric:currant", 
+        "botania:purple_petal", 
+        "botania:purple_mushroom", 
+        "biomeswevegone:tall_allium", 
+        "biomeswevegone:allium_flower_bush", 
+        "biomeswevegone:alpine_bellflower", 
+        "biomeswevegone:crocus", 
+        "biomeswevegone:iris", 
+        "biomeswevegone:purple_amaranth", 
+        "biomeswevegone:purple_sage", 
+        "biomeswevegone:purple_tulip", 
         "abyssal_decor:aster"
     ]
   }

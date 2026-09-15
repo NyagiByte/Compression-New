@@ -3,7 +3,7 @@
     "heatRequirement": "heated",
     "ingredients": [
       {
-        "tag": "forge:light_blue_organic"
+        "tag": "forge:yellow_organic"
       },
       {
         "item": "chemlib:sodium_hydroxide"
@@ -16,7 +16,7 @@
     "results": [
       {
         "count": 16,
-        "item": "minecraft:light_blue_dye"
+        "item": "minecraft:yellow_dye"
       }
     ]
   }
