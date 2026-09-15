@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = %fancymenu:universal_layout%
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1789417584040
+  last_edited_time = 1789498490667
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:1222d20d-0d78-4317-b195-ead3654a70b0-1789417555824] = [groups:][instances:]
+  [loading_requirement_container_meta:af7aa800-6d9a-4bd9-b3bf-f2ecf1d8b715-1789498322145] = [groups:][instances:]
 }
 
 customization {
@@ -53,8 +53,8 @@ element {
   auto_sizing_base_screen_height = 1370
   sticky_anchor = false
   anchor_point = mid-centered
-  x = -343
-  y = -192
+  x = -254
+  y = -134
   width = 100
   height = 100
   stretch_x = false
@@ -65,7 +65,7 @@ element {
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:95581c27-b0bc-4457-8c8c-1eb6187a6514-1723727957215] = menu_music:alt
   [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:bc3fc2d8-595a-4b79-836c-ee86cd8e7fe5-1723769534994] = 
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:cdd4c466-cefd-4b20-9fa4-5989d477b0f3-1755885339116] = music_alt:1
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:15cbc0af-b5cd-4676-bcca-0c218be3fed4-1789416208379] = credits:false
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:15cbc0af-b5cd-4676-bcca-0c218be3fed4-1789416208379] = credits:true
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -110,7 +110,7 @@ element {
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:a7068049-3659-4fc4-8d14-8bac4bbd8769-1723727931286] = menu_music:main
   [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:3c57dcfe-4dc2-4141-a1ea-20476ed45af9-1723769552440] = 
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:2b7a499d-de62-4872-ab10-af8b052e74a3-1755885315400] = music_alt:1
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:94b592c9-7f8c-4b23-b3b5-0b3f33789789-1789416189163] = credits:false
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:94b592c9-7f8c-4b23-b3b5-0b3f33789789-1789416189163] = credits:true
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -145,7 +145,7 @@ element {
   anchor_point = element
   anchor_point_element = 04347d0c-5930-456a-b2e1-6508fba7794f-1723727782771
   x = 0
-  y = 1
+  y = 0
   width = 100
   height = 100
   stretch_x = false
@@ -156,7 +156,7 @@ element {
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:95581c27-b0bc-4457-8c8c-1eb6187a6514-1723727957215] = menu_music:alt2
   [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:bc3fc2d8-595a-4b79-836c-ee86cd8e7fe5-1723769534994] = 
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:333d5905-7f4a-4f20-97ba-6b57feb24887-1755885352484] = music_alt:1
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:e647f630-fbd7-4c04-8cbe-d3ad8b041455-1789416275763] = credits:false
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:e647f630-fbd7-4c04-8cbe-d3ad8b041455-1789416275763] = credits:true
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
@@ -200,7 +200,7 @@ element {
   [loading_requirement_container_meta:d494e3ad-64bc-4265-82aa-70ce4a908ec2-1723727793653] = [groups:][instances:3c57dcfe-4dc2-4141-a1ea-20476ed45af9-1723769552440;2b7a499d-de62-4872-ab10-af8b052e74a3-1755885315400;0cf734eb-3495-4768-9586-9109acd239d3-1789416231013;]
   [loading_requirement:fancymenu_loading_requirement_is_world_loaded][requirement_mode:if_not][req_id:3c57dcfe-4dc2-4141-a1ea-20476ed45af9-1723769552440] = 
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:2b7a499d-de62-4872-ab10-af8b052e74a3-1755885315400] = music_alt:1
-  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if][req_id:0cf734eb-3495-4768-9586-9109acd239d3-1789416231013] = credits:false
+  [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:0cf734eb-3495-4768-9586-9109acd239d3-1789416231013] = credits:true
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false

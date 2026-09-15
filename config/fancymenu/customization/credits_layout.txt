@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = credits
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1789418342617
+  last_edited_time = 1789498042416
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:f10fc213-f921-4c1c-a3cf-285d69d9cf8c-1789418292735] = [groups:][instances:]
+  [loading_requirement_container_meta:cdc50929-4b61-414c-92ec-2292d48a5176-1789498022782] = [groups:][instances:]
 }
 
 customization {
@@ -56,7 +56,7 @@ layout_action_executable_blocks {
   [executable_action_instance:14dccf81-8ad3-4b73-8adb-093f721667a7-1789415957187][action_type:set_variable] = credits:true
   [executable_block:85017afb-c4d8-4dbb-ab27-2d1b2bd71a30-1789415956220][type:generic] = [executables:14dccf81-8ad3-4b73-8adb-093f721667a7-1789415957187;]
   close_screen_executable_block_identifier = 64bf3047-8e38-4b7f-9873-12e06fd8b467-1789415994287
-  [executable_action_instance:68b1f0e7-3a2a-4183-98d9-6ec741e70a8f-1789415995704][action_type:set_variable] = credits:false
+  [executable_action_instance:68b1f0e7-3a2a-4183-98d9-6ec741e70a8f-1789415995704][action_type:set_variable] = credits:
   [executable_block:64bf3047-8e38-4b7f-9873-12e06fd8b467-1789415994287][type:generic] = [executables:68b1f0e7-3a2a-4183-98d9-6ec741e70a8f-1789415995704;]
 }
 

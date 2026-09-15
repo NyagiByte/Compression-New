@@ -50,7 +50,7 @@ variable {
 
 variable {
   name = credits
-  value = false
+  value = 
   reset_on_launch = true
 }
 
