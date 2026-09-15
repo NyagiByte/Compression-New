@@ -102,6 +102,23 @@
     "immersiveengineering:treated_fence",
     "immersiveengineering:treated_scaffold",
     "immersiveengineering:treated_post",
-    "immersiveengineering:treated_wood_horizontal"
+    "immersiveengineering:treated_wood_horizontal",
+    "immersiveengineering:chute_aluminum",
+    "immersiveengineering:sheetmetal_aluminum",
+    "immersiveengineering:slab_sheetmetal_aluminum",
+    "immersiveengineering:alu_slope",
+    "immersiveengineering:alu_post",
+    "immersiveengineering:stairs_alu_scaffolding_wooden_top",
+    "immersiveengineering:alu_wallmount",
+    "immersiveengineering:alu_fence",
+    "immersiveengineering:slab_alu_scaffolding_wooden_top",
+    "immersiveengineering:alu_scaffolding_wooden_top",
+    "immersiveengineering:stairs_alu_scaffolding_grate_top",
+    "immersiveengineering:slab_alu_scaffolding_grate_top",
+    "immersiveengineering:alu_scaffolding_grate_top",
+    "immersiveengineering:stairs_alu_scaffolding_standard",
+    "immersiveengineering:slab_alu_scaffolding_standard",
+    "immersiveengineering:alu_scaffolding_standard",
+    "immersiveengineering:metal_ladder_alu"
   ]
 }
