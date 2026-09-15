@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:deep_cold_ocean",
+  "features": [
+    "compression:deep_cold_ocean/deep_cold_veins_ice"
+  ],
+  "step": "underground_ores"
+}
