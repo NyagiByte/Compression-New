@@ -1450,6 +1450,7 @@
         "echovoids:membrane",
         "immersiveengineering:lightning_rod",
         "mekanism:uranium_ore",
-        "mekanism:deepslate_uranium_ore"
+        "mekanism:deepslate_uranium_ore",
+        "industrialhellscape:vaporwave_cassette"
     ]
   }
