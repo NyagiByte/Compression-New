@@ -1448,6 +1448,8 @@
         "echovoids:magenta_end_rod",
         "echovoids:mythril_end_rod",
         "echovoids:membrane",
-        "immersiveengineering:lightning_rod"
+        "immersiveengineering:lightning_rod",
+        "mekanism:uranium_ore",
+        "mekanism:deepslate_uranium_ore"
     ]
   }
