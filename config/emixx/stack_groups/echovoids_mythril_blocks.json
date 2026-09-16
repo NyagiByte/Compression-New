@@ -1,0 +1,23 @@
+{
+  "id": "echovoids:echovoids_mythril_blocks",
+  "type": "emixx:group",
+  "contents": [
+    "echovoids:mythril_log",
+    "echovoids:mythril_log_wood",
+    "echovoids:warped_cage",
+    "echovoids:mythril_wart",
+    "echovoids:block_of_mythril",
+    "echovoids:mythril_stairs",
+    "echovoids:mythril_slab",
+    "echovoids:cut_mythril",
+    "echovoids:mythril_tiles",
+    "echovoids:ornate_end_stone",
+    "echovoids:mythril_tile_stairs",
+    "echovoids:mythril_tile_slab",
+    "echovoids:mythril_bars",
+    "echovoids:mythril_chain",
+    "echovoids:ornate_end_stone",
+    "echovoids:mythril_endstone_tiles"
+  ],
+  "enabled": true
+}
