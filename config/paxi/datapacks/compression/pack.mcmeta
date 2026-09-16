@@ -2375,7 +2375,9 @@
 		{"namespace": "echovoids", "path": "recipes/neon_block_magenta.json"},
 		{"namespace": "echovoids", "path": "recipes/neon_block_pink.json"},
 		{"namespace": "echovoids", "path": "recipes/neon_block_void.json"},
-		{"namespace": "echovoids", "path": "recipes/neon_block_mythril.json"}
+		{"namespace": "echovoids", "path": "recipes/neon_block_mythril.json"},
+		{"namespace": "echovoids", "path": "recipes/warped_planks.json"},
+		{"namespace": "echovoids", "path": "recipes/warped_planks_from_wood.json"}
 	]}
 	
 }
