@@ -46,6 +46,15 @@
                 "location": "compstruct:wither_bones/wither_bones_5"
             },
             "weight": 1
+        },
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "compstruct:wither_bones/wither_bones_6"
+            },
+            "weight": 1
         }
     ]
 }
