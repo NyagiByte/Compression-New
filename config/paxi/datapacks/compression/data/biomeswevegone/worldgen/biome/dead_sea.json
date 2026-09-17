@@ -62,7 +62,8 @@
       "minecraft:spring_lava"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "compression:dead_sea/dead_sea_underwater_vegetation"
     ],
     [
       "minecraft:freeze_top_layer"

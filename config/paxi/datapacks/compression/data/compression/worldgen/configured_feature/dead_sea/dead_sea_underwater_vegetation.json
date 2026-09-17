@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries":[
+              {
+                "data": {
+                  "Name": "minecraft:dead_brain_coral",
+                  "Properties": {
+                    "waterlogged": "true"
+                  }
+                },
+                "weight": 30
+              },
+              {
+                "data": {
+                  "Name": "minecraft:dead_fire_coral_fan",
+                  "Properties": {
+                    "waterlogged": "true"
+                  }
+                },
+                "weight": 50
+              },
+              {
+                "data": {
+                  "Name": "minecraft:dead_tube_coral",
+                  "Properties": {
+                    "waterlogged": "true"
+                  }
+                },
+                "weight": 30
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:water"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                    "minecraft:gravel",
+                    "minecraft:stone"
+                ],
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "tries": 96,
+    "xz_spread": 10,
+    "y_spread": 5
+  }
+}
