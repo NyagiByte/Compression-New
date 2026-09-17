@@ -10,5 +10,11 @@
     "when": "onjoin",
     "spawner": false,
     "result": "deny"
+  },
+  {
+    "mob": ["minecraft:squid"],
+    "biome": "biomeswevegone:dead_sea",
+    "spawner": false,
+    "result": "deny"
   }
 ]
