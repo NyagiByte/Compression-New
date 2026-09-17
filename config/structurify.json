@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.34",
-  "config_datetime": "2026-08-25_14-52-40",
+  "config_datetime": "2026-09-17_01-54-57",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -29,6 +29,10 @@
     },
     {
       "name": "biomancy:vault",
+      "is_disabled": true
+    },
+    {
+      "name": "biomeswevegone:large_cold_lake",
       "is_disabled": true
     },
     {
