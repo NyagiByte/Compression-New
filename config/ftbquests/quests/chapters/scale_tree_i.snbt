@@ -3150,6 +3150,52 @@
 			x: -0.5d
 			y: -10.5d
 		}
+		{
+			dependencies: ["0C2CBC42460B3006"]
+			description: [
+				"The Feldspar can be processed into &aAluminum Oxide&r, which is then use to make &aSmectite Clay&r."
+				""
+				"This clay can be used in place of the Feldspar and regular clay. It won't boost the yield, but it will &esignificantly cut down on the feldspar usage&r."
+				""
+				"&b8 Ceramic per craft (or 64 per feldspar used)"
+			]
+			id: "3C4B07E23A3D8AE8"
+			rewards: [{
+				id: "04794067B465A6CF"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B4023C0F9722803"
+				item: "nyagibits_bytes:smectite_clay"
+				type: "item"
+			}]
+			title: "Hey, Not Too Rough"
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3C4B07E23A3D8AE8"]
+			description: [
+				"A decent chunk of the material in the ceramic mix can be replaced with &aporcelain&r, allowing to make &emore ceramic for the same amount of other materials.&r"
+				""
+				"&b12 Ceramic per craft (or 96 per feldspar used)"
+			]
+			id: "459DF53B1CA748EC"
+			rewards: [{
+				id: "0947E11BC9E9CD50"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D319748EC894D18"
+				item: "nyagibits_bytes:porcelain_slab_uncut"
+				type: "item"
+			}]
+			title: "Tasty Tiles"
+			x: 1.0d
+			y: -7.5d
+		}
 	]
 	subtitle: ["I NEED MORE STUFF"]
 	title: " &aScale Tree I"
