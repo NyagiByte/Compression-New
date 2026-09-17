@@ -74,6 +74,8 @@ ServerEvents.tags('item', event => {
   event.remove('xkdeco:black_roof', 'xkdeco:black_roof_small_flat_end')
   event.remove('xkdeco:black_roof', 'xkdeco:black_roof_small_ridge_end')
 
+  event.remove('forge:glass/colorless', 'quark:framed_glass')
+
   // Get tag and remove all entries from it
   event.removeAll('spelunkery:jade_ores')
   event.removeAll('xkdeco:roof_ridge_end')

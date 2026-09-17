@@ -35,5 +35,19 @@
     "player_blocks": false,
     "keep_nbt": false,
     "retrogen": false
+  },
+  {
+    "inputs": [
+      "minecraft:stone"
+    ],
+    "output": "minecraft:dead_brain_coral_block",
+    "features": [
+      "biomeswevegone:dripstone_rounded_rock"
+    ],
+    "min_y": "30",
+    "max_y": "125",
+    "player_blocks": false,
+    "keep_nbt": false,
+    "retrogen": false
   }
 ]
