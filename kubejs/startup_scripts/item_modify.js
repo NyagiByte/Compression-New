@@ -8,7 +8,10 @@ ItemEvents.modification(e => {
   e.modify('minecraft:basalt', item => {
     item.fireResistant = true
   })
-  e.modify('minecraft:blackstone', item => {
+  e.modify('minecraft:polished_basalt', item => {
+    item.fireResistant = true
+  })
+  e.modify('minecraft:smooth_basalt', item => {
     item.fireResistant = true
   })
   e.modify('minecraft:blackstone', item => {
@@ -23,10 +26,19 @@ ItemEvents.modification(e => {
   e.modify('botania:floating_endoflame', item => {
     item.fireResistant = true
   })
+  e.modify('nyagibits_bytes:endoflame_mush', item => {
+    item.fireResistant = true
+  })
   e.modify('botania:thermalily', item => {
     item.fireResistant = true
   })
   e.modify('botania:floating_thermalily', item => {
+    item.fireResistant = true
+  })
+  e.modify('nyagibits_bytes:thermalily_mush', item => {
+    item.fireResistant = true
+  })
+  e.modify('minecraft:magma_block', item => {
     item.fireResistant = true
   })
 })
