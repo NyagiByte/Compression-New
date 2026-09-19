@@ -37,7 +37,7 @@
       },
       {
         "amount": 100,
-        "fluid": "immersiveengineering:plantoil"
+        "fluid": "nyagibits_bytes:crude_plant_oil_fluid"
       },
       {
         "amount": 50,

@@ -1560,7 +1560,7 @@
 			}]
 			tasks: [{
 				id: "4657972CCEBDFF43"
-				item: "immersiveengineering:dust_hop_graphite"
+				item: "nyagibits_bytes:coke_anode_grade"
 				type: "item"
 			}]
 			title: "An absolute pain in the a-"
