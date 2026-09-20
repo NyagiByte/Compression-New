@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": false,
+  "category": "misc",
+  "pattern": [
+    "ABA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:nuggets/zinc"
+    },
+    "B": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "creatif:ingredient_filter",
+    "count": 1
+  }
+}
