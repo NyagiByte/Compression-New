@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:pufferfish",
+    "minecraft:squid",
+    {
+      "id": "quark:crab",
+      "required": false
+    }
+  ]
+}

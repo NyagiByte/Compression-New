@@ -15,6 +15,9 @@
 	#The chance that a Cocoon of Caprice spawns from the rare list instead of the common list. Default is 0.075 or 7.5%
 	#Range: 0.0 ~ 1.0
 	"Cocoon Rare Chance" = 0.075
+	#How many ticks does the cocoon of caprice take to hatch. Default is 2400 or 2 minutes
+	#Range: > 1
+	"Cocoon Hatch Time" = 100
 	#Whether to disable runes being returned from runic altar recipes
 	"Disable Runic Altar Rune Refund" = true
 	#Whether Hydroangeas should decay naturally. Set this to false if implementing a recipe for them.

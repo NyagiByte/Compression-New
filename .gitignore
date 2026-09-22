@@ -58,3 +58,5 @@ config/ironchests/defaults.properties
 config/xaero/
 impossible_data/asm_debug/
 config/globalgamerules-common.toml
+data/create_repairDefaultResourcePacks.dat
+patchouli_data.json
