@@ -1,0 +1,8 @@
+{
+    "type":"compressiontweaks:smithing_enchant",
+    "whitelist":{"item":"minecraft:player_head"},
+    "addition":{"item":"create:super_glue"},
+    "enchantments":[
+        "minecraft:binding_curse"
+        ]
+}

@@ -1,6 +1,7 @@
 const NixieTube = Java.loadClass("com.simibubi.create.content.redstone.nixieTube.NixieTubeBlockEntity")
 const PulseTimer = Java.loadClass("com.simibubi.create.content.redstone.diodes.BrassDiodeBlockEntity")
 
+
 Ponder.tags((e) => {
     e.createTag("compression:spelunkery", "spelunkery:raw_magnetite", "Spelunkery", "ROCK AND STONE!", [
         "spelunkery:rock_salt_block",
@@ -414,16 +415,10 @@ Ponder.registry((e) => {
             scene.addKeyframe();
             scene.idle(10)
             
-
-            for(let i = 0;i<100;i++){
-                scene.particles.simple(1, "smoke", [2.5,1.75,2.5]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
-            }
-            const stand = scene.world.createEntity("minecraft:skeleton", [2.5,1.5,2.5], b => {
-                b.load('{Pos: [2.5d, 1.5d, 2.5d], Rotation: [135.0f, 0.0f],ArmorItems:[{id:"immersiveengineering:armor_faraday_boots",Count:1},{id:"immersiveengineering:armor_faraday_leggings",Count:1},{id:"immersiveengineering:armor_faraday_chestplate",Count:1},{id:"minecraft:player_head",Count:1}]}')
-            })
-
-            
+            var pos = [2.5, 1.5, 2.5]
+            const stand = global.spawnPlayer(scene, pos, 135)            
             scene.idle(10)
+            
             scene.text(110, "It can absorb XP from players. Crouching will speed up the transfer significantly.", [2,2.5,2]).placeNearTarget();
             scene.idle(20)
             scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "one_to_twenty"), false)
@@ -434,11 +429,7 @@ Ponder.registry((e) => {
             scene.idle(20)
             scene.world.modifyBlock([2,1,3], (xp) => xp.with("charge", "sixtyone_to_eighty"), false)
             scene.idle(20)
-            
-            for(let i = 0;i<100;i++){
-                scene.particles.simple(1, "smoke", [2.5,1.75,2.5]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
-            }
-            scene.world.modifyEntity(stand, (s => s.discard()))
+            global.despawnPlayer(scene, stand, pos)
             scene.idle(15)
             scene.addKeyframe()
             scene.idle(10)
@@ -488,12 +479,10 @@ Ponder.registry((e) => {
             scene.idle(10)
             scene.text(70, "To open it, give it a redstone signal.", [2,1.5,1]).placeNearTarget();
             scene.idle(30)
-            for(let i = 0;i<100;i++){
-                scene.particles.simple(1, "smoke", [1,1.75,2.5]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
-            }
-            const stand = scene.world.createEntity("minecraft:skeleton", [1.5,1,2.5], b => {
-                b.load('{Pos: [1d, 1d, 2.5d], Rotation: [-90.0f, 0.0f],ArmorItems:[{id:"immersiveengineering:armor_faraday_boots",Count:1},{id:"immersiveengineering:armor_faraday_leggings",Count:1},{id:"immersiveengineering:armor_faraday_chestplate",Count:1},{id:"minecraft:player_head",Count:1}]}')
-            })
+
+            const pos = [1,1,2.5]
+            const stand = global.spawnPlayer(scene, pos, -160)
+            
             scene.idle(50)
 
             scene.world.modifyBlock([2,1,1], (lever) => lever.with("powered", "true").with("face", "floor"), false)
@@ -540,10 +529,7 @@ Ponder.registry((e) => {
             scene.world.modifyBlock([2,1,1], (lever) => lever.with("powered", "false").with("face", "floor"), false)
             scene.world.modifyBlock([2,1,2], (snek) => snek.with("facing", "west").with("powered", "false"), false)
             scene.idle(5)
-            for(let i = 0;i<100;i++){
-                scene.particles.simple(1, "smoke", [1,1.75,2.5]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
-            }
-            scene.world.modifyEntity(stand, (s => s.discard()))
+            global.despawnPlayer(scene, stand, pos)
             scene.idle(10)
             scene.markAsFinished();
         })

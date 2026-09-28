@@ -626,22 +626,11 @@ Ponder.registry((e) => {
             scene.idle(55);
             scene.addKeyframe()
             scene.text(90, "It generates mana from experience. It will drain XP from players standing next to it.", [3,1.5,3]);
-            //Well, you can't summon a player in a ponder. This will have to do.
-            //scene.showControls(70, [3.5,2,3.5], "down").withItem("minecraft:player_head");
-            const stand = scene.world.createEntity("minecraft:armor_stand", [4,1,4], b => {
-                //Loads an nbt tag. Position is repeated here otherwise it might get messed up)
-                b.load('{Pos: [4d, 1d, 4d], Rotation: [135.0f, 0.0f], NoBasePlate:true,ArmorItems:[{id:"immersiveengineering:armor_faraday_boots",Count:1},{id:"immersiveengineering:armor_faraday_leggings",Count:1},{id:"immersiveengineering:armor_faraday_chestplate",Count:1},{id:"minecraft:player_head",Count:1}]}')
-            })
-            for(let i = 0;i<100;i++){
-            scene.particles.simple(1, "smoke", [4,1.75,4]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
-        }
-            
+            const pos = [4,1,4]
+            const stand = global.spawnPlayer(scene, pos, 135)
             scene.world.modifyBlockEntityNBT([3,1,3], flower => flower.mana = 60000)
-            scene.idle(80)
-            
-            scene.particles.simple(1, "smoke", [4,1.75,4]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
-
-            scene.world.modifyEntity(stand, discard)
+            scene.idle(80)            
+            global.despawnPlayer(scene, stand, pos)
             scene.idle(20)
             scene.world.modifyBlockEntityNBT([3,1,3], flower => flower.mana = 0)
             scene.addKeyframe()
@@ -1932,16 +1921,10 @@ Ponder.registry((e) => {
             scene.idle(85)
             scene.text(80, "When within 2.5 blocks of the index...").attachKeyFrame()
             scene.idle(5)
-            for(let i = 0;i<100;i++){
-                scene.particles.simple(1, "smoke", [1.5,1.25,3.5]).density(5).motion([Math.random()/5-0.1, Math.random()/2-0.1, Math.random()/5-0.1]);
-            }
-            const stand = scene.world.createEntity("minecraft:armor_stand", [1.5,1,3.5], b => {
-                b.load(`{
-                    Pos: [1.5d, 1d, 3.5d], Rotation: [225.0f, 0.0f],
-                    ArmorItems:[{id:"immersiveengineering:armor_faraday_boots",Count:1},{id:"immersiveengineering:armor_faraday_leggings",Count:1},{id:"immersiveengineering:armor_faraday_chestplate",Count:1},{id:"minecraft:player_head",Count:1}],
-                    Pose: { Head: [20.0f, 0.0f] }, NoBasePlate: 1b, ShowArms: 1b
-                }`)
-            })
+
+            const pos = [1.5,1,3.5]
+            const stand = global.spawnPlayer(scene, pos, 225)
+
             scene.idle(80)
             scene.text(100, "...Then a ring will appear, indicating that your messages will be treated as requests.")
             // ======== little bit of shenanigans
