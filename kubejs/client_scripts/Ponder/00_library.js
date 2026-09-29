@@ -15,7 +15,27 @@ global.spawnPlayerBase = function(scene, pos, rot, name, texture){
     
     //And so, we create the head as a kubejs item to give it to the armour stand.
     const head = Item.of("minecraft:player_head")
-    head.setNbt({
+    
+     var tag = `{Pos: [${pos[0]}d, ${pos[1]}d, ${pos[2]}d], Rotation: [${rot}f, 0.0f],Pose:{LeftArm:[0f,0f,355f],RightArm:[0f,0f,5f]}}`
+     const stand = scene.world.createEntity("minecraft:armor_stand", [pos[0], pos[1], pos[2]], s => {
+                s.load(tag)
+                s.setNoBasePlate(true)
+                //DO NOT TRY TO SET THE ITEM SLOT HERE. THE NBT WILL GET WIPED.
+            })
+    scene.world.modifyEntity(stand, s => {
+        //This section must be at runtime, otherwise it will crap out at startup
+        if(name == null){
+            //To put a player head on an armour stand, we need the player name, and the texture field that would be on the actual item.
+            //This might fail without an actual connection. So it gets wrapped as a failsafe.
+            try{
+            name = Minecraft.getInstance().getUser().getName()
+            texture = Minecraft.getInstance().getConnection().getLocalGameProfile().getProperties().get("textures").iterator().next().getValue() //This is a weird superposition of "An array" and also "Not an array". Don't question it too much.
+            } catch (error) {
+                name = "Steve"
+                texture = ""
+            }
+        }
+        head.setNbt({
                 SkullOwner: {
                     Name: name, //If this is missing, a steve will render instead.
                     Properties: {
@@ -28,14 +48,6 @@ global.spawnPlayerBase = function(scene, pos, rot, name, texture){
                         id: "minecraft:binding_curse"
                     }]
             })
-            
-     var tag = `{Pos: [${pos[0]}d, ${pos[1]}d, ${pos[2]}d], Rotation: [${rot}f, 0.0f],Pose:{LeftArm:[0f,0f,355f],RightArm:[0f,0f,5f]}}`
-     const stand = scene.world.createEntity("minecraft:armor_stand", [pos[0], pos[1], pos[2]], s => {
-                s.load(tag)
-                s.setNoBasePlate(true)
-                //DO NOT TRY TO SET THE ITEM SLOT HERE. THE NBT WILL GET WIPED.
-            })
-    scene.world.modifyEntity(stand, s => {
         //and yet, doing that immediately after is fine. Fun, right?
         s.setItemSlot("head", head) 
     })
@@ -44,10 +56,7 @@ global.spawnPlayerBase = function(scene, pos, rot, name, texture){
 
 //Spawns a dummy with the skin of the currently watching player.
 global.spawnPlayer = function(scene, pos, rot){
-    //To put a player head on an armour stand, we need the player name, and the texture field that would be on the actual item.
-    const player = Minecraft.getInstance().getUser();
-    const texProperty = Minecraft.getInstance().getConnection().getLocalGameProfile().getProperties().get("textures").iterator().next() //This is a weird superposition of "An array" and also "Not an array". Don't question it too much.
-    return global.spawnPlayerBase(scene, pos, rot, player.getName(), texProperty.getValue())
+    return global.spawnPlayerBase(scene, pos, rot, null, null)
 }
 
 /*An example of spawning a player dummy with a specific user's skin. In this case, Nyagi
