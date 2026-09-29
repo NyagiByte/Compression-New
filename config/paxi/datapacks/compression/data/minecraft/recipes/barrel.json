@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {"tag": "c:wood/basic_planks"},
+    "S": {"tag": "c:wood/basic_slabs"}
+  },
+  "pattern": [
+    "PSP",
+    "P P",
+    "PSP"
+  ],
+  "result": {
+    "item": "minecraft:barrel"
+  }
+}

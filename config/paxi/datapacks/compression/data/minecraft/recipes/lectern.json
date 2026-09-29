@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "A": {"tag":"botania:livingwood_slabs"},
+    "A": {"tag": "c:wood/basic_planks"},
     "B": {"tag":"forge:bookshelves"}
   },
   "pattern": [
@@ -10,7 +10,6 @@
     " A "
   ],
   "result": {
-    "count": 2,
     "item": "minecraft:lectern"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {"tag": "forge:treated_wood"},
+    "S": {"tag": "forge:treated_wood_slab"}
+  },
+  "pattern": [
+    "PSP",
+    "P P",
+    "PSP"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:barrel"
+  }
+}

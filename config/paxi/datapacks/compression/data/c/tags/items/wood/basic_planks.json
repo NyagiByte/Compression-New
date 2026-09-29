@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#minecraft:planks"
+  ],
+  "remove": [
+    "#botania:livingwood_planks",
+    "#botania:dreamwood_planks",
+    "#forge:treated_wood"
+  ]
+}
