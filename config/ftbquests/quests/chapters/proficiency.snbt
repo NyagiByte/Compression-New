@@ -200,6 +200,7 @@
 			}]
 			subtitle: "Kitty is hungry"
 			tasks: [{
+				consume_items: true
 				count: 8192L
 				id: "43B535AC37EF67AD"
 				item: "nyagibits_bytes:tequeno_t0"

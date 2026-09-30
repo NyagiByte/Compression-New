@@ -237,7 +237,7 @@
 				type: "item"
 			}]
 			title: "Shockingly Good Scaffolding"
-			x: -3.0d
+			x: -5.0d
 			y: 0.0d
 		}
 		{
@@ -608,8 +608,8 @@
 		}
 		{
 			dependencies: [
-				"3B1C0DC00EC8C081"
-				"3BEACE9F3F1EC3AA"
+				"265FD28756CCF3E2"
+				"4296F49981434BC7"
 			]
 			description: [
 				"So many structures strwen about! What to do with them?"
@@ -629,11 +629,6 @@
 				"The real treat from this as well is that given a &blucky enough find&r you can gain access to materials well &cb&6e&ey&ao&bn&dd&r your tech level."
 			]
 			id: "4A8BE783CC23F0B5"
-			rewards: [{
-				id: "2781E3A082852204"
-				item: "nyagibits_bytes:tier_zero_strawberry"
-				type: "item"
-			}]
 			subtitle: "Loot goblin paradise"
 			tasks: [{
 				id: "637001F426E416B8"
@@ -641,11 +636,11 @@
 				type: "item"
 			}]
 			title: "Scrapping all that loot"
-			x: -3.5d
+			x: -4.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["4A8BE783CC23F0B5"]
+			dependencies: ["6A7404C416453F72"]
 			description: [
 				"With a stone cutter or filtered create saw you can exchange your matter balls for practically any other decorative block related to it. "
 				""
@@ -663,7 +658,8 @@
 				item: "minecraft:stonecutter"
 				type: "item"
 			}]
-			x: -4.0d
+			title: "Polymorph"
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -2149,6 +2145,31 @@
 			title: "No slicer needed for this one"
 			x: 2.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["265FD28756CCF3E2"]
+			description: [
+				"The &6H.A.V.E.N. device&r is functionally a portable stonecutter."
+				""
+				"This tool can also adjust the block state of blocks in &dIndustrial Hellscape&r, an absolutely lovely building mod with various cheap grungy factory flavored blocks. "
+				""
+				"Go build &cyour&r own personal hellscape!"
+			]
+			id: "34E2645071D7850B"
+			rewards: [{
+				id: "72FAA0D9A700597F"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "Ouch my eyeballs"
+			tasks: [{
+				id: "107A9C0F57BC230D"
+				item: "industrialhellscape:inhell_haven_device"
+				type: "item"
+			}]
+			title: "Stonecutter On A Stick"
+			x: -4.0d
+			y: -1.0d
 		}
 	]
 	subtitle: [" &fThe stupid biters are on my oil patch!"]
