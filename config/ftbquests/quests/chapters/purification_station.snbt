@@ -380,6 +380,8 @@
 				"Over on the &n&a→ right →&r you will see every &6OPA related fluid&r in regards to processing."
 				""
 				"There are &e&nno berries to claim&r. The quests only serve to untangle what is needed for which element."
+				""
+				"&l&cQuests with no entry icons are elements that are not implemented yet&r"
 			]
 			hide_until_deps_complete: true
 			icon: "yuushya:paste"
@@ -414,7 +416,7 @@
 				"&e99% Electrolytic Core Recovery&r"
 				"&d18x Float-Seperated Aluminum&r"
 			]
-			icon: "chemlib:aluminum"
+			icon: "createdeco:decal_no_entry"
 			id: "479F8CF14E5D3C2F"
 			tasks: [
 				{
@@ -452,7 +454,7 @@
 				"&c500mb Contaminated Water&r"
 				"&d18x Float-Seperated Scandium&r"
 			]
-			icon: "chemlib:scandium"
+			icon: "createdeco:decal_no_entry"
 			id: "4C8562F58F40BF56"
 			tasks: [
 				{
@@ -484,7 +486,7 @@
 				"&c10x Iron III Chloride&r"
 				"&d18x Float-Seperated Titanium&r"
 			]
-			icon: "chemlib:titanium"
+			icon: "createdeco:decal_no_entry"
 			id: "5D65FF1717F1DEC0"
 			tasks: [{
 				id: "668C662AF11EACAB"
@@ -548,6 +550,427 @@
 			title: "Cleaning Chromium Opa"
 			x: 12.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "chemlib:manganese"
+			id: "1FF61804ED135AE7"
+			tasks: [
+				{
+					id: "318D523660E9A34D"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "6A009D5F3C63665F"
+					item: "chemlib:iron_dust"
+					type: "item"
+				}
+			]
+			title: "Cleaning Manganese Opa"
+			x: 12.372448979591844d
+			y: -5.6632653061224545d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "chemlib:iron"
+			id: "3FE6965729AFA094"
+			tasks: [
+				{
+					count: 2L
+					id: "4625EFCCEAAF7864"
+					item: { Count: 2, id: "chemlib:sodium_hydroxide_dust" }
+					type: "item"
+				}
+				{
+					id: "26B241ED75B3469F"
+					item: "chemlib:hydrogen_bucket"
+					type: "item"
+				}
+			]
+			title: "Cleaning Iron Opa"
+			x: 13.232142857142861d
+			y: -3.982142857142861d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "2D8128D9415AB214"
+			tasks: [{
+				id: "4F248CCD34FEA0AB"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Cobalt Opa"
+			x: 13.76020408163265d
+			y: -2.9897959183673564d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "chemlib:nickel"
+			id: "4C024E05DE5F5541"
+			tasks: [
+				{
+					count: 4L
+					id: "6C32CC4AFA9A7EFD"
+					item: { Count: 4, id: "chemlib:carbon_monoxide_bucket" }
+					type: "item"
+				}
+				{
+					id: "53B883EB0737CD24"
+					item: "chemlib:hydrogen_bucket"
+					type: "item"
+				}
+			]
+			title: "Cleaning Nickel Opa"
+			x: 13.250000000000007d
+			y: -1.9897959183673706d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "5BF7D3F3648E1A6E"
+			tasks: [{
+				id: "51D08440921D0D0F"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Copper Opa"
+			x: 12.385714285714286d
+			y: -0.30000000000000426d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "chemlib:zinc"
+			id: "261A540D19DD386D"
+			tasks: [
+				{
+					id: "669803936DD441B3"
+					item: "chemlib:oxygen_bucket"
+					type: "item"
+				}
+				{
+					id: "00F223908DB670F6"
+					item: "chemlib:carbon_dust"
+					type: "item"
+				}
+			]
+			title: "Cleaning Zinc Opa"
+			x: 12.75714285714286d
+			y: -6.344897959183683d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "611C3B4827C3ECA7"
+			tasks: [{
+				id: "4E0112E950F10403"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Gallium Opa"
+			x: 13.614285714285721d
+			y: -4.651020408163269d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "278972ABBB2A1E5E"
+			tasks: [{
+				id: "762059063671EDBD"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Yttrium Opa"
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "5B3F73B8EE30FC48"
+			tasks: [{
+				id: "150C0064C1482D09"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Zirconium Opa"
+			x: 13.655102040816331d
+			y: -1.3244897959183675d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "3A53538411AEF5E9"
+			tasks: [{
+				id: "52D68CF6B2888E7A"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Niobium Opa"
+			x: 12.757142857142853d
+			y: 0.36938775510203925d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "7B6C8075266473BA"
+			tasks: [{
+				id: "7A2391CBB43FA33B"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Molybdenum Opa"
+			x: 13.144897959183666d
+			y: -7.018367346938778d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "1B954B1194A7CBEA"
+			tasks: [{
+				id: "108FB29B3860F9A8"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Ruthenium Opa"
+			x: 14.002040816326527d
+			y: -5.324489795918375d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "0B7F4D05BE1C6129"
+			tasks: [{
+				id: "56D42EAE255B9549"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Rhodium Opa"
+			x: 14.369387755102046d
+			y: -4.651020408163269d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "4D6E6308C7FA56F3"
+			tasks: [{
+				id: "0AB31CEFB3DF303E"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Palladium Opa"
+			x: 15.246938775510202d
+			y: -2.9979591836734727d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "6DACD330BFEA3B74"
+			tasks: [{
+				id: "38E74AA1F37324A8"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Silver Opa"
+			x: 14.410204081632656d
+			y: -1.3244897959183675d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "4861D3ED3CCF7E41"
+			tasks: [{
+				id: "764BDF3193699A5D"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Cadmium Opa"
+			x: 14.063265306122446d
+			y: -0.6510204081632764d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "18ADB79F869B766E"
+			tasks: [{
+				id: "06BEF08D0D36CE7F"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Indium Opa"
+			x: 13.144897959183673d
+			y: 1.0428571428571374d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "6111EFF1E66B2FF3"
+			tasks: [{
+				id: "4E9C83BD897BDC4E"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Tin Opa"
+			x: 13.513945578231287d
+			y: -7.676530612244903d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "405D28A99C34E4DC"
+			tasks: [{
+				id: "2766D6469A804251"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Hafnium Opa"
+			x: 14.371088435374148d
+			y: -5.9860544217687135d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "1F5FC6F8C008105D"
+			tasks: [{
+				id: "48D4743374EEC988"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Tantalum Opa"
+			x: 15.131292517006791d
+			y: -4.634013605442178d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "1400B88AF9030E2B"
+			tasks: [{
+				id: "7822077B6CB78148"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Tungsten Opa"
+			x: 15.990136054421768d
+			y: -2.9860544217687064d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "73DDC9CDC55B5ACC"
+			tasks: [{
+				id: "562F62940AF4A4F2"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Rhenium Opa"
+			x: 15.144897959183659d
+			y: -1.3115646258503375d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "4FB45A5DE91B2503"
+			tasks: [{
+				id: "3790368F15292AA6"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Osmium Opa"
+			x: 14.45102040816326d
+			y: 0.03537414965986585d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "7BCA045CB7B628DA"
+			tasks: [{
+				id: "2E7C71EEC98F1853"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Iridium Opa"
+			x: 13.53265306122448d
+			y: 1.7292517006802726d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "40F11227035DAEEB"
+			tasks: [{
+				id: "1302C02F638FEC8F"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Platinum Opa"
+			x: 13.899999999999984d
+			y: -8.356462585034016d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "18D0C1EA622AF022"
+			tasks: [{
+				id: "4167BF4BF7B12CD8"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Gold Opa"
+			x: 15.512244897959164d
+			y: -5.295238095238098d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "5F216071DBD8E442"
+			tasks: [{
+				id: "32B78FFC3074B718"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Thallium Opa"
+			x: 16.369387755102025d
+			y: -3.642176870748301d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "115F9A444FAA9767"
+			tasks: [{
+				id: "5146ADAD2F911FFA"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Lead Opa"
+			x: 16.36938775510201d
+			y: -2.2952380952380977d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			icon: "createdeco:decal_no_entry"
+			id: "269B286B23537984"
+			tasks: [{
+				id: "28B6CA43F6BE29EF"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Bismuth Opa"
+			x: 15.500340136054405d
+			y: -0.5996598639455755d
+		}
+		{
+			dependencies: ["5EF8D24938FE593F"]
+			hide_until_deps_complete: false
+			icon: "createdeco:decal_no_entry"
+			id: "180C9B571C4D7756"
+			tasks: [{
+				id: "73DBD66DB879DF02"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "Cleaning Polonium Opa"
+			x: 13.881292517006784d
+			y: 2.424149659863943d
 		}
 	]
 	title: " &aPurification Station"
