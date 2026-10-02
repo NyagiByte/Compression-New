@@ -13,7 +13,7 @@
   },
   {
     "mob": ["minecraft:squid"],
-    "biome": "biomeswevegone:dead_sea",
+    "biome": ["biomeswevegone:dead_sea", "compressiontweaks:sculk_lands"],
     "spawner": false,
     "result": "deny"
   },
