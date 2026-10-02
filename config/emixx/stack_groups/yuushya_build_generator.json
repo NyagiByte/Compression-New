@@ -1,0 +1,14 @@
+{
+  "id": "yuushya:yuushya_build_generator",
+  "type": "emixx:group",
+  "contents": [
+    "yuushya:composite_building",
+    "yuushya:octagon_pavilion",
+    "yuushya:grand_piano",
+    "yuushya:kitchen_template",
+    "yuushya:mori_cat_pet_store",
+    "yuushya:mori_grocery_store",
+    "yuushya:tavern"
+  ],
+  "enabled": true
+}

@@ -16,5 +16,15 @@
     "biome": "biomeswevegone:dead_sea",
     "spawner": false,
     "result": "deny"
+  },
+  {
+    "dimension": "minecraft:overworld",
+    "mob": ["minecraft:strider"],
+    "mincount": {
+      "amount": 5,
+      "hostile": false,
+      "perplayer": true
+    },
+    "result": "deny"
   }
 ]
