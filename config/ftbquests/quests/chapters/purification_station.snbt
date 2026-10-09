@@ -406,33 +406,35 @@
 			description: [
 				"&l&6Input per bucket of \"Contaminated OPA\"&r"
 				""
-				"&b8x Activated Carbon"
-				"&dElectrolytic Core&r"
-				"&a100mb Nitrogen&r"
+				"&b18x Sodium Hydroxide"
+				"&b1x Raw Cryolite&r"
+				"&d1x Electrowinning Uses&r"
 				""
 				"&l&6Output per bucket of \"Contaminated OPA\"&r"
 				""
 				"&e50% OPA Recovery&r"
-				"&e99% Electrolytic Core Recovery&r"
-				"&d18x Float-Seperated Aluminum&r"
+				"&e95% Electrowinning Recovery&r"
+				"&d12x Float-Seperated Aluminum&r"
+				"&a500mb Gallium-Rich White Liqour&r"
+				"&a500mb Fluorine Gas&r"
 			]
-			icon: "createdeco:decal_no_entry"
+			icon: "chemlib:aluminum"
 			id: "479F8CF14E5D3C2F"
 			tasks: [
 				{
-					id: "480F77B080AF3443"
-					item: "nyagibits_bytes:electrolytic_core"
+					count: 18L
+					id: "18F576A54402E064"
+					item: { Count: 18, id: "chemlib:sodium_hydroxide_dust" }
 					type: "item"
 				}
 				{
-					count: 8L
-					id: "15F444703FB6AF5B"
-					item: "nyagibits_bytes:activated_carbon"
+					id: "5855707585A173A5"
+					item: "nyagibits_bytes:raw_cryolite"
 					type: "item"
 				}
 				{
-					id: "05D74A5B4DFF0CEC"
-					item: "chemlib:nitrogen_bucket"
+					id: "1CAB02E89D37EF97"
+					item: "nyagibits_bytes:electrowinning_device"
 					type: "item"
 				}
 			]
@@ -446,25 +448,32 @@
 				"&l&6Input per bucket of \"Contaminated OPA\"&r"
 				""
 				"&a100mb Nitrogen&r"
-				"&a100mb Hydrofluoric Acid&r"
+				"&a1500mb Hydrofluoric Acid&r"
+				"&b24x Calcium Dust&r"
 				""
 				"&l&6Output per bucket of \"Contaminated OPA\"&r"
 				""
 				"&e50% OPA Recovery&r"
-				"&c500mb Contaminated Water&r"
-				"&d18x Float-Seperated Scandium&r"
+				"&b24x Calcium Fluoride Dust&r"
+				"&d16x Float-Seperated Scandium&r"
 			]
-			icon: "createdeco:decal_no_entry"
+			icon: "chemlib:scandium"
 			id: "4C8562F58F40BF56"
 			tasks: [
 				{
-					id: "14739591824A7CED"
-					item: "chemlib:nitrogen_bucket"
+					id: "222D45217943DB29"
+					item: "nuclearcraft:hydrofluoric_acid_bucket"
 					type: "item"
 				}
 				{
-					id: "222D45217943DB29"
-					item: "nuclearcraft:hydrofluoric_acid_bucket"
+					id: "56D6BBCDF8FCA5EA"
+					item: "chemlib:nitrogen"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "3B81ADFEF8D026D1"
+					item: { Count: 24, id: "chemlib:calcium_dust" }
 					type: "item"
 				}
 			]
@@ -553,17 +562,33 @@
 		}
 		{
 			dependencies: ["5EF8D24938FE593F"]
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&a1000mb Water&r"
+				"&b16x Iron Dust&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&d12x Float-Seperated Manganese&r"
+				"&d12x Iron III Chloride&r"
+				"&a400mb Hydrogen Gas&r"
+				"&a1000mb Low Pressure Steam&r"
+			]
 			icon: "chemlib:manganese"
 			id: "1FF61804ED135AE7"
 			tasks: [
 				{
-					id: "318D523660E9A34D"
-					item: "minecraft:water_bucket"
+					count: 16L
+					id: "6A009D5F3C63665F"
+					item: "chemlib:iron_dust"
 					type: "item"
 				}
 				{
-					id: "6A009D5F3C63665F"
-					item: "chemlib:iron_dust"
+					count: 16L
+					id: "110EFC98F1C6C4CB"
+					item: { Count: 8, id: "chemlib:water" }
 					type: "item"
 				}
 			]
@@ -641,17 +666,32 @@
 		}
 		{
 			dependencies: ["5EF8D24938FE593F"]
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&a1500mb Oxygen Gas&r"
+				"&b18x Carbon Dust&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&d16x Float-Seperated Zinc&r"
+				"&a1000mb Sulfur Dioxide Gas&r"
+				"&a18000mb Carbon Monoxide Gas&r"
+			]
 			icon: "chemlib:zinc"
 			id: "261A540D19DD386D"
 			tasks: [
 				{
-					id: "669803936DD441B3"
-					item: "chemlib:oxygen_bucket"
+					count: 18L
+					id: "00F223908DB670F6"
+					item: "chemlib:carbon_dust"
 					type: "item"
 				}
 				{
-					id: "00F223908DB670F6"
-					item: "chemlib:carbon_dust"
+					count: 24L
+					id: "797AA4F8450CC4F6"
+					item: { Count: 24, id: "chemlib:oxygen" }
 					type: "item"
 				}
 			]
@@ -713,13 +753,35 @@
 		}
 		{
 			dependencies: ["5EF8D24938FE593F"]
-			icon: "createdeco:decal_no_entry"
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&a875mb Oxygen Gas&r"
+				"&a188mb Hydrogen Gas&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&d16x Float-Seperated Molybdenum&r"
+				"&a500mb Sulfur Dioxide Gas&r"
+				"&a188mb Contaminated Water&r"
+			]
+			icon: "chemlib:molybdenum"
 			id: "7B6C8075266473BA"
-			tasks: [{
-				id: "7A2391CBB43FA33B"
-				item: "compactmachines:wall"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 14L
+					id: "18F21E110A1A456F"
+					item: { Count: 14, id: "chemlib:oxygen" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "65D2B3F0792A8841"
+					item: { Count: 3, id: "chemlib:hydrogen" }
+					type: "item"
+				}
+			]
 			title: "Cleaning Molybdenum Opa"
 			x: 13.144897959183666d
 			y: -7.018367346938778d
@@ -804,13 +866,39 @@
 		}
 		{
 			dependencies: ["5EF8D24938FE593F"]
-			icon: "createdeco:decal_no_entry"
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&b18x Carbon Dust&r"
+				"&4Arc Furnace Use&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&d16x Float-Seperated Tin&r"
+				"&a1125mb Carbon Dioxide Gas&r"
+			]
+			icon: "chemlib:tin"
 			id: "6111EFF1E66B2FF3"
-			tasks: [{
-				id: "4E9C83BD897BDC4E"
-				item: "compactmachines:wall"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 18L
+					id: "4D8C39528D8E2BA3"
+					item: { Count: 18, id: "chemlib:carbon_dust" }
+					type: "item"
+				}
+				{
+					id: "2106F989D7F1CA3E"
+					item: {
+						Count: 1
+						id: "immersiveengineering:graphite_electrode"
+						tag: {
+							graphDmg: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			title: "Cleaning Tin Opa"
 			x: 13.513945578231287d
 			y: -7.676530612244903d

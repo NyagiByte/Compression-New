@@ -1,25 +1,24 @@
 {
   "type":"vintageimprovements:pressurizing",
-  "secondaryFluidInput": 0,
-  "secondaryFluidOutput": 0,
+	"secondaryFluidInput": 0,
   "ingredients": [
     {
       "fluid": "chemlib:nitrogen_fluid",
       "amount": 100
     },
     {
-      "fluid": "nyagibits_bytes:opa_scandium_fluid",
-      "amount": 1000
+      "fluid": "nuclearcraft:hydrofluoric_acid",
+      "amount": 1500
     },
     {
-      "fluid": "nuclearcraft:hydrofluoric_acid",
-      "amount": 100
+      "fluid": "nyagibits_bytes:opa_scandium_fluid",
+      "amount": 1000
     }
   ],
   "results": [
     {
       "fluid": "nyagibits_bytes:contaminated_water_fluid",
-      "amount": 500
+      "amount": 188
     },
     {
       "fluid": "nyagibits_bytes:opa_1214_fluid",

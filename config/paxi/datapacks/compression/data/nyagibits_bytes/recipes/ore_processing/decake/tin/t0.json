@@ -1,0 +1,14 @@
+{"type":"immersiveengineering:arc_furnace",
+    "additives":[
+    ],
+            "energy":102400,
+            "input":{
+                "base_ingredient":{
+                    "item":"nyagibits_bytes:float_separated_tin_dust"
+                    },"count":16},
+                    "results":[
+                        {
+                        "count":16,
+                        "item":"nyagibits_bytes:pure_tin_dust"
+                        }],
+                            "time":100}

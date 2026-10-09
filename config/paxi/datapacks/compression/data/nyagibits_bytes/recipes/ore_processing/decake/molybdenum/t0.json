@@ -1,0 +1,68 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "ingredients": [
+    {
+      "fluid": "chemlib:hydrogen_fluid",
+      "amount": 188
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    }
+  ],
+  "results": [
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_molybdenum_dust"
+    },
+    {
+      "fluid": "nyagibits_bytes:contaminated_water_fluid",
+      "amount": 188
+    }
+  ],
+  "processingTime": 200
+}

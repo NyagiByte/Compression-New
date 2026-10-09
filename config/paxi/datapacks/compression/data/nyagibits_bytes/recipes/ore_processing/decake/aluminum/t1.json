@@ -1,0 +1,85 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+	"secondaryFluidOutput": 0,
+  "heatRequirement": "superheated",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:electrowinning_device"
+      },
+      {
+        "item": "nyagibits_bytes:raw_cryolite"
+      },
+      {
+        "item": "nyagibits_bytes:calcium_fluoride_dust"
+      },
+      {
+        "item": "nyagibits_bytes:calcium_fluoride_dust"
+      }
+    ],
+    "results": [
+      {
+        "amount": 1000,
+        "fluid": "chemlib:fluorine_fluid"
+      },
+      {
+        "amount": 500,
+        "fluid": "nyagibits_bytes:white_liquor_gallium_fluid"
+      },
+      {
+        "count": 16,
+        "item": "nyagibits_bytes:pure_aluminum_dust"
+      },
+      {
+        "chance": 0.95,
+        "item": "nyagibits_bytes:electrowinning_device"
+      }
+    ]
+  }

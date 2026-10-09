@@ -1,0 +1,79 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+	"secondaryFluidOutput": 0,
+  "heatRequirement": "superheated",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_aluminum_dust"
+      },
+      {
+        "item": "nyagibits_bytes:electrowinning_device"
+      },
+      {
+        "item": "nyagibits_bytes:raw_cryolite"
+      }
+    ],
+    "results": [
+      {
+        "amount": 500,
+        "fluid": "chemlib:fluorine_fluid"
+      },
+      {
+        "amount": 500,
+        "fluid": "nyagibits_bytes:white_liquor_gallium_fluid"
+      },
+      {
+        "count": 12,
+        "item": "nyagibits_bytes:pure_aluminum_dust"
+      },
+      {
+        "chance": 0.95,
+        "item": "nyagibits_bytes:electrowinning_device"
+      }
+    ]
+  }

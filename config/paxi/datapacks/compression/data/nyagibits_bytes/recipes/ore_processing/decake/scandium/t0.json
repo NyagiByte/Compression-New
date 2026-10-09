@@ -1,0 +1,136 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "ingredients": [
+    {
+      "item": "nyagibits_bytes:float_separated_scandium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_scandium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_scandium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_scandium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_scandium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_scandium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_scandium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_scandium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_scandium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_scandium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_scandium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_scandium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_scandium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_scandium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_scandium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_scandium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    },
+    {
+      "item": "chemlib:calcium_dust"
+    }
+  ],
+  "results": [
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_scandium_dust"
+    },
+    {
+      "count": 24,
+      "item": "nyagibits_bytes:calcium_fluoride_dust"
+    }
+  ],
+  "processingTime": 200
+}

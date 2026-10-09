@@ -1,0 +1,26 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+	"secondaryFluidOutput": 0,
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "fluid": "chemlib:oxygen_fluid",
+      "amount": 875
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_molybdenum_fluid",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:sulfur_dioxide_fluid",
+      "amount": 250
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_molybdenum_dust"
+    }
+  ],
+  "processingTime": 200
+}
