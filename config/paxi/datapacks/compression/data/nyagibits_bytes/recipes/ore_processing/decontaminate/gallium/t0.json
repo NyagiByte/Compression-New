@@ -1,0 +1,33 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:palladium_catalyst_doped_exchange_resin"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:opa_gallium_fluid"
+      }
+    ],
+    "results": [
+      {
+        "amount": 500,
+        "fluid": "nyagibits_bytes:opa_1214_fluid"
+      },
+      {
+        "item": "chemlib:aluminum_hydroxide"
+      },
+      {
+        "count": 18,
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "count": 2,
+        "item": "nyagibits_bytes:red_mud"
+      },
+      {
+        "chance": 0.8,
+        "item": "nyagibits_bytes:palladium_catalyst_doped_exchange_resin"
+      }
+    ]
+  }

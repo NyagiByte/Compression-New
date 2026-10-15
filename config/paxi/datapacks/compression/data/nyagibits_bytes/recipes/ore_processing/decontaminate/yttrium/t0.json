@@ -1,0 +1,50 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "fluid": "chemlib:sulfuric_acid_fluid",
+      "amount": 1000
+    },
+    {
+      "fluid": "nyagibits_bytes:oxalic_acid_fluid",
+      "amount": 1000
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_yttrium_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "nyagibits_bytes:palladium_catalyst_doped_exchange_resin"
+    },
+    {
+      "item": "nyagibits_bytes:chromatography_kit"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.80,
+      "item": "nyagibits_bytes:palladium_catalyst_doped_exchange_resin"
+    },
+    {
+      "item": "nyagibits_bytes:chromatography_kit_used"
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_1214_fluid",
+      "amount": 500
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_yttrium_dust"
+    },
+    {
+      "fluid": "chemlib:sulfuric_acid_fluid",
+      "amount": 900
+    },
+    {
+      "fluid": "nyagibits_bytes:oxalic_acid_fluid",
+      "amount": 500
+    }
+  ],
+  "processingTime": 200
+}

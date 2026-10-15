@@ -1,0 +1,36 @@
+{
+  "type":"vintageimprovements:pressurizing",
+	"secondaryFluidInput": 2,
+  "ingredients": [
+    {
+      "fluid": "nyagibits_bytes:opa_tantalum_fluid",
+      "amount": 1000
+    },
+    {
+      "fluid": "nuclearcraft:hydrofluoric_acid",
+      "amount": 10000
+    },
+    {
+      "fluid": "nuclearcraft:hydrofluoric_acid",
+      "amount": 4000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "nyagibits_bytes:opa_1214_fluid",
+      "amount": 500
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "chemlib:niobium_dust"
+    },
+    {
+      "fluid": "nyagibits_bytes:contaminated_water_fluid",
+      "amount": 312
+    }
+  ],
+  "processingTime": 200
+}

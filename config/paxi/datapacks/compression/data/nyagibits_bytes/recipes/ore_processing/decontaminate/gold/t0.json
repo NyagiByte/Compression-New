@@ -1,0 +1,50 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:opa_gold_fluid"
+      },
+      {
+        "item": "nyagibits_bytes:sodium_cyanide_dust"
+      },
+      {
+        "item": "nyagibits_bytes:sodium_cyanide_dust"
+      },
+      {
+        "item": "nyagibits_bytes:sodium_cyanide_dust"
+      },
+      {
+        "item": "nyagibits_bytes:sodium_cyanide_dust"
+      },
+      {
+        "item": "nyagibits_bytes:sodium_cyanide_dust"
+      },
+      {
+        "item": "nyagibits_bytes:sodium_cyanide_dust"
+      },
+      {
+        "item": "nyagibits_bytes:sodium_cyanide_dust"
+      },
+      {
+        "item": "nyagibits_bytes:sodium_cyanide_dust"
+      },
+      {
+        "item": "nyagibits_bytes:sodium_cyanide_dust"
+      }
+    ],
+    "results": [
+      {
+        "amount": 500,
+        "fluid": "nyagibits_bytes:opa_1214_fluid"
+      },
+      {
+        "count": 4,
+        "item": "chemlib:sodium_hydroxide_dust"
+      },
+      {
+        "count": 18,
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      }
+    ]
+  }

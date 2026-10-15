@@ -1,0 +1,33 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "chemlib:iodine_dust"
+    },
+    {
+      "item": "chemlib:iodine_dust"
+    },
+    {
+      "item": "chemlib:iodine_dust"
+    },
+    {
+      "item": "chemlib:iodine_dust"
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_hafnium_fluid",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "nyagibits_bytes:opa_1214_fluid",
+      "amount": 500
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    }
+  ],
+  "processingTime": 200
+}

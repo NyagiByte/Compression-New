@@ -1,0 +1,24 @@
+{
+    "type": "create:mixing",
+  "heatRequirement": "superheated",
+    "ingredients": [
+      {
+        "fluid": "nuclearcraft:hydrofluoric_acid",
+        "amount": 6750
+      },
+    {
+      "fluid": "nyagibits_bytes:opa_tungsten_fluid",
+      "amount": 1000
+    }
+    ],
+    "results": [
+      {
+        "fluid": "chemlib:hydrochloric_acid_fluid",
+        "amount": 6750
+      },
+      {
+        "count": 18,
+        "item": "nyagibits_bytes:float_separated_tungsten_dust"
+      }
+    ]
+  }

@@ -1,0 +1,69 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_hafnium_dust"
+    }
+  ],
+  "results": [
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_hafnium_dust"
+    },
+    {
+      "count": 3,
+      "item": "chemlib:iodine_dust"
+    },
+    {
+      "count": 8,
+      "item": "chemlib:iodine"
+    }
+  ],
+  "processingTime": 200
+}

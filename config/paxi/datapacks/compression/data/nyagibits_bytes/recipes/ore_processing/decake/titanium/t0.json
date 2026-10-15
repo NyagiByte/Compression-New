@@ -1,0 +1,161 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_titanium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    }
+  ],
+  "results": [
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_titanium_dust"
+    },
+    {
+      "count": 32,
+      "item": "chemlib:magnesium_chloride_dust"
+    }
+  ],
+  "processingTime": 200
+}

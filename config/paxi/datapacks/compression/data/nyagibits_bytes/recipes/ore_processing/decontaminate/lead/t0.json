@@ -1,0 +1,33 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "secondaryFluidInput": 0,
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:oxygen_fluid",
+      "amount": 1750
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_lead_fluid",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:sulfur_dioxide_fluid",
+      "amount": 1125
+    },
+    {
+      "item": "chemlib:bismuth_dust"
+    },
+    {
+      "item": "chemlib:arsenic_dust"
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_lead_dust"
+    }
+  ],
+  "processingTime": 200
+}

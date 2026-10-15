@@ -1,0 +1,73 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+    {
+      "item": "nyagibits_bytes:electrowinning_device"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_thallium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_thallium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_thallium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_thallium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_thallium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_thallium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_thallium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_thallium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_thallium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_thallium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_thallium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_thallium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_thallium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_thallium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_thallium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_thallium_dust"
+    }
+    ],
+    "results": [
+      {
+        "chance": 0.95,
+        "item": "nyagibits_bytes:electrowinning_device"
+      },
+      {
+        "item": "chemlib:iodine_dust"
+      },
+      {
+        "count": 4,
+        "item": "chemlib:iodine"
+      },
+      {
+        "count": 16,
+        "item": "nyagibits_bytes:pure_thallium_dust"
+      }
+    ]
+  }

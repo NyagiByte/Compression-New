@@ -1,0 +1,11 @@
+{
+    "type":"immersiveengineering:blast_furnace",
+    "input":{
+        "item":"nyagibits_bytes:float_separated_lead_dust"
+            },
+        "result":{
+            "item":"nyagibits_bytes:pure_lead_dust"
+                 },"slag":{
+                    "count": 8,
+                        "item":"chemlib:carbon_dioxide"
+                          },"time":20}

@@ -1,0 +1,87 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tantalum_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nyagibits_bytes:electrowinning_device"
+    },
+    {
+      "fluid": "nuclearcraft:sodium",
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_tantalum_dust"
+    },
+    {
+      "count": 2,
+      "chance": 0.95,
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "count": 5,
+      "item": "nuclearcraft:sodium_fluoride_dust"
+    },
+    {
+      "chance": 0.95,
+      "item": "nyagibits_bytes:electrowinning_device"
+    }
+  ],
+  "processingTime": 200
+}

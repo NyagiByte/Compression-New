@@ -1,0 +1,67 @@
+{
+    "type": "create:mixing",
+  "heatRequirement": "superheated",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:pure_zinc_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gold_dust"
+      }
+    ],
+    "results": [
+      {
+        "count": 2,
+        "item": "nyagibits_bytes:sodium_tetracyanozincate_dust"
+      },
+      {
+        "count": 16,
+        "item": "nyagibits_bytes:pure_gold_dust"
+      }
+    ]
+  }

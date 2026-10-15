@@ -1,0 +1,80 @@
+{
+    "type": "create:mixing",
+  "heatRequirement": "superheated",
+    "ingredients": [
+      {
+        "item": "chemlib:calcium_dust"
+      },
+      {
+        "item": "chemlib:calcium_dust"
+      },
+      {
+        "item": "chemlib:calcium_dust"
+      },
+      {
+        "item": "chemlib:calcium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_yttrium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_yttrium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_yttrium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_yttrium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_yttrium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_yttrium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_yttrium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_yttrium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_yttrium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_yttrium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_yttrium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_yttrium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_yttrium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_yttrium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_yttrium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_yttrium_dust"
+      },
+      {
+        "fluid": "nuclearcraft:hydrofluoric_acid",
+        "amount": 1000
+      }
+    ],
+    "results": [
+      {
+        "count": 4,
+        "item": "nyagibits_bytes:calcium_fluoride_dust"
+      },
+      {
+        "count": 12,
+        "item": "nyagibits_bytes:pure_yttrium_dust"
+      }
+    ]
+  }

@@ -1,0 +1,70 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "secondaryFluidInput": 0,
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "fluid": "chemlib:hydrogen_fluid",
+      "amount": 3375
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tungsten_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tungsten_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tungsten_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tungsten_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tungsten_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tungsten_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tungsten_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tungsten_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tungsten_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tungsten_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tungsten_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tungsten_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tungsten_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tungsten_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tungsten_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_tungsten_dust"
+    }
+  ],
+  "results": [
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_tungsten_dust"
+    },
+    {
+      "fluid": "nuclearcraft:hydrofluoric_acid",
+      "amount": 6075
+    }
+  ],
+  "processingTime": 200
+}

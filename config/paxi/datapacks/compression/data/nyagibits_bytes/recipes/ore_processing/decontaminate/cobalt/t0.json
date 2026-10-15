@@ -9,6 +9,15 @@
     {
       "fluid": "nyagibits_bytes:opa_cobalt_fluid",
       "amount": 1000
+    },
+    {
+      "item": "vintageimprovements:lead_rod"
+    },
+    {
+      "item": "nyagibits_bytes:steel_stainless"
+    },
+    {
+      "item": "nyagibits_bytes:electrowinning_device"
     }
   ],
   "results": [
@@ -17,8 +26,16 @@
       "count": 4
     },
     {
-      "item": "chemlib:copper_ii_sulfate_dust",
-      "count": 2
+      "chance": 0.95,
+      "item": "nyagibits_bytes:electrowinning_device"
+    },
+    {
+      "chance": 0.75,
+      "item": "vintageimprovements:lead_rod"
+    },
+    {
+      "chance": 0.95,
+      "item": "nyagibits_bytes:steel_stainless"
     },
     {
       "fluid": "nyagibits_bytes:opa_1214_fluid",
@@ -27,6 +44,10 @@
     {
       "count": 18,
       "item": "nyagibits_bytes:float_separated_cobalt_dust"
+    },
+    {
+      "fluid": "chemlib:sulfuric_acid_fluid",
+      "amount": 900
     }
   ],
   "processingTime": 200

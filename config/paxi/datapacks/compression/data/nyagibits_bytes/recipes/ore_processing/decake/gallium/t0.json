@@ -1,0 +1,67 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+	"secondaryFluidOutput": 0,
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_gallium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:electrowinning_device"
+      }
+    ],
+    "results": [
+      {
+        "chance": 0.95,
+        "item": "nyagibits_bytes:electrowinning_device"
+      },
+      {
+        "count": 16,
+        "item": "nyagibits_bytes:pure_gallium_dust"
+      }
+    ]
+  }
