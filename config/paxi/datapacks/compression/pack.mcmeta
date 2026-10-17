@@ -2309,6 +2309,8 @@
 		{"namespace": "immersiveengineering", "path": "recipes/sawmill/oak_slab.json"},
 		{"namespace": "immersiveengineering", "path": "recipes/sawmill/treated_wood_vertical_slab.json"},
 
+		{"namespace": "immersiveengineering", "path": "recipes/crafting/fertilizer.json"},
+
 		{"namespace": "spelunkery", "path": "loot_tables/blocks/tuff_silver_ore.json"},
 		{"namespace": "spelunkery", "path": "loot_tables/blocks/andesite_silver_ore.json"},
 		{"namespace": "spelunkery", "path": "loot_tables/blocks/tuff_jade_ore.json"},
