@@ -293,6 +293,7 @@
         "nuclearcraft:uranium_235_ox",
         "nuclearcraft:uranium_chunk",
         "mekanism:block_raw_uranium",
+        "nuclearcraft:spent_nuclear_waste_bucket",
         "nuclearcraft:uranium_spallation_waste",
         "nuclearcraft:uranium238_block",
         "nuclearcraft:fuel_uranium_leu_233_ox",
