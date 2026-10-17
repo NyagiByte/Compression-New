@@ -571,6 +571,7 @@
 		{"namespace": "vintageimprovements", "path": "recipes/craft/vanadium_nuggets_to_ingot.json"},
 		{"namespace": "vintageimprovements", "path": "recipes/craft/vanadium_block_to_ingots.json"},
 		{"namespace": "immersiveengineering", "path": "recipes/crafting/raw_nickel_to_raw_block_nickel.json"},
+		{"namespace": "immersiveengineering", "path": "recipes/crafting/raw_uranium_to_raw_block_uranium.json"},
 		{"namespace": "thermal", "path": "recipes/storage/nickel_ingot_from_block.json"},
 		{"namespace": "thermal", "path": "recipes/storage/nickel_ingot_from_nuggets.json"},
 		{"namespace": "thermal", "path": "recipes/storage/nickel_nugget_from_ingot.json"},

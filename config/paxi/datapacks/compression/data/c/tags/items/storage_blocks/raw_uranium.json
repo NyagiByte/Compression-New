@@ -1,6 +1,6 @@
 {
     "replace": true,
     "values": [
-        "thermal:raw_uranium_block"
+        "mekanism:block_raw_uranium"
     ]
   }

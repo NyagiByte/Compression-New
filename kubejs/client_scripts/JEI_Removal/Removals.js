@@ -207,7 +207,6 @@ JEIEvents.hideItems(event => {
     'mekanism:block_raw_lead',
     'nuclearcraft:lead_chunk',
     'mekanism:raw_uranium',
-    'mekanism:block_raw_uranium',
     'immersiveengineering:raw_uranium',
     'immersiveengineering:raw_block_uranium',
     'thermal:niter_ore',
