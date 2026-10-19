@@ -22,4 +22,9 @@
 	"Disable Runic Altar Rune Refund" = true
 	#Whether Hydroangeas should decay naturally. Set this to false if implementing a recipe for them.
 	"Enable Natural Hydroangeas Decay" = false
+	#Capacity of the Fabolous Mana Pool. Default is 1000000. Yes, numerical mana, deal with it.
+	#Range: > 1
+	"Fabulous Pool Mana Capacity" = 2000000
+	#Whether to make the Garden of Glass pebbles usable as an improvised thrown weapon
+	"Stone Thy Foes" = true
 
