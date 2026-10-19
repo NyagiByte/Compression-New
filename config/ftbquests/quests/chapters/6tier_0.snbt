@@ -600,7 +600,7 @@
 				"The &dmillstone&r can also boost the &bdye&r yields of most plants and let you source more crops from &bmixed seeds&r"
 				""
 				"&6Note:&r"
-				"It is worth pointing out the &dquartz rout&r exists once you automate soul sand. It can be just as fast but relies on &cautocrafting&r which isnt available at this stage"
+				"It is worth pointing out the &dquartz route&r exists once you automate soul sand. It can be just as fast but relies on &cautocrafting&r which isnt available at this stage"
 			]
 			icon: "create:millstone"
 			id: "4181778D139B2C3C"

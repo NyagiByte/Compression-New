@@ -2380,7 +2380,9 @@
 		{"namespace": "echovoids", "path": "recipes/neon_block_void.json"},
 		{"namespace": "echovoids", "path": "recipes/neon_block_mythril.json"},
 		{"namespace": "echovoids", "path": "recipes/warped_planks.json"},
-		{"namespace": "echovoids", "path": "recipes/warped_planks_from_wood.json"}
+		{"namespace": "echovoids", "path": "recipes/warped_planks_from_wood.json"},
+
+		{"namespace": "yuushya", "path": "recipes/stone/smoke_bricks.json"}
 	]}
 	
 }

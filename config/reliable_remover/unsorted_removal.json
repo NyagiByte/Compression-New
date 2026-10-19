@@ -561,7 +561,11 @@
             "immersiveengineering:deepslate_ore_silver",
             "immersiveengineering:raw_block_uranium",
             "mekanism:raw_uranium",
-            "immersiveengineering:raw_uranium"
+            "immersiveengineering:raw_uranium",
+            "immersiveengineering:sword_steel",
+            "immersiveengineering:shovel_steel",
+            "immersiveengineering:axe_steel",
+            "immersiveengineering:pickaxe_steel"
         ]
     }
 ]
