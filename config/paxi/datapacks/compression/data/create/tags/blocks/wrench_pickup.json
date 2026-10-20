@@ -270,6 +270,7 @@
     "abyssal_decor:deepbronze_trapdoor",
     "abyssal_decor:deepbronze_door",
     "abyssal_decor:riveted_seabrass",
-    "abyssal_decor:rivited_seabrass_slab"
+    "abyssal_decor:rivited_seabrass_slab",
+    "minecraft:cauldron"
   ]
 }
