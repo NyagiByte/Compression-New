@@ -14,8 +14,14 @@
 	order_index: 12
 	quest_links: [ ]
 	quests: [{
-		dependencies: ["3BEACE9F3F1EC3AA"]
+		dependencies: [
+			"3BEACE9F3F1EC3AA"
+			"1D2C0C6498C3243F"
+		]
+		dependency_requirement: "one_completed"
 		description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+		hide_until_deps_complete: true
+		icon: "ae2:spatial_anchor"
 		id: "2730316A9131934A"
 		size: 3.0d
 		tasks: [{
@@ -23,7 +29,7 @@
 			item: "ftbquests:missing_item"
 			type: "item"
 		}]
-		title: "&c[NULL INFORMATION]"
+		title: "To Kill The Gods"
 		x: 0.0d
 		y: 0.0d
 	}]

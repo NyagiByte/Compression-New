@@ -15,7 +15,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7BCAB430B974B009"]
+			dependencies: [
+				"7BCAB430B974B009"
+				"1D2C0C6498C3243F"
+			]
+			dependency_requirement: "one_completed"
 			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
 			hide_until_deps_complete: true
 			icon: "biomancy:flesh_bits"

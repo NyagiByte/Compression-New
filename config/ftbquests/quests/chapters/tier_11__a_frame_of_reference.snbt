@@ -8,8 +8,13 @@
 	order_index: 11
 	quest_links: [ ]
 	quests: [{
-		dependencies: ["3A70B63CFB81DD2A"]
+		dependencies: [
+			"3A70B63CFB81DD2A"
+			"1D2C0C6498C3243F"
+		]
+		dependency_requirement: "one_completed"
 		description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+		hide_until_deps_complete: true
 		icon: "compactmachines:machine_maximum"
 		id: "43D4102FC348F335"
 		size: 2.0d

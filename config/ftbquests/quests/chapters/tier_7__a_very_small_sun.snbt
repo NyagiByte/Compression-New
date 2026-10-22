@@ -9,7 +9,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3EE8C6F8CFE02BD1"]
+			dependencies: [
+				"3EE8C6F8CFE02BD1"
+				"1D2C0C6498C3243F"
+			]
+			dependency_requirement: "one_completed"
 			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
 			hide_until_deps_complete: true
 			icon: "nuclearcraft:fusion_core"

@@ -3182,8 +3182,11 @@
 			y: -19.0d
 		}
 		{
-			dependencies: ["256F108BD683D592"]
-			dependency_requirement: "all_started"
+			dependencies: [
+				"256F108BD683D592"
+				"1D2C0C6498C3243F"
+			]
+			dependency_requirement: "one_started"
 			description: [
 				"&l&cW&6e&el&6c&ao&bm&de &ct&6o &eh&ae&bl&dl&c!&r"
 				""

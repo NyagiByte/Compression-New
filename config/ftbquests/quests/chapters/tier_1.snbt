@@ -15,7 +15,9 @@
 				"6C86D86CCAEED256"
 				"5FD4E5F7C28806E5"
 				"177A2060FFFA6932"
+				"1D2C0C6498C3243F"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"&6Hello! If you are reading this currently you are either an alpha tester or an early player! Congrats! Tier 1 will be released once completed. Thank you for playing"
 				""

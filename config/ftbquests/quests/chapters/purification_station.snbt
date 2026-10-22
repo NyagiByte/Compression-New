@@ -28,6 +28,7 @@
 				""
 				"Refining these crude natural products is vital for growing the factory."
 			]
+			hide_until_deps_complete: true
 			icon: "botania:corporea_spark_creative"
 			id: "37FAE71D2630FECC"
 			rewards: [{
@@ -211,11 +212,6 @@
 					count: 24L
 					id: "1F6B2FDEE75512E6"
 					item: "chemlib:iron_dust"
-					type: "item"
-				}
-				{
-					id: "1E5B35F3B408B455"
-					item: "compactmachines:wall"
 					type: "item"
 				}
 			]
