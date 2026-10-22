@@ -50,6 +50,11 @@
 		}
 		{
 			dependencies: ["78B469E961FA1847"]
+			description: [
+				"Production of &lMetallic Hydrogen&r enables the ever elusive room temperature superconductor to enter your technology basis"
+				""
+				"This will affect every single production line stretching back to Tier 1. Happy base refactoring!"
+			]
 			icon: "chemlib:hydrogen"
 			id: "798266D25F204A2D"
 			tasks: [{
@@ -62,6 +67,11 @@
 		}
 		{
 			dependencies: ["798266D25F204A2D"]
+			description: [
+				"By utterly abusing metallic hydrogen you will be able to create a particle accelerator small enough to fit in your hand."
+				""
+				"Naturally the radiation shielding is lacking, but who really needs all of their dna anyways."
+			]
 			icon: "create_hypertube:hypertube_accelerator"
 			id: "3A17B2AAD453BC5F"
 			tasks: [{
@@ -74,8 +84,8 @@
 		}
 		{
 			dependencies: ["798266D25F204A2D"]
-			description: ["Quantum Computers"]
-			icon: "compactmachines:wall"
+			description: ["Quantum Computers!!! Oh God!!!"]
+			icon: "yuushya:checkout_computer"
 			id: "63B1F1A065FF3C11"
 			tasks: [{
 				id: "4229762CD9065755"
@@ -87,7 +97,14 @@
 		}
 		{
 			dependencies: ["3A17B2AAD453BC5F"]
-			icon: "compactmachines:wall"
+			description: [
+				"Fun fact! Solid is not the end of the state-of-matter-changes when you get &bcolder&r"
+				""
+				"If you can get to milikelvin temperatures or lower something &dnew and weird starts happening&r."
+				""
+				"The wavefunctions of particles start to smear out, so much so that collections of particles or even atoms start to behave as one mega quantum object. Bringing weird quantum behavior to slightly larger scales."
+			]
+			icon: "tastytiles:glist_cold_tile"
 			id: "6F662FC77E08F468"
 			tasks: [{
 				id: "7395DFBB197A0A65"
@@ -101,6 +118,11 @@
 			dependencies: [
 				"6F662FC77E08F468"
 				"63B1F1A065FF3C11"
+			]
+			description: [
+				"By cooling a large block of Niobium metal to millionths of a kelvin above absolute zero, we can create a truly macroscopic quantum object."
+				""
+				"With this extreme detection sensitivity is possible. Sensitive enough to catch the ever elusive &6&lGraviton&r"
 			]
 			icon: "chemlib:niobium"
 			id: "5886D92701808A10"
@@ -117,7 +139,12 @@
 				"5886D92701808A10"
 				"6F662FC77E08F468"
 			]
-			icon: "compactmachines:wall"
+			description: [
+				"A particle of &6Gravity&r! How delishiously rare, what a delicacy."
+				""
+				"With such careful detection tools &cI&r can finally figure out what &k&4nicetry:)&r did to construct such sturdy &dFlake&r"
+			]
+			icon: "echovoids:gravity_string_block"
 			id: "3529527CBECCD60C"
 			tasks: [{
 				id: "20F699040779D1E9"
@@ -129,6 +156,13 @@
 		}
 		{
 			dependencies: ["3529527CBECCD60C"]
+			description: [
+				"This Flake seems to be comprised of... ε-kalin subunits in... &ca higher dimensional structure&r. Damn, this is nearly impossible to break."
+				""
+				"Any physical interaction gets tunneled to another side of the structure with the force pointed away from the substance. "
+				""
+				"The only reason the nuclear explosions could \"break\" any was that it was simply knocking out loose pieces that were not part of the larger crystal. &4How frustrating&r!"
+			]
 			icon: "nyagibits_bytes:flake"
 			id: "332D50851D0EF0CA"
 			tasks: [{
@@ -145,6 +179,7 @@
 				"3A17B2AAD453BC5F"
 				"30AA284C48E54901"
 			]
+			description: ["With this insight on the Flake structure and your new pocket accelerators. You can utterly abuse short lived particles in highly unusual ways...."]
 			icon: "compactmachines:wall"
 			id: "0188D52BF5121413"
 			tasks: [{
@@ -160,6 +195,11 @@
 				"3529527CBECCD60C"
 				"5886D92701808A10"
 			]
+			description: [
+				"With all these fragments of Flake gathered from the upper atmosphere thermonuclear apocalypse some actual machinery can be constructed."
+				""
+				"Mainly a &6Kalin Core&r. A device capable of physically holding onto particles without quantum tunneling taking effect. &cHow... rule breaking&r"
+			]
 			icon: "compactmachines:wall"
 			id: "30AA284C48E54901"
 			tasks: [{
@@ -172,6 +212,11 @@
 		}
 		{
 			dependencies: ["0188D52BF5121413"]
+			description: [
+				"...Like making particles that traditionaly have half-lifes on the scale of microseconds exist for far longer on macroscopic scales."
+				""
+				"You just need to push them so close to &6&l&nc&r the risk of a blackhole forming is very real!"
+			]
 			icon: "compactmachines:wall"
 			id: "3A70B63CFB81DD2A"
 			tasks: [{
