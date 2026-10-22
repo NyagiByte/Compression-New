@@ -139,7 +139,13 @@
 				"6A376BD246779C71"
 				"74114F8B8BB98B3C"
 			]
-			description: ["By creating a large isolated gravitational well to hold this blackhole in place, the swarm of nanobots is able to maintain orbit around the compact object."]
+			description: [
+				"By creating a large isolated gravitational well to hold this blackhole in place, the swarm of nanobots is able to maintain orbit around the compact object."
+				""
+				"This creates a truly &dunique environment&r with such extreme physics both large and small. "
+				""
+				"Technology that can directly influence the behavior of the &6quantum foam&r itself is within reach."
+			]
 			icon: "abyssal_decor:ornate_rug"
 			id: "3CFABD15F6F25B17"
 			tasks: [{
@@ -154,6 +160,11 @@
 			dependencies: [
 				"3CFABD15F6F25B17"
 				"7541737D5ACFEF1C"
+			]
+			description: [
+				"A String Configurator... tuning fundamental particles directly... how delishious."
+				""
+				"Wonder what happens if &cI&r flip the mass value to &9negative&r-"
 			]
 			icon: "echovoids:hanging_strings_end"
 			id: "674063A9B42BB084"

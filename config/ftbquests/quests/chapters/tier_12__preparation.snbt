@@ -13,26 +13,270 @@
 	id: "4554DDBBCB8C69AE"
 	order_index: 12
 	quest_links: [ ]
-	quests: [{
-		dependencies: [
-			"1D2C0C6498C3243F"
-			"674063A9B42BB084"
-		]
-		dependency_requirement: "one_completed"
-		description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
-		hide_until_deps_complete: true
-		icon: "ae2:spatial_anchor"
-		id: "2730316A9131934A"
-		size: 3.0d
-		tasks: [{
-			id: "66D9F6FC4C3FA42C"
-			item: "ftbquests:missing_item"
-			type: "item"
-		}]
-		title: "To Kill The Gods"
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"1D2C0C6498C3243F"
+				"674063A9B42BB084"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+			hide_until_deps_complete: true
+			icon: "ae2:spatial_anchor"
+			id: "2730316A9131934A"
+			size: 3.0d
+			tasks: [{
+				id: "66D9F6FC4C3FA42C"
+				item: "ftbquests:missing_item"
+				type: "item"
+			}]
+			title: "To Kill The Gods"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2730316A9131934A"]
+			description: [
+				"As it turns out the newely created &9Negative Mass&r matter really does not want to exist. Even using ichor pinsers it forcefully converts to regular mass after a moment."
+				""
+				"Regardless it stays in existence for long enough to provide use. &cI&r will just need to shrink down an entire production line to create it for any technology that abuses it. Oh well."
+			]
+			icon: "nuclearcraft:neutronium_ingot"
+			id: "0CD0630B2847C6ED"
+			tasks: [{
+				id: "50EB09925DA0792D"
+				type: "checkmark"
+			}]
+			title: "Perpetually Hiding The Battery"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0CD0630B2847C6ED"]
+			description: [
+				"With access to negative mass, you can construct your own &6wormholes&r! Not large enough to travel through, but just barely large enough to send laser pulses down."
+				""
+				"Thankfully the structure of Flake confirmed this higher spatial dimension exists huh?"
+			]
+			icon: "tesseract:tesseract"
+			id: "3F7A70554DC456ED"
+			tasks: [{
+				id: "5EA11CECD204558E"
+				type: "checkmark"
+			}]
+			title: "So Imagine A Piece Of Paper"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["03FF1A437B21DCE1"]
+			description: ["Taking advantage of the &6closed time-like paths&r within the inner horizon of a blackhole, with wormholes positioned *just* right, a computer can do a calculation and then send it to a &dpast version of itself&r. Don't think about it too hard."]
+			icon: "compactmachines:wall"
+			id: "3C807886A03E7D02"
+			tasks: [{
+				id: "77D14222367E121E"
+				type: "checkmark"
+			}]
+			title: "Supracausal Computation"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3F7A70554DC456ED"]
+			description: ["With wormhole technology, &cI&r can now do something truly illegal and interact with the inside of a blackhole. What horrible abuses of existence await &cme&r"]
+			icon: "nyagibits_bytes:corporea_tunneler"
+			id: "03FF1A437B21DCE1"
+			tasks: [{
+				id: "36071F37D2D7A30F"
+				type: "checkmark"
+			}]
+			title: "The Schwarzschild Corporation"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3C807886A03E7D02"]
+			description: ["Despite the Supracausal Computer systems, out-thinking the &6gods&r will need an additional layer of predictive capacity. &cI&r do not have the capacity to react in time to their omni-present bullshittery, and so, need to equip &cmyself&r with tools that can."]
+			icon: "compactmachines:wall"
+			id: "4724A49E70268FE6"
+			tasks: [{
+				id: "53DDE9771473413A"
+				type: "checkmark"
+			}]
+			title: "Yomi Modeling"
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["03FF1A437B21DCE1"]
+			description: ["[Private Dev Note]"]
+			icon: "compactmachines:wall"
+			id: "4D2E9EF0E1BC8ADB"
+			tasks: [{
+				id: "055701A20AD9D7A6"
+				title: "Anti-Universe"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4D2E9EF0E1BC8ADB"]
+			description: ["[Private Dev Note]"]
+			icon: "createdeco:decal_no_entry"
+			id: "639FFBB5845B27FE"
+			tasks: [{
+				id: "481B680C9018C226"
+				type: "checkmark"
+			}]
+			title: "No Fun Allowed!"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"4D2E9EF0E1BC8ADB"
+				"639FFBB5845B27FE"
+			]
+			description: ["By injecting pieces of a machine atom by atom down a wormhole, a \"tube\" can be formed to&9 directly bleed away negative mass&r from the &dAnti-Universe&r region of the blackhole."]
+			icon: "compactmachines:wall"
+			id: "344DC15D9F23A347"
+			tasks: [{
+				id: "194913D9F56C4AE2"
+				type: "checkmark"
+			}]
+			title: "A Well Of Less Than Nothing"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"4724A49E70268FE6"
+				"4D650802777ECE9C"
+			]
+			description: ["All movements must happen pre-emptively, and so an exoskeleton that forcefully moves &cmy&r body around is strictly required."]
+			icon: {
+				Count: 1
+				id: "create:cardboard_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2757F1CC8B60283C"
+			tasks: [{
+				id: "53C4448993EC72DD"
+				type: "checkmark"
+			}]
+			title: "Highly Opinionated Outfit"
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["344DC15D9F23A347"]
+			description: ["To breach the heavens above, a cylinder packed to the gills with negative mass is needed, a cylinder to break through the infinite barrier above, a cylinder heavier than the stars above."]
+			icon: "pneumaticcraft:pneumatic_cylinder"
+			id: "3D460059E511795A"
+			tasks: [{
+				id: "2ECED6CEA3D632E0"
+				type: "checkmark"
+			}]
+			title: "Infinite Length Spinning Cylinder"
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"4724A49E70268FE6"
+				"4D2E9EF0E1BC8ADB"
+				"344DC15D9F23A347"
+			]
+			description: [
+				"So &cI&r need a gun."
+				""
+				"A gun with bullets."
+				""
+				"Bullets that can travel superluminally."
+				""
+				"Bullets that are a self contained tipler cylinder spawner."
+				""
+				"Bullets that come with an entire factory capable of producing blackholes to launch down the tipler cylinder."
+				""
+				"This gun is more expensive than the damn tower."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 3
+					}
+				}
+				id: "immersiveengineering:railgun"
+			}
+			id: "2791A06FF3014C32"
+			tasks: [{
+				id: "409B4AD8C21B6F88"
+				type: "checkmark"
+			}]
+			title: "An Absurdly Expensive Gun"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"2757F1CC8B60283C"
+				"3D460059E511795A"
+				"2791A06FF3014C32"
+				"75889CB6BB7D0DFC"
+			]
+			description: [
+				"A megalithic construct, the matter of several worlds, stretching far above the clouds."
+				""
+				"However long this fight takes, there is no going back now."
+				""
+				"&cI am so, tired&r "
+			]
+			icon: "abyssal_decor:moldy_hanger"
+			id: "18991578DDF52C60"
+			tasks: [{
+				id: "6179682A5D7569C5"
+				type: "checkmark"
+			}]
+			title: "The Time Needle"
+			x: 0.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["4724A49E70268FE6"]
+			description: [
+				"Death is extremely likely in this encounter. Death is also not an option since the gods would likely trash all &cmy&r shit if they realized what &cI&r was doing."
+				""
+				"A fail-safe is needed. A device capable of hijacking &k&4nicetryagaingoofy&r to send me right before it all starts. "
+			]
+			icon: "minecraft:dead_bush"
+			id: "4D650802777ECE9C"
+			tasks: [{
+				id: "5CCE6974EF937E45"
+				type: "checkmark"
+			}]
+			title: "Uuueeehuuuuuh"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2791A06FF3014C32"]
+			description: ["&k&4nameofgodoftime&r Is a rather tricky individual to plan around. The only real way to ensure this plan will work is if Their world line is severed before &cI&r begin the assault."]
+			icon: "compactmachines:wall"
+			id: "75889CB6BB7D0DFC"
+			tasks: [{
+				id: "730E223263CD9CBA"
+				type: "checkmark"
+			}]
+			title: "Granting Mass"
+			x: 0.0d
+			y: -8.5d
+		}
+	]
 	subtitle: ["&cEven Gods Can Die"]
 	title: " &6Tier 12&b - Preparation "
 }
