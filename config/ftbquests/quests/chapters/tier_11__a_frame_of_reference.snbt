@@ -7,26 +7,165 @@
 	id: "53F1B65D010D76A6"
 	order_index: 11
 	quest_links: [ ]
-	quests: [{
-		dependencies: [
-			"3A70B63CFB81DD2A"
-			"1D2C0C6498C3243F"
-		]
-		dependency_requirement: "one_completed"
-		description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
-		hide_until_deps_complete: true
-		icon: "compactmachines:machine_maximum"
-		id: "43D4102FC348F335"
-		size: 2.0d
-		tasks: [{
-			id: "6C80912C22E8741F"
-			item: "compactcrafting:field_projector"
-			type: "item"
-		}]
-		title: "&cBending the rules"
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: [
+				"3A70B63CFB81DD2A"
+				"1D2C0C6498C3243F"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Hello! If you are reading this you are too early! The pack is &6WIP&r! The quests here provide a quick overview of what is intended for the devin'"]
+			hide_until_deps_complete: true
+			icon: "compactmachines:machine_maximum"
+			id: "43D4102FC348F335"
+			size: 2.0d
+			tasks: [{
+				id: "6CBD6DAB68D0B7A8"
+				item: "compactmachines:wall"
+				type: "item"
+			}]
+			title: "&cBending the rules"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43D4102FC348F335"]
+			description: ["Muons, &ebeing the heavier relatives of electrons&r, form far smaller atoms. Meaning large physical volumes of material can be shrunk down drastically!"]
+			icon: "nyagibits_bytes:synchronous_electric_motor"
+			id: "072CF7B76CE339E8"
+			tasks: [{
+				id: "22286C52046AC458"
+				type: "checkmark"
+			}]
+			title: "Electrons Are Optional"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["072CF7B76CE339E8"]
+			description: ["Since machines are matter, and matter can now be shrunk, machines that tie together into larger systems can also be shrunk. A whole factory in the palm of &cmy&r hand."]
+			icon: "botania:auto_crafting_halo"
+			id: "7541737D5ACFEF1C"
+			tasks: [{
+				id: "66651A6E118A852C"
+				type: "checkmark"
+			}]
+			title: "Automating Automation That Automates Automation"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["072CF7B76CE339E8"]
+			description: ["You can now produce little boxes that you can painfully reassemble yourself into and build all the&a horrible factory spaghetti&r you want, and face none of the aesthetic downfall!"]
+			icon: "compactmachines:personal_shrinking_device"
+			id: "6F364486491096FD"
+			tasks: [{
+				id: "7C3C41924B21438B"
+				type: "checkmark"
+			}]
+			title: "Italian Bento Box"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6F364486491096FD"
+				"7541737D5ACFEF1C"
+			]
+			description: ["Hey &cI&r should give the super AI all these miniturized factories, surely nothing will go wrong."]
+			icon: "compactmachines:wall"
+			id: "3F22C0C76919F101"
+			tasks: [{
+				id: "3BE47BA67268B239"
+				type: "checkmark"
+			}]
+			title: "On The Fly Inventions"
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3F22C0C76919F101"]
+			description: ["Aaaaand the output is utter garbage as expected. Some agressive error correction systems will be needed to make any use of this."]
+			icon: "compactmachines:wall"
+			id: "69DFDA332942B13C"
+			tasks: [{
+				id: "4D64F29C051F22AE"
+				type: "checkmark"
+			}]
+			title: "Fractal Error Correction"
+			x: -3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["69DFDA332942B13C"]
+			description: [
+				"A schematic to concentrate an entire star's worth of light into the space the width of a proton..."
+				""
+				"Sadly this AI seems to not been programmed to take into account &espontanious pair formation&r, but.... This can be reworked."
+				""
+				"&d[Micro-blackhole Factory]&r"
+			]
+			icon: "mekanism:qio_drive_supermassive"
+			id: "74114F8B8BB98B3C"
+			tasks: [{
+				id: "51AE09A0413F7063"
+				type: "checkmark"
+			}]
+			title: "17 Million Kg Proton"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74114F8B8BB98B3C"]
+			description: ["Miniturized factories with nanotechnology &6self replicating&r. And it's programmable! If only there was an ultra compact energy source.... "]
+			icon: {
+				Count: 1
+				id: "pneumaticcraft:logistics_drone"
+				tag: {
+					"pneumaticcraft:air": 120000
+				}
+			}
+			id: "6A376BD246779C71"
+			tasks: [{
+				id: "5C367B1AA7A4194D"
+				type: "checkmark"
+			}]
+			title: "THE GOO SWARM"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6A376BD246779C71"
+				"74114F8B8BB98B3C"
+			]
+			description: ["By creating a large isolated gravitational well to hold this blackhole in place, the swarm of nanobots is able to maintain orbit around the compact object."]
+			icon: "abyssal_decor:ornate_rug"
+			id: "3CFABD15F6F25B17"
+			tasks: [{
+				id: "56DF46A16A77B0A6"
+				type: "checkmark"
+			}]
+			title: "A Philosopher's Stone"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3CFABD15F6F25B17"
+				"7541737D5ACFEF1C"
+			]
+			icon: "echovoids:hanging_strings_end"
+			id: "674063A9B42BB084"
+			tasks: [{
+				id: "74C360CC4480E0A0"
+				type: "checkmark"
+			}]
+			title: "Cosmic Piano"
+			x: -2.5d
+			y: 1.5d
+		}
+	]
 	subtitle: ["Infinity is unnatural"]
 	title: " &6Tier 11&b - A Frame of Reference "
 }
