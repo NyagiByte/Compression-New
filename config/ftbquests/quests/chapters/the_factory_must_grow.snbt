@@ -10,7 +10,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["06742EB86FD93B67"]
+			dependencies: [
+				"06742EB86FD93B67"
+				"1D2C0C6498C3243F"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"&7To unlock the rest of the welcome tab, confirm this quest was read with the checkmark above."
 				""

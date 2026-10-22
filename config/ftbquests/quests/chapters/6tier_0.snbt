@@ -25,7 +25,11 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["147F646960AE4EBE"]
+			dependencies: [
+				"147F646960AE4EBE"
+				"1D2C0C6498C3243F"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"This tab of quests is designed to really get into the weeds with the main &d\"Path To Null\"&r quest line. These quests are entirely ignorable if you are experienced or are willing to scramble your brains a bit &bbut for anyone feeling lost or unsure how to progress&a this is for you!&r"
 				""

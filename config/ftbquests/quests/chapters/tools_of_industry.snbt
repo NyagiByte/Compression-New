@@ -924,7 +924,11 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["365E56328068F481"]
+			dependencies: [
+				"365E56328068F481"
+				"1D2C0C6498C3243F"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"&7To unlock the rest of the welcome tab, confirm this quest was read with the checkmark above."
 				""

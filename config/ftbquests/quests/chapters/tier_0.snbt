@@ -1155,7 +1155,11 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["789566071704E521"]
+			dependencies: [
+				"789566071704E521"
+				"1D2C0C6498C3243F"
+			]
+			dependency_requirement: "one_completed"
 			description: ["A lil pool of &bwater&r for plants and various sludges."]
 			hide_until_deps_complete: true
 			icon: "botania:apothecary_forest"

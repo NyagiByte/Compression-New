@@ -18,7 +18,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["472213B0CD3A8117"]
+			dependencies: [
+				"472213B0CD3A8117"
+				"1D2C0C6498C3243F"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"So many &cimpure&r and &craw&r materials! This simply won't do for any &6high industry&r."
 				""

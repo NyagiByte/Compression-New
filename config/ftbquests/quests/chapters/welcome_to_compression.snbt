@@ -325,7 +325,11 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["05D0BEF6458AB8D9"]
+			dependencies: [
+				"05D0BEF6458AB8D9"
+				"1D2C0C6498C3243F"
+			]
+			dependency_requirement: "one_completed"
 			description: [
 				"&k&4t&r&c&k&4t&r&c &k&4t&r&c  &k&4t&r&c&k&4t&r&c&k&4t&r&c &k&4t&r&c  &k&4t&r&c &l&cStep Forward&r &k&4t&r&c&k&4t&r&c &k&4t&r&c &k&4t&r&c&k&4t&r&c&k&4t&r&c"
 				""
@@ -545,6 +549,25 @@
 			title: "Concentrated Construction Chaos"
 			x: 4.0d
 			y: -8.0d
+		}
+		{
+			description: [
+				"&l&n&cForce Unlock All Tabs"
+				""
+				"&l&o&n&cCan Not Be Undone!"
+			]
+			icon: "echovoids:void_block_of_neon"
+			id: "1D2C0C6498C3243F"
+			size: 2.0d
+			subtitle: "Less Text-o"
+			tasks: [{
+				id: "24D1BDBF05BBC484"
+				title: "Let Me In!!!"
+				type: "checkmark"
+			}]
+			title: "\"I Know What I'm Doing\""
+			x: 7.0d
+			y: -14.0d
 		}
 	]
 	subtitle: ["Read me!"]
