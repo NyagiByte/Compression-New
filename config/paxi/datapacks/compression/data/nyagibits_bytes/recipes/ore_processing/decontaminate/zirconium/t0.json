@@ -1,0 +1,134 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "secondaryFluidInput": 0,
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:chlorine_fluid",
+      "amount": 2250
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_zirconium_fluid",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:carbon_monoxide_fluid",
+      "amount": 2250
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    }
+  ],
+  "processingTime": 200
+}

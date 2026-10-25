@@ -1,0 +1,69 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "nyagibits_bytes:float_separated_silver_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_silver_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_silver_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_silver_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_silver_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_silver_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_silver_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_silver_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_silver_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_silver_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_silver_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_silver_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_silver_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_silver_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_silver_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_silver_dust"
+    }
+  ],
+  "results": [
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_silver_dust"
+    },
+    {
+      "count": 2,
+      "item": "chemlib:zinc_dust"
+    },
+    {
+      "count": 1,
+      "item": "minecraft:gold_nugget"
+    }
+  ],
+  "processingTime": 200
+}

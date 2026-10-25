@@ -699,6 +699,18 @@
 		}
 		{
 			dependencies: ["5EF8D24938FE593F"]
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&a4000mb Carbon Monoxide&r"
+				"&a1000mb Hydrogen&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&e3900mb Carbon Monoxide Recovery&r"
+				"&d16x Pure Nickel&r"
+			]
 			icon: "chemlib:nickel"
 			id: "4C024E05DE5F5541"
 			tasks: [
@@ -853,13 +865,42 @@
 		}
 		{
 			dependencies: ["5EF8D24938FE593F"]
-			icon: "createdeco:decal_no_entry"
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&a2250mb Chlorine Gas&r"
+				"&b36x Carbon Dust&r"
+				"&b32x Magnesium Dust&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&a2250mb Carbon Monoxide Gas&r"
+				"&b32x Magnesium Chloride&r"
+				"&d16x Pure Zirconium&r"
+			]
+			icon: "chemlib:zirconium"
 			id: "5B3F73B8EE30FC48"
-			tasks: [{
-				id: "150C0064C1482D09"
-				item: "compactmachines:wall"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 36L
+					id: "0169CD9E5E4E6F95"
+					item: { Count: 36, id: "chemlib:chlorine" }
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "25BC10BA8F329ACE"
+					item: { Count: 36, id: "chemlib:carbon_dust" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "6840D056A27A9725"
+					item: { Count: 32, id: "chemlib:magnesium_dust" }
+					type: "item"
+				}
+			]
 			title: "Cleaning Zirconium Opa"
 			x: 13.655102040816331d
 			y: -1.3244897959183675d
@@ -965,11 +1006,24 @@
 		}
 		{
 			dependencies: ["5EF8D24938FE593F"]
-			icon: "createdeco:decal_no_entry"
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&b4x Zinc Dust&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&e2x Zinc Dust Recovery&r"
+				"&b1x Gold Nugget&r"
+				"&d12x Pure Silver&r"
+			]
+			icon: "chemlib:silver"
 			id: "6DACD330BFEA3B74"
 			tasks: [{
-				id: "38E74AA1F37324A8"
-				item: "compactmachines:wall"
+				count: 4L
+				id: "40AFB7EB8BB7F3F8"
+				item: { Count: 4, id: "chemlib:zinc_dust" }
 				type: "item"
 			}]
 			title: "Cleaning Silver Opa"

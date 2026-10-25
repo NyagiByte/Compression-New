@@ -1,0 +1,161 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "chemlib:magnesium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_zirconium_dust"
+    }
+  ],
+  "results": [
+    {
+      "count": 32,
+      "item": "chemlib:magnesium_chloride_dust"
+    },
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_zirconium_dust"
+    }
+  ],
+  "processingTime": 200
+}
