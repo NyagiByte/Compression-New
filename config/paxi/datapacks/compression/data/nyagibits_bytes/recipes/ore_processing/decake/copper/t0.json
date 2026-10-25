@@ -1,0 +1,77 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "secondaryFluidInput": 0,
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "fluid": "nyagibits_bytes:natural_gas_raw_fluid",
+      "amount": 10000
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_copper_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_copper_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_copper_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_copper_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_copper_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_copper_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_copper_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_copper_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_copper_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_copper_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_copper_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_copper_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_copper_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_copper_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_copper_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_copper_dust"
+    },
+    {
+      "item": "nyagibits_bytes:anode_baking_rack"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:sulfur_dioxide_fluid",
+      "amount": 312
+    },
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_copper_dust"
+    },
+    {
+      "chance": 0.75,
+      "item": "nyagibits_bytes:anode_baking_rack"
+    }
+  ],
+  "processingTime": 200
+}

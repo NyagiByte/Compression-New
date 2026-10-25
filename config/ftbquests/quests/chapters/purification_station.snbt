@@ -380,8 +380,10 @@
 				"Over on the &n&a→ right →&r you will see every &6OPA related fluid&r in regards to processing."
 				""
 				"There are &e&nno berries to claim&r. The quests only serve to untangle what is needed for which element."
+				"{@pagebreak}"
+				"&l&nSomething to note!&r Several recipes have variants that use &6purified metals&r in reactions. These have &abetter yields&r, but are &cnot listed&r. "
 				""
-				"&l&cQuests with no entry icons are elements that are not implemented yet&r"
+				"Only the most &bbasic&r recipe is listed."
 			]
 			hide_until_deps_complete: true
 			icon: "yuushya:paste"
@@ -559,18 +561,56 @@
 		}
 		{
 			dependencies: ["5EF8D24938FE593F"]
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&a1000mb Sulfuric Acid&r"
+				"&a1750mb Oxygen Gas&r"
+				"&b8x Sodium Carbonate&r"
+				"&b39x Carbon Dust&r"
+				"&b39x Aluminum Dust&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&a1000mb Contaminated Water&r"
+				"&a2000mb Carbon Dioxide Gas&r"
+				"&b1x Sodium Sulfate&r"
+				"&b4x Iron Oxide&r"
+				"&b19x Aluminum Oxide&r"
+				"&d12x Pure Chromium&r"
+			]
 			icon: "chemlib:chromium"
 			id: "0E073D8632AE5185"
 			tasks: [
 				{
-					count: 10L
-					id: "48003227F8488BF3"
-					item: "chemlib:hydrogen_bucket"
+					count: 8L
+					id: "089E2907DD488C2D"
+					item: { Count: 8, id: "chemlib:sodium_carbonate_dust" }
 					type: "item"
 				}
 				{
-					id: "3B58C1BD23D826BE"
-					item: "create:blaze_cake"
+					count: 16L
+					id: "07AA699F102D6D23"
+					item: { Count: 16, id: "chemlib:sulfuric_acid" }
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "066010FA950EB27E"
+					item: { Count: 28, id: "chemlib:oxygen" }
+					type: "item"
+				}
+				{
+					count: 39L
+					id: "314D2117B898CCA7"
+					item: { Count: 39, id: "chemlib:carbon_dust" }
+					type: "item"
+				}
+				{
+					count: 39L
+					id: "5D3F57C5BFFBD06C"
+					item: { Count: 39, id: "chemlib:aluminum_dust" }
 					type: "item"
 				}
 			]
@@ -732,13 +772,42 @@
 		}
 		{
 			dependencies: ["5EF8D24938FE593F"]
-			icon: "createdeco:decal_no_entry"
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&a10000mb Raw Natural Gas&r"
+				"&a1750mb Oxygen Gas&r"
+				"&b1x Anode Baking Rack&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&e75% Anode Baking Rack Recovery&r"
+				"&a2062mb Sulfur Dioxide Gas&r"
+				"&b4x Rich Slag&r"
+				"&d16x Pure Copper&r"
+			]
+			icon: "chemlib:copper"
 			id: "5BF7D3F3648E1A6E"
-			tasks: [{
-				id: "51D08440921D0D0F"
-				item: "compactmachines:wall"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 28L
+					id: "165F372684C7D2DB"
+					item: { Count: 28, id: "chemlib:oxygen" }
+					type: "item"
+				}
+				{
+					id: "57193A1D9C4B0CBD"
+					item: "nyagibits_bytes:anode_baking_rack"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3A08DDC6B2C6D62E"
+					item: "nyagibits_bytes:bucket_of_natural_gas_raw"
+					type: "item"
+				}
+			]
 			title: "Cleaning Copper Opa"
 			x: 12.385714285714286d
 			y: -0.30000000000000426d
@@ -954,20 +1023,12 @@
 			y: -7.018367346938778d
 		}
 		{
-			dependencies: ["5EF8D24938FE593F"]
-			description: [
-				"&l&6Input per bucket of \"Contaminated OPA\"&r"
-				""
-				"&a1000mb Hydrogen&r"
-				"&b2x Hydrogen Peroxide&r"
-				""
-				"&l&6Output per bucket of \"Contaminated OPA\"&r"
-				""
-				"&e50% OPA Recovery&r"
-				"&a1000mb Low Pressure Steam&r"
-				"&d16x Float-Seperated Iron&r"
+			dependencies: [
+				"5EF8D24938FE593F"
+				"40F11227035DAEEB"
 			]
-			icon: "createdeco:decal_no_entry"
+			description: [""]
+			icon: "chemlib:ruthenium"
 			id: "1B954B1194A7CBEA"
 			tasks: [{
 				id: "108FB29B3860F9A8"
@@ -979,8 +1040,11 @@
 			y: -5.324489795918375d
 		}
 		{
-			dependencies: ["5EF8D24938FE593F"]
-			icon: "createdeco:decal_no_entry"
+			dependencies: [
+				"1B954B1194A7CBEA"
+				"5EF8D24938FE593F"
+			]
+			icon: "chemlib:rhodium"
 			id: "0B7F4D05BE1C6129"
 			tasks: [{
 				id: "56D42EAE255B9549"
@@ -992,8 +1056,11 @@
 			y: -4.651020408163269d
 		}
 		{
-			dependencies: ["5EF8D24938FE593F"]
-			icon: "createdeco:decal_no_entry"
+			dependencies: [
+				"5EF8D24938FE593F"
+				"0B7F4D05BE1C6129"
+			]
+			icon: "chemlib:palladium"
 			id: "4D6E6308C7FA56F3"
 			tasks: [{
 				id: "0AB31CEFB3DF303E"
@@ -1032,11 +1099,22 @@
 		}
 		{
 			dependencies: ["5EF8D24938FE593F"]
-			icon: "createdeco:decal_no_entry"
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&b1x Electrowinning Device&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&e95% Electrowinning Recovery&r"
+				"&d16x Pure Cadmium&r"
+			]
+			icon: "chemlib:cadmium"
 			id: "4861D3ED3CCF7E41"
 			tasks: [{
-				id: "764BDF3193699A5D"
-				item: "compactmachines:wall"
+				id: "5177218001FA832F"
+				item: "nyagibits_bytes:electrowinning_device"
 				type: "item"
 			}]
 			title: "Cleaning Cadmium Opa"
@@ -1204,8 +1282,11 @@
 			y: -2.9860544217687064d
 		}
 		{
-			dependencies: ["5EF8D24938FE593F"]
-			icon: "createdeco:decal_no_entry"
+			dependencies: [
+				"5EF8D24938FE593F"
+				"4D6E6308C7FA56F3"
+			]
+			icon: "chemlib:rhenium"
 			id: "73DDC9CDC55B5ACC"
 			tasks: [{
 				id: "562F62940AF4A4F2"
@@ -1217,8 +1298,11 @@
 			y: -1.3115646258503375d
 		}
 		{
-			dependencies: ["5EF8D24938FE593F"]
-			icon: "createdeco:decal_no_entry"
+			dependencies: [
+				"5EF8D24938FE593F"
+				"73DDC9CDC55B5ACC"
+			]
+			icon: "chemlib:osmium"
 			id: "4FB45A5DE91B2503"
 			tasks: [{
 				id: "3790368F15292AA6"
@@ -1230,8 +1314,11 @@
 			y: 0.03537414965986585d
 		}
 		{
-			dependencies: ["5EF8D24938FE593F"]
-			icon: "createdeco:decal_no_entry"
+			dependencies: [
+				"5EF8D24938FE593F"
+				"4FB45A5DE91B2503"
+			]
+			icon: "chemlib:iridium"
 			id: "7BCA045CB7B628DA"
 			tasks: [{
 				id: "2E7C71EEC98F1853"
@@ -1243,8 +1330,11 @@
 			y: 1.7292517006802726d
 		}
 		{
-			dependencies: ["5EF8D24938FE593F"]
-			icon: "createdeco:decal_no_entry"
+			dependencies: [
+				"5EF8D24938FE593F"
+				"23EE0EC1E89FE4E6"
+			]
+			icon: "chemlib:platinum"
 			id: "40F11227035DAEEB"
 			tasks: [{
 				id: "1302C02F638FEC8F"
@@ -1353,13 +1443,41 @@
 		}
 		{
 			dependencies: ["5EF8D24938FE593F"]
-			icon: "createdeco:decal_no_entry"
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&a1000mb Chlorine Gas&r"
+				"&b1x Calcium Dust&r"
+				"&b2x Magnesium Dust&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&b1x Calcium Chloride&r"
+				"&b2x Magnesium Chloride&r"
+				"&d16x Pure Bismuth&r"
+			]
+			icon: "chemlib:bismuth"
 			id: "269B286B23537984"
-			tasks: [{
-				id: "28B6CA43F6BE29EF"
-				item: "compactmachines:wall"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 16L
+					id: "328742B4344FCBC6"
+					item: { Count: 16, id: "chemlib:chlorine" }
+					type: "item"
+				}
+				{
+					id: "52A081249028A4B6"
+					item: "chemlib:calcium_dust"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "19FC33476D0023A3"
+					item: { Count: 2, id: "chemlib:magnesium_dust" }
+					type: "item"
+				}
+			]
 			title: "Cleaning Bismuth Opa"
 			x: 15.500340136054405d
 			y: -0.5996598639455755d
@@ -1377,6 +1495,27 @@
 			title: "Cleaning Polonium Opa"
 			x: 13.881292517006784d
 			y: 2.424149659863943d
+		}
+		{
+			dependencies: [
+				"21DDFB7B6CFC9F38"
+				"5EF8D24938FE593F"
+			]
+			description: [
+				"Platinum-group metals all require &especialized equipment&r to reach the purest of purities. "
+				""
+				"Anything less will lead to &cdisfunctional&r catalysts and additives for &bultra specialized alloys&r."
+			]
+			icon: "industrialhellscape:gray_directional_riveted_vesselplate"
+			id: "23EE0EC1E89FE4E6"
+			tasks: [{
+				id: "019301D97F3E5F54"
+				title: "Platline! Sorta"
+				type: "checkmark"
+			}]
+			title: "Platinum Group Detour"
+			x: 9.0d
+			y: -6.5d
 		}
 	]
 	title: " &aPurification Station"

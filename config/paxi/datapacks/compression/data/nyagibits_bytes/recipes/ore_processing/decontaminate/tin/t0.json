@@ -1,0 +1,76 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+	"secondaryFluidOutput": 0,
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "item": "chemlib:carbon_dust"
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_tin_fluid",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:carbon_dioxide_fluid",
+      "amount": 1125
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_tin_dust"
+    }
+  ],
+  "processingTime": 200
+}

@@ -1,0 +1,29 @@
+{
+    "type": "create:compacting",
+    "heatRequirement": "superheated",
+    "ingredients": [
+      {
+        "item": "chemlib:calcium_dust"
+      },
+      {
+        "item": "chemlib:magnesium_dust"
+      },
+      {
+        "item": "chemlib:magnesium_dust"
+      },
+      {
+        "amount": 1000,
+        "fluid": "nyagibits_bytes:opa_bismuth_fluid"
+      }
+    ],
+    "results": [
+        {
+        "fluid": "nyagibits_bytes:opa_1214_fluid",
+        "amount": 500
+        },
+        {
+        "item": "nyagibits_bytes:float_separated_bismuth_dust",
+        "count": 18
+        }
+    ]
+  }

@@ -1,0 +1,20 @@
+{
+  "type":"vintageimprovements:vacuumizing",
+  "ingredients": [
+    {
+      "fluid": "nyagibits_bytes:opa_cadmium_fluid",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "nyagibits_bytes:opa_1214_fluid",
+      "amount": 500
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_cadmium_dust"
+    }
+  ],
+  "processingTime": 200
+}

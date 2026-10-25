@@ -1,0 +1,75 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "secondaryFluidInput": 0,
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "fluid": "chemlib:chlorine_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_bismuth_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_bismuth_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_bismuth_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_bismuth_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_bismuth_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_bismuth_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_bismuth_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_bismuth_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_bismuth_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_bismuth_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_bismuth_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_bismuth_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_bismuth_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_bismuth_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_bismuth_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_bismuth_dust"
+    }
+  ],
+  "results": [
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_bismuth_dust"
+    },
+    {
+      "item": "chemlib:calcium_chloride_dust"
+    },
+    {
+      "item": "chemlib:magnesium_chloride_dust"
+    },
+    {
+      "item": "chemlib:magnesium_chloride_dust"
+    }
+  ],
+  "processingTime": 200
+}

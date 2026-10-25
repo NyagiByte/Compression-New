@@ -126,6 +126,10 @@
       "amount": 2250
     },
     {
+      "fluid": "nyagibits_bytes:opa_1214_fluid",
+      "amount": 500
+    },
+    {
       "count": 18,
       "item": "nyagibits_bytes:float_separated_zirconium_dust"
     }
