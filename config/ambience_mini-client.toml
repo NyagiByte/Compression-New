@@ -2,7 +2,7 @@
 #Ambience Mini Mod Configurations
 [AmbienceMini]
 	#If enabled, upon joining a multiplayer server the client will notify whether the server has support for Ambience Mini. If no support, server-dependent features will be disabled. [Default: true]
-	Notify_Server_Support = true
+	Notify_Server_Support = false
 	#If enabled, the mod will print debugging information to the terminal whenever the current playlist changes. Used for troubleshooting. [Default: false]
 	Verbose_Mode = false
 	#If enabled, the mod will print a message once (each time Minecraft is launched) with all the basic controls of the mod. [Default: false]
