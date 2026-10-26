@@ -41,4 +41,16 @@ ItemEvents.modification(e => {
   e.modify('minecraft:magma_block', item => {
     item.fireResistant = true
   })
+  e.modify('mekanism:basic_fluid_tank', item => {
+    item.fireResistant = true
+  })
+  e.modify('mekanism:advanced_fluid_tank', item => {
+    item.fireResistant = true
+  })
+  e.modify('mekanism:elite_fluid_tank', item => {
+    item.fireResistant = true
+  })
+  e.modify('mekanism:ultimate_fluid_tank', item => {
+    item.fireResistant = true
+  })
 })
