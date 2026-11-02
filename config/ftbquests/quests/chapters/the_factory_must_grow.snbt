@@ -612,8 +612,8 @@
 		}
 		{
 			dependencies: [
-				"265FD28756CCF3E2"
 				"4296F49981434BC7"
+				"5A401C7933DEFFDE"
 			]
 			description: [
 				"So many structures strwen about! What to do with them?"
@@ -640,7 +640,7 @@
 				type: "item"
 			}]
 			title: "Scrapping all that loot"
-			x: -4.0d
+			x: -5.0d
 			y: 1.0d
 		}
 		{
@@ -2174,6 +2174,41 @@
 			title: "Stonecutter On A Stick"
 			x: -4.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["265FD28756CCF3E2"]
+			description: [
+				"&6Scrap Veins&r are a variant of the custom spelunkery stripes that can appear along cliff faces."
+				""
+				"{image:compression:textures/quests/scrap_vein.png width:192 height:108 align:center}"
+				""
+				"When broken the compacted scrap breaks into &n9 different scrap types&r, each with their own loot tables when processed in a &bvibrating table&r!"
+				""
+				"Materials yielded from scrap can help boot strap early bases and even provide small amounts of &d&ltier skipped&r items."
+			]
+			icon: "nyagibits_bytes:scrap_industrial"
+			id: "5A401C7933DEFFDE"
+			rewards: [{
+				id: "0D29E1B3963BD4AA"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "Also have a mechanoid raid :)"
+			tasks: [
+				{
+					id: "25E57E067A1221E2"
+					item: "vintageimprovements:vibrating_table"
+					type: "item"
+				}
+				{
+					id: "0203466EF2BFC408"
+					item: "nyagibits_bytes:scrap_metal"
+					type: "item"
+				}
+			]
+			title: "A Gift From Randy"
+			x: -4.0d
+			y: 1.0d
 		}
 	]
 	subtitle: [" &fThe stupid biters are on my oil patch!"]

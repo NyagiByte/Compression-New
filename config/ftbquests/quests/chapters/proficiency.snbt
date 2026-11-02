@@ -106,9 +106,9 @@
 				}
 				{
 					consume_items: true
-					count: 33L
+					count: 34L
 					id: "602AC0DE2A26763F"
-					item: { Count: 33, id: "nyagibits_bytes:tier_zero_strawberry" }
+					item: "nyagibits_bytes:tier_zero_strawberry"
 					title: "The Factory Must Grow"
 					type: "item"
 				}
