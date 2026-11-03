@@ -1,0 +1,27 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "secondaryFluidInput": 0,
+  "ingredients": [
+    {
+      "fluid": "nyagibits_bytes:white_liquor_gallium_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "create:filter"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "nyagibits_bytes:white_liquor_fluid",
+      "amount": 750
+    },
+    {
+      "count": 2,
+      "item": "chemlib:gallium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:filter_saturated"
+    }
+  ],
+  "processingTime": 200
+}
