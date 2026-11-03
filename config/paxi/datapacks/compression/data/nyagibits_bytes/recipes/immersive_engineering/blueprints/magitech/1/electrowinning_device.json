@@ -1,0 +1,33 @@
+{
+    "type":"immersiveengineering:blueprint",
+    "category":"magitech",
+    
+    "inputs":[
+        {
+            "base_ingredient":{
+                "item":"immersiveengineering:plate_duroplast"},
+                "count":4},
+        {
+            "base_ingredient":{
+                "item":"immersiveengineering:graphite_electrode"},
+                "count":2},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:electrolytic_core"},
+                "count":2},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:rune_catalytic"},
+                "count":1},
+        {
+            "base_ingredient":{
+                "item":"chemlib:platinum_plate"},
+                "count":1},
+        {
+            "base_ingredient":{
+                "item":"chemlib:sulfuric_acid"},
+                "count":1}
+            ],
+    "result":{
+            "item":"nyagibits_bytes:electrowinning_device"
+        }}

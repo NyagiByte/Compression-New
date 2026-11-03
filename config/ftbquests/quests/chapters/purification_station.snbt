@@ -1541,6 +1541,21 @@
 		}
 		{
 			dependencies: ["5EF8D24938FE593F"]
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&a20000mb Argon Gas&r"
+				"&a10000mb Hydrochloric Acid&r"
+				"&b1x Manganese Dioxide&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&e19000mb Argon Gas Recovery&r"
+				"&e9500mb Hydrochloric Acid Recovery&r"
+				"&e75% Manganese Dioxide Recovery&r"
+				"&d16x Pure Polonium&r"
+			]
 			hide_until_deps_complete: false
 			icon: "chemlib:polonium"
 			id: "180C9B571C4D7756"
@@ -1552,7 +1567,13 @@
 					type: "item"
 				}
 				{
-					id: "067BEDF3683F6909"
+					count: 160L
+					id: "35046E6C4832A27C"
+					item: { Count: 160, id: "chemlib:hydrochloric_acid" }
+					type: "item"
+				}
+				{
+					id: "472697898D3373F3"
 					item: "nuclearcraft:manganese_dioxide_dust"
 					type: "item"
 				}
@@ -1573,6 +1594,7 @@
 			]
 			icon: "industrialhellscape:gray_directional_riveted_vesselplate"
 			id: "23EE0EC1E89FE4E6"
+			subtitle: "Even worse than GTNH! (Yall should play GTNH, goated pack)"
 			tasks: [{
 				id: "019301D97F3E5F54"
 				title: "Platline! Sorta"
