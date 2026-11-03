@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "echovoids:undead_chorus_flower_block"
+        }
+    ],
+    "result": {
+        "count": 9,
+        "item": "echovoids:squarries"
+    }
+}

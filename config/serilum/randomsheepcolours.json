@@ -1,0 +1,11 @@
+{
+	"//": "These settings are easier to change in-game! Mod List -> Random Sheep Colours -> Config",
+	"Enable Random Sheep Colours": {
+		"//": "Whether Random Sheep Colours is enabled. When disabled, none of its features run and its other settings are hidden. Takes effect after a restart.",
+		"value": true
+	},
+	"possibleSheepColours": {
+		"//": "The possible sheep colours which the mod chooses from, divided by a comma.",
+		"value": "black,blue,brown,cyan,gray,green,light_blue,light_gray,lime,magenta,orange,pink,purple,red,white,yellow"
+	}
+}

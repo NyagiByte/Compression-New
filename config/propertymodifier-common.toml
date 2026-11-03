@@ -165,7 +165,7 @@
 	#Add new compostables here. Consists of an item or item regex and a float between 0 and 1, representing the chance that the composter level is increased. Example (without the leading #):
 	#"minecraft:netherite_scrap" = 0.8
 	[composting.composting]
-		test = 0.0
+		"natures_spirit:wisteria_leaves" = 0.3
 
 #Set the values for axe stripping.
 [stripping]
