@@ -1,0 +1,24 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "secondaryFluidInput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:hydrogen_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "chemlib:sodium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:pure_aluminum_dust"
+    }
+  ],
+  "results": [
+    {
+      "count": 2,
+      "item": "nyagibits_bytes:sodium_aluminum_hydride_dust"
+    }
+  ],
+  "processingTime": 200
+}
