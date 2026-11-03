@@ -1,0 +1,240 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "ingredients": [
+    {
+      "fluid": "chemlib:sulfuric_acid_fluid",
+      "amount": 500
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    },
+    {
+      "item": "nyagibits_bytes:red_mud"
+    }
+  ],
+  "results": [
+    {
+      "count": 16,
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "count": 10,
+      "item": "chemlib:iron_oxide"
+    },
+    {
+      "count": 5,
+      "item": "chemlib:aluminum_oxide"
+    },
+    {
+      "count": 3,
+      "item": "chemlib:silicon_dioxide"
+    },
+    {
+      "count": 2,
+      "item": "chemlib:calcium_oxide"
+    },
+    {
+      "count": 2,
+      "item": "nyagibits_bytes:perovskite"
+    },
+    {
+      "item": "nyagibits_bytes:sodalite"
+    },
+    {
+      "item": "chemlib:kaolinite"
+    },
+    {
+      "item": "chemlib:sodium_oxide"
+    },
+    {
+      "item": "nyagibits_bytes:sample_titanium_dioxide"
+    }
+  ],
+  "processingTime": 200
+}
