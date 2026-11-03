@@ -1314,6 +1314,37 @@
 			x: -2.0d
 			y: -2.0d
 		}
+		{
+			can_repeat: false
+			dependencies: ["593F4B6288E939F1"]
+			description: [
+				"Many scaling recipes overlap with their lower yield counterparts. Sometimes  basins get confused and make the worse recipe."
+				""
+				"But there is a solution:"
+				""
+				"&2&lIngredient Filter&r&r"
+				""
+				"It allows you to specify the items and fluids that need to be in the basin before processing can start."
+				""
+				"{@pagebreak}"
+				"Works on all basin recipes: mixing, compacting, vacuumizing, ..."
+				""
+				"And you can nest other filters in there for extra options, such as allowing entire tags with Attribute Filters, or a selected range with List Filters."
+				""
+				"AND you can use EMI to insert any recipe with the [+] button. How NEAT!"
+			]
+			hide_dependency_lines: false
+			icon: "creatif:ingredient_filter"
+			id: "54DB7672CD26CFF7"
+			tasks: [{
+				id: "46751F7CD82D4FB1"
+				title: "Getting CreatIF"
+				type: "checkmark"
+			}]
+			title: "Getting CreatIF"
+			x: -5.5d
+			y: 1.0d
+		}
 	]
 	subtitle: [" &fTools, Trinkets, and Whatchamacallits"]
 	title: " &fTools Of Industry"
