@@ -1,0 +1,277 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:float_separated_niobium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_niobium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_niobium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_niobium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_niobium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_niobium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_niobium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_niobium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_niobium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_niobium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_niobium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_niobium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_niobium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_niobium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_niobium_dust"
+      },
+      {
+        "item": "nyagibits_bytes:float_separated_niobium_dust"
+      },
+      {
+        "item": "chemlib:iron_oxide_dust"
+      },
+      {
+        "item": "chemlib:iron_oxide_dust"
+      },
+      {
+        "item": "chemlib:iron_oxide_dust"
+      },
+      {
+        "item": "chemlib:iron_oxide_dust"
+      },
+      {
+        "item": "chemlib:iron_oxide_dust"
+      },
+      {
+        "item": "chemlib:iron_oxide_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      },
+      {
+        "item": "chemlib:aluminum_dust"
+      }
+    ],
+    "results": [
+      {
+        "count": 12,
+        "item": "chemlib:iron_dust"
+      },
+      {
+        "count": 36,
+        "item": "chemlib:aluminum_oxide"
+      },
+      {
+        "count": 12,
+        "item": "nyagibits_bytes:pure_niobium_dust"
+      }
+    ]
+  }

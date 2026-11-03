@@ -1,0 +1,71 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "ingredients": [
+    {
+      "item": "nyagibits_bytes:float_separated_indium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_indium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_indium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_indium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_indium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_indium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_indium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_indium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_indium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_indium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_indium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_indium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_indium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_indium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_indium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_indium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:electrowinning_device"
+    }
+  ],
+  "results": [
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_indium_dust"
+    },
+    {
+      "chance": 0.95,
+      "item": "nyagibits_bytes:electrowinning_device"
+    },
+    {
+      "count": 1,
+      "item": "chemlib:iron_ii_sulfate_dust"
+    }
+  ],
+  "processingTime": 200
+}

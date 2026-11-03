@@ -632,6 +632,8 @@
 				""
 				"The real treat from this as well is that given a &blucky enough find&r you can gain access to materials well &cb&6e&ey&ao&bn&dd&r your tech level."
 			]
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
 			id: "4A8BE783CC23F0B5"
 			subtitle: "Loot goblin paradise"
 			tasks: [{

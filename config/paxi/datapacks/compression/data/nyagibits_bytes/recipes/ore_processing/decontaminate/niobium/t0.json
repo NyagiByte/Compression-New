@@ -1,0 +1,95 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "secondaryFluidInput": 0,
+  "ingredients": [
+    {
+      "fluid": "nuclearcraft:hydrofluoric_acid",
+      "amount": 10000
+    },
+    {
+      "fluid": "nyagibits_bytes:ammonium_hydroxide_fluid",
+      "amount": 10000
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_niobium_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    },
+    {
+      "item": "nuclearcraft:potassium_fluoride_dust"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "nuclearcraft:hydrofluoric_acid",
+      "amount": 5000
+    },
+    {
+      "fluid": "nyagibits_bytes:contaminated_water_fluid",
+      "amount": 5625
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_1214_fluid",
+      "amount": 500
+    },
+    {
+      "count": 10,
+      "item": "nyagibits_bytes:ammonium_fluoride_dust"
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_niobium_dust"
+    }
+  ],
+  "processingTime": 200
+}

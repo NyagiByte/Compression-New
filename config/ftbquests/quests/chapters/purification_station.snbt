@@ -976,13 +976,59 @@
 		}
 		{
 			dependencies: ["5EF8D24938FE593F"]
-			icon: "createdeco:decal_no_entry"
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&a10000mb Hydrofluoric Acid&r"
+				"&a10000mb Ammonium Hydroxide&r"
+				"&b18x Potassium Fluoride&r"
+				"&b6x Iron Oxide&r"
+				"&b64x Aluminum Dust&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&e5000mb Hydrofluoric Acid Recovery&r"
+				"&a5625mb Contaminated Water&r"
+				"&b36x Aluminum Oxide&r"
+				"&b12x Iron Dust&r"
+				"&b10x Ammonium Fluoride&r"
+				"&d12x Pure Niobium&r"
+			]
+			icon: "chemlib:niobium"
 			id: "3A53538411AEF5E9"
-			tasks: [{
-				id: "52D68CF6B2888E7A"
-				item: "compactmachines:wall"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 10L
+					id: "770DDE88E429D296"
+					item: { Count: 10, id: "nuclearcraft:hydrofluoric_acid_bucket" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "671554CF32C14F06"
+					item: { Count: 10, id: "nyagibits_bytes:bucket_of_ammonium_hydroxide" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "78B4F5193E2EF9A7"
+					item: { Count: 18, id: "nuclearcraft:potassium_fluoride_dust" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "32C2216CF0EC9267"
+					item: { Count: 6, id: "chemlib:iron_oxide_dust" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "2BA8F085D8098F31"
+					item: { Count: 64, id: "chemlib:aluminum_dust" }
+					type: "item"
+				}
+			]
 			title: "Cleaning Niobium Opa"
 			x: 12.757142857142853d
 			y: 0.36938775510203925d
@@ -1123,11 +1169,22 @@
 		}
 		{
 			dependencies: ["5EF8D24938FE593F"]
-			icon: "createdeco:decal_no_entry"
+			description: [
+				"&l&6Input per bucket of \"Contaminated OPA\"&r"
+				""
+				"&b1x Electrowinning Device&r"
+				""
+				"&l&6Output per bucket of \"Contaminated OPA\"&r"
+				""
+				"&e50% OPA Recovery&r"
+				"&e95% Electrowinning Device Recovery&r"
+				"&d16x Pure Indium&r"
+			]
+			icon: "chemlib:indium"
 			id: "18ADB79F869B766E"
 			tasks: [{
-				id: "06BEF08D0D36CE7F"
-				item: "compactmachines:wall"
+				id: "745C83E94A01C3E7"
+				item: "nyagibits_bytes:electrowinning_device"
 				type: "item"
 			}]
 			title: "Cleaning Indium Opa"
@@ -1485,13 +1542,21 @@
 		{
 			dependencies: ["5EF8D24938FE593F"]
 			hide_until_deps_complete: false
-			icon: "createdeco:decal_no_entry"
+			icon: "chemlib:polonium"
 			id: "180C9B571C4D7756"
-			tasks: [{
-				id: "73DBD66DB879DF02"
-				item: "compactmachines:wall"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 20L
+					id: "056539BF4C441538"
+					item: { Count: 20, id: "chemlib:argon_bucket" }
+					type: "item"
+				}
+				{
+					id: "067BEDF3683F6909"
+					item: "nuclearcraft:manganese_dioxide_dust"
+					type: "item"
+				}
+			]
 			title: "Cleaning Polonium Opa"
 			x: 13.881292517006784d
 			y: 2.424149659863943d

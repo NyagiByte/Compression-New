@@ -1,0 +1,38 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "secondaryFluidInput": 0,
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:argon_fluid",
+      "amount": 10000
+    },
+    {
+      "fluid": "chemlib:hydrochloric_acid_fluid",
+      "amount": 10000
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_polonium_fluid",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:argon_fluid",
+      "amount": 9500
+    },
+    {
+      "fluid": "chemlib:hydrochloric_acid_fluid",
+      "amount": 9500
+    },
+    {
+      "fluid": "nyagibits_bytes:opa_1214_fluid",
+      "amount": 500
+    },
+    {
+      "count": 18,
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    }
+  ],
+  "processingTime": 200
+}

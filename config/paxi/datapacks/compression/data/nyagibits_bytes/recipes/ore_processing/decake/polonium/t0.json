@@ -1,0 +1,77 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "secondaryFluidInput": 0,
+  "secondaryFluidOutput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:argon_fluid",
+      "amount": 10000
+    },
+    {
+      "item": "nuclearcraft:manganese_dioxide_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    },
+    {
+      "item": "nyagibits_bytes:float_separated_polonium_dust"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "chemlib:argon_fluid",
+      "amount": 9500
+    },
+    {
+      "chance": 0.75,
+      "item": "nuclearcraft:manganese_dioxide_dust"
+    },
+    {
+      "count": 16,
+      "item": "nyagibits_bytes:pure_polonium_dust"
+    }
+  ],
+  "processingTime": 200
+}
