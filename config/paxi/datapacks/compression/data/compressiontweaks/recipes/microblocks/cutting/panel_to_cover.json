@@ -1,0 +1,25 @@
+{
+  "type": "compressiontweaks:shaped_microblock",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "cb_microblock:diamond_saw"
+    },
+    "B": {
+      "type": "compressiontweaks:microblock",
+      "size": 2,
+      "factory": 0
+    }
+  },
+  "pattern": [
+    "S",
+    "B"
+  ],
+  "result": {
+    "item": "cb_microblock:microblock",
+    "count": 2
+  },
+  "output_size": 1,
+  "output_factory": 0,
+  "show_notification": false
+}

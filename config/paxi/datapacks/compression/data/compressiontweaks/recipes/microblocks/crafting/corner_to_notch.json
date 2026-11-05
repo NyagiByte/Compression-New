@@ -1,0 +1,22 @@
+
+{
+  "type": "compressiontweaks:shaped_microblock",
+  "category": "misc",
+  "key": {
+    "B": {
+      "type": "compressiontweaks:microblock",
+      "size": 2,
+      "factory": 2
+    }
+  },
+  "pattern": [
+    "BB"
+  ],
+  "result": {
+    "item": "cb_microblock:microblock",
+    "count": 1
+  },
+  "output_size": 4,
+  "output_factory": 2,
+  "show_notification": false
+}

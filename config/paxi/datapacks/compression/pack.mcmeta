@@ -2382,7 +2382,9 @@
 		{"namespace": "echovoids", "path": "recipes/warped_planks.json"},
 		{"namespace": "echovoids", "path": "recipes/warped_planks_from_wood.json"},
 
-		{"namespace": "yuushya", "path": "recipes/stone/smoke_bricks.json"}
+		{"namespace": "yuushya", "path": "recipes/stone/smoke_bricks.json"},
+
+		{"namespace": "cb_microblock", "path": "recipes/microblock.json"}
 	]}
 	
 }

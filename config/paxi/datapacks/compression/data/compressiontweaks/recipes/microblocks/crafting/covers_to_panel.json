@@ -1,0 +1,22 @@
+{
+  "type": "compressiontweaks:shapeless_microblock",
+  "ingredients": [
+        {
+          "type": "compressiontweaks:microblock",
+          "size": 1,
+          "factory": 0
+        },
+        {
+          "type": "compressiontweaks:microblock",
+          "size": 1,
+          "factory": 0
+        }
+    ],
+  "result": {
+    "item": "cb_microblock:microblock",
+    "count": 1
+  },
+  "output_size": 2,
+  "output_factory": 0,
+  "show_notification": false
+}
