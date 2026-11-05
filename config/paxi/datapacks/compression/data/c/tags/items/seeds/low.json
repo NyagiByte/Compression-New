@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft:wheat_seeds","nyagibits_bytes:mixed_seeds","farmersdelight:rice","farmersdelight:cabbage"
+    "minecraft:wheat_seeds","nyagibits_bytes:mixed_seeds","farmersdelight:rice","farmersdelight:cabbage_seeds"
   ]
 }
