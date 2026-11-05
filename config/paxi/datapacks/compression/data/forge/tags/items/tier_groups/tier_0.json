@@ -17330,6 +17330,7 @@
         "echovoids:blooming_magnachorus_wood",
         "echovoids:end_vase_top",
         "echovoids:end_lamp",
-        "creatif:ingredient_filter"
+        "creatif:ingredient_filter",
+        "cb_microblock:diamond_saw"
     ]
   }
