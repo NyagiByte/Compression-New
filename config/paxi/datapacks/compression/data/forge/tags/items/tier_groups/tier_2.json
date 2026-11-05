@@ -1476,6 +1476,8 @@
         "immersiveengineering:lightning_rod",
         "mekanism:uranium_ore",
         "mekanism:deepslate_uranium_ore",
-        "industrialhellscape:vaporwave_cassette"
+        "industrialhellscape:vaporwave_cassette",
+        "nuclearcraft:uranium_deepslate_ore",
+        "nuclearcraft:uranium_ore"
     ]
   }
