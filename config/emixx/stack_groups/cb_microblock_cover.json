@@ -1,5 +1,5 @@
 {
-  "id": "abyssal_decor:cb_microblock_covers",
+  "id": "cb_microblock:microblocks",
   "type": "emixx:group",
   "contents": [
     "cb_microblock:microblock"
