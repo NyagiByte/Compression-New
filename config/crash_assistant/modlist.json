@@ -69,10 +69,10 @@
     "modId": "another_furniture",
     "version": "1.20.1-3.0.3"
   },
-  "applied-botanics-forge-1.5.1.jar": {
-    "jarName": "applied-botanics-forge-1.5.1.jar",
+  "applied-botanics-forge-1.5.2.jar": {
+    "jarName": "applied-botanics-forge-1.5.2.jar",
     "modId": "appbot",
-    "version": "1.5.1"
+    "version": "1.5.2"
   },
   "Applied-Mekanistics-1.4.2.jar": {
     "jarName": "Applied-Mekanistics-1.4.2.jar",
@@ -294,20 +294,15 @@
     "modId": "cofh_core",
     "version": "11.0.2"
   },
-  "collections_of_optimizations-2.7-all.jar": {
-    "jarName": "collections_of_optimizations-2.7-all.jar",
+  "collections_of_optimizations-4.1-all.jar": {
+    "jarName": "collections_of_optimizations-4.1-all.jar",
     "modId": "collections_of_optimizations",
-    "version": "2.7"
+    "version": "4.1"
   },
-  "collections_of_optimizations-2.8-all.jar": {
-    "jarName": "collections_of_optimizations-2.8-all.jar",
-    "modId": "collections_of_optimizations",
-    "version": "2.8"
-  },
-  "collective-1.20.1-8.10.jar": {
-    "jarName": "collective-1.20.1-8.10.jar",
+  "collective-1.20.1-8.65.jar": {
+    "jarName": "collective-1.20.1-8.65.jar",
     "modId": "collective",
-    "version": "8.10"
+    "version": "8.65"
   },
   "compactmachines-forge-6.0.3.jar": {
     "jarName": "compactmachines-forge-6.0.3.jar",
@@ -324,10 +319,10 @@
     "modId": "compressed_create_recipes",
     "version": "1.2.8"
   },
-  "compressedbotanics-1.1.7.jar": {
-    "jarName": "compressedbotanics-1.1.7.jar",
+  "compressedbotanics-1.2.0.jar": {
+    "jarName": "compressedbotanics-1.2.0.jar",
     "modId": "compressedbotanics",
-    "version": "1.1.7"
+    "version": "1.2.0"
   },
   "compressedcreativity-1.20.1-0.2.0-all.jar": {
     "jarName": "compressedcreativity-1.20.1-0.2.0-all.jar",
@@ -339,10 +334,10 @@
     "modId": "compressedengineering",
     "version": "1.4.10"
   },
-  "compressiontweaks-1.20.1-2.1.0-all.jar": {
-    "jarName": "compressiontweaks-1.20.1-2.1.0-all.jar",
+  "compressiontweaks-1.20.1-2.2.0.jar": {
+    "jarName": "compressiontweaks-1.20.1-2.2.0.jar",
     "modId": "compressiontweaks",
-    "version": "2.1.0"
+    "version": "2.2.0"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -447,6 +442,11 @@
     "modId": "create_pattern_schematics",
     "version": "1.3.3"
   },
+  "create_repair-forge-1.20.1-1.3.0-all.jar": {
+    "jarName": "create_repair-forge-1.20.1-1.3.0-all.jar",
+    "modId": "create_repair",
+    "version": "1.3.0"
+  },
   "createbbfueloverrides-1.1.0.jar": {
     "jarName": "createbbfueloverrides-1.1.0.jar",
     "modId": "createbbfueloverrides",
@@ -461,6 +461,11 @@
     "jarName": "createdeco-2.0.3-1.20.1-forge.jar",
     "modId": "createdeco",
     "version": "2.0.3-1.20.1-forge"
+  },
+  "creatif-1.20.1-1.1.0.jar": {
+    "jarName": "creatif-1.20.1-1.1.0.jar",
+    "modId": "creatif",
+    "version": "1.1.0"
   },
   "CTM-1.20.1-1.1.10.jar": {
     "jarName": "CTM-1.20.1-1.1.10.jar",
@@ -486,6 +491,11 @@
     "jarName": "cyanide-forge-1.20.1-4.1.1.jar",
     "modId": "cyanide",
     "version": "4.1.1"
+  },
+  "DataPack_Filter_Fix-1.20.1-0.1.0.jar": {
+    "jarName": "DataPack_Filter_Fix-1.20.1-0.1.0.jar",
+    "modId": "datapack_filter_fix",
+    "version": "1.20.1-0.1.0"
   },
   "decorative_blocks-forge-1.20.1-4.1.3.jar": {
     "jarName": "decorative_blocks-forge-1.20.1-4.1.3.jar",
@@ -546,6 +556,11 @@
     "jarName": "emi-1.1.22+1.20.1+forge.jar",
     "modId": "emi",
     "version": "1.1.22+1.20.1+forge"
+  },
+  "emi_loot-0.7.10-1.20.1-forge.jar": {
+    "jarName": "emi_loot-0.7.10-1.20.1-forge.jar",
+    "modId": "emi_loot",
+    "version": "0.7.10+1.20.1+forge"
   },
   "emixx-forge-1.5.1.jar": {
     "jarName": "emixx-forge-1.5.1.jar",
@@ -617,10 +632,10 @@
     "modId": "fastbotaniafix",
     "version": "1.0.2"
   },
-  "fastchunkgen-0.25.2-all.jar": {
-    "jarName": "fastchunkgen-0.25.2-all.jar",
+  "fastchunkgen-0.39-all.jar": {
+    "jarName": "fastchunkgen-0.39-all.jar",
     "modId": "fastchunkgen",
-    "version": "0.25.2"
+    "version": "0.39"
   },
   "fasterrandom-5.1.0.jar": {
     "jarName": "fasterrandom-5.1.0.jar",
@@ -1055,6 +1070,9 @@
     "modId": "midnightlib",
     "version": "1.4.2"
   },
+  "mixin-booster-0.1.3+1.20.1.jar": {
+    "jarName": "mixin-booster-0.1.3+1.20.1.jar"
+  },
   "mixintracereforged-forge-1.0.0-1.20.1.jar": {
     "jarName": "mixintracereforged-forge-1.0.0-1.20.1.jar",
     "modId": "mixintracereforged",
@@ -1315,10 +1333,10 @@
     "modId": "reliable_remover",
     "version": "1.7.1"
   },
-  "reliable_replacer-forge-1.20.1-1.5.7.jar": {
-    "jarName": "reliable_replacer-forge-1.20.1-1.5.7.jar",
+  "reliable_replacer-forge-1.20.1-1.7.1.jar": {
+    "jarName": "reliable_replacer-forge-1.20.1-1.7.1.jar",
     "modId": "reliable_replacer",
-    "version": "1.5.7"
+    "version": "1.7.1"
   },
   "resourcefulconfig-forge-1.20.1-2.1.3.jar": {
     "jarName": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
@@ -1425,10 +1443,10 @@
     "modId": "starterkit",
     "version": "7.4"
   },
-  "starterstructure-1.20.1-4.2.jar": {
-    "jarName": "starterstructure-1.20.1-4.2.jar",
+  "starterstructure-1.20.1-5.0.jar": {
+    "jarName": "starterstructure-1.20.1-5.0.jar",
     "modId": "starterstructure",
-    "version": "4.2"
+    "version": "5.0"
   },
   "Steam_Rails-1.6.14-beta+forge-mc1.20.1.jar": {
     "jarName": "Steam_Rails-1.6.14-beta+forge-mc1.20.1.jar",
@@ -1495,10 +1513,10 @@
     "modId": "tacz",
     "version": "1.1.6-hotfix"
   },
-  "tastytiles-1.2.0-1.20.1.jar": {
-    "jarName": "tastytiles-1.2.0-1.20.1.jar",
+  "tastytiles-1.2.1-1.20.1.jar": {
+    "jarName": "tastytiles-1.2.1-1.20.1.jar",
     "modId": "tastytiles",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   "TerraBlender-forge-1.20.1-3.0.1.10.jar": {
     "jarName": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
@@ -1510,8 +1528,8 @@
     "modId": "tesseract",
     "version": "1.0.38"
   },
-  "textiles_and_trinkets-1.1.2-forge-1.20.1.jar": {
-    "jarName": "textiles_and_trinkets-1.1.2-forge-1.20.1.jar",
+  "textiles_and_trinkets-1.1.3-forge-1.20.1.jar": {
+    "jarName": "textiles_and_trinkets-1.1.3-forge-1.20.1.jar",
     "modId": "textiles_and_trinkets",
     "version": "1.0.0"
   },
@@ -1565,10 +1583,10 @@
     "modId": "villagerconfig",
     "version": "4.1.2+1.20.1"
   },
-  "vintageimprovements-1.20.1-0.3.7.1.jar": {
-    "jarName": "vintageimprovements-1.20.1-0.3.7.1.jar",
+  "vintageimprovements-1.20.1-0.3.7.9.jar": {
+    "jarName": "vintageimprovements-1.20.1-0.3.7.9.jar",
     "modId": "vintageimprovements",
-    "version": "1.20.1-0.3.7.1"
+    "version": "1.20.1-0.3.7.9"
   },
   "wither_spawn_fix-1.0.0.jar": {
     "jarName": "wither_spawn_fix-1.0.0.jar",
@@ -1620,10 +1638,10 @@
     "modId": "yungsapi",
     "version": "1.20-Forge-4.0.6"
   },
-  "yuushya-1.20.1-forge-2.2.3.jar": {
-    "jarName": "yuushya-1.20.1-forge-2.2.3.jar",
+  "yuushya-1.20.1-forge-2.3.0.jar": {
+    "jarName": "yuushya-1.20.1-forge-2.3.0.jar",
     "modId": "yuushya",
-    "version": "2.2.3"
+    "version": "2.3.0"
   },
   "Zeta-1.0-30.jar": {
     "jarName": "Zeta-1.0-30.jar",
