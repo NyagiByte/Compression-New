@@ -14,16 +14,16 @@
             "item": "immersiveengineering:slag_gravel"
         },
         {
-            "item": "minecraft:sand"
+            "tag": "forge:sand"
         },
         {
-            "item": "minecraft:sand"
+            "tag": "forge:sand"
         },
         {
-            "item": "minecraft:sand"
+            "tag": "forge:sand"
         },
         {
-            "item": "minecraft:sand"
+            "tag": "forge:sand"
         },
         {
             "item": "minecraft:white_dye"
