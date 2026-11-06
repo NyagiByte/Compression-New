@@ -141,6 +141,7 @@
 		[items.tools.attack_damage]
 			"create:wrench" = 4.0
 			"immersiveengineering:hammer" = 4.0
+			"aiotbotania:manasteel_aiot" = 11.5
 
 		#Set the attack speed of a tool or weapon. May not work on modded tools, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:netherite_pickaxe" = 2.5

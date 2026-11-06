@@ -82,4 +82,22 @@ event.modify('aiotbotania:livingrock_shovel', item => {
 event.modify('aiotbotania:livingrock_aiot', item => {
     item.setTier(livingrock)
 })
+event.modify('aiotbotania:manasteel_sword', item => {
+    item.setTier(manasteel)
+})
+event.modify('aiotbotania:manasteel_axe', item => {
+    item.setTier(manasteel)
+})
+event.modify('aiotbotania:manasteel_pickaxe', item => {
+    item.setTier(manasteel)
+})
+event.modify('aiotbotania:manasteel_hoe', item => {
+    item.setTier(manasteel)
+})
+event.modify('aiotbotania:manasteel_shovel', item => {
+    item.setTier(manasteel)
+})
+event.modify('aiotbotania:manasteel_aiot', item => {
+    item.setTier(manasteel)
+})
 })
