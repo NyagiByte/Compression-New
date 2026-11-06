@@ -1,0 +1,27 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "item": "nyagibits_bytes:raw_chalk"
+      }
+    ],
+    "processingTime": 10,
+    "results": [
+      {
+        "count": 64,
+        "item": "natures_spirit:chalk_powder"
+      },
+      {
+        "count": 64,
+        "item": "natures_spirit:chalk_powder"
+      },
+      {
+        "count": 64,
+        "item": "natures_spirit:chalk_powder"
+      },
+      {
+        "count": 64,
+        "item": "natures_spirit:chalk_powder"
+      }
+    ]
+  }
