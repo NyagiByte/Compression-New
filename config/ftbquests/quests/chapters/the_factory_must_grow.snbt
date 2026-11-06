@@ -642,7 +642,7 @@
 				type: "item"
 			}]
 			title: "Scrapping all that loot"
-			x: -5.0d
+			x: -4.5d
 			y: 1.0d
 		}
 		{
@@ -2174,7 +2174,7 @@
 				type: "item"
 			}]
 			title: "Stonecutter On A Stick"
-			x: -4.0d
+			x: -3.5d
 			y: -1.0d
 		}
 		{
@@ -2209,8 +2209,83 @@
 				}
 			]
 			title: "A Gift From Randy"
-			x: -4.0d
+			x: -3.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["34E2645071D7850B"]
+			description: [
+				"Using a &6Diamond Saw&r any full block can be chopped up into many different sizes!"
+				""
+				"{image:compression:textures/quests/micro_one.png width:192 height:108 align:center}"
+				""
+				"{@pagebreak}"
+				"These \"&amicroblocks&r\" are able to share the same block space as each other and even pass through each other."
+				""
+				"{image:compression:textures/quests/micro_three.png width:192 height:108 align:center}"
+				""
+				"{@pagebreak}"
+				"When placing a microblock a &agrid&r will appear on the block surface to help you align a placement."
+				""
+				"{image:compression:textures/quests/micro_four.png width:192 height:108 align:center}"
+				""
+				"{@pagebreak}"
+				"When hovering a valid block location, a &6transparent&r version of the microblock will appear."
+				""
+				"{image:compression:textures/quests/micro_five.png width:192 height:108 align:center}"
+				""
+				"{@pagebreak}"
+				"Depending on the exact area targeted &amore placement positions&r can be seen for the microblocks."
+				""
+				"{image:compression:textures/quests/micro_six.png width:192 height:108 align:center}"
+				""
+				"{@pagebreak}"
+				"The &esize&r of the microblock influences where it can be placed as well. Seen here the larger pillar can be placed in the center."
+				""
+				"{image:compression:textures/quests/micro_seven.png width:192 height:108 align:center}"
+				""
+				"{@pagebreak}"
+				"Additionally when attempting to place a microblock of the &nsame type&r in the same spot, a &bsecond transparent block appears&r, showing that it can &amerge&r with the existing block to form a larger version of that microblock."
+				""
+				"{image:compression:textures/quests/micro_eight.png width:192 height:108 align:center}"
+				""
+				"Something to note is that this changes the block and must be &ere-sawed&r to get the pieces back."
+				"{@pagebreak}"
+				"Probably the most important aspect of microblocks is that they:"
+				""
+				"-Respect &6project red redstone&r wires"
+				""
+				"-Can be placed in the &asame block space&r as them"
+				""
+				"-Can be used to &bdivide existing redstone lines&r without needing bundled wire! "
+				""
+				"&cF&6a&en&ac&by &ds&ct&6u&ef&af&b!"
+				""
+				"{image:compression:textures/quests/micro_nine.png width:192 height:108 align:center}"
+				""
+				"{@pagebreak}"
+			]
+			id: "59033DC1C0171EB8"
+			rewards: [{
+				id: "2C867FDEF778A830"
+				item: "nyagibits_bytes:tier_zero_strawberry"
+				type: "item"
+			}]
+			subtitle: "Is this in metric or freedom? Eh I'll just eyeball it"
+			tasks: [{
+				id: "3A8195889481DCA2"
+				item: {
+					Count: 1
+					id: "cb_microblock:diamond_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Measure Once Cut Twice"
+			x: -5.5d
+			y: -1.0d
 		}
 	]
 	subtitle: [" &fThe stupid biters are on my oil patch!"]
