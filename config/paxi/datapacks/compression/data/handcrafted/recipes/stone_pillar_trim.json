@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:stone"}
+    },
+    "pattern": [
+      " A ",
+      " AA",
+      " A "
+    ],
+    "result": {
+        "count": 4,
+        "item": "handcrafted:stone_pillar_trim"
+    }
+  }

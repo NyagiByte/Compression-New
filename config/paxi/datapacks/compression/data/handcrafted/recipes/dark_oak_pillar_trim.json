@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:dark_oak_planks"}
+    },
+    "pattern": [
+      " A ",
+      " AA",
+      " A "
+    ],
+    "result": {
+        "count": 4,
+        "item": "handcrafted:dark_oak_pillar_trim"
+    }
+  }

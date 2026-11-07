@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:sandstone"}
+    },
+    "pattern": [
+      " A ",
+      " AA",
+      " A "
+    ],
+    "result": {
+        "count": 4,
+        "item": "handcrafted:sandstone_pillar_trim"
+    }
+  }

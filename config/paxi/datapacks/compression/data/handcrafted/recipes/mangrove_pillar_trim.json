@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:mangrove_planks"}
+    },
+    "pattern": [
+      " A ",
+      " AA",
+      " A "
+    ],
+    "result": {
+        "count": 4,
+        "item": "handcrafted:mangrove_pillar_trim"
+    }
+  }

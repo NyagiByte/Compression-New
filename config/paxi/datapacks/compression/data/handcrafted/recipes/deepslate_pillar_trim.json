@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:deepslate"}
+    },
+    "pattern": [
+      " A ",
+      " AA",
+      " A "
+    ],
+    "result": {
+        "count": 4,
+        "item": "handcrafted:deepslate_pillar_trim"
+    }
+  }
