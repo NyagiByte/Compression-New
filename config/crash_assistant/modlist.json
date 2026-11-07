@@ -632,10 +632,10 @@
     "modId": "fastbotaniafix",
     "version": "1.0.2"
   },
-  "fastchunkgen-0.39-all.jar": {
-    "jarName": "fastchunkgen-0.39-all.jar",
+  "fastchunkgen-0.40-all.jar": {
+    "jarName": "fastchunkgen-0.40-all.jar",
     "modId": "fastchunkgen",
-    "version": "0.39"
+    "version": "0.40"
   },
   "fasterrandom-5.1.0.jar": {
     "jarName": "fasterrandom-5.1.0.jar",
