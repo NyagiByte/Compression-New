@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"minecraft:stripped_acacia_log"},
+      "B": {"item":"minecraft:acacia_planks"}
+    },
+    "pattern": [
+      " B ",
+      " A ",
+      " A "
+    ],
+    "result": {
+        "count": 6,
+        "item": "bbb:acacia_balustrade"
+    }
+  }

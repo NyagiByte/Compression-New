@@ -17331,6 +17331,10 @@
         "echovoids:end_vase_top",
         "echovoids:end_lamp",
         "creatif:ingredient_filter",
-        "cb_microblock:diamond_saw"
+        "cb_microblock:diamond_saw",
+        "industrialhellscape:vesselplate_door",
+        "industrialhellscape:vesselplate_trapdoor",
+        "industrialhellscape:gray_vesselplate_door",
+        "industrialhellscape:gray_vesselplate_trapdoor"
     ]
   }
