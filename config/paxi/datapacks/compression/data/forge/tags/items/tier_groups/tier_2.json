@@ -1204,6 +1204,7 @@
         "nyagibits_bytes:float_separated_scandium_dust",
         "nyagibits_bytes:float_separated_thallium_dust",
         "nyagibits_bytes:float_separated_iridium_dust",
+        "nyagibits_bytes:mohs_pick_11",
         "stonezone:bbb/pneumaticcraft/reinforced_stone_column",
         "stonezone:bbb/pneumaticcraft/reinforced_stone_fence",
         "stonezone:bbb/pneumaticcraft/reinforced_stone_urn",
