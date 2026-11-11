@@ -1,0 +1,18 @@
+{
+    "type": "compressedengineering:assembler_shaped",
+    "key": {
+      "A": {"item":"nyagibits_bytes:steel_stainless"},
+      "B": {"item":"nyagibits_bytes:rune_binder"},
+      "C": {"item":"nyagibits_bytes:polished_lapis_lazuli"},
+      "D": {"item":"minecraft:paper"}
+    },
+    "pattern": [
+      " AA",
+      " BA",
+      "C D"
+    ],
+    "result": {
+      "count": 2, 
+      "item": "nyagibits_bytes:mohs_pick_05"
+  }
+  }
