@@ -4,6 +4,8 @@
   "contents": [
     "copycats:copycat_block",
     "copycats:copycat_slab",
+    "copycats:copycat_step",
+    "copycats:copycat_panel",
     "copycats:copycat_stairs",
     "copycats:copycat_vertical_stairs",
     "copycats:copycat_fence",
