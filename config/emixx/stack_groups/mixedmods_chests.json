@@ -87,7 +87,11 @@
     "everycomp:q/atmospheric/aspen_chest",
     "everycomp:q/atmospheric/laurel_chest",
     "everycomp:q/atmospheric/kousa_chest",
-    "everycomp:q/atmospheric/grimwood_chest"
+    "everycomp:q/atmospheric/grimwood_chest",
+    "everycomp:q/natures_spirit/redwood_chest",
+    "everycomp:q/echovoids/nillow_chest",
+    "everycomp:q/echovoids/magnachorus_chest",
+    "everycomp:q/echovoids/phantotaxite_chest"
   ],
   "enabled": true
 }
