@@ -27,4 +27,6 @@
 	"Fabulous Pool Mana Capacity" = 2000000
 	#Whether to make the Garden of Glass pebbles usable as an improvised thrown weapon
 	"Stone Thy Foes" = true
+	#Enables a patch to how crafting grids are emptied. It fixes excessive server load from the Manufactory Halo. The config is here as a failsafe.
+	"Patch Crafting Grid Clearing" = true
 

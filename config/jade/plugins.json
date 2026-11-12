@@ -79,6 +79,9 @@
   "immersiveengineering": {
     "multiblock_icon": true
   },
+  "ammo_supply_box": {
+    "auto_restock_cooldown": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

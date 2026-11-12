@@ -10,6 +10,7 @@
   "ae2:pattern_provider": null,
   "ae2:power_storage": null,
   "ae2:server_data": null,
+  "ammo_supply_box:auto_restock_cooldown": null,
   "balm:jade": null,
   "compactmachines:machine": null,
   "compactmachines:machine_tunnels": null,

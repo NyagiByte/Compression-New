@@ -13,6 +13,14 @@
 	CreativePlayerConsumeAmmo = true
 	#Auto reload all the guns in player inventory, useful for pvp servers
 	AutoReloadWhenRespawn = false
+	#Whether or not gunfire sound angers nearby mobs
+	EnableGunSoundAnger = true
+	#The default range (block) for gunfire sound to anger neutral mobs
+	#Range: 0 ~ 64
+	DefaultGunSoundNeutralMobAngerDistance = 24
+	#The default range (block) for gunfire sound to attract hostile mobs
+	#Range: 0 ~ 64
+	DefaultGunSoundHostileMobAngerDistance = 32
 
 [ammo]
 	#Warning: Ammo with explosive properties can break blocks
@@ -24,9 +32,9 @@
 	#The distance at which the explosion effect can be seen
 	#Range: > 0
 	ExplosiveAmmoVisibleDistance = 192
-	#Those blocks that the ammo can pass through
+	#Blocks that bullets can pass through. Accepts block IDs and tags prefixed with #, e.g. minecraft:glass or #forge:glass.
 	PassThroughBlocks = []
-	#Whether a ammo can break the glass
+	#Allow bullets to destroy blocks listed in DestroyBlocks without drops. The name is retained for compatibility; the list is not limited to glass.
 	DestroyGlass = true
 	#Whether a ammo can ignite the block
 	IgniteBlock = true
@@ -36,10 +44,20 @@
 	#This is to compensate the side effects introduced while fixing the shooter variable input issue
 	#Range: 0.01 ~ 20.0
 	GlobalBulletSpeedModifier = 2.0
+	#Blocks that bullets can destroy when DestroyGlass is enabled, subject to DestroyBlockHardnessThreshold. Accepts block IDs and tags prefixed with #, e.g. minecraft:glass or #forge:glass.
+	DestroyBlocks = ["#forge:glass", "#forge:glass_panes"]
+	#Maximum block hardness for direct bullet destruction. Blocks above this threshold or with negative hardness (unbreakable) are never destroyed, even if listed in DestroyBlocks. Default: 1.0; vanilla glass has hardness 0.3.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	DestroyBlockHardnessThreshold = 1.0
+	#Bullets pass through members of the shooter's scoreboard team when friendly fire is disabled, without consuming pierce count
+	IgnoreTeamFriendlyFire = false
+	#Enable the entity bullet damage ignore list. Listed entities are ignored by bullet hit detection and take no damage or knockback from ammo explosions.
+	EnableBulletDamageIgnoreList = false
+	#Entity type IDs protected from bullets and ammo explosions when EnableBulletDamageIgnoreList is enabled.
+	BulletDamageIgnoreList = ["minecraft:painting", "minecraft:item_frame", "minecraft:glow_item_frame"]
 
 [other]
-	#Deprecated: now move to .minecraft/tacz/tacz-pre.toml or <your version>/tacz/tacz-pre.toml
-	#When enabled, the reload command will not overwrite the default model file under config
+	#Deprecated and ignored: use [gunpack].DefaultPackDebug in <game directory>/tacz/tacz-pre.toml.
 	DefaultPackDebug = false
 	#The farthest sound distance of the target, including minecarts type
 	#Range: > 0
