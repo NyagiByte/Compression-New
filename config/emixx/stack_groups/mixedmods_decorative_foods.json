@@ -1,0 +1,10 @@
+{
+  "id": "mixedmods:decorative_foods",
+  "type": "emixx:group",
+  "contents": [
+    "quark:beetroot_crate",
+    "quark:carrot_crate",
+    "quark:potato_crate"
+  ],
+  "enabled": true
+}

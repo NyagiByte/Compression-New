@@ -1,0 +1,8 @@
+{
+    "type":"minecraft:stonecutting",
+    "ingredient":{
+        "item": "farmersdelight:beetroot_crate"
+        },
+            "result": "quark:beetroot_crate",
+            "count":1
+        }

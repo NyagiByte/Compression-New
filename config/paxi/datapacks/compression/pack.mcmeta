@@ -237,6 +237,9 @@
 		{"namespace": "mekanism", "path": "recipes/storage_blocks/charcoal.json"},
 		{"namespace": "quark", "path": "recipes/building/crafting/compressed/charcoal_block.json"},
 		{"namespace": "quark", "path": "recipes/building/crafting/compressed/charcoal_block_uncompress.json"},
+		{"namespace": "quark", "path": "recipes/building/crafting/compressed/beetroot_crate.json"},
+		{"namespace": "quark", "path": "recipes/building/crafting/compressed/carrot_crate.json"},
+		{"namespace": "quark", "path": "recipes/building/crafting/compressed/potato_crate.json"},
 
 		{"namespace": "biomeswevegone", "path": "recipes/ametrine_helmet.json"},
 		{"namespace": "biomeswevegone", "path": "recipes/ametrine_chestplate.json"},

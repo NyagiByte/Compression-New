@@ -17335,6 +17335,8 @@
         "industrialhellscape:vesselplate_door",
         "industrialhellscape:vesselplate_trapdoor",
         "industrialhellscape:gray_vesselplate_door",
-        "industrialhellscape:gray_vesselplate_trapdoor"
+        "industrialhellscape:gray_vesselplate_trapdoor",
+        "quark:carrot_crate",
+        "quark:potato_crate"
     ]
   }

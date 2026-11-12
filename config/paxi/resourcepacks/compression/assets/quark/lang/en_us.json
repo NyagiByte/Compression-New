@@ -11,5 +11,9 @@
 
     "block.quark.stripped_ancient_wood": "Stripped Full-Sided Ashen Log",
     "block.quark.stripped_azalea_wood": "Stripped Full-Sided Azalea Log",
-    "block.quark.stripped_blossom_wood": "Stripped Full-Sided Trumpet Log"
+    "block.quark.stripped_blossom_wood": "Stripped Full-Sided Trumpet Log",
+
+    "block.quark.beetroot_crate": "Decorative Beetroot Crate",
+    "block.quark.carrot_crate": "Decorative Carrot Crate",
+    "block.quark.potato_crate": "Decorative Potato Crate"
 }

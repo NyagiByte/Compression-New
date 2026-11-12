@@ -467,8 +467,6 @@ JEIEvents.hideItems(event => {
     'immersivepetroleum:petcoke_dust',
     //Quark
     'quark:pickarang',
-    'quark:carrot_crate',
-    'quark:potato_crate',
     //Oh The Biomes You'll Go
     'biomeswevegone:pendorite_pickaxe',
     'biomeswevegone:pendorite_axe',
