@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "biomeswevegone:white_mangrove_log"}
+    },
+    "pattern": [
+      "AAA",
+      "A A",
+      "AAA"
+    ],
+    "result": {
+      "count": 4,
+      "item": "everycomp:q/biomeswevegone/white_mangrove_chest"
+    }
+  }
