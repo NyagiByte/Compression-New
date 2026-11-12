@@ -1,0 +1,63 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "nyagibits_bytes:plastic_container"},
+    "loops": 1,
+    "results": [
+      {
+        "chance": 1.0,
+        "item": "nyagibits_bytes:undercrust_sampling"
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+          },
+          {
+            "item": "nyagibits_bytes:deep_ground_sample"
+          }  
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+        }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+          },
+          {
+            "item": "xkdeco:empty_bottle_stack"
+          }  
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+        }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+          },
+          {
+            "amount": 1000,
+            "fluid": "immersivepetroleum:crudeoil"
+          }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {"item": "nyagibits_bytes:plastic_container"}
+  }

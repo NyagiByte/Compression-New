@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item":"nyagibits_bytes:mohs_container"},
+      "B": {"item":"nyagibits_bytes:rare_earth_sludge_sampling"},
+      "C": {"item":"nyagibits_bytes:undercrust_sampling"}
+    },
+    "pattern": [
+      "A",
+      "B",
+      "C"
+    ],
+    "result": {
+        "item": "nyagibits_bytes:crude_geology_test"
+    }
+  }

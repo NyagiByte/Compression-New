@@ -1,0 +1,136 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "nyagibits_bytes:plastic_container"},
+    "loops": 1,
+    "results": [
+      {
+        "chance": 1.0,
+        "item": "nyagibits_bytes:rare_earth_sludge_sampling"
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+          },
+          {
+            "item": "xkdeco:empty_bottle_stack"
+          }  
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+        }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+          },
+          {
+            "item": "xkdeco:empty_bottle_stack"
+          }  
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+        }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+          },
+          {
+            "amount": 1000,
+            "fluid": "nyagibits_bytes:sludge_monazite_fluid",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+          }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+          },
+          {
+            "amount": 1000,
+            "fluid": "nyagibits_bytes:sludge_cerite_fluid",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+          }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+          },
+          {
+            "amount": 1000,
+            "fluid": "nyagibits_bytes:sludge_allanite_fluid",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+          }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+          },
+          {
+            "amount": 1000,
+            "fluid": "nyagibits_bytes:sludge_bastnasite_fluid",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+          }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+          },
+          {
+            "amount": 1000,
+            "fluid": "nyagibits_bytes:sludge_xenotime_fluid",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:plastic_container"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {"item": "nyagibits_bytes:plastic_container"}
+  }

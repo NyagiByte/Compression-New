@@ -2116,17 +2116,25 @@
 				"247B763D4F03257C"
 			]
 			description: ["With so many new elements within scope to use, analysis on properties and processing methods to convert them to useful material is badly needed"]
+			icon: "nyagibits_bytes:mohs_pick_10"
 			id: "7175C712B2A94D90"
 			rewards: [{
 				id: "1976019D4B1F9C55"
 				item: "nyagibits_bytes:tier_one_strawberry"
 				type: "item"
 			}]
-			tasks: [{
-				id: "0B71E912C27F3312"
-				item: "compactmachines:solid_wall"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "263665533F28CF1F"
+					item: "nyagibits_bytes:crude_geology_test"
+					type: "item"
+				}
+				{
+					id: "777219A129E117DC"
+					item: "nyagibits_bytes:magimorphic_catalytic_system"
+					type: "item"
+				}
+			]
 			title: "Crude Geology Test"
 			x: 10.0d
 			y: 10.0d
@@ -2402,8 +2410,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "0D6175463864E97B"
-				item: "compactmachines:solid_wall"
+				id: "0A7A5907E0B251BC"
+				item: "nyagibits_bytes:used_crude_geology_test"
 				type: "item"
 			}]
 			title: "Used Crude Geology Test"
@@ -2420,8 +2428,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "6AA10D30E4E8AB56"
-				item: "compactmachines:solid_wall"
+				id: "1A596FA3DF95A7DE"
+				item: "nyagibits_bytes:lab_notebook_with_crude_geology_data"
 				type: "item"
 			}]
 			title: "Lab Notebook With Crude Geology Data"

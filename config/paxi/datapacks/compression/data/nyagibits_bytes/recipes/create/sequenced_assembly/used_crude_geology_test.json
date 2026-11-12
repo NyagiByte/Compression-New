@@ -1,0 +1,78 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {"item": "nyagibits_bytes:crude_geology_test"},
+    "loops": 1,
+    "results": [
+      {
+        "count": 1,
+        "item": "nyagibits_bytes:used_crude_geology_test"
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:crude_geology_test"
+          },
+          {
+            "item": "nyagibits_bytes:magimorphic_catalytic_system"
+          }  
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:crude_geology_test"
+        }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:crude_geology_test"
+          },
+          {
+            "item": "nyagibits_bytes:chemical_grade_glassware"
+          }  
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:crude_geology_test"
+        }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:crude_geology_test"
+          },
+          {
+            "item": "nyagibits_bytes:ph_strips"
+          }  
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:crude_geology_test"
+        }
+        ]
+      },
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "nyagibits_bytes:crude_geology_test"
+          },
+          {
+            "item": "nyagibits_bytes:chromatography_kit"
+          }  
+        ],
+        "results": [
+          {
+            "item": "nyagibits_bytes:crude_geology_test"
+        }
+        ]
+      }
+    ],
+    "transitionalItem": {"item": "nyagibits_bytes:crude_geology_test"}
+  }

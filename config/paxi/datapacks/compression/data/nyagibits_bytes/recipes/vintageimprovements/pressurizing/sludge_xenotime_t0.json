@@ -1,0 +1,34 @@
+{
+  "type":"vintageimprovements:pressurizing",
+  "heatRequirement": "superheated",
+  "secondaryFluidInput": 0,
+  "ingredients": [
+    {
+      "fluid": "chemlib:hydrogen_sulfide_fluid",
+      "amount": 500
+    },
+    {
+      "fluid": "nyagibits_bytes:oleum_fluid",
+      "amount": 1000
+    },
+    {
+      "item": "nyagibits_bytes:raw_xenotime"
+    },
+    {
+      "item": "nyagibits_bytes:raw_xenotime"
+    },
+    {
+      "item": "nyagibits_bytes:raw_xenotime"
+    },
+    {
+      "item": "nyagibits_bytes:raw_xenotime"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "nyagibits_bytes:sludge_xenotime_fluid",
+      "amount": 1000
+    }
+  ],
+  "processingTime": 200
+}

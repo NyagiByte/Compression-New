@@ -1,0 +1,34 @@
+{
+    "type":"immersiveengineering:blueprint",
+    "category":"magitech",
+    
+    "inputs":[
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:fasteners"},
+                "count":64},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:small_pipe_steel"},
+                "count":64},
+        {
+            "base_ingredient":{
+                "item":"botania:floating_marimorphosis_chibi"},
+                "count":1},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:miniaturized_high_pressure_system"},
+                "count":1},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:mini_frasch_apparatus"},
+                "count":1},
+        {
+            "base_ingredient":{
+                "item":"nyagibits_bytes:electrowinning_device"},
+                "count":1}
+            ],
+    "result":{
+            "count": 1,
+            "item":"nyagibits_bytes:magimorphic_catalytic_system"
+        }}

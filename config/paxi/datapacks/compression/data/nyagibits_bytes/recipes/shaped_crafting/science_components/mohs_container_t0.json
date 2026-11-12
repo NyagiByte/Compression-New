@@ -1,0 +1,47 @@
+{
+    "type": "create:mechanical_crafting",
+    "acceptMirrored": true,
+    "key": {
+      "A": {
+        "item": "nyagibits_bytes:plastic_container"
+      },
+      "B": {
+        "item": "nyagibits_bytes:mohs_pick_06"
+      },
+      "C": {
+        "item": "nyagibits_bytes:mohs_pick_07"
+      },
+      "D": {
+        "item": "nyagibits_bytes:mohs_pick_08"
+      },
+      "E": {
+        "item": "nyagibits_bytes:mohs_pick_09"
+      },
+      "F": {
+        "item": "nyagibits_bytes:mohs_pick_10"
+      },
+      "G": {
+        "item": "nyagibits_bytes:mohs_pick_01"
+      },
+      "H": {
+        "item": "nyagibits_bytes:mohs_pick_02"
+      },
+      "I": {
+        "item": "nyagibits_bytes:mohs_pick_03"
+      },
+      "J": {
+        "item": "nyagibits_bytes:mohs_pick_04"
+      },
+      "K": {
+        "item": "nyagibits_bytes:mohs_pick_05"
+      }
+    },
+    "pattern": [
+      "GHIJK",
+      "BCDEF",
+      "  A  "
+    ],
+    "result": {
+      "item": "nyagibits_bytes:mohs_container"
+    }
+  }

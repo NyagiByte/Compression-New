@@ -1,0 +1,18 @@
+{
+    "type": "compressedengineering:assembler_shaped",
+    "key": {
+      "A": {"item":"immersiveengineering:plate_duroplast"},
+      "B": {"item":"immersiveengineering:duroplast"},
+      "C": {"item":"immersiveengineering:phenolic_resin_bucket"},
+      "D": {"item":"immersivepetroleum:paraffin_wax"}
+    },
+    "pattern": [
+      " D ",
+      "ACA",
+      "ABA"
+    ],
+    "result": {
+      "count": 1, 
+      "item": "nyagibits_bytes:plastic_container"
+  }
+  }
