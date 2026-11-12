@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "biomeswevegone:witch_hazel_log"}
+    },
+    "pattern": [
+      "AAA",
+      "A A",
+      "AAA"
+    ],
+    "result": {
+      "count": 4,
+      "item": "everycomp:q/biomeswevegone/witch_hazel_chest"
+    }
+  }

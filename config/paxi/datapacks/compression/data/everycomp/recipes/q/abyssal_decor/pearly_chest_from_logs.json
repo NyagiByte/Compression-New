@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "abyssal_decor:white_wood_log"}
+    },
+    "pattern": [
+      "AAA",
+      "A A",
+      "AAA"
+    ],
+    "result": {
+      "count": 4,
+      "item": "everycomp:q/abyssal_decor/white_wood_chest"
+    }
+  }
