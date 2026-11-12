@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "echovoids:stump_block"}
+    },
+    "pattern": [
+      "AAA",
+      "A A",
+      "AAA"
+    ],
+    "result": {
+      "count": 4,
+      "item": "everycomp:q/echovoids/phantotaxite_chest"
+    }
+  }

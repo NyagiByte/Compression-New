@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "A": {"item": "biomeswevegone:florus_stem"}
+    },
+    "pattern": [
+      "AAA",
+      "A A",
+      "AAA"
+    ],
+    "result": {
+      "count": 4,
+      "item": "everycomp:q/biomeswevegone/florus_chest"
+    }
+  }
