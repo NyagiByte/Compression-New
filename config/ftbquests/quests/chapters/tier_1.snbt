@@ -3606,16 +3606,17 @@
 		}
 		{
 			dependencies: ["61BB0BE47F3A6F46"]
-			description: ["Cordite Line - Future Ozy gun implementation"]
+			description: ["Cordite is required for proper bullet production!"]
 			id: "07BB274AC9656DA0"
 			rewards: [{
 				id: "2292121DE824CA62"
 				item: "nyagibits_bytes:tier_one_strawberry"
 				type: "item"
 			}]
+			subtitle: "Danger Pasta"
 			tasks: [{
-				id: "21C044D618592617"
-				item: "compactmachines:solid_wall"
+				id: "4CF5D146C36B0063"
+				item: "nyagibits_bytes:cordite"
 				type: "item"
 			}]
 			title: "Cording my ite"
