@@ -3591,16 +3591,13 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "0E838525782B04AA"
+				id: "116F95A19DC444D3"
 				item: {
 					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Size: 21
-						}
+					id: "tacz:workbench_b"
+					tag: {
+						BlockId: "immersive_armorer:workbench"
 					}
-					id: "immersiveengineering:revolver"
 				}
 				type: "item"
 			}]
@@ -3786,6 +3783,34 @@
 			title: "Become Poison Ball"
 			x: -9.0d
 			y: 0.5d
+		}
+		{
+			dependencies: [
+				"3F03967719FCBD5D"
+				"07BB274AC9656DA0"
+			]
+			id: "36C87DA3F60FCC4B"
+			rewards: [{
+				id: "20289EC59718C0FF"
+				item: "nyagibits_bytes:tier_one_strawberry"
+				type: "item"
+			}]
+			tasks: [{
+				id: "680D64D656188189"
+				item: {
+					Count: 1
+					id: "tacz:modern_kinetic_gun"
+					tag: {
+						GunCurrentAmmoCount: 8
+						GunFireMode: "SEMI"
+						GunId: "immersive_armorer:revolver"
+						HasBulletInBarrel: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.5d
 		}
 	]
 	subtitle: ["Machines greased with mana"]
