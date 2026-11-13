@@ -1,5 +1,7 @@
 //Forgive me, for i am about to sin.
 const WispParticleData = Java.loadClass("vazkii.botania.client.fx.WispParticleData")
+const SparkleParticleData = Java.loadClass("vazkii.botania.client.fx.SparkleParticleData")
+const MysticalPetalItem = Java.loadClass("vazkii.botania.common.item.material.MysticalPetalItem")
 const ParticleTypes = Java.loadClass("net.minecraft.core.particles.ParticleTypes")
 const NixieTubeBE = Java.loadClass("com.simibubi.create.content.redstone.nixieTube.NixieTubeBlockEntity")
 const ManaEnchanter = Java.loadClass("vazkii.botania.common.block.block_entity.ManaEnchanterBlockEntity")
@@ -28,7 +30,8 @@ Ponder.tags((e) => {
         "botania:red_string_fertilizer",
         "botania:red_string_comparator",
         "botania:red_string_relay",
-        "botania:red_string_interceptor"
+        "botania:red_string_interceptor",
+        "botania:white_petal"
     ])
 
     // I got lazy
@@ -2383,9 +2386,76 @@ Ponder.registry((e) => {
             scene.markAsFinished()
         });
 
+    let colours = ["white", "light_gray", "gray", "black", "brown", "red", "orange", "yellow", "lime", "green", "cyan", "light_blue", "blue", "purple", "magenta", "pink"]
+    colours.forEach(colour => {
+        e.create("botania:"+colour+"_petal") //Yes, this does create 16 near-identical ponders. But i like the concept of it showing the petal that's being pondered, so i'm sticking with it.
+            .scene("growing_"+colour+"_petals", "Growing Mystical Petals", "kubejs:botania_5x5", (scene, util) => {
+                scene.showBasePlate();
+                scene.idle(5)
+                scene.text(100, "To grow mystical flowers, bury a petal into suitable soil", [2.5,1,2.5]).placeNearTarget();
+                scene.idle(30)
+                scene.world.showSection([2,1,2, 2,2,2], Facing.down)
+                scene.showControls(80, [2.5, 1.5, 2.5], "down").withItem("botania:"+colour+"_petal").rightClick()
+                scene.idle(20)
+                createBuriedPetalSparkles(scene, [2,1,2], 70, colour)
+                scene.text(100, "The buried petal is not really visible, but it will show coloured sparkles", [2.5,1,2.5]).placeNearTarget();
+                createBuriedPetalSparkles(scene, [2,1,2], 110, colour)
+                scene.addKeyframe()
+                createBuriedPetalSparkles(scene, [2,1,2], 10, colour)
+                scene.text(90, "The petal won't grow on its own, some bonemeal must be applied.", [2.5,1,2.5]).placeNearTarget();
+                scene.showControls(80, [2.5, 1.5, 2.5], "down").withItem("minecraft:bone_meal").rightClick()
+                createBuriedPetalSparkles(scene, [2,1,2], 100, colour)
+                scene.world.setBlocks([2,1,2, 2,2,2], "botania:"+colour+"_double_flower", false)
+                scene.world.modifyBlock([2,1,2], (f) => f.with("half", "lower"), false)
+                scene.world.modifyBlock([2,2,2], (f) => f.with("half", "upper"), false)
+                for(let i = 0;i<20;i++){
+                    scene.particles.simple(5, "composter", [2+Math.random(), 1+Math.random()*0.3, 2+Math.random()]).density(1);
+                }
+                scene.idle(10)
+                scene.text(90, "The tall flower can then be harvested and crafted back into more petals.", [2.5,1,2.5]).placeNearTarget();
+                scene.idle(90)
+                scene.world.setBlocks([2,1,2,2,2,2], "minecraft:air", true)
+                scene.idle(10)
+                scene.addKeyframe()
+                scene.idle(10)
+                scene.world.setBlock([2,0,2], "farmersdelight:rich_soil", true)
+                scene.idle(5)
+                scene.text(90, "Rich soil can also grow tall flowers", [2.5,1,2.5]).placeNearTarget();
+                createBuriedPetalSparkles(scene, [2,1,2], 50, colour)
+                scene.world.setBlocks([2,1,2, 2,2,2], "botania:"+colour+"_double_flower", false)
+                scene.world.modifyBlock([2,1,2], (f) => f.with("half", "lower"), false)
+                scene.world.modifyBlock([2,2,2], (f) => f.with("half", "upper"), false)
+                for(let i = 0;i<20;i++){
+                    scene.particles.simple(5, "composter", [2+Math.random(), 1+Math.random()*0.3, 2+Math.random()]).density(1);
+                }
+                scene.idle(50)
+                scene.markAsFinished()
+            })
+    })
 
 
 });
+//Creates the sparkles for buried petals at a position, for a given amount of time. Note: Idles for said time.
+function createBuriedPetalSparkles(scene, pos, time, petal){
+    
+    var colour = MysticalPetalItem.getPetalLikeColor(petal)
+    
+    var r = (colour & 0xFF0000) >> 16;
+	var g = (colour & 0xFF00) >> 8;
+	var b = colour & 0xFF;
+    for(let i = 0; i<time;i++){
+        var burst = scene.world.createEntity("botania:mana_burst", [0,0,0])
+        scene.world.modifyEntity(burst, (e) => {
+            e.getLevel().addParticle(
+            SparkleParticleData.noClip(Math.random()+1, r/255, g/255, b/255, 5),
+            pos[0]+0.3+(Math.random()*0.5), pos[1]+0.1+(Math.random()*0.1), pos[2]+0.3+(Math.random()*0.5),
+            0,0,0
+        )})
+        scene.world.modifyEntity(burst, discard)
+        scene.idle(1)
+    }
+    
+}
 
 //This creates a small bit at the start of each red string block to tell players that the basics of red string are covered in another ponder
 function redStringBasicsDisclaimer(scene){
