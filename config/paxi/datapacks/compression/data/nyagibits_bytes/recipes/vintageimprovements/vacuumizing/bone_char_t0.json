@@ -1,0 +1,26 @@
+{
+	"type":"vintageimprovements:vacuumizing",
+  "secondaryFluidInput": 0,
+  "secondaryFluidOutput": 0,
+    "heatRequirement": "superheated",
+	"ingredients": [
+		{
+			"fluid": "chemlib:nitrogen_fluid",
+			"amount": 1000
+		},
+		{
+			"item": "minecraft:bone_meal"
+		}
+	],
+	"results": [
+		{
+			"fluid": "chemlib:nitrogen_fluid",
+			"amount": 975
+		},
+		{
+			"count": 1,
+			"item": "nyagibits_bytes:bone_char"
+		}
+	],
+	"processingTime": 200
+}

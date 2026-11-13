@@ -126,6 +126,8 @@
         "nyagibits_bytes:bucket_of_mixture_formic_acid",
         "nyagibits_bytes:sample_ammonium_fluoride",
         "nyagibits_bytes:ammonium_fluoride_dust",
+        "nyagibits_bytes:nitroguanidine_dust",
+        "nyagibits_bytes:sample_nitroguanidine",
         "ae2:fluid_storage_cell_16k",
         "ae2:item_storage_cell_64k",
         "ae2:item_storage_cell_16k",

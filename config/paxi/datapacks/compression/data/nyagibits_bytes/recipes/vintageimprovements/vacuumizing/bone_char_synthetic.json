@@ -1,0 +1,32 @@
+{
+	"type":"vintageimprovements:vacuumizing",
+  "secondaryFluidInput": 0,
+  "secondaryFluidOutput": 0,
+    "heatRequirement": "superheated",
+	"ingredients": [
+		{
+			"fluid": "chemlib:nitrogen_fluid",
+			"amount": 1000
+		},
+		{
+			"item": "chemlib:calcium_carbonate_dust"
+		},
+		{
+			"item": "nyagibits_bytes:activated_carbon"
+		},
+		{
+			"item": "thermal:apatite"
+		}
+	],
+	"results": [
+		{
+			"fluid": "chemlib:nitrogen_fluid",
+			"amount": 975
+		},
+		{
+			"count": 1,
+			"item": "nyagibits_bytes:bone_char"
+		}
+	],
+	"processingTime": 200
+}

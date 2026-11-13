@@ -1,0 +1,27 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "amount": 100,
+        "fluid": "nyagibits_bytes:glycerol_fluid"
+      },
+      {
+        "amount": 100,
+        "fluid": "nyagibits_bytes:oleum_fluid"
+      },
+      {
+        "amount": 100,
+        "fluid": "nyagibits_bytes:oleum_nitric_fluid"
+      }
+    ],
+    "results": [
+      {
+        "amount": 100,
+        "fluid": "nyagibits_bytes:nitroglycerine_fluid"
+      },
+      {
+        "amount": 225,
+        "fluid": "chemlib:sulfuric_acid_fluid"
+      }
+    ]
+  }

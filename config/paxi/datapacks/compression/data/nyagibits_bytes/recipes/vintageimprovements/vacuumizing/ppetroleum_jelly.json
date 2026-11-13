@@ -1,0 +1,30 @@
+{
+	"type":"vintageimprovements:vacuumizing",
+    "heatRequirement": "heated",
+	"ingredients": [
+		{
+			"item": "immersivepetroleum:paraffin_wax"
+		},
+		{
+			"item": "nyagibits_bytes:bone_char"
+		},
+		{
+			"item": "nyagibits_bytes:distillation_column"
+		}
+	],
+	"results": [
+		{
+			"count": 4,
+			"item": "nyagibits_bytes:petroleum_jelly"
+		},
+		{
+			"chance": 0.99,
+			"item": "nyagibits_bytes:distillation_column"
+		},
+		{
+			"chance": 0.5,
+			"item": "nyagibits_bytes:bone_char"
+		}
+	],
+	"processingTime": 200
+}

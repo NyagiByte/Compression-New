@@ -1,0 +1,26 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "chemlib:cellulose_dust"
+      },
+      {
+        "amount": 1500,
+        "fluid": "nyagibits_bytes:oleum_nitric_fluid"
+      }
+    ],
+    "results": [
+      {
+        "count": 6,
+        "item": "nyagibits_bytes:nitrocellulose"
+      },
+      {
+        "chance": 0.8,
+        "item": "nyagibits_bytes:nitrocellulose"
+      },
+      {
+        "amount": 225,
+        "fluid": "nyagibits_bytes:oxalic_acid_fluid"
+      }
+    ]
+  }
