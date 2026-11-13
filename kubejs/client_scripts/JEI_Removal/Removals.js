@@ -525,8 +525,6 @@ JEIEvents.hideItems(event => {
     '#v_slab_compat:vertical_slabs', 
     //Immersive Aircraft   
     "@immersive_aircraft",
-    //Tacz
-    '@tacz',
     //Item Filters
     'itemfilters:always_true',
     'itemfilters:always_false',
