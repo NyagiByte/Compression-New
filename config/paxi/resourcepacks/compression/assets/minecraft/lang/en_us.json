@@ -79,6 +79,8 @@
 
     "item.minecraft.water_bucket": "Raw Brackish Water Bucket",
     "item.minecraft.milk_bucket": "Raw Milk Bucket",
+    
+    "item.minecraft.flint_and_steel": "Flint and Iron",
 
     "block.minecraft.water": "Raw Brackish Water"
 }
