@@ -2484,7 +2484,11 @@
 
 		{"namespace": "yuushya", "path": "recipes/stone/smoke_bricks.json"},
 
-		{"namespace": "cb_microblock", "path": "recipes/microblock.json"}
+		{"namespace": "cb_microblock", "path": "recipes/microblock.json"},
+
+		{"namespace": "thermal", "path": "recipes/smelting/apatite_from_blasting.json"},
+		{"namespace": "minecraft", "path": "recipes/gold_nugget_from_blasting.json"},
+		{"namespace": "minecraft", "path": "recipes/iron_nugget_from_blasting.json"}
 
 	]}
 	
