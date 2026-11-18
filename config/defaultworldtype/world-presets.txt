@@ -1,0 +1,10 @@
+9 possible world presets found:
+- "hexlands:hexlands"
+- "gardenofglass:gardenofglass"
+- "minecraft:single_biome_surface"
+- "minecraft:large_biomes"
+- "minecraft:normal"
+- "minecraft:flat"
+- "minecraft:debug_all_block_states"
+- "minecraft:amplified"
+- "hexlands:hexlands_overworld_only"

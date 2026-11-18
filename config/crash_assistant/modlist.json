@@ -64,6 +64,11 @@
     "modId": "amendments",
     "version": "1.20-2.2.2"
   },
+  "ammo_supply_box-1.1.2-1.20.1.jar": {
+    "jarName": "ammo_supply_box-1.1.2-1.20.1.jar",
+    "modId": "ammo_supply_box",
+    "version": "1.1.2-1.20.1"
+  },
   "another_furniture-forge-1.20.1-3.0.3.jar": {
     "jarName": "another_furniture-forge-1.20.1-3.0.3.jar",
     "modId": "another_furniture",
@@ -319,20 +324,20 @@
     "modId": "compressed_create_recipes",
     "version": "1.2.8"
   },
-  "compressedbotanics-1.2.0.jar": {
-    "jarName": "compressedbotanics-1.2.0.jar",
+  "compressedbotanics-1.2.1.jar": {
+    "jarName": "compressedbotanics-1.2.1.jar",
     "modId": "compressedbotanics",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   "compressedcreativity-1.20.1-0.2.0-all.jar": {
     "jarName": "compressedcreativity-1.20.1-0.2.0-all.jar",
     "modId": "compressedcreativity",
     "version": "1.20.1-0.2.0"
   },
-  "compressedengineering-1.4.10.jar": {
-    "jarName": "compressedengineering-1.4.10.jar",
+  "compressedengineering-1.4.11.jar": {
+    "jarName": "compressedengineering-1.4.11.jar",
     "modId": "compressedengineering",
-    "version": "1.4.10"
+    "version": "1.4.11"
   },
   "compressiontweaks-1.20.1-2.2.0.jar": {
     "jarName": "compressiontweaks-1.20.1-2.2.0.jar",
@@ -462,10 +467,10 @@
     "modId": "createdeco",
     "version": "2.0.3-1.20.1-forge"
   },
-  "creatif-1.20.1-1.1.1.jar": {
-    "jarName": "creatif-1.20.1-1.1.1.jar",
+  "creatif-1.20.1-1.1.2.jar": {
+    "jarName": "creatif-1.20.1-1.1.2.jar",
     "modId": "creatif",
-    "version": "1.1.1"
+    "version": "1.1.2"
   },
   "CTM-1.20.1-1.1.10.jar": {
     "jarName": "CTM-1.20.1-1.1.10.jar",
@@ -832,11 +837,6 @@
     "modId": "hexlands",
     "version": "5.0.0"
   },
-  "hexlands-fabric-1.20-5.0.0_mapped_srg_1.20.1.jar": {
-    "jarName": "hexlands-fabric-1.20-5.0.0_mapped_srg_1.20.1.jar",
-    "modId": "hexlands",
-    "version": "5.0.0"
-  },
   "hexsky-1.0.0-1.20.1.jar": {
     "jarName": "hexsky-1.0.0-1.20.1.jar",
     "modId": "hexsky",
@@ -1060,11 +1060,6 @@
     "modId": "melody",
     "version": "1.0.2"
   },
-  "memoryleakfix-forge-1.17+-1.1.5.jar": {
-    "jarName": "memoryleakfix-forge-1.17+-1.1.5.jar",
-    "modId": "memoryleakfix",
-    "version": "1.1.5"
-  },
   "midnightlib-forge-1.4.2.jar": {
     "jarName": "midnightlib-forge-1.4.2.jar",
     "modId": "midnightlib",
@@ -1148,10 +1143,10 @@
     "modId": "nightconfigfixes",
     "version": "8.0.0"
   },
-  "NoChatReports-FORGE-1.20.1-v2.2.2.jar": {
-    "jarName": "NoChatReports-FORGE-1.20.1-v2.2.2.jar",
+  "NoChatReports-FORGE-1.20.1-v2.2.3.jar": {
+    "jarName": "NoChatReports-FORGE-1.20.1-v2.2.3.jar",
     "modId": "nochatreports",
-    "version": "1.20.1-v2.2.2"
+    "version": "1.20.1-v2.2.3"
   },
   "NoChatRestrictions-Forge-MC1.20.1-v1.0.0.jar": {
     "jarName": "NoChatRestrictions-Forge-MC1.20.1-v1.0.0.jar",
@@ -1508,10 +1503,10 @@
     "modId": "suppsquared",
     "version": "1.20-1.1.26"
   },
-  "tacz-1.20.1-1.1.6-hotfix.jar": {
-    "jarName": "tacz-1.20.1-1.1.6-hotfix.jar",
+  "tacz-forge-1.20.1-1.2.0.jar": {
+    "jarName": "tacz-forge-1.20.1-1.2.0.jar",
     "modId": "tacz",
-    "version": "1.1.6-hotfix"
+    "version": "1.2.0"
   },
   "tastytiles-1.2.1-1.20.1.jar": {
     "jarName": "tastytiles-1.2.1-1.20.1.jar",
