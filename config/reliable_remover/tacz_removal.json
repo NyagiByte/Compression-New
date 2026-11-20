@@ -1,0 +1,9 @@
+[
+    {
+        "action": "remove",
+        "items": [
+            "tacz:ammo_storage",
+            "tacz:ammo_storage_gold"
+        ]
+    }
+]
