@@ -526,7 +526,7 @@ JEIEvents.hideItems(event => {
     //Immersive Aircraft   
     "@immersive_aircraft",
     //Tacz
-    '@tacz',
+    //'@tacz',
     //Item Filters
     'itemfilters:always_true',
     'itemfilters:always_false',
@@ -696,7 +696,5 @@ JEIEvents.hideItems(event => {
     'spelunkery:lapis_lazuli_shard',
     'spelunkery:diamond_shard',
     'spelunkery:emerald_shard'
-
-
   ])
 })
