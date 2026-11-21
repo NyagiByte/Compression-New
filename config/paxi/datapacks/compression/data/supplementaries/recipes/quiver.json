@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+      "B": {"item":"minecraft:bundle"},
+      "L": {"item":"minecraft:leather"},
+      "S": {"item":"nyagibits_bytes:sealed_pouch"}
+    },
+    "pattern": [
+      " L ",
+      "LSL",
+      " B "
+    ],
+    "result": {
+      "count": 1,
+      "item": "supplementaries:quiver"
+    }
+  }

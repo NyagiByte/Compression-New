@@ -12,4 +12,6 @@
 	"Enable Oversized Blueprint Crafting Recipes" = true
 	#Disable the automatically created recycling recipes for the arc furnace.
 	"Wipe Arc Furnace Recycling Recipes" = true
+	#Whether to forcibly turn off external heaters that aren't connected to anything. This is for a particulatly niche usecase, so it is disabled by default.
+	"Turn Off Idle External Heaters" = true
 

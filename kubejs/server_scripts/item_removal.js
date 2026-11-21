@@ -121,12 +121,7 @@ ServerEvents.recipes(e => {
         e.remove({output: 'botania:elementium_ingot'});
         e.remove({output: 'botania:pixie_dust'});
         e.remove({output: 'botania:dragonstone'});
-        e.remove({output: 'botania:quartz_dark'});
-        e.remove({output: 'botania:quartz_blaze'});
-        e.remove({output: 'botania:quartz_lavender'});
-        e.remove({output: 'botania:quartz_red'});
         e.remove({output: 'botania:quartz_elven'});
-        e.remove({output: 'botania:quartz_sunny'});
         e.remove({output: 'botania:tripwire'});
         e.remove({output: 'botania:elementium_helmet'});
         e.remove({output: 'botania:elementium_chestplate'});

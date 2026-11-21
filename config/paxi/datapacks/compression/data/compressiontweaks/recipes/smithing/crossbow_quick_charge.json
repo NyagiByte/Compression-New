@@ -1,0 +1,11 @@
+{
+    "type":"compressiontweaks:smithing_enchant",
+    "whitelist":{"item":"minecraft:crossbow"},
+    "addition":{"item":"create:hand_crank"},
+    "template":{"item":"create:gearbox"},
+    "enchantments":[
+        "minecraft:quick_charge",
+        "minecraft:quick_charge",
+        "minecraft:quick_charge"
+        ]
+}

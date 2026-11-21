@@ -1,0 +1,14 @@
+{
+    "type": "botania:mana_infusion",
+    "catalyst": {
+      "type": "block",
+      "block": "botania:alchemy_catalyst"
+    },
+    "input": {
+      "item": "botania:quartz_blaze"
+    },
+    "mana": 500,
+    "output": {
+      "item": "botania:quartz_dark"
+    }
+  }
