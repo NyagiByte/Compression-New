@@ -1,0 +1,43 @@
+{
+    "type": "alchemistry:dissolver",
+    "group": "alchemistry:dissolver",
+    "input": {
+      "count": 1,
+      "ingredient": {
+        "item": "nyagibits_bytes:digested_fuchsite"
+      }
+    },
+    "output": {
+      "groups": [
+        {
+          "probability": 80.0,
+          "results": [
+            {
+              "count": 8,
+              "item": "chemlib:silicon_dioxide"
+            }
+          ]
+        },
+        {
+          "probability": 10.0,
+          "results": [
+            {
+              "count": 4,
+              "item": "chemlib:chromium_oxide"
+            }
+          ]
+        },
+        {
+          "probability": 10.0,
+          "results": [
+            {
+              "count": 4,
+              "item": "chemlib:potassium_hydroxide"
+            }
+          ]
+        }
+      ],
+      "rolls": 4,
+      "weighted": false
+    }
+  }
