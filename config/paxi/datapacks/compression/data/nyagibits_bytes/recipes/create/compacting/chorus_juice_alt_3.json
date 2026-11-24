@@ -1,0 +1,26 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+      {
+        "item": "minecraft:chorus_fruit"
+      },
+      {
+        "tag": "forge:apples"
+      },
+      {
+        "tag": "forge:apples"
+      },
+      {
+        "item": "minecraft:glow_berries"
+      },
+      {
+        "item": "atmospheric:passion_fruit"
+      }
+    ],
+    "results": [
+      {
+        "amount": 1500,
+        "fluid": "nyagibits_bytes:chorus_juice_adulterated_fluid"
+      }
+    ]
+  }
