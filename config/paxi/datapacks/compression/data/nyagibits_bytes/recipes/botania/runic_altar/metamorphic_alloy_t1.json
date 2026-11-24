@@ -1,0 +1,40 @@
+{
+  "type": "botania:runic_altar",
+  "ingredients": [
+    {
+      "item": "create:andesite_alloy_block"
+    },
+    {
+      "item": "nyagibits_bytes:digested_fuchsite"
+    },
+    {
+      "item": "nyagibits_bytes:digested_talc"
+    },
+    {
+      "item": "nyagibits_bytes:digested_gneiss"
+    },
+    {
+      "item": "nyagibits_bytes:digested_mycelite"
+    },
+    {
+      "item": "nyagibits_bytes:digested_cataclasite"
+    },
+    {
+      "item": "nyagibits_bytes:digested_solite"
+    },
+    {
+      "item": "nyagibits_bytes:digested_lunite"
+    },
+    {
+      "item": "nyagibits_bytes:digested_talc_rosy"
+    }
+  ],
+  "mana": 1000,
+  "catalyst": {
+    "item": "nyagibits_bytes:livisite_alloy"
+  },
+  "output": {
+    "count": 8,
+    "item": "nyagibits_bytes:metamorphic_alloy"
+  }
+}
