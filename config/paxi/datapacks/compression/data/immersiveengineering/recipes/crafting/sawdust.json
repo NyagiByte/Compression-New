@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "mekanism:sawdust"
+        },
+        {
+            "item": "mekanism:sawdust"
+        },
+        {
+            "item": "mekanism:sawdust"
+        },
+        {
+            "item": "mekanism:sawdust"
+        }
+    ],
+    "result": {
+        "count": 64,
+        "item": "immersiveengineering:sawdust"
+    }
+  }
